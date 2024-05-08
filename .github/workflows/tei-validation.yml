@@ -1,0 +1,20 @@
+name: TEI Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate_tei:
+    runs-on: ubuntu-latest
+    name: Validate TEI documents against TEI_all schema
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Validate
+        uses: dracor-org/tei-validate-action@v1.2.0
+        with:
+          tei-version: '4.7.0'
+          tei-files: '*.xml'
