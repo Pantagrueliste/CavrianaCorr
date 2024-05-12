@@ -26,6 +26,8 @@
         <biblStruct>
           <monogr>
             <imprint>
+              <publisher>Clément Godbarge</publisher>
+              <date>2024</date>
             </imprint>
           </monogr>
         </biblStruct>
@@ -153,7 +155,7 @@
           non havendo potuto impedire la pace, cerca d'impedire l'essecutione di essa,
           in molte cose; onde si vede movimento grandissimo della fortuna,
           alzando et bassando, hor questi, hora quelli / Si ragiona di partirsi
-          tosto di qui per andar a <placeName ref="#Écouen">ecoan </placeName> <add place="above"><hi rend="superscript">&</hi></add> <placeName ref="#Chantilly">sciantilly</placeName>, luoghi del <persName ref="#Henri_Ier_de_Montmorency">maresciale
+          tosto di qui per andar a <placeName ref="#Écouen">ecoan </placeName> <add place="above"><hi rend="superscript">&amp;</hi></add> <placeName ref="#Chantilly">sciantilly</placeName>, luoghi del <persName ref="#Henri_Ier_de_Montmorency">maresciale
           di Mamoransi</persName>, dove vivrà <persName ref="#Gaspard_de_Coligny">l'Ammiraglio</persName>, a far riverenza al <persName ref="#Charles_IX_de_Valois">Re</persName>, per
           il parere di molti savij, et sè il Re <choice><abbr>nó</abbr><expan>non</expan></choice> vi andasse, <choice><abbr>nó</abbr><expan>non</expan></choice> verrà
           in corte, dio sa quando. Nel resto, si pensa alle nozze, alle danze
