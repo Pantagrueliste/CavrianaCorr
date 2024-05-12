@@ -13,28 +13,33 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+      
       - name: Set up JDK 11
         uses: actions/setup-java@v3
         with:
           java-version: '11'
           distribution: 'temurin'
-
+      
       - name: Download and Extract Jing
         run: |
           wget https://github.com/relaxng/jing-trang/releases/download/V20220510/jing-20220510.zip
-          unzip jing-20220510.zip -d jing
-          ls -R ./jing  # This is just to confirm the directory structure in the runner environment
-
+          unzip jing-20220510.zip
+          mkdir -p jing/bin
+          cp jing-20220510/bin/jing.jar jing/bin/
+          ls -R ./jing
+      
       - name: Download TEI Schema (tei_all.rng)
         run: |
           mkdir -p schemas
           wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
-
+      
       - name: Validate TEI Files
         run: |
-          find . -name "*.xml" -exec java -jar ./jing/jing-20220510/bin/jing.jar schemas/tei_all.rng {} +
+          if find . -name "*.xml" | grep -q .; then
+            find . -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+          else
+            echo "No XML files found in the repository"
+          fi
