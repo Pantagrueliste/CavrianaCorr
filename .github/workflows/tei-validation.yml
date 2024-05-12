@@ -28,6 +28,7 @@ jobs:
         run: |
           wget https://github.com/relaxng/jing-trang/releases/download/V20220510/jing-20220510.zip
           unzip jing-20220510.zip -d jing
+          ls -R ./jing  # This is just to confirm the directory structure in the runner environment
 
       - name: Download TEI Schema (tei_all.rng)
         run: |
@@ -36,4 +37,4 @@ jobs:
 
       - name: Validate TEI Files
         run: |
-          find . -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+          find . -name "*.xml" -exec java -jar ./jing/jing-20220510/bin/jing.jar schemas/tei_all.rng {} +
