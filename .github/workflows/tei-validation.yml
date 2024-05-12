@@ -38,8 +38,8 @@ jobs:
       
       - name: Validate TEI Files
         run: |
-          if find . -name "*.xml" | grep -q .; then
-            find . -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+          if find . -name "*.xml" -not -path "./jing-20220510/sample/datatype/*" | grep -q .; then
+            find . -name "*.xml" -not -path "./jing-20220510/sample/datatype/*" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
           else
             echo "No XML files found in the repository"
           fi
