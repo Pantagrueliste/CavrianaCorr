@@ -27,7 +27,7 @@ jobs:
       - name: Download TEI Schema (tei_all.rng)
         run: |
           mkdir schemas
-          wget -O schemas/tei_all.rng https://raw.githubusercontent.com/TEIC/TEI/master/P5/Exemplars/tei_all.rng
+          wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/
 
       - name: Install Jing
         run: |
