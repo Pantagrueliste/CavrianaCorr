@@ -28,7 +28,6 @@ jobs:
         run: |
           wget https://github.com/relaxng/jing-trang/releases/download/V20220510/jing-20220510.zip
           unzip jing-20220510.zip -d jing
-          echo "alias jing='java -jar $(pwd)/jing/bin/jing.jar'" >> $GITHUB_ENV
 
       - name: Download TEI Schema (tei_all.rng)
         run: |
@@ -37,4 +36,4 @@ jobs:
 
       - name: Validate TEI Files
         run: |
-          find . -name "*.xml" -exec sh -c 'jing schemas/tei_all.rng "$@"' _ {} +
+          find . -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
