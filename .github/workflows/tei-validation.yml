@@ -32,8 +32,8 @@ jobs:
 
       - name: Download TEI Schema (tei_all.rng)
         run: |
-          mkdir schemas
-          wget -O schemas/tei_all.rng https://path/to/tei_all.rng # Update this URL
+          mkdir -p schemas
+          wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
 
       - name: Validate TEI Files
         run: |
