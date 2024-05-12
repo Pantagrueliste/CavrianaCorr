@@ -15,6 +15,7 @@
         <edition>Digital Edition of Filippo Cavriana's Secret Correspondence</edition>
       </editionStmt>
       <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
         <pubPlace>St Andrews, Scotland, UK</pubPlace>
         <date>2024</date>
         <availability>
@@ -24,7 +25,8 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-            <!-- Added missing monogr element -->
+            <imprint>
+            </imprint>
           </monogr>
         </biblStruct>
       </sourceDesc>
@@ -33,19 +35,18 @@
       <charDecl>
         <glyph xml:id="slashSymbol">
           <desc>slash symbol used to indicate a significant division in the text.</desc>
-          <glyphName>SlashSymbol</glyphName>
         </glyph>
       </charDecl>
     </encodingDesc>
     <profileDesc>
       <correspDesc>
-        <correspAction type="sent" when="1570-08-17">
+        <correspAction type="sent">
           <persName ref="#Vincenzo_da_Castello">Vincenzo da Castello</persName>
           <placeName ref="#Paris">Parigi</placeName>
           <date when="1570-08-17">Il XVII di Agosto del 1570</date>
         </correspAction>
         <correspContext>
-          <p><!-- Added missing p element --></p>
+          <p>Vincenzo da Castello is a pseudonym used by Filippo Cavriana in his secret correspondence</p>
         </correspContext>
       </correspDesc>
     </profileDesc>
@@ -140,65 +141,64 @@
           a, che cosi è convenuto con gli deputati; et cassa numero infinito de
           gente di piedi, et di cavallo rittirando a certo numero, le compagnie del
           li huomini d'arme, li quali non <choice><abbr>havreńo</abbr><expan>havrenno</expan></choice> guarniggione, se non in luoghi
-diputati a confini, ne questo tutte, ma <hi rend="superscript"><choice><abbr>q̃lle</abbr><expan>quelle</expan></choice></hi> che <choice><abbr>hān</abbr><expan>hanno</expan></choice> forastieri molti; <persName ref="#Jacques_de_Savoie_Nemours">Nemours</persName>
-se ne va in savoia a casa sua, <persName ref="#Louis_Gonzague_Nevers">Nevers</persName> vuol rittirarsi <unclear>stroppiato</unclear>, et in
-fermo molto, il che si farà etiam dio da molti altri <add place="above"><hi rend="superscript">Prencipi et Signori</hi></add> onde restarà il cam
-po libero a <persName ref="#Henri_Ier_de_Montmorency">Momoransj</persName>, di confermare la sua potentia, la quale à imita
-tione del padre va crescendo molto: tanto piu, che <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa giovine</persName>, col
-Marchese suo <choice><abbr>fóllo</abbr><expan>figliolo</expan></choice> senza il coniglio del zio loro, non potrà resistere
-alle mosse di colui, il quale è amato dal Re, et studia con la solleci
-tudine di trovarsi sempre che puo con <choice><abbr>Monsig<hi rend="superscript">re</hi></abbr><expan>Monsignore</expan></choice>, di farsi amare etiamdio
-da questi onde <persName ref="#Charles_de_Lorraine">Loreno</persName> brava et <unclear>ferme</unclear>. il quale (per quanto si ragiona)
-non havendo potuto impedire la pace, cerca d'impedire l'essecutione di essa,
-in molte cose; onde si vede movimento grandissimo della fortuna,
-alzando et bassando, hor questi, hora quelli / Si ragiona di partirsi
-tosto di qui per andar a <placeName ref="#Écouen">ecoan </placeName> <add place="above"><hi rend="superscript">&</hi></add> <placeName ref="#Chantilly">sciantilly</placeName>, luoghi del <persName ref="#Henri_Ier_de_Montmorency">maresciale
-di Mamoransi</persName>, dove vivrà <persName ref="#Gaspard_de_Coligny">l'Ammiraglio</persName>, a far riverenza al <persName ref="#Charles_IX_de_Valois">Re</persName>, per
-il parere di molti savij, et sè il Re <choice><abbr>nó</abbr><expan>non</expan></choice> vi andasse, <choice><abbr>nó</abbr><expan>non</expan></choice> verrà
-in corte, dio sa quando. Nel resto, si pensa alle nozze, alle danze
-et alli tornei ; et si casano capitani senza fine, cotale e lo stato
-delle cose di qua / La parte di <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa</persName> pare abbattuta, et abbattuta
-in modo che non si puo dir piu. <persName ref="#Henri_Ier_de_Montmorency">Mamoransi</persName> trionfa, et si fa amare
-da ciescuno, gratificandosi et obligandosi ogni persona, anchorche
-minima, parendogli che poi che la fortuna ha comminciato a ributtare
-<persName ref="#Henri_I_de_Lorraine_Guise">Ghisa</persName>, con questa  pace fattagli sul naso, non gli resti altro da fare
-che confermarsi in auttorità <choice><abbr>có</abbr><expan>con</expan></choice> l'amicitia di molti / Monsignore
-ira un poco indisposto, et mi pare <term type="medicine">melancholico</term> alquanto, ma attende
-però alli negotij, con molto giudicio; è, l'idolo della <persName ref="#Caterina_de_Medici">Reina</persName> et il suo
-</p>
-<pb n="4" facs="#2v"/>
-<p>
-
-Achille, nel quale si vede che ella si compiace infinitamente. Gli hugonotti
-poi fanno qui, di molti discorsi, ma difficili a riuscire ; stimo che
-con questa longhezza, haverò offeso gli occhi, et le orecchie di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ta
-to piu, che senza ornamento scrivo: perdonimi che questo è, il sugo
-delle cose / L'altre minutie / et di poco rilievo. Lascierò che se scri
-to lì scrivo a suoi, et miei <choice><abbr>Si<hi rend="superscript">ri</hi></abbr><expan>Signori</expan></choice> a quali son servitore di cuore, et
-operare col suo favore / che io esca una volta dell'espettatione del
-habito, il quale se non sarà dato a persona di molto valore, quanto
-alli minuti, è però meritevole per il desiderio che ha di movere in
-servitio di loro <choice><abbr>Alt.</abbr><expan>Altezze</expan></choice> et di quella santa religione. La quale da me
-mai riceverà dishonore. et di ciò ne la prego et <choice><abbr>supp<hi rend="superscript">co</hi></abbr><expan>supplico</expan></choice> doppo
-haverli bacciato le mani di vivo affetto d'animo, espettando ris
-posta, se haverà ricevuto la mia longa <choice><abbr>lrà</abbr><expan>lettera</expan></choice> della pace mandatale
-dal <unclear>G</unclear> <choice><abbr>Ambascia<hi rend="superscript">re</hi></abbr><expan>Ambasciatore</expan></choice><persName ref="#Giovanni_Maria_Petrucci">Petruzzi</persName> / se le cose del matrimonio della fi
-<lb/><note place="margin" type="symbol">♂</note>
-glia di sua <choice><abbr>M</abbr><expan>Maestà</expan></choice> cesarea, col <persName ref="#Charles_IX_de_Valois">Re</persName>, non fossero cosi <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>come sono,
-o non se gli tenesee la mano della <persName ref="#Caterina_de_Medici">Reina</persName> per fornirle tosto, non
-mancheranno alcuni, che disturberieno il parentado, offerendole altre
-amicitie et parentele <add place="above"><hi rend="superscript">pericolose</hi></add>. Il Re si fa leggere ogni sera le histo
-rie francese. di Re passati, due hore innanzi che si ponga a dormire
-et discosse spesso sopra di fatti loro.
-</p>
-<closer>
-<dateline>Di <placeName ref="#Paris">Parigi</placeName> <date>il XVIJ di Agosto del 70</date></dateline>
-<salute rend="indent">Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill<hi rend="superscript">re</hi></abbr><expan>Illustre</expan></choice></salute>
-<salute rend="indent">Servitor di cuore et <choice><abbr>perpetuamēte</abbr><expan>perpetuamente</expan></choice></salute>
-<salute rend="indent"><choice><abbr>affett<hi rend="superscript">mo</hi></abbr><expan>Affettionatissimo</expan></choice></salute>
-<signed><persName>Vincenzo da Castello</persName></signed>
-</closer>
-</div>
-</body>
-</text>
+          diputati a confini, ne questo tutte, ma <hi rend="superscript"><choice><abbr>q̃lle</abbr><expan>quelle</expan></choice></hi> che <choice><abbr>hān</abbr><expan>hanno</expan></choice> forastieri molti; <persName ref="#Jacques_de_Savoie_Nemours">Nemours</persName>
+          se ne va in savoia a casa sua, <persName ref="#Louis_Gonzague_Nevers">Nevers</persName> vuol rittirarsi <unclear>stroppiato</unclear>, et in
+          fermo molto, il che si farà etiam dio da molti altri <add place="above"><hi rend="superscript">Prencipi et Signori</hi></add> onde restarà il cam
+          po libero a <persName ref="#Henri_Ier_de_Montmorency">Momoransj</persName>, di confermare la sua potentia, la quale à imita
+          tione del padre va crescendo molto: tanto piu, che <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa giovine</persName>, col
+          Marchese suo <choice><abbr>fóllo</abbr><expan>figliolo</expan></choice> senza il coniglio del zio loro, non potrà resistere
+          alle mosse di colui, il quale è amato dal Re, et studia con la solleci
+          tudine di trovarsi sempre che puo con <choice><abbr>Monsig<hi rend="superscript">re</hi></abbr><expan>Monsignore</expan></choice>, di farsi amare etiamdio
+          da questi onde <persName ref="#Charles_de_Lorraine">Loreno</persName> brava et <unclear>ferme</unclear>. il quale (per quanto si ragiona)
+          non havendo potuto impedire la pace, cerca d'impedire l'essecutione di essa,
+          in molte cose; onde si vede movimento grandissimo della fortuna,
+          alzando et bassando, hor questi, hora quelli / Si ragiona di partirsi
+          tosto di qui per andar a <placeName ref="#Écouen">ecoan </placeName> <add place="above"><hi rend="superscript">&</hi></add> <placeName ref="#Chantilly">sciantilly</placeName>, luoghi del <persName ref="#Henri_Ier_de_Montmorency">maresciale
+          di Mamoransi</persName>, dove vivrà <persName ref="#Gaspard_de_Coligny">l'Ammiraglio</persName>, a far riverenza al <persName ref="#Charles_IX_de_Valois">Re</persName>, per
+          il parere di molti savij, et sè il Re <choice><abbr>nó</abbr><expan>non</expan></choice> vi andasse, <choice><abbr>nó</abbr><expan>non</expan></choice> verrà
+          in corte, dio sa quando. Nel resto, si pensa alle nozze, alle danze
+          et alli tornei ; et si casano capitani senza fine, cotale e lo stato
+          delle cose di qua / La parte di <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa</persName> pare abbattuta, et abbattuta
+          in modo che non si puo dir piu. <persName ref="#Henri_Ier_de_Montmorency">Mamoransi</persName> trionfa, et si fa amare
+          da ciescuno, gratificandosi et obligandosi ogni persona, anchorche
+          minima, parendogli che poi che la fortuna ha comminciato a ributtare
+          <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa</persName>, con questa  pace fattagli sul naso, non gli resti altro da fare
+          che confermarsi in auttorità <choice><abbr>có</abbr><expan>con</expan></choice> l'amicitia di molti / Monsignore
+          ira un poco indisposto, et mi pare <term type="medicine">melancholico</term> alquanto, ma attende
+          però alli negotij, con molto giudicio; è, l'idolo della <persName ref="#Caterina_de_Medici">Reina</persName> et il suo
+          </p>
+          <pb n="4" facs="#2v"/>
+          <p>
+          Achille, nel quale si vede che ella si compiace infinitamente. Gli hugonotti
+          poi fanno qui, di molti discorsi, ma difficili a riuscire ; stimo che
+          con questa longhezza, haverò offeso gli occhi, et le orecchie di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ta
+          to piu, che senza ornamento scrivo: perdonimi che questo è, il sugo
+          delle cose / L'altre minutie / et di poco rilievo. Lascierò che se scri
+          to lì scrivo a suoi, et miei <choice><abbr>Si<hi rend="superscript">ri</hi></abbr><expan>Signori</expan></choice> a quali son servitore di cuore, et
+          operare col suo favore / che io esca una volta dell'espettatione del
+          habito, il quale se non sarà dato a persona di molto valore, quanto
+          alli minuti, è però meritevole per il desiderio che ha di movere in
+          servitio di loro <choice><abbr>Alt.</abbr><expan>Altezze</expan></choice> et di quella santa religione. La quale da me
+          mai riceverà dishonore. et di ciò ne la prego et <choice><abbr>supp<hi rend="superscript">co</hi></abbr><expan>supplico</expan></choice> doppo
+          haverli bacciato le mani di vivo affetto d'animo, espettando ris
+          posta, se haverà ricevuto la mia longa <choice><abbr>lrà</abbr><expan>lettera</expan></choice> della pace mandatale
+          dal <unclear>G</unclear> <choice><abbr>Ambascia<hi rend="superscript">re</hi></abbr><expan>Ambasciatore</expan></choice><persName ref="#Giovanni_Maria_Petrucci">Petruzzi</persName> / se le cose del matrimonio della fi
+          <lb/><note place="margin" type="symbol">♂</note>
+          glia di sua <choice><abbr>M</abbr><expan>Maestà</expan></choice> cesarea, col <persName ref="#Charles_IX_de_Valois">Re</persName>, non fossero cosi <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>come sono,
+          o non se gli tenesee la mano della <persName ref="#Caterina_de_Medici">Reina</persName> per fornirle tosto, non
+          mancheranno alcuni, che disturberieno il parentado, offerendole altre
+          amicitie et parentele <add place="above"><hi rend="superscript">pericolose</hi></add>. Il Re si fa leggere ogni sera le histo
+          rie francese. di Re passati, due hore innanzi che si ponga a dormire
+          et discosse spesso sopra di fatti loro.
+          </p>
+        <closer>
+          <dateline>Di <placeName ref="#Paris">Parigi</placeName> <date>il XVIJ di Agosto del 70</date></dateline>
+            <salute rend="indent">Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill<hi rend="superscript">re</hi></abbr><expan>Illustre</expan></choice></salute>
+            <salute rend="indent">Servitor di cuore et <choice><abbr>perpetuamēte</abbr><expan>perpetuamente</expan></choice></salute>
+            <salute rend="indent"><choice><abbr>affett<hi rend="superscript">mo</hi></abbr><expan>Affettionatissimo</expan></choice></salute>
+            <signed><persName>Vincenzo da Castello</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>
