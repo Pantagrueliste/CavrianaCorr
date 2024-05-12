@@ -24,15 +24,16 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
 
+      - name: Download and Extract Jing
+        run: |
+          wget https://github.com/relaxng/jing-trang/releases/download/20220510/jing-20220510.zip
+          unzip jing-20220510.zip -d jing
+          echo "alias jing='java -jar $(pwd)/jing/bin/jing.jar'" >> $GITHUB_ENV
+
       - name: Download TEI Schema (tei_all.rng)
         run: |
           mkdir schemas
-          wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/
-
-      - name: Install Jing
-        run: |
-          wget https://github.com/relaxng/jing-trang/releases/download/V2022/jing-2022.jar
-          echo "alias jing='java -jar $(pwd)/jing-2022.jar'" >> $GITHUB_ENV
+          wget -O schemas/tei_all.rng https://path/to/tei_all.rng # Update this URL
 
       - name: Validate TEI Files
         run: |
