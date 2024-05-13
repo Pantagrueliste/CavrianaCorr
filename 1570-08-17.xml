@@ -198,7 +198,7 @@
             <salute rend="indent">Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill<hi rend="superscript">re</hi></abbr><expan>Illustre</expan></choice></salute><lb/>
             <salute rend="indent">Servitor di cuore et <choice><abbr>perpetuamēte</abbr><expan>perpetuamente</expan></choice></salute><lb/>
             <salute rend="indent"><choice><abbr>affett<hi rend="superscript">mo</hi></abbr><expan>Affettionatissimo</expan></choice></salute><lb/>
-            <signed><persName>Vincenzo da Castello</persName></signed><lb/>
+            <signed><persName ref="Filippo Cavriana">Vincenzo da Castello</persName></signed><lb/>
         </closer>
       </div>
     </body>
