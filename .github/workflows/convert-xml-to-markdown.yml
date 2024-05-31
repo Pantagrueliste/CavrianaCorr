@@ -1,0 +1,46 @@
+name: Convert XML to Markdown
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3.5.0
+      
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3.5.0
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+      
+      - name: Checkout DocusaurusWebsite repository
+        uses: actions/checkout@v3.5.0
+        with:
+          repository: Pantagrueliste/CavrianaCorr_FrontEnd
+          path: CavrianaCorr_FrontEnd
+          token: ${{ secrets.DOCUSAURUS_REPO_TOKEN }}
+      
+      - name: Convert XML to Markdown
+        run: |
+          for file in *.xml; do
+            filename=$(basename -- "$file")
+            output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
+            java -jar /usr/share/java/saxon.jar -s:"$file" -xsl:transform.xsl -o:"$output_file"
+          done
+      
+      - name: Commit and push changes
+        run: |
+          cd CavrianaCorr_FrontEnd
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs
+          git commit -m "Convert XML to Markdown" || echo "No changes to commit"
+          git push origin main
