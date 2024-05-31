@@ -27,6 +27,13 @@ jobs:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
           path: CavrianaCorr_FrontEnd
           token: ${{ secrets.DOCUSAURUS_REPO_TOKEN }}
+          ssh-strict: true
+          persist-credentials: true
+          clean: true
+          fetch-depth: 1
+          lfs: false
+          submodules: false
+          set-safe-directory: true
       
       - name: Convert XML to Markdown
         run: |
