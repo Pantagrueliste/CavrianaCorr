@@ -28,12 +28,16 @@ jobs:
           path: CavrianaCorr_FrontEnd
           token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
       
+      - name: Download Saxon
+        run: |
+          wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
+      
       - name: Convert XML to Markdown
         run: |
           for file in *.xml; do
             filename=$(basename -- "$file")
             output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
-            java -jar /usr/share/java/saxon.jar -s:"$file" -xsl:transform.xsl -o:"$output_file"
+            java -jar saxon.jar -s:"$file" -xsl:transform.xsl -o:"$output_file"
           done
       
       - name: Commit and push changes
