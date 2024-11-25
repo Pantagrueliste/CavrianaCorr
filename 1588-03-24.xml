@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Filippo Cavriana to Unknown Recipient, 1 April 1588</title>
+                <author>Filippo Cavriana</author>
+                <editor>Clément Godbarge</editor>
+                <respStmt>
+                    <resp>Lecturer in Digital Humanities</resp>
+                    <name>University of St Andrews</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Clément Godbarge</publisher>
+                <pubPlace>St Andrews, Scotland, UK</pubPlace>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Florence</settlement>
+                        <repository>Archivio di Stato di Firenze</repository>
+                        <collection>Mediceo del Principato</collection>
+                        <idno>485r</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="485r">fol. 485r</locus>
+                            <title>Secret letter from Filippo Cavriana writing under pseudonym</title>
+                            <author>Filippo Cavriana</author>
+                            <textLang mainLang="it">Italian</textLang>
+                            <note type="summary">A secret political report discussing the assembly at Soissons, military movements, and diplomatic tensions between various parties including the King of France, the Duke of Épernon, and the Queen of England.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <layoutDesc>
+                                <p>Single column, written on one side of the folio</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana writing under pseudonym "for.te di Covo"</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listPerson>
+                    <person xml:id="pers-cavriana-f">
+                        <persName>
+                            <forename>Filippo</forename>
+                            <surname>Cavriana</surname>
+                        </persName>
+                        <occupation>Physician and diplomat</occupation>
+                        <note>Writing under the pseudonym "for.te di Covo"</note>
+                    </person>
+                    <person xml:id="pers-henry-h">
+                        <persName>
+                            <forename>Henri</forename>
+                            <surname>Valois</surname>
+                            <roleName type="nobility">King of France</roleName>
+                        </persName>
+                        <note>Henri III of France</note>
+                    </person>
+                    <person xml:id="pers-bourbon-h">
+                        <persName>
+                            <forename>Henri</forename>
+                            <surname>Bourbon</surname>
+                            <roleName type="nobility">King of Navarre</roleName>
+                        </persName>
+                        <note>Future Henri IV of France</note>
+                    </person>
+                    <person xml:id="pers-nogaret-jl">
+                        <persName>
+                            <forename>Jean-Louis</forename>
+                            <surname>Nogaret de La Valette</surname>
+                            <roleName type="nobility">Duke of Épernon</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="pers-lorraine-c">
+                        <persName>
+                            <forename>Charles</forename>
+                            <surname>Lorraine</surname>
+                            <roleName type="nobility">Duke of Aumale</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="pers-tudor-e">
+                        <persName>
+                            <forename>Elizabeth</forename>
+                            <surname>Tudor</surname>
+                            <roleName type="nobility">Queen of England</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="pers-austria-j">
+                        <persName>
+                            <forename>Juan</forename>
+                            <surname>Austria</surname>
+                            <roleName type="nobility">Don Juan de Austria</roleName>
+                        </persName>
+                        <note>Natural son of Charles V</note>
+                    </person>
+                    <person xml:id="pers-bellievre-p">
+                        <persName>
+                            <forename>Pomponne</forename>
+                            <surname>Bellièvre</surname>
+                        </persName>
+                        <occupation>Royal councillor and diplomat</occupation>
+                    </person>
+                    <person xml:id="pers-loignac-j">
+                        <persName>
+                            <forename>Jacques</forename>
+                            <surname>Loignac</surname>
+                        </persName>
+                        <occupation>Master of the King's Wardrobe</occupation>
+                    </person>
+                    <person xml:id="pers-termes-j">
+                        <persName>
+                            <forename>Jean</forename>
+                            <surname>Termes</surname>
+                        </persName>
+                        <occupation>Master of the King's Wardrobe</occupation>
+                    </person>
+                    <person xml:id="pers-medici-f">
+                        <persName>
+                            <forename>Ferdinando</forename>
+                            <surname>Medici</surname>
+                            <roleName type="nobility">Grand Duke of Tuscany</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="pers-lorraine-ch">
+                        <persName>
+                            <forename>Christine</forename>
+                            <surname>Lorraine</surname>
+                            <roleName type="nobility">Princess of Lorraine</roleName>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="place-paris">
+                        <placeName>Paris</placeName>
+                        <location>
+                            <geo>48.8566 2.3522</geo>
+                        </location>
+                    </place>
+                    <place xml:id="place-soissons">
+                        <placeName>Soissons</placeName>
+                        <location>
+                            <geo>49.3850 3.3272</geo>
+                        </location>
+                    </place>
+                    <place xml:id="place-normandie">
+                        <placeName>Normandie</placeName>
+                    </place>
+                    <place xml:id="place-picardie">
+                        <placeName>Picardie</placeName>
+                    </place>
+                    <place xml:id="place-anjou">
+                        <placeName>Anjou</placeName>
+                    </place>
+                    <place xml:id="place-poitou">
+                        <placeName>Poitou</placeName>
+                    </place>
+                    <place xml:id="place-spain">
+                        <placeName>Spain</placeName>
+                        <note>Kingdom of Spain</note>
+                    </place>
+        </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Named entities are marked up consistently throughout the text, including personal names, place names, and dates. Abbreviations are expanded using the choice element.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#Filippo_Cavriana">Filippo Cavriana</persName>
+                    <settlement>Paris</settlement>
+                    <date when="1588-04-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <note>Unknown recipient</note>
+                    <settlement>Florence</settlement>
+                </correspAction>
+                <correspContext>
+                    <p>This letter is part of Cavriana's secret correspondence, written under the pseudonym "for.te di Covo"</p>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="485r"/>
+                <opener>
+                    <salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> s.</salute>
+                </opener>
+                <p>
+                    <lb/>Non c'è cosa di momento, per che la Dieta ò Assemblea di
+                    <lb/><placeName ref="#place-soissons">soissone</placeName> non, è, anchora fornita, della quale <persName ref="#pers-bellievre-p">Bellievre</persName>
+                    <lb/>non è tanpoco ritornato. Lui, si crede che qualche gran
+                    <lb/>male si fabrichi, e che si attenda scambievolmente
+                    <lb/>alli inganni. Coloro non vogliono deporre l'armi a
+                    <lb/>modo alcuno, e Il <persName ref="#pers-henry-h">re</persName> non si puo asicurare della loro
+                    <lb/>fede, mentre terranno l'armi in mano. Di modo che il tempo
+                    <lb/>passa tra sospetti et diffidanza, espettandosi di quà et di
+                    <lb/>la la roina et la morte di capi. Per tutto sono
+                    <lb/>genti in arme, senza dicchiararsi per chi, et i Ligarij vo<lb break="no"/>
+                    gliono la <placeName ref="#place-picardie">Picardia</placeName>, la <placeName ref="#place-normandie">Normandia</placeName>, et l'<placeName ref="#place-anjou">Anioù</placeName>, Vorranno
+                    <lb/>finalmente la corona che l'haveranno, se si lasciae loro
+                    <lb/>fare; sendo sul buon camino. Il <persName ref="#pers-nogaret-jl">D.<hi rend="superscript">a</hi> d'espernone</persName> va
+                    <lb/>in <placeName ref="#place-normandie">Normandia</placeName> al penesso di quella provincia; con <num value="8000">8 m</num>
+                    <lb/>fanti, e <num value="800">800</num> lancie, e quello che piu importe con huo<lb break="no"/>
+                    mini togati, spiritosi, et accorti, e buona somma de
+                    <lb/>danari, per guadagnare i presidij et i capi d'essi, col
+                    <lb/>rimanente di coloro, i quali faranno il difficile; et
+                    <lb/>il fastidioso; Il <persName ref="#pers-bourbon-h">re di Navarra</persName>, è, in campagna, scorre
+                    <lb/>il <placeName ref="#place-poitou">poitou</placeName>, et tosto vi si mandranno al'incontro forze
+                    <lb/>per reprimerlo, ma non possono esere molto forti e
+                    <lb/>grandi, perch'il <persName ref="#pers-henry-h">re</persName> è constretto di haver l'occhio alli
+                    <lb/>progressi del <persName ref="#pers-lorraine-c">D. d'Aumalla</persName>, il quale <choice><abbr>nō</abbr><expan>non</expan></choice> ha temuto
+                    <lb/>scomunichi, o, minaccie regie, et oltre ciò il nerbo de
+                    <lb/>le nostre genti va col <persName ref="#pers-nogaret-jl">D.<hi rend="superscript">a</hi> d'espernone</persName>.</p>
+                <p>
+                    <lb/>Si giudica che
+                    <lb/>si farà une sollevatione universale, et che à questa
+                    <lb/>volta siamo per vedere la nostra ultima roina, stando
+                    <lb/>le cose, ne termini, che sono, ne si trovando, o, non
+                    <lb/>ci volendo trovar rimedio alcuno. Dio ci aiuti. la <persName ref="#pers-tudor-e">Reina 
+                    <lb/>d'Inghiltera</persName> tratta d'accordo con <placeName ref="#place-spain">Spagna</placeName>, Ma la non
+                    <lb/>terminera cosa alcuna, per che le massime he proposto
+                    <lb/>le quali non seirano accettate dal contiglio Regio: quelle
+                    <lb/>sono: Libertà di conscienze; governo per gli stati, e
+                    <lb/>licentiare le forze straniere, massime li presidij, che
+                    <lb/>serano cassi e mandati fuori de paesi bassi. di sono
+                    <lb/>quasi le istesse conditioni, con le quali, <persName ref="#pers-austria-j">Don Giovani</persName>
+                    <lb/>pacificò li fiamenghi: Ella sa bene, che le conditioni non sono
+                    <lb/>alccettabili per gli spagnivoli, Ma facendo sembiante di
+                    <lb/>voler pace, induce i suoi sudditi in speranza di quiete,
+                    <lb/>cava danari, per mantenersi, e da tempo al tempo.
+                    <lb/>Sic fraus deluditur arte.</p>
+                <p>
+                    <lb/>Fin qui non si vede alcun
+                    <lb/>effetto delle numerosa e quasi favolosa armata di <placeName ref="#place-spain">spagna</placeName>
+                    <lb/>Dio sa, se l'ha buona intentione. Essettiamo donque questa
+                    <lb/>causa del nostro male. Doi favoriti del <persName ref="#pers-henry-h">re</persName>, crescono da
+                    <lb/>diverso, et sono avanzati tanto e promossi, che sono mastri
+                    <lb/>della sua guardaroba sua, <persName ref="#pers-loignac-j">Loignac</persName>, e <persName ref="#pers-termes-j">Termes</persName> guasconi, di 25
+                    <lb/>anni ciascuno, i quali si arricchirano tosto, anchorche
+                    <lb/>il nostro fonte sia come sicco, et eshausto. Tutti i Fran<lb break="no"/>
+                    cesi invitano il <persName ref="#pers-medici-f">gran Duca</persName> alla <persName ref="#pers-lorraine-ch">principessa di Loreno</persName>, la
+                    <lb/>bramano, e desiderano sopra modo, Io non oso dire quello
+                    <lb/>che me ne creda, Ma ho bene, ch'ella rarissima e no<lb break="no"/>
+                    bilissima signora. A V.S. bacio le mani.</p>
+                <closer>
+                    <dateline><placeName ref="#place-paris">Parigi</placeName> <date when="1588-04-01">il primo di Aprile del 1588</date></dateline>
+                    <lb/><salute>De V.S.</salute>
+                    <lb/><signed><persName ref="#pers-cavriana-f">for.<hi rend="superscript">te</hi> di Covo</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

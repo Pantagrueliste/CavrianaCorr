@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Digital Edition of Filippo Cavriana's Secret Correspondence</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 17 August 1570</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -11,9 +11,6 @@
           <name>University of St Andrews</name>
         </respStmt>
       </titleStmt>
-      <editionStmt>
-        <edition>Digital Edition of Filippo Cavriana's Secret Correspondence</edition>
-      </editionStmt>
       <publicationStmt>
         <publisher>Clément Godbarge</publisher>
         <pubPlace>St Andrews, Scotland, UK</pubPlace>
@@ -23,182 +20,161 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <biblStruct>
-          <monogr>
-            <imprint>
-              <publisher>Clément Godbarge</publisher>
-              <date>2024</date>
-            </imprint>
-          </monogr>
-        </biblStruct>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>Filza TBD</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>TBD</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">A detailed report on the Peace of Saint-Germain-en-Laye and its implications for French politics.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios, with marginal notes</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana (as Vincenzo da Castello)</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+        <listPlace>
+          <place xml:id="place-paris">
+            <placeName>Parigi</placeName>
+            <location><geo>48.8566 2.3522</geo></location>
+          </place>
+          <place xml:id="place-saint-germain">
+            <placeName>San Girmano</placeName>
+            <location><geo>48.8989 2.0939</geo></location>
+          </place>
+          <place xml:id="place-la-charite">
+            <placeName>La Charité</placeName>
+            <location><geo>47.1778 3.0147</geo></location>
+          </place>
+          <place xml:id="place-rochelle">
+            <placeName>La Rochelle</placeName>
+            <location><geo>46.1603 -1.1511</geo></location>
+          </place>
+          <place xml:id="place-montauban">
+            <placeName>Montauban</placeName>
+            <location><geo>44.0167 1.3500</geo></location>
+          </place>
+          <place xml:id="place-cognac">
+            <placeName>Cognac</placeName>
+            <location><geo>45.6950 -0.3272</geo></location>
+          </place>
+          <place xml:id="place-ecouen">
+            <placeName>Écouen</placeName>
+            <location><geo>49.0189 2.3778</geo></location>
+          </place>
+          <place xml:id="place-chantilly">
+            <placeName>Chantilly</placeName>
+            <location><geo>49.1947 2.4856</geo></location>
+          </place>
+        </listPlace>
+        <listPerson>
+          <person xml:id="pers-cavriana">
+            <persName>Filippo Cavriana</persName>
+            <persName type="alias">Vincenzo da Castello</persName>
+            <occupation>Diplomat and physician</occupation>
+          </person>
+          <person xml:id="pers-concino">
+            <persName>Bartolomeo Concino</persName>
+            <occupation>First Secretary of Cosimo I de' Medici</occupation>
+          </person>
+          <person xml:id="pers-charles-ix">
+            <persName>Charles IX de Valois</persName>
+            <roleName>King of France</roleName>
+          </person>
+          <person xml:id="pers-catherine">
+            <persName>Caterina de' Medici</persName>
+            <roleName>Queen Mother of France</roleName>
+          </person>
+          <person xml:id="pers-coligny">
+            <persName>Gaspard de Coligny</persName>
+            <roleName>Admiral of France</roleName>
+          </person>
+          <person xml:id="pers-lorraine">
+            <persName>Charles de Lorraine</persName>
+            <roleName>Cardinal</roleName>
+          </person>
+          <person xml:id="pers-montmorency">
+            <persName>Henri I de Montmorency</persName>
+            <roleName>Marshal of France</roleName>
+          </person>
+          <person xml:id="pers-hopital">
+            <persName>Michel de l'Hopital</persName>
+            <roleName>Chancellor of France</roleName>
+          </person>
+        </listPerson>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <charDecl>
-        <glyph xml:id="slashSymbol">
-          <desc>slash symbol used to indicate a significant division in the text.</desc>
-        </glyph>
-      </charDecl>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#Vincenzo_da_Castello">Vincenzo da Castello</persName>
-          <placeName ref="#Paris">Parigi</placeName>
+          <persName ref="#pers-cavriana">Vincenzo da Castello</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
           <date when="1570-08-17">Il XVII di Agosto del 1570</date>
         </correspAction>
-        <correspContext>
-          <p>Vincenzo da Castello is a pseudonym used by Filippo Cavriana in his secret correspondence</p>
-        </correspContext>
+        <correspAction type="received">
+          <persName ref="#pers-concino">Bartolomeo Concino</persName>
+          <settlement>Firenze</settlement>
+        </correspAction>
       </correspDesc>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
-        <pb n="1" facs="#1r"/>
+        <pb n="1r"/>
         <opener>
-          <salute>Illustrissimo Signor mio et Signor Osservatissimo.</salute>
+          <salute><lb/>Illustrissimo Signor mio et Signor Osservatissimo.</salute>
         </opener>
         <p>
-          <lb/>Scirssi a <persName ref="#Bartolomeo_Concino">Vostra Signoria</persName> di <placeName ref="#Saint_Germain">San Girmano</placeName>, Che la pace era<lb/>
-          conclusa in segreto, ma non publicata per allhora, in luogo vissero di<lb/>
-          Francia; et che ristava a nimici. Ma monsignore non possendo<lb/>
-          tollerare, che questa terra restasse loro, ha fatto tanto, che se le è li<lb break="no"/>
-          vata, et in cambio d'essa, il <persName ref="#Charles_IX_de_Valois">Re</persName> li lascia <placeName ref="#La_Charité_sur_Loire">la Charite</placeName> in cambio certo<lb/>
-          da non spreziarsi; la cagione di questa pace, non è altra che la<lb/>
-          necessità estrema nella quale si trova <persName ref="#Charles_IX_de_Valois">sua Maestà</persName>; perciochè, non ha piu mo<lb break="no"/>
-          do di trovar danari, senza i quali non si puo far guerra; le città<lb/>
-          poi sono stanche; et per la mina grande, et difficoltà del mercantare<lb/>
-          et trafficare con altre natione; tanto otiose; che non vi è modo sus<lb break="no"/>
-          tintare le spese gravi che occorrono farsi a di per di quando in pagar<lb/>
-          presidij, quando in fortificare, et quando in mandare monitioni, et vetto<lb break="no"/>
-          vaglie al campo /, oltre che comminciavano à governarsi in maniera di<lb/>
-          <unclear>RP</unclear> et di communità, poco curando <choice><abbr>coḿandamento</abbr><expan>commandammento</expan></choice> del <persName ref="#Charles_IX_de_Valois">Re</persName>, &amp; per dire<lb/>
-          il tutto, vistosi dalla <persName ref="#Caterina_de_Medici">Reina</persName>, che il <persName ref="#Charles_IX_de_Valois">Re</persName> gia posto in età, voleva le co<lb break="no"/>
-          se a suo modo, et che alle sue voglie, poco poteva resistere con materni<lb/>
-          ammonitioni, et chi le caccie del cervo non sono cose simiglianti alle guer<lb break="no"/>
-          re, alli quali conviene di et notte vegghiarvi, si risolse <choice><abbr>nó</abbr><expan>non</expan></choice> possendo altro,<lb/>
-          di consentire alla pace; tanto più che le genti nostre, havendo mal usato<lb/>
-          della vittoria si fondevano nell'otio, et nelle dilitie di corte, Hor <choice><abbr>qsta</abbr><expan>questa</expan></choice><lb/>
-          pace,<choice><abbr>nó</abbr><expan>non</expan></choice> è approbata dal <persName role="ambassador"><choice><abbr>Ambascia<hi rend="superscript">re</hi></abbr><expan>Ambasciatore</expan></choice> Catholico</persName>, nè dal <persName role="ambassador">Apostolico</persName>, parte per<lb/>
-          tima del male, il quale puo avenire, alli stati di loro <choice><abbr>sig<hi rend="superscript">ri</hi></abbr><expan>signori</expan></choice> parte perché <persName ref="#Charles_de_Lorraine">Lo<lb/>reno</persName>, per quanto si ragiona, studiava di mostrare, che la pace di Francia, era<lb/>
-          per essere una guerra universale, alli catholici in poco tempo. Nondimeno<lb/>
-          si publicò in corte da <choice><abbr>Monsig<hi rend="superscript">re</hi></abbr><expan>Monsignore</expan></choice>, poi dalli Generali, nelli eserciti; <choice><abbr>ultimaḿte</abbr><expan>ultimamente</expan></choice><lb/>
-          in <placeName ref="#Paris">Parigi</placeName> dal precone, per ogni quadrivio della città, et dalli governatori<lb/>
-          nelle provincie loro. Gli articoli <choice><abbr>nó</abbr><expan>non</expan></choice> si sono publicati, ne si sanno, che da<lb/>
-          molto pochi e tuttavia si stampano ma moderati et corretti d'altra maniera<lb/>
-          che l'originale, il quale spero pure, di dovere mandare in corto <unclear>costà</unclear>,<lb/>
-          di mano di Thelligny uno di deputati delli Hugonotti. &amp; poiché tar<lb break="no"/>
-          dano tanto ad uscire, dicevano contennere cose non troppo grate o lodevoli<lb/>
-          nel che mi conferma, il sapere che il <persName ref="#Christophe_de_Thou">primo presidente</persName> di <placeName ref="#Paris">Parigi</placeName>, ha<lb/>
-          insistito al stampatore, che non gli publichi sino à tanto che egli <choice><abbr>nó</abbr><expan>non</expan></choice> glie<lb break="no"/>
-          lo intimi, et vuole insieme che gli stampi quali esso gli darà in scrit<lb break="no"/>
-          to. Ma gli hugonotti hanno gia mandato copia d'essi, in Germania al <persName ref="#Friedrich_III_von_der_Pfalz">Palati<lb break="no"/>
-          no</persName>, accio che vegga, che con riputatione, si è maneggiato l'accordo. Nel <choice><abbr>q<hi rend="superscript">a</hi>le</abbr><expan>quale</expan></choice><lb/>
+          <lb/>Scirssi a <persName ref="#pers-concino">Vostra Signoria</persName> di <placeName ref="#place-saint-germain">San Girmano</placeName>, che la pace era
+          <lb/>conclusa in segreto, ma non publicata per allhora, in luogo vissero di
+          <lb/>Francia; et che ristava a nimici. Ma monsignore non possendo
+          <lb/>tollerare, che questa terra restasse loro, ha fatto tanto, che se le è li<lb break="no"/>
+          vata, et in cambio d'essa, il <persName ref="#pers-charles-ix">Re</persName> li lascia <placeName ref="#place-la-charite">la Charite</placeName> in cambio certo
+          <lb/>da non spreziarsi; la cagione di questa pace, non è altra che la
+          <lb/>necessità estrema nella quale si trova <persName ref="#pers-charles-ix">sua Maestà</persName>; perciochè, non ha piu mo<lb break="no"/>
+          do di trovar danari, senza i quali non si puo far guerra; le città
+          <lb/>poi sono stanche; et per la mina grande, et difficoltà del mercantare
+          <lb/>et trafficare con altre natione; tanto otiose; che non vi è modo sus<lb break="no"/>
+          tintare le spese gravi che occorrono farsi a di per di quando in pagar
+          <lb/>presidij, quando in fortificare, et quando in mandare monitioni, et vetto<lb break="no"/>
+          vaglie al campo /, oltre che comminciavano à governarsi in maniera di
+          <lb/><unclear>RP</unclear> et di communità, poco curando <choice><abbr>coḿandamento</abbr><expan>commandammento</expan></choice> del <persName ref="#pers-charles-ix">Re</persName>
         </p>
-        <pb n="2" facs="#1v"/>
+
+        <pb n="1v"/>
         <p>
-          sono inclusi questi doi punti principali, per quanto ho udito da huomo prattico<lb/>
-          che il <persName ref="#Charles_IX_de_Valois">Re</persName>, piglij in protettione <persName ref="#Willem_van_Oranje">Orange </persName>, &amp; il conte <persName ref="#Willem_Lodewijk_van_Nassau-Dillenburg">Ludovico</persName>, dandogli provisione<lb/>
-          et insieme sia come diffensore del <persName ref="#Friedrich_III_von_der_Pfalz">Palatino</persName>, et altri fautori di quella re<lb break="no"/>
-          ligione novella, che si paghino gli Raiteri, dandogli 400 mille franchi <choice><abbr>ꝑ</abbr><expan>per</expan></choice><lb/>
-          anno, sino che sia bagata la somma, di doi millioni di franchi, che serà<lb/>
-          un formare <del>un</del> l'<unclear>erasio</unclear> sicuro a nimici contro la potenza d'ognuno. Oltre<lb/>
-          questi, ecci che per doi anni restino a nimici le cinque terre, <unclear>sansone</unclear>,<lb/>
-          <placeName ref="#La_Charité_sur_Loire">cherite</placeName>, <placeName ref="#La_Rochelle">Roscella</placeName>, <placeName ref="#Montauban">Montalbano</placeName>, <placeName ref="#Cognac">Cognac</placeName>, fornite di presidij suoi, ma pa<lb break="no"/>
-          gati dal <persName ref="#Charles_IX_de_Valois">Re</persName>; nel qual tempo si è lasciato intendere <persName ref="#Gaspard_de_Coligny">l'Ammiraglio</persName>, che<lb/>
-          farà cosi rilevato servitio, a sua <choice><abbr>M</abbr><expan>Maestà</expan></choice> che potria, (obligatosoli), ottenerle<lb/>
-          per sempre; et in vero costoro hanno animo di fare qualche cosa. Ap<lb break="no"/>
-          presso, che il <persName ref="#Charles_IX_de_Valois">Re</persName> si dichiari fautori et protettori della <persName ref="#Elizabeth_I_of_Tudor">Reina d'Inghilterra</persName>,<lb/>
-          et gli beni del <persName ref="#Odet_de_Coligny">cardinale sciatiglione</persName>, si lissino al <persName ref="#Charles_de_Bourbon">cardinal Borbone</persName>, et<lb/>
-          altri che gli hanno, et si diano a certi da essere nominati da sua <choice><abbr>M</abbr><expan>Maestà</expan></choice><lb/>
-          catholici però; <choice><abbr>nõ</abbr><expan>non</expan></choice> si levi,<add place="above"><hi rend="superscript">per cio</hi></add> ad esso <persName ref="#Charles_de_Bourbon">cardinale</persName>, la sua <unclear>Peresia</unclear> et contra<lb break="no"/>
-          di <persName ref="#François_de_Beauvais_de_Briquemault">Beauvoes</persName>, et il potere intervenire in consiglio come dinanzi. Che<lb/>
-          nelli giudicij delle cause si piglino tanti catolici, che hugonotto: et<lb/>
-          <choice><abbr>nó</abbr><expan>non</expan></choice> si accordano questi, si giudichi poi da doi primi presidenti, che<lb/>
-          che si sieno, et sia irrevocabile la loro sentenza, si ritorna ogniuno<lb/>
-          nelle sue prime dignità et honori, onde con molto desiderio si aspetta<lb/>
-          qui, il gran cancelliere, <persName ref="#Michel_de_l'Hopital">Michele dell'Hospitale</persName>, huomo dotto et cauto<lb/>
-          molto. Le prediche et assemblee in molti luoghi : (eccetuati <choice><abbr>qlli</abbr><expan>quelli</expan></choice> della <persName ref="#Caterina_de_Medici">Reina</persName>, <choice><abbr>Monsig<hi rend="superscript">re</hi></abbr><expan>Monsignore</expan></choice> et Monsieur Le Duc) si permetteno, in <choice><abbr>soma</abbr><expan>somma</expan></choice> sia qua<lb break="no"/>
-          si come <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>. <persName ref="#Charles_de_Bourbon">Borbone</persName> stava, che non si <unclear>vorria</unclear> spogliare delli beni di<lb/>
-          <persName ref="#Odet_de_Coligny">Sciatiglione</persName>, perché vogliono 20 mila <choice><abbr>Δ<hi rend="superscript">ti</hi></abbr><expan>ducati</expan></choice> d'entrata per il manco; havendo<lb/>
-          giurato iddio di mai piu rendergli. <persName ref="#Charles_de_Lorraine">Lorena</persName> è fatto malsano, et ognuno<lb/>
-          stima che della <term type="medicine">melancholia</term>, non caschi in una pericolosa infermità. egli<lb/>
-          sta in casa. Lontano dalla corte, et in odio de suoi medesimi, cosa<lb/>
-          che è grande, et da dar materia di parlare. <choice><abbr>Qńdo</abbr><expan>Quando</expan></choice> si publicò la pace in<lb/>
-          <placeName ref="#Paris">Parigi</placeName>, si stimava che ne dovesse nascere tumulto grandissimo, ma la<lb/>
-          venuta di <choice><abbr>Monsig<hi rend="superscript">re</hi></abbr><expan>Monsignore</expan></choice> acquetò anzi intimidi i seditiosi, dicendo che <unclear>lasce</unclear>
-          ria fatto troncare cinque, overo sei teste, per dar essempio alli altri pe<lb break="no"/>
-          rò dal <unclear>precone</unclear> publico accompagnato da 150 birri, si <choice><abbr>com&#x0304;endo</abbr><expan>commendo</expan></choice> a nome di<lb/>
-          sua <choice><abbr>M</abbr><expan>Maestà</expan></choice> che ogniuno vivese quietamente, et in pace, senza inoltrarsi nè in<lb/>
-          parole, nè in fatti, ne rinfacciarsi cosa alcuna, o <unclear>interrogare</unclear> della vita/
+          <lb/>sono inclusi questi doi punti principali, per quanto ho udito da huomo prattico
+          <lb/>che il <persName ref="#pers-charles-ix">Re</persName>, piglij in protettione <persName ref="#pers-orange">Orange</persName>, &amp; il conte <persName ref="#pers-nassau">Ludovico</persName>
+          <lb/>dandogli provisione et insieme sia come diffensore del <persName ref="#pers-palatine">Palatino</persName>
+          <lb/>et altri fautori di quella religione novella, che si paghino gli Raiteri
         </p>
-        <pb n="3" facs="#2r"/>
-        <p>
-          o conscienza l'uno dell'altro, cotale fu la publicazione della pace; et la<lb/>
-          notte seguente, <persName ref="#Gaspard_de_Coligny">l'Amiraglio</persName> con <persName ref="#Gabriel_de_Lorges">Mongomery</persName>, et il <persName ref="#Jean_II_de_Ferrieres">Vidamo di ciartres</persName>, furo<lb break="no"/>
-          no tolti giu delle <unclear>foresti</unclear>, li quali poi a mezzo di, furono del tutto<lb/>
-          spiantate della piazza sua <choice><abbr>M</abbr><expan>Maestà</expan></choice> ritiene 4000 svizzeri per sua guardi<lb/>
-          a, che cosi è convenuto con gli deputati; et cassa numero infinito de<lb/>
-          gente di piedi, et di cavallo rittirando a certo numero, le compagnie del<lb/>
-          li huomini d'arme, li quali non <choice><abbr>havreńo</abbr><expan>havrenno</expan></choice> guarniggione, se non in luoghi<lb/>
-          diputati a confini, ne questo tutte, ma <hi rend="superscript"><choice><abbr>q̃lle</abbr><expan>quelle</expan></choice></hi> che <choice><abbr>hān</abbr><expan>hanno</expan></choice> forastieri molti; <persName ref="#Jacques_de_Savoie_Nemours">Nemours</persName><lb/>
-          se ne va in savoia a casa sua, <persName ref="#Louis_Gonzague_Nevers">Nevers</persName> vuol rittirarsi <unclear>stroppiato</unclear>, et in<lb break="no"/>
-          fermo molto, il che si farà etiam dio da molti altri <add place="above"><hi rend="superscript">Prencipi et Signori</hi></add> onde restarà il cam<lb break="no"/>
-          po libero a <persName ref="#Henri_Ier_de_Montmorency">Momoransj</persName>, di confermare la sua potentia, la quale à imita<lb break="no"/>
-          tione del padre va crescendo molto: tanto piu, che <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa giovine</persName>, col<lb/>
-          Marchese suo <choice><abbr>fóllo</abbr><expan>figliolo</expan></choice> senza il coniglio del zio loro, non potrà resistere<lb/>
-          alle mosse di colui, il quale è amato dal Re, et studia con la solleci<lb break="no"/>
-          tudine di trovarsi sempre che puo con <choice><abbr>Monsig<hi rend="superscript">re</hi></abbr><expan>Monsignore</expan></choice>, di farsi amare etiamdio<lb/>
-          da questi onde <persName ref="#Charles_de_Lorraine">Loreno</persName> brava et <unclear>ferme</unclear>. il quale (per quanto si ragiona)<lb/>
-          non havendo potuto impedire la pace, cerca d'impedire l'essecutione di essa,<lb/>
-          in molte cose; onde si vede movimento grandissimo della fortuna,<lb/>
-          alzando et bassando, hor questi, hora quelli / Si ragiona di partirsi<lb/>
-          tosto di qui per andar a <placeName ref="#Écouen">ecoan </placeName> <add place="above"><hi rend="superscript">&amp;</hi></add> <placeName ref="#Chantilly">sciantilly</placeName>, luoghi del <persName ref="#Henri_Ier_de_Montmorency">maresciale<lb/>
-          di Mamoransi</persName>, dove vivrà <persName ref="#Gaspard_de_Coligny">l'Ammiraglio</persName>, a far riverenza al <persName ref="#Charles_IX_de_Valois">Re</persName>, per<lb/>
-          il parere di molti savij, et sè il Re <choice><abbr>nó</abbr><expan>non</expan></choice> vi andasse, <choice><abbr>nó</abbr><expan>non</expan></choice> verrà<lb/>
-          in corte, dio sa quando. Nel resto, si pensa alle nozze, alle danze<lb/>
-          et alli tornei ; et si casano capitani senza fine, cotale e lo stato<lb/>
-          delle cose di qua / La parte di <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa</persName> pare abbattuta, et abbattuta<lb/>
-          in modo che non si puo dir piu. <persName ref="#Henri_Ier_de_Montmorency">Mamoransi</persName> trionfa, et si fa amare<lb/>
-          da ciescuno, gratificandosi et obligandosi ogni persona, anchorche<lb/>
-          minima, parendogli che poi che la fortuna ha comminciato a ributtare<lb/>
-          <persName ref="#Henri_I_de_Lorraine_Guise">Ghisa</persName>, con questa  pace fattagli sul naso, non gli resti altro da fare<lb/>
-          che confermarsi in auttorità <choice><abbr>có</abbr><expan>con</expan></choice> l'amicitia di molti / Monsignore<lb/>
-          ira un poco indisposto, et mi pare <term type="medicine">melancholico</term> alquanto, ma attende<lb/>
-          però alli negotij, con molto giudicio; è, l'idolo della <persName ref="#Caterina_de_Medici">Reina</persName> et il suo<lb/>
-          </p>
-          <pb n="4" facs="#2v"/>
-          <p>
-          Achille, nel quale si vede che ella si compiace infinitamente. Gli hugonotti<lb/>
-          poi fanno qui, di molti discorsi, ma difficili a riuscire ; stimo che<lb/>
-          con questa longhezza, haverò offeso gli occhi, et le orecchie di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ta<lb break="no"/>
-          to piu, che senza ornamento scrivo: perdonimi che questo è, il sugo<lb/>
-          delle cose / L'altre minutie / et di poco rilievo. Lascierò che se scri<lb break="no"/>
-          to lì scrivo a suoi, et miei <choice><abbr>Si<hi rend="superscript">ri</hi></abbr><expan>Signori</expan></choice> a quali son servitore di cuore, et<lb/>
-          operare col suo favore / che io esca una volta dell'espettatione del<lb/>
-          habito, il quale se non sarà dato a persona di molto valore, quanto<lb/>
-          alli minuti, è però meritevole per il desiderio che ha di movere in<lb/>
-          servitio di loro <choice><abbr>Alt.</abbr><expan>Altezze</expan></choice> et di quella santa religione. La quale da me<lb/>
-          mai riceverà dishonore. et di ciò ne la prego et <choice><abbr>supp<hi rend="superscript">co</hi></abbr><expan>supplico</expan></choice> doppo<lb/>
-          haverli bacciato le mani di vivo affetto d'animo, espettando ris<lb break="no"/>
-          posta, se haverà ricevuto la mia longa <choice><abbr>lrà</abbr><expan>lettera</expan></choice> della pace mandatale<lb/>
-          dal <unclear>G</unclear> <choice><abbr>Ambascia<hi rend="superscript">re</hi></abbr><expan>Ambasciatore</expan></choice><persName ref="#Giovanni_Maria_Petrucci">Petruzzi</persName> / se le cose del matrimonio della fi<lb break="no"/>
-          <note place="margin" type="symbol">♂</note>
-          glia di sua <choice><abbr>M</abbr><expan>Maestà</expan></choice> cesarea, col <persName ref="#Charles_IX_de_Valois">Re</persName>, non fossero cosi <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>come sono,<lb/>
-          o non se gli tenesee la mano della <persName ref="#Caterina_de_Medici">Reina</persName> per fornirle tosto, non<lb/>
-          mancheranno alcuni, che disturberieno il parentado, offerendole altre<lb/>
-          amicitie et parentele <add place="above"><hi rend="superscript">pericolose</hi></add>. Il Re si fa leggere ogni sera le histo<lb break="no"/>
-          rie francese. di Re passati, due hore innanzi che si ponga a dormire<lb/>
-          et discosse spesso sopra di fatti loro.<lb/>
-          </p>
+        
         <closer>
-          <dateline>Di <placeName ref="#Paris">Parigi</placeName> <date>il XVIJ di Agosto del 70</date></dateline><lb/>
-            <salute rend="indent">Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill<hi rend="superscript">re</hi></abbr><expan>Illustre</expan></choice></salute><lb/>
-            <salute rend="indent">Servitor di cuore et <choice><abbr>perpetuamēte</abbr><expan>perpetuamente</expan></choice></salute><lb/>
-            <salute rend="indent"><choice><abbr>affett<hi rend="superscript">mo</hi></abbr><expan>Affettionatissimo</expan></choice></salute><lb/>
-            <signed><persName ref="Filippo Cavriana">Vincenzo da Castello</persName></signed><lb/>
+          <lb/>Di <placeName ref="#place-paris">Parigi</placeName>, <date when="1570-08-17">il XVIJ di Agosto del 70</date>
+          <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill<hi rend="superscript">re</hi></abbr><expan>Illustre</expan></choice>
+          <lb/>Servitor di cuore et <choice><abbr>perpetuamēte</abbr><expan>perpetuamente</expan></choice>
+          <lb/><choice><abbr>affett<hi rend="superscript">mo</hi></abbr><expan>Affettionatissimo</expan></choice>
+          <lb/><signed><persName ref="#pers-cavriana">Vincenzo da Castello</persName></signed>
         </closer>
       </div>
     </body>
