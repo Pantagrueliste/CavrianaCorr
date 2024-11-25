@@ -23,7 +23,7 @@
         <msDesc>
           <msIdentifier>
             <settlement>Florence</settlement>
-            <repository>Archivio di Stato di Firenze</repository>
+            <repository>Archivio di Statao di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>Filza TBD</idno>
           </msIdentifier>
@@ -82,39 +82,64 @@
           </place>
         </listPlace>
         <listPerson>
-          <person xml:id="pers-cavriana">
-            <persName>Filippo Cavriana</persName>
-            <persName type="alias">Vincenzo da Castello</persName>
-            <occupation>Diplomat and physician</occupation>
-          </person>
-          <person xml:id="pers-concino">
-            <persName>Bartolomeo Concino</persName>
-            <occupation>First Secretary of Cosimo I de' Medici</occupation>
-          </person>
-          <person xml:id="pers-charles-ix">
-            <persName>Charles IX de Valois</persName>
-            <roleName>King of France</roleName>
-          </person>
-          <person xml:id="pers-catherine">
-            <persName>Caterina de' Medici</persName>
-            <roleName>Queen Mother of France</roleName>
-          </person>
-          <person xml:id="pers-coligny">
-            <persName>Gaspard de Coligny</persName>
-            <roleName>Admiral of France</roleName>
-          </person>
-          <person xml:id="pers-lorraine">
-            <persName>Charles de Lorraine</persName>
-            <roleName>Cardinal</roleName>
-          </person>
-          <person xml:id="pers-montmorency">
-            <persName>Henri I de Montmorency</persName>
-            <roleName>Marshal of France</roleName>
-          </person>
-          <person xml:id="pers-hopital">
-            <persName>Michel de l'Hopital</persName>
-            <roleName>Chancellor of France</roleName>
-          </person>
+            <person xml:id="pers-cavriana-f">
+                <persName>
+                    <forename>Filippo</forename>
+                    <surname>Cavriana</surname>
+                </persName>
+                <persName type="alias">Vincenzo da Castello</persName>
+                <occupation>Diplomat and physician</occupation>
+            </person>
+            <person xml:id="pers-concino-b">
+                <persName>
+                    <forename>Bartolomeo</forename>
+                    <surname>Concino</surname>
+                </persName>
+                <occupation>First Secretary of Cosimo I de' Medici</occupation>
+            </person>
+            <person xml:id="pers-valois-c">
+                <persName>
+                    <forename>Charles</forename>
+                    <surname>Valois</surname>
+                    <roleName type="nobility">King of France</roleName>
+                </persName>
+                <note>Charles IX of France</note>
+            </person>
+            <person xml:id="pers-medici-c">
+                <persName>
+                    <forename>Caterina</forename>
+                    <surname>Medici</surname>
+                    <roleName type="nobility">Queen Mother of France</roleName>
+                </persName>
+            </person>
+            <person xml:id="pers-coligny-g">
+                <persName>
+                    <forename>Gaspard</forename>
+                    <surname>Coligny</surname>
+                    <roleName type="office">Admiral of France</roleName>
+                </persName>
+            </person>
+            <person xml:id="pers-lorraine-c">
+                <persName>
+                    <forename>Charles</forename>
+                    <surname>Lorraine</surname>
+                    <roleName type="office">Cardinal</roleName>
+                </persName>
+            </person>
+            <person xml:id="pers-montmorency-h">
+                <persName>
+                    <forename>Henri</forename>
+                    <surname>Montmorency</surname>
+                    <roleName type="office">Marshal of France</roleName>
+                </persName>
+            </person>
+            <person xml:id="pers-hopital-m">
+                <persName>
+                    <forename>Michel</forename>
+                    <surname>l'Hopital</surname>
+                    <roleName type="office">Chancellor of France</roleName>
+                </persName>
+            </person>
         </listPerson>
       </sourceDesc>
     </fileDesc>

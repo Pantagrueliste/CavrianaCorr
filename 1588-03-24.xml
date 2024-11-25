@@ -177,7 +177,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#Filippo_Cavriana">Filippo Cavriana</persName>
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
                     <settlement>Paris</settlement>
                     <date when="1588-04-01"/>
                 </correspAction>
