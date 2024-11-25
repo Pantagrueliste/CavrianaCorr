@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 3 January 1569</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4850</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>TBD</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">A number of avvisi from France reported by Filippo Cavriana</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios, with marginal notes</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+        <listPlace>
+          <!-- [Previous listPlace content remains unchanged] -->
+        </listPlace>
+        <listPerson>
+          <person xml:id="pers-cavriana">
+            <persName>Filippo Cavriana</persName>
+            <persName type="alias">Vincenzo da Castello</persName>
+          </person>
+          <person xml:id="pers-concino">
+            <persName>Bartolomeo Concino</persName>
+          </person>
+          <person xml:id="pers-orange">
+            <persName>Principe di Orange</persName>
+            <persName type="full">William I, Prince of Orange</persName>
+          </person>
+          <person xml:id="pers-dupont">
+            <persName>Duca di Duponte</persName>
+            <persName type="full">Wolfgang, Duke of Palatinate-Zweibrücken</persName>
+          </person>
+          <person xml:id="pers-aumale">
+            <persName>Monsignore d'Omala</persName>
+            <persName type="full">Charles de Lorraine, duc d'Aumale</persName>
+          </person>
+          <person xml:id="pers-gioiosa">
+            <persName>Gioiosa</persName>
+            <persName type="full">Anne de Joyeuse</persName>
+          </person>
+          <person xml:id="pers-alamanni">
+            <persName>Alamanni</persName>
+          </person>
+          <person xml:id="pers-nemours">
+            <persName>Monsignore di Nemours</persName>
+            <persName type="full">Jacques de Savoie, duc de Nemours</persName>
+          </person>
+          <person xml:id="pers-tinda">
+            <persName>Monsignore di Tinda</persName>
+            <persName type="full">Honorat de Savoie, comte de Tende</persName>
+          </person>
+          <person xml:id="pers-susa">
+            <persName>Monsignore di Susa</persName>
+          </person>
+        </listPerson>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-08-17">Il XVII di Agosto del 1570</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concino">Bartolomeo Concino</persName>
+          <settlement>Firenze</settlement>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <div type="letter">
+      <pb n="740r"/>
+      <opener><salute>Molto illustre signore</salute></opener>
+      <p>
+        <lb/>Se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> si raccorda, io li dissi a Milano, che volevo mandar un
+        <lb/>mio fedele, al campo del <persName ref="#pers-orange">Principe di Orange</persName>, per spiare,
+        <lb/>quello che la si faceva; et ella me ne consigliò anche assai
+        <lb/>prudentemente, sopra di questo, Ma quando venni a lei, per
+        <lb/>consiglio, haveva gia (a guisa di chi presa la moglie puttana,
+        <lb/>dimanda, doppo il contratto di matrimonio, il parere a suoi
+        <lb/>amici), inviato questo mio, et che trono di novo, a rimá<lb break="no"/>
+        darle; Hora tornato, rapporta di vista, Che il <persName ref="#pers-orange">Principe</persName>
+        <lb/>era a <placeName ref="#place-vitry">Vitri Francese</placeName>, con venticinquemille huomini, et piu
+        <lb/>che la sua cavalleria, era in ordine, et ben in punto, piu
+        <lb/>numerosa assai, che qui <choice><abbr>nó</abbr><expan>non</expan></choice> si racconta, che faceva doi ponti
+        <lb/>sulla <placeName ref="#place-marne">Marna</placeName>, per venir poi a <placeName ref="#place-bar-auba">Bar su Auba</placeName>, et gia vi voleva
+        <lb/>ben tosto incaminar l'essercito; che haveva abondanza d'ogni co<lb break="no"/> 
+        <lb/>sa. che fra li sue genti, haveva buon numero di Valloni, Borgognoni, et Fiamminghi, due volte piu che di Francesi; et si an<lb break="no"/>
+        dava trattenendo, sino alla venuta del Duca di Duponte, che pur
+        <lb/>viene, col quali gionto, pare che voglia tirare a Ossarra; che li
+        <lb/>genti paesani della Campagna fuggono i loro beni, qua et la, an<lb break="no"/>
+        chor che lontani siano, del Principe 12 et 15 leghe; Che
+        <lb/><persName ref="#pers-aumale"><choice><abbr>mons.re</abbr><expan>monsignore</expan></choice> d'Omala</persName> era presso <placeName ref="#place-metz">Metz</placeName>, espettando 4000 raiteri, che
+        <lb/>vengono pian piano, per non sdrucciolar sul giaccio; Dal campo
+        <lb/>nostro poi si ha; che li genti di <choice><abbr>Mons.</abbr><expan>Monsignore</expan></choice> si sbandano à gros<lb break="no"/>
+        si trope, <foreign xml:lang="la">nec ullo imperio, in offitio contineri possent</foreign>; onde
+        <lb/>non vi è piu che 3000 archibugieri. Delle genti, che meno
+        <lb/>sciarlaboch, con <persName ref="#pers-gioiosa">Gioiosa</persName>, ne sono partiti piu di 1200 et il
+        <lb/>Principe vinsi di novo a Saumur; Sanserra <choice><abbr>nó</abbr><expan>non</expan></choice> è presa la
+        <pb n="740v"/>
+        <lb/>monitione è mancata a nostri ; nondimeno vi sono sotto sotto,
+        <lb/>et se il luogo si potrà zappare, lo piglierano; ma mi ricordo
+        <lb/>essermi stato dentro, et parmi che sia sulla poetra viva, non però
+        <lb/>molto dura, hanno fatto una batteria di doi millia passi, di
+        <lb/>lontano, per quanto raccontanom la quale da questi soldati viterani
+        <lb/>è biasimata, come infruttuosa, Vi è dentro buon presidio, con
+        <lb/>Avantigni et Consilli, capitani di molto credito, et arditi.
+        <lb/>Gli nostri svizzeri, partiti di Montereau, vanno in Campagna
+        <lb/>dove si incaminano tutte le forze del RE, con opinioni di combat
+        <lb/>ere con Orange, prima che Dupont arrivi. La risolutione si è
+        <lb/>fatta in camera, potria dissolversi per camino. Le provisioni, si
+        <lb/>fanno molto lente. La corta sta in andar a Monceau, d'indi a
+        <lb/>Sciallone. Io mi dispero vedendo, questi moti retrogradi il ? statio
+        <lb/>narij, et che nel mezzo delle fiamme di questo regno, <foreign xml:lang="la">ludimus
+        <lb/>et bibimus imprudentes</foreign>; <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> comunicherà questi avisi al <choice><abbr>S.re</abbr><expan>Signore</expan></choice>
+        <lb/><persName ref="#pers-alamanni">Alamanni</persName>, il qual desidero, che ritrovandosene in <placeName ref="#place-italia">Italia</placeName>, operi <choice><abbr>S.E. Ill.ma</abbr><expan>Sua Eccellenza Illustrissima</expan></choice>
+        <lb/>che sia consociuto, per divotissimo di quella; Dimani,
+        <lb/>penso venir a disinar con <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, però mi raporto a quel tempo, a
+        <lb/>discorrerli qualesi cosa, degna, che sia intesa et osservata;
+        <lb/>intanto me le raccomando di vivo cuore, pregandola a farmi favore
+        <lb/>che il Signor <persName ref="#pers-alamanni">Alamanni</persName> legga un poco, di quel mio Commentario, ma
+        <lb/>aparte. <persName ref="#pers-nemours">Monsignore di Nemours</persName>, <persName ref="#pers-tinda">di Tinda</persName>, et <persName ref="#pers-susa">di Susa</persName>, hora hora
+        <lb/>passano per qui, per andar a disinare a S. Moro Di Ponte Sci<lb break="no"/>
+        allantoni, il <date when="1569-01-03">il <choice><abbr>3o</abbr><expan>terzo</expan></choice> di Gennaro del 69</date>.
+        <closer>
+          <lb/>servidore affetionatiss.o di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>illustrí</abbr><expan>illustrissima</expan></choice>.
+          <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> arderà <choice><abbr>qsta</abbr><expan>questa</expan></choice>, doppo haverla letta, perché non vorrei
+          <lb/>si smarissi per ventura <choice><abbr>nó</abbr><expan>non</expan></choice> mio danno. Espetto risposta.
+          <lb/><signed>Filippo cavriana</signed>.
+        </closer>
+      </p>
+    </div>
+  </text>
+</TEI>
