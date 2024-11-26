@@ -228,13 +228,13 @@
 	        <lb/>aparte. <persName ref="#pers-nemours">Monsignore di Nemours</persName>, <persName ref="#pers-tinda">di Tinda</persName>, et <persName ref="#pers-susa">di Susa</persName>, hora hora
 	        <lb/>passano per qui, per andar a disinare a <placeName ref="#place-Charentonlepont">S. Moro Di Ponte Sci<lb break="no"/>
 	        allantoni</placeName>, il <date when="1569-01-03">il <choice><abbr>3o</abbr><expan>terzo</expan></choice> di Gennaro del 69</date>.
+	    </p>
 	        <closer>
-	          <lb/>servidore <choice><abbr>affetionatiss.o</abbr><expan>affetionatissimo</expan></choice> di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>illustrí</abbr><expan>illustrissima</expan></choice>.
-	          <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> arderà <choice><abbr>qsta</abbr><expan>questa</expan></choice>, doppo haverla letta, perché non vorrei
-	          <lb/>si smarissi per ventura <choice><abbr>nó</abbr><expan>non</expan></choice> mio danno. Espetto risposta.
-	          </closer>
-	          <lb/><signed>Filippo cavriana</signed>
-	      </p>
+	          <salute>servidore <choice><abbr>affetionatiss.o</abbr><expan>affetionatissimo</expan></choice> di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>illustrí</abbr><expan>illustrissima</expan></choice>.
+	          <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> arderà <choice><abbr>qsta</abbr><expan>questa</expan></choice>, doppo haverla letta, perché non vorrei
+	          si smarissi per ventura <choice><abbr>nó</abbr><expan>non</expan></choice> mio danno. Espetto risposta.</salute>
+	          <signed>Filippo cavriana</signed>
+	        </closer>
 	    </div>
 	  </body>
   </text>
