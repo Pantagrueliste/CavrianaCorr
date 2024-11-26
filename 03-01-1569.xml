@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 3 January 1569</title>
+        <title>Letter from Filippo Cavriana to Ambassador Petrucci, 3 January 1569</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -29,7 +29,7 @@
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus>TBD</locus>
+              <locus>740r-v</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
@@ -48,8 +48,67 @@
           </physDesc>
         </msDesc>
         <listPlace>
-          <!-- [Previous listPlace content remains unchanged] -->
-        </listPlace>
+		  <place xml:id="place-florence">
+		    <placeName>Florence</placeName>
+		    <location><geo>43.7696 11.2558</geo></location>
+		  </place>
+		  <place xml:id="place-paris">
+		    <placeName>Parigi</placeName>
+		    <location><geo>48.8566 2.3522</geo></location>
+		  </place>
+		  <place xml:id="place-milano">
+		    <placeName>Millano</placeName>
+		    <location><geo>45.4642 9.1900</geo></location>
+		  </place>
+		  <place xml:id="place-vitry">
+		    <placeName>Vitri Francese</placeName>
+		    <location><geo>48.9996 4.3939</geo></location>
+		  </place>
+		  <place xml:id="place-marne">
+		    <placeName>Marna</placeName>
+		    <location><geo>49.0097 4.0367</geo></location>
+		  </place>
+		  <place xml:id="place-barsuraube">
+		    <placeName>Bar su Auba</placeName>
+		    <location><geo>48.2373 4.1540</geo></location>
+		  </place>
+		  <place xml:id="place-auxerre">
+		    <placeName>Ossarra</placeName>
+		    <location><geo>47.7982 3.5733</geo></location>
+		  </place>
+		  <place xml:id="place-metz">
+		    <placeName>Metz</placeName>
+		    <location><geo>49.1193 6.1757</geo></location>
+		  </place>
+		  <place xml:id="place-saumur">
+		    <placeName>Saumur</placeName>
+		    <location><geo>47.2607 -0.0763</geo></location>
+		  </place>
+		  <place xml:id="place-sancerre">
+		    <placeName>Sanserra</placeName>
+		    <location><geo>47.3289 2.8404</geo></location>
+		  </place>
+		  <place xml:id="place-montererau">
+		    <placeName>Montereau</placeName>
+		    <location><geo>48.3842 2.9500</geo></location>
+		  </place>
+		  <place xml:id="place-monceau">
+		    <placeName>Monceau</placeName>
+		    <location><geo>48.8519 3.0036</geo></location>
+		  </place>
+		  <place xml:id="place-challons">
+		    <placeName>Sciallone</placeName>
+		    <location><geo>48.9578 4.3673</geo></location>
+		  </place>
+		  <place xml:id="place-italia">
+		    <placeName>Italia</placeName>
+		    <location><geo>41.8719 12.5674</geo></location>
+		  </place>
+		  <place xml:id="place-Charentonlepont">
+		    <placeName>S. Moro Di Ponte Sciallanti</placeName>
+		    <location><geo>48.8268 2.4121</geo></location>
+		  </place>
+		</listPlace>
         <listPerson>
           <person xml:id="pers-cavriana">
             <persName>Filippo Cavriana</persName>
@@ -64,7 +123,7 @@
           </person>
           <person xml:id="pers-dupont">
             <persName>Duca di Duponte</persName>
-            <persName type="full">Wolfgang, Duke of Palatinate-Zweibrücken</persName>
+            <persName type="full">Wolfgang, Herzog von Pfalz-Zweibrücken</persName>
           </person>
           <person xml:id="pers-aumale">
             <persName>Monsignore d'Omala</persName>
@@ -77,6 +136,9 @@
           <person xml:id="pers-alamanni">
             <persName>Alamanni</persName>
           </person>
+          <person xml:id="pers-charlesix">
+		    <persName>Charles IX</persName>
+		  </person>
           <person xml:id="pers-nemours">
             <persName>Monsignore di Nemours</persName>
             <persName type="full">Jacques de Savoie, duc de Nemours</persName>
@@ -105,7 +167,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-concino">Bartolomeo Concino</persName>
-          <settlement>Firenze</settlement>
+          <placeName ref="#place-florence">Firenze</placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -115,7 +177,7 @@
       <pb n="740r"/>
       <opener><salute>Molto illustre signore</salute></opener>
       <p>
-        <lb/>Se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> si raccorda, io li dissi a Milano, che volevo mandar un
+        <lb/>Se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> si raccorda, io li dissi a <placeName ref="#place-milano">Millano</placeName>, che volevo mandar un
         <lb/>mio fedele, al campo del <persName ref="#pers-orange">Principe di Orange</persName>, per spiare,
         <lb/>quello che la si faceva; et ella me ne consigliò anche assai
         <lb/>prudentemente, sopra di questo, Ma quando venni a lei, per
@@ -126,11 +188,11 @@
         <lb/>era a <placeName ref="#place-vitry">Vitri Francese</placeName>, con venticinquemille huomini, et piu
         <lb/>che la sua cavalleria, era in ordine, et ben in punto, piu
         <lb/>numerosa assai, che qui <choice><abbr>nó</abbr><expan>non</expan></choice> si racconta, che faceva doi ponti
-        <lb/>sulla <placeName ref="#place-marne">Marna</placeName>, per venir poi a <placeName ref="#place-bar-auba">Bar su Auba</placeName>, et gia vi voleva
+        <lb/>sulla <placeName ref="#place-marne">Marna</placeName>, per venir poi a <placeName ref="#place-barsuraube">Bar su Auba</placeName>, et gia vi voleva
         <lb/>ben tosto incaminar l'essercito; che haveva abondanza d'ogni co<lb break="no"/> 
         <lb/>sa. che fra li sue genti, haveva buon numero di Valloni, Borgognoni, et Fiamminghi, due volte piu che di Francesi; et si an<lb break="no"/>
-        dava trattenendo, sino alla venuta del Duca di Duponte, che pur
-        <lb/>viene, col quali gionto, pare che voglia tirare a Ossarra; che li
+        dava trattenendo, sino alla venuta del <persName ref="#pers-dupont">Duca di Duponte</persName>, che pur
+        <lb/>viene, col quali gionto, pare che voglia tirare a <placeName ref="#place-auxerre">Ossarra</placeName>; che li
         <lb/>genti paesani della Campagna fuggono i loro beni, qua et la, an<lb break="no"/>
         chor che lontani siano, del Principe 12 et 15 leghe; Che
         <lb/><persName ref="#pers-aumale"><choice><abbr>mons.re</abbr><expan>monsignore</expan></choice> d'Omala</persName> era presso <placeName ref="#place-metz">Metz</placeName>, espettando 4000 raiteri, che
@@ -138,22 +200,22 @@
         <lb/>nostro poi si ha; che li genti di <choice><abbr>Mons.</abbr><expan>Monsignore</expan></choice> si sbandano à gros<lb break="no"/>
         si trope, <foreign xml:lang="la">nec ullo imperio, in offitio contineri possent</foreign>; onde
         <lb/>non vi è piu che 3000 archibugieri. Delle genti, che meno
-        <lb/>sciarlaboch, con <persName ref="#pers-gioiosa">Gioiosa</persName>, ne sono partiti piu di 1200 et il
-        <lb/>Principe vinsi di novo a Saumur; Sanserra <choice><abbr>nó</abbr><expan>non</expan></choice> è presa la
+        <lb/><persName><unclear reason="unknown">sciarlaboch</unclear></persName>, con <persName ref="#pers-gioiosa">Gioiosa</persName>, ne sono partiti piu di 1200 et il
+        <lb/>Principe vinsi di novo a <placeName ref="#place-saumur">Saumur</placeName>; <placeName ref="#place-sancerre">Sanserra</placeName> <choice><abbr>nó</abbr><expan>non</expan></choice> è presa la
         <pb n="740v"/>
         <lb/>monitione è mancata a nostri ; nondimeno vi sono sotto sotto,
         <lb/>et se il luogo si potrà zappare, lo piglierano; ma mi ricordo
         <lb/>essermi stato dentro, et parmi che sia sulla poetra viva, non però
         <lb/>molto dura, hanno fatto una batteria di doi millia passi, di
-        <lb/>lontano, per quanto raccontanom la quale da questi soldati viterani
+        <lb/>lontano, per quanto raccontano la quale da questi soldati viterani
         <lb/>è biasimata, come infruttuosa, Vi è dentro buon presidio, con
         <lb/>Avantigni et Consilli, capitani di molto credito, et arditi.
-        <lb/>Gli nostri svizzeri, partiti di Montereau, vanno in Campagna
-        <lb/>dove si incaminano tutte le forze del RE, con opinioni di combat
-        <lb/>ere con Orange, prima che Dupont arrivi. La risolutione si è
+        <lb/>Gli nostri svizzeri, partiti di <placeName ref="#place-montererau">Montereau</placeName>, vanno in Campagna
+        <lb/>dove si incaminano tutte le forze del <persName ref="#pers-charlesix">RE</persName>, con opinioni di combat
+        <lb/>ere con <persName ref="#pers-orange">Orange</persName>, prima che <persName ref="#pers-dupont">Dupont</persName> arrivi. La risolutione si è
         <lb/>fatta in camera, potria dissolversi per camino. Le provisioni, si
-        <lb/>fanno molto lente. La corta sta in andar a Monceau, d'indi a
-        <lb/>Sciallone. Io mi dispero vedendo, questi moti retrogradi il ? statio
+        <lb/>fanno molto lente. La corta sta in andar a <placeName ref="#place-monceau">Monceau</placeName>, d'indi a
+        <lb/><placeName ref="#place-challons">Sciallone</placeName>. Io mi dispero vedendo, questi moti retrogradi il <unclear>...</unclear> statio
         <lb/>narij, et che nel mezzo delle fiamme di questo regno, <foreign xml:lang="la">ludimus
         <lb/>et bibimus imprudentes</foreign>; <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> comunicherà questi avisi al <choice><abbr>S.re</abbr><expan>Signore</expan></choice>
         <lb/><persName ref="#pers-alamanni">Alamanni</persName>, il qual desidero, che ritrovandosene in <placeName ref="#place-italia">Italia</placeName>, operi <choice><abbr>S.E. Ill.ma</abbr><expan>Sua Eccellenza Illustrissima</expan></choice>
@@ -163,10 +225,10 @@
         <lb/>intanto me le raccomando di vivo cuore, pregandola a farmi favore
         <lb/>che il Signor <persName ref="#pers-alamanni">Alamanni</persName> legga un poco, di quel mio Commentario, ma
         <lb/>aparte. <persName ref="#pers-nemours">Monsignore di Nemours</persName>, <persName ref="#pers-tinda">di Tinda</persName>, et <persName ref="#pers-susa">di Susa</persName>, hora hora
-        <lb/>passano per qui, per andar a disinare a S. Moro Di Ponte Sci<lb break="no"/>
-        allantoni, il <date when="1569-01-03">il <choice><abbr>3o</abbr><expan>terzo</expan></choice> di Gennaro del 69</date>.
+        <lb/>passano per qui, per andar a disinare a <placeName ref="#place-Charentonlepont">S. Moro Di Ponte Sci<lb break="no"/>
+        allantoni</placeName>, il <date when="1569-01-03">il <choice><abbr>3o</abbr><expan>terzo</expan></choice> di Gennaro del 69</date>.
         <closer>
-          <lb/>servidore affetionatiss.o di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>illustrí</abbr><expan>illustrissima</expan></choice>.
+          <lb/>servidore <choice><abbr>affetionatiss.o</abbr><expan>affetionatissimo</expan></choice> di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>illustrí</abbr><expan>illustrissima</expan></choice>.
           <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> arderà <choice><abbr>qsta</abbr><expan>questa</expan></choice>, doppo haverla letta, perché non vorrei
           <lb/>si smarissi per ventura <choice><abbr>nó</abbr><expan>non</expan></choice> mio danno. Espetto risposta.
           <lb/><signed>Filippo cavriana</signed>.
