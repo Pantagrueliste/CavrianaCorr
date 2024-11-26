@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 14 September 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>554</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>2r</locus>
+              <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Letter thanking Cosimo I for allowing Cavriana to receive the habit of the Order of Santo Stefano and expressing his commitment to serve both the Duke and the Order.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on recto of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+        <listPlace>
+          <place xml:id="place-paris">
+            <placeName>Parigi</placeName>
+            <location>
+              <geo>48.8566 2.3522</geo>
+            </location>
+          </place>
+        </listPlace>
+        <listPerson>
+          <person xml:id="pers-cavriana">
+            <persName>Filippo Cavriana</persName>
+          </person>
+          <person xml:id="pers-cosimo1">
+            <persName>Cosimo I de' Medici</persName>
+          </person>
+          <person xml:id="pers-traiano">
+            <persName>Traiano</persName>
+          </person>
+        </listPerson>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-09-14"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-cosimo1">Cosimo I de' Medici</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="2r"/>
+        <opener>
+          <salute>Serenissimo signore</salute>
+        </opener>
+        <p>
+          <lb/>Havendo inteso dal ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName> à <choice><abbr>q3.la</abbr><expan>questa</expan></choice> corte, come ella è restata
+          <lb/>servita, che doppò le mie provanze, riceva l'habito di <choice><abbr>sa.o</abbr><expan>santo</expan></choice> stefano,
+          <lb/>del quale gia gran tempi desiderava essere honorato; et che di tutto
+          <lb/><choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice> ne haveva dato <choice><abbr>cómissione</abbr><expan>commissione</expan></choice> al <choice><abbr>S.or</abbr><expan>Signor</expan></choice> <persName ref="#pers-traiano">Traiano</persName>; Non ho voluto <choice><abbr>má</abbr><expan>man</expan></choice><lb break="no"/>care al riverente affetto d'animo, col quale mi son fatto incontro
+          <lb/>a gratia cosi segnalata, di renderne gratie humilissime a <choice><abbr>V.Seren.</abbr><expan>Vostra Serenità</expan></choice>,
+          <lb/>espettando, che io sia altretanto favorito da lei col <choice><abbr>comándarmi</abbr><expan>comandarmi</expan></choice>, <choice><abbr>quá</abbr><expan>quan</expan></choice><lb break="no"/>nto conosco d'essere fin hora, per l'habito che contenta che io riceva;
+          <lb/>del quale, per non mostrarmi in tutto indegno, assicuro <choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice> che per
+          <lb/>servitio di lei, et della religione altresi, nella quale reputo essere
+          <lb/>gia collocato, che io non son mai per fuggire, alcuna fatica, ne
+          <lb/>pericolo, il quale possa servire all'una, et all'altra; et però es<lb break="no"/>pettando suo commandamento, mi resterò in questo desiderio, <choice><abbr>pregá</abbr><expan>pregan</expan></choice><lb break="no"/>ndo <choice><abbr>H.</abbr><expan>Honorato</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Dio, che l'augmenti i suoi santissimi doni, et a me doni
+          <lb/>gratia di ben servirla, con qual fine humilmente m'inchino, baci<lb break="no"/>andole le manj. Di <placeName ref="#place-paris">parigi</placeName> il <date when="1570-09-14">14 di settembre del LXX</date>.
+        </p>
+        <closer>
+          <lb/>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Seren.</abbr><expan>Serenissima</expan></choice> <persName ref="#pers-cosimo1">Altez.</persName>
+          <lb/>Humilissimo et fedelissimo
+          <lb/>servitore.
+          <lb/>
+          <signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
