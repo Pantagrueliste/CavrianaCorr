@@ -1,12 +1,144 @@
-f.47
-Serenissimo Signore et Signor mio Osservatissimo
-L'ambasciatore di Vostra Altezza appresso il re chmmo?, mi ha mostrato la commissione, che per lettere le à piacciuto di dargli affine che mi vestisse del habito, secondo gli ordini, et statuti della religione; del quale, desiderando io honorarmi quanto piu tosto potevo, per meglio servir, à Vostra Altezza, hieri fù la festa de tutti i santi, ne fui vestito dal detto ambasciatore. Del che, io ho voluto, avisandone vostra serenità, renderle quelle maggior gratie, che per me so possono, conoscendo io quanto grande sia stato, il favor suo verso me, in conciedermi quello che a pochissimi, anchor che di gran menti, et di altissimo lignaggio, è avvenuto di ottenere. Per questo la supplico che havendomi una volta fatto degno del favore, et gratia sua, col testimonio di tanto honore, quanto conosco havere ricevuto di presente, conltenti di continuarmelo, col commendarmi, et dar mi materia di spendere le deboli forze mie del animo, et del corpo in servitio suo, et della religione, sicome gia gran tempo desidero sopra di che havendo io hieri fatto solenne giuramento, nel ricever l'habito, subito mi venne in mente di quello, che molti anni annanzi, quasi ogni di facevo per elettione meco medesimo, del quale questi è stata una continuatione, in conspetto del mondo. Di che, io tanto mi glorio, quanto dall'altra parte miu pesa molto, che al servitio di Vostra Altezza et della religione, non apporterò altro, che una pura et sincera volontà accompagnata da fede, et
-da divotissima affettione, non essendo in me ne sapere, ne prudenza, ne valore in modo, che cumulatamente adempia l'uffitio di quel servidore, che Vostra Altezza merita, et che io vorrei. Ma in queste mie tenebre, havendomi io proposto di seguir sempre mai la chiarezza che dal benigno lume di gratia di Vostra Altezza suol venire, dove et à chi le piace di spargere; mi contenterò, che la divotissima mia volontà sia da lei conosciuta, sapendo che ella un di adempirà il mio desiderio, col comandarmi per non mi far parere del tutto inutile et ingrato di tanta grazia, che da lei ho ricevuto, per la quale, le bacio le mani; et prego Nostro Signor Dio, che accresca in lei, i suoi santissimi doni et vertú. (?)
-Di san Germano di Pre. Il di 2 di Novembre del LXX.
-Di Vostra Altezza
-
-Concino rispondi una amorevole lettera
-
-Humilissimo et Devotissimo servidore
-
-Filipo Cavriana
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 2 November 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>554</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>47r-47v</locus>
+              <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Letter informing Cosimo I about Cavriana's investiture into the Order of Santo Stefano and expressing gratitude for this honor.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+              <handNote xml:id="hand2" scope="minor">Hand of Cosimo I de' Medici</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+        <listPlace>
+          <place xml:id="place-saintgermain">
+            <placeName>San Germano di Pre</placeName>
+            <location>
+              <country>France</country>
+            </location>
+          </place>
+        </listPlace>
+        <listPerson>
+          <person xml:id="pers-cavriana">
+            <persName>Filippo Cavriana</persName>
+          </person>
+          <person xml:id="pers-cosimo1">
+            <persName>Cosimo I de' Medici</persName>
+            <note>Grand Duke of Tuscany</note>
+          </person>
+          <person xml:id="pers-concino">
+            <persName>Concino</persName>
+            <note>Medici secretary</note>
+          </person>
+        </listPerson>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <placeName ref="#place-saintgermain">San Germano di Pre</placeName>
+          <date when="1570-11-02"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-cosimo1">Cosimo I de' Medici</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="47r"/>
+        <opener>
+          <lb/>
+          <salute>Serenissimo Signore et Signor mio Osservatissimo</salute>
+        </opener>
+        <p>
+          <lb/>L'ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName> appresso il re <choice><abbr>chmo</abbr><expan>christianissimo</expan></choice>, mi ha mostrato
+          <lb/>la commissione, che per lettere le à piacciuto di dargli af<lb break="no"/>fine che mi vestisse del habito, secondo gli ordini, et statuti
+          <lb/>della religione; del quale, desiderando io honorarmi quanto
+          <lb/>piu tosto potevo, per meglio servir, à <choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice>, hieri fù la
+          <lb/>festa de tutti i santi, ne fui vestito dal detto ambasciatore.
+          <lb/>Del che, io ho voluto, avisandone vostra serenità, renderle quelle mag<lb break="no"/>gior gratie, che per me si possono, conoscendo io quanto gran<lb break="no"/>de sia stato, il favor suo verso me, in conciedermi quello, che
+          <lb/>a pochissimi, anchor che di gran menti, et di altissimo lig<lb break="no"/>naggio, è avvenuto di ottenere. Per questo la <choice><abbr>suppl.o</abbr><expan>supplico</expan></choice> che
+          <lb/>havendomi una volta fatto degno del favore, et gratia sua,
+          <lb/>col testimonio di tanto honore, quanto conosco havere ricevuto
+          <lb/>di presente, contenti di continuarmelo, col <choice><abbr>cómandarmi</abbr><expan>comandarmi</expan></choice>, et dar
+          <lb/>mi materia di spendere le deboli forze mie del animo, et
+          <lb/>del corpo in servitio suo, et della religione, sicome gia gran
+          <lb/>tempo desidero sopra di che, havendo io hieri fatto solenne
+          <lb/>giuramento, nel ricever l'habito, subito mi venne in mente
+          <lb/>di quello, che molti anni <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>, quasi ogni di facevo per
+          <lb/>elettione meco medesimo, del quale questi è stata una <choice><abbr>có</abbr><expan>con</expan></choice>
+          <lb/>tinuatione, in conspetto del mondo. Di che, io tanto mi
+          <lb/>glorio, quanto dall'altra parte mi pesa molto, che al servi<lb break="no"/>tio di <choice><abbr>V.A.</abbr><expan>Vostra Altezza</expan></choice> et della religione, <choice><abbr>nó</abbr><expan>non</expan></choice> apporterò altro, che
+          <lb/>una pura, et sincera volontà, accompagnata da fede, et
+        </p>
+        <pb n="47v"/>
+        <p>
+          <lb/>da divotissima affettione, <choice><abbr>nó</abbr><expan>non</expan></choice> essendo in me ne sapere, ne
+          <lb/>prudenza, ne valore in modo, che cumulatamente adempia
+          <lb/>l'uffitio di quel servidore, che <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> merita, et che io
+          <lb/>vorrei. Ma in queste mie tenebre, havendomi io proposto
+          <lb/>di seguir sempre mai la chiarezza, che dal benigno lume di
+          <lb/>gratia, di <choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice> suol venire, dove et à chi le piace di
+          <lb/>spargere ; mi contenterò, che la divotissima mia volontà
+          <lb/>sia da lei conosciuta, sapendo che ella, un di adempirà il
+          <lb/>mio desiderio, col comandarmi, per non mi far parere del
+          <lb/>tutto inutile, et ingrato di tanta <choice><abbr>grá</abbr><expan>gratia</expan></choice>, che da lei ho ricevuto,
+          <lb/>per la quale, le bacio le mani; et prego <choice><abbr>N.ro</abbr><expan>Nostro</expan></choice> <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Dio, che
+          <lb/>accresca in lei, i suoi santissimi doni, et vertú. <unclear>re</unclear>
+          <lb/>Di <placeName ref="#place-saintgermain">san Germano di Pre</placeName>. Il di <date when="1570-11-02">2 di Novembre del LXX</date>.
+        </p>
+        <closer>
+          <lb/>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName>
+        </closer>
+        <note hand="#hand2"><persName ref="#pers-concino">Concino</persName> rispondi una amorevole lettera</note>
+        <closer>
+          <lb/>Humilissimo et Devotissimo servidore
+          <lb/>
+          <signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
