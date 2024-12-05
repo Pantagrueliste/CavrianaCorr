@@ -25,7 +25,7 @@
             <settlement>Florence</settlement>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
-            <idno>TBD</idno>
+            <idno>551</idno>
           </msIdentifier>
           <msContents>
             <msItem>
@@ -33,7 +33,7 @@
               <title>Letter discussing French political matters</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
-              <note type="summary">A detailed report on French court politics discussing: peace negotiations with Catholic princes and the Admiral; Cardinal of Lorraine's opposition to peace; the upcoming marriage of the Duke of Guise to the Princess of Portiano; tensions between Montmorency and Nevers over the Piedmont situation; the sale of Saluzzo's domain for 30,000 gold ducats; Alfonso d'Este's diplomatic mission; and various court intrigues.</note>
+              <note type="summary">A detailed report on French court politics discussing: peace negotiations with Catholic princes and the Admiral; Cardinal of Lorraine's opposition to peace and his illness in Paris; the upcoming marriage of the Duke of Guise to the Princess of Portiano; tensions between Montmorency and Nevers over the Piedmont situation; the sale of Saluzzo's domain for 30,000 gold ducats; Alfonso d'Este's diplomatic mission; and various court intrigues. The letter provides valuable insights into the complex political and religious dynamics at the French court in 1570.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -122,21 +122,21 @@
           <lb/>dimane, ritornano gli deputati dal Amiraglio, resoluti, et sicuri./
           <lb/>Se bene <persName ref="#pers-lorena">lorena</persName> fa del cattivo, et finge l'ammalato, per non venire 
           <lb/>al capitolo qui in <placeName ref="#place-sangermano">San Germano</placeName>, Pure voglia o no, la vi escluderà sul 
-          <lb/>naso, et haverà pacienza. egli è un strano gambero di mare, et vor<lb break="no"/>ria assicurarsi ben bene, ma io temo che, le cōverrà chiuder l'orec<lb break="no"/>chie, et havere pacienza. hieri la reina lo mandò a visitare, et es<lb break="no"/>sortarlo a venir da <placeName ref="#place-paris">parigi</placeName> (dove è l'aria cattiva) a <placeName ref="#place-sangermano">San Germano</placeName>, 
-          <lb/>che l'ha purgatiss.a, ma disse di non voler venire, amando meglio, 
+          <lb/>naso, et haverà pacienza. egli è un strano gambero di mare, et vor<lb break="no"/>ria assicurarsi ben bene, ma io temo che, le <choice><abbr>cōverrà</abbr><expan>converrà</expan></choice> chiuder l'orec<lb break="no"/>chie, et havere pacienza. hieri la reina lo mandò a visitare, et es<lb break="no"/>sortarlo a venir da <placeName ref="#place-paris">parigi</placeName> (dove è l'aria cattiva) a <placeName ref="#place-sangermano">San Germano</placeName>, 
+          <lb/>che l'ha <choice><abbr>purgatiss.a</abbr><expan>purgatissima</expan></choice>, ma disse di non voler venire, amando meglio, 
           <lb/>esser la infermo. che qui dishonorato, perchioche non va trovar buona 
           <lb/>questa pace. Molti credeno, che non habbia male, ma che finger lo 
           <lb/><unclear>sconucciato</unclear> si tiene per fermo, che egli sia in odio alla corte, per<lb break="no"/>cioche pure, che egli sia bandato, con tutti i principi catholici di <placeName ref="#place-francia">fran<lb break="no"/>cia</placeName> et con certi ambasciatori qui, come spagna, savoia et il papa, 
           <lb/>contro il paese di tutti quelli, che vogliono la pace, et quasi <unclear>capo</unclear> 
           <lb/>d'una parte, sminuisca l'auttorità regia nel terminare le cose <unclear>suei</unclear> che par come a dire, una altra seditione, o ribellione ; ma la si 
           <lb/>rompe; percioche uno <unclear>se conpensiero</unclear> venirà dimane, che à guadagnato, 
-          <lb/>et se ne guadagneran̄o delli altri, con modi, et con artifici ; et se 
+          <lb/>et se ne <choice><abbr>guadagneran̄o</abbr><expan>guadagneranno</expan></choice> delli altri, con modi, et con artifici ; et se 
           <lb/>egli solo, con uno o doi, resta di fuori, non si farà gran caso.
         </p>
         <p>
-          <lb/>Et aggionge la lrā, che si dice che mandò a varij prencipi, per
+          <lb/>Et aggionge la <choice><abbr>lrā</abbr><expan>lettera</expan></choice>, che si dice che mandò a varij prencipi, per
           <lb/>impedire il mariaggio della novella del re, accioche <persName ref="#pers-guisa">guisa</persName> suo
-          <lb/>nipote la sposasse, la quale ha aaspiaciuto molto, à Monsignore fr.llo
+          <lb/>nipote la sposasse, la quale ha aaspiaciuto molto, à Monsignore <choice><abbr>fr.llo</abbr><expan>fratello</expan></choice>
           <lb/>del Re, dal quale hebbe una schiavina di parole. Ma 
           <lb/><persName ref="#pers-guisa">guisa</persName> sposa fra 15 giorni, la princesse di Portiano, che cosi ha 
           <lb/>ordinato il Re et reina, et il cardinale di <persName ref="#pers-guisa">Guisa</persName> le dona un 
@@ -145,7 +145,7 @@
           <lb/>alla pace di <unclear>marcone</unclear>, et a madonna venere. <persName ref="#pers-momoransi">Mamoransi</persName> guidò 
           <lb/>hieri un Consiglio con <persName ref="#pers-nevers">Nevers</persName>, et hebbero aspre parole, non si <unclear>sa</unclear> quello 
           <lb/>che riuscirà. Si è concluso che si venda in <placeName ref="#place-piemonte">Piemonte</placeName> <unclear>detto</unclear> sta<lb break="no"/>to di <placeName ref="#place-saluzzo">Saluzzi</placeName>, cioe de beni del dominio, per 30 mila Δ per so<lb break="no"/>venire alle miserie di quelle quarniggioni le quali ne van per<lb break="no"/>dute, et rovinate, non havendo in 20 mesi toccato pur un soldo, 
-          <lb/>et per schiffare le insidie delli ugonotti, che han̄o intelligenza
+          <lb/>et per schiffare le insidie delli ugonotti, che <choice><abbr>han̄o</abbr><expan>hanno</expan></choice> intelligenza
         </p>
 
         <pb n="217v"/>
@@ -156,7 +156,7 @@
           <lb/><unclear>pereria</unclear>, della quale, si parlò gia un anno, et per haver <persName ref="#pers-nevers">Nevers</persName> <unclear>detto</unclear> 
           <lb/>in publico, che se non si soccorreva alle cose di <placeName ref="#place-piemonte">Piemonte</placeName>, che <unclear>nascendone</unclear>
           <lb/>disastro, ne voleva esser libero, et bisognava provedere <unclear>di chi</unclear> la de 
-          <lb/>monti ; <unclear>servandosi</unclear> la reina sulla necessità, et difficoltà de tempi, <persName ref="#pers-momoransi">Momo<lb break="no"/>ransi</persName> che ha l'animo impiagato, rirpovò l'opinione di <persName ref="#pers-nevers">Nevers</persName>, mostrā<lb break="no"/>do che a questo non si poteva sovenire, poi che la <placeName ref="#place-francia">francia</placeName> haveva piu biso<lb break="no"/>gno del <placeName ref="#place-piemonte">piemonte</placeName>, su questo, si parlo molto et tra loro doi si <unclear>gndo</unclear> 
+          <lb/>monti ; <unclear>servandosi</unclear> la reina sulla necessità, et difficoltà de tempi, <persName ref="#pers-momoransi">Momo<lb break="no"/>ransi</persName> che ha l'animo impiagato, rirpovò l'opinione di <persName ref="#pers-nevers">Nevers</persName>, <choice><abbr>mostrā</abbr><expan>mostra</expan></choice><lb break="no"/>do che a questo non si poteva sovenire, poi che la <placeName ref="#place-francia">francia</placeName> haveva piu biso<lb break="no"/>gno del <placeName ref="#place-piemonte">piemonte</placeName>, su questo, si parlo molto et tra loro doi si <unclear>gndo</unclear> 
           <lb/><persName ref="#pers-alfonso-este">Don Alfonso da este</persName> ha mandato qui il conte Iulio <unclear>Tassones</unclear>, per che vo<lb break="no"/>le venir in <placeName ref="#place-francia">Francia</placeName>, a starvi un tempo, et costui maneggierà le conditionij 
           <lb/>et tratterà della provisione, et caricar <add place="above" rend="superscript">che so di <unclear>resta</unclear></add> pensate che farà qualche pas<lb break="no"/>saggio, sopra la nova dignità del gran duca, ma in vano, perche la 
           <lb/>Reina, non si muta, et fa bene. I corsi gridano il pane, et sono qui 
@@ -165,10 +165,10 @@
           <lb/>piero. Gli principi francesi catholicim <unclear>dissegnano</unclear> doppò le nozze 
           <lb/>ritirarsi alle cose loro, <quote xml:lang="la">tamoperam inglorij</quote>, et dishonorati ; ma una buo<lb break="no"/>na chiesa del re, gli ritenerà, massime chi ha la moglie, percio<lb break="no"/>che, le donne amano la corte, <quote xml:lang="la">et galli sunt uxorij</quote>. Raccoman<lb break="no"/>dovi il fatto della mia mercantia, la quale sta in <unclear>mancanza pur</unclear> 
           <lb/>vi ricordo, che io sono et serò sempre <choice><abbr>vrō</abbr><expan>vostro</expan></choice>, <unclear>servovi</unclear> questo per
-          <lb/>che siete occupato molto in negotij d'importāza. Scrive al grā 
-          <lb/>Duca <persName ref="#pers-vincenzo">Vicenzo da Castello</persName>. V. Signoria procuri fauorirlo, che nō le in<lb break="no"/>crescerà. Il Re va di continuo alla caccia, ne sta quito, et
+          <lb/>che siete occupato molto in negotij d'<choice><abbr>importāza</abbr><expan>importanza</expan></choice>. Scrive al <choice><abbr>grā</abbr><expan>gran</expan></choice> 
+          <lb/>Duca <persName ref="#pers-vincenzo">Vicenzo da Castello</persName>. V. Signoria procuri fauorirlo, che <choice><abbr>nō</abbr><expan>non</expan></choice> le in<lb break="no"/>crescerà. Il Re va di continuo alla caccia, ne sta quito, et
           <lb/>questa <choice><abbr>nra</abbr><expan>nostra</expan></choice> pace, darà spesa a vicini, tema a molti, et da pensare 
-          <lb/>di dovere essere grá cose.
+          <lb/>di dovere essere <choice><abbr>grá</abbr><expan>grandi</expan></choice> cose.
         </p>
         <closer>
           <dateline>Di <placeName ref="#place-sangermano">San Germano</placeName>, il di <date when="1570-07-29">29 Luglio 1570</date>.</dateline>
