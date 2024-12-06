@@ -1,144 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Filippo Cavriana to Bartolomeo Concino, 21 December 1569</title>
-                <author>Filippo Cavriana</author>
-                <editor>Clément Godbarge</editor>
-                <respStmt>
-                    <resp>Lecturer in Digital Humanities</resp>
-                    <name>University of St Andrews</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Clément Godbarge</publisher>
-                <pubPlace>St Andrews, Scotland, UK</pubPlace>
-                <date>2024</date>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <settlement>Florence</settlement>
-                        <repository>Archivio di Stato di Firenze</repository>
-                        <collection>Mediceo del Principato</collection>
-                        <idno>549</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <locus>57r</locus>
-                            <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-                            <author>Filippo Cavriana</author>
-                            <textLang mainLang="it">Italian</textLang>
-                            <note type="summary">Letter concerning Cavriana's proofs of nobility and his request to receive the habit of the Order of Santo Stefano in France due to his obligations to the Duke of Nevers</note>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="letter">
-                            <layoutDesc>
-                                <p>Single column</p>
-                            </layoutDesc>
-                        </objectDesc>
-                        <handDesc hands="1">
-                            <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-                <listPlace>
-                    <place xml:id="place-mantova">
-                        <placeName>Mantova</placeName>
-                        <location>
-                            <geo>45.1563 10.7914</geo>
-                        </location>
-                    </place>
-                    <place xml:id="place-francia">
-                        <placeName>Francia</placeName>
-                    </place>
-                    <place xml:id="place-pisa">
-                        <placeName>Pisa</placeName>
-                        <location>
-                            <geo>43.7228 10.4017</geo>
-                        </location>
-                    </place>
-                </listPlace>
-                <listPerson>
-                    <person xml:id="pers-cavriana">
-                        <persName>Filippo Cavriana</persName>
-                    </person>
-                    <person xml:id="pers-nevers-duke">
-                        <persName>Duca di Nevers</persName>
-                    </person>
-                    <person xml:id="pers-petrucci">
-                        <persName>Commendator Petrucci</persName>
-                    </person>
-                    <person xml:id="pers-concino">
-                        <persName>Bartolomeo Concino</persName>
-                    </person>
-                </listPerson>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Named entities are annotated only in the main hand.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#pers-cavriana">Filippo Cavriana</persName>
-                    <placeName ref="#place-mantova">Mantova</placeName>
-                    <date when="1569-12-21">21 December 1569</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#pers-concino">Bartolomeo Concino</persName>
-                    <placeName ref="#place-firenze">Firenze</placeName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <opener>
-                    <salute>Molto <choice><abbr>Mag.re</abbr><expan>Maggiore</expan></choice> Signore</salute>
-                </opener>
-                <p>
-                    <lb/>Vorrei potermi rallegrare particolarmente con <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> come 
-                    <lb/>con l'animo mi congratulo del novo titolo di sua Altezza. Percioche 
-                    <lb/>vedrà quanto piacere ne habbia preso, Ma il mio Signore, volendo pure 
-                    <lb/>cosi indisposto come è, passare in <placeName ref="#place-francia">Francia</placeName>, a cinque di Gennaro, 
-                    <lb/>mi meta l'effetto di cosi desiderato et giusto contento d'animo. Per tanto, 
-                    <lb/>servirà questa mia per congratulatione er raccomandare à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, 
-                    <lb/>pregandola al tener mano, con il Signor stuggio alle mie prove, con 
-                    <lb/>quali ho mandato in man sua, acciochè le presenti alli signori cavallieri 
-                    <lb/>commissarij et se ne vegga il fine, e se tardi sono arrivate, imputisis 
-                    <lb/>alli infortunij, passati da me in <placeName ref="#place-ancona">Ancona</placeName>, mentre che correndo 
-                    <lb/>la medesima fortuna del <persName ref="#pers-nevers-duke">Duca di Nevers</persName>, da questa medesima son stato 
-                    <lb/>sfortunatamente travagliato. Vedrà anche per quello che scrivo al detto 
-                    <lb/>stiggio come desidererei (piacendo però a sua Altezza) esser dispensato 
-                    <lb/>per leggittima causa a non venire a <placeName ref="#place-pisa">Pisa</placeName>, a ricever l'habito ma se 
-                    <lb/>cosi fosse il piacer suo, che il <persName ref="#pers-petrucci">commendator Petruzzi</persName> me lo disse in 
-                    <lb/><placeName ref="#place-francia">Francia</placeName> con una lettera di sua serenità, non possendo io in modo 
-                    <lb/>alcuno, lasciare il <persName ref="#pers-nevers-duke">duca di Nevers</persName>, sendo sua eccellenza nel termine 
-                    <lb/>che è il che al giuditio mio non è dimanda impostuna ne è stata negata 
-                    <lb/>ad alcuni che la chiesito. Nondimeno con che giuditio di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> 
-                    <lb/>sole questo mare, et si pare a lei che non so possa dimandare, o dimandata 
-                    <lb/>ottenere, pongasi in sitenio che mi piacerà in ogni evento, haver seguito 
-                    <lb/>il parere di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> alla quale con ogni affetto d'animo, me le raccomando.
-                    <lb/>Di <placeName ref="#place-mantova">Mantova</placeName> a <date when="1569-12-21">21 di Dicembre del 69</date>.
-                </p>
-                <closer>
-                    <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>
-                    <lb/>Servidore affetionatissimo
-                    <lb/><signed>Filippo Cavriana</signed>
-                </closer>
-                <postscript>
-                    <p>par P da lasciar terminar il negotio delle provanze et per domandar quel ... all' .. sara la causa della assenzia.</p>
-                </postscript>
-            </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 20 May 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>549</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="333r" to="336r">fols. 333r-336r</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">A letter reporting on political and military developments in France, particularly concerning Protestant movements and German support.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+        <listPlace>
+          <place xml:id="place-paris">
+            <placeName>Parigi</placeName>
+            <placeName type="modern">Paris</placeName>
+            <location>
+              <geo>48.8566 2.3522</geo>
+              <country>FR</country>
+            </location>
+          </place>
+          <place xml:id="place-florence">
+            <placeName>Firenze</placeName>
+            <placeName type="modern">Florence</placeName>
+            <location>
+              <geo>43.7696 11.2558</geo>
+              <country>IT</country>
+            </location>
+          </place>
+          <place xml:id="place-lorraine">
+            <placeName>Loreno</placeName>
+            <placeName type="modern">Lorraine</placeName>
+            <location>
+              <geo>48.6937 6.1834</geo>
+              <country>FR</country>
+              <region>Lorraine</region>
+            </location>
+          </place>
+          <place xml:id="place-heidelberg">
+            <placeName>Hedelberga</placeName>
+            <placeName type="modern">Heidelberg</placeName>
+            <location>
+              <geo>49.3988 8.6724</geo>
+              <country>DE</country>
+            </location>
+          </place>
+          <place xml:id="place-savoy">
+            <placeName>Savoia</placeName>
+            <placeName type="modern">Savoy</placeName>
+            <location>
+              <geo>45.5667 5.9333</geo>
+              <country>FR</country>
+              <region>Savoie</region>
+            </location>
+          </place>
+          <place xml:id="place-france">
+            <placeName>Francia</placeName>
+            <placeName type="modern">France</placeName>
+            <location>
+              <geo>46.2276 2.2137</geo>
+              <country>FR</country>
+            </location>
+          </place>
+          <place xml:id="place-germany">
+            <placeName>Germania</placeName>
+            <placeName type="alt">Alamagna</placeName>
+            <placeName type="modern">Germany</placeName>
+            <location>
+              <geo>51.1657 10.4515</geo>
+              <country>DE</country>
+            </location>
+          </place>
+          <place xml:id="place-pragelato">
+            <placeName>Prageli</placeName>
+            <placeName type="modern">Pragelato</placeName>
+            <location>
+              <geo>45.0167 6.9333</geo>
+              <country>IT</country>
+              <region>Piemonte</region>
+            </location>
+          </place>
+          <place xml:id="place-angrogna">
+            <placeName>l'Angrogna</placeName>
+            <placeName type="modern">Angrogna</placeName>
+            <location>
+              <geo>44.8167 7.1833</geo>
+              <country>IT</country>
+              <region>Piemonte</region>
+            </location>
+          </place>
+          <place xml:id="place-saxony">
+            <placeName>Sassonia</placeName>
+            <placeName type="modern">Saxony</placeName>
+            <location>
+              <geo>51.0493 13.7384</geo>
+              <country>DE</country>
+              <region>Sachsen</region>
+            </location>
+          </place>
+          <place xml:id="place-piedmont">
+            <placeName>Piemonte</placeName>
+            <placeName type="modern">Piedmont</placeName>
+            <location>
+              <geo>45.0522 7.5155</geo>
+              <country>IT</country>
+            </location>
+          </place>
+          <place xml:id="place-pinerolo">
+            <placeName>Pineruolo</placeName>
+            <placeName type="modern">Pinerolo</placeName>
+            <location>
+              <geo>44.8833 7.3333</geo>
+              <country>IT</country>
+              <region>Piemonte</region>
+            </location>
+          </place>
+        </listPlace>
+        <listPerson>
+          <person xml:id="pers-cavriana">
+            <persName>Filippo Cavriana</persName>
+          </person>
+          <person xml:id="pers-cosimo">
+            <persName>Cosimo I de' Medici</persName>
+            <roleName>Gran Duca</roleName>
+          </person>
+          <person xml:id="pers-charles9">
+            <persName>Charles IX</persName>
+            <persName type="alt">Re Christianissimo</persName>
+            <persName type="alt">Re di Francia</persName>
+            <note>King of France (r. 1560-1574)</note>
+          </person>
+          <person xml:id="pers-palatine">
+            <persName type="full">Frederick III, Elector Palatine</persName>
+            <persName type="reg">Friedrich III. von der Pfalz</persName>
+            <persName type="alt">Palatino</persName>
+            <roleName>Elector Palatine</roleName>
+            <roleName>Count Palatine of the Rhine</roleName>
+            <note>Elector Palatine (r. 1559-1576). A leading Protestant prince known as "Frederick the Pious".</note>
+          </person>
+          <person xml:id="pers-augustus">
+            <persName>Augustus of Saxony</persName>
+            <persName type="alt">Duca di Sassonia Agosto</persName>
+            <note>Elector of Saxony (r. 1553-1586)</note>
+          </person>
+          <person xml:id="pers-admiral">
+            <persName>Gaspard II de Coligny</persName>
+            <persName type="alt">Amiraglio</persName>
+            <persName type="alt">Admiral Coligny</persName>
+            <note>Admiral of France (1519-1572), leader of the Huguenots</note>
+          </person>
+          <person xml:id="pers-william">
+            <persName>William of Saxe-Weimar</persName>
+            <persName type="alt">Guglielmo duca di Sassonia</persName>
+            <note>Duke of Saxe-Weimar (1547-1573)</note>
+          </person>
+          <person xml:id="pers-concino">
+            <persName>Bartolomeo Concino</persName>
+          </person>
+          <person xml:id="pers-petrucci">
+            <persName>Petrucci</persName>
+            <roleName>Commendator</roleName>
+          </person>
+          <person xml:id="pers-casimir">
+            <persName>Prince Casimir</persName>
+          </person>
+          <person xml:id="pers-ossonville">
+            <persName>Monseigneur d'Ossonville</persName>
+          </person>
+        </listPerson>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-05-20"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concino">Bartolomeo Concino</persName>
+          <placeName ref="#place-florence">Firenze</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="333r"/>
+        <opener>
+          <salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio, et <choice><abbr>s.or</abbr><expan>signor</expan></choice> <choice><abbr>osserv.mo</abbr><expan>osservandissimo</expan></choice></salute>
+        </opener>
+        <p>
+          <lb/>Scrissi a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> senza nome consiglianomene il <persName ref="#pers-petrucci">signor commendator 
+          <lb/>Petruzzi</persName>, gia piu di un mese; et se avisai d'alcuni, i quali 
+          <lb/>temendosi molto, dalla grandezza et novo titolo di sua <choice><abbr>Alt.za</abbr><expan>Altezza</expan></choice>
+          <lb/>cercavano opporsi, col favor di certi, alli dissegni, i quali 
+          <lb/>dicevano essere nell'animo di quella; con ogli studio et arte, 
+          <lb/>accioche, il pensiero l'andasse fallito, quando havesse interpr<lb break="no"/>eso di ingrandirsi d'avantaggio et aggionsi anche altre parti<lb break="no"/>colari, che per allhora potevano servire al serenissimo 
+          <lb/>gran Duca, <choice><abbr>q'ndo</abbr><expan>quando</expan></choice> intesi l'havesse / Hora arrivato qui il <choice><abbr>S.or</abbr><expan>Signor</expan></choice>
+          <lb/><persName ref="#pers-petrucci">Petruzzi</persName>, et <choice><abbr>coḿunicatogli</abbr><expan>communicatogli</expan></choice> quello, che c'era di novo, m'ha 
+          <lb/>persuaso a scriverlo di mia mano, et far aperto à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> il nome 
+          <lb/>mio, accioché ella habbia testimonio di mia mano, della divo<lb break="no"/>tione et riverente servitu, <choice><abbr>có</abbr><expan>con</expan></choice> la quale ho gia qualch' anno 
+          <lb/>abbracciato i negotij di sua serenità ; come che, ella habbia 
+          <lb/>havuto sempre fidelissimi, et prudentissimi ministrj. Sap<lb break="no"/>pia adunque <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> che gia 20 giorni, venne un mio di <placeName ref="#place-germany">lama<lb break="no"/>gna</placeName> il quale trattengo <choice><abbr>có</abbr><expan>con</expan></choice> grossa spesa alla, corte del <persName ref="#pers-palatine">Pala<lb break="no"/>tino</persName> in <placeName ref="#place-heidelberg">Hedelberga</placeName>, et mi rapportò ; che le nozze del 
+          <lb/><persName ref="#pers-casimir">principe Cassimeiro</persName>, <choice><abbr>có</abbr><expan>con</expan></choice> la figliuola del <persName ref="#pers-augustus">Duca di sassonia Agos<lb break="no"/>to</persName>, si erano differite, sino alli 15 del pńte mese, dove 
+          <lb/>intervenivano molti signori, et prencipi di <placeName ref="#place-germany">Germania</placeName>, accom<lb break="yes"/>pagnati da grosso numero di vassalli suoi, et altri loro se<lb break="yes"/>guaci armati, in modo che seriano stati ben sei o sette 
+          <lb/>mille cavalli, et essendo in questo tempo, arrivato <persName ref="#pers-ossonville">Mons.re 
+          <lb/>d'Ossonville</persName>, gran barone in <placeName ref="#place-lorraine">Loreno</placeName>, mandato dal <persName ref="#pers-admiral">Amiraglio</persName>
+          <lb/>per <choice><sic>dimandat</sic><corr>dimandar</corr></choice> soccorso, al detto Palatino, fulli risposto che 
+          <lb/>sopra ciò, alla assemblea di tutti qui <choice><abbr>s.ri</abbr><expan>signori</expan></choice>, et principi che ver<lb break="yes"/>rańo alle nozze del <persName ref="#pers-casimir">principe cassimeiro</persName>, si ragionerà ampia<lb break="yes"/>mente; et si li notificherà la volontà <choice><abbr>com̄une</abbr><expan>commune</expan></choice>; <persName ref="#pers-ossonville">Ossonville</persName>
+
+          <pb n="333v"/>
+          <lb/>sapendo quanto potesse nocere alle cose delli ugonotti, opgni 
+          <lb/>dilatione del <persName ref="#pers-palatine">Palatino</persName>, replicò a questo, che se il soccorso tar<lb break="yes"/>dava a venire, la religione portava pericolo di sradicarsi 
+          <lb/>di Francia ; et che però prima d'haver trovati quattro o sei 
+          <lb/>mille cavalli , et condottili sotto la carica di qualcheduno, 
+          <lb/>sino alli confini di <placeName ref="#place-germany">Germania</placeName>, vi seriano corsi ben tre me<lb break="yes"/>si, nel qul tempo, <persName ref="#pers-william">Guglielmo duca di saxonia</persName>, andava 
+          <lb/>in aiuto del Re con quattro mille Raiteri, gia assoldati, 
+          <lb/>et condotti sotto l'insigne ; onde constretto da tanta necessità 
+          <lb/>supplicava, che nella causa <choice><abbr>coḿune</abbr><expan>commune</expan></choice>, <choice><abbr>no̍</abbr><expan>non</expan></choice> fossero scordati gli 
+          <lb/>fratelli, i quali combattevano, <quote xml:lang="la">pro aris ac focis</quote>. A questo 
+          <lb/>le disse il Palatino, che stesse di buon animo, et che qn̍do 
+          <lb/>serà risoluto nella assemblea, che si mandi soccorso; delli
+          <lb/>sei, o sette mille cavalli, venuti co̍ i <choice><abbr>sig.ri</abbr><expan>signori</expan></choice>, et principi alle 
+          <lb/>nozze, se ne cavara̍no quattro o cinque, sotto il governo di 
+          <lb/>uno viterano, et conosciuto capitano, i quali in sei giorni 
+          <lb/>seran̍o alli confini di Francia, et esseguiran̍o la volontà del
+          <lb/><persName ref="#pers-admiral">Amiraglio</persName>. In questo mentre si impedirà l'andata di <persName ref="#pers-william">Gu
+          <lb break="no"/>glielmo</persName>, comandando à quì sassoni, condotti da lui, che ritor<lb break="yes"/>nino alle loro case, sotto pena della disgratia di <persName ref="#pers-augustus">Agosto</persName>, 
+          <lb/>lor signore, et a <persName ref="#pers-william">Guglielmo</persName>, si moverà lite da questo medesi<lb break="yes"/>mo, sopra alcune terre, et con questa discussione, si da<lb break="yes"/>rà tempo al tempo; con questo <persName ref="#pers-ossonville">ossonville</persName> se ne ritornò.
+        </p> 
+
+        <p><lb/>Dal medesimo mio intesi, che gli Ughonotti di <placeName ref="#place-pragelato">Prageli</placeName>, <placeName ref="#place-angrogna">l'Angro<lb break="yes"/>gna</placeName>, et altre valli di <placeName ref="#place-savoy">Savoia</placeName>, havevano ordito un tradi<lb break="yes"/>mento in <placeName ref="#place-pinerolo">Pineruolo</placeName>, et altri luoghi del Re <choice><abbr>chnm̍o</abbr><expan>christianissimo</expan></choice>, in <placeName ref="#place-piedmont"><choice><abbr>Piemo̍<lb break="yes"/>te</abbr><expan>Piemonte</expan></choice></placeName> col favore di certi soldati presichiarij, et che la cosa an<lb break="yes"/>drà avanti, se la guerra persevera; il qual aviso mi è,
+
+          <pb n="336r"/>
+          <lb/>stato confermato doppoi <choice><abbr>co̍</abbr><expan>con</expan></choice> lettere di <placeName ref="#place-piedmont">Piemonte</placeName>, et ho visto che 
+          <lb/>questa sorte d'huomini, ha le mani in ogni luogo, onde biso<lb break="yes"/>gna guardarsi molto bene, et temere anchora li genti di 
+          <lb/>lontano; se io havessi una cifra per scrivere à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> di 
+          <lb/>molti particolari, i quali <choice><abbr>no̍</abbr><expan>non</expan></choice> oso committere alla <choice><abbr>lr̍a</abbr><expan>lettera</expan></choice>, 
+          <lb/>la rinderei contenta, quanto alli avvisi, si bene mal contenta 
+          <lb/>quanto alle cose che avisassi. Però la mi scriverà se le 
+          <lb/>piace, se ho a continuare in questo uffitio, o no, non volen<lb break="no"/>do io, pensando di servire quel <persName ref="#pers-cosimo">Gran Duca</persName>, offenderlo, <choice><abbr>co̍</abbr><expan>con</expan></choice> im<lb break="yes"/>portunità. Quello che li scriverò, serà sempre mai vero, 
+          <lb/>et saputo da pochi, non pescando io nel guado <choice><abbr>coḿune</abbr><expan>commune</expan></choice>, 
+          <lb/>ma nelle acque piu alte, et piu pericolose, et si bene 
+          <lb/>la mi costa, qualche scudo ogni anno, godo nondimeno, 
+          <lb/>anch'io, <choice><abbr>no̍</abbr><expan>non</expan></choice> essendo prencipe, sapere quello che gli pren<lb break="yes"/>cipi trattano. Io ho dedicato me stesso, al serenissimo 
+          <lb/>suo, et mio <choice><abbr>sig.re</abbr><expan>signore</expan></choice>, et dedicato in modo, che <choice><abbr>no̍</abbr><expan>non</expan></choice> mi separerò 
+          <lb/>mai, per alcuno accidente dal suo servitio, però rendasi 
+          <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> sicura, che essendo io conosciuto qui da molti, et haven.o 
+          <lb/>intelligenza in molti luoghi, <choice><abbr>no̍</abbr><expan>non</expan></choice> c'è persona che mi sia 
+          <lb/>per avanzare in servir à sua serenità, di fede, o di 
+          <lb/>affettione, mentre che sia però impiegato; se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> giudicherà 
+          <lb/>necessario che li mandi il nome delli complici di tutto questo 
+          <lb/>trattato di <placeName ref="#place-piedmont">Piemonte</placeName>, per servirne sua <choice><abbr>Altez.</abbr><expan>Altezza</expan></choice> ad obligarsi 
+          <lb/><placeName ref="#place-savoy">Savoia</placeName>, come si puo fare, io gli manderò et questo basti 
+          <lb/>per salutatione et per <choice><abbr>racc.ne</abbr><expan>raccomandatione</expan></choice> a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, alla quale resto 
+          <lb/><choice><abbr>affett.mo</abbr><expan>affettionatissimo</expan></choice> sempre mai.
+        </p>
+
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il <date when="1570-05-20">XX di Maggio 
+          <lb/>del LXX</date>.</dateline>
+          <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>
+          <lb/>servitor
+          <lb/><signed>Filippo Cavriana</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
 </TEI>
