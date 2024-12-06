@@ -158,7 +158,7 @@
           </person>
           <person xml:id="pers-cosimo">
             <persName>Cosimo I de' Medici</persName>
-            <roleName>Gran Duca</roleName>
+            <name type="title">Gran Duca</name>
           </person>
           <person xml:id="pers-charles9">
             <persName>Charles IX</persName>
@@ -170,8 +170,8 @@
             <persName type="full">Frederick III, Elector Palatine</persName>
             <persName type="reg">Friedrich III. von der Pfalz</persName>
             <persName type="alt">Palatino</persName>
-            <roleName>Elector Palatine</roleName>
-            <roleName>Count Palatine of the Rhine</roleName>
+            <name type="title">Elector Palatine</name>
+            <name type="title">Count Palatine of the Rhine</name>
             <note>Elector Palatine (r. 1559-1576). A leading Protestant prince known as "Frederick the Pious".</note>
           </person>
           <person xml:id="pers-augustus">
@@ -195,7 +195,7 @@
           </person>
           <person xml:id="pers-petrucci">
             <persName>Petrucci</persName>
-            <roleName>Commendator</roleName>
+            <name type="title">Commendator</name>
           </person>
           <person xml:id="pers-casimir">
             <persName>Prince Casimir</persName>
