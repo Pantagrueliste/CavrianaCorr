@@ -31,9 +31,9 @@
             <msItem>
               <locus>217r-217v</locus>
               <title>Letter discussing French political matters</title>
-              <author>Filippo Cavriana</author>
+              <author>Chi ella sà</author>
               <textLang mainLang="it">Italian</textLang>
-              <note type="summary">A detailed report on French court politics discussing: peace negotiations with Catholic princes and the Admiral; Cardinal of Lorraine's opposition to peace and his illness in Paris; the upcoming marriage of the Duke of Guise to the Princess of Portiano; tensions between Montmorency and Nevers over the Piedmont situation; the sale of Saluzzo's domain for 30,000 gold ducats; Alfonso d'Este's diplomatic mission; and various court intrigues. The letter provides valuable insights into the complex political and religious dynamics at the French court in 1570.</note>
+              <note type="summary">A detailed report on French court politics discussing: peace negotiations with Catholic princes and the Admiral Coligny; Cardinal of Lorraine's opposition to peace and his illness in Paris; the upcoming marriage of the Duke of Guise to the Princess of Portiano; tensions between Montmorency and Nevers over the Piedmont situation; the sale of Saluzzo's domain for 30,000 gold ducats; Alfonso d'Este's diplomatic mission; and various court intrigues. The letter is likely to be written by Cavriana, who sometimes signs letters as "chi ella sà". It refers to its second false identity: Vincenzo da Castello.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -103,7 +103,7 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Filippo Cavriana</persName>
+          <persName>Chi ella sà</persName>
           <placeName ref="#place-saintgermain">San Germano</placeName>
           <date when="1570-07-29">29 July 1570</date>
         </correspAction>

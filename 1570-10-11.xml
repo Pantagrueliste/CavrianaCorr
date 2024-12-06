@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 11 September 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>554</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>f. 3</locus>
+              <title>Letter from Filippo Cavriana</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">A lengthy letter discussing political matters, particularly regarding tensions between ambassadors and the need for careful diplomatic handling of various powers including France, Spain, and Savoy.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Note: Line breaks will be added upon consultation of the manuscript during a future archival visit.</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+        <listPlace>
+          <place xml:id="place-paris">
+            <placeName>Parigi</placeName>
+            <location>
+              <geo>48.8566 2.3522</geo>
+            </location>
+          </place>
+          <place xml:id="place-france">
+            <placeName>Francia</placeName>
+          </place>
+          <place xml:id="place-piedmont">
+            <placeName>Piemonte</placeName>
+          </place>
+        </listPlace>
+        <listPerson>
+          <person xml:id="pers-cavriana">
+            <persName>Filippo Cavriana</persName>
+            <persName type="alias">Vincenzo da Castello</persName>
+          </person>
+          <person xml:id="pers-concino">
+            <persName>Concinno</persName>
+          </person>
+          <person xml:id="pers-queen">
+            <persName>Regina</persName>
+            <note>Catherine de' Medici</note>
+          </person>
+          <person xml:id="pers-montmorency">
+            <persName>Montmoransy</persName>
+          </person>
+          <person xml:id="pers-duke-savoy">
+            <persName>Duca di Savoia</persName>
+          </person>
+        </listPerson>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Line breaks are not currently encoded as they await verification from manuscript consultation.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-09-11"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Cosimo I de' Medici</persName>
+          <placeName>Firenze</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="3"/>
+        <opener>
+          <salute>Serenissimo Signore</salute>
+        </opener>
+        <p>D'ogni tempo mi seria parso mancare, Serenissimo Signore al debito di quella riverente affetione, con la quale gia tre anni sono, cominciai per elettione ad abbracciare il servitio di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza, se io non mi fussi forzato di far conoscere al suo ambasciator di qua, (poichè a lei altrimente non potevo) L'ardente desiderio che porto di vivere et morir servendola; et insieme i modi che si tengono dalli emuli di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> serenità per opporsi alla sua grandezza.</p>
+
+        <p>Ma tanto maggiormente, havrei creduto di mancar hora, quanto che nata occasione, da me molto prima conosciuta, à questi medecimi di far quello che gia gran tempo havevano in animo, havevo giusta caua di mostrarmi quello appunto che desidero esser conosciuto da <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza cioe sucitato et devoto servidor suo. Percioche dovendosi fare una processione generale, alla quale tutti gli Ambasciatori intervenivano, gli avversarij, dirò nostri, convocati molti soldati et altri della fattione havevano disdegnato trovarsivi per scaricarsi di quell'affronto il quale, per loro d'haver ricevuto gia doi anni nel conspetto di tutta la corte dal Ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza piu tosto che per far novo tumulto;</p>
+
+        <p>Ma tra la prudenza della <persName ref="#pers-queen">Reina</persName>, che à questo si oppose, et tra le provisioni che si erano fatte in contrario, havendone io avvertito l'ambasciatore, per le spie che mo lo rifferivano, la cosa è passata senza strepito, essendo ciescuna delle parti, restata a casa soa, Il che se bene son sicuro che <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza intenderà per lettere d'altri che al fatto mi dovevo trovare con qualche compagnia, affine che pensando ella, et col suo prudentissimo giuditio discorrendo, quello che puo nascere d'inconveniente et che averra al fin fine, si proveda al rimedio, et se ne pigli la risolutione, la quale da <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza è necessario che venga.</p>
+
+        <p>Percioche, ingrossandosi qui, ogni di molto la parte contraria di favore, di huomini et di appoggi, pare che ella non voglia in alcun modo perder la pugna, et tanto piu che un huomo di molta accortezza, et versato in simili prattiche potentissimo nella corte, governa tutti i favori, della parte avversa, facendo testa alle forze nostre, non tanto, per che egli paia nochiero di questa nave di <placeName ref="#place-france">Francia</placeName>, che fluttua, ma perché havendo altra mira che la querela di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza disdegna rompere, et abbattere i pensieri et maneggi di pesona, vie piu grande d'un pezzo di sui, la quale per legge di Natura, per benefitio ricevuto in varij tempi, da <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza et segnalatissimo, et per necessità, abbraccia con l'animo la causa lei, sicome in qualche ragionamento, fatto con persone confidente, si ha potuto conoscere.</p>
+
+        <p>Ha <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza fautori della causa sua la <persName ref="#pers-queen">Reina</persName>, et <persName ref="#pers-montmorency">Montmoransy</persName>, si come si dice per ogniuno, sapendo egli, che non è, piu ricco thesoro al mondo à ciascuno che un gran numero d'amici; et però trovandosi con auttorità con imperio et con grandissimo appoggio d'amici, et parenti, al fianco di cosi benigno vento di fortuna, governa le cose sue, et resiste solo ai primi signori di <placeName ref="#place-france">Francia</placeName>, grato al Re, et accetto molto a Monsignore però favoreggiando altri, conferma la sua potenza et quella de suoi senza incommodo, et iattura delle sue fortune.</p>
+
+        <p>Delli altri di corte io non conosco persona che c'ami, non escludendo anche gli Italiani percioche, chi sbandito delli stpati, et vie piu dalla gratia di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza chi soiggetto, alla parte avversa, chi pendendo da quella per adherenza, et parentado, et chi pratticato con artificij di corte et con lusinghe di donne, ogni altra cosa desidera che la grandezza di Lei la quale essendo sospetta et odiosa a molti, massime a piu vicini fa loro credere che <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza non contenta della sola Thoscana aspiri a maggior fortuna, et imperio, sapendo ella, benissimo conoscere il tempo et secondo quello operare.</p>
+
+        <p>E bisogno dunque a mio giuditio che da <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza si pensi bene a questo fatto, percioche nascendo assai spesso alli ambasciatori di trovarsi insieme publicamente, et usando l'avversario, d'andarsi in punto, et con buona scorta, non si potrà fare che un giorno al dispetto delli capi, non si venga alle mani, dove comminciatio ad accendersi il fuoco, converrà per forza, che infiammi, et questi di qua, et quelli de la de monti et cosi impudentemente la fortuna verrà a terminare una lite, per rinovare un'altra maggiore, cosa che io so essere alienissima dalla mente de <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza.</p>
+
+        <p>Et io sapendo quanto importi alle cose di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Serenità l'amicitia et benevolenza di <persName ref="#pers-duke-savoy">savoia</persName>, anchor che non vi sia continuità de stati, mi son sempre forzato, nelle lettere scritte da me al signor <persName ref="#pers-concino">concinno</persName>, sotto nome di <persName ref="#pers-cavriana">Vincenzo da Castello</persName>, includervi qualche particolare, non saputo cosi per ognuno, delle cose pertinenti allo stato del <persName ref="#pers-duke-savoy">Duca</persName>, accioche <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza scrivendogli, se lo obligasse con simili ufficij avisandolo, massime, che di qualche trattato, nelle terre di <placeName ref="#place-piedmont">Piemonte</placeName> le scrivevo.</p>
+        <p>Et di qua, mi trattengo il suo ambasciatore, come huomo che io sia, et servidore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza nel che se ella vien da me offesa, supplico ad accusare quella viva affettione, la quale mi mostra la strada, in ogni negotio, che io pensi pertenessi a lei.</p>
+
+        <p>Il simile faccio con l'Ambasciatoredel Re di Spagna, al quale, se per adesso non piacesse, il nuovo titolo di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza; non è però per sempre spiacerle; el lo so di buon luogo, onde io credo certo, che nel uffitio di Ambasciatore suo residente qui, qual egli si sia, converrà sempre mai, che alla prudenza et fedel volonta, habbia congionto l'ardire.</p>
+
+        <p>Io ho scritto a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza la prima lettera, suopplicandola che le piacesse consentire che ricevessi l'habito di san stefano, et lo ricevessi qui torno a replicarle, che questo riconoscerò per singolar gratia, quando, a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza, piacerà commandare al suo ambasciatore che me lo dia havendolo io, gia gran tempo se non meritato, almeno ardentemente desiderato; et io seguendo il mio costume di scriver spesso a Signor <persName ref="#pers-concino">Concinno</persName>, (poiche non vorrei, col dir mio offendere l'Altezza vostra); o a chi più le piacerà, senza mio nome, non mancherò di servirla sempre.</p>
+
+        <p>Et se per sorte, vi si trovasse recantatione, overo stravaganza nelle letere; non la lettera, ne le cose, ma coloro che le operano sono da accusarsi; percioche, questa natione, havendo per costume di sentirsi in tutte le cose, di fervore, et di un'incredibil velocità, aggiontosi a questa passione naturale, la conditione dei tempi delle guerre civili, la quale ha cresciuto in lei la fraude, et l'inconstanza; non è meraviglia se qui in corte da piu grandi et potenti, si dica hoggi una cosa, et diman l'altra, tutto contraria alla prima, et senza tema di vergogna si passi ogni fatto.</p>
+
+        <p>Torno a replicar, a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza che la <persName ref="#pers-queen">Reina</persName> è, in tutto per lei, perchioche non vi essendo piu persona, familiar sua, che contro <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Serenità l'infiammi, come gia fu, il tempo stesso, et la grandezza di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza. La quale ha calcato la Fortuna, et l'Invidia, hanno spento ogni furore di mala volontà, et l'hanno ammaestrata, che in fin fine, il suo sangue è, da esser abbracciato, et che in quel solo, si ha da haver speranza;</p>
+
+        <p><choice><abbr>V.</abbr><expan>Vostra</expan></choice> Altezza serà servita di collocarmi, nel numero di coloro che l'adorano; et io baciandole con ogni riverente affetto d'animo, le real mani, la supplico perdonarmi questo mio temerario ardire, di scriverle, nato dal divoto animo mio verso di lei, la quale prego Dio, che prosperi sempre.</p>
+
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il di <date when="1570-09-11">XI di Settembre del 70</date></dateline>
+          <signed>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> Serenissima Altezza humilissimo et devotissimo servidore <persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
