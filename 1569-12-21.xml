@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -47,46 +47,18 @@
             </handDesc>
           </physDesc>
         </msDesc>
-        <listPlace>
-          <place xml:id="place-mantova">
-            <placeName>Mantova</placeName>
-            <location>
-              <geo>45.1563 10.7914</geo>
-            </location>
-          </place>
-          <place xml:id="place-pisa">
-            <placeName>Pisa</placeName>
-            <location>
-              <geo>43.7228 10.4017</geo>
-            </location>
-          </place>
-          <place xml:id="place-francia">
-            <placeName>Francia</placeName>
-          </place>
-        </listPlace>
-        <listPerson>
-          <person xml:id="pers-cavriana">
-            <persName>Filippo Cavriana</persName>
-          </person>
-          <person xml:id="pers-nevers-duke">
-            <persName>Duca di Nevers</persName>
-          </person>
-          <person xml:id="pers-cosimo1">
-          	<persName>Cosimo I de' Medici</persName>
-          </person>
-        </listPerson>
-      </sourceDesc>
+        </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-mantova">Mantova</placeName>
           <date when="1569-12-21"/>
         </correspAction>
       </correspDesc>
     </profileDesc>
-  </teiHeader>
+  <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -98,9 +70,9 @@
         <p>
           <lb/>Vorrei potermi rallegrare puntualmente (presentialmente), <choice><abbr>có</abbr><expan>con</expan></choice> <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> come
           <lb/>con l'animo et mi congratulo, del nuovo titolo, di
-          <lb/>sua <persName ref="#pers-cosimo1">Altezza</persName>/ Percioche vedrà quanto piacere
+          <lb/>sua <persName ref="#pers-medici-cos-1">Altezza</persName>/ Percioche vedrà quanto piacere
           <lb/>ne habbia preso, Ma il mio <choice><abbr>s.ore</abbr><expan>signore</expan></choice> volendo pure
-          <lb/>cosi indisposto come è, passare in <placeName ref="#place-francia">Francia</placeName>, a <choice><abbr>cinq.</abbr><expan>cinque</expan></choice>
+          <lb/>cosi indisposto come è, passare in <placeName ref="#place-fr">Francia</placeName>, a <choice><abbr>cinq.</abbr><expan>cinque</expan></choice>
           <lb/>di gennaro, mi vieta l'effetto di cosi desiderato, et giusto
           <lb/>contento d'animo, Per tanto, <unclear>tenerà</unclear> questa mia
           <lb/>per <choice><abbr>cógratulatione</abbr><expan>congratulatione</expan></choice> et <choice><abbr>racc.ne</abbr><expan>raccomandatione</expan></choice> a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, pregandola al
@@ -108,16 +80,16 @@
           <lb/>in man sua, accioche le <choice><abbr>pnte</abbr><expan>presente</expan></choice> alli signori cavallieri commissarij et se ne
           <lb/>vegga il fine, et se tardi sono arrivate, imoputisi alli
           <lb/>infortunij, passati da me in <placeName ref="#place-ancona">Ancona</placeName>, mentre che
-          <lb/>corendo la medesima fortuna del <persName ref="#pers-nevers-duke">Duca di Nevers</persName>,
+          <lb/>corendo la medesima fortuna del <persName ref="#pers-gonzaga-l-nev">Duca di Nevers</persName>,
           <lb/>da questa medesima, son stato sfortunatamente
           <lb/>travagliato. Vedrà anche piu quello che scrivo
           <lb/>al detto stuggio, come desidererei (piacendo però a
         </p>
         <pb n="57v"/>
         <p>
-          <lb/>a sua <choice><abbr>Alt.za</abbr><expan>Altezza</expan></choice>) essere dispensato per legittima ca<lb break="no"/>usa, a non venire a <placeName ref="#place-pisa">Pisa</placeName>, a ricevere l'habi<lb break="no"/>to ma se cosi fosse il pacer suo, che il comen<lb break="no"/>dator Petruzzi me lo disse in <placeName ref="#place-francia">Francia</placeName>, <choice><abbr>có</abbr><expan>con</expan></choice> una
+          <lb/>a sua <choice><abbr>Alt.za</abbr><expan>Altezza</expan></choice>) essere dispensato per legittima ca<lb break="no"/>usa, a non venire a <placeName ref="#place-pisa">Pisa</placeName>, a ricevere l'habi<lb break="no"/>to ma se cosi fosse il pacer suo, che il comen<lb break="no"/>dator Petruzzi me lo disse in <placeName ref="#place-fr">Francia</placeName>, <choice><abbr>có</abbr><expan>con</expan></choice> una
           <lb/>lettera di sua serenità, <choice><abbr>nó</abbr><expan>non</expan></choice> possendo io, in modo
-          <lb/>alcuno, lasciare il <persName ref="#pers-nevers-duke">duca di Nevers</persName>, sendo <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice>
+          <lb/>alcuno, lasciare il <persName ref="#pers-gonzaga-l-nev">duca di Nevers</persName>, sendo <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice>
           <lb/>nel termine che è, il che al giuditio mio, <choice><abbr>nó</abbr><expan>non</expan></choice> é
           <lb/>dimanda importuna ; ne è stata negata ad alcu<lb break="no"/>ni che la chiesero/ Nondimeno <choice><abbr>có</abbr><expan>con</expan></choice> il giuditio
           <lb/>di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <unclear>sole.rò</unclear> questo mare, et se pare a lei
@@ -128,7 +100,7 @@
         <closer>
           <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, servitore <choice><abbr>affett.mo</abbr><expan>affettissimo</expan></choice>
           <lb/>
-          <signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+          <signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
         </closer>
       </div>
     </body>

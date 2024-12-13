@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -47,116 +47,22 @@
             </handDesc>
           </physDesc>
         </msDesc>
-        <listPlace>
-          <place xml:id="place-paris">
-            <placeName>Parigi</placeName>
-            <location><geo>48.8566 2.3522</geo></location>
-          </place>
-          <place xml:id="place-saint-germain">
-            <placeName>San Girmano</placeName>
-            <location><geo>48.8989 2.0939</geo></location>
-          </place>
-          <place xml:id="place-la-charite">
-            <placeName>La Charité</placeName>
-            <location><geo>47.1778 3.0147</geo></location>
-          </place>
-          <place xml:id="place-rochelle">
-            <placeName>La Rochelle</placeName>
-            <location><geo>46.1603 -1.1511</geo></location>
-          </place>
-          <place xml:id="place-montauban">
-            <placeName>Montauban</placeName>
-            <location><geo>44.0167 1.3500</geo></location>
-          </place>
-          <place xml:id="place-cognac">
-            <placeName>Cognac</placeName>
-            <location><geo>45.6950 -0.3272</geo></location>
-          </place>
-          <place xml:id="place-ecouen">
-            <placeName>Écouen</placeName>
-            <location><geo>49.0189 2.3778</geo></location>
-          </place>
-          <place xml:id="place-chantilly">
-            <placeName>Chantilly</placeName>
-            <location><geo>49.1947 2.4856</geo></location>
-          </place>
-        </listPlace>
-        <listPerson>
-            <person xml:id="pers-cavriana-f">
-                <persName>
-                    <forename>Filippo</forename>
-                    <surname>Cavriana</surname>
-                </persName>
-                <persName type="alias">Vincenzo da Castello</persName>
-                <occupation>Diplomat and physician</occupation>
-            </person>
-            <person xml:id="pers-concino-b">
-                <persName>
-                    <forename>Bartolomeo</forename>
-                    <surname>Concino</surname>
-                </persName>
-                <occupation>First Secretary of Cosimo I de' Medici</occupation>
-            </person>
-            <person xml:id="pers-valois-c">
-                <persName>
-                    <forename>Charles</forename>
-                    <surname>Valois</surname>
-                    <roleName type="nobility">King of France</roleName>
-                </persName>
-                <note>Charles IX of France</note>
-            </person>
-            <person xml:id="pers-medici-c">
-                <persName>
-                    <forename>Caterina</forename>
-                    <surname>Medici</surname>
-                    <roleName type="nobility">Queen Mother of France</roleName>
-                </persName>
-            </person>
-            <person xml:id="pers-coligny-g">
-                <persName>
-                    <forename>Gaspard</forename>
-                    <surname>Coligny</surname>
-                    <roleName type="office">Admiral of France</roleName>
-                </persName>
-            </person>
-            <person xml:id="pers-lorraine-c">
-                <persName>
-                    <forename>Charles</forename>
-                    <surname>Lorraine</surname>
-                    <roleName type="office">Cardinal</roleName>
-                </persName>
-            </person>
-            <person xml:id="pers-montmorency-h">
-                <persName>
-                    <forename>Henri</forename>
-                    <surname>Montmorency</surname>
-                    <roleName type="office">Marshal of France</roleName>
-                </persName>
-            </person>
-            <person xml:id="pers-hopital-m">
-                <persName>
-                    <forename>Michel</forename>
-                    <surname>l'Hopital</surname>
-                    <roleName type="office">Chancellor of France</roleName>
-                </persName>
-            </person>
-        </listPerson>
-      </sourceDesc>
+        </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
       </editorialDecl>
-    </encodingDesc>
+    <projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Vincenzo da Castello</persName>
+          <persName ref="#pers-cavriana-f">Vincenzo da Castello</persName>
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1570-08-17">Il XVII di Agosto del 1570</date>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-concino">Bartolomeo Concino</persName>
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
           <settlement>Firenze</settlement>
         </correspAction>
       </correspDesc>
@@ -170,27 +76,27 @@
           <salute><lb/>Illustrissimo Signor mio et Signor Osservatissimo.</salute>
         </opener>
         <p>
-          <lb/>Scirssi a <persName ref="#pers-concino">Vostra Signoria</persName> di <placeName ref="#place-saint-germain">San Girmano</placeName>, che la pace era
+          <lb/>Scirssi a <persName ref="#pers-concini-b">Vostra Signoria</persName> di <placeName ref="#place-saint-germain-des-pres">San Girmano</placeName>, che la pace era
           <lb/>conclusa in segreto, ma non publicata per allhora, in luogo vissero di
           <lb/>Francia; et che ristava a nimici. Ma monsignore non possendo
           <lb/>tollerare, che questa terra restasse loro, ha fatto tanto, che se le è li<lb break="no"/>
-          vata, et in cambio d'essa, il <persName ref="#pers-charles-ix">Re</persName> li lascia <placeName ref="#place-la-charite">la Charite</placeName> in cambio certo
+          vata, et in cambio d'essa, il <persName ref="#pers-valois-ch-9">Re</persName> li lascia <placeName ref="#place-la-charite">la Charite</placeName> in cambio certo
           <lb/>da non spreziarsi; la cagione di questa pace, non è altra che la
-          <lb/>necessità estrema nella quale si trova <persName ref="#pers-charles-ix">sua Maestà</persName>; perciochè, non ha piu mo<lb break="no"/>
+          <lb/>necessità estrema nella quale si trova <persName ref="#pers-valois-ch-9">sua Maestà</persName>; perciochè, non ha piu mo<lb break="no"/>
           do di trovar danari, senza i quali non si puo far guerra; le città
           <lb/>poi sono stanche; et per la mina grande, et difficoltà del mercantare
           <lb/>et trafficare con altre natione; tanto otiose; che non vi è modo sus<lb break="no"/>
           tintare le spese gravi che occorrono farsi a di per di quando in pagar
           <lb/>presidij, quando in fortificare, et quando in mandare monitioni, et vetto<lb break="no"/>
           vaglie al campo /, oltre che comminciavano à governarsi in maniera di
-          <lb/><unclear>RP</unclear> et di communità, poco curando <choice><abbr>coḿandamento</abbr><expan>commandammento</expan></choice> del <persName ref="#pers-charles-ix">Re</persName>
+          <lb/><unclear>RP</unclear> et di communità, poco curando <choice><abbr>coḿandamento</abbr><expan>commandammento</expan></choice> del <persName ref="#pers-valois-ch-9">Re</persName>
         </p>
 
         <pb n="1v"/>
         <p>
           <lb/>sono inclusi questi doi punti principali, per quanto ho udito da huomo prattico
-          <lb/>che il <persName ref="#pers-charles-ix">Re</persName>, piglij in protettione <persName ref="#pers-orange">Orange</persName>, &amp; il conte <persName ref="#pers-nassau">Ludovico</persName>
-          <lb/>dandogli provisione et insieme sia come diffensore del <persName ref="#pers-palatine">Palatino</persName>
+          <lb/>che il <persName ref="#pers-valois-ch-9">Re</persName>, piglij in protettione <persName ref="#pers-nassau-w">Orange</persName>, &amp; il conte <persName ref="#pers-nassau-l">Ludovico</persName>
+          <lb/>dandogli provisione et insieme sia come diffensore del <persName ref="#pers-pfalz-fr-3">Palatino</persName>
           <lb/>et altri fautori di quella religione novella, che si paghino gli Raiteri
         </p>
         
@@ -199,7 +105,7 @@
           <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill<hi rend="superscript">re</hi></abbr><expan>Illustre</expan></choice>
           <lb/>Servitor di cuore et <choice><abbr>perpetuamēte</abbr><expan>perpetuamente</expan></choice>
           <lb/><choice><abbr>affett<hi rend="superscript">mo</hi></abbr><expan>Affettionatissimo</expan></choice>
-          <lb/><signed><persName ref="#pers-cavriana">Vincenzo da Castello</persName></signed>
+          <lb/><signed><persName ref="#pers-cavriana-f">Vincenzo da Castello</persName></signed>
         </closer>
       </div>
     </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -47,45 +47,22 @@
                         </handDesc>
                     </physDesc>
                 </msDesc>
-                <listPlace>
-                    <place xml:id="place-paris">
-                        <placeName>Parigi</placeName>
-                        <location>
-                            <geo>48.8566 2.3522</geo>
-                        </location>
-                    </place>
-                    <place xml:id="place-italy">
-                        <placeName>Italia</placeName>
-                    </place>
-                </listPlace>
-                <listPerson>
-                    <person xml:id="pers-cavriana">
-                        <persName>Filippo Cavriana</persName>
-                        <persName type="alias">Il Cavaglier Cavriana</persName>
-                    </person>
-                    <person xml:id="pers-salviati">
-                        <persName>Monsignor Salviati</persName>
-                    </person>
-                    <person xml:id="pers-cosimo">
-                        <persName>Cosimo I de' Medici</persName>
-                    </person>
-                </listPerson>
-            </sourceDesc>
+                </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
                 <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
             </editorialDecl>
-        </encodingDesc>
+        <projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
                     <placeName ref="#place-paris">Parigi</placeName>
                     <date when="1571-04-18">18 April 1571</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#pers-cosimo">Cosimo I de' Medici</persName>
+                    <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -97,7 +74,7 @@
                     <salute><lb/>Serenissimo Signore</salute>
                 </opener>
                 <p>
-                    <lb/>Col ritorno di <persName ref="#pers-salviati">Monsig.or Salviati</persName> in <placeName ref="#place-italy">Italia</placeName>, il quale passando 
+                    <lb/>Col ritorno di <persName ref="#pers-salviati-a">Monsig.or Salviati</persName> in <placeName ref="#place-it">Italia</placeName>, il quale passando 
                     <lb/>per costà, mi ha promesso di communicare à <choice><abbr>V. Al.</abbr><expan>Vostra Altezza</expan></choice> alcuni 
                     <lb/>particolari miei, per servitio di quella; non m'è parso 
                     <lb/>di dover perdere questa occasione di baciarle le mani 
@@ -115,7 +92,7 @@
                 <closer>
                     <lb/>Di Vostra Serenissima Altezza
                     <lb/>Humilissimo et Fedelissimo Servidore.
-                    <lb/><signed><persName ref="#pers-cavriana">Il Cavaglier Cavriana</persName></signed>
+                    <lb/><signed><persName ref="#pers-cavriana-f">Il Cavaglier Cavriana</persName></signed>
                 </closer>
             </div>
         </body>

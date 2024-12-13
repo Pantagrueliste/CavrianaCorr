@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -47,40 +47,21 @@
             </handDesc>
           </physDesc>
         </msDesc>
-        <listPlace>
-          <place xml:id="place-paris">
-            <placeName>Parigi</placeName>
-            <location>
-              <geo>48.8566 2.3522</geo>
-            </location>
-          </place>
-        </listPlace>
-        <listPerson>
-          <person xml:id="pers-cavriana">
-            <persName>Filippo Cavriana</persName>
-          </person>
-          <person xml:id="pers-cosimo1">
-            <persName>Cosimo I de' Medici</persName>
-          </person>
-          <person xml:id="pers-traiano">
-            <persName>Traiano</persName>
-          </person>
-        </listPerson>
-      </sourceDesc>
+        </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1570-09-14"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-cosimo1">Cosimo I de' Medici</persName>
+          <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
         </correspAction>
       </correspDesc>
     </profileDesc>
-  </teiHeader>
+  <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -89,7 +70,7 @@
           <salute>Serenissimo signore</salute>
         </opener>
         <p>
-          <lb/>Havendo inteso dal ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName> à <choice><abbr>q3.la</abbr><expan>questa</expan></choice> corte, come ella è restata
+          <lb/>Havendo inteso dal ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-medici-cos-1">Altezza</persName> à <choice><abbr>q3.la</abbr><expan>questa</expan></choice> corte, come ella è restata
           <lb/>servita, che doppò le mie provanze, riceva l'habito di <choice><abbr>sa.o</abbr><expan>santo</expan></choice> stefano,
           <lb/>del quale gia gran tempi desiderava essere honorato; et che di tutto
           <lb/><choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice> ne haveva dato <choice><abbr>cómissione</abbr><expan>commissione</expan></choice> al <choice><abbr>S.or</abbr><expan>Signor</expan></choice> <persName ref="#pers-traiano">Traiano</persName>; Non ho voluto <choice><abbr>má</abbr><expan>man</expan></choice><lb break="no"/>care al riverente affetto d'animo, col quale mi son fatto incontro
@@ -102,11 +83,11 @@
           <lb/>gratia di ben servirla, con qual fine humilmente m'inchino, baci<lb break="no"/>andole le manj. Di <placeName ref="#place-paris">parigi</placeName> il <date when="1570-09-14">14 di settembre del LXX</date>.
         </p>
         <closer>
-          <lb/>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Seren.</abbr><expan>Serenissima</expan></choice> <persName ref="#pers-cosimo1">Altez.</persName>
+          <lb/>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Seren.</abbr><expan>Serenissima</expan></choice> <persName ref="#pers-medici-cos-1">Altez.</persName>
           <lb/>Humilissimo et fedelissimo
           <lb/>servitore.
           <lb/>
-          <signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+          <signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
         </closer>
       </div>
     </body>

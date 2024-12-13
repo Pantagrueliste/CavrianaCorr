@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -48,42 +48,21 @@
             </handDesc>
           </physDesc>
         </msDesc>
-        <listPlace>
-          <place xml:id="place-saintgermain">
-            <placeName>San Germano di Pre</placeName>
-            <location>
-              <country>France</country>
-            </location>
-          </place>
-        </listPlace>
-        <listPerson>
-          <person xml:id="pers-cavriana">
-            <persName>Filippo Cavriana</persName>
-          </person>
-          <person xml:id="pers-cosimo1">
-            <persName>Cosimo I de' Medici</persName>
-            <note>Grand Duke of Tuscany</note>
-          </person>
-          <person xml:id="pers-concino">
-            <persName>Concino</persName>
-            <note>Medici secretary</note>
-          </person>
-        </listPerson>
-      </sourceDesc>
+        </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
-          <placeName ref="#place-saintgermain">San Germano di Pre</placeName>
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-saint-germain-des-pres">San Germano di Pre</placeName>
           <date when="1570-11-02"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-cosimo1">Cosimo I de' Medici</persName>
+          <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
         </correspAction>
       </correspDesc>
     </profileDesc>
-  </teiHeader>
+  <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -93,7 +72,7 @@
           <salute>Serenissimo Signore et Signor mio Osservatissimo</salute>
         </opener>
         <p>
-          <lb/>L'ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName> appresso il re <choice><abbr>chmo</abbr><expan>christianissimo</expan></choice>, mi ha mostrato
+          <lb/>L'ambasciatore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-medici-cos-1">Altezza</persName> appresso il re <choice><abbr>chmo</abbr><expan>christianissimo</expan></choice>, mi ha mostrato
           <lb/>la commissione, che per lettere le à piacciuto di dargli af<lb break="no"/>fine che mi vestisse del habito, secondo gli ordini, et statuti
           <lb/>della religione; del quale, desiderando io honorarmi quanto
           <lb/>piu tosto potevo, per meglio servir, à <choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice>, hieri fù la
@@ -127,16 +106,16 @@
           <lb/>tutto inutile, et ingrato di tanta <choice><abbr>grá</abbr><expan>gratia</expan></choice>, che da lei ho ricevuto,
           <lb/>per la quale, le bacio le mani; et prego <choice><abbr>N.ro</abbr><expan>Nostro</expan></choice> <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Dio, che
           <lb/>accresca in lei, i suoi santissimi doni, et vertú. <unclear>re</unclear>
-          <lb/>Di <placeName ref="#place-saintgermain">san Germano di Pre</placeName>. Il di <date when="1570-11-02">2 di Novembre del LXX</date>.
+          <lb/>Di <placeName ref="#place-saint-germain-des-pres">san Germano di Pre</placeName>. Il di <date when="1570-11-02">2 di Novembre del LXX</date>.
         </p>
         <closer>
-          <lb/>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName>
+          <lb/>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-medici-cos-1">Altezza</persName>
         </closer>
-        <note hand="#hand2"><persName ref="#pers-concino">Concino</persName> rispondi una amorevole lettera</note>
+        <note hand="#hand2"><persName ref="#pers-concini-b">Concino</persName> rispondi una amorevole lettera</note>
         <closer>
           <lb/>Humilissimo et Devotissimo servidore
           <lb/>
-          <signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+          <signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
         </closer>
       </div>
     </body>

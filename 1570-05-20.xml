@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -47,180 +47,23 @@
             </handDesc>
           </physDesc>
         </msDesc>
-        <listPlace>
-          <place xml:id="place-paris">
-            <placeName>Parigi</placeName>
-            <placeName type="modern">Paris</placeName>
-            <location>
-              <geo>48.8566 2.3522</geo>
-              <country>FR</country>
-            </location>
-          </place>
-          <place xml:id="place-florence">
-            <placeName>Firenze</placeName>
-            <placeName type="modern">Florence</placeName>
-            <location>
-              <geo>43.7696 11.2558</geo>
-              <country>IT</country>
-            </location>
-          </place>
-          <place xml:id="place-lorraine">
-            <placeName>Loreno</placeName>
-            <placeName type="modern">Lorraine</placeName>
-            <location>
-              <geo>48.6937 6.1834</geo>
-              <country>FR</country>
-              <region>Lorraine</region>
-            </location>
-          </place>
-          <place xml:id="place-heidelberg">
-            <placeName>Hedelberga</placeName>
-            <placeName type="modern">Heidelberg</placeName>
-            <location>
-              <geo>49.3988 8.6724</geo>
-              <country>DE</country>
-            </location>
-          </place>
-          <place xml:id="place-savoy">
-            <placeName>Savoia</placeName>
-            <placeName type="modern">Savoy</placeName>
-            <location>
-              <geo>45.5667 5.9333</geo>
-              <country>FR</country>
-              <region>Savoie</region>
-            </location>
-          </place>
-          <place xml:id="place-france">
-            <placeName>Francia</placeName>
-            <placeName type="modern">France</placeName>
-            <location>
-              <geo>46.2276 2.2137</geo>
-              <country>FR</country>
-            </location>
-          </place>
-          <place xml:id="place-germany">
-            <placeName>Germania</placeName>
-            <placeName type="alt">Alamagna</placeName>
-            <placeName type="modern">Germany</placeName>
-            <location>
-              <geo>51.1657 10.4515</geo>
-              <country>DE</country>
-            </location>
-          </place>
-          <place xml:id="place-pragelato">
-            <placeName>Prageli</placeName>
-            <placeName type="modern">Pragelato</placeName>
-            <location>
-              <geo>45.0167 6.9333</geo>
-              <country>IT</country>
-              <region>Piemonte</region>
-            </location>
-          </place>
-          <place xml:id="place-angrogna">
-            <placeName>l'Angrogna</placeName>
-            <placeName type="modern">Angrogna</placeName>
-            <location>
-              <geo>44.8167 7.1833</geo>
-              <country>IT</country>
-              <region>Piemonte</region>
-            </location>
-          </place>
-          <place xml:id="place-saxony">
-            <placeName>Sassonia</placeName>
-            <placeName type="modern">Saxony</placeName>
-            <location>
-              <geo>51.0493 13.7384</geo>
-              <country>DE</country>
-              <region>Sachsen</region>
-            </location>
-          </place>
-          <place xml:id="place-piedmont">
-            <placeName>Piemonte</placeName>
-            <placeName type="modern">Piedmont</placeName>
-            <location>
-              <geo>45.0522 7.5155</geo>
-              <country>IT</country>
-            </location>
-          </place>
-          <place xml:id="place-pinerolo">
-            <placeName>Pineruolo</placeName>
-            <placeName type="modern">Pinerolo</placeName>
-            <location>
-              <geo>44.8833 7.3333</geo>
-              <country>IT</country>
-              <region>Piemonte</region>
-            </location>
-          </place>
-        </listPlace>
-        <listPerson>
-          <person xml:id="pers-cavriana">
-            <persName>Filippo Cavriana</persName>
-          </person>
-          <person xml:id="pers-cosimo">
-            <persName>Cosimo I de' Medici</persName>
-            <name type="title">Gran Duca</name>
-          </person>
-          <person xml:id="pers-charles9">
-            <persName>Charles IX</persName>
-            <persName type="alt">Re Christianissimo</persName>
-            <persName type="alt">Re di Francia</persName>
-            <note>King of France (r. 1560-1574)</note>
-          </person>
-          <person xml:id="pers-palatine">
-            <persName type="full">Frederick III, Elector Palatine</persName>
-            <persName type="reg">Friedrich III. von der Pfalz</persName>
-            <persName type="alt">Palatino</persName>
-            <name type="title">Elector Palatine</name>
-            <name type="title">Count Palatine of the Rhine</name>
-            <note>Elector Palatine (r. 1559-1576). A leading Protestant prince known as "Frederick the Pious".</note>
-          </person>
-          <person xml:id="pers-augustus">
-            <persName>Augustus of Saxony</persName>
-            <persName type="alt">Duca di Sassonia Agosto</persName>
-            <note>Elector of Saxony (r. 1553-1586)</note>
-          </person>
-          <person xml:id="pers-admiral">
-            <persName>Gaspard II de Coligny</persName>
-            <persName type="alt">Amiraglio</persName>
-            <persName type="alt">Admiral Coligny</persName>
-            <note>Admiral of France (1519-1572), leader of the Huguenots</note>
-          </person>
-          <person xml:id="pers-william">
-            <persName>William of Saxe-Weimar</persName>
-            <persName type="alt">Guglielmo duca di Sassonia</persName>
-            <note>Duke of Saxe-Weimar (1547-1573)</note>
-          </person>
-          <person xml:id="pers-concino">
-            <persName>Bartolomeo Concino</persName>
-          </person>
-          <person xml:id="pers-petrucci">
-            <persName>Petrucci</persName>
-            <name type="title">Commendator</name>
-          </person>
-          <person xml:id="pers-casimir">
-            <persName>Prince Casimir</persName>
-          </person>
-          <person xml:id="pers-ossonville">
-            <persName>Monseigneur d'Ossonville</persName>
-          </person>
-        </listPerson>
-      </sourceDesc>
+        </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
       </editorialDecl>
-    </encodingDesc>
+    <projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1570-05-20"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-concino">Bartolomeo Concino</persName>
-          <placeName ref="#place-florence">Firenze</placeName>
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Firenze</placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -244,20 +87,20 @@
           <lb/>persuaso a scriverlo di mia mano, et far aperto à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> il nome 
           <lb/>mio, accioché ella habbia testimonio di mia mano, della divo<lb break="no"/>tione et riverente servitu, <choice><abbr>có</abbr><expan>con</expan></choice> la quale ho gia qualch' anno 
           <lb/>abbracciato i negotij di sua serenità ; come che, ella habbia 
-          <lb/>havuto sempre fidelissimi, et prudentissimi ministrj. Sap<lb break="no"/>pia adunque <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> che gia 20 giorni, venne un mio di <placeName ref="#place-germany">lama<lb break="no"/>gna</placeName> il quale trattengo <choice><abbr>có</abbr><expan>con</expan></choice> grossa spesa alla, corte del <persName ref="#pers-palatine">Pala<lb break="no"/>tino</persName> in <placeName ref="#place-heidelberg">Hedelberga</placeName>, et mi rapportò ; che le nozze del 
-          <lb/><persName ref="#pers-casimir">principe Cassimeiro</persName>, <choice><abbr>có</abbr><expan>con</expan></choice> la figliuola del <persName ref="#pers-augustus">Duca di sassonia Agos<lb break="no"/>to</persName>, si erano differite, sino alli 15 del pńte mese, dove 
-          <lb/>intervenivano molti signori, et prencipi di <placeName ref="#place-germany">Germania</placeName>, accom<lb break="yes"/>pagnati da grosso numero di vassalli suoi, et altri loro se<lb break="yes"/>guaci armati, in modo che seriano stati ben sei o sette 
+          <lb/>havuto sempre fidelissimi, et prudentissimi ministrj. Sap<lb break="no"/>pia adunque <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> che gia 20 giorni, venne un mio di <placeName ref="#place-de">lama<lb break="no"/>gna</placeName> il quale trattengo <choice><abbr>có</abbr><expan>con</expan></choice> grossa spesa alla, corte del <persName ref="#pers-pfalz-fr-3">Pala<lb break="no"/>tino</persName> in <placeName ref="#place-heidelberg">Hedelberga</placeName>, et mi rapportò ; che le nozze del 
+          <lb/><persName ref="#pers-pfalz-jc">principe Cassimeiro</persName>, <choice><abbr>có</abbr><expan>con</expan></choice> la figliuola del <persName ref="#pers-sachsen-aug">Duca di sassonia Agos<lb break="no"/>to</persName>, si erano differite, sino alli 15 del pńte mese, dove 
+          <lb/>intervenivano molti signori, et prencipi di <placeName ref="#place-de">Germania</placeName>, accom<lb break="yes"/>pagnati da grosso numero di vassalli suoi, et altri loro se<lb break="yes"/>guaci armati, in modo che seriano stati ben sei o sette 
           <lb/>mille cavalli, et essendo in questo tempo, arrivato <persName ref="#pers-ossonville">Mons.re 
-          <lb/>d'Ossonville</persName>, gran barone in <placeName ref="#place-lorraine">Loreno</placeName>, mandato dal <persName ref="#pers-admiral">Amiraglio</persName>
+          <lb/>d'Ossonville</persName>, gran barone in <placeName ref="#place-lorraine">Loreno</placeName>, mandato dal <persName ref="#pers-coligny-g">Amiraglio</persName>
           <lb/>per <choice><sic>dimandat</sic><corr>dimandar</corr></choice> soccorso, al detto Palatino, fulli risposto che 
-          <lb/>sopra ciò, alla assemblea di tutti qui <choice><abbr>s.ri</abbr><expan>signori</expan></choice>, et principi che ver<lb break="yes"/>rańo alle nozze del <persName ref="#pers-casimir">principe cassimeiro</persName>, si ragionerà ampia<lb break="yes"/>mente; et si li notificherà la volontà <choice><abbr>com̄une</abbr><expan>commune</expan></choice>; <persName ref="#pers-ossonville">Ossonville</persName>
+          <lb/>sopra ciò, alla assemblea di tutti qui <choice><abbr>s.ri</abbr><expan>signori</expan></choice>, et principi che ver<lb break="yes"/>rańo alle nozze del <persName ref="#pers-pfalz-jc">principe cassimeiro</persName>, si ragionerà ampia<lb break="yes"/>mente; et si li notificherà la volontà <choice><abbr>com̄une</abbr><expan>commune</expan></choice>; <persName ref="#pers-ossonville">Ossonville</persName>
 
           <pb n="333v"/>
           <lb/>sapendo quanto potesse nocere alle cose delli ugonotti, opgni 
-          <lb/>dilatione del <persName ref="#pers-palatine">Palatino</persName>, replicò a questo, che se il soccorso tar<lb break="yes"/>dava a venire, la religione portava pericolo di sradicarsi 
+          <lb/>dilatione del <persName ref="#pers-pfalz-fr-3">Palatino</persName>, replicò a questo, che se il soccorso tar<lb break="yes"/>dava a venire, la religione portava pericolo di sradicarsi 
           <lb/>di Francia ; et che però prima d'haver trovati quattro o sei 
           <lb/>mille cavalli , et condottili sotto la carica di qualcheduno, 
-          <lb/>sino alli confini di <placeName ref="#place-germany">Germania</placeName>, vi seriano corsi ben tre me<lb break="yes"/>si, nel qul tempo, <persName ref="#pers-william">Guglielmo duca di saxonia</persName>, andava 
+          <lb/>sino alli confini di <placeName ref="#place-de">Germania</placeName>, vi seriano corsi ben tre me<lb break="yes"/>si, nel qul tempo, <persName ref="#pers-sachsen-wil">Guglielmo duca di saxonia</persName>, andava 
           <lb/>in aiuto del Re con quattro mille Raiteri, gia assoldati, 
           <lb/>et condotti sotto l'insigne ; onde constretto da tanta necessità 
           <lb/>supplicava, che nella causa <choice><abbr>coḿune</abbr><expan>commune</expan></choice>, <choice><abbr>no̍</abbr><expan>non</expan></choice> fossero scordati gli 
@@ -268,21 +111,21 @@
           <lb/>nozze, se ne cavara̍no quattro o cinque, sotto il governo di 
           <lb/>uno viterano, et conosciuto capitano, i quali in sei giorni 
           <lb/>seran̍o alli confini di Francia, et esseguiran̍o la volontà del
-          <lb/><persName ref="#pers-admiral">Amiraglio</persName>. In questo mentre si impedirà l'andata di <persName ref="#pers-william">Gu
-          <lb break="no"/>glielmo</persName>, comandando à quì sassoni, condotti da lui, che ritor<lb break="yes"/>nino alle loro case, sotto pena della disgratia di <persName ref="#pers-augustus">Agosto</persName>, 
-          <lb/>lor signore, et a <persName ref="#pers-william">Guglielmo</persName>, si moverà lite da questo medesi<lb break="yes"/>mo, sopra alcune terre, et con questa discussione, si da<lb break="yes"/>rà tempo al tempo; con questo <persName ref="#pers-ossonville">ossonville</persName> se ne ritornò.
+          <lb/><persName ref="#pers-coligny-g">Amiraglio</persName>. In questo mentre si impedirà l'andata di <persName ref="#pers-sachsen-wil">Gu
+          <lb break="no"/>glielmo</persName>, comandando à quì sassoni, condotti da lui, che ritor<lb break="yes"/>nino alle loro case, sotto pena della disgratia di <persName ref="#pers-sachsen-aug">Agosto</persName>, 
+          <lb/>lor signore, et a <persName ref="#pers-sachsen-wil">Guglielmo</persName>, si moverà lite da questo medesi<lb break="yes"/>mo, sopra alcune terre, et con questa discussione, si da<lb break="yes"/>rà tempo al tempo; con questo <persName ref="#pers-ossonville">ossonville</persName> se ne ritornò.
         </p> 
 
-        <p><lb/>Dal medesimo mio intesi, che gli Ughonotti di <placeName ref="#place-pragelato">Prageli</placeName>, <placeName ref="#place-angrogna">l'Angro<lb break="yes"/>gna</placeName>, et altre valli di <placeName ref="#place-savoy">Savoia</placeName>, havevano ordito un tradi<lb break="yes"/>mento in <placeName ref="#place-pinerolo">Pineruolo</placeName>, et altri luoghi del Re <choice><abbr>chnm̍o</abbr><expan>christianissimo</expan></choice>, in <placeName ref="#place-piedmont"><choice><abbr>Piemo̍<lb break="yes"/>te</abbr><expan>Piemonte</expan></choice></placeName> col favore di certi soldati presichiarij, et che la cosa an<lb break="yes"/>drà avanti, se la guerra persevera; il qual aviso mi è,
+        <p><lb/>Dal medesimo mio intesi, che gli Ughonotti di <placeName ref="#place-pragelato">Prageli</placeName>, <placeName ref="#place-angrogna">l'Angro<lb break="yes"/>gna</placeName>, et altre valli di <placeName ref="#place-savoia">Savoia</placeName>, havevano ordito un tradi<lb break="yes"/>mento in <placeName ref="#place-pinerolo">Pineruolo</placeName>, et altri luoghi del Re <choice><abbr>chnm̍o</abbr><expan>christianissimo</expan></choice>, in <placeName ref="#place-piemonte"><choice><abbr>Piemo̍<lb break="yes"/>te</abbr><expan>Piemonte</expan></choice></placeName> col favore di certi soldati presichiarij, et che la cosa an<lb break="yes"/>drà avanti, se la guerra persevera; il qual aviso mi è,
 
           <pb n="336r"/>
-          <lb/>stato confermato doppoi <choice><abbr>co̍</abbr><expan>con</expan></choice> lettere di <placeName ref="#place-piedmont">Piemonte</placeName>, et ho visto che 
+          <lb/>stato confermato doppoi <choice><abbr>co̍</abbr><expan>con</expan></choice> lettere di <placeName ref="#place-piemonte">Piemonte</placeName>, et ho visto che 
           <lb/>questa sorte d'huomini, ha le mani in ogni luogo, onde biso<lb break="yes"/>gna guardarsi molto bene, et temere anchora li genti di 
           <lb/>lontano; se io havessi una cifra per scrivere à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> di 
           <lb/>molti particolari, i quali <choice><abbr>no̍</abbr><expan>non</expan></choice> oso committere alla <choice><abbr>lr̍a</abbr><expan>lettera</expan></choice>, 
           <lb/>la rinderei contenta, quanto alli avvisi, si bene mal contenta 
           <lb/>quanto alle cose che avisassi. Però la mi scriverà se le 
-          <lb/>piace, se ho a continuare in questo uffitio, o no, non volen<lb break="no"/>do io, pensando di servire quel <persName ref="#pers-cosimo">Gran Duca</persName>, offenderlo, <choice><abbr>co̍</abbr><expan>con</expan></choice> im<lb break="yes"/>portunità. Quello che li scriverò, serà sempre mai vero, 
+          <lb/>piace, se ho a continuare in questo uffitio, o no, non volen<lb break="no"/>do io, pensando di servire quel <persName ref="#pers-medici-cos-1">Gran Duca</persName>, offenderlo, <choice><abbr>co̍</abbr><expan>con</expan></choice> im<lb break="yes"/>portunità. Quello che li scriverò, serà sempre mai vero, 
           <lb/>et saputo da pochi, non pescando io nel guado <choice><abbr>coḿune</abbr><expan>commune</expan></choice>, 
           <lb/>ma nelle acque piu alte, et piu pericolose, et si bene 
           <lb/>la mi costa, qualche scudo ogni anno, godo nondimeno, 
@@ -294,8 +137,8 @@
           <lb/>per avanzare in servir à sua serenità, di fede, o di 
           <lb/>affettione, mentre che sia però impiegato; se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> giudicherà 
           <lb/>necessario che li mandi il nome delli complici di tutto questo 
-          <lb/>trattato di <placeName ref="#place-piedmont">Piemonte</placeName>, per servirne sua <choice><abbr>Altez.</abbr><expan>Altezza</expan></choice> ad obligarsi 
-          <lb/><placeName ref="#place-savoy">Savoia</placeName>, come si puo fare, io gli manderò et questo basti 
+          <lb/>trattato di <placeName ref="#place-piemonte">Piemonte</placeName>, per servirne sua <choice><abbr>Altez.</abbr><expan>Altezza</expan></choice> ad obligarsi 
+          <lb/><placeName ref="#place-savoia">Savoia</placeName>, come si puo fare, io gli manderò et questo basti 
           <lb/>per salutatione et per <choice><abbr>racc.ne</abbr><expan>raccomandatione</expan></choice> a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, alla quale resto 
           <lb/><choice><abbr>affett.mo</abbr><expan>affettionatissimo</expan></choice> sempre mai.
         </p>

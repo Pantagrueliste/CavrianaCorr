@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -47,78 +47,21 @@
             </handDesc>
           </physDesc>
         </msDesc>
-        <listPlace>
-          <place xml:id="place-paris">
-            <placeName>Parigi</placeName>
-            <location>
-              <geo>48.8566 2.3522</geo>
-            </location>
-          </place>
-          <place xml:id="place-piemonte">
-            <placeName>Piemonte</placeName>
-          </place>
-          <place xml:id="place-francia">
-            <placeName>Francia</placeName>
-          </place>
-          <place xml:id="place-toscana">
-            <placeName>Thoscana</placeName>
-          </place>
-          <place xml:id="place-spagna">
-            <placeName>Spagna</placeName>
-          </place>
-        </listPlace>
-        <listPerson>
-          <person xml:id="pers-cavriana">
-            <persName>Filippo Cavriana</persName>
-            <persName type="alias">Vincenzo da Castello</persName>
-          </person>
-          <person xml:id="pers-cosimo1">
-            <persName>Cosimo I de' Medici</persName>
-            <note>Grand Duke of Tuscany</note>
-          </person>
-          <person xml:id="pers-catherine">
-            <persName>Reina</persName>
-            <note>Catherine de' Medici, Queen Mother of France</note>
-          </person>
-          <person xml:id="pers-montmorancy">
-            <persName>Montmoransy</persName>
-          </person>
-          <person xml:id="pers-concino">
-            <persName>Concinno</persName>
-            <note>Medici secretary</note>
-          </person>
-          <person xml:id="pers-este-cardinal">
-            <persName>cardinal da este</persName>
-          </person>
-          <person xml:id="pers-savoia">
-            <persName>Savoia</persName>
-          </person>
-          <person xml:id="pers-cesare">
-            <persName>Cesare</persName>
-          </person>
-          <person xml:id="pers-pontefice">
-            <persName>Pontefice</persName>
-          </person>
-          <person xml:id="pers-re-francia">
-            <persName>Re</persName>
-            <note>King of France</note>
-          </person>
-        </listPerson>
-      </sourceDesc>
+        </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1570-09-11"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-cosimo1">Cosimo I de' Medici</persName>
+          <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
         </correspAction>
       </correspDesc>
     </profileDesc>
-  </teiHeader>
+  <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
   <text>
     <body>
       <div type="letter">
@@ -126,7 +69,7 @@
         <p>
           D'ogni tempo mi seria parso mancare, <choice><abbr>Serenissi.o</abbr><expan>Serenissimo</expan></choice>  <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice> al debito di quella
           <lb/>riverente affetione, con la quale gia tre anni sono, cominciai per elettione
-          <lb/>ad abbracciare il servitio di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-cosimo1">Altezza</persName>, se io non mi fussi forzato di far conoscere
+          <lb/>ad abbracciare il servitio di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <persName ref="#pers-medici-cos-1">Altezza</persName>, se io non mi fussi forzato di far conoscere
           <lb/>al suo ambasciator di qua, (poichè a lei altrimente non potevo) L'ardente
           <lb/>desiderio che porto di vivere et morir servendola; et insieme i modi che
           <lb/>si tengono dalli emuli di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Serén.</abbr><expan>Serenità</expan></choice> per opporsi alla sua grandezza;
@@ -138,7 +81,7 @@
           <lb/>havevano disdegnato trovarsivi per scaricarsi di quell'affronto il
           <lb/>quale, per loro d'haver ricevuto gia doi anni, nel conspetto di tutta
           <lb/>la corte, dal <choice><abbr>Ambasciat.re</abbr><expan>Ambasciatore</expan></choice> di <choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice> piu tosto che per far novo tumulto;
-          <lb/>Ma, tra la prudenza della <persName ref="#pers-catherine">Reina</persName>, che à questo si oppose, et tra le pro<lb break="no"/>visioni, che si erano fatte in contrario, havendone io avvertito l'ambasci<lb break="no"/>atore, per le spie, che me lo rifferivano, la cosa è passata senza strepi<lb break="no"/>to, essendo ciescuna delle parti, restata a casa soa, Il che, se bene
+          <lb/>Ma, tra la prudenza della <persName ref="#pers-medici-cat">Reina</persName>, che à questo si oppose, et tra le pro<lb break="no"/>visioni, che si erano fatte in contrario, havendone io avvertito l'ambasci<lb break="no"/>atore, per le spie, che me lo rifferivano, la cosa è passata senza strepi<lb break="no"/>to, essendo ciescuna delle parti, restata a casa soa, Il che, se bene
           <lb/>son sicuro, che <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> intenderà, per lettere d'altri, tuttavia mi è parso
           <lb/>di doverglielo scrivere anch'io, come quello, che al fatto mi dovevo
           <lb/>trovare, con qualche compagnia, affine che pensando ella, et col suo pru<lb break="no"/>dentissimo giuditio discorrendo, quello che puo nascere d'inconveniente
@@ -151,21 +94,21 @@
         <pb n="3v"/>
         <p>
           <lb/>facendo testa alle forze nostre, non tanto, per che egli paia nochiero
-          <lb/>di questa nave di <placeName ref="#place-francia">Francia</placeName>, che fluttua, ma perche havendo altra <unclear>mira</unclear>
+          <lb/>di questa nave di <placeName ref="#place-fr">Francia</placeName>, che fluttua, ma perche havendo altra <unclear>mira</unclear>
           <lb/>che la querela di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> dissegna rompere, et abbattere i pensieri et
           <lb/>maneggi di pesona, vie piu grande d'un pezzo di sui, la quale
           <lb/>per legge di Natura, per benefitio ricevuto in varij tempi, da <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice>
           <lb/>et segnalatissimo, et per necessità, abbraccia <choice><abbr>có</abbr><expan>con</expan></choice> l'animo la causa
           <lb/>lei, sicome in qualche ragionamento, fatto con persone confidenti,
           <lb/>si ha potuto conoscere. Et se ella potesse senza pregiuditio delle
-          <lb/>cose di <placeName ref="#place-francia">Francia</placeName>, mostrarsene piu grata, io son certo che lo faria. Ma
+          <lb/>cose di <placeName ref="#place-fr">Francia</placeName>, mostrarsene piu grata, io son certo che lo faria. Ma
           <lb/>la calamità dei tempi, la conditione di questi huomini, et la poco sta fede della corte,
           <lb/>non permettono che si passi piu inánzi alla scoperta.
-          <lb/>Ha <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> fautori della causa sua la <persName ref="#pers-catherine">Reina</persName>/ et <persName ref="#pers-montmorancy">Montmoransy</persName>, <unclear>si</unclear>
+          <lb/>Ha <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> fautori della causa sua la <persName ref="#pers-medici-cat">Reina</persName>/ et <persName ref="#pers-montm-fr">Montmoransy</persName>, <unclear>si</unclear>
           <lb/>me si dice per ogniuno, et questi nelli uffitij d'amorevolezza,
           <lb/>ardentissimo, sapendo egli, che non è, piu ricco thesoro al mondo à cias<lb break="no"/>cuno, che un gran numero d'amici; et però trovandosi <choice><abbr>có</abbr><expan>con</expan></choice> auttorità
           <lb/>con imperio, et <choice><abbr>có</abbr><expan>con</expan></choice> grandissimo appoggio di amici, et parenti, al <unclear>fianco</unclear>
-          <lb/>di cosi benigno vento di fortuna, governa le cose sue, et resiste so<lb break="no"/>lo à primi <choice><abbr>sig.ri</abbr><expan>signori</expan></choice> di <placeName ref="#place-francia">Francia</placeName>, grato al <persName ref="#pers-re-francia">Re</persName>, et accetto molto a Monsignore
+          <lb/>di cosi benigno vento di fortuna, governa le cose sue, et resiste so<lb break="no"/>lo à primi <choice><abbr>sig.ri</abbr><expan>signori</expan></choice> di <placeName ref="#place-fr">Francia</placeName>, grato al <persName ref="#pers-valois-h-3">Re</persName>, et accetto molto a Monsignore
           <lb/>però favoreggiando altri, conferma la sua potenza et quella de suoi
           <lb/>senza incommodo, et <unclear>iattura</unclear> delle sue fortune. Delli altri di corte
           <lb/>io non conosco persona che c'ami, non escludendo anche gli Italiani
@@ -190,16 +133,16 @@
           <lb/>etiandio; A me pare, che postosi fine à questo, <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> habbia levato
           <lb/>via, una gran difficoltà, Percioche havendo ella, et <choice><abbr>có</abbr><expan>con</expan></choice> ragione, il
           <lb/><persName ref="#pers-pontefice">Pontefice</persName> per se, et <persName ref="#pers-cesare">Cesare</persName>, che del suo aiuto haverà sempre bisogno
-          <lb/>piu grato che non si pensa, et <persName ref="#pers-savoia">Savoia</persName> amico. per esservi lontano,
+          <lb/>piu grato che non si pensa, et <persName ref="#pers-savoy-em-fil">Savoia</persName> amico. per esservi lontano,
           <lb/>non so, chi altro resti, che de suoi non sia, salvo quelle ombre,
-          <lb/>di vane et apparenti Republiche vicine; Aggiongesi che il <persName ref="#pers-re-francia">Re</persName>,
-          <lb/>col <choice><abbr>frllo</abbr><expan>fratello</expan></choice> et la <persName ref="#pers-catherine">Reina madre</persName>, in varij ragionamenti, che di <choice><abbr>V.A.</abbr><expan>Vostra Altezza</expan></choice>
+          <lb/>di vane et apparenti Republiche vicine; Aggiongesi che il <persName ref="#pers-valois-h-3">Re</persName>,
+          <lb/>col <choice><abbr>frllo</abbr><expan>fratello</expan></choice> et la <persName ref="#pers-medici-cat">Reina madre</persName>, in varij ragionamenti, che di <choice><abbr>V.A.</abbr><expan>Vostra Altezza</expan></choice>
           <lb/>occorrono, l'honorano sempre col titolo di Gran Duca mio Cugino.
           <lb/>cosa che consuma di gelosia, qualcheduno presente; et io sapendo
           <lb/>quanto importi alle cose di Vostra Serenità l'amicitia et benevoglienza di
-          <lb/><persName ref="#pers-savoia">savoia</persName>, anchor che <choice><abbr>nó</abbr><expan>non</expan></choice> vi sia continuità de stati, mi son sempre
-          <lb/>forzato, nelle lettere scritte da me al <choice><abbr>s.or</abbr><expan>signor</expan></choice> <persName ref="#pers-concino">concinno</persName>, sotto nome di
-          <lb/><persName ref="#pers-cavriana" type="alias">Vincenzo da Castello</persName>, includervi qualche particolare, non saputo cosi
+          <lb/><persName ref="#pers-savoy-em-fil">savoia</persName>, anchor che <choice><abbr>nó</abbr><expan>non</expan></choice> vi sia continuità de stati, mi son sempre
+          <lb/>forzato, nelle lettere scritte da me al <choice><abbr>s.or</abbr><expan>signor</expan></choice> <persName ref="#pers-concini-b">concinno</persName>, sotto nome di
+          <lb/><persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName>, includervi qualche particolare, non saputo cosi
           <lb/>per ognuno, delle cose pertinenti allo stato del Duca, accioche
           <lb/><choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> scrivendole, se lo obligasse con simili ufficij avisandolo, mas<lb break="no"/>sime, che di qualche trattato, nelle terre di <placeName ref="#place-piemonte">Piemonte</placeName> le scrivevo;
           <lb/>giorno, al dispetto delli capi, non si venga alle mani, dove comin<lb break="no"/>ciatio, ad accendersi il fuoco, converrà per forza, che infiammi, et
@@ -211,16 +154,16 @@
           <lb/>etiandio; A me pare, che postosi fine à questo, <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> habbia levato
           <lb/>via, una gran difficoltà, Percioche havendo ella, et <choice><abbr>có</abbr><expan>con</expan></choice> ragione, il
           <lb/><persName ref="#pers-pontefice">Pontefice</persName> per se, et <persName ref="#pers-cesare">Cesare</persName>, che del suo aiuto haverà sempre bisogno
-          <lb/>piu grato che non si pensa, et <persName ref="#pers-savoia">Savoia</persName> amico. per esservi lontano,
+          <lb/>piu grato che non si pensa, et <persName ref="#pers-savoy-em-fil">Savoia</persName> amico. per esservi lontano,
           <lb/>non so, chi altro resti, che de suoi non sia, salvo quelle ombre,
-          <lb/>di vane et apparenti Republiche vicine; Aggiongesi che il <persName ref="#pers-re-francia">Re</persName>,
-          <lb/>col <choice><abbr>frllo</abbr><expan>fratello</expan></choice> et la <persName ref="#pers-catherine">Reina madre</persName>, in varij ragionamenti, che di <choice><abbr>V.A.</abbr><expan>Vostra Altezza</expan></choice>
+          <lb/>di vane et apparenti Republiche vicine; Aggiongesi che il <persName ref="#pers-valois-h-3">Re</persName>,
+          <lb/>col <choice><abbr>frllo</abbr><expan>fratello</expan></choice> et la <persName ref="#pers-medici-cat">Reina madre</persName>, in varij ragionamenti, che di <choice><abbr>V.A.</abbr><expan>Vostra Altezza</expan></choice>
           <lb/>occorrono, l'honorano sempre col titolo di Gran Duca mio Cugino.
           <lb/>cosa che consuma di gelosia, qualcheduno presente; et io sapendo
           <lb/>quanto importi alle cose di Vostra Serenità l'amicitia et benevoglienza di
-          <lb/><persName ref="#pers-savoia">savoia</persName>, anchor che <choice><abbr>nó</abbr><expan>non</expan></choice> vi sia continuità de stati, mi son sempre
-          <lb/>forzato, nelle lettere scritte da me al <choice><abbr>s.or</abbr><expan>signor</expan></choice> <persName ref="#pers-concino">concinno</persName>, sotto nome di
-          <lb/><persName ref="#pers-cavriana" type="alias">Vincenzo da Castello</persName>, includervi qualche particolare, non saputo cosi
+          <lb/><persName ref="#pers-savoy-em-fil">savoia</persName>, anchor che <choice><abbr>nó</abbr><expan>non</expan></choice> vi sia continuità de stati, mi son sempre
+          <lb/>forzato, nelle lettere scritte da me al <choice><abbr>s.or</abbr><expan>signor</expan></choice> <persName ref="#pers-concini-b">concinno</persName>, sotto nome di
+          <lb/><persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName>, includervi qualche particolare, non saputo cosi
           <lb/>per ognuno, delle cose pertinenti allo stato del Duca, accioche
           <lb/><choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> scrivendole, se lo obligasse con simili ufficij avisandolo, mas<lb break="no"/>sime, che di qualche trattato, nelle terre di <placeName ref="#place-piemonte">Piemonte</placeName> le scrivevo;
         </p>
@@ -229,11 +172,11 @@
           <lb/>et di qua, mi trattengo il suo <choice><abbr>ambascia.re</abbr><expan>ambasciatore</expan></choice>, come huomo che io sia, et servi<lb break="no"/>dore di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> nel che se ella vien da me offesa, <choice><abbr>supp.lo</abbr><expan>supplicolo</expan></choice> ad accusarne <choice><abbr>q.lla</abbr><expan>quella</expan></choice>
           <lb/>viva affettione, la quale mi mostra la strada, in ogni negotio, che
           <lb/>io pensi pertenessi a lei / il simile faccio con l'<choice><abbr>Ambascia.re</abbr><expan>Ambasciatore</expan></choice> del Re
-          <lb/>di <placeName ref="#place-spagna">Spagna</placeName>, al quale, se per adesso non piacesse, il nuovo titolo di
+          <lb/>di <placeName ref="#place-es">Spagna</placeName>, al quale, se per adesso non piacesse, il nuovo titolo di
           <lb/><choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice>; non è però per sempre spiacerle; el lo so di buon luogo, on<lb break="no"/>de io credo certo, che nel uffitio di Ambasciatore suo residente
           <lb/>qui, qual egli si sia, converrà sempre mai, che alla prudenza
           <lb/>et fedel volonta, habbia congionto l'ardire, tanto più che <unclear>venendo</unclear>
-          <lb/>(per starvi longo tempo) in corte, il <persName ref="#pers-este-cardinal">cardinal da este</persName>, il potere degl'
+          <lb/>(per starvi longo tempo) in corte, il <persName ref="#pers-este-card">cardinal da este</persName>, il potere degl'
           <lb/>avversarij, multiplicherà infinitamente; ne io son mai per conto all'un<lb break="no"/>o, per rittirarmi, anzi servendo, et facendo quanto penserò esser
           <lb/>grato, a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> non mi curerò, spendere ogni mio havere, dovendo
           <lb/>restar povero, per essere arrichito della gratia sua, della quale
@@ -243,7 +186,7 @@
           <lb/>quando, a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice>, piacerà <choice><abbr>cómandare</abbr><expan>comandare</expan></choice> al suo <choice><abbr>ambascia.re</abbr><expan>ambasciatore</expan></choice> che me lo dia
           <lb/>havendolo io, gia gran tempo, se <choice><abbr>nó</abbr><expan>non</expan></choice> meritato, almeno ardentemente
           <lb/>desiderato; et io seguendo il mio costume di scriver spesso a <choice><abbr>S.or</abbr><expan>Signor</expan></choice>
-          <lb/><persName ref="#pers-concino">Concinno</persName>, (poiche non vorrei, col dir mio offendere l'Altezza
+          <lb/><persName ref="#pers-concini-b">Concinno</persName>, (poiche non vorrei, col dir mio offendere l'Altezza
           <lb/><choice><abbr>vra</abbr><expan>vostra</expan></choice>); o a chi più le piacerà, senza mio nome; <choice><abbr>nó</abbr><expan>non</expan></choice> mancherò di ser<lb break="no"/>virla sempre. Et se per sorte, vi si trovasse recantatione, overo
           <lb/>stravaganza nelle <choice><abbr>lre</abbr><expan>lettere</expan></choice>; non la <choice><abbr>lra</abbr><expan>lettera</expan></choice>, ne le cose, ma coloro che le
           <lb/>operano sono da accusarsi; percioche, questa natione, havendo
@@ -260,7 +203,7 @@
           <lb/>possono esser mai sicuri, della verità. Et da prencipi stranieri,
           <lb/>cotesto <choice><abbr>nó</abbr><expan>non</expan></choice> puo esser creduto, parendo loro sicome è infatto, brutta cosa
           <lb/>et disdicevole in ciescuno, la menzogna, et l'inconstanza.
-          <lb/>Torno a replicar, a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> che la <persName ref="#pers-catherine">Reina</persName> è, in tutto per lei, per<lb break="no"/>cioche non vi essendo piu persona, familiar sua, che contro <choice><abbr>V.</abbr><expan>Vostra</expan></choice>
+          <lb/>Torno a replicar, a <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> che la <persName ref="#pers-medici-cat">Reina</persName> è, in tutto per lei, per<lb break="no"/>cioche non vi essendo piu persona, familiar sua, che contro <choice><abbr>V.</abbr><expan>Vostra</expan></choice>
           <lb/><choice><abbr>Serent.</abbr><expan>Serenità</expan></choice> l'infiammi, come gia fu, il tempo stesso, et la <choice><abbr>grá</abbr><expan>grandezza</expan></choice>
           <lb/>di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Al.</abbr><expan>Altezza</expan></choice> La quale ha calcato la Fortuna, et l'Invidia,
           <lb/>hanno spento ogni furore di mala volontà, et l'<choice><abbr>háno</abbr><expan>hanno</expan></choice> ammaestra<lb break="no"/>ta, che in fin fine, il suo sangue è, da esser abbracciato, et
@@ -274,7 +217,7 @@
           <lb/>Di Vostra <choice><abbr>Sereniss.a</abbr><expan>Serenissima</expan></choice> <choice><abbr>Altez.a</abbr><expan>Altezza</expan></choice>
           <lb/>humilissimo et devotissimo servidore
           <lb/>
-          <signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>
+          <signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
         </closer>
       </div>
     </body>

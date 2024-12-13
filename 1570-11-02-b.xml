@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -54,46 +54,20 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#pers-cavriana">Filippo Cavriana</persName>
-                    <placeName ref="#place-st-germain">Saint-Germain-des-Prés</placeName>
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                    <placeName ref="#place-saint-germain-des-pres">Saint-Germain-des-Prés</placeName>
                     <date when="1570-11-02"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#pers-concino">Concino</persName>
+                    <persName ref="#pers-concini-b">Concino</persName>
                 </correspAction>
             </correspDesc>
             <particDesc>
-                <listPerson>
-                    <person xml:id="pers-cavriana">
-                        <persName>Filippo Cavriana</persName>
-                    </person>
-                    <person xml:id="pers-concino">
-                        <persName>Concino</persName>
-                    </person>
-                    <person xml:id="pers-petrucci">
-                        <persName>Petrucci</persName>
-                        <occupation>Commendatore</occupation>
-                    </person>
-                </listPerson>
-            </particDesc>
+                </particDesc>
             <settingDesc>
-                <listPlace>
-                    <place xml:id="place-st-germain">
-                        <placeName>Saint-Germain-des-Prés</placeName>
-                        <location>
-                            <geo>48.8539 2.3345</geo>
-                        </location>
-                    </place>
-                    <place xml:id="place-pisa">
-                        <placeName>Pisa</placeName>
-                        <location>
-                            <geo>43.7228 10.4017</geo>
-                        </location>
-                    </place>
-                </listPlace>
-            </settingDesc>
+                </settingDesc>
         </profileDesc>
-    </teiHeader>
+    <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
     <text>
         <body>
             <div type="letter">
@@ -124,7 +98,7 @@
                     <lb/>io eletto di unirmi à lei, quando per essa, io sparga il sangue, 
                     <lb/>et spenda, quanto mi ha fatto di gratia, Iddio; L'uno, et l'al<lb break="no"/>tro di questo pensieri, é fatto tiranno del animo mio, et <choice><abbr>aḿdoi</abbr><expan>ambedoi</expan></choice> insieme lo nutriscono dolcemente: tal che, tra la gloria che
                     <lb/>mi pare di ricevere d'esser conosciuto, per creatura del <choice><abbr>S.or</abbr><expan>Signor</expan></choice>
-                    <lb/><persName ref="#pers-concino">Concin̍o</persName>, dal quale io dependo intieramente, et tra l'<choice><abbr>orname̍to</abbr><expan>ornamento</expan></choice></p>
+                    <lb/><persName ref="#pers-concini-b">Concin̍o</persName>, dal quale io dependo intieramente, et tra l'<choice><abbr>orname̍to</abbr><expan>ornamento</expan></choice></p>
                 <pb n="336v"/>
                 <p>
                     <lb/>che mi apporta, questo sacro habito, <choice><abbr>no̍</abbr><expan>non</expan></choice> mi resta che de<lb break="no"/>siderar altro, se non che, per questa, et per quelli, mi
@@ -136,12 +110,12 @@
                     <lb/>sua; et lei mi terrà sempre ornato, del suo patrocinio
                     <lb/>et favore, al quale mi <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> sempre. pregando <choice><abbr>Nr̍o</abbr><expan>Nostro</expan></choice>
                     <lb/>Dio che longamente la consumi et prosperi, per <choice><abbr>benefitio</abbr><expan>benefitio</expan></choice> della republica, et de suoi servitori. Di san 
-                    <lb/><placeName ref="#place-st-germain">Germano du prè</placeName> il di <date when="1570-11-02">2o di Novembre del Lxx</date></p>
+                    <lb/><placeName ref="#place-saint-germain-des-pres">Germano du prè</placeName> il di <date when="1570-11-02">2o di Novembre del Lxx</date></p>
                 <closer>
                     <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> illustre. 
                     <lb/>obligatissimo, et <choice><abbr>affett.mo</abbr><expan>affettissimo</expan></choice>
                     <lb/>servitore /
-                    <lb/><signed><persName ref="#pers-cavriana">Filippo Cavriana</persName></signed>.
+                    <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>.
                 </closer>
             </div>
         </body>
