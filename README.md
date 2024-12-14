@@ -40,7 +40,7 @@ gantt
     Second Batch (1574-1589)     :2025-04, 2025-10
     
     section Review
-    Peer Review & Final Edition  :2025-10, 2026-12
+    Peer Review & Final Edition  :2025-10, 2026-01
 ```
 
 ## Access and Licensing
