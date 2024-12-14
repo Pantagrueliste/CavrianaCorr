@@ -1,6 +1,6 @@
 # Digital Critical Edition of Filippo Cavriana's Correspondence
 
-This project presents the first comprehensive digital edition of Filippo Cavriana's (1536-1606) correspondence, drawn from the *Mediceo del Principato* collection at the Archivio di Stato di Firenze. As a physician at the court of France, and a spy for the grand dukes of Tuscany, Cavriana's letters provide crucial insights into the French Wars of Religion.
+This project presents the first comprehensive digital edition of Filippo Cavriana's (1536-1606) correspondence, drawn from the *Mediceo del Principato* collection at the [State Archives of Florence](http://www.archiviodistato.firenze.it/). As a physician at the court of France, and a spy for the grand dukes of Tuscany, Cavriana's letters provide crucial insights into the French Wars of Religion and 16th-century political language.
 
 ## Citation
 
@@ -53,7 +53,7 @@ To report issues or provide feedback, please submit an issue via GitHub or conta
 
 ## Acknowledgments
 
-This project has received support from the Archivio di Stato di Firenze, the University of St Andrews, The Harvard University Center for Italian Renaissance Studies, and the Medici Archive Project.
+This project has received support from the State Archives of Florence, the University of St Andrews, The Harvard University Center for Italian Renaissance Studies, and the Medici Archive Project.
 
 ---
 
