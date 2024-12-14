@@ -1,6 +1,6 @@
 # Digital Critical Edition of Filippo Cavriana's Correspondence
 
-This project presents the first comprehensive digital edition of Filippo Cavriana's (1536-1606) correspondence, drawn from the Mediceo del Principato collection at the Archivio di Stato di Firenze. As a physician and diplomat at the Medici court, Cavriana's letters—many written under pseudonyms—provide crucial insights into the French Wars of Religion.
+This project presents the first comprehensive digital edition of Filippo Cavriana's (1536-1606) correspondence, drawn from the *Mediceo del Principato* collection at the Archivio di Stato di Firenze. As a physician at the court of France, and a spy for the grand dukes of Tuscany, Cavriana's letters provide crucial insights into the French Wars of Religion.
 
 ## Citation
 
@@ -8,7 +8,7 @@ This edition represents thousands of hours of archival research, transcription, 
 
 ```
 Godbarge, Clément, ed. "Digital Critical Edition of Filippo Cavriana's Correspondence." 
-Digital Research Project, University of St Andrews, 2024. https://doi.org/[DOI]
+Digital Research Project, University of St Andrews, 2024.
 ```
 
 ## Project Scope
@@ -24,7 +24,7 @@ The collection encompasses Cavriana's extensive correspondence network throughou
 
 ## Release Schedule
 
-The project follows a phased release approach, with development and content publication spanning from late 2024 through 2026.
+The project follows a phased release approach, with development and content publication spanning from late 2024 through early 2026.
 
 ```mermaid
 gantt
@@ -37,10 +37,10 @@ gantt
     
     section Content Release
     First Letters (1566-1573)    :2025-01, 2025-04
-    Second Batch (1574-1589)     :2025-04, 2025-10
+    Second Batch (1574-1589)     :2025-04, 2025-09
     
     section Review
-    Peer Review & Final Edition  :2025-10, 2026-01
+    Peer Review & Final Edition  :2025-09, 2026-01
 ```
 
 ## Access and Licensing
