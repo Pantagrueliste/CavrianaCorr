@@ -30,8 +30,8 @@
           <placeName type="historical" xml:lang="it">Firenze</placeName>
           <placeName type="modern" xml:lang="en">Florence</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003893</idno>
           <location><geo>43.7696 11.2558</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003893</idno>
         </place>
 
         <place xml:id="place-paris">
@@ -39,8 +39,8 @@
           <placeName type="historical" xml:lang="it">parigi</placeName>
           <placeName type="modern" xml:lang="fr">Paris</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7008882</idno>
           <location><geo>48.8566 2.3522</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008882</idno>
         </place>
 
         <place xml:id="place-milano">
@@ -48,8 +48,8 @@
           <placeName type="modern" xml:lang="it">Milano</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Lombardy</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003853</idno>
           <location><geo>45.4642 9.1900</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003853</idno>
         </place>
 
         <place xml:id="place-vitry">
@@ -57,16 +57,16 @@
           <placeName type="modern" xml:lang="fr">Vitry-le-François</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Champagne</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007196</idno>
           <location><geo>48.9996 4.3939</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007196</idno>
         </place>
 
         <place xml:id="place-marne">
           <placeName type="historical" xml:lang="it">Marna</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Champagne</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007119</idno>
           <location><geo>49.0097 4.0367</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007119</idno>
         </place>
 
         <place xml:id="place-bar-sur-aube">
@@ -74,8 +74,8 @@
           <placeName type="modern" xml:lang="fr">Bar-sur-Aube</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Champagne</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007401</idno>
           <location><geo>48.2373 4.1540</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007401</idno>
         </place>
 
         <place xml:id="place-auxerre">
@@ -83,24 +83,24 @@
           <placeName type="modern" xml:lang="fr">Auxerre</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Burgundy</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007078</idno>
           <location><geo>47.7982 3.5733</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007078</idno>
         </place>
 
         <place xml:id="place-metz">
           <placeName type="historical" xml:lang="it">Metz</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Lorraine</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7004558</idno>
           <location><geo>49.1193 6.1757</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004558</idno>
         </place>
 
         <place xml:id="place-saumur">
           <placeName type="historical" xml:lang="it">Saumur</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Anjou</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007390</idno>
           <location><geo>47.2607 -0.0763</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007390</idno>
         </place>
 
         <place xml:id="place-sancerre">
@@ -108,22 +108,22 @@
           <placeName type="modern" xml:lang="fr">Sancerre</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Berry</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007290</idno>
           <location><geo>47.3289 2.8404</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007290</idno>
         </place>
 
         <place xml:id="place-montereau">
           <placeName type="historical" xml:lang="fr">Montereau</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007096</idno>
           <location><geo>48.3842 2.9500</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007096</idno>
         </place>
 
         <place xml:id="place-monceau">
           <placeName type="historical" xml:lang="fr">Monceau</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007100</idno>
           <location><geo>48.8519 3.0036</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007100</idno>
         </place>
 
         <place xml:id="place-chalons-en-champagne">
@@ -131,10 +131,11 @@
           <placeName type="modern" xml:lang="fr">Châlons-en-Champagne</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="en">Champagne</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007918</idno>
           <location><geo>48.9578 4.3673</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007918</idno>
         </place>
 
+        <!-- place-it has no location -->
         <place xml:id="place-it">
           <placeName type="historical" xml:lang="it">Italia</placeName>
           <placeName type="modern" xml:lang="en">Italy</placeName>
@@ -146,16 +147,16 @@
           <placeName type="historical" xml:lang="it">S. Moro Di Ponte Sciallanti</placeName>
           <placeName type="modern" xml:lang="fr">Charenton-le-Pont</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007277</idno>
           <location><geo>48.8268 2.4121</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007277</idno>
         </place>
 
         <place xml:id="place-pisa">
           <placeName type="historical" xml:lang="it">Pisa</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Tuscany</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7004080</idno>
           <location><geo>43.7228 10.4017</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004080</idno>
         </place>
 
         <place xml:id="place-saint-germain-des-pres">
@@ -165,48 +166,19 @@
           <placeName type="historical" xml:lang="it">san Germano di Pre</placeName>
           <placeName type="modern" xml:lang="fr">Saint-Germain-des-Prés</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7008147</idno>
           <location><geo>48.8539 2.3345</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008147</idno>
         </place>
 
-        <place xml:id="place-fr">
-          <placeName type="historical" xml:lang="it">Francia</placeName>
-          <placeName type="historical" xml:lang="it">francia</placeName>
-          <placeName type="modern" xml:lang="en">France</placeName>
-          <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/1000070</idno>
-        </place>
-
-        <place xml:id="place-es">
-          <placeName type="historical" xml:lang="it">Spagna</placeName>
-          <placeName type="modern" xml:lang="en">Spain</placeName>
-          <placeName type="country" xml:lang="en">Spain</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7002327</idno>
-        </place>
-
-        <place xml:id="place-de">
-          <placeName type="historical" xml:lang="it">Germania</placeName>
-          <placeName type="historical" xml:lang="it">lamagna</placeName>
-          <placeName type="modern" xml:lang="en">Germany</placeName>
-          <placeName type="country" xml:lang="en">Germany</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7001430</idno>
-        </place>
-
-        <place xml:id="place-toscana">
-          <placeName type="historical" xml:lang="it">Toscana</placeName>
-          <placeName type="historical" xml:lang="it">Thoscana</placeName>
-          <placeName type="modern" xml:lang="en">Tuscany</placeName>
-          <placeName type="country" xml:lang="en">Italy</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003003</idno>
-        </place>
+        <!-- place-fr, place-es, place-de, place-toscana have no location -->
 
         <place xml:id="place-savoia">
           <placeName type="historical" xml:lang="it">Savoia</placeName>
           <placeName type="modern" xml:lang="en">Savoy</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="fr">Savoie</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007817</idno>
           <location><geo>45.5667 5.9333</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007817</idno>
         </place>
 
         <place xml:id="place-pragelato">
@@ -214,8 +186,8 @@
           <placeName type="modern" xml:lang="it">Pragelato</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Piedmont</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7264358</idno>
           <location><geo>45.0167 6.9333</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7264358</idno>
         </place>
 
         <place xml:id="place-angrogna">
@@ -223,8 +195,8 @@
           <placeName type="modern" xml:lang="it">Angrogna</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Piedmont</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7264258</idno>
           <location><geo>44.8167 7.1833</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7264258</idno>
         </place>
 
         <place xml:id="place-pinerolo">
@@ -232,8 +204,8 @@
           <placeName type="modern" xml:lang="it">Pinerolo</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Piedmont</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7006116</idno>
           <location><geo>44.8833 7.3333</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7006116</idno>
         </place>
 
         <place xml:id="place-piemonte">
@@ -241,8 +213,8 @@
           <placeName type="historical" xml:lang="it">Piemo̍te</placeName>
           <placeName type="modern" xml:lang="en">Piedmont</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7002988</idno>
           <location><geo>45.0522 7.5155</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7002988</idno>
         </place>
 
         <place xml:id="place-lorraine">
@@ -250,152 +222,107 @@
           <placeName type="modern" xml:lang="fr">Lorraine</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <placeName type="region" xml:lang="fr">Lorraine</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003635</idno>
           <location><geo>48.6937 6.1834</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003635</idno>
         </place>
 
-        <!-- Not in map, left unchanged -->
+        <!-- place-saxony -->
         <place xml:id="place-saxony">
           <placeName type="historical" xml:lang="it">Sassonia</placeName>
           <placeName type="modern" xml:lang="en">Saxony</placeName>
           <placeName type="country" xml:lang="en">Germany</placeName>
           <placeName type="region" xml:lang="de">Sachsen</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003777</idno>
           <location><geo>51.0493 13.7384</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003777</idno>
         </place>
 
         <place xml:id="place-mantova">
           <placeName type="historical" xml:lang="it">Mantova</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7004626</idno>
           <location><geo>45.1563 10.7914</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004626</idno>
         </place>
 
         <place xml:id="place-ancona">
           <placeName type="historical" xml:lang="it">Ancona</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Marche</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7004220</idno>
           <location><geo>43.6158 13.5189</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004220</idno>
         </place>
 
         <place xml:id="place-montauban">
           <!-- Not in map, left unchanged -->
           <placeName type="historical" xml:lang="fr">Montauban</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007339</idno>
           <location><geo>44.0167 1.3500</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007339</idno>
         </place>
 
         <place xml:id="place-cognac">
           <!-- Not in map, left unchanged -->
           <placeName xml:lang="fr">Cognac</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007412</idno>
           <location><geo>45.6950 -0.3272</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007412</idno>
         </place>
 
         <place xml:id="place-ecouen">
           <!-- Not in map, left unchanged -->
           <placeName xml:lang="fr">Écouen</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007074</idno>
           <location><geo>49.0189 2.3778</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007074</idno>
         </place>
 
         <place xml:id="place-chantilly">
           <!-- Not in map, left unchanged -->
           <placeName xml:lang="fr">Chantilly</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007221</idno>
           <location><geo>49.1947 2.4856</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007221</idno>
         </place>
 
         <place xml:id="place-la-charite">
           <placeName xml:lang="fr">La Charité</placeName>
           <placeName type="historical" xml:lang="it">la Charite</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7004492</idno>
           <location><geo>47.1778 3.0147</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004492</idno>
         </place>
 
         <place xml:id="place-rochelle">
           <!-- Not in map, left unchanged -->
           <placeName xml:lang="fr">La Rochelle</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007228</idno>
           <location><geo>46.1603 -1.1511</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007228</idno>
         </place>
 
-        <place xml:id="place-england">
-          <!-- Not in map, left unchanged -->
-          <placeName type="historical" xml:lang="it">Inghiltera</placeName>
-          <placeName type="modern" xml:lang="en">England</placeName>
-          <placeName type="country" xml:lang="en">England</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7002445</idno>
-        </place>
-
-        <place xml:id="place-netherlands">
-          <!-- Not in map, left unchanged -->
-          <placeName type="historical" xml:lang="it">Paesi Bassi</placeName>
-          <placeName type="modern" xml:lang="en">Netherlands</placeName>
-          <placeName type="country" xml:lang="en">Netherlands</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/1000140</idno>
-        </place>
-
-        <place xml:id="place-normandie">
-          <placeName type="historical" xml:lang="fr">Normandie</placeName>
-          <placeName type="historical" xml:lang="it">Normandia</placeName>
-          <placeName type="country" xml:lang="en">France</placeName>
-          <placeName type="region" xml:lang="fr">Normandie</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003584</idno>
-        </place>
-
-        <place xml:id="place-anjou">
-          <placeName type="historical" xml:lang="fr">Anjou</placeName>
-          <placeName type="historical" xml:lang="it">Anioù</placeName>
-          <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007395</idno>
-        </place>
-
-        <place xml:id="place-picardie">
-          <placeName type="historical" xml:lang="fr">Picardie</placeName>
-          <placeName type="historical" xml:lang="it">Picardia</placeName>
-          <placeName type="region" xml:lang="fr">Picardie</placeName>
-          <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003779</idno>
-        </place>
-
-        <place xml:id="place-poitou">
-          <placeName type="historical" xml:lang="fr">Poitou</placeName>
-          <placeName type="historical" xml:lang="fr">poitou</placeName>
-          <placeName type="region" xml:lang="fr">Poitou</placeName>
-          <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003945</idno>
-        </place>
+        <!-- england, netherlands, normandie, anjou, picardie, poitou do not have location -->
 
         <place xml:id="place-soissons">
           <placeName type="historical" xml:lang="fr">Soissons</placeName>
           <placeName type="historical" xml:lang="it">soissone</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007052</idno>
           <location><geo>49.3850 3.3272</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007052</idno>
         </place>
 
         <place xml:id="place-heidelberg">
           <placeName xml:lang="de">Heidelberg</placeName>
           <placeName type="country" xml:lang="en">Germany</placeName>
           <placeName type="region" xml:lang="de">Baden-Württemberg</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003720</idno>
           <location><geo>49.3988 8.6724</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003720</idno>
         </place>
 
         <place xml:id="place-saluzzo">
           <placeName xml:lang="it">Saluzzo</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
           <placeName type="region" xml:lang="en">Piedmont</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7004675</idno>
           <location><geo>44.6421 7.4950</geo></location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004675</idno>
         </place>
       </listPlace>
     </body>
