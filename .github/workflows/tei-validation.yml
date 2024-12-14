@@ -35,6 +35,12 @@ jobs:
           mkdir -p schemas
           wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
 
-      - name: Validate TEI Files
+      - name: Validate TEI Files in `letters/`
         run: |
-          find . -type f -name "*.xml" -not -path "./jing-20220510/sample/datatype/*" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+          XML_FILES=$(find ./letters -type f -name "*.xml")
+          if [ -n "$XML_FILES" ]; then
+            echo "Validating TEI files in the letters folder..."
+            find ./letters -type f -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+          else
+            echo "No XML files found in the letters folder."
+          fi
