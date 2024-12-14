@@ -48,7 +48,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## Contributing
 
-To report issues or provide feedback, please submit an issue via GitHub or contact [Clément Godbarge](mailto:clement.godbarge@st-andrews.ac.uk) directly.
+To report issues or provide feedback, please submit an issue via GitHub or contact [Clément Godbarge](mailto:cag30@st-andrews.ac.uk) directly.
 
 ## Acknowledgments
 
