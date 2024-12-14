@@ -135,7 +135,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7007918</idno>
         </place>
 
-        <!-- place-it has no location -->
         <place xml:id="place-it">
           <placeName type="historical" xml:lang="it">Italia</placeName>
           <placeName type="modern" xml:lang="en">Italy</placeName>
@@ -170,7 +169,36 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7008147</idno>
         </place>
 
-        <!-- place-fr, place-es, place-de, place-toscana have no location -->
+        <place xml:id="place-fr">
+          <placeName type="historical" xml:lang="it">Francia</placeName>
+          <placeName type="historical" xml:lang="it">francia</placeName>
+          <placeName type="modern" xml:lang="en">France</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/1000070</idno>
+        </place>
+
+        <place xml:id="place-es">
+          <placeName type="historical" xml:lang="it">Spagna</placeName>
+          <placeName type="modern" xml:lang="en">Spain</placeName>
+          <placeName type="country" xml:lang="en">Spain</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7002327</idno>
+        </place>
+
+        <place xml:id="place-de">
+          <placeName type="historical" xml:lang="it">Germania</placeName>
+          <placeName type="historical" xml:lang="it">lamagna</placeName>
+          <placeName type="modern" xml:lang="en">Germany</placeName>
+          <placeName type="country" xml:lang="en">Germany</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7001430</idno>
+        </place>
+
+        <place xml:id="place-toscana">
+          <placeName type="historical" xml:lang="it">Toscana</placeName>
+          <placeName type="historical" xml:lang="it">Thoscana</placeName>
+          <placeName type="modern" xml:lang="en">Tuscany</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003003</idno>
+        </place>
 
         <place xml:id="place-savoia">
           <placeName type="historical" xml:lang="it">Savoia</placeName>
@@ -226,7 +254,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7003635</idno>
         </place>
 
-        <!-- place-saxony -->
         <place xml:id="place-saxony">
           <placeName type="historical" xml:lang="it">Sassonia</placeName>
           <placeName type="modern" xml:lang="en">Saxony</placeName>
@@ -252,7 +279,6 @@
         </place>
 
         <place xml:id="place-montauban">
-          <!-- Not in map, left unchanged -->
           <placeName type="historical" xml:lang="fr">Montauban</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <location><geo>44.0167 1.3500</geo></location>
@@ -260,7 +286,6 @@
         </place>
 
         <place xml:id="place-cognac">
-          <!-- Not in map, left unchanged -->
           <placeName xml:lang="fr">Cognac</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <location><geo>45.6950 -0.3272</geo></location>
@@ -292,21 +317,63 @@
         </place>
 
         <place xml:id="place-rochelle">
-          <!-- Not in map, left unchanged -->
           <placeName xml:lang="fr">La Rochelle</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <location><geo>46.1603 -1.1511</geo></location>
           <idno type="TGN">http://vocab.getty.edu/tgn/7007228</idno>
         </place>
 
-        <!-- england, netherlands, normandie, anjou, picardie, poitou do not have location -->
+        <place xml:id="place-england">
+          <placeName type="historical" xml:lang="it">Inghiltera</placeName>
+          <placeName type="modern" xml:lang="en">England</placeName>
+          <placeName type="country" xml:lang="en">England</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7002445</idno>
+        </place>
+
+        <place xml:id="place-netherlands">
+          <placeName type="historical" xml:lang="it">Paesi Bassi</placeName>
+          <placeName type="modern" xml:lang="en">Netherlands</placeName>
+          <placeName type="country" xml:lang="en">Netherlands</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/1000140</idno>
+        </place>
+
+        <place xml:id="place-normandie">
+          <placeName type="historical" xml:lang="fr">Normandie</placeName>
+          <placeName type="historical" xml:lang="it">Normandia</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="fr">Normandie</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003584</idno>
+        </place>
+
+        <place xml:id="place-anjou">
+          <placeName type="historical" xml:lang="fr">Anjou</placeName>
+          <placeName type="historical" xml:lang="it">Anioù</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007395</idno>
+        </place>
+
+        <place xml:id="place-picardie">
+          <placeName type="historical" xml:lang="fr">Picardie</placeName>
+          <placeName type="historical" xml:lang="it">Picardia</placeName>
+          <placeName type="region" xml:lang="fr">Picardie</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003779</idno>
+        </place>
+
+        <place xml:id="place-poitou">
+          <placeName type="historical" xml:lang="fr">Poitou</placeName>
+          <placeName type="historical" xml:lang="fr">poitou</placeName>
+          <placeName type="region" xml:lang="fr">Poitou</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003945</idno>
+        </place>
 
         <place xml:id="place-soissons">
           <placeName type="historical" xml:lang="fr">Soissons</placeName>
           <placeName type="historical" xml:lang="it">soissone</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <location><geo>49.3850 3.3272</geo></location>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7007052</idno>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7007052</idno>          
         </place>
 
         <place xml:id="place-heidelberg">
