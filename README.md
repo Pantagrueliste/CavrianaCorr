@@ -7,8 +7,7 @@ This project presents the first comprehensive digital edition of Filippo Cavrian
 This edition represents thousands of hours of archival research, transcription, and encoding work. If you use these materials in your research, please cite this digital edition:
 
 ```
-Godbarge, Clément, ed. "Digital Critical Edition of Filippo Cavriana's Correspondence." 
-Digital Research Project, University of St Andrews, 2024.
+Godbarge, Clément. 2024. "Filippo Cavriana's Secret Correspondence (1563--1589)." St Andrews: University of St Andrews.
 ```
 
 ## Project Scope
