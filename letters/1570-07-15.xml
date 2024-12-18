@@ -53,7 +53,9 @@
       <editorialDecl>
         <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
       </editorialDecl>
-    <projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc>
+    <projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+    </projectDesc>
+    </encodingDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
@@ -167,8 +169,11 @@
           <lb/>pregandole il fine, d'ogni suo desiderio. Di <placeName ref="#place-saint-germain-des-pres">san Germa<lb break="no"/>no</placeName>, il di <date when="1570-07-15">15. di Luglio, del LXX</date>
           <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>
           <lb/>certissimo, et assero servidore
-          <lb/><signed><persName ref="#pers-cavriana-f">filippo Cavriana</persName></signed>
+          <lb/>
         </p>
+        <closer>
+          <signed><persName ref="#pers-cavriana-f">filippo Cavriana</persName></signed>
+        </closer>
       </div>
     </body>
   </text>
