@@ -27,8 +27,8 @@
             <collection>Mediceo del Principato</collection>
             <idno>551</idno>
           </msIdentifier>
-           <msContents status="incomplete" cert="high">
-            <msItem defective="true">
+           <msContents>
+            <msItem defective="true" status="incomplete" cert="high">
               <locus from="236r" to="239r">fols. 236r-239r</locus>
               <title>Letter signed by Vincenzo da Castello with avvisi from the court of France</title>
               <author>Vincenzo da Castello</author>
