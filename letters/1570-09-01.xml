@@ -28,17 +28,19 @@
             <idno>551</idno>
           </msIdentifier>
            <msContents>
-            <msItem defective="true" status="incomplete" cert="high">
+            <msItem>
               <locus from="236r" to="239r">fols. 236r-239r</locus>
               <title>Letter signed by Vincenzo da Castello with avvisi from the court of France</title>
               <author>Vincenzo da Castello</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">A detailed report on French politics, including peace negotiations with Huguenots, military movements, court intrigues, and some reflexions on the fragility of the French state.</note>
-              <note type="condition">Document shows signs of ink corrosion damage affecting text legibility in multiple places.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="letter">
+              <supportDesc>
+                <condition>Damaged by ink corrosion in multiple places affecting text legibility</condition>
+              </supportDesc>
               <layoutDesc>
                 <p>Single column, written on both sides of the folios</p>
               </layoutDesc>

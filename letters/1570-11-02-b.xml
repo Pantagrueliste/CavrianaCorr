@@ -59,15 +59,11 @@
                     <date when="1570-11-02"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#pers-concini-b">Concino</persName>
+                    <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
                 </correspAction>
             </correspDesc>
-            <particDesc>
-                </particDesc>
-            <settingDesc>
-                </settingDesc>
         </profileDesc>
-    <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
+    <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
     <text>
         <body>
             <div type="letter">
