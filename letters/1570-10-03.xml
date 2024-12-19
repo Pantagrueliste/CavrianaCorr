@@ -1,7 +1,3 @@
-<place xml:id="place-firenze">
-            <placeName>Firenze</placeName>
-            <location><geo>43.7696 11.2558</geo></location>
-          </place><?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
