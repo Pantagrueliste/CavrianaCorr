@@ -19,7 +19,8 @@ The collection encompasses Cavriana's extensive correspondence network throughou
 - Full TEI-XML encoding with semantic markup
 - Named entity recognition and annotation
 - Integration with Semantic Web standards
-- Version-controlled through GitHub
+- Version-controlling and lifecylce management through GitHub
+- Long-term storage on Zenodo
 
 ## Release Schedule
 
