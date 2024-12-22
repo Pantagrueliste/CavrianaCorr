@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Duke of Mantua, 6 April 1568</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Mantova</settlement>
+            <repository>Archivio di Stato di Mantova</repository>
+            <collection>Archivio Gonzaga</collection>
+            <idno>b654</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="286r" to="286v">fols. 286r-286v</locus>
+              <title>Letter from Filippo Cavriana to Duke of Mantua</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana reports on the health condition of the Duke of Nevers and apologizes for not writing earlier about his accident.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-nevers">Nevers</placeName>
+          <date when="1568-04-06"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-mantova-duke">Duke of Mantua</persName>
+          <placeName ref="#place-mantova">Mantova</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="286r"/>
+        <opener>
+          <salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> et <choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>Il.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice></salute>
+        </opener>
+        <p>
+          <lb/>Io <choice><abbr>no̍</abbr><expan>non</expan></choice> scrissi, à <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> il caso del <persName ref="#pers-gonzaga-l-nev"><choice><abbr>Sor</abbr><expan>Signor</expan></choice> Duca di Nevers</persName> mio <choice><abbr>Prońe</abbr><expan>Padrone</expan></choice>
+          <lb/>percioche <choice><abbr>M.</abbr><expan>Messer</expan></choice> Vigo Galvagni, promisi a me di dover<lb break="no"/>gliene dare minuto aviso, Onde superfluo pareva ogni
+          <lb/>mio ufficio; et oltre ciò, restai cosi stordito per la
+          <lb/>novità di <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> strano accidente, che temevo di molestar
+          <lb/><choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> scrivendoli. Ma perché, io veggo le cose del <choice><abbr>S.re</abbr><expan>Signore</expan></choice>
+          <lb/>pigliar buona forma, et che da cinque di in qua, ogni
+          <lb/>accidente di rimette, si di <choice><abbr>q̍lli</abbr><expan>quelli</expan></choice> della piaga, et di
+          <lb/><unclear>sini</unclear> che ha, nella <unclear>coscia</unclear> come della febre, ho pensato
+          <lb/>con questa buona nova (emendar il fatto commesso) <choice><abbr>co̍</abbr><expan>con</expan></choice>
+          <lb/>molta usura di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>, se pur fu esere a non scriverli,
+          <lb/>ritornando costà il Pugnatta; È vero, che il mio
+          <lb/><choice><abbr>S.re</abbr><expan>Signore</expan></choice> non è anchor fuori di pericolo, sicome udirà, dal
+          <lb/>Miraglio suo medico, a cui scrivo ampiamente di ciò,
+          <lb/>nondimeno spero bene, della sua persona; se bene <choice><abbr>qsta</abbr><expan>questa</expan></choice>
+          <lb/>sanità verrà (se altro <choice><abbr>no̍</abbr><expan>non</expan></choice> si rinova) <choice><abbr>co̍</abbr><expan>con</expan></choice> <choice><abbr>lo̍ghezza</abbr><expan>longhezza</expan></choice> di
+          <lb/>tempi; et <choice><abbr>co̍</abbr><expan>con</expan></choice> qualche pena; Noi qua habbiamo conti<lb break="no"/>soccorso, da i prieghi di tutto <choice><abbr>qsto</abbr><expan>questo</expan></choice> paese à Dio,
+        </p>
+        <pb n="286v"/>
+        <p>
+          <lb/>i quali sono cosi ardenti et divoti, che si vede
+          <lb/>chiaramente, che sua divina <choice><abbr>M.</abbr><expan>Maestà</expan></choice> aiuta l'opere
+          <lb/>nostre, et la sanita del <choice><abbr>S.re</abbr><expan>Signore</expan></choice> con <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> fiore, io ba<lb break="no"/>cio humilmente, le mani di <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice> alla buona
+          <lb/><choice><abbr>gr̍a</abbr><expan>grazia</expan></choice> della <choice><abbr>q.ali</abbr><expan>quali</expan></choice> mi <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> Di <placeName ref="#place-nevers">Nevers</placeName> il di
+          <lb/><choice><abbr>vi.o</abbr><expan>sesto</expan></choice> di Aprile del LXVIIJ
+        </p>
+        <closer>
+          <lb/><choice><abbr>Devotiss.o</abbr><expan>Devotissimo</expan></choice> servidore
+          <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

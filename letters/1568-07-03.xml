@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Duke of Mantua, 3 July 1568</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Mantova</settlement>
+            <repository>Archivio di Stato di Mantova</repository>
+            <collection>Archivio Gonzaga</collection>
+            <idno>b654</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="924r" to="924v">fols. 924r-924v</locus>
+              <title>Letter from Filippo Cavriana to Duke of Mantua</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Detailed medical report on the condition of the Duke of Nevers, describing his leg injury and recovery progress.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-nevers">Nevers</placeName>
+          <date when="1568-07-03"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-mantova-duke">Duke of Mantua</persName>
+          <placeName ref="#place-mantova">Mantova</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="924r"/>
+        <opener>
+          <salute><lb/><choice><abbr>Ecc.</abbr><expan>Eccellente</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Mio <choice><abbr>oss.mo</abbr><expan>osservandissimo</expan></choice></salute>
+        </opener>
+        <p>
+          <lb/>Il <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Duca mio padrone, è così ben disposto della
+          <lb/>persona (Dio mercè) che non si potria desiderar
+          <lb/>meglio rispetto al tempi dove siamo, et alla in<lb break="no"/>fermità grave, che ha patito. tra la gamba
+          <lb/>sinistra ha queste incommodità seco, che non
+          <lb/>la slonga, se bene ha tentato due overo tre
+          <lb/>volte di moverla. et pero ogni leggierissima occasio<lb break="no"/>ne, di correr qualche novo humore, il quale impe<lb break="no"/>disce che <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> non osi star levato; atteso che
+          <lb/>doppo il di della pentecoste, che fu portata in
+          <lb/>chiesa, mons più ha potuto levarsi, per nova
+          <lb/>illusione d'humori, causati dal movimento, che
+          <lb/>se le diede nel levarsi da letto. Et questi succe<lb break="no"/>ssivi hanno fatto enfiar il piede, al quale per
+          <lb/>essere stato un edema, compagnato da mate<lb break="no"/>ria colerica, non si ha potuto far prova
+          <lb/>di <unclear>vigor</unclear> <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> un'altra volta nel seggio. Poi<lb break="no"/>chè si vede chiaro, che ogni minimo dolore
+          <lb/>che si vede chiaro, che ogni minimo dolore
+          <lb/>le ritarda la sanità et il movimento della
+          <lb/>gamba. Havendo <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> il sangue per natura così
+          <lb/>sottile che ogni picciolissimo cenno, lo tira ad
+          <lb/>ogni parte del corpo. Le piaghe tutte sono conso<lb/>lidate, salvo l'entrata della palla. Del ginoc<lb break="no"/>chio, che sta aperta, accio che si <unclear>spurgtis</unclear>
+          <lb/>meglio ogni materia. Ne fino a qui è usci<lb break="no"/>to alcun pezzo d'osso. Il ginocchio poi e nella
+          <lb/>sua figura et stato naturale. La coscia
+          <lb/>s'inguasta poco a poco. La gamba è molto ma<lb break="no"/>gra et il piede empio et con qualche
+          <lb/>dolore. Nondimeno havendo <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> tentato que<lb break="no"/>sta mattina di farsi porre una calcia
+          <lb/>di pelle di cane, et veggendosi che non
+          <lb/>sente piu tanto male come faceva <unclear>...</unclear>
+          <lb/>mangi, speriamo domane posto nel seggio
+        </p>
+        <pb n="924v"/>
+        <p>
+          <lb/>et fare che <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> <unclear>sia</unclear> levata. Il che se
+          <lb/>a noi succede, potria essere che al fine
+          <lb/>di questa di partisse per la corte, dove è
+          <lb/>desiderata et chiamata, questo ho voluto
+          <lb/>servire a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> venendo il <unclear>Riva</unclear> in <placeName ref="#place-piemonte">Piemonte</placeName>
+          <lb/>et senza più, io baccio le mani a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> con
+          <lb/>il più devoto et reverente affetto dell'animo
+          <lb/>mio, pregando Dio per la sua sfattazione.
+          <lb/>De <placeName ref="#place-nevers">Nevers</placeName>, il <date when="1568-07-03">3 luglio di 1568</date>.
+        </p>
+        <closer>
+          <lb/>Di <choice><abbr>V. E.za</abbr><expan>Vostra Eccellenza</expan></choice> <choice><abbr>Ill.</abbr><expan>Illustrissima</expan></choice>
+          <lb/><choice><abbr>Devotiss.o</abbr><expan>Devotissimo</expan></choice> servitor
+          <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>.
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
