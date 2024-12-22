@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+       <fileDesc>
+           <titleStmt>
+               <title>Letter from Filippo Cavriana to the Duke of Mantua, 7 September 1568</title>
+               <author>Filippo Cavriana</author>
+               <editor>Clément Godbarge</editor>
+               <respStmt>
+                   <resp>Lecturer in Digital Humanities</resp>
+                   <name>University of St Andrews</name>
+               </respStmt>
+           </titleStmt>
+           <publicationStmt>
+               <publisher>Clément Godbarge</publisher>
+               <pubPlace>St Andrews, Scotland, UK</pubPlace>
+               <date>2024</date>
+               <availability>
+                   <licence target="http://creativecommons.org/licenses/by/4.0/">
+                       This work is licensed under a Creative Commons Attribution 4.0 International License.
+                   </licence>
+               </availability>
+           </publicationStmt>
+           <sourceDesc>
+               <msDesc>
+                   <msIdentifier>
+                       <settlement>Mantua</settlement>
+                       <repository>Archivio di Stato di Mantova</repository>
+                       <collection>Archivio Gonzaga</collection>
+                       <idno>b654</idno>
+                   </msIdentifier>
+                   <msContents>
+                       <msItem>
+                           <locus from="303r" to="303v">fols. 303r-303v</locus>
+                           <title>Letter from Filippo Cavriana to the Duke of Mantua discussing medical condition</title>
+                           <author>Filippo Cavriana</author>
+                           <textLang mainLang="it">Italian</textLang>
+                           <note type="summary">A detailed report to the Duke of Mantua on medical condition and treatment, discussing a leg injury and prospects for recovery.</note>
+                       </msItem>
+                   </msContents>
+                   <physDesc>
+                       <objectDesc form="letter">
+                           <layoutDesc>
+                               <p>Single column, written on both sides of the folio</p>
+                           </layoutDesc>
+                       </objectDesc>
+                       <handDesc hands="1">
+                           <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
+                       </handDesc>
+                   </physDesc>
+               </msDesc>
+           </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+           <projectDesc>
+               <p>All places and persons are referenced from authorityPlaces.xml and authorityPersons.xml</p>
+           </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+           <correspDesc>
+               <correspAction type="sent">
+                   <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                   <placeName ref="#place-paris">Parigi</placeName>
+                   <date when="1568-09-07"/>
+               </correspAction>
+               <correspAction type="received">
+                   <persName>Duke of Mantua</persName>
+                   <placeName ref="#place-mantova">Mantova</placeName>
+               </correspAction>
+           </correspDesc>
+       </profileDesc>
+   </teiHeader>
+   <text>
+       <body>
+           <div type="letter">
+               <pb n="303r"/>
+               <opener><salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> et <choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio /</salute></opener>
+               <p><lb/>Se le molte <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice>, le quali ho scritto a <choice><abbr>V.E</abbr><expan>Vostra Eccellenza</expan></choice>, doppò il di, che da <lb/>noi si parti ms Ascanio Andreasi, li fussero state rese, io só <lb/>certo, che havrei sodisfatto, a quel desiderio, che per ragione <lb/>deve havere, di sapere della sanità del mio <choice><abbr>S.ore</abbr><expan>Signore</expan></choice>. Ma <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/><choice><abbr>hn̍do</abbr><expan>havendo</expan></choice> mai io ricevuto doppò quel temine, há alcuna di <lb/><placeName ref="#place-it">Italia</placeName>, ne altra persona della casa del <choice><abbr>S.ore</abbr><expan>Signore</expan></choice> Duca mio / son rimaso in opinione, che le mie <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice> a <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice>, et forse la <lb/>risposta loro, sieno smarrite / Nondimeno io non ho voluto <lb/>mancare di avventurarmi continuamente qualcheuna, come <lb/>faccio anche questa, per compiacer <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice>, in un punto, di <lb/><lb/><choice><abbr>qllo</abbr><expan>quello</expan></choice> che longamente puo haver desiderato. Noi siamo in <lb/><placeName ref="#place-paris">Parigi</placeName>, dove venim̍o con gran pericolo delle persone, et <lb/>convocati quindici di piu famosi Medici et chirurgi, si è <lb/>concluso, che, <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> a primo tempo venga in <placeName ref="#place-it">Italia</placeName> alli fanghi <lb/>per drizzare et movere la gamba, la quale sin hora è <lb/>curva molto, et immobile; in questo mezzo si usa ogni <lb/>arte, perché si slonghi, essendo openione delli medici di <lb/><choice><abbr>S.M.</abbr><expan>Sua Maestà</expan></choice> che il <choice><abbr>S.ore</abbr><expan>Signore</expan></choice> debba restare zoppo, ma non però tanto, che non vada, senza gamba di legno, et senza crocciucola</p>
+               <pb n="303v"/>
+               <p><lb/><choice><abbr>no̍</abbr><expan>non</expan></choice> essendo uniti l'ossa della gamba et della coscia, come <lb/>si credeva / <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> ha gran sentimento in tutta la gamba / <lb/>et move anche il piede, et si nutrisce l'uno et l'altro <lb/>membro molto bene / onde speriamo, di vederlo risanato <lb/>con progresso di tempo. Del corpo, non occorre par<lb break="no"/>larne, perché mai fu si ben disposto. Questo tutto ho <lb/>voluto, avertire <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice>, come cose pertinenti, alla integra <lb/>contentezza dell'animo di lei, <choice><abbr>Ill.</abbr><expan>Illustre</expan></choice> <choice><abbr>S.ore</abbr><expan>Signore</expan></choice> non si move mai <lb/>d'una sedia, o del letto, et si fa portare da quattro <lb/>Suvizzeri, et col piede non puo toccar terra; et si pur <lb/>vuol caminare, uno le porta la gamba offesa, et doi <lb/>lo tengono sotto le braccia, overo con le crocciuoli si <lb/>muove, <choice><abbr>hn̍do</abbr><expan>havendo</expan></choice> continuamente una gamba di ferro, che se <lb/>contiene immobili la naturale, acciò non li faccia ma <lb/>le movendosi qua et la / Dio gratia, <choice><abbr>no̍</abbr><expan>non</expan></choice> ha dolore, ne <lb/>tumore, ne piaga aperta, et con questo, bacio le mani <lb/>di <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice></p>
+               <closer><dateline>Di <placeName ref="#place-paris">Parigi</placeName> il <date when="1568-09-07">vij di <choice><abbr>settem.e</abbr><expan>settembre</expan></choice> del lxviij</date></dateline>
+               <lb/>Di, <choice><abbr>V,E.za</abbr><expan>Vostra Eccellenza</expan></choice>,
+               <lb/><choice><abbr>Fedeliss.o</abbr><expan>Fedelissimo</expan></choice> Servidore
+               <lb/><signed><persName ref="#pers-cavriana-f">Philippo cavriana</persName></signed></closer>
+           </div>
+       </body>
+   </text>
+</TEI>
