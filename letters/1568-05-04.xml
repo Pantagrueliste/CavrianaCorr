@@ -1,56 +1,90 @@
-1568.4. maggio Ecc; s.o nio
-Aier
-l'ultima lr̄a che io scrifsi a lE fra delli 28
-del passato. La quale era pione di tristi
-povelle, portando cosi quel tempo, i che cō
-gli le mandae. Hore venendo costà; il
-S.to Luigo della Mirandola; ho voluto cō
-solarla, cō niglior aviso del passato i Per
-cioche il s.o Duca muo: S:ri, doppo il primo
-di Slaggio, ha dato signi di cosi gion sui
-glio ramento, che si continuera i spero che
-infra doi, ossero. lre giorni sere netto, et
-libero della fibre, et per cosequente di ogni
-pricolo sa regione di ciò, i stata, da
-Natura, chi se fatto un siono, ossero cavi
-ta nella hava, et da si stesso si è aporto
-di maniera, che votandosi la coscie commo
-damente, ꝑse altro non si senove seremo
-bep tisto, fuore d'ogni fastidio. Ma si
-per sentura se ne facesse un altro; Ccome
-
-si puo temere, per la distemperaza ulo di
-qsto copo, Iritomneriemo quasi, nelli bemmini
-di prime Me confido in Dio; che qsto
-cosi buo principio di convalescenza, havera il
-pogresso migliore. SE mangie, et dorme
-lessai bene, ne altro accidente cattisso e ri
-maso, spluo che la megrezza del coigo, alla
-queli si provedere col fatte d'asina, appio
-bato da tutti Calto fisici, et quelli sudoio
-che non mancino tutta vie di sturbarla bio
-La piaga sta bine, et
-perto della notte
-si sppurga anchi miglio, si continuvia, son
-sicuro, che vedremo tosto il fine delle nre fa
-fiche s. Mà per mio parere, S.E sere
-impedita, et diboli, di Gla gamba, perche, e
-rotto quel Sigamento, che tron legato l'osso
-della ganta, cō q⁀no delli coscca, et in gi
-noceni si curve molto; dalla ferita ces qli
-
-
-mai è uscita schilla d’osso, il che mi facr
-cho piu dubitare, che havesemo Cinnēli che
-ogni cosa sie in assetto, quelche percato di
-delori, et di fibre
-ondimeno, sperò
-nelle bontà di Dio, che sidura agni nra
-attionie à buon fine, et qui mi vasceo
-humilmente alle buona gie di
-Re Nbevois il x di di Maggio, del 68
-Di VEc.ma
-sirvidore, et
-DeroEiss.o
-fedili
-rileppo Cavie
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Filippo Cavriana to the Duke of Mantua, 4 May 1568</title>
+                <author>Filippo Cavriana</author>
+                <editor>Clément Godbarge</editor>
+                <respStmt>
+                    <resp>Lecturer in Digital Humanities</resp>
+                    <name>University of St Andrews</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Clément Godbarge</publisher>
+                <pubPlace>St Andrews, Scotland, UK</pubPlace>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Florence</settlement>
+                        <repository>Archivio di Stato di Firenze</repository>
+                        <collection>Mediceo del Principato</collection>
+                        <idno>290r-291r</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="290r" to="291r">fols. 290r-291r</locus>
+                            <title>Letter reporting on medical condition of the Duke</title>
+                            <author>Filippo Cavriana</author>
+                            <textLang mainLang="it">Italian</textLang>
+                            <note type="summary">A detailed medical report from Cavriana as physician to the Duke of Mantua, describing the Duke's condition and treatment.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <layoutDesc>
+                                <p>Single column, written on both sides of the folios</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>All places and persons are referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                    <placeName ref="#place-mantova">Nevers</placeName>
+                    <date when="1568-05-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Duke of Mantua</persName>
+                    <placeName ref="#place-mantova">Mantova</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><salute><choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>s.or</abbr><expan>signor</expan></choice> mio</salute></opener>
+                <p><lb/>l'ultima <choice><abbr>lr̍a</abbr><expan>lettera</expan></choice> chi io scrissi a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> fra delli 28 <lb/>del passato. La quale era prima di tristi <lb/>novelle, portando cosi quel tempo, che io <lb/>gli la mandai. Hora venendo costà, il <lb/><choice><abbr>S.or</abbr><expan>Signor</expan></choice> Luigi della Mirandola / ho voluto <choice><abbr>co̍</abbr><expan>con</expan></choice><lb break="no"/>solarla, <choice><abbr>co̍</abbr><expan>con</expan></choice> miglior avisi del passato / Per<lb break="no"/>cioché, il <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Duca mio <choice><abbr>S.ri</abbr><expan>Signori</expan></choice>, doppo il primo <lb/>di Maggio, ha dato segni di cosi gran me<lb break="no"/>glioramento, che si continuerà, spero che <lb/>infra doi, ossero. <choice><abbr>lre</abbr><expan>lettere</expan></choice> giorni sere netto, et <lb/>libero della fibre, et per cosequente di ogni pericolo / La ragione di ciò è, la <lb/>Natura, che ha fatto un seno, overo cavi<lb break="no"/>ta nella lacca, et da se stesso si è aperto, <lb/>di maniera, che votandosi la coscia comme<lb break="no"/>damenti, (se altro non si rinova) saremo <lb/>ben tosto, fuori d'ogni fastidio. Ma si <lb/>per ventura, se ne facesse un altro; (come</p>
+                <pb n="290v"/>
+                <p><lb/>si puo temere, per la distempera̍za <unclear>u̍lo</unclear> di <lb/>questo corpo), ritorneriamo quasi, nelli termini <lb/>di prima / Ma confido in Dio, che questo <lb/>cosi <choice><abbr>bu̍o</abbr><expan>buono</expan></choice> principio di convalescenza, haverà il <lb/>pogresso migliore. <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> mangia, et dorme <lb/>assai bene, ne altro accidente cattivo, e, ri<lb break="no"/>maso, salvo che la megrezza del corpo, alla <lb/>quali si provederá col latte d'asina, appro<lb break="no"/>bato da tutti questi fisici, et quelli sudori <lb/>che non mancano tuttavia di sturbarla <choice><abbr>bu̍o</abbr><expan>buono</expan></choice> <lb/>pezzo della notte / La piaga sta bene, et <lb/>si sppurga anche meglio, si continuerà, son <lb/>sicuro, che vedremo tosto il fine delle <choice><abbr>ns̍e</abbr><expan>nostre</expan></choice> fa<lb break="no"/>tiche / Ma per mio parere, <choice><abbr>S.E</abbr><expan>Sua Eccellenza</expan></choice> serà <lb/>impedita, et dibole, di quella gamba, perche, è, <lb/>rotto quel ligamento, che tien legato l'osso <lb/>della gamba, <choice><abbr>co̍</abbr><expan>con</expan></choice> quello della coscia / et il gi<lb break="no"/>nocchio si cura molto; dalla ferita del <choice><abbr>q.ali</abbr><expan>quali</expan></choice></p>
+                <pb n="291r"/>
+                <p>mai è uscita schilla d'osso, il che mi fa an<lb break="no"/>chio piu dubitare, che havremo (<choice><abbr>innāzi</abbr><expan>innanzi</expan></choice> che <lb/>ogni cosa sia in assetto) qualche periodo di <lb/>dolori, et di febre / Nondimeno, spero <lb/>nelle bontà di Dio, che ridurrà ogni <choice><abbr>nr̍a</abbr><expan>nostra</expan></choice> <lb/>attione a buon fine, et qui mi <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> <lb/>humilmente alla buona <choice><abbr>gr̍a</abbr><expan>gratia</expan></choice> di <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice></p>
+                <closer>
+                    <dateline>De <placeName ref="#place-mantova">Nevers</placeName> il <date when="1568-05-04">4.o di di Maggio, del 68</date></dateline>
+                    <lb/>Di <choice><abbr>V.E.cc.za</abbr><expan>Vostra Eccellenza</expan></choice> <lb/><choice><abbr>Devotiss.o</abbr><expan>Devotissimo</expan></choice> Servidore et <lb/>fedele <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
