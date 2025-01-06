@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Filippo Cavriana to Guglielmo Gonzaga, Duke of Mantua, 5 May 1568</title>
+                <author>Filippo Cavriana</author>
+                <editor>Clément Godbarge</editor>
+                <respStmt>
+                    <resp>Lecturer in Digital Humanities</resp>
+                    <name>University of St Andrews</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Clément Godbarge</publisher>
+                <pubPlace>St Andrews, Scotland, UK</pubPlace>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        This work is licensed under a Creative Commons Attribution 4.0 International License.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Mantova</settlement>
+                        <repository>Archivio di Stato di Mantova</repository>
+                        <collection>Archivio Gonzaga</collection>
+                        <idno>b654</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="292r" to="292v">fols. 292r-292v</locus>
+                            <title>Letter from Filippo Cavriana to the Duke of Mantua discussing medical conditions</title>
+                            <author>Filippo Cavriana</author>
+                            <textLang mainLang="it">Italian</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <layoutDesc>
+                                <p>Single column, written on both sides of the folio</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>All places and persons are referenced from authorityPlaces.xml and authorityPersons.xml</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                    <placeName>Nevers</placeName>
+                    <date when="1568-05-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Guglielmo Gonzaga, Duke of Mantua</persName>
+                    <placeName ref="#place-mantova">Mantova</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="292r"/>
+                <opener><salute><choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>S.r</abbr><expan>Signor</expan></choice> mio.</salute></opener>
+                <p><lb/><persName>Ms Gulio Cesare Papazzone</persName>, servidore della <lb/><choice><abbr>s.ra</abbr><expan>signora</expan></choice> Marchesa di Pescara, ritornando in <lb/><placeName ref="#place-it">Italia</placeName>, mi ha dato quasi certa speranza, <lb/>di venir costa, a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>, per notificarli <choice><abbr>q̍llo</abbr><expan>quello</expan></choice>, <lb/>che egli ha veduto, del <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <choice><abbr>Pron̍e</abbr><expan>Padrone</expan></choice>, in 15 <lb/>gironi che è stato qua;, mandato <unclear>quo</unclear> dalla <lb/>sudetta <choice><abbr>S.ra</abbr><expan>Signora</expan></choice> Onde non mi diffenderò molto <lb/>in scriver à <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>, per haverle io avisato <choice><abbr>bà</abbr><expan>bene</expan></choice><lb/>ri, colla partita del conte Luigi della <choice><abbr>Mira̍</abbr><expan>Mirandola</expan></choice><lb break="no"/>dola, il bisogno. Basta solo a sapere, che le <lb/>cose del <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Duca, continuano il buon principio <lb/>preso, ne altro ci resta, che possa apportar <choice><abbr>da̍</abbr><expan>danno</expan></choice><lb break="no"/>no, salvo quel tumore che ha nella region del <lb/>fegatho, che con gli rimedij applicati, ha comin<lb break="no"/>ciato á cedere/ Et il ginocchio, che non ha <lb/>mandato fuori anchora alcuna portione d'osso, per <lb/>la piaga. Nondimeno, si fa provisione a <unclear>setto</unclear> <lb/>et poi che la piaga, et la febre han cominciato</p>
+                <pb n="292v"/>
+                <p>à farsi piu piacevoli, spero infra <choice><abbr>no̍</abbr><expan>non</expan></choice> molto <lb/>tempo, di dover consolare <choice><abbr>cumulatissimamēte</abbr><expan>cumulatissimamente</expan></choice> <lb/><choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice> con ottime povene / <unclear>Anelna</unclear>, che il <lb/>tempo della <choice><abbr>co̍valescenza</abbr><expan>convalescenza</expan></choice> soglia essere, pieno <lb/>di <choice><abbr>Incōmodità</abbr><expan>Incomodità</expan></choice>: Bacio le mani, a <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice> con <lb/>questo fine, et me la <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> <choice><abbr>humilmēte</abbr><expan>humilmente</expan></choice> <lb/>in <choice><abbr>grà</abbr><expan>gratia</expan></choice>.</p>
+                <closer>
+                    <dateline>Di <placeName>Nevers</placeName> il <date when="1568-05-05">v di Maggo del 68</date></dateline>
+                    <lb/>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice>
+                    <lb/><choice><abbr>Humiliss.o</abbr><expan>Humilissimo</expan></choice> servidore.
+                    <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
