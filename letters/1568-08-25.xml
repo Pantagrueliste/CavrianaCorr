@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Filippo Cavriana to Luigi Gonzaga, Duke of Nevers, 28 May 1568</title>
+                <author>Filippo Cavriana</author>
+                <editor>Clément Godbarge</editor>
+                <respStmt>
+                    <resp>Lecturer in Digital Humanities</resp>
+                    <name>University of St Andrews</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Clément Godbarge</publisher>
+                <pubPlace>St Andrews, Scotland, UK</pubPlace>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        This work is licensed under a Creative Commons Attribution 4.0 International License.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Mantua</settlement>
+                        <repository>Archivio di Stato di Mantova</repository>
+                        <collection>Archivio Gonzaga</collection>
+                        <idno>b654</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="294r" to="294v">fols. 294r-294v</locus>
+                            <title>Letter from Filippo Cavriana to the Duke of Mantua reporting on the health of the Duke of Nevers</title>
+                            <author>Filippo Cavriana</author>
+                            <textLang mainLang="it">Italian</textLang>
+                            <note type="summary">A letter reporting on the recovery of the Duke of Nevers from a gunshot wound</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <layoutDesc>
+                                <p>Single column, written on both sides of the folio</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                    <placeName>Nevers</placeName>
+                    <date when="1568-05-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pers-gonzaga-l-nev">Luigi Gonzaga, Duke of Nevers</persName>
+                    <placeName ref="#place-mantova">Mantova</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="294r"/>
+                <opener><lb/><choice><abbr>ecc.mo</abbr><expan>eccellentissimo</expan></choice> <choice><abbr>s.or</abbr><expan>signor</expan></choice> mio <choice><abbr>osser̍v.</abbr><expan>osservandissimo</expan></choice></opener>
+                <p><lb/>havendo io scritto a bastanza per via di <lb/>mercanti di Lione, a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> come <unclear reason="illegible">scrivo</unclear> pas<lb break="no"/>sate le cose, del <choice><abbr>s.or</abbr><expan>signor</expan></choice> Duca mio <choice><abbr>Prne</abbr><expan>Patrone</expan></choice>, doppò <lb/>che parte di qua il <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Luigi della Mirandola, <lb/>et ritornando hora costa, <choice><abbr>M.</abbr><expan>Messer</expan></choice> Vigo Galvagni, <lb/>il quale è stato sempre <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> fatto, <lb/>non serà longo a scrivermi a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> Le dirò <lb/>solamente, che il <choice><abbr>Sor</abbr><expan>Signor</expan></choice> Duca mio <unclear reason="illegible">?</unclear> (la Dio <lb/>merce) gia 15 di, è fuori di ogni pericolo <lb/>di morte, perché tanto è <unclear reason="illegible">...</unclear> il tempo, <lb/>che è libero dalla febre / Et che ingrassan<lb break="no"/>dosi come fa et avanzandosi in forze, si è <lb/>concluso da noi, si non darle il latte, ma <lb/>colla regola della vita, ridurlo in stato per<lb break="no"/>fetto di sanità; le piage sono consolidate, <lb/>fuori che l'intrata della palla, che ha <seg type="split" part="I">cau</seg>
+				<pb n="294v"/>
+				<lb/><seg type="split" part="F">sato</seg>, à <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice>, una pena, et dolore due <lb/>giornate assai grandi. Tuttavia, essendosi <lb/>levato il dolore, le cosi nostre hanno preso <lb/>tal camino, che speriamo infra 15 giorni <lb/>porlo sopra un seggio, essendo quattro mesi <lb/>che giace nel letto; Ne volendo levare <lb/>a <choice><abbr>Ms</abbr><expan>Messer</expan></choice> Vigo, l'occasione di ragguagliarne, <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice> <lb/>qui fo fine, doppò haverle baciate affettuo<lb break="no"/>sa et riverentemente le mani.</p>
+                <closer>
+                <dateline>Di Nevers <lb/>il <date when="1568-05-28">28 di Maggio del 68</date>.</dateline>
+                <lb/>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <choice><abbr>Illma.</abbr><expan>Illustrissima</expan></choice>
+                <lb/><choice><abbr>humiliss.o</abbr><expan>humilissimo</expan></choice> et <choice><abbr>dicotiss.o</abbr><expan>devotissimo</expan></choice> <choice><abbr>ser.re</abbr><expan>servitore</expan></choice>
+                <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
