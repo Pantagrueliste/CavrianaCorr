@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Filippo Cavriana to Guglielmo Gonzaga, Duke of Mantua, 5 May 1568</title>
+                <title>Update on Nevers' condition - 5 May 1568</title>
                 <author>Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
@@ -16,9 +16,7 @@
                 <pubPlace>St Andrews, Scotland, UK</pubPlace>
                 <date>2024</date>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        This work is licensed under a Creative Commons Attribution 4.0 International License.
-                    </licence>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -32,7 +30,6 @@
                     <msContents>
                         <msItem>
                             <locus from="292r" to="292v">fols. 292r-292v</locus>
-                            <title>Update on Nevers' conditions</title>
                             <author>Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                         </msItem>
@@ -63,7 +60,7 @@
                     <date when="1568-05-05"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#pers-gonzaga-gugl">>Guglielmo Gonzaga, Duke of Mantua</persName>
+                    <persName ref="#pers-gonzaga-gugl">>Guglielmo Gonzaga</persName>
                     <placeName ref="#place-mantova">Mantova</placeName>
                 </correspAction>
             </correspDesc>

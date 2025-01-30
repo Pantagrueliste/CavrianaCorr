@@ -22,18 +22,17 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <settlement>Florence</settlement>
-                        <repository>Archivio di Stato di Firenze</repository>
-                        <collection>Mediceo del Principato</collection>
-                        <idno>290r-291r</idno>
+                        <settlement>Mantua</settlement>
+                        <repository>Archivio di Stato di Mantovae</repository>
+                        <collection>Archivio Gonzaga</collection>
+                        <idno>b654</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <locus from="290r" to="291r">fols. 290r-291r</locus>
-                            <title>Letter reporting on medical condition of the Duke</title>
                             <author>Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
-                            <note type="summary">A detailed medical report from Cavriana as physician to the Duke of Mantua, describing the Duke of Nevers' condition and treatment.</note>
+                            <note type="summary">A detailed medical report from Cavriana as physician to Guglielmo Gonzaga, Duke of Mantua, describing the condition and treatment of Ludovico Gonzaga, Duke of Nevers.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -65,7 +64,7 @@
                     <date when="1568-05-04"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Duke of Mantua</persName>
+                    <persName>Guglielmo Gonzaga</persName>
                     <placeName ref="#place-mantova">Mantova</placeName>
                 </correspAction>
             </correspDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
        <fileDesc>
            <titleStmt>
-               <title>Letter from Filippo Cavriana to the Duke of Mantua, 7 September 1568</title>
+               <title>Update on Nevers' condition - 7 September 1568</title>
                <author>Filippo Cavriana</author>
                <editor>Clément Godbarge</editor>
                <respStmt>
@@ -16,9 +16,7 @@
                <pubPlace>St Andrews, Scotland, UK</pubPlace>
                <date>2024</date>
                <availability>
-                   <licence target="http://creativecommons.org/licenses/by/4.0/">
-                       This work is licensed under a Creative Commons Attribution 4.0 International License.
-                   </licence>
+                   <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
                </availability>
            </publicationStmt>
            <sourceDesc>
@@ -32,7 +30,6 @@
                    <msContents>
                        <msItem>
                            <locus from="303r" to="303v">fols. 303r-303v</locus>
-                           <title>The Duke of Nevers medical condition</title>
                            <author>Filippo Cavriana</author>
                            <textLang mainLang="it">Italian</textLang>
                            <note type="summary">A report to the Duke of Mantua on the Duke of Nevers' medical condition and treatment, discussing a leg injury and prospects for recovery.</note>
@@ -64,7 +61,7 @@
                    <date when="1568-09-07"/>
                </correspAction>
                <correspAction type="received">
-                   <persName>Duke of Mantua</persName>
+                   <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>
                    <placeName ref="#place-mantova">Mantova</placeName>
                </correspAction>
            </correspDesc>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Filippo Cavriana, 24 July 1568</title>
+                <title>Update on Nevers' condition - 24 July 1568</title>
                 <author>Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
@@ -28,7 +28,6 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <title>Letter reporting on the health condition of the Duke of Nevers</title>
                             <author>Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">A detailed report on the recovery and health status of the Duke of Nevers, including his physical condition and treatment plans.</note>
