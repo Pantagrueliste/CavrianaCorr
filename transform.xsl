@@ -8,24 +8,6 @@
     <xsl:output method="text" encoding="UTF-8"/>
     
     <xsl:template match="tei:TEI">
-        <!-- YAML frontmatter -->
-        <xsl:text>---&#10;</xsl:text>
-        <xsl:text>title: "</xsl:text>
-        <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-        <xsl:text>"&#10;</xsl:text>
-        <xsl:text>author: "</xsl:text>
-        <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/>
-        <xsl:text>"&#10;</xsl:text>
-        <xsl:text>date: </xsl:text>
-        <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
-        <xsl:text>&#10;</xsl:text>
-        <xsl:text>place: "</xsl:text>
-        <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
-        <xsl:text>"&#10;</xsl:text>
-        <xsl:text>original_lang: Italian&#10;</xsl:text>
-        <xsl:text>---&#10;&#10;</xsl:text>
-        
-        <!-- Content -->
         <xsl:apply-templates select="tei:teiHeader"/>
         <xsl:apply-templates select="tei:text"/>
     </xsl:template>
@@ -36,7 +18,7 @@
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
         <xsl:text>&#10;</xsl:text>
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
-        <xsl:text>&#10;&#10;</xsl:text>
+        <xsl:text>&#10;&#10;&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:text">
@@ -45,25 +27,18 @@
     
     <xsl:template match="tei:pb">
         <xsl:text>&#10;**[fol. </xsl:text>
-        <xsl:value-of select="substring-after(@facs, '#')"/>
+        <xsl:value-of select="@n"/>
         <xsl:text>]**&#10;&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:lb[not(ancestor::tei:p or ancestor::tei:closer)]">
-        <xsl:choose>
-            <xsl:when test="@break='no'">-&#10;</xsl:when>
-            <xsl:otherwise>&#10;</xsl:otherwise>
-        </xsl:choose>
+        <xsl:text>&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:lb[ancestor::tei:p or ancestor::tei:closer]">
-        <xsl:choose>
-            <xsl:when test="@break='no'">-&#10;</xsl:when>
-            <xsl:otherwise> </xsl:otherwise>
-        </xsl:choose>
+        <xsl:text> </xsl:text>
     </xsl:template>
     
-    <!-- Rest of your templates remain the same -->
     <xsl:template match="tei:p | tei:closer">
         <xsl:apply-templates/>
         <xsl:text>&#10;&#10;</xsl:text>
