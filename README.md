@@ -9,7 +9,7 @@ As a physician at the court of France, and a spy for the grand dukes of Tuscany,
 This edition represents thousands of hours of archival research, transcription, and encoding work. If you use these materials in your research, please cite this digital edition:
 
 ```
-Godbarge, Clément. 2024. "Filippo Cavriana's Secret Correspondence (1563--1589)." St Andrews: University of St Andrews.
+Godbarge, Clément. 2025. "Filippo Cavriana's Secret Correspondence (1563--1589)." St Andrews: University of St Andrews.
 ```
 
 ## Project Scope
