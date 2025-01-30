@@ -45,7 +45,7 @@ gantt
     Sixth Batch (1589-1606)      :2025-10, 2025-12
     
     section Review
-    Peer Review & Final Edition  :2026-01, 2026-05
+    Peer Review & Final Edition  :2025-12, 2026-04
 ```
 
 ## Access and Licensing
