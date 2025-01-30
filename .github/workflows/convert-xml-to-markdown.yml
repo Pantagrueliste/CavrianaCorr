@@ -29,9 +29,10 @@ jobs:
           path: CavrianaCorr_FrontEnd
           token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
 
-      - name: Download Saxon
+      - name: Download Saxon and XML Resolver
         run: |
-          wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.3/Saxon-HE-12.3.jar
+          wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
+          wget -O xml-resolver.jar https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
 
       - name: Create docs directory if it doesn't exist
         run: |
@@ -44,7 +45,7 @@ jobs:
               filename=$(basename -- "$file")
               output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
               echo "Converting $file to $output_file"
-              java -jar saxon.jar -s:"$file" -xsl:transform.xsl -o:"$output_file"
+              java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform -s:"$file" -xsl:transform.xsl -o:"$output_file"
               if [ $? -ne 0 ]; then
                 echo "Error converting $file"
                 exit 1
