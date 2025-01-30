@@ -67,7 +67,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
-          <placeName ref="#place-florence">Firenze</placeName>
+          <placeName ref="#place-firenze">Firenze</placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

@@ -57,7 +57,7 @@
           <date when="1568-07-03"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-mantova-duke">Duke of Mantua</persName>
+          <persName ref="#pers-gonzaga-gugl">Duke of Mantua</persName>
           <placeName ref="#place-mantova">Mantova</placeName>
         </correspAction>
       </correspDesc>

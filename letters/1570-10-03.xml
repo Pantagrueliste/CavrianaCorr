@@ -56,12 +56,12 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#pers-cavriana">Filippo Cavriana</persName>
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1570-10-03">3 October 1570</date>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-concino">Bartolomeo Concino</persName>
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
           <placeName ref="#place-firenze">Firenze</placeName>
         </correspAction>
       </correspDesc>
@@ -94,9 +94,9 @@
           <lb/>se piacerà, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> per alcuno de suoi, farla sollecitare, poiche
           <lb/>gia il <choice><abbr>sereniss.o</abbr><expan>serenissimo</expan></choice> gran <choice><abbr>Mr̍o</abbr><expan>Maestro</expan></choice> si contenta, ne riceverò signa<lb break="no"/>latiss.o favore, per poter poi dar ordine, ad alcune cose mie
           <lb/>le quali, <choice><abbr>no̍</abbr><expan>non</expan></choice> possono portare piu longa dilatione, et serviran̍o
-          <lb/>a Dio, et à sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> <persName ref="#pers-cavriana" type="alias">Vincenzo da Castello</persName> è, impedito in una
+          <lb/>a Dio, et à sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> <persName ref="#pers-cavriana-f">Vincenzo da Castello</persName> è, impedito in una
           <lb/>nova indispositione di suo <choice><abbr>Pron̍e</abbr><expan>Padrone</expan></choice>, venutali hieri nel piu
-          <lb/>bello delle nozze, del <persName ref="#pers-guise">Duca di Ghisa</persName>, co̍ la Princessa di <seg type="split" part="I">Porti</seg>
+          <lb/>bello delle nozze, del <persName ref="#pers-guise-h">Duca di Ghisa</persName>, co̍ la Princessa di <seg type="split" part="I">Porti</seg>
         </p>
         <pb n="331v"/>
         <p>

@@ -28,73 +28,62 @@
       <listPerson>
         <!-- Medici Dynasty -->
         <person xml:id="pers-medici-cos-1">
-          <persName>Gran Duca</persName>
-          <persName>Cosimo I de' Medici
-            <roleName type="nobility">Grand Duke of Tuscany</roleName>
-          </persName>
+          <persName>Cosimo I de' Medici</persName>
+          <persName type="alias">Gran Duca</persName>
+          <roleName type="nobility">Grand Duke of Tuscany</roleName>
           <idno type="VIAF">59259382</idno>
         </person>
         <person xml:id="pers-medici-cat">
           <persName>Caterina de' Medici</persName>
-          <persName type="alias">Reina
-            <roleName type="nobility">Queen Mother of France</roleName>
-          </persName>
+          <persName type="alias">Reina</persName>
+          <roleName type="nobility">Queen Mother of France</roleName>
           <idno type="VIAF">4936327</idno>
         </person>
         <person xml:id="pers-medici-fer">
-          <persName>Ferdinando de' Medici
-            <roleName type="nobility">Grand Duke of Tuscany</roleName>
-          </persName>
+          <persName>Ferdinando de' Medici</persName>
+          <roleName type="nobility">Grand Duke of Tuscany</roleName>
           <idno type="VIAF">100212180</idno>
         </person>
 
         <!-- Italian Noble Houses - Este -->
         <person xml:id="pers-este-a">
-          <persName>Don Alfonso da Este
-            <roleName type="nobility">Duke of Ferrara</roleName>
-          </persName>
+          <persName>Alfonso d'Este</persName>
+          <roleName type="nobility">Duke of Ferrara</roleName>
         </person>
         <person xml:id="pers-este-card">
-          <persName>Cardinal da Este
-            <roleName type="ecclesiastic">Cardinal</roleName>
-          </persName>
+          <persName>Cardinal d'Este</persName>
+          <roleName type="ecclesiastic">Cardinal</roleName>
         </person>
 
         <!-- Italian Noble Houses - Savoy -->
         <person xml:id="pers-savoy-em-fil">
-          <persName>Savoia</persName>
-          <persName>Emanuele Filiberto
-            <roleName type="nobility">Duke of Savoy</roleName>
-          </persName>
+          <persName>Emanuele Filiberto di Savoia</persName>
+          <roleName type="nobility">Duke of Savoy</roleName>
           <idno type="VIAF">100170223</idno>
         </person>
         <person xml:id="pers-savoie-h-susa">
-          <persName>di Susa</persName>
-          <persName>Honorat de Savoie
-            <roleName type="nobility">Marquis of Susa</roleName>
-          </persName>
+          <persName>Honorat de Savoie</persName>
+          <persName type="alias">di Susa</persName>
+          <roleName type="nobility">Marquis of Susa</roleName>
         </person>
 
         <!-- French Royal House - Valois -->
         <person xml:id="pers-valois-ch-9">
-          <persName>Re</persName>
-          <persName>Charles IX
-            <roleName type="nobility">King of France</roleName>
-          </persName>
+          <persName>Charles IX</persName>
+          <persName type="alias">Re</persName>
+          <roleName type="nobility">King of France</roleName>
           <idno type="VIAF">59215242</idno>
         </person>
         <person xml:id="pers-valois-h-3">
-          <persName>Henri III
-            <roleName type="nobility">King of France</roleName>
-          </persName>
+          <persName>Henri III</persName>
+          <roleName type="nobility">King of France</roleName>
           <idno type="VIAF">7398374</idno>
         </person>
 
         <!-- French Royal House - Bourbon -->
         <person xml:id="pers-bourbon-h-nav">
-          <persName>Henri de Bourbon
-            <roleName type="nobility">King of Navarre</roleName>
-          </persName>
+          <persName>Henri de Bourbon</persName>
+          <roleName type="nobility">King of Navarre</roleName>
           <note>Future Henri IV of France</note>
           <idno type="VIAF">266965539</idno>
         </person>
@@ -102,21 +91,18 @@
         <!-- Other French Noble Houses -->
         <person xml:id="pers-lorraine-ch-card">
           <persName>Charles de Lorraine</persName>
-          <persName>Lorena
-            <roleName type="ecclesiastic">Cardinal of Lorraine</roleName>
-          </persName>
+          <persName type="alias">Lorena</persName>
+          <roleName type="ecclesiastic">Cardinal of Lorraine</roleName>
         </person>
         <person xml:id="pers-lorraine-ch-aum">
           <persName>Charles de Lorraine</persName>
-          <persName>D. d'Aumalla
-            <roleName type="nobility">Duke of Aumale</roleName>
-          </persName>
+          <persName type="alias">D. d'Aumale</persName>
+          <roleName type="nobility">Duke of Aumale</roleName>
           <idno type="VIAF">120178357</idno>
         </person>
         <person xml:id="pers-lorraine-chr">
-          <persName>Christine de Lorraine
-            <roleName type="nobility">Princess of Lorraine</roleName>
-          </persName>
+          <persName>Christine de Lorraine</persName>
+          <roleName type="nobility">Princess of Lorraine</roleName>
           <idno type="VIAF">4230910</idno>
         </person>
 
@@ -128,19 +114,19 @@
           <occupation>Physician and diplomat</occupation>
         </person>
         <person xml:id="pers-coligny-g">
-          <persName>Gaspard de Coligny
-            <roleName>Admiral of France</roleName>
-          </persName>
+          <persName>Gaspard de Coligny</persName>
+          <roleName type="military">Admiral of France</roleName>
           <idno type="VIAF">79105346</idno>
         </person>
         <person xml:id="pers-corso-a">
-          <persName>Alfonso corso</persName>
+          <persName>Alfonso Corso</persName>
           <occupation>Military commander</occupation>
         </person>
 
         <!-- Medicean Officials -->
         <person xml:id="pers-concini-b">
           <persName>Bartolomeo Concini</persName>
+          <persName type="alias">Bartolomeo Concino</persName>
           <occupation>First Secretary of Cosimo I de' Medici</occupation>
         </person>
         <person xml:id="pers-dani-j">
@@ -148,8 +134,8 @@
           <occupation>Medici Secretary</occupation>
         </person>
         <person xml:id="pers-alamanni-v">
-          <persName>Alamanni</persName>
           <persName>Vincenzo Alamanni</persName>
+          <persName type="alias">Alamanni</persName>
           <note>Diplomat and intermediary</note>
         </person>
 
@@ -165,107 +151,96 @@
 
         <!-- Other Notable Figures -->
         <person xml:id="pers-epernon-jl">
-          <persName>Jean-Louis de Nogaret de La Valette
-            <roleName type="nobility">Duke of Épernon</roleName>
-          </persName>
+          <persName>Jean-Louis de Nogaret de La Valette</persName>
+          <roleName type="nobility">Duke of Épernon</roleName>
           <idno type="VIAF">51679355</idno>
         </person>
         <person xml:id="pers-tudor-e">
-          <persName>Elizabeth Tudor
-            <roleName type="nobility">Queen of England</roleName>
-          </persName>
+          <persName>Elizabeth Tudor</persName>
+          <roleName type="nobility">Queen of England</roleName>
           <idno type="VIAF">73876780</idno>
         </person>
         <person xml:id="pers-habsburg-j">
-          <persName>Juan de Austria
-            <roleName type="nobility">Don Juan de Austria</roleName>
-          </persName>
+          <persName>Juan de Austria</persName>
+          <roleName type="nobility">Don Juan de Austria</roleName>
           <idno type="VIAF">96139668</idno>
         </person>
 
         <!-- German Princes -->
         <person xml:id="pers-pfalz-fr-3">
-          <persName>Friedrich III von der Pfalz
-            <roleName type="nobility">Elector Palatine</roleName>
-          </persName>
+          <persName>Friedrich III von der Pfalz</persName>
+          <roleName type="nobility">Elector Palatine</roleName>
           <idno type="VIAF">47559178</idno>
         </person>
         <person xml:id="pers-pfalz-jc">
           <persName>Johann Casimir von der Pfalz</persName>
-          <persName>Duca di Duponte
-            <roleName type="nobility">Count Palatine</roleName>
-          </persName>
+          <persName type="alias">Duca di Duponte</persName>
+          <roleName type="nobility">Count Palatine</roleName>
           <idno type="VIAF">52484350</idno>
         </person>
         <person xml:id="pers-sachsen-aug">
-          <persName>Duca di sassonia Agos</persName>
-          <persName>August von Sachsen
-            <roleName type="nobility">Elector of Saxony</roleName>
-          </persName>
+          <persName>August von Sachsen</persName>
+          <persName type="alias">Duca di Sassonia Agost</persName>
+          <roleName type="nobility">Elector of Saxony</roleName>
           <idno type="VIAF">37714053</idno>
         </person>
         <person xml:id="pers-sachsen-wil">
-          <persName>Guglielmo duca di saxonia</persName>
-          <persName>Wilhelm von Sachsen
-            <roleName type="nobility">Duke of Saxony</roleName>
-          </persName>
+          <persName>Wilhelm von Sachsen</persName>
+          <persName type="alias">Guglielmo duca di Sassonia</persName>
+          <roleName type="nobility">Duke of Saxony</roleName>
         </person>
 
         <!-- French Nobles -->
         <person xml:id="pers-guise-h">
-          <persName>Guisa</persName>
-          <persName>Henri de Guise
-            <roleName type="nobility">Duke of Guise</roleName>
-          </persName>
+          <persName>Henri de Guise</persName>
+          <persName type="alias">Guisa</persName>
+          <persName type="alias">Duca di Ghisa</persName>
+          <roleName type="nobility">Duke of Guise</roleName>
           <idno type="VIAF">34454133</idno>
         </person>
         <person xml:id="pers-montm-fr">
-          <persName>Mamoransi</persName>
-          <persName>Montmoransy</persName>
-          <persName>François de Montmorency
-            <roleName type="nobility">Marshal of France</roleName>
-          </persName>
+          <persName>François de Montmorency</persName>
+          <persName type="alias">Montmoransy</persName>
+          <persName type="alias">Mamoransi</persName>
+          <roleName type="military">Marshal of France</roleName>
           <idno type="VIAF">67259075</idno>
         </person>
         <person xml:id="pers-joyeuse-a">
           <persName>Anne de Joyeuse</persName>
-          <persName>Gioiosa
-            <roleName type="nobility">Duke of Joyeuse</roleName>
-          </persName>
+          <persName type="alias">Gioiosa</persName>
+          <roleName type="nobility">Duke of Joyeuse</roleName>
           <idno type="VIAF">45097317</idno>
         </person>
         <person xml:id="pers-savoie-j-nem">
-          <persName>Jacques de Savoie
-            <roleName type="nobility">Duke of Nemours</roleName>
-          </persName>
-          <idno type="VIAF">67259117</idno>
+          <persName>Jacques de Savoie</persName>
+          <roleName type="nobility">Duke of Nemours</roleName>
         </person>
         <person xml:id="pers-savoie-h-ten">
-          <persName>Honorat de Savoie
-            <roleName type="nobility">Count of Tende</roleName>
-          </persName>
+          <persName>Honorat de Savoie</persName>
+          <roleName type="nobility">Count of Tende</roleName>
         </person>
         <person xml:id="pers-gonzaga-l-nev">
-          <persName>Nevers</persName>
-          <persName>Luigi Gonzaga
-            <roleName type="nobility">Duke of Nevers</roleName>
-          </persName>
+          <persName>Luigi Gonzaga</persName>
+          <persName type="alias">Nevers</persName>
+          <roleName type="nobility">Duke of Nevers</roleName>
           <idno type="VIAF">66529198</idno>
+        </person>
+
+        <person xml:id="pers-gonzaga-gugl">
+          <persName>Guglielmo Gonzaga</persName>
+          <roleName type="nobility">Duke of Mantua</roleName>
         </person>
 
         <!-- Military/Diplomatic Figures -->
         <person xml:id="pers-nassau-w">
           <persName>Willem van Oranje</persName>
-          <persName>Principe di Orange
-            <roleName type="nobility">Prince of Orange</roleName>
-          </persName>
+          <persName type="alias">Principe di Orange</persName>
+          <roleName type="nobility">Prince of Orange</roleName>
           <idno type="VIAF">49260512</idno>
         </person>
         <person xml:id="pers-nassau-l">
-          <persName>Ludwig von Nassau
-            <roleName type="nobility">Count of Nassau</roleName>
-          </persName>
-          <idno type="VIAF">67259117</idno>
+          <persName>Ludwig von Nassau</persName>
+          <roleName type="nobility">Count of Nassau</roleName>
         </person>
         <person xml:id="pers-bellievre-p">
           <persName>Pomponne de Bellièvre</persName>
@@ -275,24 +250,21 @@
 
         <!-- Ecclesiastical Figures -->
         <person xml:id="pers-salviati-a">
-          <persName>Monsig.</persName>
-          <persName>Antonio Maria Salviati
-            <roleName type="ecclesiastic">Papal Nuncio</roleName>
-          </persName>
+          <persName>Antonio Maria Salviati</persName>
+          <persName type="alias">Monsig. Salviati</persName>
+          <roleName type="ecclesiastic">Papal Nuncio</roleName>
         </person>
         <person xml:id="pers-pontefice">
-          <persName>Pontefice</persName>
-          <persName>Gregory XIII
-            <roleName>Pope</roleName>
-          </persName>
+          <persName>Gregory XIII</persName>
+          <persName type="alias">Pontefice</persName>
+          <roleName>Pope</roleName>
           <idno type="VIAF">316407579</idno>
         </person>
 
         <!-- Other Officials -->
         <person xml:id="pers-petrucci">
-          <persName>Petrucci
-            <roleName>Commendatore</roleName>
-          </persName>
+          <persName>Petrucci</persName>
+          <roleName>Commendatore</roleName>
           <note>Associated with Order of Santo Stefano investitures</note>
         </person>
         <person xml:id="pers-vaini-e">
@@ -304,7 +276,7 @@
           <occupation>Secretary</occupation>
         </person>
         <person xml:id="pers-ossonville">
-          <persName>Mons.re d'Ossonville</persName>
+          <persName>Monsignore d'Ossonville</persName>
           <occupation>French noble</occupation>
         </person>
         <person xml:id="pers-cesare">
@@ -313,6 +285,10 @@
         </person>
         <person xml:id="pers-traiano">
           <persName>Traiano</persName>
+          <note>Further identification needed</note>
+        </person>
+        <person xml:id="pers-crotto">
+          <persName>crotto</persName>
           <note>Further identification needed</note>
         </person>
       </listPerson>
