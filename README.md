@@ -36,11 +36,16 @@ gantt
     Backend Development & Launch :2024-09, 2025-01
     
     section Content Release
-    First Letters (1566-1573)    :2025-01, 2025-04
-    Second Batch (1574-1589)     :2025-04, 2025-09
+    
+    First Letters (1566)         :2025-01, 2025-02
+    Second Batch (1569-1571)     :2025-02, 2025-04
+    Third Batch (1572-1577)      :2025-04, 2025-06
+    Fourth Batch (1577-1587)     :2025-06, 2025-08
+    Fifth Batch (1587-1589)      :2025-08, 2025-10
+    Sixth Batch (1589-1606)      :2025-10, 2025-12
     
     section Review
-    Peer Review & Final Edition  :2025-09, 2026-01
+    Peer Review & Final Edition  :2026-01, 2026-05
 ```
 
 ## Access and Licensing
