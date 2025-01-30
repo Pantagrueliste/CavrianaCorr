@@ -37,12 +37,12 @@ gantt
     
     section Content Release
     
-    First Letters (1566)         :2025-01, 2025-02
-    Second Batch (1569-1571)     :2025-02, 2025-04
-    Third Batch (1572-1577)      :2025-04, 2025-06
-    Fourth Batch (1577-1587)     :2025-06, 2025-08
-    Fifth Batch (1587-1589)      :2025-08, 2025-10
-    Sixth Batch (1589-1606)      :2025-10, 2025-12
+    1st Letters (1566)         :2025-01, 2025-02
+    2nd Batch (1569-1571)     :2025-02, 2025-04
+    3rd Batch (1572-1577)      :2025-04, 2025-06
+    4th Batch (1577-1587)     :2025-06, 2025-08
+    5th Batch (1587-1589)      :2025-08, 2025-10
+    6th Batch (1589-1606)      :2025-10, 2025-12
     
     section Review
     Peer Review & Final Edition  :2025-12, 2026-04
