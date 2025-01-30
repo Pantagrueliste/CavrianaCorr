@@ -41,14 +41,17 @@ jobs:
       - name: Convert XML to Markdown
         run: |
           for file in ./letters/*.xml; do
-            if [ -f "$file" ]; then
-              filename=$(basename -- "$file")
-              output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
-              echo "Converting $file to $output_file"
-              java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform -s:"$file" -xsl:transform.xsl -o:"$output_file"
-              if [ $? -ne 0 ]; then
-                echo "Error converting $file"
-                exit 1
+            # Skip authority files
+            if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
+              if [ -f "$file" ]; then
+                filename=$(basename -- "$file")
+                output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
+                echo "Converting $file to $output_file"
+                java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform -s:"$file" -xsl:transform.xsl -o:"$output_file"
+                if [ $? -ne 0 ]; then
+                  echo "Error converting $file"
+                  exit 1
+                fi
               fi
             fi
           done
