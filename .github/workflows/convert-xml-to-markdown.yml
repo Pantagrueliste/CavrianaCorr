@@ -21,7 +21,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'temurin'
-          cache: false  # Removed Maven cache
 
       - name: Checkout DocusaurusWebsite repository
         uses: actions/checkout@v4
