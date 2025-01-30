@@ -107,13 +107,21 @@
           <idno type="VIAF">4230910</idno>
         </person>
 
-        <!-- Military/Diplomatic Figures -->
+        <!-- Physicians and Surgeons -->
         <person xml:id="pers-cavriana-f">
           <persName>Filippo Cavriana</persName>
           <persName type="alias">Vincenzo da Castello</persName>
           <persName type="alias">Chi ella sà</persName>
           <occupation>Physician and diplomat</occupation>
         </person>
+        <person xml:id="pers-castellan-h">
+          <persName>Honoré Castellan</persName>
+          <occupation>Premier médecin to Catherine de' Medici</occupation>
+        </person>
+
+
+        <!-- Military/Diplomatic Figures -->
+
         <person xml:id="pers-coligny-g">
           <persName>Gaspard de Coligny</persName>
           <occupation type="military">Admiral of France</occupation>
