@@ -1,5 +1,4 @@
 name: Convert XML to Markdown
-
 on:
   push:
     branches: [ main, master ]
@@ -10,16 +9,16 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out source repository
+      - name: Checkout source repository (containing letters + transform.xsl)
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '11'
-          distribution: 'temurin'
+          java-version: "11"
+          distribution: "temurin"
 
-      - name: Check out Docusaurus repository
+      - name: Checkout Docusaurus repository
         uses: actions/checkout@v4
         with:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
@@ -35,43 +34,33 @@ jobs:
 
       - name: Convert XML to Markdown by Year
         run: |
-          for file in ./letters/*.xml; do
-            if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
+          set -e
+          for file in letters/*.xml; do
+            if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
-                echo "Processing $file"
-                filename=$(basename -- "$file")
-
-                # Extract the first 4 digits of the @when attribute (the year).
-                # We'll temporarily store it in variable "year".
-                year=$(
-                  java -cp saxon.jar net.sf.saxon.Query -qs:"
-                    declare namespace tei='http://www.tei-c.org/ns/1.0';
-                    substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)
-                  " 2>/dev/null
+                filename=$(basename "$file")
+                # Extract year from @when, ignoring any XML declaration
+                yearRaw=$(
+                  java -cp saxon.jar net.sf.saxon.Query \
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0';
+                         declare option saxon:output 'omit-xml-declaration=yes'; 
+                         substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
+                    2>&1
                 )
-
-                # If year is empty, fallback to 'unknownYear'
+                # Grab only 4 digits at the start
+                year=$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)
                 if [ -z "$year" ]; then
                   year="unknownYear"
                 fi
 
-                # Create a folder named after the year
                 mkdir -p "CavrianaCorr_FrontEnd/docs/$year"
-
-                # Construct the output file path in that year folder
                 output_file="CavrianaCorr_FrontEnd/docs/$year/${filename%.*}.md"
 
-                echo "Converting $file into $output_file (year=$year)"
-
+                echo "Converting $file -> $output_file (year=$year)"
                 java -cp saxon.jar net.sf.saxon.Transform \
                   -s:"$file" \
                   -xsl:"transform.xsl" \
                   -o:"$output_file"
-
-                if [ $? -ne 0 ]; then
-                  echo "Error converting $file"
-                  exit 1
-                fi
               fi
             fi
           done
