@@ -39,35 +39,34 @@ jobs:
             if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
                 echo "Processing $file"
-                filename=$(basename "$file")
+                filename=$(basename "$file" .xml)
 
-                # Pull out the first 4 chars of date/@when
-                # ANY extra text (xml decl, etc) is removed by grep
+                # Build an absolute path so doc('file://...') always works
+                filepath=$(realpath "$file")
+                fileurl="file://$filepath"
+
+                # Run a Saxon Query to extract the first 4 digits of @when
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
                     -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0';
-                         substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)"
+                         substring(doc('$fileurl')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
                   2>&1
                 )
-                # Keep only the first 4 digits from the result
+
+                # Keep only digits at the start of the line, ignoring any leftover
                 year=$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)
                 if [ -z "$year" ]; then
                   year="unknownYear"
                 fi
 
                 mkdir -p "CavrianaCorr_FrontEnd/docs/$year"
-                output_file="CavrianaCorr_FrontEnd/docs/$year/${filename%.*}.md"
-
+                output_file="CavrianaCorr_FrontEnd/docs/$year/${filename}.md"
                 echo "Converting $file -> $output_file (year=$year)"
+
                 java -cp saxon.jar net.sf.saxon.Transform \
                   -s:"$file" \
                   -xsl:"transform.xsl" \
                   -o:"$output_file"
-
-                if [ $? -ne 0 ]; then
-                  echo "Error converting $file"
-                  exit 1
-                fi
               fi
             fi
           done
