@@ -15,8 +15,8 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
-          java-version: '11'
-          distribution: 'temurin'
+          java-version: "11"
+          distribution: "temurin"
 
       - name: Checkout DocusaurusWebsite repository
         uses: actions/checkout@v4
@@ -30,36 +30,34 @@ jobs:
           wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
           wget -O xml-resolver.jar https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
 
-      - name: Create docs directory
-        run: |
-          mkdir -p CavrianaCorr_FrontEnd/docs
+      - name: Create docs directory if it doesn't exist
+        run: mkdir -p CavrianaCorr_FrontEnd/docs
 
       - name: Convert XML to Markdown by Year
         run: |
+          set -e
           for file in ./letters/*.xml; do
             if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
-                filename=$(basename -- "$file")
+                filename=$(basename "$file")
+                filepath=$(realpath "$file")
+                fileurl="file://$filepath"
                 year=$(
                   java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Query \
-                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; declare option saxon:output 'omit-xml-declaration=yes'; substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
-                    -wrap=no 2>/dev/null
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; declare option saxon:output 'omit-xml-declaration=yes'; substring(doc('$fileurl')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
+                    -wrap=no 2>&1
                 )
-                year=$(echo "$year" | xargs)
-                if [ -z "$year" ]; then
-                  year="unknownYear"
+                rawYear="$(echo "$year" | grep -Eo '^[0-9]{1,4}' || true)"
+                if [ -z "$rawYear" ]; then
+                  rawYear="unknownYear"
                 fi
-                mkdir -p "CavrianaCorr_FrontEnd/docs/$year"
-                output_file="CavrianaCorr_FrontEnd/docs/$year/${filename%.*}.md"
-                echo "Converting $file -> $output_file (year=$year)"
+                mkdir -p "CavrianaCorr_FrontEnd/docs/$rawYear"
+                output_file="CavrianaCorr_FrontEnd/docs/$rawYear/${filename%.*}.md"
+                echo "Converting $file -> $output_file (year=$rawYear)"
                 java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform \
                   -s:"$file" \
                   -xsl:transform.xsl \
                   -o:"$output_file"
-                if [ $? -ne 0 ]; then
-                  echo "Error converting $file"
-                  exit 1
-                fi
               fi
             fi
           done
