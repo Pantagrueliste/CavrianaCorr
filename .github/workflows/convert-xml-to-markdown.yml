@@ -34,20 +34,39 @@ jobs:
           wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
           wget -O xml-resolver.jar https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
 
-      - name: Create docs directory if it doesn't exist
+      - name: Create docs/letters directory
         run: |
-          mkdir -p CavrianaCorr_FrontEnd/docs
+          mkdir -p CavrianaCorr_FrontEnd/docs/letters
 
-      - name: Convert XML to Markdown
+      - name: Convert XML to Markdown by Year
         run: |
           for file in ./letters/*.xml; do
             # Skip authority files
             if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
                 filename=$(basename -- "$file")
-                output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
+                
+                # Extract 4-digit year from the @when attribute under the TEI namespace
+                year=$(java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Query \
+                  -s:"$file" \
+                  -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; substring(/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when, 1, 4)" \
+                  2>/dev/null)
+                
+                # If no year is found, fallback to "unknownYear"
+                if [ -z "$year" ]; then
+                  year="unknownYear"
+                fi
+
+                mkdir -p "CavrianaCorr_FrontEnd/docs/letters/$year"
+
+                output_file="CavrianaCorr_FrontEnd/docs/letters/$year/${filename%.*}.md"
                 echo "Converting $file to $output_file"
-                java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform -s:"$file" -xsl:transform.xsl -o:"$output_file"
+
+                java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform \
+                  -s:"$file" \
+                  -xsl:transform.xsl \
+                  -o:"$output_file"
+
                 if [ $? -ne 0 ]; then
                   echo "Error converting $file"
                   exit 1
