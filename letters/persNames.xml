@@ -68,6 +68,22 @@
           <occupation type="nobility">Marquis of Susa</occupation>
         </person>
 
+        <!-- Italian Noble Houses - Gonzaga -->
+        <person xml:id="pers-gonzaga-gugl">
+          <persName>Guglielmo Gonzaga</persName>
+          <occupation type="nobility">Duke of Mantua</occupation>
+        </person>
+        <person xml:id="pers-gonzaga-isa">
+          <persName>Isabella Gonzaga</persName>
+          <occupation type="nobility">Marchioness of Pescara</occupation>
+        </person>
+        <person xml:id="pers-gonzaga-l-nev">
+          <persName>Luigi Gonzaga</persName>
+          <persName type="alias">Nevers</persName>
+          <occupation type="nobility">Duke of Nevers</occupation>
+          <idno type="VIAF">66529198</idno>
+        </person>
+
         <!-- French Royal House - Valois -->
         <person xml:id="pers-valois-ch-9">
           <persName>Charles IX</persName>
@@ -121,7 +137,6 @@
 
 
         <!-- Military/Diplomatic Figures -->
-
         <person xml:id="pers-coligny-g">
           <persName>Gaspard de Coligny</persName>
           <occupation type="military">Admiral of France</occupation>
@@ -228,16 +243,6 @@
           <persName>Honorat de Savoie</persName>
           <occupation type="nobility">Count of Tende</occupation>
         </person>
-        <person xml:id="pers-gonzaga-l-nev">
-          <persName>Luigi Gonzaga</persName>
-          <persName type="alias">Nevers</persName>
-          <occupation type="nobility">Duke of Nevers</occupation>
-          <idno type="VIAF">66529198</idno>
-        </person>
-        <person xml:id="pers-gonzaga-gugl">
-          <persName>Guglielmo Gonzaga</persName>
-          <occupation type="nobility">Duke of Mantua</occupation>
-        </person>
 
         <!-- Military/Diplomatic Figures -->
         <person xml:id="pers-nassau-w">
@@ -274,6 +279,10 @@
           <persName>Petrucci</persName>
           <occupation>Commendatore</occupation>
           <note>Associated with Order of Santo Stefano investitures</note>
+        </person>
+        <person xml:id="pers-pers-papazzone-g">
+          <persName>Giulio Cesare Papppazone</persName>
+          <note>Servidore della signora Marchesa di Pescara</note>
         </person>
         <person xml:id="pers-vaini-e">
           <persName>Enea Vaini</persName>
