@@ -6,6 +6,7 @@
     version="2.0">
     
     <xsl:output method="text" encoding="UTF-8"/>
+    <xsl:strip-space elements="*"/>
     
     <xsl:template match="tei:TEI">
         <xsl:apply-templates select="tei:teiHeader"/>
@@ -18,7 +19,7 @@
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
         <xsl:text>&#10;</xsl:text>
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
-        <xsl:text>&#10;&#10;&#10;</xsl:text>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:text">
@@ -28,7 +29,7 @@
     <xsl:template match="tei:pb">
         <xsl:text>&#10;**[fol. </xsl:text>
         <xsl:value-of select="@n"/>
-        <xsl:text>]**&#10;&#10;</xsl:text>
+        <xsl:text>]**&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:lb">
@@ -38,14 +39,19 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="tei:p | tei:closer">
+    <xsl:template match="tei:p">
         <xsl:apply-templates/>
-        <xsl:text>&#10;&#10;</xsl:text>
+        <xsl:text>&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:opener">
         <xsl:apply-templates/>
-        <xsl:text>&#10;&#10;</xsl:text>
+        <xsl:text>&#10;</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="tei:closer">
+        <xsl:apply-templates/>
+        <xsl:text>&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:persName | tei:placeName">
