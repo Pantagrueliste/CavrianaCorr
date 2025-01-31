@@ -2,8 +2,7 @@
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  exclude-result-prefixes="xs tei"
+  exclude-result-prefixes="tei"
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
@@ -53,16 +52,16 @@
     <xsl:text>---&#10;&#10;</xsl:text>
     <xsl:text>**Expeditor**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>  &#10;</xsl:text>
     <xsl:text>**Addressee**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>  &#10;</xsl:text>
     <xsl:text>**Date**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>  &#10;</xsl:text>
     <xsl:text>**Place of Origin**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:text>  &#10;</xsl:text>
     <xsl:text>**Archive Reference**: </xsl:text>
     <xsl:value-of select="
       normalize-space(
@@ -77,7 +76,7 @@
         )
       )
     "/>
-    <xsl:text>&#10;&#10;</xsl:text>
+    <xsl:text>  &#10;&#10;</xsl:text>
     <xsl:apply-templates select="tei:text"/>
   </xsl:template>
 
@@ -127,7 +126,6 @@
   </xsl:template>
 
   <xsl:template match="tei:choice/tei:abbr"/>
-
   <xsl:template match="tei:del"/>
   <xsl:template match="tei:unclear">
     <xsl:value-of select="."/>
