@@ -8,7 +8,6 @@
     <xsl:output method="text" encoding="UTF-8"/>
 
     <xsl:template match="tei:TEI">
-        <!-- YAML front matter -->
         <xsl:text>---&#10;</xsl:text>
         <xsl:text>title: "</xsl:text>
         <xsl:value-of select="
