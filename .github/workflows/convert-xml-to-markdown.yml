@@ -18,6 +18,11 @@ jobs:
           java-version: "11"
           distribution: "temurin"
 
+      - name: Install realpath
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y realpath
+
       - name: Checkout DocusaurusWebsite repository
         uses: actions/checkout@v4
         with:
@@ -35,32 +40,49 @@ jobs:
 
       - name: Convert XML to Markdown by Year
         run: |
-          set -e
+          set +e
           for file in ./letters/*.xml; do
             if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
                 filename=$(basename "$file")
                 filepath=$(realpath "$file")
                 fileurl="file://$filepath"
-                year=$(
+
+                queryOutput=$(
                   java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Query \
-                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; declare option saxon:output 'omit-xml-declaration=yes'; substring(doc('$fileurl')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; 
+                         declare option saxon:output 'omit-xml-declaration=yes'; 
+                         substring(doc('$fileurl')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
                     -wrap=no 2>&1
                 )
-                rawYear="$(echo "$year" | grep -Eo '^[0-9]{1,4}' || true)"
+                rc=$?
+                if [ $rc -ne 0 ]; then
+                  echo "Saxon Query failed with exit code $rc for $file"
+                  echo "Output: $queryOutput"
+                  continue
+                fi
+
+                rawYear="$(echo "$queryOutput" | grep -Eo '^[0-9]{1,4}' || true)"
                 if [ -z "$rawYear" ]; then
                   rawYear="unknownYear"
                 fi
+
                 mkdir -p "CavrianaCorr_FrontEnd/docs/$rawYear"
                 output_file="CavrianaCorr_FrontEnd/docs/$rawYear/${filename%.*}.md"
                 echo "Converting $file -> $output_file (year=$rawYear)"
+
                 java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Transform \
                   -s:"$file" \
                   -xsl:transform.xsl \
                   -o:"$output_file"
+                transform_rc=$?
+                if [ $transform_rc -ne 0 ]; then
+                  echo "Saxon Transform failed with exit code $transform_rc for $file"
+                fi
               fi
             fi
           done
+          exit 0
 
       - name: Commit and push changes
         run: |
