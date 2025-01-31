@@ -36,13 +36,15 @@ jobs:
                 filename=$(basename "$file" .xml)
                 filepath=$(realpath "$file")
                 fileurl="file://$filepath"
+                
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
                     -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; 
-                         let \$date := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when/string()
+                         let \$date := string(doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when)
                          return if (matches(\$date, '^\d{4}')) then substring(\$date,1,4) else 'unknownYear'" \
-                  2>/dev/null || echo "unknownYear"
+                    | tr -d '[:space:]' || echo "unknownYear"
                 )
+                
                 year=${yearRaw:-unknownYear}
                 mkdir -p "CavrianaCorr_FrontEnd/docs/$year"
                 output_file="CavrianaCorr_FrontEnd/docs/$year/${filename}.md"
