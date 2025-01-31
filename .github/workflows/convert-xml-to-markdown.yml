@@ -1,146 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:tei="http://www.tei-c.org/ns/1.0"
-  exclude-result-prefixes="tei"
-  version="2.0">
+name: Convert XML to Markdown
+on:
+  push:
+    branches: 
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
 
-  <xsl:output method="text" encoding="UTF-8"/>
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v4
 
-  <xsl:template match="tei:TEI">
-    <xsl:text>---&#10;</xsl:text>
-    <xsl:text>title: "</xsl:text>
-    <xsl:value-of select="
-      concat(
-        'to ',
-        tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName,
-        ' (',
-        tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,
-        ')'
-      )
-    "/>
-    <xsl:text>"&#10;</xsl:text>
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
 
-    <xsl:text>expeditor: "</xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
-    <xsl:text>"&#10;</xsl:text>
+      - name: Check out Docusaurus repository
+        uses: actions/checkout@v4
+        with:
+          repository: Pantagrueliste/CavrianaCorr_FrontEnd
+          path: CavrianaCorr_FrontEnd
+          token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
 
-    <xsl:text>addressee: "</xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
-    <xsl:text>"&#10;</xsl:text>
+      - name: Download Saxon
+        run: |
+          wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
 
-    <xsl:text>date: "</xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
-    <xsl:text>"&#10;</xsl:text>
+      - name: Create docs folder
+        run: mkdir -p CavrianaCorr_FrontEnd/docs
 
-    <xsl:text>placeOfOrigin: "</xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
-    <xsl:text>"&#10;</xsl:text>
+      - name: Convert XML to Markdown
+        run: |
+          for file in ./letters/*.xml; do
+            if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
+              if [ -f "$file" ]; then
+                filename=$(basename -- "$file")
+                output_file="CavrianaCorr_FrontEnd/docs/${filename%.*}.md"
+                echo "Converting $file to $output_file"
+                java -cp saxon.jar net.sf.saxon.Transform \
+                  -s:"$file" \
+                  -xsl:.github/xsl/transform.xsl \
+                  -o:"$output_file"
+                if [ $? -ne 0 ]; then
+                  echo "Error converting $file"
+                  exit 1
+                fi
+              fi
+            fi
+          done
 
-    <xsl:text>archiveRef: "</xsl:text>
-    <xsl:value-of select="
-      normalize-space(
-        concat(
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from,
-          '-',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
-        )
-      )
-    "/>
-    <xsl:text>"&#10;</xsl:text>
-    <xsl:text>---&#10;&#10;</xsl:text>
-
-    <xsl:text>**Expeditor**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
-    <xsl:text>  &#10;</xsl:text>
-
-    <xsl:text>**Addressee**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
-    <xsl:text>  &#10;</xsl:text>
-
-    <xsl:text>**Date**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
-    <xsl:text>  &#10;</xsl:text>
-
-    <xsl:text>**Place of Origin**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
-    <xsl:text>  &#10;</xsl:text>
-
-    <xsl:text>**Archive Reference**: </xsl:text>
-    <xsl:value-of select="
-      normalize-space(
-        concat(
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from,
-          '-',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
-        )
-      )
-    "/>
-    <xsl:text>  &#10;&#10;</xsl:text>
-
-    <xsl:apply-templates select="tei:text"/>
-  </xsl:template>
-
-  <xsl:template match="tei:text">
-    <xsl:apply-templates/>
-  </xsl:template>
-
-  <xsl:template match="tei:pb">
-    <xsl:text>&#10;**[fol. </xsl:text>
-    <xsl:value-of select="@n"/>
-    <xsl:text>]**&#10;</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="tei:lb">
-    <xsl:choose>
-      <xsl:when test="@break='no'">
-        <xsl:text>-</xsl:text>
-        <xsl:text>  &#10;</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>  &#10;</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-  <xsl:template match="tei:p">
-    <xsl:apply-templates/>
-    <xsl:text>&#10;&#10;</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="tei:opener">
-    <xsl:apply-templates/>
-    <xsl:text>&#10;&#10;</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="tei:closer">
-    <xsl:apply-templates/>
-    <xsl:text>&#10;&#10;</xsl:text>
-  </xsl:template>
-
-  <xsl:template match="tei:persName | tei:placeName">
-    <xsl:value-of select="."/>
-  </xsl:template>
-
-  <xsl:template match="tei:choice">
-    <xsl:value-of select="tei:expan"/>
-  </xsl:template>
-
-  <xsl:template match="tei:choice/tei:abbr"/>
-  <xsl:template match="tei:del"/>
-  <xsl:template match="tei:unclear">
-    <xsl:value-of select="."/>
-  </xsl:template>
-  <xsl:template match="tei:add">
-    <xsl:value-of select="."/>
-  </xsl:template>
-
-</xsl:stylesheet>
+      - name: Commit and push changes
+        run: |
+          cd CavrianaCorr_FrontEnd
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Update converted Markdown files"
+          git push origin main
