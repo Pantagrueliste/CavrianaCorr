@@ -18,11 +18,6 @@ jobs:
           java-version: "11"
           distribution: "temurin"
 
-      - name: Install realpath
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y realpath
-
       - name: Checkout DocusaurusWebsite repository
         uses: actions/checkout@v4
         with:
@@ -35,23 +30,24 @@ jobs:
           wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
           wget -O xml-resolver.jar https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
 
-      - name: Create docs directory if it doesn't exist
-        run: mkdir -p CavrianaCorr_FrontEnd/docs
+      - name: Create docs directory
+        run: |
+          mkdir -p CavrianaCorr_FrontEnd/docs
 
       - name: Convert XML to Markdown by Year
         run: |
           set +e
-          for file in ./letters/*.xml; do
-            if [[ "$file" != "./letters/persNames.xml" && "$file" != "./letters/placeNames.xml" ]]; then
+          for file in letters/*.xml; do
+            if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
                 filename=$(basename "$file")
-                filepath=$(realpath "$file")
-                fileurl="file://$filepath"
+                # Build a file URL using the current working directory
+                fileurl="file://$(pwd)/$file"
 
                 queryOutput=$(
                   java -cp saxon.jar:xml-resolver.jar net.sf.saxon.Query \
-                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; 
-                         declare option saxon:output 'omit-xml-declaration=yes'; 
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0';
+                         declare option saxon:output 'omit-xml-declaration=yes';
                          substring(doc('$fileurl')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
                     -wrap=no 2>&1
                 )
