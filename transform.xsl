@@ -31,12 +31,11 @@
         <xsl:text>]**&#10;&#10;</xsl:text>
     </xsl:template>
     
-    <xsl:template match="tei:lb[not(ancestor::tei:p or ancestor::tei:closer)]">
-        <xsl:text>&#10;</xsl:text>
-    </xsl:template>
-    
-    <xsl:template match="tei:lb[ancestor::tei:p or ancestor::tei:closer]">
-        <xsl:text> </xsl:text>
+    <xsl:template match="tei:lb">
+        <xsl:choose>
+            <xsl:when test="@break='no'">-&#10;</xsl:when>
+            <xsl:otherwise>&#10;</xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="tei:p | tei:closer">
