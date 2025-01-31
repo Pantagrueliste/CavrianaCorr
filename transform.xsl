@@ -8,31 +8,87 @@
     <xsl:output method="text" encoding="UTF-8"/>
 
     <xsl:template match="tei:TEI">
+        <!-- YAML front matter -->
         <xsl:text>---&#10;</xsl:text>
+        <xsl:text>title: "</xsl:text>
+        <xsl:value-of select="
+          concat(
+            'Letter from ',
+            tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName,
+            ' to ',
+            tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName,
+            ' (',
+            tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,
+            ')'
+          )
+        "/>
+        <xsl:text>"&#10;</xsl:text>
+
         <xsl:text>expeditor: "</xsl:text>
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
         <xsl:text>"&#10;</xsl:text>
+
         <xsl:text>addressee: "</xsl:text>
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
         <xsl:text>"&#10;</xsl:text>
+
+        <xsl:text>date: "</xsl:text>
+        <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+        <xsl:text>"&#10;</xsl:text>
+
         <xsl:text>placeOfOrigin: "</xsl:text>
         <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
         <xsl:text>"&#10;</xsl:text>
+
         <xsl:text>archiveRef: "</xsl:text>
         <xsl:value-of select="
-            normalize-space(
-              concat(
-                tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
-                tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
-                tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
-                tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
-                tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from, '-',
-                tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
-              )
+          normalize-space(
+            concat(
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from, '-',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
             )
+          )
         "/>
         <xsl:text>"&#10;</xsl:text>
         <xsl:text>---&#10;&#10;</xsl:text>
+
+        <!-- Some quick metadata lines under the front matter -->
+        <xsl:text>**Expeditor**: </xsl:text>
+        <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>**Addressee**: </xsl:text>
+        <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>**Date**: </xsl:text>
+        <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>**Place of Origin**: </xsl:text>
+        <xsl:value-of select="tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
+        <xsl:text>&#10;</xsl:text>
+
+        <xsl:text>**Archive Reference**: </xsl:text>
+        <xsl:value-of select="
+          normalize-space(
+            concat(
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from, '-',
+              tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
+            )
+          )
+        "/>
+        <xsl:text>&#10;&#10;</xsl:text>
+
+        <!-- Finally, output the letter text. -->
         <xsl:apply-templates select="tei:text"/>
     </xsl:template>
 
