@@ -47,7 +47,7 @@
           tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
           tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from,
           '-',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@to
+          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
         )
       )
     "/>
