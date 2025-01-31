@@ -29,12 +29,14 @@
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
     <xsl:text>"&#10;</xsl:text>
     <xsl:text>date: "</xsl:text>
+    <!-- Use @when instead of the element’s text -->
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
     <xsl:text>"&#10;</xsl:text>
     <xsl:text>placeOfOrigin: "</xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
     <xsl:text>"&#10;</xsl:text>
     <xsl:text>archiveRef: "</xsl:text>
+    <!-- Make sure to reference msContents for the <locus> element -->
     <xsl:value-of select="
       normalize-space(
         concat(
@@ -44,7 +46,7 @@
           tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
           tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from,
           '-',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@to
+          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
         )
       )
     "/>
@@ -57,7 +59,8 @@
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
     <xsl:text>  &#10;</xsl:text>
     <xsl:text>**Date**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
+    <!-- Again, pull from the @when attribute -->
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
     <xsl:text>  &#10;</xsl:text>
     <xsl:text>**Place of Origin**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
@@ -72,7 +75,7 @@
           tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
           tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from,
           '-',
-          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@to
+          tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
         )
       )
     "/>
