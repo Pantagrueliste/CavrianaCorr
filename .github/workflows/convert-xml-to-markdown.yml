@@ -46,7 +46,7 @@ jobs:
                 echo "Converting $file to $output_file"
                 java -cp saxon.jar net.sf.saxon.Transform \
                   -s:"$file" \
-                  -xsl:.github/transform.xsl \
+                  -xsl:transform.xsl \
                   -o:"$output_file"
                 if [ $? -ne 0 ]; then
                   echo "Error converting $file"
