@@ -9,16 +9,16 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source repository (containing letters + transform.xsl)
+      - name: Checkout main repo
         uses: actions/checkout@v4
 
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: "11"
-          distribution: "temurin"
+          java-version: '11'
+          distribution: 'temurin'
 
-      - name: Checkout Docusaurus repository
+      - name: Checkout Docusaurus
         uses: actions/checkout@v4
         with:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
@@ -38,17 +38,20 @@ jobs:
           for file in letters/*.xml; do
             if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
+                echo "Processing $file"
                 filename=$(basename "$file")
-                # Extract year from @when, ignoring any XML declaration
+
+                # Query for substring of @when, preventing xml declaration
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
                     -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0';
-                         declare option saxon:output 'omit-xml-declaration=yes'; 
+                         declare option saxon:output 'omit-xml-declaration=yes';
                          substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
                     2>&1
                 )
-                # Grab only 4 digits at the start
-                year=$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)
+
+                # Keep only the 4-digit year at start of the line:
+                year="$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)"
                 if [ -z "$year" ]; then
                   year="unknownYear"
                 fi
@@ -61,6 +64,11 @@ jobs:
                   -s:"$file" \
                   -xsl:"transform.xsl" \
                   -o:"$output_file"
+
+                if [ $? -ne 0 ]; then
+                  echo "Error converting $file"
+                  exit 1
+                fi
               fi
             fi
           done
