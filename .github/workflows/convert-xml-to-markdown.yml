@@ -9,16 +9,16 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main repo
+      - name: Checkout TEI repo
         uses: actions/checkout@v4
 
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '11'
-          distribution: 'temurin'
+          java-version: "11"
+          distribution: "temurin"
 
-      - name: Checkout Docusaurus
+      - name: Checkout Docusaurus repo
         uses: actions/checkout@v4
         with:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
@@ -41,17 +41,16 @@ jobs:
                 echo "Processing $file"
                 filename=$(basename "$file")
 
-                # Query for substring of @when, preventing xml declaration
+                # Pull out the first 4 chars of date/@when
+                # ANY extra text (xml decl, etc) is removed by grep
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
                     -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0';
-                         declare option saxon:output 'omit-xml-declaration=yes';
-                         substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
-                    2>&1
+                         substring(doc('$file')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)"
+                  2>&1
                 )
-
-                # Keep only the 4-digit year at start of the line:
-                year="$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)"
+                # Keep only the first 4 digits from the result
+                year=$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)
                 if [ -z "$year" ]; then
                   year="unknownYear"
                 fi
@@ -73,7 +72,7 @@ jobs:
             fi
           done
 
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           cd CavrianaCorr_FrontEnd
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
