@@ -34,24 +34,29 @@
     
     <xsl:template match="tei:lb">
         <xsl:choose>
-            <xsl:when test="@break='no'">-&#10;</xsl:when>
-            <xsl:otherwise>&#10;</xsl:otherwise>
+            <xsl:when test="@break='no'">
+                <xsl:text>-</xsl:text>
+                <xsl:text>  &#10;</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>  &#10;</xsl:text>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
     <xsl:template match="tei:p">
         <xsl:apply-templates/>
-        <xsl:text>&#10;</xsl:text>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:opener">
         <xsl:apply-templates/>
-        <xsl:text>&#10;</xsl:text>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:closer">
         <xsl:apply-templates/>
-        <xsl:text>&#10;</xsl:text>
+        <xsl:text>&#10;&#10;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:persName | tei:placeName">
@@ -73,4 +78,5 @@
     <xsl:template match="tei:add">
         <xsl:value-of select="."/>
     </xsl:template>
+    
 </xsl:stylesheet>
