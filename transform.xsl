@@ -64,9 +64,6 @@
    
    <xsl:template match="tei:choice">
        <xsl:value-of select="tei:expan"/>
-       <xsl:if test="following-sibling::text()[1]">
-           <xsl:value-of select="following-sibling::text()[1]"/>
-       </xsl:if>
    </xsl:template>
    
    <xsl:template match="tei:choice/tei:abbr"/>
