@@ -9,7 +9,6 @@
 
   <xsl:template match="tei:TEI">
     <xsl:text>---&#10;</xsl:text>
-    <!-- Title is now just "to X (YYYY-MM-DD)" -->
     <xsl:text>title: "</xsl:text>
     <xsl:value-of select="
       concat(
