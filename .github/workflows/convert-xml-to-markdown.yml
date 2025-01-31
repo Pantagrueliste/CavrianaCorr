@@ -4,34 +4,28 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-
 jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout TEI repo
         uses: actions/checkout@v4
-
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
           java-version: "11"
           distribution: "temurin"
-
       - name: Checkout Docusaurus repo
         uses: actions/checkout@v4
         with:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
           path: CavrianaCorr_FrontEnd
           token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
-
       - name: Download Saxon
         run: |
           wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
-
       - name: Create docs folder
         run: mkdir -p CavrianaCorr_FrontEnd/docs
-
       - name: Convert XML to Markdown by Year
         run: |
           set -e
@@ -40,29 +34,19 @@ jobs:
               if [ -f "$file" ]; then
                 echo "Processing $file"
                 filename=$(basename "$file" .xml)
-
-                # Build an absolute path so doc('file://...') always works
                 filepath=$(realpath "$file")
                 fileurl="file://$filepath"
-
-                # Run a Saxon Query to extract the first 4 digits of @when
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
-                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0';
-                         substring(doc('$fileurl')/tei:TEI/tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,1,4)" \
-                  2>&1
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; 
+                         let \$date := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when/string()
+                         return if (matches(\$date, '^\d{4}')) then substring(\$date,1,4) else 'unknownYear'" \
+                  2>/dev/null || echo "unknownYear"
                 )
-
-                # Keep only digits at the start of the line, ignoring any leftover
-                year=$(echo "$yearRaw" | grep -Eo '^[0-9]{4}' || true)
-                if [ -z "$year" ]; then
-                  year="unknownYear"
-                fi
-
+                year=${yearRaw:-unknownYear}
                 mkdir -p "CavrianaCorr_FrontEnd/docs/$year"
                 output_file="CavrianaCorr_FrontEnd/docs/$year/${filename}.md"
                 echo "Converting $file -> $output_file (year=$year)"
-
                 java -cp saxon.jar net.sf.saxon.Transform \
                   -s:"$file" \
                   -xsl:"transform.xsl" \
@@ -70,7 +54,6 @@ jobs:
               fi
             fi
           done
-
       - name: Commit and push
         run: |
           cd CavrianaCorr_FrontEnd
