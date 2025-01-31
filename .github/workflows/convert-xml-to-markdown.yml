@@ -40,14 +40,15 @@ jobs:
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
                     -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; 
-                         let \$date := string(doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when)
-                         return if (matches(\$date, '^\d{4}')) then substring(\$date,1,4) else 'unknownYear'" \
-                    | tr -d '[:space:]' || echo "unknownYear"
+                         let \$date := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when
+                         return normalize-space(substring(\$date, 1, 4))" \
+                    | grep -o '[0-9]\{4\}' || echo "unknownYear"
                 )
                 
                 year=${yearRaw:-unknownYear}
-                mkdir -p "CavrianaCorr_FrontEnd/docs/$year"
-                output_file="CavrianaCorr_FrontEnd/docs/$year/${filename}.md"
+                yearDir="CavrianaCorr_FrontEnd/docs/$year"
+                mkdir -p "$yearDir"
+                output_file="$yearDir/${filename}.md"
                 echo "Converting $file -> $output_file (year=$year)"
                 java -cp saxon.jar net.sf.saxon.Transform \
                   -s:"$file" \
@@ -56,6 +57,10 @@ jobs:
               fi
             fi
           done
+      - name: Pull before pushing
+        run: |
+          cd CavrianaCorr_FrontEnd
+          git pull origin main
       - name: Commit and push
         run: |
           cd CavrianaCorr_FrontEnd
