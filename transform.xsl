@@ -12,7 +12,6 @@
     <xsl:text>title: "</xsl:text>
     <xsl:value-of select="
       concat(
-        'to ',
         tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName,
         ' (',
         tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,
