@@ -7,21 +7,24 @@
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Strip incidental whitespace -->
+  <!-- Remove incidental whitespace -->
   <xsl:strip-space elements="tei:*"/>
 
-  <!-- Root template: capture all output and post-process it -->
+  <!-- Root template: capture output, join into a single string, then post-process -->
   <xsl:template match="/">
-    <xsl:variable name="rawOutput" as="xs:string">
+    <!-- Capture output from processing TEI into a variable (sequence) -->
+    <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
-    <!-- Remove extra spaces preceding punctuation (commas, semicolons, colons, periods, hyphens) -->
-    <xsl:value-of select="replace($rawOutput, '\s+([,;:\.\-])', '$1')"/>
+    <!-- Join all items into one string -->
+    <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
+    <!-- Remove extra whitespace preceding punctuation -->
+    <xsl:value-of select="replace($rawOutputString, '\s+([,;:\.\-])', '$1')"/>
   </xsl:template>
 
   <!-- Process the TEI document -->
   <xsl:template match="tei:TEI">
-    <!-- Define folio locus values (which must now be encoded as attributes) -->
+    <!-- Define folio locus values (expected as attributes) -->
     <xsl:variable name="locusFrom" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from"/>
     <xsl:variable name="locusTo"   select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to"/>
     <xsl:variable name="archiveRef" as="xs:string" select="normalize-space(
@@ -127,12 +130,12 @@
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
   
-  <!-- Inline elements: normalize their text -->
+  <!-- Inline elements: normalize text -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
-  <!-- For choice elements, output the expansion and then a space -->
+  <!-- For choice elements, output the expansion and a trailing space -->
   <xsl:template match="tei:choice">
     <xsl:value-of select="tei:expan"/>
     <xsl:text> </xsl:text>
