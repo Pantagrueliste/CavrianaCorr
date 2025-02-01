@@ -21,7 +21,7 @@
     </xsl:variable>
     <!-- Join all items into one string -->
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
-    <xsl:value-of select="replace($rawOutputString, '\s+(?!\-{2,})([,;:\.\-])', '$1')"/>
+    <xsl:value-of select="replace($rawOutputString, '\s+(?!(?:-){2,})([,;:\.\-])', '$1')"/>
   </xsl:template>
 
   <!-- Process the TEI document -->
