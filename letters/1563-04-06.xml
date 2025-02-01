@@ -30,7 +30,7 @@
                     <msContents>
                         <msItem>
                             <locus from="286r" to="286v">fols. 286r-286v</locus>
-                            <title>Letter from Filippo Cavriana to Duke of Mantua</title>
+                            <title>Letter from Filippo Cavriana to Guglielmo Gonzaga</title>
                             <author>Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">Cavriana reports on the health condition of the Duke of Nevers and apologizes for not writing earlier about his accident.</note>
@@ -65,7 +65,7 @@
                     <date when="1568-04-06"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#pers-gonzaga-gugl">Duke of Mantua</persName>
+                    <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>
                     <placeName ref="#place-mantova">Mantova</placeName>
                 </correspAction>
             </correspDesc>
