@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - validation
+      - staging
   pull_request:
     branches:
       - validation
+      - staging
 
 jobs:
   validate:
