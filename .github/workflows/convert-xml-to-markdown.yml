@@ -1,31 +1,40 @@
 name: Convert XML to Markdown
+
 on:
   push:
-    branches: [ main, master ]
+    branches:
+      - staging
   pull_request:
-    branches: [ main, master ]
+    branches:
+      - staging
+
 jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout TEI repo
         uses: actions/checkout@v4
+
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
           java-version: "11"
           distribution: "temurin"
+
       - name: Checkout Docusaurus repo
         uses: actions/checkout@v4
         with:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
           path: CavrianaCorr_FrontEnd
           token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
+
       - name: Download Saxon
         run: |
           wget -O saxon.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
+
       - name: Create docs folder
         run: mkdir -p CavrianaCorr_FrontEnd/docs
+
       - name: Convert XML to Markdown by Year
         run: |
           set -e
@@ -57,10 +66,12 @@ jobs:
               fi
             fi
           done
+
       - name: Pull before pushing
         run: |
           cd CavrianaCorr_FrontEnd
           git pull origin main
+
       - name: Commit and push
         run: |
           cd CavrianaCorr_FrontEnd
