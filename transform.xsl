@@ -7,15 +7,23 @@
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Remove incidental whitespace -->
+  <!-- Strip incidental whitespace -->
   <xsl:strip-space elements="tei:*"/>
 
+  <!-- Root template: capture all output and post-process it -->
+  <xsl:template match="/">
+    <xsl:variable name="rawOutput" as="xs:string">
+      <xsl:apply-templates select="tei:TEI"/>
+    </xsl:variable>
+    <!-- Remove extra spaces preceding punctuation (commas, semicolons, colons, periods, hyphens) -->
+    <xsl:value-of select="replace($rawOutput, '\s+([,;:\.\-])', '$1')"/>
+  </xsl:template>
+
+  <!-- Process the TEI document -->
   <xsl:template match="tei:TEI">
-    <!-- Define variables for the folio locus values -->
+    <!-- Define folio locus values (which must now be encoded as attributes) -->
     <xsl:variable name="locusFrom" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from"/>
     <xsl:variable name="locusTo"   select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to"/>
-
-    <!-- Archive metadata variable -->
     <xsl:variable name="archiveRef" as="xs:string" select="normalize-space(
       concat(
         tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
@@ -119,12 +127,12 @@
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
   
-  <!-- Inline elements: output normalized text -->
+  <!-- Inline elements: normalize their text -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
-  <!-- For choice elements, output the expanded form plus a trailing space -->
+  <!-- For choice elements, output the expansion and then a space -->
   <xsl:template match="tei:choice">
     <xsl:value-of select="tei:expan"/>
     <xsl:text> </xsl:text>
