@@ -1,15 +1,15 @@
 name: Convert XML to Markdown
 
-permissions:
-  contents: write
-
 on:
   push:
     branches:
-      - staging
-  pull_request:
-    branches:
-      - staging
+      - main
+    paths:
+      - 'letters/*.xml'
+      - 'transform.xsl'
+
+permissions:
+  contents: write
 
 jobs:
   convert:
@@ -81,5 +81,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add docs/
+          # Only commit if there are changes
           git diff --cached --quiet || git commit -m "Update converted Markdown files"
           git push origin main
