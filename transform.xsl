@@ -10,9 +10,10 @@
   <!-- Remove incidental whitespace from all TEI elements -->
   <xsl:strip-space elements="tei:*"/>
 
-  <!-- Root template: capture output, join into a single string, then post-process.
-       Remove extra whitespace preceding punctuation, 
-       but do not remove whitespace before punctuation that begins a front matter delimiter (i.e. three minus signs). -->
+  <!-- Root template: capture output, join it into a single string, then post-process.
+       Remove extra whitespace preceding punctuation (for example, commas, semicolons, colons, periods, or dashes),
+       but do not remove whitespace when it is used as part of a YAML front matter delimiter
+       (for instance, a line starting with three dash characters). -->
   <xsl:template match="/">
     <!-- Capture output from processing TEI into a variable (sequence) -->
     <xsl:variable name="rawOutput">
