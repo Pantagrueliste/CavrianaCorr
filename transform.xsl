@@ -70,28 +70,11 @@
     <xsl:text>archiveRef: "</xsl:text>
     <xsl:value-of select="$archiveRef"/>
     <xsl:text>"&#10;</xsl:text>
-    <!-- Force the closing YAML delimiter to appear on its own line -->
-    <xsl:text>&#10;---&#10;&#10;</xsl:text>
-    
-    <xsl:text>**Expeditor**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
-    <xsl:text>  &#10;</xsl:text>
-    
-    <xsl:text>**Addressee**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
-    <xsl:text>  &#10;</xsl:text>
-    
-    <xsl:text>**Date**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
-    <xsl:text>  &#10;</xsl:text>
-    
-    <xsl:text>**Place of Origin**: </xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
-    <xsl:text>  &#10;</xsl:text>
-    
-    <xsl:text>**Archive Reference**: </xsl:text>
-    <xsl:value-of select="$archiveRef"/>
-    <xsl:text>  &#10;&#10;</xsl:text>
+    <xsl:text>---&#10;</xsl:text>
+    <xsl:text>&#10;</xsl:text>
+
+    <!-- Begin document content -->
+    <xsl:text>&#10;</xsl:text>
     
     <xsl:apply-templates select="tei:text"/>
   </xsl:template>
@@ -148,7 +131,6 @@
   <xsl:template match="tei:unclear">
     <xsl:value-of select="."/>
   </xsl:template>
-  
   <xsl:template match="tei:add">
     <xsl:value-of select="."/>
   </xsl:template>
