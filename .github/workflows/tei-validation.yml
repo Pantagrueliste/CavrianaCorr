@@ -3,12 +3,10 @@ name: Validate TEI Documents
 on:
   push:
     branches:
-      - main
-      - master
+      - validation
   pull_request:
     branches:
-      - main
-      - master
+      - validation
 
 jobs:
   validate:
@@ -35,7 +33,7 @@ jobs:
           mkdir -p schemas
           wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
 
-      - name: Validate TEI Files in `letters/`
+      - name: Validate TEI Files in letters/
         run: |
           XML_FILES=$(find ./letters -type f -name "*.xml")
           if [ -n "$XML_FILES" ]; then
