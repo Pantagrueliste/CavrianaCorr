@@ -1,5 +1,8 @@
 name: Convert XML to Markdown
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
