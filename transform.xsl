@@ -7,10 +7,9 @@
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Remove incidental whitespace -->
+  <!-- Remove incidental whitespace from all TEI elements -->
   <xsl:strip-space elements="tei:*"/>
 
-  <!-- Process the root TEI element -->
   <xsl:template match="tei:TEI">
     <!-- Define archive metadata relative to the current TEI element -->
     <xsl:variable name="archiveRef" as="xs:string">
@@ -20,12 +19,13 @@
           ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
           ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
           ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from,
+          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@from,
           '-',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to
+          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@to
         )
       )"/>
-    
+    </xsl:variable>
+
     <!-- YAML front matter -->
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>title: "</xsl:text>
@@ -86,7 +86,6 @@
   </xsl:template>
   
   <xsl:template match="tei:pb">
-    <!-- Added an extra newline after the fol. number -->
     <xsl:text>&#10;**[fol. </xsl:text>
     <xsl:value-of select="@n"/>
     <xsl:text>]**&#10;&#10;</xsl:text>
@@ -118,12 +117,10 @@
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
   
-  <!-- Output inline names with normalized spacing -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
-  <!-- For choice elements, output the expanded form and add a trailing space -->
   <xsl:template match="tei:choice">
     <xsl:value-of select="tei:expan"/>
     <xsl:text> </xsl:text>
@@ -137,5 +134,5 @@
   <xsl:template match="tei:add">
     <xsl:value-of select="."/>
   </xsl:template>
-  
+
 </xsl:stylesheet>
