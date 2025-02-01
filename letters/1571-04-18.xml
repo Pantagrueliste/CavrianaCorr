@@ -47,13 +47,16 @@
                         </handDesc>
                     </physDesc>
                 </msDesc>
-                </sourceDesc>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
                 <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
             </editorialDecl>
-        <projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc>
+            <projectDesc>
+                <p>All places and persons are referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+            </projectDesc>
+        </encodingDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -67,34 +70,5 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <opener>
-                    <salute><lb/>Serenissimo Signore</salute>
-                </opener>
-                <p>
-                    <lb/>Col ritorno di <persName ref="#pers-salviati-a">Monsig.or Salviati</persName> in <placeName ref="#place-it">Italia</placeName>, il quale passando 
-                    <lb/>per costà, mi ha promesso di communicare à <choice><abbr>V. Al.</abbr><expan>Vostra Altezza</expan></choice> alcuni 
-                    <lb/>particolari miei, per servitio di quella; non m'è parso 
-                    <lb/>di dover perdere questa occasione di baciarle le mani 
-                    <lb/>et supplicarla, che essendomisi aperta la via, piu 
-                    <lb/>che mai fusse, di poter servir, a <choice><abbr>V. Alz.a</abbr><expan>Vostra Altezza</expan></choice>, et di servitio 
-                    <lb/>rilevante; sia contenta d'impiegarmi con certezza, 
-                    <lb/>che ella non habbia, in queste bande persona piu divota 
-                    <lb/>et fedele di me, il quale se occupassi la gratia sua 
-                    <lb/>per merito, come per voluntà desidero, io mi riputertei 
-                    <lb/>felicissimo. Ma à me basterà, che a <choice><abbr>V. Al</abbr><expan>Vostra Altezza</expan></choice> l'animo
-                    <lb/>mio sia conosciuto, pregando in queto mezzo il <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Dio, 
-                    <lb/>che in lei adempia i suoi desiderij, et à me dia gratia 
-                    <lb/>di ben servirla. Di <placeName ref="#place-paris">Parigi</placeName> il di <date when="1571-04-18">xviij di Aprile del LXXI</date>.
-                </p>
-                <closer>
-                    <lb/>Di Vostra Serenissima Altezza
-                    <lb/>Humilissimo et Fedelissimo Servidore.
-                    <lb/><signed><persName ref="#pers-cavriana-f">Il Cavaglier Cavriana</persName></signed>
-                </closer>
-            </div>
-        </body>
-    </text>
+    <text><body><div type="letter"><pb n="130r"/><opener><salute><lb/>Serenissimo Signore</salute></opener><p><lb/>Col ritorno di <persName ref="#pers-salviati-a">Monsig.<choice><abbr>or</abbr><expan>ore</expan></choice> Salviati</persName> in <placeName ref="#place-it">Italia</placeName>, il quale passando<lb/>per costà, mi ha promesso di communicare à <choice><abbr>V. Al.</abbr><expan>Vostra Altezza</expan></choice> alcuni<lb/>particolari miei, per servitio di quella; non m'è parso<lb/>di dover perdere questa occasione di baciarle le mani<lb/>et supplicarla, che essendomisi aperta la via, piu<lb/>che mai fusse, di poter servir, a <choice><abbr>V. Alz.a</abbr><expan>Vostra Altezza</expan></choice>, et di servitio<lb/>rilevante; sia contenta d'impiegarmi con certezza,<lb/>che ella non habbia, in queste bande persona piu divota<lb/>et fedele di me, il quale se occupassi la gratia sua<lb/>per merito, come per voluntà desidero, io mi riputertei<lb/>felicissimo. Ma à me basterà, che a <choice><abbr>V. Al.</abbr><expan>Vostra Altezza</expan></choice> l'animo<lb/>mio sia conosciuto, pregando in questo mezzo il <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Dio,<lb/>che in lei adempia i suoi desiderij, et à me dia gratia<lb/>di ben servirla. Di <placeName ref="#place-paris">Parigi</placeName> il di <date when="1571-04-18">xviij di Aprile del LXXI</date>.</p><closer><lb/>Di Vostra Serenissima Altezza<lb/>Humilissimo et Fedelissimo Servidore.<lb/><signed><persName ref="#pers-cavriana-f">Il Cavaglier Cavriana</persName></signed></closer></div></body></text>
 </TEI>
