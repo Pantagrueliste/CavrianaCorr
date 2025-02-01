@@ -11,17 +11,23 @@
   <xsl:strip-space elements="tei:*"/>
 
   <!-- Root template: capture output, join it into a single string, then post-process.
-       Remove extra whitespace preceding punctuation (e.g. commas, semicolons, colons, periods, or dashes),
-       but do not remove whitespace when it is used as part of a YAML front matter delimiter
-       (for instance, a line starting with three dash characters). -->
+       Remove extra whitespace preceding punctuation (commas, semicolons, colons, periods, or dashes),
+       but skip cases where the punctuation is part of a front matter delimiter (e.g. triple dash). -->
   <xsl:template match="/">
     <!-- Capture output from processing TEI into a variable (sequence) -->
     <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
+
     <!-- Join all items into one string -->
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
-    <xsl:value-of select="replace($rawOutputString, '\s+(?!(?:-){2,})([,;:\.\-])', '$1')"/>
+
+    <!-- Properly escaped regex: \s+ => \\s+, \. => \\., and so on -->
+    <xsl:value-of select="replace(
+      $rawOutputString,
+      '\\s+(?!(?:-){2,})([,;:\\.\\-])',
+      '$1'
+    )"/>
   </xsl:template>
 
   <!-- Process the TEI document -->
