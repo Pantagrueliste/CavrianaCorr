@@ -7,50 +7,52 @@
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Remove incidental whitespace from all TEI elements -->
+  <!-- Remove incidental whitespace -->
   <xsl:strip-space elements="tei:*"/>
 
   <xsl:template match="tei:TEI">
-    <!-- Define archive metadata relative to the current TEI element -->
-    <xsl:variable name="archiveRef" as="xs:string">
-      <xsl:value-of select="normalize-space(
-        concat(
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@from,
-          '-',
-          ./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msItem/tei:locus/@to
-        )
-      )"/>
-    </xsl:variable>
+    <!-- Define variables for the folio locus values -->
+    <xsl:variable name="locusFrom" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from"/>
+    <xsl:variable name="locusTo"   select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to"/>
+
+    <!-- Archive metadata variable -->
+    <xsl:variable name="archiveRef" as="xs:string" select="normalize-space(
+      concat(
+        tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
+        tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository, ', ',
+        tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:collection, ', ',
+        tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno, ', fols. ',
+        $locusFrom,
+        '-',
+        $locusTo
+      )
+    )"/>
 
     <!-- YAML front matter -->
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>title: "</xsl:text>
     <xsl:value-of select="concat(
-      ./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName,
+      tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName,
       ' (',
-      ./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,
+      tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,
       ')'
     )"/>
     <xsl:text>"&#10;</xsl:text>
     
     <xsl:text>expeditor: "</xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
     <xsl:text>"&#10;</xsl:text>
     
     <xsl:text>addressee: "</xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
     <xsl:text>"&#10;</xsl:text>
     
     <xsl:text>date: "</xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
     <xsl:text>"&#10;</xsl:text>
     
     <xsl:text>placeOfOrigin: "</xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
     <xsl:text>"&#10;</xsl:text>
     
     <xsl:text>archiveRef: "</xsl:text>
@@ -59,26 +61,26 @@
     <xsl:text>---&#10;&#10;</xsl:text>
     
     <xsl:text>**Expeditor**: </xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
     <xsl:text>  &#10;</xsl:text>
     
     <xsl:text>**Addressee**: </xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
     <xsl:text>  &#10;</xsl:text>
     
     <xsl:text>**Date**: </xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
     <xsl:text>  &#10;</xsl:text>
     
     <xsl:text>**Place of Origin**: </xsl:text>
-    <xsl:value-of select="./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
     <xsl:text>  &#10;</xsl:text>
     
     <xsl:text>**Archive Reference**: </xsl:text>
     <xsl:value-of select="$archiveRef"/>
     <xsl:text>  &#10;&#10;</xsl:text>
     
-    <xsl:apply-templates select="./tei:text"/>
+    <xsl:apply-templates select="tei:text"/>
   </xsl:template>
   
   <xsl:template match="tei:text">
@@ -117,10 +119,12 @@
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
   
+  <!-- Inline elements: output normalized text -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
+  <!-- For choice elements, output the expanded form plus a trailing space -->
   <xsl:template match="tei:choice">
     <xsl:value-of select="tei:expan"/>
     <xsl:text> </xsl:text>
