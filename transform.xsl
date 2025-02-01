@@ -14,7 +14,7 @@
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
-    <xsl:value-of select="replace($rawOutputString, '\s+(?!-{2,})([,;:\.\-])', '$1')"/>
+    <xsl:value-of select="replace($rawOutputString, '\s+([,;:\.\-](?!-))', '$1')"/>
   </xsl:template>
 
   <xsl:template match="tei:TEI">
