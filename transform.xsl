@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="tei xs"
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Remove incidental whitespace from all TEI elements -->
+  <!-- Remove incidental whitespace -->
   <xsl:strip-space elements="tei:*"/>
 
-  <!-- Root template: capture output, join it into a single string, then post-process.
-       Remove extra whitespace preceding punctuation (commas, semicolons, colons, periods, or dashes),
-       but do not remove whitespace if the punctuation begins a front matter delimiter (triple dash). -->
+  <!-- Root template: capture output, join into a single string, then post-process -->
   <xsl:template match="/">
     <!-- Capture output from processing TEI into a variable (sequence) -->
     <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
-
     <!-- Join all items into one string -->
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
-
-    <!-- Double-escaped regex. The final runtime regex is:
-         \s+(?!(?:-){2,})([,;:\.\-])
-         In XSL that becomes '\\\\s+(?!(?:-){2,})([,;:\\.\\\\-])' -->
-    <xsl:value-of select="
-      replace(
-        $rawOutputString,
-        '\\\\s+(?!(?:-){2,})([,;:\\.\\\\-])',
-        '$1'
-      )
-    "/>
+    <!-- Remove extra whitespace preceding punctuation,
+         but don't touch punctuation that starts a front matter delimiter (---) -->
+    <xsl:value-of select="replace($rawOutputString, '\s+(?!-{2,})([,;:\.\-])', '$1')"/>
   </xsl:template>
 
   <!-- Process the TEI document -->
@@ -81,8 +70,7 @@
     <xsl:text>archiveRef: "</xsl:text>
     <xsl:value-of select="$archiveRef"/>
     <xsl:text>"&#10;</xsl:text>
-    <!-- Insert a newline before the closing delimiter -->
-    <xsl:text>&#10;---&#10;&#10;</xsl:text>
+    <xsl:text>---&#10;&#10;</xsl:text>
     
     <xsl:text>**Expeditor**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
