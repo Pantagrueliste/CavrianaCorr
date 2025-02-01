@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+<xsl:stylesheet
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="tei xs"
@@ -12,7 +12,7 @@
 
   <!-- Root template: capture output, join it into a single string, then post-process.
        Remove extra whitespace preceding punctuation (commas, semicolons, colons, periods, or dashes),
-       but skip cases where the punctuation is part of a front matter delimiter (e.g. triple dash). -->
+       but do not remove whitespace if the punctuation begins a front matter delimiter (triple dash). -->
   <xsl:template match="/">
     <!-- Capture output from processing TEI into a variable (sequence) -->
     <xsl:variable name="rawOutput">
@@ -22,12 +22,16 @@
     <!-- Join all items into one string -->
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
 
-    <!-- Properly escaped regex: \s+ => \\s+, \. => \\., and so on -->
-    <xsl:value-of select="replace(
-      $rawOutputString,
-      '\\s+(?!(?:-){2,})([,;:\\.\\-])',
-      '$1'
-    )"/>
+    <!-- Double-escaped regex. The final runtime regex is:
+         \s+(?!(?:-){2,})([,;:\.\-])
+         In XSL that becomes '\\\\s+(?!(?:-){2,})([,;:\\.\\\\-])' -->
+    <xsl:value-of select="
+      replace(
+        $rawOutputString,
+        '\\\\s+(?!(?:-){2,})([,;:\\.\\\\-])',
+        '$1'
+      )
+    "/>
   </xsl:template>
 
   <!-- Process the TEI document -->
