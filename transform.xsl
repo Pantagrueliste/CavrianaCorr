@@ -7,10 +7,9 @@
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Remove incidental whitespace -->
+  <!-- Remove incidental whitespace from all TEI elements -->
   <xsl:strip-space elements="tei:*"/>
 
-  <!-- Root template: capture output, join into a single string, then post-process -->
   <xsl:template match="/">
     <!-- Capture output from processing TEI into a variable (sequence) -->
     <xsl:variable name="rawOutput">
@@ -19,7 +18,7 @@
     <!-- Join all items into one string -->
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
     <!-- Remove extra whitespace preceding punctuation,
-         but don't touch punctuation that starts a front matter delimiter (---) -->
+         but don't touch punctuation that starts a front matter delimiter -->
     <xsl:value-of select="replace($rawOutputString, '\s+(?!-{2,})([,;:\.\-])', '$1')"/>
   </xsl:template>
 
@@ -147,6 +146,7 @@
   <xsl:template match="tei:unclear">
     <xsl:value-of select="."/>
   </xsl:template>
+  
   <xsl:template match="tei:add">
     <xsl:value-of select="."/>
   </xsl:template>
