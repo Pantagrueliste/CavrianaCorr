@@ -18,8 +18,9 @@
     </xsl:variable>
     <!-- Join all items into one string -->
     <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
-    <!-- Remove extra whitespace preceding punctuation -->
-    <xsl:value-of select="replace($rawOutputString, '\s+([,;:\.\-])', '$1')"/>
+    <!-- Remove extra whitespace preceding punctuation,
+         but don't touch punctuation that starts a front matter delimiter (---) -->
+    <xsl:value-of select="replace($rawOutputString, '\s+(?!-{2,})([,;:\.\-])', '$1')"/>
   </xsl:template>
 
   <!-- Process the TEI document -->
@@ -69,7 +70,8 @@
     <xsl:text>archiveRef: "</xsl:text>
     <xsl:value-of select="$archiveRef"/>
     <xsl:text>"&#10;</xsl:text>
-    <xsl:text>---&#10;&#10;</xsl:text>
+    <!-- Insert a newline before the closing delimiter -->
+    <xsl:text>&#10;---&#10;&#10;</xsl:text>
     
     <xsl:text>**Expeditor**: </xsl:text>
     <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
@@ -130,7 +132,7 @@
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
   
-  <!-- Inline elements: normalize text -->
+  <!-- Inline elements: output normalized text -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
