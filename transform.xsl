@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-  xmlns:tei="http://www.tei-c.org/ns/1.0" 
-  exclude-result-prefixes="tei" 
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  exclude-result-prefixes="tei xs"
   version="2.0">
 
   <xsl:output method="text" encoding="UTF-8"/>
-  <!-- Remove incidental whitespace from TEI elements -->
   <xsl:strip-space elements="tei:*"/>
 
-  <!-- Define a variable for archive reference (DRY) -->
+  <!-- Archive reference variable with type declaration -->
   <xsl:variable name="archiveRef" as="xs:string">
     <xsl:value-of select="normalize-space(
       concat(
@@ -24,8 +24,8 @@
     )"/>
   </xsl:variable>
 
+  <!-- Rest of your stylesheet here -->
   <xsl:template match="tei:TEI">
-    <!-- YAML Front Matter -->
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>title: "</xsl:text>
     <xsl:value-of select="
@@ -118,7 +118,6 @@
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
 
-  <!-- Normalize text content in inline elements -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
