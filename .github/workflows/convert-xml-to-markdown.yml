@@ -7,6 +7,9 @@ on:
     paths:
       - 'letters/*.xml'
       - 'transform.xsl'
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -24,7 +27,7 @@ jobs:
           java-version: "11"
           distribution: "temurin"
 
-      - name: Checkout Docusaurus repo
+      - name: Checkout Frontend Repo (Docusaurus)
         uses: actions/checkout@v4
         with:
           repository: Pantagrueliste/CavrianaCorr_FrontEnd
@@ -51,9 +54,7 @@ jobs:
                 
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
-                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; 
-                         let \$date := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when
-                         return normalize-space(substring(\$date, 1, 4))" \
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; let \$date := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when return normalize-space(substring(\$date, 1, 4))" \
                     | grep -o '[0-9]\{4\}' || echo "unknownYear"
                 )
                 
@@ -62,25 +63,31 @@ jobs:
                 mkdir -p "$yearDir"
                 output_file="$yearDir/${filename}.md"
                 echo "Converting $file -> $output_file (year=$year)"
-                java -cp saxon.jar net.sf.saxon.Transform \
-                  -s:"$file" \
-                  -xsl:"transform.xsl" \
-                  -o:"$output_file"
+                java -cp saxon.jar net.sf.saxon.Transform -s:"$file" -xsl:"transform.xsl" -o:"$output_file"
               fi
             fi
           done
+
+      - name: List generated docs
+        run: ls -la CavrianaCorr_FrontEnd/docs
 
       - name: Pull before pushing
         run: |
           cd CavrianaCorr_FrontEnd
           git pull origin main
 
-      - name: Commit and push
+      - name: Show git status
+        run: |
+          cd CavrianaCorr_FrontEnd
+          git status
+
+      - name: Commit and push changes
         run: |
           cd CavrianaCorr_FrontEnd
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add docs/
+          git status
           # Only commit if there are changes
           git diff --cached --quiet || git commit -m "Update converted Markdown files"
           git push origin main
