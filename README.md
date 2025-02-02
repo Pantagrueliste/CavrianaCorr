@@ -2,6 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8224585.svg)]([https://doi.org/10.5281/zenodo.8224585](https://doi.org/10.5281/zenodo.14789457))
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 [![TEI Valid](https://github.com/Pantagrueliste/CavrianaCorr/actions/workflows/tei-validation.yml/badge.svg?branch=main)](https://github.com/Pantagrueliste/CavrianaCorr/actions/workflows/tei-validation.yml)
+[![Frontend Build Status](https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/actions/workflows/main.yml)
 
 
 This project presents the first comprehensive digital edition of Filippo Cavriana's (1536-1606) correspondence, drawn from the *Mediceo del Principato* collection at the [State Archives of Florence](http://www.archiviodistato.firenze.it/), the *Archivio Gonzaga* in the [Archivio di Stato di Mantova](https://archiviodistatomantova.cultura.gov.it/), and the manuscript collection of the [Bibliothèque nationale de France](https://www.bnf.fr). 
