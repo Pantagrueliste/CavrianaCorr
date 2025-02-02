@@ -1,108 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Letter from Filippo Cavriana, 21 December 1569</title>
-        <author>Filippo Cavriana</author>
-        <editor>Clément Godbarge</editor>
-        <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Clément Godbarge</publisher>
-        <pubPlace>St Andrews, Scotland, UK</pubPlace>
-        <date>2024</date>
-        <availability>
-          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Florence</settlement>
-            <repository>Archivio di Stato di Firenze</repository>
-            <collection>Mediceo del Principato</collection>
-            <idno>1317</idno>
-          </msIdentifier>
-          <msContents>
-            <msItem>
-              <locus>57r-57v</locus>
-              <title>Letter from Filippo Cavriana</title>
-              <author>Filippo Cavriana</author>
-              <textLang mainLang="it">Italian</textLang>
-              <note type="summary">Letter discussing the writer's inability to travel to Pisa due to the Duke of Nevers's illness and requesting dispensation regarding his investiture in the Order of Santo Stefano.</note>
-            </msItem>
-          </msContents>
-          <physDesc>
-            <objectDesc form="letter">
-              <layoutDesc>
-                <p>Single column, written on both sides of the folios</p>
-              </layoutDesc>
-            </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
-            </handDesc>
-          </physDesc>
-        </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <correspDesc>
-        <correspAction type="sent">
-          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName ref="#place-mantova">Mantova</placeName>
-          <date when="1569-12-21"/>
-        </correspAction>
-      </correspDesc>
-    </profileDesc>
-  <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
-  <text>
-    <body>
-      <div type="letter">
-        <pb n="57r"/>
-        <opener>
-          <lb/>
-          <salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> <choice><abbr>S.ore</abbr><expan>Signore</expan></choice></salute>
-        </opener>
-        <p>
-          <lb/>Vorrei potermi rallegrare puntualmente (presentialmente), <choice><abbr>có</abbr><expan>con</expan></choice> <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> come
-          <lb/>con l'animo et mi congratulo, del nuovo titolo, di
-          <lb/>sua <persName ref="#pers-medici-cos-1">Altezza</persName>/ Percioche vedrà quanto piacere
-          <lb/>ne habbia preso, Ma il mio <choice><abbr>s.ore</abbr><expan>signore</expan></choice> volendo pure
-          <lb/>cosi indisposto come è, passare in <placeName ref="#place-fr">Francia</placeName>, a <choice><abbr>cinq.</abbr><expan>cinque</expan></choice>
-          <lb/>di gennaro, mi vieta l'effetto di cosi desiderato, et giusto
-          <lb/>contento d'animo, Per tanto, <unclear>tenerà</unclear> questa mia
-          <lb/>per <choice><abbr>cógratulatione</abbr><expan>congratulatione</expan></choice> et <choice><abbr>racc.ne</abbr><expan>raccomandatione</expan></choice> a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, pregandola al
-          <lb/>tenere mano, <choice><abbr>có</abbr><expan>con</expan></choice> il <choice><abbr>s.</abbr><expan>signor</expan></choice> stuggio, alle mie prove, le quali ho mandato
-          <lb/>in man sua, accioche le <choice><abbr>pnte</abbr><expan>presente</expan></choice> alli signori cavallieri commissarij et se ne
-          <lb/>vegga il fine, et se tardi sono arrivate, imoputisi alli
-          <lb/>infortunij, passati da me in <placeName ref="#place-ancona">Ancona</placeName>, mentre che
-          <lb/>corendo la medesima fortuna del <persName ref="#pers-gonzaga-l-nev">Duca di Nevers</persName>,
-          <lb/>da questa medesima, son stato sfortunatamente
-          <lb/>travagliato. Vedrà anche piu quello che scrivo
-          <lb/>al detto stuggio, come desidererei (piacendo però a
-        </p>
-        <pb n="57v"/>
-        <p>
-          <lb/>a sua <choice><abbr>Alt.za</abbr><expan>Altezza</expan></choice>) essere dispensato per legittima ca<lb break="no"/>usa, a non venire a <placeName ref="#place-pisa">Pisa</placeName>, a ricevere l'habi<lb break="no"/>to ma se cosi fosse il pacer suo, che il comen<lb break="no"/>dator Petruzzi me lo disse in <placeName ref="#place-fr">Francia</placeName>, <choice><abbr>có</abbr><expan>con</expan></choice> una
-          <lb/>lettera di sua serenità, <choice><abbr>nó</abbr><expan>non</expan></choice> possendo io, in modo
-          <lb/>alcuno, lasciare il <persName ref="#pers-gonzaga-l-nev">duca di Nevers</persName>, sendo <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice>
-          <lb/>nel termine che è, il che al giuditio mio, <choice><abbr>nó</abbr><expan>non</expan></choice> é
-          <lb/>dimanda importuna ; ne è stata negata ad alcu<lb break="no"/>ni che la chiesero/ Nondimeno <choice><abbr>có</abbr><expan>con</expan></choice> il giuditio
-          <lb/>di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <unclear>sole.rò</unclear> questo mare, et se pare a lei
-          <lb/>che non si possa dimandare, o dimandata ottene<lb break="no"/>re, pongasi in silentio si che mi piacerpa in ogni
-          <lb/>evento, haver seguito il parere di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> alla <choice><abbr>q.le</abbr><expan>quale</expan></choice>
-          <lb/>con ogni affetto d'animo, me le <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> Di <placeName ref="#place-mantova">Má<lb break="no"/>tova</placeName> il <date when="1569-12-21">21 dicembre del 69</date>.
-        </p>
-        <closer>
-          <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, servitore <choice><abbr>affett.mo</abbr><expan>affettissimo</expan></choice>
-          <lb/>
-          <signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
-        </closer>
-      </div>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Filippo Cavriana, 21 December 1569</title>
+                <author>Filippo Cavriana</author>
+                <editor>Clément Godbarge</editor>
+                <respStmt>
+                    <resp>Lecturer in Digital Humanities</resp>
+                    <name>University of St Andrews</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Clément Godbarge</publisher>
+                <pubPlace>St Andrews, Scotland, UK</pubPlace>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Florence</settlement>
+                        <repository>Archivio di Stato di Firenze</repository>
+                        <collection>Mediceo del Principato</collection>
+                        <idno>1317</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus>57r-57v</locus>
+                            <title>Letter from Filippo Cavriana</title>
+                            <author>Filippo Cavriana</author>
+                            <textLang mainLang="it">Italian</textLang>
+                            <note type="summary">Cavriana cannot travel to Pisa due to the Duke of Nevers's illness. He is requesting dispensation regarding his investiture in the Order of Santo Stefano.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <layoutDesc>
+                                <p>Single column, written on both sides of the folios</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                    <placeName ref="#place-mantova">Mantova</placeName>
+                    <date when="1569-12-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+                    <placeName ref="#place-firenze">Firenze</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text><body><div type="letter"><pb n="57r"/><opener><salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> <choice><abbr>S.ore</abbr><expan>Signore</expan></choice> <lb/>.</salute></opener><p>Vorrei potermi rallegrare puntualmente (presentialmente), <choice><abbr>có</abbr><expan>con</expan></choice> <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> come <lb/>con l'animo et mi congratulo, del nuovo titolo, di <lb/>sua <persName ref="#pers-medici-cos-1">Altezza</persName>/ Percioche vedrà quanto piacere <lb/>ne habbia preso, Ma il mio <choice><abbr>s.ore</abbr><expan>signore</expan></choice> volendo pure <lb/>cosi indisposto come è, passare in <placeName ref="#place-fr">Francia</placeName>, a <choice><abbr>cinq.</abbr><expan>cinque</expan></choice> <lb/>di gennaro, mi vieta l'effetto di cosi desiderato, et giusto <lb/>contento d'animo, Per tanto, <unclear>tenerà</unclear> questa mia <lb/>per <choice><abbr>cógratulatione</abbr><expan>congratulatione</expan></choice> et <choice><abbr>racc.ne</abbr><expan>raccomandatione</expan></choice> a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, pregandola al <lb/>tenere mano, <choice><abbr>có</abbr><expan>con</expan></choice> il <choice><abbr>s.</abbr><expan>signor</expan></choice> stuggio, alle mie prove, le quali ho mandato <lb/>in man sua, accioche le <choice><abbr>pnte</abbr><expan>presente</expan></choice> alli signori cavallieri commissarij et se ne <lb/>vegga il fine, et se tardi sono arrivate, imoputisi alli <lb/>infortunij, passati da me in <placeName ref="#place-ancona">Ancona</placeName>, mentre che <lb/>corendo la medesima fortuna del <persName ref="#pers-gonzaga-l-nev">Duca di Nevers</persName>, <lb/>da questa medesima, son stato sfortunatamente <lb/>travagliato. Vedrà anche piu quello che scrivo <lb/>al detto stuggio, come desidererei (piacendo però a</p><pb n="57v"/><p>a sua <choice><abbr>Alt.za</abbr><expan>Altezza</expan></choice>) essere dispensato per legittima ca<lb break="no"/>usa, a non venire a <placeName ref="#place-pisa">Pisa</placeName>, a ricevere l'habi<lb break="no"/>to ma se cosi fosse il pacer suo, che il comen<lb break="no"/>dator Petruzzi me lo disse in <placeName ref="#place-fr">Francia</placeName>, <choice><abbr>có</abbr><expan>con</expan></choice> una <lb/>lettera di sua serenità, <choice><abbr>nó</abbr><expan>non</expan></choice> possendo io, in modo <lb/>alcuno, lasciare il <persName ref="#pers-gonzaga-l-nev">duca di Nevers</persName>, sendo <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> <lb/>nel termine che è, il che al giuditio mio, <choice><abbr>nó</abbr><expan>non</expan></choice> é <lb/>dimanda importuna ; ne è stata negata ad alcu<lb break="no"/>ni che la chiesero/ Nondimeno <choice><abbr>có</abbr><expan>con</expan></choice> il giuditio <lb/>di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <unclear>sole.rò</unclear> questo mare, et se pare a lei <lb/>che non si possa dimandare, o dimandata ottene<lb break="no"/>re, pongasi in silentio si che mi piacerpa in ogni <lb/>evento, haver seguito il parere di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> alla <choice><abbr>q.le</abbr><expan>quale</expan></choice> <lb/>con ogni affetto d'animo, me le <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> Di <placeName ref="#place-mantova">Má<lb break="no"/>tova</placeName> il <date when="1569-12-21">21 dicembre del 69</date>.</p><closer>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, servitore <choice><abbr>affett.mo</abbr><expan>affettissimo</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed></closer></div></body></text>
 </TEI>
