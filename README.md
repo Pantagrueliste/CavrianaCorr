@@ -1,6 +1,7 @@
 # Digital Edition of Filippo Cavriana's Correspondence
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8224585.svg)]([https://doi.org/10.5281/zenodo.8224585](https://doi.org/10.5281/zenodo.14789457))
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)  
+
 [![TEI Valid](https://github.com/Pantagrueliste/CavrianaCorr/actions/workflows/tei-validation.yml/badge.svg?branch=main)](https://github.com/Pantagrueliste/CavrianaCorr/actions/workflows/tei-validation.yml)
 [![Frontend Build Status](https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Pantagrueliste/CavrianaCorr_FrontEnd/actions/workflows/main.yml)
 
