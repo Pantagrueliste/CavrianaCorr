@@ -46,6 +46,14 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+            </projectDesc>
+        </encodingDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -60,15 +68,5 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <opener>
-                    <salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Signor</expan></choice> mio.</salute>
-                </opener>
-                <p><lb/>Il <persName ref="#pers-gonzaga-l-nev">signor Duca di Nevers</persName>, mio Padrone, è hora<lb/>in stato tale, che ogni di leva di letto, et<lb/>si fa portare per tutto sopra un seggio senza<lb/>pena et senza dolore alcuno. La gamba sta<lb/>bene, tutte le piaghe sono consolidate salvo quella<lb/>dell'entrata, che infra doi overo tre di serà<lb/>chiusa anch'ella. Il piede è un poco enfio ma<lb/>con una calcia di cane di che è continuamente<lb/>insieme con la gamba vestito, serà presto libero<lb/>da ogni tumore. La coscia, et così tutte le altre<lb/>parti impiagate, stan bene e pigliano nutrimento, onde io posso assicurare <choice><abbr>V.Ecc.</abbr><expan>Vostra Eccellenza</expan></choice> che le cose stanno<lb/>molto bene. Et ogni di <choice><abbr>S.E</abbr><expan>Sua Eccellenza</expan></choice> va a banchetto et<lb/>a spasso. Fra otto di si porra nella <unclear>lettica</unclear> et si<lb/>condurrà alla corte, quanto al moverla non se<lb/>anchore messo per non dar occasione<lb/>a nuova flussione. E' ben vero che è molto<lb/>curva et resta molto impedita, non s'appoggiando sopra di lei anchora; nondimeno si comincierà<lb/>questa settimana che viene a onger il ginocchio<lb/>di olij resolutivi, et poi non il tempi si userà<lb/>altri rimedij per fare che <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> mova la gam<lb break="no"/>ba piu tanto che verrà il tempi, che si possa<lb/>venire a fanghi di <placeName ref="#place-padova">Padova</placeName> o di <placeName ref="#place-lucca">Lucca</placeName>. Della persona poi <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> non so <unclear>hove</unclear> mai cosi bene<lb/>come essa, con qual fine io baccio le mani<lb/>di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> di <placeName ref="#place-nevers">Nevers</placeName> il <date when="1568-07-24">24 di Luglio del 1568</date></p>
-                <closer><lb/>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <choice><abbr>Ill.a</abbr><expan>Illustrissima</expan></choice><lb/><choice><abbr>Devotiss.o</abbr><expan>Devotissimo</expan></choice> et <choice><abbr>fedel serv.ore</abbr><expan>fedel servitore</expan></choice><lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed></closer>
-            </div>
-        </body>
-    </text>
+    <text><body><div type="letter"><opener><salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Signor</expan></choice> mio.</salute></opener><p>Il <persName ref="#pers-gonzaga-l-nev">signor Duca di Nevers</persName>, mio Padrone, è hora <lb/>in stato tale, che ogni di leva di letto, et <lb/>si fa portare per tutto sopra un seggio senza <lb/>pena et senza dolore alcuno. La gamba sta <lb/>bene, tutte le piaghe sono consolidate salvo quella <lb/>dell'entrata, che infra doi overo tre di serà <lb/>chiusa anch'ella. Il piede è un poco enfio ma <lb/>con una calcia di cane di che è continuamente <lb/>insieme con la gamba vestito, serà presto libero <lb/>da ogni tumore. La coscia, et così tutte le altre <lb/>parti impiagate, stan bene e pigliano nutrimento, onde io posso assicurare <choice><abbr>V.Ecc.</abbr><expan>Vostra Eccellenza</expan></choice> che le cose stanno <lb/>molto bene. Et ogni di <choice><abbr>S.E</abbr><expan>Sua Eccellenza</expan></choice> va a banchetto et <lb/>a spasso. Fra otto di si porra nella <unclear>lettica</unclear> et si <lb/>condurrà alla corte, quanto al moverla non se <lb/>anchore messo per non dar occasione <lb/>a nuova flussione. E' ben vero che è molto <lb/>curva et resta molto impedita, non s'appoggiando sopra di lei anchora; nondimeno si comincierà <lb/>questa settimana che viene a onger il ginocchio <lb/>di olij resolutivi, et poi non il tempi si userà <lb/>altri rimedij per fare che <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> mova la gam<lb break="no"/>ba piu tanto che verrà il tempi, che si possa <lb/>venire a fanghi di <placeName ref="#place-padova">Padova</placeName> o di <placeName ref="#place-lucca">Lucca</placeName>. Della persona poi <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> non so <unclear>hove</unclear> mai cosi bene <lb/>come essa, con qual fine io baccio le mani <lb/>di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> di <placeName ref="#place-nevers">Nevers</placeName> il <date when="1568-07-24">24 di Luglio del 1568</date>.</p><closer>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <choice><abbr>Ill.a</abbr><expan>Illustrissima</expan></choice> <lb/><choice><abbr>Devotiss.o</abbr><expan>Devotissimo</expan></choice> et <choice><abbr>fedel serv.ore</abbr><expan>fedel servitore</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed></closer></div></body></text>
 </TEI>
