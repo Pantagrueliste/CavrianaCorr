@@ -1,65 +1,79 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Update on Nevers' condition - 9 June 1568</title>
-        <author>Filippo Cavriana</author>
-        <editor>Clément Godbarge</editor>
-        <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Clément Godbarge</publisher>
-        <pubPlace>St Andrews, Scotland, UK</pubPlace>
-        <date>2024</date>
-        <availability>
-          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Mantua</settlement>
-            <repository>Archivio di Stato di Mantova</repository>
-            <collection>Archivio Gonzaga</collection>
-            <idno>b654</idno>
-          </msIdentifier>
-          <msContents>
-            <msItem>
-              <locus from="296r" to="296v">fols. 296r-296v</locus>
-              <author>Filippo Cavriana</author>
-              <textLang mainLang="it">Italian</textLang>
-            </msItem>
-          </msContents>
-          <physDesc>
-            <objectDesc form="letter">
-              <layoutDesc>
-                <p>Single column, written on both sides of the folio</p>
-              </layoutDesc>
-            </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
-            </handDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <correspDesc>
-        <correspAction type="sent">
-          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName>Nevers</placeName>
-          <date when="1568-06-09"/>
-        </correspAction>
-        <correspAction type="received">
-          <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>
-          <placeName ref="#place-mantova">Mantova</placeName>
-        </correspAction>
-      </correspDesc>
-    </profileDesc>
-  </teiHeader>
-  <text><body><div type="letter"><pb n="296r"/><p><lb/>Mi pareria far gran torto a <choice><abbr>Ms</abbr><expan>Messer</expan></choice> Ascanio Andriasi, <lb/>il quale se ne ritorna costà se io mi allargassi <lb/>in scrivere a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> dello stato del <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Duca mio <lb/>signore / essendo egli a pieno informato del tutto; <lb/>Nondimeno per confermatione di quanto lo dirà <lb/>ho voluto (per compiacerne lui) significar a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>, <lb/>che oltre la salvezza della vita del <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <choice><abbr>Pron̍e</abbr><expan>Padrone</expan></choice> <lb/>il quale ogni di piglia forze et vigore, ha gia <lb/>cominciato a uscire non solamente del letto, ma <lb/>anchor di casa; et continuando questo buon princi<lb break="no"/>pio, speriamo di porlo infra un mese in <unclear>lettica</unclear> <lb/>per condurlo alla corte. La gamba si accomoderà <lb/>col tempo, ne bisogna (se non con molto progresso di <lb/>quello) sperare che si riposi sopra d'essa; Alla int<lb break="no"/>iera cura della quale, stimo che <choice><abbr>sera̍no</abbr><expan>seranno</expan></choice> necessarij</p><pb n="296v"/><p><lb/>i fangi, l'anno che viene, <choice><abbr>no̍</abbr><expan>non</expan></choice> si possendo <lb/>farne altra opera per <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> <choice><abbr>pn̍te</abbr><expan>presente</expan></choice>, et qui fo <lb/>fine, doppo haver baciato le mani a <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice>, <lb/>et raccomandatomi alla buona sua <choice><abbr>grā</abbr><expan>gratia</expan></choice>.</p><closer><dateline>Di Nevers il di <date when="1568-06-09">viiij di giugno del 68</date></dateline> <lb/>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <lb/><choice><abbr>Fedeliss.o</abbr><expan>Fedelissimo</expan></choice> et <choice><abbr>humil.mo</abbr><expan>humilissimo</expan></choice> <choice><abbr>serv.re</abbr><expan>servitore</expan></choice></closer></div></body></text>
+   <teiHeader>
+       <fileDesc>
+           <titleStmt>
+               <title>Update on Nevers' condition - 9 June 1568</title>
+               <author>Filippo Cavriana</author>
+               <editor>Clément Godbarge</editor>
+               <respStmt>
+                   <resp>Lecturer in Digital Humanities</resp>
+                   <name>University of St Andrews</name>
+               </respStmt>
+           </titleStmt>
+           <publicationStmt>
+               <publisher>Clément Godbarge</publisher>
+               <pubPlace>St Andrews, Scotland, UK</pubPlace>
+               <date>2024</date>
+               <availability>
+                   <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+               </availability>
+           </publicationStmt>
+           <sourceDesc>
+               <msDesc>
+                   <msIdentifier>
+                       <settlement>Mantua</settlement>
+                       <repository>Archivio di Stato di Mantova</repository>
+                       <collection>Archivio Gonzaga</collection>
+                       <idno>b654</idno>
+                   </msIdentifier>
+                   <msContents>
+                       <msItem>
+                           <locus from="296r" to="296v">fols. 296r-296v</locus>
+                           <author>Filippo Cavriana</author>
+                           <textLang mainLang="it">Italian</textLang>
+                       </msItem>
+                   </msContents>
+                   <physDesc>
+                       <objectDesc form="letter">
+                           <layoutDesc>
+                               <p>Single column, written on both sides of the folio</p>
+                           </layoutDesc>
+                       </objectDesc>
+                       <handDesc hands="1">
+                           <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
+                       </handDesc>
+                   </physDesc>
+               </msDesc>
+           </sourceDesc>
+       </fileDesc>
+       <profileDesc>
+           <correspDesc>
+               <correspAction type="sent">
+                   <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+                   <placeName>Nevers</placeName>
+                   <date when="1568-06-09"/>
+               </correspAction>
+               <correspAction type="received">
+                   <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>
+                   <placeName ref="#place-mantova">Mantova</placeName>
+               </correspAction>
+           </correspDesc>
+       </profileDesc>
+   </teiHeader>
+   <text>
+       <body>
+           <div type="letter">
+               <pb n="296r"/>
+               <p>Mi pareria far gran torto a <choice><abbr>Ms</abbr><expan>Messer</expan></choice> Ascanio Andriasi, <lb/>il quale se ne ritorna costà se io mi allargassi <lb/>in scrivere a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> dello stato del <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Duca mio <lb/>signore / essendo egli a pieno informato del tutto; <lb/>Nondimeno per confermatione di quanto lo dirà <lb/>ho voluto (per compiacerne lui) significar a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>, <lb/>che oltre la salvezza della vita del <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <choice><abbr>Pron̍e</abbr><expan>Padrone</expan></choice> <lb/>il quale ogni di piglia forze et vigore, ha gia <lb/>cominciato a uscire non solamente del letto, ma <lb/>anchor di casa; et continuando questo buon princi<lb break="no"/>pio, speriamo di porlo infra un mese in <unclear>lettica</unclear> <lb/>per condurlo alla corte. La gamba si accomoderà <lb/>col tempo, ne bisogna (se non con molto progresso di <lb/>quello) sperare che si riposi sopra d'essa; Alla int<lb break="no"/>iera cura della quale, stimo che <choice><abbr>sera̍no</abbr><expan>seranno</expan></choice> necessarij</p>
+
+               <pb n="296v"/>
+               <p>i fangi, l'anno che viene, <choice><abbr>no̍</abbr><expan>non</expan></choice> si possendo <lb/>farne altra opera per <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> <choice><abbr>pn̍te</abbr><expan>presente</expan></choice>, et qui fo <lb/>fine, doppo haver baciato le mani a <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice>, <lb/>et raccomandatomi alla buona sua <choice><abbr>grā</abbr><expan>gratia</expan></choice>.</p>
+
+               <closer>
+                   <dateline>Di Nevers il di <date when="1568-06-09">viiij di giugno del 68</date></dateline> <lb/>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <lb/><choice><abbr>Fedeliss.o</abbr><expan>Fedelissimo</expan></choice> et <choice><abbr>humil.mo</abbr><expan>humilissimo</expan></choice> <choice><abbr>serv.re</abbr><expan>servitore</expan></choice>
+               </closer>
+           </div>
+       </body>
+   </text>
 </TEI>
