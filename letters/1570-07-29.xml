@@ -1,4 +1,3 @@
-```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -95,4 +94,3 @@
     </body>
   </text>
 </TEI>
-```
