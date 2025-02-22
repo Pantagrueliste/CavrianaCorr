@@ -84,6 +84,26 @@
           <idno type="VIAF">66529198</idno>
         </person>
 
+        <!-- Other Italian Noble Houses -->
+        <person xml:id="pers-galeazzosanseverino-g">
+          <persName>Gian Galeazzo Sanseverino</persName>
+          <birth>1527</birth>
+          <death>1575</death>
+          <idno type="VIAF">4166955799046910252</idno>
+        </person>
+
+        <person xml:id="pers-birague-c">
+          <persName>Charles de Birague</persName>
+          <persName type="Italian">Charlo Birago</persName>
+          <occupation type="nobility">Chevalier de St Michel</occupation>
+          <occupation type="nobility">Chevalier du St Esprit</occupation>
+          <idno type="VIAF">4166955799046910252</idno>
+        </person>
+
+        <person xml:id="pers-pazzi-f">
+          <persName>Filippino Pazzi</persName>
+        </person>
+
         <!-- French Royal House - Valois -->
         <person xml:id="pers-valois-ch-9">
           <persName>Charles IX</persName>
@@ -95,6 +115,12 @@
           <persName>Henri III</persName>
           <occupation type="nobility">King of France</occupation>
           <idno type="VIAF">7398374</idno>
+        </person>
+        <person xml:id="pers-valois-m">
+          <persName>Marguerite de Valois</persName>
+          <birth>1553-05-14</birth>
+          <death>1615-03-27</death>
+          <idno type="VIAF">78750412</idno>
         </person>
 
         <!-- French Royal House - Bourbon -->
@@ -122,6 +148,64 @@
           <occupation type="nobility">Princess of Lorraine</occupation>
           <idno type="VIAF">4230910</idno>
         </person>
+        <person xml:id="pers-deteligny-c">
+          <persName>Charles de Téligny</persName>
+          <birth>1535</birth>
+          <death>1572</death>
+          <idno type="VIAF">314802260</idno>
+        </person>
+        <person xml:id="pers-gontaut-a">
+          <persName>Armand de Gontaut</persName>
+          <birth>1524</birth>
+          <death>1592</death>
+          <idno type="VIAF">44293531</idno>
+        </person>
+        <person xml:id="pers-lorraine-c">
+          <persName>Charles III  de Lorraine</persName>
+          <birth>1543-02-18</birth>
+          <death>1608-05-14</death>
+          <idno type="VIAF">59905716</idno>
+        </person>
+        <person xml:id="pers-france-c">
+          <persName>Claude de France</persName>
+          <birth>1547-11-12</birth>
+          <death>1575-02-21</death>
+          <idno type="VIAF">305115069</idno>
+        </person>
+        <person xml:id="pers-lorraine-h">
+          <persName>Henri II de Lorraine</persName>
+          <birth>1563-11-08</birth>
+          <death>1624-07-31</death>
+          <idno type="VIAF">37071898</idno>
+        </person>
+
+        <!-- Habsbourg -->
+        <person xml:id="pers-habsburg-e">
+          <persName>Elisabeth</persName>
+          <birth>1554-06-05</birth>
+          <death>1592-01-22</death>
+          <idno type="VIAF">97794481</idno>
+        </person>
+        <person xml:id="pers-habsburg-f">
+          <persName>Philippe</persName>
+          <birth>1527-05-21</birth>
+          <death>1598-09-13</death>
+          <idno type="VIAF">88973996</idno>
+        </person>
+        <person xml:id="pers-habsburg-m">
+          <persName>Maxmilian II</persName>
+          <birth>1527-07-31</birth>
+          <death>1576-10-12</death>
+          <idno type="VIAF">27863609</idno>
+        </person>
+
+
+
+
+
+
+
+
 
         <!-- Physicians and Surgeons -->
         <person xml:id="pers-cavriana-f">
@@ -146,6 +230,27 @@
           <persName>Alfonso Corso</persName>
           <occupation>Military commander</occupation>
         </person>
+
+        <!-- Prelates -->
+        <person xml:id="pers-auger-ed">
+          <persName>Émond Auger</persName>
+          <birth>1530</birth>
+          <death>1591</death>
+          <idno type="VIAF">51712390</idno>
+        </person>
+        <person xml:id="pers-vigor-s">
+          <persName>Simon Vigor</persName>
+          <birth>1515</birth>
+          <death>1575</death>
+          <idno type="VIAF">39246854</idno>
+        </person>
+        <person xml:id="pers-sorbin-a">
+          <persName>Arnauld Sorbin</persName>
+          <birth>1532-07-14</birth>
+          <death>1606-05-01</death>
+          <idno type="VIAF">2526805</idno>
+        </person>
+
 
         <!-- Medicean Officials -->
         <person xml:id="pers-concini-b">
@@ -243,6 +348,23 @@
           <persName>Honorat de Savoie</persName>
           <occupation type="nobility">Count of Tende</occupation>
         </person>
+        <person xml:id="pers-briquemault-f">
+          <persName>François de Beauvais</persName>
+          <persName type="alias">Brichmod</persName>
+          <persName type="title">Seigneur de Briquemault</persName>
+          <birth>c. 1502</birth>
+          <death>1572</death>
+          <idno type="VIAF">643145857896423021076</idno>
+          <note>French noble and military figure</note>
+        </person>
+
+        <!-- Osmanli hanedani -->
+        <person xml:id="pers-osmanli-s2">
+          <persName>Selim II</persName>
+          <birth>1524-05-28</birth>
+          <death>1574-12-15</death>
+          <idno type="VIAF">44058182</idno>
+        </person>
 
         <!-- Military/Diplomatic Figures -->
         <person xml:id="pers-nassau-w">
@@ -267,8 +389,9 @@
           <persName type="alias">Monsig. Salviati</persName>
           <occupation type="ecclesiastic">Papal Nuncio</occupation>
         </person>
-        <person xml:id="pers-pontefice">
+        <person xml:id="pers-gregorio-xiii">
           <persName>Gregory XIII</persName>
+          <persName>Hugo Buoncompagni</persName>
           <persName type="alias">Pontefice</persName>
           <occupation type="ecclesiastic">Pope</occupation>
           <idno type="VIAF">316407579</idno>
@@ -278,7 +401,7 @@
         <person xml:id="pers-petrucci">
           <persName>Petrucci</persName>
           <occupation>Commendatore</occupation>
-          <note>Associated with Order of Santo Stefano investitures</note>
+          <note>Tuscan ambassador to France</note>
         </person>
         <person xml:id="pers-pers-papazzone-g">
           <persName>Giulio Cesare Papppazone</persName>
@@ -308,6 +431,15 @@
           <persName>crotto</persName>
           <note>Further identification needed</note>
         </person>
+        <person xml:id="pers-riorikide-i-iv">
+          <persName>Ivan IV</persName>
+          <persName type="alias">Ivan the Terrible</persName>
+          <occupation>Czar of Russia</occupation>
+          <birth>1530-08-25</birth>
+          <death>1584-03-18</death>
+          <idno type="VIAF">89633898</idno>
+        </person>
+
 
       </listPerson>
     </body>
