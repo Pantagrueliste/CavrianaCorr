@@ -460,6 +460,11 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7004675</idno>
         </place>
 
+        <!-- ======================== -->
+        <!-- NEW ENTRIES FOR UNDEFINED REFERENCES -->
+        <!-- ======================== -->
+
+        <!-- Bagni di Lucca -->
         <place xml:id="place-bagni-di-lucca">
           <placeName xml:lang="it">Bagni di Lucca</placeName>
           <placeName type="modern" xml:lang="en">Bagni di Lucca</placeName>
@@ -471,6 +476,7 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7011806</idno>
         </place>
 
+        <!-- Lucca -->
         <place xml:id="place-lucca">
           <placeName xml:lang="it">Lucca</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
@@ -481,6 +487,7 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7005341</idno>
         </place>
 
+        <!-- Nevers -->
         <place xml:id="place-nevers">
           <placeName xml:lang="fr">Nevers</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
@@ -491,6 +498,7 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7007062</idno>
         </place>
 
+        <!-- Padova (Padua) -->
         <place xml:id="place-padova">
           <placeName xml:lang="it">Padova</placeName>
           <placeName type="modern" xml:lang="en">Padua</placeName>
@@ -502,6 +510,7 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7004426</idno>
         </place>
 
+        <!-- Vienna -->
         <place xml:id="place-vienna">
           <placeName xml:lang="de">Wien</placeName>
           <placeName type="modern" xml:lang="en">Vienna</placeName>
