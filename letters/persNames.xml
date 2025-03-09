@@ -51,11 +51,14 @@
           <persName>Alfonso d'Este</persName>
           <occupation type="nobility">Duke of Ferrara</occupation>
         </person>
-        <person xml:id="pers-este-card">
-          <persName>Cardinal d'Este</persName>
+        <person xml:id="pers-deste-i">
+          <persName>Ippolito d'Este</persName>
           <occupation type="ecclesiastic">Cardinal</occupation>
+          <birth>1509-08-25</birth>
+          <death>1572-12-01</death>
+          <idno type="VIAF">74104371</idno>
         </person>
-
+  
         <!-- Italian Noble Houses - Savoy -->
         <person xml:id="pers-savoy-em-fil">
           <persName>Emanuele Filiberto di Savoia</persName>
@@ -202,11 +205,6 @@
 
 
 
-
-
-
-
-
         <!-- Physicians and Surgeons -->
         <person xml:id="pers-cavriana-f">
           <persName>Filippo Cavriana</persName>
@@ -256,6 +254,7 @@
         <person xml:id="pers-concini-b">
           <persName>Bartolomeo Concini</persName>
           <persName type="alias">Bartolomeo Concino</persName>
+          <persName type="alias">Concinno</persName>
           <occupation>First Secretary of Cosimo I de' Medici</occupation>
         </person>
         <person xml:id="pers-dani-j">
@@ -318,6 +317,14 @@
           <persName type="alias">Guglielmo duca di Sassonia</persName>
           <occupation type="nobility">Duke of Saxony</occupation>
         </person>
+        <person xml:id="pers-maxmilian-m">
+          <persName>Maxmilian II</persName>
+          <persName type="alias">Cesare</persName>
+          <birth>1527-07-31</birth>
+          <death>1576-10-12</death>
+          <idno type="VIAF">27863609</idno>
+        </person>
+
 
         <!-- French Nobles -->
         <person xml:id="pers-guise-h">
@@ -418,10 +425,6 @@
         <person xml:id="pers-ossonville">
           <persName>Monsignore d'Ossonville</persName>
           <occupation>French noble</occupation>
-        </person>
-        <person xml:id="pers-cesare">
-          <persName>Cesare</persName>
-          <note>Further identification needed</note>
         </person>
         <person xml:id="pers-traiano">
           <persName>Traiano</persName>
