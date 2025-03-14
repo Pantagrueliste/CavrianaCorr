@@ -476,6 +476,7 @@
         </person>
         <person xml:id="pers-katarzyna-k">
           <persName>Katarzyna</persName>
+          <occupation>King of Poland</occupation>
           <birth>1533-09-15</birth>
           <death>1572-02-28</death>
           <idno type="VIAF">81319677</idno>
