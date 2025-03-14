@@ -14,7 +14,7 @@
     <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
-    <xsl:value-of select="normalize-space(replace(string-join($rawOutput, ''), '\s+([,;:\.])', '$1'))"/>
+  <xsl:value-of select="replace(string-join($rawOutput, ''), '\s+([,;:\.])', '$1')"/>
   </xsl:template>
 
   <!-- TEI Document Template -->
