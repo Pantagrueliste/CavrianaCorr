@@ -13,12 +13,13 @@
     <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
-    <xsl:value-of select="replace(string-join($rawOutput, ''), '\s+([,;:\\.])', '$1')"/>
+    <xsl:variable name="rawOutputString" as="xs:string" select="string-join($rawOutput, '')"/>
+    <xsl:value-of select="replace($rawOutputString, '\s+([,;:\.])', '$1')"/>
   </xsl:template>
 
   <xsl:template match="tei:TEI">
     <xsl:variable name="locusFrom" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from"/>
-    <xsl:variable name="locusTo" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to"/>
+    <xsl:variable name="locusTo"   select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to"/>
     <xsl:variable name="archiveRef" as="xs:string" select="normalize-space(
       concat(
         tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
@@ -28,7 +29,8 @@
         $locusFrom,
         '-',
         $locusTo
-      )"/>
+      )
+    )"/>
 
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>title: "</xsl:text>
@@ -62,16 +64,6 @@
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
 
-    <xsl:text>**Manuscript source:** </xsl:text>
-    <xsl:value-of select="$archiveRef"/>
-    <xsl:text>&#10;</xsl:text>
-
-    <xsl:if test="tei:text/tei:note[@type='summary']">
-      <xsl:text>**Summary:** </xsl:text>
-      <xsl:value-of select="normalize-space(tei:text/tei:note[@type='summary'])"/>
-      <xsl:text>&#10;&#10;</xsl:text>
-    </xsl:if>
-
     <xsl:apply-templates select="tei:text"/>
   </xsl:template>
   
@@ -93,14 +85,24 @@
       <xsl:otherwise>
         <xsl:text>  &#10;</xsl:text>
       </xsl:otherwise>
-  </xsl:choose>
+    </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="tei:p | tei:opener | tei:closer">
+  <xsl:template match="tei:p">
     <xsl:apply-templates/>
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
-
+  
+  <xsl:template match="tei:opener">
+    <xsl:apply-templates/>
+    <xsl:text>&#10;&#10;</xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:closer">
+    <xsl:apply-templates/>
+    <xsl:text>&#10;&#10;</xsl:text>
+  </xsl:template>
+  
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
@@ -112,13 +114,9 @@
   
   <xsl:template match="tei:choice/tei:abbr"/>
   <xsl:template match="tei:del"/>
-
   <xsl:template match="tei:unclear">
-    <xsl:text disable-output-escaping="yes">&lt;span style="text-decoration: underline wavy;"&gt;</xsl:text>
     <xsl:value-of select="."/>
-    <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
   </xsl:template>
-
   <xsl:template match="tei:add">
     <xsl:value-of select="."/>
   </xsl:template>
