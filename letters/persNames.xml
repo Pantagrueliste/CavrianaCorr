@@ -133,6 +133,11 @@
           <note>Future Henri IV of France</note>
           <idno type="VIAF">266965539</idno>
         </person>
+        <person xml:id="pers-bourbonvendome-l3">
+          <persName>Louis III de Bourbon-Vendôme</persName>
+          <occupation type="nobility">Duke of Montpensier</occupation>
+          <idno type="VIAF">15202389</idno>
+        </person>
 
         <!-- Other French Noble Houses -->
         <person xml:id="pers-lorraine-ch-card">
@@ -164,7 +169,7 @@
           <idno type="VIAF">44293531</idno>
         </person>
         <person xml:id="pers-lorraine-c">
-          <persName>Charles III  de Lorraine</persName>
+          <persName>Charles III de Lorraine</persName>
           <birth>1543-02-18</birth>
           <death>1608-05-14</death>
           <idno type="VIAF">59905716</idno>
@@ -180,6 +185,26 @@
           <birth>1563-11-08</birth>
           <death>1624-07-31</death>
           <idno type="VIAF">37071898</idno>
+        </person>
+        <person xml:id="pers-cleves-h">
+          <persName>Henriette de Clèves</persName>
+          <occupation type="nobility">Duchess of Nevers</occupation>
+          <birth>1542-10-31</birth>
+          <death>1601-06-24</death>
+          <idno type="VIAF">4552150203822803250006</idno>
+        </person>
+        <person xml:id="pers-anjou-mezieres-r">
+          <persName>Renée d'Anjou-Mézières</persName>
+          <occupation type="nobility">Duchess of Montpensier</occupation>
+          <birth>1550-10-21</birth>
+          <death>1586</death>
+        </person>
+
+        <person xml:id="pers-delamarck-d">
+          <persName>Diane de la Marck</persName>
+          <occupation type="nobility">Duchess of Tonnerre</occupation>
+          <birth>1544-06-16</birth>
+          <death>1622</death>
         </person>
 
         <!-- Habsbourg -->
@@ -442,6 +467,21 @@
           <death>1584-03-18</death>
           <idno type="VIAF">89633898</idno>
         </person>
+        <person xml:id="pers-zygmunt-z">
+          <persName>Zygmunt II</persName>
+          <occupation>King of Poland</occupation>
+          <birth>1520-08-01</birth>
+          <death>1572-07-07</death>
+          <idno type="VIAF">804948</idno>
+        </person>
+        <person xml:id="pers-katarzyna-k">
+          <persName>Katarzyna</persName>
+          <birth>1533-09-15</birth>
+          <death>1572-02-28</death>
+          <idno type="VIAF">81319677</idno>
+        </person>
+
+
 
 
       </listPerson>
