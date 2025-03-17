@@ -253,6 +253,14 @@
           <persName>Alfonso Corso</persName>
           <occupation>Military commander</occupation>
         </person>
+        <person xml:id="pers-tavannes-g">
+          <persName>Gaspard de Saulx-Tavannes</persName>
+          <persName type="Italian">Gaspardo</persName>
+           <birth>1509</birth>
+           <death>1573-06-19</death>
+          <occupation type="military">Marshal of France</occupation>
+          <idno type="VIAF">2578946</idno>
+        </person>
 
         <!-- Prelates -->
         <person xml:id="pers-auger-ed">
@@ -272,6 +280,11 @@
           <birth>1532-07-14</birth>
           <death>1606-05-01</death>
           <idno type="VIAF">2526805</idno>
+        </person>
+        <person xml:id="pers-charite-h">
+          <persName>Hugues de La Charité</persName>
+          <persName type="Italian">Ugone</persName>
+          <occupation type="religious">Franciscan Friar</occupation>
         </person>
 
 
