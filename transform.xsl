@@ -86,55 +86,52 @@
     <xsl:text>]**&#10;&#10;</xsl:text>
   </xsl:template>
 
-  <!-- 5) Line breaks, with special handling of @break='no'. -->
-<xsl:template match="tei:lb">
-  <span class="lb-marker"></span>
-  <xsl:text> </xsl:text>
-</xsl:template>
+  <!-- 5) Line breaks (corrected): escaped HTML tags explicitly for consistent output. -->
+  <xsl:template match="tei:lb">
+    <xsl:text disable-output-escaping="yes">&lt;span class="lb-marker"&gt;&lt;/span&gt; </xsl:text>
+  </xsl:template>
 
-  <!-- 6) Paragraph-like elements: after them, output blank lines. -->
+  <!-- 6) Paragraph-like elements -->
   <xsl:template match="tei:p | tei:opener | tei:closer | tei:postscript">
     <xsl:apply-templates/>
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
 
-  <!-- 7) Normalise persName/placeName text. -->
+  <!-- 7) persName/placeName -->
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
 
-  <!-- 8) <choice>: only show the <expan>, ignore <abbr>. -->
+  <!-- 7) <choice>: only show <expan>, ignore <abbr> -->
   <xsl:template match="tei:choice">
     <xsl:value-of select="tei:expan"/>
     <xsl:text> </xsl:text>
   </xsl:template>
   <xsl:template match="tei:choice/tei:abbr"/>
 
-  <!-- 9) UNCLEAR words => Insert raw <span> in text with disable-output-escaping. -->
+  <!-- 8) UNCLEAR words -->
   <xsl:template match="tei:unclear">
-    <!-- We must use escaped &lt; and &gt; so the XSLT parser doesn't see them as real tags.
-         Then disable-output-escaping so the final .md shows <span> literally. -->
     <xsl:text disable-output-escaping="yes">&lt;span class="unclear"&gt;</xsl:text>
     <xsl:value-of select="."/>
     <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
   </xsl:template>
 
-  <!-- 10) Skip <del>. -->
+  <!-- 8) Skip <del> -->
   <xsl:template match="tei:del"/>
 
-  <!-- 11) <add> => inline. -->
+  <!-- 9) <add> inline -->
   <xsl:template match="tei:add">
     <xsl:value-of select="."/>
   </xsl:template>
 
-  <!-- 12) Optional note handling. -->
+  <!-- 8) Note handling -->
   <xsl:template match="tei:note">
     <xsl:text>[NOTE: </xsl:text>
     <xsl:apply-templates/>
     <xsl:text>]</xsl:text>
   </xsl:template>
 
-  <!-- 13) Gaps and damage placeholders. -->
+  <!-- 9) Gaps and damage -->
   <xsl:template match="tei:gap">
     <xsl:text>[missing </xsl:text>
     <xsl:value-of select="@quantity"/>
@@ -147,12 +144,7 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- 14) Segments or unhandled TEI -> apply templates. -->
-  <xsl:template match="tei:seg">
-    <xsl:apply-templates/>
-  </xsl:template>
-
-  <!-- 15) Catch-all for any TEI element not matched above. -->
+  <!-- 9) Default TEI handling -->
   <xsl:template match="tei:*">
     <xsl:apply-templates/>
   </xsl:template>
