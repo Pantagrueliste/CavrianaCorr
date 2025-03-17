@@ -87,16 +87,19 @@
   </xsl:template>
 
   <!-- 5) Line breaks, with special handling of @break='no'. -->
-  <xsl:template match="tei:lb">
-    <xsl:choose>
-      <xsl:when test="@break = 'no'">
-        <xsl:text>-  &#10;</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>  &#10;</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+<xsl:template match="tei:lb">
+  <xsl:choose>
+    <xsl:when test="@break = 'no'">
+      <xsl:text>-</xsl:text>
+      <span class="lb-marker"></span>
+      <xsl:text>&#10;</xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <span class="lb-marker"></span>
+      <xsl:text> </xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
 
   <!-- 6) Paragraph-like elements: after them, output blank lines. -->
   <xsl:template match="tei:p | tei:opener | tei:closer | tei:postscript">
