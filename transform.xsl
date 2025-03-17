@@ -22,7 +22,7 @@
     <xsl:variable name="locusFrom" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@from"/>
     <xsl:variable name="locusTo"   select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:locus/@to"/>
 
-    <xsl:variable name="archiveRef" as="xs:string" 
+    <xsl:variable name="archiveRef" as="xs:string"
                   select="normalize-space(
                     concat(
                       tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement, ' ',
@@ -113,11 +113,11 @@
   </xsl:template>
   <xsl:template match="tei:choice/tei:abbr"/>
 
-  <!-- Unclear words => <span class="unclear"> -->
+  <!-- Unclear words => raw <span> in text output. -->
   <xsl:template match="tei:unclear">
-    <xsl:text><span class="unclear"> </xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;span class="unclear"&gt;</xsl:text>
     <xsl:value-of select="."/>
-    <xsl:text></span></xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
   </xsl:template>
 
   <!-- Deletions skipped. -->
