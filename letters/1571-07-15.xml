@@ -10,6 +10,10 @@
           <resp>Lecturer in Digital Humanities</resp>
           <name>University of St Andrews</name>
         </respStmt>
+        <respStmt>
+        <resp>Copied by</resp>
+        <name>Gian Antonio Stefano Davari</name>
+      </respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>Clément Godbarge</publisher>
@@ -43,9 +47,14 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+              <handNote xml:id="hand1" scope="major">Hand of Davari</handNote>
             </handDesc>
           </physDesc>
+          <custodialHistory>
+          <p>
+            This transcription is based on a modern copy produced by the XIXth-centiry archivist Gian Antonio Stefano Davari, held at the Archivio di Stato di Mantova.
+          </p>
+        </custodialHistory>
         </msDesc>
       </sourceDesc>
     </fileDesc>
