@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Duke of Mantua, 15 July 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Mantova</settlement>
+            <repository>Archivio di Stato di Mantova</repository>
+            <collection>Archivio Gonzaga</collection>
+            <idno>b654</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fol. 336r</locus>
+              <title>Letter from Filippo Cavriana to Duke of Mantua</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana writes from the baths of Lucca expressing his devotion and service to the Duke.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on one side of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
+          <date when="1571-07-15"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-gonzaga-gugl">Duke of Mantua</persName>
+          <placeName ref="#place-mantova">Mantova</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="336r"/>
+        <opener>
+          <salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> et <choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>Il.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <unclear reason="illegible"></unclear></salute>
+        </opener>
+        <p>
+          Al testimonio della divotion mia verso <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> et della <lb/>riverentia che le debbo. che il <persName ref="#pers-crotto">crotto</persName> col fero ritorno costi; <lb/>le farà per mio nome, ho voluto aggiungerle la presente <lb/>per humilmente supplicarla, che le piaccia di credere che di <lb/>quanti servidori ella ha, non ha alcuno più di me divoto, <lb/>et affetionato, et che in ogni occasione, che se le appresenti; <lb/>non saprei ricevere, maggior favore da lei, che d'essere <unclear reason="illegible">operato</unclear> <lb/>in servitio suo, il che sperando che pur un giorno debba essere, <lb/>non vi entenderò piu oltre ma prima che il <persName ref="#pers-crotto">Crotto</persName>, darà <lb/>minutamente aviso a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <choice><abbr>Ill.a</abbr><expan>Illustrissima</expan></choice> dello stato del <choice><abbr>Sr</abbr><expan>Signor</expan></choice> mio <lb/>Padrone: et qui humilmente le bacio le mani, pregando <lb/>nostro <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Dio, che perpetuamente la conservi, Dalli <placeName ref="#place-bagni-di-lucca">bagni
+          <lb/>di Lucca</placeName> il di <date when="1571-07-15">XV di luglio del LXXI</date>.
+        </p>
+        <closer>
+          <choice><abbr>Humil.o</abbr><expan>Humilissimo</expan></choice> et <choice><abbr>devot.o</abbr><expan>devotissimo</expan></choice> <choice><abbr>servido.re</abbr><expan>servidore</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>.
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
