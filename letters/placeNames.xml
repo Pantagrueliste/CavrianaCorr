@@ -414,14 +414,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7007395</idno>
         </place>
 
-        <place xml:id="place-picardie">
-          <placeName type="historical" xml:lang="fr">Picardie</placeName>
-          <placeName type="historical" xml:lang="it">Picardia</placeName>
-          <placeName type="region" xml:lang="fr">Picardie</placeName>
-          <placeName type="country" xml:lang="en">France</placeName>
-          <idno type="TGN">http://vocab.getty.edu/tgn/7003779</idno>
-        </place>
-
         <place xml:id="place-poitou">
           <placeName type="historical" xml:lang="fr">Poitou</placeName>
           <placeName type="historical" xml:lang="fr">poitou</placeName>
@@ -521,6 +513,71 @@
           </location>
           <idno type="TGN">http://vocab.getty.edu/tgn/7008039</idno>
         </place>
+
+        <place xml:id="place-monferrato">
+          <placeName type="historical" xml:lang="fr">Monferrato</placeName>
+          <placeName type="modern" xml:lang="en">Montferrat</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Piedmont</placeName>
+          <location>
+            <geo>45.07 8.27</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7009566</idno>
+        </place>
+        <place xml:id="place-urbino">
+          <placeName type="historical" xml:lang="it">Urbino</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Marche</placeName>
+          <location>
+            <geo>43.726 12.637</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003994</idno>
+        </place>
+        <place xml:id="place-parma">
+          <placeName type="historical" xml:lang="it">Parma</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Emilia-Romagna</placeName>
+          <location>
+            <geo>44.8015 10.3279</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7004942</idno>
+        </place>
+        <place xml:id="place-picardie">
+          <placeName type="historical" xml:lang="it">Picchardia</placeName>
+          <placeName type="historical" xml:lang="fr">Picardie</placeName>
+          <placeName type="modern" xml:lang="en">Picardy</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7024273</idno>
+        </place>
+        <place xml:id="place-roma">
+          <placeName type="historical" xml:lang="it">Roma</placeName>
+          <placeName type="modern" xml:lang="en">Rome</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <location>
+            <geo>41.9028 12.4964</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7000874</idno>
+        </place>
+        <place xml:id="place-montargis">
+          <placeName type="historical" xml:lang="it">Montargis</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="fr">Centre-Val de Loire</placeName>
+          <location>
+            <geo>48.0019 2.7333</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008336</idno>
+        </place>
+        <place xml:id="place-bretagne">
+          <placeName type="historical" xml:lang="it">Bretagna</placeName>
+          <placeName type="modern" xml:lang="fr">Bretagne</placeName>
+          <placeName type="modern" xml:lang="en">Brittany</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>48.2020 -2.9326</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7024267</idno>
+        </place>
+
       </listPlace>
     </body>
   </text>
