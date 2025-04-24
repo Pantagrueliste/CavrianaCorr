@@ -343,8 +343,8 @@
 
         <!-- Medicean Officials -->
         <person xml:id="pers-concini-b">
-          <persName>Bartolomeo Concini</persName>
-          <persName type="alias">Bartolomeo Concino</persName>
+          <persName>Bartolomeo Concino di Conti della Penna</persName>
+          <persName type="alias">Bartolomeo Concini</persName>
           <persName type="alias">Concinno</persName>
           <sex value="male"/>
           <occupation>First Secretary of Cosimo I de' Medici</occupation>
