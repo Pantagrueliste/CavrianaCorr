@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>To Bartolomeo Concino, 9 November 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Firenze</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>555</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>fol. 343r</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concini</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana expresses his loyalty and devotion to serving the religion.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on one side of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-11-09"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concini</persName>
+          <placeName ref="#place-firenze">Firenze</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="it">
+    <body>
+      <div type="letter">
+        <pb n="343r"/>
+        <p>La buona volontà, che in molti altri, un mediocre atto<lb/> di accortezza. Qua serve uno della religione, il quale <choice><abbr>no̍</abbr><expan>non</expan></choice><lb/> desidera altro che servirla, et spender la vita in servi<lb break="no"/>tio di quella; piaccia à Dio, di cosi poterlo fare, in<lb/> occasione segnalata, come ha molto tempo in animo;<lb/> in questo mezzo, con la volontà, col pensiero, <choice><abbr>co̍</abbr><expan>con</expan></choice> l'opere<lb/> et <choice><abbr>co̍</abbr><expan>con</expan></choice> la penna, non lascierò di mostrarmi, quello che io<lb/> sono, cioè tutto fedele, et devoto di <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> et della<lb/> religione, et sperando che <choice><abbr>V.S. Ill.re</abbr><expan>Vostra Signoria Illustre</expan></choice>, mi terrà sempre per<lb/> suo, doppò haverle baciato le mani, qui me le <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice><lb/> con tutto l'animo. Di <placeName ref="#place-paris">Parigi</placeName>, il di <choice><abbr>9.o</abbr><expan>nono</expan></choice> di <choice><abbr>Nove.re</abbr><expan>Novembre</expan></choice><lb/> del LXX.</p>
+        <closer>
+          <lb/>Di <choice><abbr>V.S. Ill.re</abbr><expan>Vostra Signoria Illustre</expan></choice>.<lb/> <choice><abbr>Obligatissimo</abbr><expan>Obligatissimo</expan></choice> et <choice><abbr>certiss.o</abbr><expan>certissimo</expan></choice><lb/> servidore<lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
