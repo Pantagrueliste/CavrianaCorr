@@ -56,9 +56,7 @@
       <editorialDecl>
         <p>Named entities are annotated only in the main hand. Line breaks are not currently encoded as they await verification from manuscript consultation.</p>
       </editorialDecl>
-      <projectDesc>
-        <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
-      </projectDesc>
+      <encodingDesc><projectDesc><p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p></projectDesc></encodingDesc>
     </encodingDesc>
     <profileDesc>
       <correspDesc>

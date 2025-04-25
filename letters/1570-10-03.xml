@@ -66,6 +66,7 @@
         </correspAction>
       </correspDesc>
     </profileDesc>
+    <encodingDesc><projectDesc><p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p></projectDesc></encodingDesc>
   </teiHeader>
   <text>
     <body>
