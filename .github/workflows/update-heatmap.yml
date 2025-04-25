@@ -39,7 +39,7 @@ jobs:
       with:
         repository: Pantagrueliste/CavrianaCorr_FrontEnd
         path: frontend
-        token: ${{ secrets.FRONTEND_REPO_TOKEN }}
+        token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
         
     - name: Update heatmap component in frontend
       run: |
