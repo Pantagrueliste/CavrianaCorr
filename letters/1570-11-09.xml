@@ -65,7 +65,7 @@
           <date when="1570-11-09"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-concini-b">Bartolomeo Concini</persName>
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
           <placeName ref="#place-firenze">Firenze</placeName>
         </correspAction>
       </correspDesc>
