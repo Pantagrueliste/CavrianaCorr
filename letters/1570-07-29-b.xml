@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>To Cosimo I, 29 July 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2024</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>551</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>218r</locus>
+              <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Request to join the Order of Santo Stefano</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote xml:id="hand1" scope="major">Hand of author</handNote>
+              <handNote xml:id="hand2" scope="major">Hand of unknown secretary</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>
+          <date when="1570-07-29">29 July 1570</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
+          <placeName ref="#place-firenze">Firenze</placeName>
+       </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="it">
+    <body>
+      <div type="letter">
+        <pb n="218r"/>
+        <opener>
+          <salute><choice><abbr>Sereniss.o</abbr><expan>Serenissimo</expan></choice> Signore.</salute>
+        </opener>
+        <p>Desiderando io d'honorarmi <choice><abbr>có</abbr><expan>con</expan></choice> l'habito di <choice><abbr>san.o</abbr><expan>santo</expan></choice> Stefano, secondo <lb/>gli ordini però, et institutioni di quella religione, et havendo per <lb/>questo effetto, mandate mie provanze à <placeName ref="#place-pisa">Pisa</placeName> gia molti mesi, le qua<lb break="no"/>li furono da <choice><abbr>ms</abbr><expan>messer</expan></choice> <persName ref="#pers-striggio-a">Alessandro striggio</persName>, col mezzo del <choice><abbr>S.or</abbr><expan>Signor</expan></choice> <persName ref="#pers-bobba-t">Traiano <lb/>Bobba</persName>, presentate al capitolo, perché si udissero, et ventilassero; <lb/>supplico <choice><abbr>V. Al.</abbr><expan>Vostra Altezza</expan></choice> che al desiderio mio, sia servita d'accompagnare <lb/>la volonta di lei, et secondo gli ordini, sia admesso in cosi hono<lb break="no"/>rata, et virtuosa compagnia; assicurandola, che se bene le forze <lb/>mie, sono debolissimo, nondimeno la divotissima, et molto riveré<lb break="no"/>te affetione, con la quale ho sempre abbracciato il servitio suo, <lb/>mi assicura di doverle dire, che io confido in Dio <choice><abbr>ns̍o s.ore</abbr><expan>nostro signore</expan></choice>, che io <lb/><choice><abbr>no̍</abbr><expan>non</expan></choice> sia, per essere di carico alla religione, <choice><abbr>q̍ndo</abbr><expan>quando</expan></choice> io sia per lei im<lb break="no"/>piegato, come ne farà fede sempre mai, il <choice><abbr>Sr</abbr><expan>Signor</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName> ambasciatore <lb/>di <choice><abbr>V.Al.</abbr><expan>Vostra Altezza</expan></choice> qui, et forse anche il <choice><abbr>s.or</abbr><expan>signor</expan></choice> <persName ref="#pers-concini-b">Concino</persName>, con il quali ho havuto, <lb/>et ho tuttavia occasione, di trattar qualche cosa per lei. Et se <lb/><choice><abbr>no̍</abbr><expan>non</expan></choice> fusse, che lo stato della sanità del Duca mio <choice><abbr>Pro̍ne</abbr><expan>Padrone</expan></choice>, al quale <lb/>io servo di medico, per elettione, <choice><abbr>no̍</abbr><expan>non</expan></choice> perché renda la professione <lb/>al minuto, <choice><abbr>no̍</abbr><expan>non</expan></choice> patisce che io della sua persona mi scosti, sarei <lb/>venuto io in persona, à far riverenza a <choice><abbr>V seren. Alt.</abbr><expan>Vostra Serenissima Altezza</expan></choice> alla quale <lb/>havendo io consecrato me, et le cose mio. Supplico humilmente, che <lb/>le piaccia aggradirle, col <choice><abbr>com̍andarmi</abbr><expan>comandarmi</expan></choice>, et tenermi in sua <choice><abbr>gr̍a</abbr><expan>gratia</expan></choice>, <lb/>che <choice><abbr>N. S.r</abbr><expan>Nostro Signor</expan></choice> Dio rende felicissima.</p>
+        
+        <closer>
+          <dateline>Di <placeName ref="#place-saint-germain-des-pres">san Germano</placeName>, il <date when="1570-07-29">29 <lb/>di luglio del 70</date>.</dateline>
+          <lb/>Di <choice><abbr>V. Ser. Alt.</abbr><expan>Vostra Serenissima Altezza</expan></choice>
+          <lb/><choice><abbr>Humiliss.o</abbr><expan>Humilissimo</expan></choice> et <choice><abbr>Devotiss.o</abbr><expan>Devotissimo</expan></choice> servidore
+          <lb/><signed><persName ref="#pers-cavriana-f">Filippo cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

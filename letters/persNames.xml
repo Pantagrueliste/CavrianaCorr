@@ -555,11 +555,6 @@
           <sex value="male"/>
           <occupation>French noble</occupation>
         </person>
-        <person xml:id="pers-traiano">
-          <persName>Traiano</persName>
-          <sex value="male"/>
-          <note>Further identification needed</note>
-        </person>
         <person xml:id="pers-crotto">
           <persName>crotto</persName>
           <sex value="unknown"/>
@@ -601,7 +596,6 @@
         <person xml:id="pers-montmorency-h">
           <persName>Henri de Montmorency</persName>
           <persName type="alias">Danville</persName>
-          <persName type="alias">Damville</persName>
           <sex value="male"/>
           <occupation type="military">Marshal of France, Governor of Languedoc</occupation>
           <idno type="VIAF">68977937</idno>
@@ -621,7 +615,26 @@
           <idno type="VIAF">47560739</idno>
           <note>Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara</note>
         </person>
-
+        <person xml:id="pers-bobba-t">
+          <persName>Traiano di Fabrizio Bobba</persName>
+          <sex value="male"/>
+          <death when="1590"/>
+          <occupation type="chivalricOrder" from="1562">Cavaliere dell'Ordine di Santo Stefano</occupation>
+          <occupation type="courtier">Cameriere di Cosimo I de' Medici</occupation>
+          <occupation type="courtier" from="1574">Cameriere di Francesco I</occupation>
+          <occupation type="stateCourtPersonnel">Coppiere di Cosimo I de' Medici</occupation>
+        </person>
+        <person xml:id="pers-striggio-a">
+          <persName>Alessandro Striggio</persName>
+          <persName type="alias">Striggi</persName>
+          <sex value="male"/>
+          <birth when="1537"/>
+          <death when="1592-02-29"/>
+          <occupation type="stateCourtPersonnel" from="1559" to="1574">Salariato di Cosimo I de' Medici</occupation>
+          <occupation type="stateCourtPersonnel" from="1574" to="1586">Salariato di Francesco I de' Medici</occupation>
+          <occupation type="stateCourtPersonnel">Provisionato di Cosimo I de' Medici</occupation>
+          <occupation type="musician" from="1566">Musico / Musicista</occupation>
+        </person>
       </listPerson>
     </body>
   </text>
