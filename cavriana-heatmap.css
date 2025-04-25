@@ -1,0 +1,84 @@
+/* Styling for Cavriana Correspondence Heatmap */
+
+.cavriana-heatmap {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--ifm-card-background-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cavriana-heatmap h2 {
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+/* Cal-heatmap specific styling */
+.cavriana-heatmap .cal-heatmap {
+  margin: 2rem 0;
+}
+
+.cavriana-heatmap .cal-heatmap .ch-domain-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cavriana-heatmap .cal-heatmap .ch-subdomain-text {
+  font-size: 10px;
+}
+
+.cavriana-heatmap .cal-heatmap-legend {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cavriana-heatmap .ch-legend {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.cavriana-heatmap .cal-heatmap-info {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.cavriana-heatmap .cal-heatmap-updated {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  text-align: right;
+  margin-top: 1rem;
+}
+
+/* Tooltip styling */
+.cavriana-heatmap .cal-heatmap-tooltip {
+  position: absolute;
+  z-index: 1000;
+  padding: 5px 10px;
+  background-color: var(--ifm-color-emphasis-800);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  max-width: 250px;
+  display: none;
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .cavriana-heatmap {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cavriana-heatmap .cal-heatmap {
+    overflow-x: auto;
+  }
+  
+  .cavriana-heatmap .cal-heatmap-legend {
+    flex-direction: column;
+    align-items: center;
+  }
+}

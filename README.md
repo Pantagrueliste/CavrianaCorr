@@ -26,6 +26,7 @@ The collection encompasses Cavriana's extensive correspondence network throughou
 
 - Full TEI-XML encoding with semantic markup
 - Named entity recognition and annotation
+- Interactive data visualizations including correspondence heatmap
 - Integration with Semantic Web standards
 - Version-controlling and lifecylce management through GitHub
 - Long-term storage on Zenodo
@@ -59,6 +60,12 @@ gantt
 ## Access and Licensing
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). While the content is freely available, proper attribution is required for any use or adaptation of these materials.
+
+## Visualizations
+
+The project includes several visualizations to help explore Cavriana's correspondence:
+
+- **Letter Heatmap Calendar**: An interactive calendar heatmap showing Cavriana's letter-writing activity over time, with color intensity representing text volume (word count). See [heatmap_README.md](heatmap_README.md) for details.
 
 ## Contributing
 
