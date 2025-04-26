@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'letters/*.xml'
-      - 'transform.xsl'
+      - 'templates/transform.xsl'
   pull_request:
     branches:
       - main
