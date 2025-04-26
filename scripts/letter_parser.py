@@ -1,15 +1,17 @@
-import os, re, csv
+#!/usr/bin/env python3
+import re, csv
 from pathlib import Path
 from datetime import datetime
 from lxml import etree
 
-# ----------------------------------------------------------------------
-OUT_CSV   = Path("data/letter_metadata.csv")   # <— new location
-LETTERS   = Path("letters")                    # folder with XML
+# ── locate repo root ────────────────────────────────────────────────────
+REPO_ROOT = Path(__file__).resolve().parent.parent   # …/CavrianaCorr
+OUT_CSV   = REPO_ROOT / "data"    / "letter_metadata.csv"
+LETTERS   = REPO_ROOT / "letters"                     # XML folder
+# ────────────────────────────────────────────────────────────────────────
 
-EXCLUDE   = {"persNames.xml", "placeNames.xml"}
-NS        = {"tei": "http://www.tei-c.org/ns/1.0"}
-# ----------------------------------------------------------------------
+EXCLUDE = {"persNames.xml", "placeNames.xml"}
+NS      = {"tei": "http://www.tei-c.org/ns/1.0"}
 
 def count_words(text: str) -> int:
     return len(re.sub(r"\s+", " ", text).strip().split())
@@ -36,24 +38,22 @@ def count_body_words(body_elem):
 def process_xml(path: Path):
     try:
         root = etree.parse(path).getroot()
-
-        # helpers
         q = lambda xp: root.xpath(xp, namespaces=NS)
 
-        date = q("//tei:correspAction[@type='sent']/tei:date")
+        date  = q("//tei:correspAction[@type='sent']/tei:date")
         place = q("//tei:correspAction[@type='sent']/tei:placeName")
-        sender = q("//tei:correspAction[@type='sent']/tei:persName")
+        sender   = q("//tei:correspAction[@type='sent']/tei:persName")
         receiver = q("//tei:correspAction[@type='received']/tei:persName")
-        repo = q("//tei:msIdentifier/tei:repository")
-        idno = q("//tei:msIdentifier/tei:idno")
+        repo  = q("//tei:msIdentifier/tei:repository")
+        idno  = q("//tei:msIdentifier/tei:idno")
         locus_elem = q("//tei:msItem/tei:locus")
-        summary = q("//tei:note[@type='summary']")
-        body = q("//tei:text/tei:body")
+        summary    = q("//tei:note[@type='summary']")
+        body       = q("//tei:text/tei:body")
 
         locus = ""
         if locus_elem:
             fr, to = locus_elem[0].get("from"), locus_elem[0].get("to")
-            locus = f"{fr}-{to}" if fr and to else get_text(locus_elem[0])
+            locus  = f"{fr}-{to}" if fr and to else get_text(locus_elem[0])
 
         word_count = count_body_words(body[0]) if body else 0
 
@@ -73,10 +73,8 @@ def process_xml(path: Path):
         return None
 
 def main():
-    OUT_CSV.parent.mkdir(exist_ok=True)        # ensure /data exists
-    letters = [
-        p for p in LETTERS.glob("*.xml") if p.name not in EXCLUDE
-    ]
+    OUT_CSV.parent.mkdir(exist_ok=True)          # create data/
+    letters = [p for p in LETTERS.glob("*.xml") if p.name not in EXCLUDE]
 
     rows = [r for p in letters if (r := process_xml(p))]
     rows.sort(key=lambda d: d["date"])
