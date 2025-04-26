@@ -38,19 +38,19 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: Pantagrueliste/CavrianaCorr_FrontEnd
-        path: frontend
+        path: CavrianaCorr_FrontEnd  # Standardized to match the other workflow
         token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
         
     - name: Update heatmap component in frontend
       run: |
         # Create components directory if it doesn't exist
-        mkdir -p frontend/src/components
+        mkdir -p CavrianaCorr_FrontEnd/src/components
         # Copy the generated heatmap component
-        cp CavrianaHeatmap.jsx frontend/src/components/
+        cp CavrianaHeatmap.jsx CavrianaCorr_FrontEnd/src/components/
         
     - name: Commit and push changes to frontend
       run: |
-        cd frontend
+        cd CavrianaCorr_FrontEnd
         git pull origin main
         git config --local user.name "GitHub Actions Bot"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
