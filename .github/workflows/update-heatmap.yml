@@ -55,5 +55,5 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add src/components/CavrianaHeatmap.jsx
         # Only commit if there are changes
-        git diff --quiet && git diff --staged --quiet || git commit -m "Update Cavriana letter heatmap visualization"
+        git diff --cached --quiet || git commit -m "Update Cavriana letter heatmap visualization"
         git push
