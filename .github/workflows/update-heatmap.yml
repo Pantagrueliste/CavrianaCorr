@@ -4,57 +4,64 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'letters/*.xml'  # Trigger when new letters are added
-      - 'letter_parser.py'
-      - 'cavriana_heatmap.py'
+      - "letters/*.xml"          # new / edited letters
+      - "letter_parser.py"
+      - "cavriana_heatmap.py"
 
 jobs:
   update-heatmap:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout CavrianaCorr repository
+    # ───────────────────────── 1  back-end checkout & build ─────────────────────
+    - name: Checkout CavrianaCorr (back-end)
       uses: actions/checkout@v4
-      
-    - name: Set up Python
+
+    - name: Set up Python 3.10
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
-        
-    - name: Install dependencies
+        python-version: "3.10"
+
+    - name: Install Python deps
       run: |
         python -m pip install --upgrade pip
         pip install pandas numpy lxml
-        
-    - name: Generate letter metadata
-      run: |
-        python letter_parser.py
-        
-    - name: Generate heatmap component
-      run: |
-        python cavriana_heatmap.py
-        
-    - name: Checkout Docusaurus frontend repository
+
+    - name: Generate letter metadata → CSV
+      run: python letter_parser.py
+
+    - name: Generate CavrianaHeatmap.jsx from template
+      run: python cavriana_heatmap.py         # writes CavrianaHeatmap.jsx
+
+    # ───────────────────────── 2  front-end checkout ────────────────────────────
+    - name: Checkout CavrianaCorr_FrontEnd
       uses: actions/checkout@v4
       with:
         repository: Pantagrueliste/CavrianaCorr_FrontEnd
-        path: CavrianaCorr_FrontEnd  # Standardized to match the other workflow
+        path: CavrianaCorr_FrontEnd
         token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
-        
-    - name: Update heatmap component in frontend
+
+    - name: Drop component into front-end repo
       run: |
-        # Create components directory if it doesn't exist
         mkdir -p CavrianaCorr_FrontEnd/src/components
-        # Copy the generated heatmap component
         cp CavrianaHeatmap.jsx CavrianaCorr_FrontEnd/src/components/
-        
-    - name: Commit and push changes to frontend
+
+    # ───────────────────────── 3  smoke-test Docusaurus build ───────────────────
+    - name: Install front-end JS deps
+      working-directory: CavrianaCorr_FrontEnd
+      run: npm ci                     # reproducible install
+
+    - name: Build site (smoke-test)
+      working-directory: CavrianaCorr_FrontEnd
+      run: npm run build              # fails on bad JSX/API
+
+    # ───────────────────────── 4  commit only if build passed ───────────────────
+    - name: Commit & push component
+      if: ${{ success() }}            # run only when build step succeeded
+      working-directory: CavrianaCorr_FrontEnd
       run: |
-        cd CavrianaCorr_FrontEnd
-        git pull origin main
-        git config --local user.name "GitHub Actions Bot"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config user.name  "GitHub Actions"
+        git config user.email "github-actions@github.com"
         git add src/components/CavrianaHeatmap.jsx
-        # Only commit if there are changes
-        git diff --cached --quiet || git commit -m "Update Cavriana letter heatmap visualization"
+        git diff --cached --quiet || git commit -m "Auto-update Cavriana heat-map"
         git push origin main
