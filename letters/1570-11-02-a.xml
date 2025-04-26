@@ -54,7 +54,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName ref="#place-saint-germain-des-pres">San Germano di Pre</placeName>
+          <placeName ref="#place-saint-germain-des-pres">Saint-Germain-des-Prés</placeName>
           <date when="1570-11-02"/>
         </correspAction>
         <correspAction type="received">
@@ -62,7 +62,7 @@
         </correspAction>
       </correspDesc>
     </profileDesc>
-  <encodingDesc><projectDesc><p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p></projectDesc></encodingDesc></teiHeader>
+  <encodingDesc><projectDesc><p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p></projectDesc></encodingDesc></teiHeader>
   <text>
     <body>
       <div type="letter">
