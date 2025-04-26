@@ -14,7 +14,7 @@ jobs:
     
     steps:
     - name: Checkout CavrianaCorr repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -35,7 +35,7 @@ jobs:
         python cavriana_heatmap.py
         
     - name: Checkout Docusaurus frontend repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: Pantagrueliste/CavrianaCorr_FrontEnd
         path: frontend
@@ -51,9 +51,10 @@ jobs:
     - name: Commit and push changes to frontend
       run: |
         cd frontend
-        git config user.name "GitHub Actions Bot"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git pull origin main
+        git config --local user.name "GitHub Actions Bot"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add src/components/CavrianaHeatmap.jsx
         # Only commit if there are changes
         git diff --cached --quiet || git commit -m "Update Cavriana letter heatmap visualization"
-        git push
+        git push origin main
