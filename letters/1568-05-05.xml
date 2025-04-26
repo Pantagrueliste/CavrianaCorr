@@ -32,6 +32,7 @@
                             <locus from="292r" to="292v">fols. 292r-292v</locus>
                             <author>Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
+                            <note type="summary">Report on the improving health condition of the Duke of Nevers, noting progress with treatment of a liver tumor and ongoing issues with his knee injury, with an overall positive prognosis.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -56,7 +57,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-                    <placeName>Nevers</placeName>
+                    <placeName ref="#place-nevers">Nevers</placeName>
                     <date when="1568-05-05"/>
                 </correspAction>
                 <correspAction type="received">
@@ -66,7 +67,7 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
+    <text xml:lang="it">
         <body>
             <div type="letter">
                 <pb n="292r"/>
@@ -75,7 +76,7 @@
                 <pb n="292v"/>
                 <p>à farsi piu piacevoli, spero infra <choice><abbr>no̍</abbr><expan>non</expan></choice> molto <lb/>tempo, di dover consolare <choice><abbr>cumulatissimamēte</abbr><expan>cumulatissimamente</expan></choice> <lb/><choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice> con ottime povene / <unclear>Anelna</unclear>, che il <lb/>tempo della <choice><abbr>co̍valescenza</abbr><expan>convalescenza</expan></choice> soglia essere, pieno <lb/>di <choice><abbr>Incōmodità</abbr><expan>Incomodità</expan></choice>: Bacio le mani, a <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice> con <lb/>questo fine, et me la <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> <choice><abbr>humilmēte</abbr><expan>humilmente</expan></choice> <lb/>in <choice><abbr>grà</abbr><expan>gratia</expan></choice>.</p>
                 <closer>
-                    <dateline>Di <placeName>Nevers</placeName> il <date when="1568-05-05">v di Maggo del 68</date></dateline>
+                    <dateline>Di <placeName ref="#place-nevers">Nevers</placeName> il <date when="1568-05-05">v di Maggo del 68</date></dateline>
                     <lb/>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice>
                     <lb/><choice><abbr>Humiliss.o</abbr><expan>Humilissimo</expan></choice> servidore.
                     <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
