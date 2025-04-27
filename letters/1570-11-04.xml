@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 4 November 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>555</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="333r" to="333bis">fols. 333r-333bis</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Report on the French court, royal wedding plans, and political developments</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on multiple folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana writing as Vincenzo da Castello</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-11-04"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="333r"/>
+        <opener>
+          <salute>Illustre signore.</salute>
+        </opener>
+        <p>Le nozze sono differite per sino al fine di questo, et forse per sino a quello dell'altro, portando cosi i casi humani, per la varieta delle cose; come di malatia, qual è stata quella della <persName ref="#pers-medici-cat">reina</persName>, et della difficoltà di trovar denari, essendo eshausto l'erario publico, et <unclear>tantosto</unclear> quello de privati, <choice><abbr>serāno</abbr><expan>seranno</expan></choice> nozze fredde, et in luogo selvag<lb break="no"/>gio, et vi si va, come di costume e con furia et disordine spendendosi piu<lb break="no"/>tossto da poco giudicio, che da galanthuomini. Ma pure vi si va et sta fer<lb break="no"/>ma la voce per il fine di questo. Il <persName ref="#pers-valois-ch-9">re</persName>, partirà lunedi per un luogo di piacere, dove starà 10 di, poi à Mesieres, per trovar la sposa et cosi quel vivo furor d'animo, potria rimettersi, in questa prova della moglie il che seria bene per lui, et per tutti. Non si intende altro, delli nemici, se non che stanno sul aviso, in punto, et ben provisti; et la <placeName ref="#place-rochelle">roscella</placeName> è, un <placeName ref="#place-paris">parigi</placeName>, di frequenza, et richezze, di quelle genti, ivi l'<persName ref="#pers-coligny-g">ammiraglio</persName>, pensava di maritare la sua figliuola, à Monsignor di <persName ref="#pers-deteligny-c">Thelligny</persName> giovine di molta prudenza, et di buon cuore. et che a questi di lo ha mostrato bene; havendo egli detto nella anticamera del <persName ref="#pers-valois-ch-9">re</persName>, che se non se li fermava, quanto havevano promesso i prencipi; et consiglieri di sua maestà, che haveva buone sperone, et lancia per un'altra volta far suo dovere in servitio della republica; et che la fede <choice><abbr>nō</abbr><expan>non</expan></choice> doveva essere in alcun modo violata la <choice><abbr>rn̄e</abbr><expan>religione</expan></choice> se voleva la quiete publica poiche gli ughinotti non serian mai,i primi a romperla,ne a turbare la pace. La <persName ref="#pers-medici-cat">reina</persName>, è stata piu in pericolo di dover haver gran male, che l'habbia parte con arte, incredibil quantità di materia, et tutta cholerica, contro la complessione, et forma del vivere suo i tal che senza questa vacatio<lb break="no"/>ne, alle bonache che ha patito, et varij accidenti, se ne seria tornata in malissimo termine, hora sta bene, ma soggetta al catarrho, per l'età, et per i fastidii gli ughinotti <choice><abbr>nō</abbr><expan>non</expan></choice> vorriano altro che la morte di lei, perche go<lb break="no"/>vernariano piu liberamente le cose. La moglie di Monsignor di Carno<lb break="no"/>valetto, governatore di Monsignore, si dispera, essendole stato rubato tutte le gioie sue, per il valore di ben 20 milla <choice><abbr>Δ.di</abbr><expan>scudi</expan></choice>, ma hor hora il ladro vien d'esser preso, che è un paggio del <persName ref="#pers-valois-ch-9">re</persName>, il quale stava in casa detto carnovaletto, per esser un de primi scudieri, o <unclear>cavallerissi</unclear> di sua maestà che nodrisce paggi. di forte che si puo dire, <quote xml:lang="lat">nec sospes ab sospite <choice><abbr>futus</abbr><expan>futurus</expan></choice></quote>. Ogniuno qui grida la guerra in fiandra, et la desidera, et gia sono alcuni che sotto pretesto di <unclear>mescanta</unclear>, sono iti in fiandra, ricevendo le fortezze, i luoghi, et <choice><abbr>prattican.o</abbr><expan>pratticando</expan></choice> huomini, cosi da paesani, come da soldati, per farne poi rapporto a questi di qua, il che <choice><abbr>nō</abbr><expan>non</expan></choice> vien gia dalla loro maesta, ma da alcuni potenti inquieti, i quali vor<lb break="no"/>riano, la roina, di chi, è stato spettatore delle nostre fortune; et si sono portati</p>
+
+        <pb n="333v"/>
+        <p>dissegni delle cittadelle di la e sopra de quali, in certi luoghi da alcuni huo<lb break="no"/>mini prattichi di guerra, si fanno discorsi, et si truovano modi, di espugnarle, il che, se bene non offende gli spagnuoli, si scuopre però, la mala volontà di costoro, in cercando quello, che <choice><abbr>nō</abbr><expan>non</expan></choice> e giusto. Del resto si vive, come per lo <choice><abbr>innā<lb break="no"/>zi</abbr><expan>innanzi</expan></choice>, il <persName ref="#pers-valois-ch-9">re</persName> vorria vendere, cinquanta segretariati, per fare 200000 franchi, ma <choice><abbr>nō</abbr><expan>non</expan></choice> si trova, che gli dica, cotanto sono <unclear>stesse</unclear> le cose di qua. mi <choice><abbr>racc.</abbr><expan>raccomando</expan></choice> a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, la quale prego, à tenermi in sua buona <choice><abbr>gr̄a</abbr><expan>gratia</expan></choice>, et in quella del gran Duca. assicurandola, che <choice><abbr>nō</abbr><expan>non</expan></choice> ha servitore, piu di me divoto in queste parti di <placeName ref="#place-paris">parise</placeName> il <date when="1570-11-04">iiij di Novem.re del lxx</date></p>
+        
+        <closer>
+          Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> Illustre<lb/>
+          Servitor <signed><persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName></signed>.
+        </closer>
+        
+        <p>Post scriptum<lb/>
+        le compagnie, che andavano in <placeName ref="#place-piemonte">piemōte</placeName>, sono restate in Delphino, temendosi che ivi non cominciate principio di guerra, essendovi ughonotti assai forti, oltre ciò, per non esservi denari, da pagarle; senza gli quali, <choice><abbr>nō</abbr><expan>non</expan></choice> vogli<lb break="no"/>ono marciare; il presidente Monfort, mandato dal <persName ref="#pers-savoy-em-fil">duca di savoia</persName>, a questa corte, per vedere se, in questa necessità de denari, potesse ricuperare le terre del <placeName ref="#place-piemonte">piemonte</placeName>, dandole cinque, overo sei cento mille scudi, in <choice><abbr>pstanza</abbr><expan>prestanza</expan></choice>, in dono, o in orgni altra maniera, <choice><abbr>nō</abbr><expan>non</expan></choice> ha ottenuto niente, et la <persName ref="#pers-medici-cat">reina</persName> non vuol dar orecchia a queste cose, se bene e nella povertà sino alli occhi, poiche niun <persName ref="#pers-valois-ch-9">re</persName>, fu mai posto priggion <unclear></unclear> debiti. Vero, e, che il detto presidente, dice essere mandato qui ad altro fine, ma che udito l'ha parlar alla <persName ref="#pers-medici-cat">reina</persName> <choice><abbr>privatam̄<lb break="no"/></abbr><expan>privatamente</expan></choice> ha raccolto questo; che <choice><abbr>nō</abbr><expan>non</expan></choice> si sa per ogni luogo.</p>
+
+        <pb n="333bis"/>
+        <p>Il <persName ref="#pers-gonzaga-l-nev">Duca di Nevers</persName>, va migliorando della gamba, alla quale pati dome<lb break="no"/>nica passata, andando a torre il giubil alla chiesa de cordellieri, una gran storta, simile a quella c hebbe gia un mese nel cocchio, et questa, per colpa di chi lo protava in sedia, di sorte che, questo signore, serà per un pezzo valetudinario. <persName ref="#pers-guise-h">Ghisa</persName> sta bene, et attende alli piaceri. Il <persName ref="#pers-lorraine-ch-card">cardinal di loreno</persName>, è ito a Rems, suo arcivescovato <unclear>per</unclear> ricevere ivi la <persName ref="#pers-medici-cat">reina</persName>, <choice><abbr>q̍ndo</abbr><expan>quando</expan></choice> venirà, la quale vera fia avertita da la madre di <persName ref="#pers-montm-fr">Momoransi</persName>, come si debba portare <choice><abbr>co̍</abbr><expan>con</expan></choice> quella famiglia. Il <persName ref="#pers-lorraine-c">Duca di loreno</persName> è qui grasso et grosso, et amatore delle feste, et delli piaceri. Il <persName ref="#pers-valois-ch-9">re</persName> attende alle caccie, et per colpa della licenza intro<lb break="no"/>dotta dalla calamita della guerra civile, qualche volte, al <choice><abbr>bestem̄iare</abbr><expan>bestemiare</expan></choice> Di et notte, la <persName ref="#pers-medici-cat">reina</persName> è, <choice><abbr>cō</abbr><expan>con</expan></choice> <persName ref="#pers-france-c">madama di loreno</persName>, suo idolo in quel sesso et non si satia mai della sua presenza, ne delle sue parole.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
