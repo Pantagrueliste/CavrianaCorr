@@ -63,7 +63,7 @@ jobs:
                 mkdir -p "$yearDir"
                 output_file="$yearDir/${filename}.md"
                 echo "Converting $file -> $output_file (year=$year)"
-                java -cp saxon.jar net.sf.saxon.Transform -s:"$file" -xsl:"transform.xsl" -o:"$output_file"
+                java -cp saxon.jar net.sf.saxon.Transform -s:"$file" -xsl:"templates/transform.xsl" -o:"$output_file"
               fi
             fi
           done
