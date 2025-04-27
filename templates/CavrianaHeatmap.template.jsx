@@ -24,16 +24,12 @@ const HeatmapOneYear = () => {
     cal.paint({
       itemSelector : '#cav-calendar',
       legend       : {itemSelector:'#cav-legend', position:'bottom'},
-
       date   : {start: new Date(YEARS[yearIx], 0, 1)},
       range  : 1,                                      // one year
       domain : {type:'year', gutter:10},
       subDomain: {type:'day', width:11, height:11, gutter:2, radius:2},
-
       data  : {type:'json', source: rows, x:'date', y:'value'},
-
       scale : {color:{type:'quantize', scheme:'Spectral', domain:[278,5380]}},
-
       tooltip: {
         enabled:true,
         text:(v,t)=>
@@ -53,15 +49,30 @@ const HeatmapOneYear = () => {
   /* nav handlers */
   const prev = () => yearIx && setYearIx(yearIx-1);
   const next = () => yearIx < YEARS.length-1 && setYearIx(yearIx+1);
+  const selectYear = (index) => setYearIx(index);
 
   return (
     <div className="cavriana-heatmap">
       <h2>Cavriana Letter-Writing Activity – {YEARS[yearIx]}</h2>
-
+      
+      {/* Year selector buttons */}
+      <div className="year-selector">
+        {YEARS.map((year, index) => (
+          <button 
+            key={year}
+            onClick={() => selectYear(index)}
+            className={`year-button ${yearIx === index ? 'active' : ''}`}
+          >
+            {year}
+          </button>
+        ))}
+      </div>
+      
       {busy && <p>Loading…</p>}
       <div id="cav-calendar" style={{minHeight:150}} />
       <div id="cav-legend"   style={{marginTop:6}} />
-
+      
+      {/* Keep original prev/next navigation as an alternative */}
       <div style={{marginTop:8, textAlign:'center'}}>
         <button onClick={prev} disabled={!yearIx}>◀︎</button>
         <span style={{margin:'0 1rem'}}>{YEARS[yearIx]}</span>
