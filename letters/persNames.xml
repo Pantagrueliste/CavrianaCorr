@@ -28,7 +28,7 @@
     <body>
       <listPerson>
 
-        <!-- Medici Dynasty -->
+        <!-- Italian Noble Houses -- Medici Dynasty -->
         <person xml:id="pers-medici-cos-1">
           <persName>Cosimo I de' Medici</persName>
           <persName type="alias">Gran Duca</persName>
