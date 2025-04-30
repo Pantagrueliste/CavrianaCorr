@@ -59,7 +59,7 @@ const HeatmapOneYear = () => {
         domain : {
           type  : 'year',
           gutter: 10,
-          label : { text: y => y.getFullYear() },
+          label : { text: ts => new Date(ts * 1000).getUTCFullYear() },
         },
         subDomain: {
           type  : 'day',
