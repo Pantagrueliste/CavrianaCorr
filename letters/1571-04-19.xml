@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Marco da Empoli, 19 April 1581</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>559</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="402r" to="402v">fols. 402r-402v</locus>
+              <title>Letter from Filippo Cavriana to Marco da Empoli</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana reports on Italian-French relations, military reforms in France, the arrival of a Turkish ambassador, and court politics. In encrypted passages, he discusses his confidential communications with Catherine de' Medici about the Grand Duke of Tuscany, and offers his services as an intelligence agent. The letter reveals tensions between nobles including Nevers and Guise, and mentions marriage negotiations with Elizabeth I of England.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+              <handNote xml:id="hand2" scope="minor">Second hand adding deciphered text</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1581-04-19"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Marco da Empoli</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="402r"/>
+        <opener>
+          <salute><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.re</abbr><expan>Signore</expan></choice></salute>
+        </opener>
+        <p>
+          qui tanti rumori, che si temevano d'<placeName ref="#place-it">Italia</placeName>, paiono sopiti qui, et<lb/> et non se ne parla piu, cosi vivamente; nondimeno i servidori amo<lb break="no"/>revoli del <persName ref="#pers-medici-cos-1">Gran duca</persName> / non stano quieti, sin tanto che <choice><abbr>nō</abbr><expan>non</expan></choice> sia<lb/> passato, questo <persName ref="#pers-habsburg-j">don <choice><abbr>Giovāni</abbr><expan>Giovanni</expan></choice></persName>, et si vegga, dove va a parar il nego<lb break="no"/>tio. Si attende qui a cassare ufficiali, et riformare i governi, le pro<lb break="no"/>vincie, et ogni luogo, piu per far danari, che per utile che si<lb/> speri di alcuna deliberatione, et gia <choice><abbr>han̍o</abbr><expan>hanno</expan></choice> sminuito, per piu<lb/> della metà, delle provisioni delli <persName ref="#pers-birague-c">Biragi</persName> in <placeName ref="#place-piemonte">Piamo̍te</placeName>, et di<lb/> molti capitani. il che dispiace molto, et aliena l'animo di servi<lb break="no"/>dori vecchi / E morto Carnevaletto, gia governatore di <choice><abbr>Monsig.re</abbr><expan>Monsignore</expan></choice><lb/> et ha fatto lagrimare <choice><abbr>pietosame̍te</abbr><expan>pietosamente</expan></choice> questo amorevol prencipe, il quale<lb/> è importunato per gli <choice><abbr>uffitij</abbr><expan>ufficii</expan></choice>, che vacano, del morto, per i quali<lb/> sono, chi fa a pugna per haverli. La <persName ref="#pers-medici-cat">reina</persName> mia sta bene,<lb/> et comincierà, ad uscire di casa, per far il viaggio che si propone di<lb/> <placeName ref="#place-normandie">Normandia</placeName>. Quelli seditiosi di Roano, sono fuggiti, et cosi <choice><abbr>no̍</abbr><expan>non</expan></choice><lb/> si è risoluto altro / ma pur hieri, <persName ref="#pers-deteligny-c">Thelligny</persName> protestò di novo, che<lb/> se si va <unclear>freddo</unclear> al far giustitia et gastigar il delitto, non si<lb/> trovi poi strano, se l'armi si <choice><abbr>repiglira̍no</abbr><expan>repigliranno</expan></choice>, et si romperà l'<lb/>editto il quale <choice><abbr>no̍</abbr><expan>non</expan></choice> è osservato come egli vorria. Si crede che si<lb/> <choice><abbr>confischerāno</abbr><expan>confischeranno</expan></choice> i beni, et si punirà qualche poverazzo, per ac<lb break="no"/>quetare i parenti delli morti. Ma questo <choice><abbr>no̍</abbr><expan>non</expan></choice> acqueterà gli<lb/> Ugonotti. Il conte di <persName ref="#pers-gondi-albert">Rez</persName>, pare che si destini al viaggio di<lb/> <placeName ref="#place-england">Inghilterra</placeName> / per trattar matrimonio della <persName ref="#pers-tudor-e">reina</persName>, con <choice><abbr>Monsig.re</abbr><expan>Monsignore</expan></choice><lb/> <persName ref="#pers-montmorency-charles">Meru</persName>, <choice><abbr>fiulgio</abbr><expan>figliuolo</expan></choice> del gia Connestabile, sposa la figliola del Ma<lb break="no"/>riscial di <persName ref="#pers-cosse-renee">Cossé</persName> con dote di 150m scudi et <choice><abbr>no̍</abbr><expan>non</expan></choice> si attende<lb/> che a formare accordi, et <choice><abbr>sponsalitij</abbr><expan>sponsalitii</expan></choice>. Hoggi deve arrivar<lb/> l'Ambasciatore del <persName ref="#pers-osmanli-s2">Turco</persName>, il quale venne a <placeName>Marsilia</placeName><lb/> questi di passati. <cit><quote xml:lang="la">Aliquid monstri alunt</quote><bibl n="Ter. And. 249">Terence, <title type="work">Andria</title> 1.5, v. 249</bibl></cit>. Vedrò d'intendere<lb/> questa lingua, per darne nuova costà; Madama di <placeName ref="#place-montargis">montar<lb break="no"/>gis</placeName> arriva hora et <seg xml:id="cyph1" type="cipher" subtype="numeric" hand="#hand1"> 4152121713451215 1312 3171731</seg><add xml:id="dec1" type="decipher" hand="#hand2" place="above" target="#cyph1">il <persName ref="#pers-deste-i">cardinale da este</persName></add>, suo <seg xml:id="cyph2" type="cipher" subtype="numeric" hand="#hand1">34154161516</seg><add xml:id="dec2" type="decipher" hand="#hand2" place="above" target="#cyph2">figliuolo</add>, è, assai caro <seg xml:id="cyph3" type="cipher" subtype="numeric" hand="#hand1">12151731</seg><add xml:id="dec3" type="decipher" hand="#hand2" place="above" target="#cyph3">al <persName ref="#pers-valois-ch-9">Re</persName></add>, amando <seg xml:id="cyph4" type="cipher" subtype="numeric" hand="#hand1">1512 21224<lb break="no"/>12</seg><add xml:id="dec4" type="decipher" hand="#hand2" place="above" target="#cyph4">la caccia</add>, come egli:/ <choice><abbr>nō</abbr><expan>non</expan></choice> si, è mai ben <choice><abbr>rappatum̄ato</abbr><expan>rappatumato</expan></choice> <seg xml:id="cyph5" type="cipher" subtype="numeric" hand="#hand1">53118311771</seg><add xml:id="dec5" type="decipher" hand="#hand2" place="above" target="#cyph5"><persName ref="#pers-gonzaga-l-nev">Nevers</persName></add>, <choice><abbr>co̍</abbr><expan>con</expan></choice>
+        </p>
+
+        <pb n="402v"/>
+        <p>
+          <seg xml:id="cyph6" type="cipher" subtype="numeric" hand="#hand1">1447112</seg><add xml:id="dec6" type="decipher" hand="#hand2" place="above" target="#cyph6"><persName ref="#pers-guise-h">Ghisa</persName></add>, che si dica, et <seg xml:id="cyph7" type="cipher" subtype="numeric" hand="#hand1">51165714145161731</seg><add xml:id="dec7" type="decipher" hand="#hand2" place="above" target="#cyph7">Monsignore</add>, piu del solito<lb/> acccarezza <seg xml:id="cyph8" type="cipher" subtype="numeric" hand="#hand1">53118311771</seg><add xml:id="dec8" type="decipher" hand="#hand2" place="above" target="#cyph8"><persName ref="#pers-gonzaga-l-nev">Nevers</persName></add> il che da martello ad altri. Io ho fatto,<lb/> qualche <choice><abbr>uffitio</abbr><expan>ufficio</expan></choice> con <seg xml:id="cyph9" type="cipher" subtype="numeric" hand="#hand1">151217314512 5112131731</seg><add xml:id="dec9" type="decipher" hand="#hand2" place="above" target="#cyph9">La <persName ref="#pers-medici-cat">Regina Madre</persName></add>, per il <seg xml:id="cyph10" type="cipher" subtype="numeric" hand="#hand1">1417125<lb break="no"/>1318212</seg><add xml:id="dec10" type="decipher" hand="#hand2" place="above" target="#cyph10"><persName ref="#pers-medici-cos-1">Gran Duca</persName></add>, ricordandoli amore, et constanza, et ciò mi venne<lb/> molto à proposito: del quale, <choice><abbr>no̍</abbr><expan>non</expan></choice> si turbò niente, anzi par<lb/> che me ne stimi piu; et però io lo fo sapere à <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice>, acciò<lb/> che ella sappia, che io son <seg xml:id="cyph11" type="cipher" subtype="numeric" hand="#hand1">216534513315731</seg><add xml:id="dec11" type="decipher" hand="#hand2" place="above" target="#cyph11">confidente</add> di lei, et<lb/> <seg xml:id="cyph12" type="cipher" subtype="numeric" hand="#hand1">53114162416</seg><add xml:id="dec12" type="decipher" hand="#hand2" place="above" target="#cyph12">negotio</add> seco cosi liberamente, come voglio, d'altro che<lb/> di <seg xml:id="cyph13" type="cipher" subtype="numeric" hand="#hand1">511215127431</seg><add xml:id="dec13" type="decipher" hand="#hand2" place="above" target="#cyph13">malattie</add>. Però quando occorra, à <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice>, che vi sia bi<lb break="no"/>sogno di far qualche passata, o <choice><abbr>uffitio</abbr><expan>ufficio</expan></choice>, se ne darò avisa<lb break="no"/>to o <choice><abbr>com̄andato</abbr><expan>commandato</expan></choice>, <choice><abbr>nō</abbr><expan>non</expan></choice> lascierò niente a parte, et <unclear>guidi</unclear> poi<lb/> che vuole et spero farlo bene / questo mi pare sevitio del<lb/> <seg xml:id="cyph14" type="cipher" subtype="numeric" hand="#hand1">14171251318212</seg><add xml:id="dec14" type="decipher" hand="#hand2" place="above" target="#cyph14"><persName ref="#pers-medici-cos-1">Gran Duca</persName></add> à cui, è mestiere qui di servidori fedeli / <unclear>ce</unclear><lb/> che veggano molto bene, et pochi ce ne veggo. Et <choice><abbr>q̍ndo</abbr><expan>quando</expan></choice> io <choice><abbr>no̍</abbr><expan>non</expan></choice><lb/> si richiesto, pur che sia servitio suo, lo farò sempre, <choice><abbr>essen̍</abbr><expan>essendo</expan></choice><lb/> io, come Plutone, che <cit><quote xml:lang="la">Vocatus et non vocatus audit</quote><bibl n="Erasm. Adag. 2.3.32">Desiderius Erasmus, <title type="work">Adagia</title> 2.3.32</bibl></cit>. Faccio<lb/> la professione, di licenza del <choice><abbr>S.re</abbr><expan>Signore</expan></choice> <choice><abbr>Ambascia.re</abbr><expan>Ambasciatore</expan></choice>, del qual <unclear>atto rē</unclear><lb break="no"/>do <choice><abbr>gr̄e</abbr><expan>gratie</expan></choice> à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> che mi ha procurato tanto favore et<lb/> su questo bacio le mani à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> di cuore. pregando<lb break="no"/>la a tenermi spesso raccordato à quel <choice><abbr>S.re</abbr><expan>Signore</expan></choice> per quel che le <unclear>sono</unclear><lb/> di <placeName ref="#place-paris">Parigi</placeName> il di <date when="1581-04-19">19 Aprile del Lxxxi</date>.
+        </p>
+        <closer>
+          Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice><lb/>Servidor <choice><abbr>Obligatiss.o</abbr><expan>Obligatissimo</expan></choice><lb/> et <choice><abbr>affett.mo</abbr><expan>affettissimo</expan></choice><lb/> Il <choice><abbr>cavaglier</abbr><expan>cavaliere</expan></choice> <persName ref="#pers-cavriana-f">Cav<lb break="no"/>riana</persName>/
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

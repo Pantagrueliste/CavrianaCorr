@@ -1,9 +1,13 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useRef} from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import CalHeatmap from 'cal-heatmap';
+import * as d3 from 'd3';
 
-/* ── list every year you have data for ─────────────────────────────── */
-const YEARS = [1567, 1568, 1569, 1570];
+/* ── years available ──────────────────────────────────────────────── */
+const YEARS = [1568, 1569, 1570, 1571];
+
+/* ── data injected by your Python build script ────────────────────── */
+const rows = /* __DATA_PLACEHOLDER__ */;
 
 const CavrianaHeatmap = () => (
   <BrowserOnly fallback={<div>Loading heat-map…</div>}>
@@ -11,75 +15,117 @@ const CavrianaHeatmap = () => (
   </BrowserOnly>
 );
 
-/* ------------------------------------------------------------------- */
 const HeatmapOneYear = () => {
-  const [yearIx, setYearIx] = useState(0);   // 0 → YEARS[0]
-  const [err , setErr ] = useState(null);
+  const [yearIx, setYearIx] = useState(0);
+  const [err, setErr] = useState(null);
   const [busy, setBusy] = useState(true);
+  const calRef = useRef(null);
 
   useEffect(() => {
-    const cal  = new CalHeatmap();
-    const rows = /* __DATA_PLACEHOLDER__ */;           // injected by Python
+    /* expose d3 (Cal-Heatmap’s tooltip helper looks for it) */
+    if (!window.d3) window.d3 = d3;
 
-    cal.paint({
-      itemSelector : '#cav-calendar',
-      legend       : {itemSelector:'#cav-legend', position:'bottom'},
-      date   : {start: new Date(YEARS[yearIx], 0, 1)},
-      range  : 1,                                      // one year
-      domain : {type:'year', gutter:10},
-      subDomain: {type:'day', width:11, height:11, gutter:2, radius:2},
-      data  : {type:'json', source: rows, x:'date', y:'value'},
-      scale : {color:{type:'quantize', scheme:'Spectral', domain:[278,5380]}},
-      tooltip: {
-        enabled:true,
-        text:(v,t)=>
-          v ? `${new Date(t).toLocaleDateString('en-GB',
-               {day:'numeric', month:'long', year:'numeric'})}: ${v} words`
-            : 'No letters on this day',
-      },
-    })
-    .then(() => setBusy(false))
-    .catch(e => { setErr(e.message); setBusy(false); });
+    /* drop any previous instance when the year changes */
+    if (calRef.current) calRef.current.destroy();
+    calRef.current = new CalHeatmap();
 
-    return () => cal.destroy();
-  }, [yearIx]);                                        // repaint on year change
+    const currentYear = YEARS[yearIx];
 
-  if (err) return <p style={{color:'red'}}>Heat-map error: {err}</p>;
+    /* Cal-Heatmap v4 wants { "YYYY-MM-DD": value, … } */
+    const dataObject = Object.fromEntries(
+      rows
+        .filter(d => d.date.startsWith(currentYear))
+        .map(d => [d.date, d.value]),
+    );
 
-  /* nav handlers */
-  const prev = () => yearIx && setYearIx(yearIx-1);
-  const next = () => yearIx < YEARS.length-1 && setYearIx(yearIx+1);
-  const selectYear = (index) => setYearIx(index);
+    calRef.current
+      .paint({
+        itemSelector: '#cav-calendar',
+
+        date: {start: new Date(currentYear, 0, 1), timezone: 'utc'},
+        range: 1,
+
+        domain: {type: 'year', gutter: 10, label: {text: y => y.getFullYear()}},
+        subDomain: {type: 'day', width: 11, height: 11, gutter: 2, radius: 2},
+
+        data: {source: dataObject, type: 'json'},
+
+        scale: {
+          color: {
+            type: 'quantize',
+            scheme: 'Spectral',
+            domain: [0, 5380],           // min / max words
+          },
+        },
+
+        legend: {show: true, itemSelector: '#cav-legend', position: 'bottom'},
+
+        tooltip: {
+          enabled: true,
+          text: (date, value) =>
+            value
+              ? `${new Date(date).toLocaleDateString('en-GB', {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })}: ${value} words`
+              : 'No letters on this day',
+        },
+      })
+      .then(() => setBusy(false))
+      .catch(e => {
+        console.error('Cal-Heatmap error:', e);
+        setErr(e.message);
+        setBusy(false);
+      });
+
+    return () => calRef.current?.destroy();
+  }, [yearIx]);
+
+  /* error banner ---------------------------------------------------- */
+  if (err) {
+    return (
+      <div className="cavriana-heatmap">
+        <h2>Cavriana Letter-Writing Activity – {YEARS[yearIx]}</h2>
+        <p style={{color: 'red'}}>Heat-map error: {err}</p>
+      </div>
+    );
+  }
+
+  /* navigation helpers --------------------------------------------- */
+  const prev   = () => yearIx > 0 && setYearIx(yearIx - 1);
+  const next   = () => yearIx < YEARS.length - 1 && setYearIx(yearIx + 1);
+  const select = i => setYearIx(i);
 
   return (
     <div className="cavriana-heatmap">
       <h2>Cavriana Letter-Writing Activity – {YEARS[yearIx]}</h2>
-      
-      {/* Year selector buttons */}
+
+      {/* year buttons */}
       <div className="year-selector">
-        {YEARS.map((year, index) => (
-          <button 
-            key={year}
-            onClick={() => selectYear(index)}
-            className={`year-button ${yearIx === index ? 'active' : ''}`}
+        {YEARS.map((y, i) => (
+          <button
+            key={y}
+            onClick={() => select(i)}
+            className={`year-button ${yearIx === i ? 'active' : ''}`}
           >
-            {year}
+            {y}
           </button>
         ))}
       </div>
-      
+
       {busy && <p>Loading…</p>}
-      <div id="cav-calendar" style={{minHeight:150}} />
-      <div id="cav-legend"   style={{marginTop:6}} />
-      
-      {/* Keep original prev/next navigation as an alternative */}
-      <div style={{marginTop:8, textAlign:'center'}}>
-        <button onClick={prev} disabled={!yearIx}>◀︎</button>
-        <span style={{margin:'0 1rem'}}>{YEARS[yearIx]}</span>
-        <button onClick={next} disabled={yearIx===YEARS.length-1}>▶︎</button>
+      <div id="cav-calendar" style={{minHeight: 150}} />
+      <div id="cav-legend"   style={{marginTop: 6}} />
+
+      {/* prev / next arrows */}
+      <div style={{marginTop: 8, textAlign: 'center'}}>
+        <button onClick={prev} disabled={yearIx === 0}>◀︎</button>
+        <span style={{margin: '0 1rem'}}>{YEARS[yearIx]}</span>
+        <button onClick={next} disabled={yearIx === YEARS.length - 1}>▶︎</button>
       </div>
     </div>
   );
 };
 
-export default CavrianaHeatmap;            // export name unchanged
+export default CavrianaHeatmap;

@@ -635,6 +635,39 @@
           <occupation type="stateCourtPersonnel">Provisionato di Cosimo I de' Medici</occupation>
           <occupation type="musician" from="1566">Musico / Musicista</occupation>
         </person>
+                <!-- French Nobles – Gondi -->
+        <person xml:id="pers-gondi-albert">
+          <persName>Albert de Gondi</persName>
+          <persName type="alias">Comte de Retz</persName>
+          <persName type="Italian">Alberto di Gondi</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Marshal of France</occupation>
+          <birth>1522-11-04</birth>
+          <death>1602-04-12</death>
+          <idno type="VIAF">89654338</idno>
+        </person>
+
+        <!-- French Nobles – Montmorency -->
+        <person xml:id="pers-montmorency-charles">
+          <persName>Charles de Montmorency</persName>
+          <persName type="alias">Méru</persName>
+          <persName type="alias">Damville</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Damville</occupation>
+          <occupation type="military">Marshal of France</occupation>
+          <birth>1537-03-31</birth>
+          <death>1612-05-05</death>
+          <idno type="VIAF">47146030646835862535</idno>
+        </person>
+
+        <!-- French Nobles – Cossé -->
+        <person xml:id="pers-cosse-renee">
+          <persName>Renée de Cossé-Brissac</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Marquise de Méru</occupation>
+          <birth>c. 1550</birth>
+          <death>1622</death>
+        </person>
       </listPerson>
     </body>
   </text>
