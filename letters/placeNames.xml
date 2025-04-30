@@ -490,7 +490,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7007062</idno>
         </place>
 
-        <!-- Padova (Padua) -->
         <place xml:id="place-padova">
           <placeName xml:lang="it">Padova</placeName>
           <placeName type="modern" xml:lang="en">Padua</placeName>
@@ -501,8 +500,7 @@
           </location>
           <idno type="TGN">http://vocab.getty.edu/tgn/7004426</idno>
         </place>
-
-        <!-- Vienna -->
+        
         <place xml:id="place-vienna">
           <placeName xml:lang="de">Wien</placeName>
           <placeName type="modern" xml:lang="en">Vienna</placeName>
