@@ -7,6 +7,7 @@ on:
       - "letters/*.xml"
       - "letter_parser.py"
       - "cavriana_heatmap.py"
+      - "templates/CavrianaHeatmap.template.jsx"
 
 jobs:
   update-heatmap:
