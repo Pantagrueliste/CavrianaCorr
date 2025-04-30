@@ -46,7 +46,7 @@ const HeatmapOneYear = () => {
     const dataObject = Object.fromEntries(
       rows
         .filter(d => d.date.startsWith(currentYear))
-        .map(d => [d.date, d.value]),
+        .map(d => [Date.parse(d.date) / 1000, d.value]), 
     );
 
     calRef.current
