@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to Duke of Mantua, 15 July 1571</title>
+        <title>Letter from Filippo Cavriana to Guglielmo Gonzaga, 15 July 1571</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -34,7 +34,7 @@
           <msContents>
             <msItem>
               <locus>fol. 336r</locus>
-              <title>Letter from Filippo Cavriana to Duke of Mantua</title>
+              <title>Letter from Filippo Cavriana to Guglielmo Gonzaga</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana writes from the baths of Lucca expressing his devotion and service to the Duke.</note>
@@ -66,7 +66,7 @@
           <date when="1571-07-15"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-gonzaga-gugl">Duke of Mantua</persName>
+          <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>
           <placeName ref="#place-mantova">Mantova</placeName>
         </correspAction>
       </correspDesc>
