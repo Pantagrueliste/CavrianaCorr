@@ -16,7 +16,132 @@ import * as d3 from 'd3';
 
 /* overwritten by generate_heatmap.py */
 const YEARS = [1568, 1569, 1570, 1571];
-const rows  = /* __DATA_PLACEHOLDER__ */;   // [{date:'YYYY-MM-DD', value}, …]
+const rows  = [
+  {
+    "date": "1568-04-06",
+    "value": 544
+  },
+  {
+    "date": "1568-04-28",
+    "value": 786
+  },
+  {
+    "date": "1568-05-04",
+    "value": 780
+  },
+  {
+    "date": "1568-05-05",
+    "value": 494
+  },
+  {
+    "date": "1568-05-28",
+    "value": 488
+  },
+  {
+    "date": "1568-06-09",
+    "value": 410
+  },
+  {
+    "date": "1568-07-03",
+    "value": 490
+  },
+  {
+    "date": "1568-07-24",
+    "value": 538
+  },
+  {
+    "date": "1568-09-07",
+    "value": 854
+  },
+  {
+    "date": "1569-01-03",
+    "value": 1238
+  },
+  {
+    "date": "1569-11-29",
+    "value": 500
+  },
+  {
+    "date": "1569-12-21",
+    "value": 648
+  },
+  {
+    "date": "1570-05-20",
+    "value": 1876
+  },
+  {
+    "date": "1570-07-15",
+    "value": 2314
+  },
+  {
+    "date": "1570-07-29",
+    "value": 614
+  },
+  {
+    "date": "1570-07-29",
+    "value": 1738
+  },
+  {
+    "date": "1570-08-17",
+    "value": 3314
+  },
+  {
+    "date": "1570-09-01",
+    "value": 5380
+  },
+  {
+    "date": "1570-09-11",
+    "value": 3826
+  },
+  {
+    "date": "1570-09-14",
+    "value": 436
+  },
+  {
+    "date": "1570-10-03",
+    "value": 912
+  },
+  {
+    "date": "1570-10-11",
+    "value": 3348
+  },
+  {
+    "date": "1570-11-02",
+    "value": 859
+  },
+  {
+    "date": "1570-11-02",
+    "value": 894
+  },
+  {
+    "date": "1570-11-02",
+    "value": 864
+  },
+  {
+    "date": "1570-11-04",
+    "value": 1972
+  },
+  {
+    "date": "1570-11-09",
+    "value": 278
+  },
+  {
+    "date": "1571-01-14",
+    "value": 3903
+  },
+  {
+    "date": "1571-04-18",
+    "value": 328
+  },
+  {
+    "date": "1571-04-19",
+    "value": 1394
+  },
+  {
+    "date": "1571-07-15",
+    "value": 326
+  }
+];   // [{date:'YYYY-MM-DD', value}, …]
 
 const CavrianaHeatmap = () => (
   <BrowserOnly fallback={<div>Loading heat-map…</div>}>
