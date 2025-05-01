@@ -1,97 +1,76 @@
-# Cavriana Correspondence Heatmap
+# Cavriana Heatmap Generation and Synchronization
 
-This tool generates a GitHub-style calendar heatmap visualization of Filippo Cavriana's letter-writing activity over time, based on word counts from the TEI-encoded letters in the repository.
+This documentation explains how to use the scripts that generate and maintain the GitHub-style heatmap showing Cavriana's letter-writing activity.
 
-## Features
+## Overview
 
-- Shows a calendar heatmap of letter writing activity
-- Color intensity represents the amount of text (word count) written on each day
-- Automatically updates when new letters are added to the repository
-- Seamlessly integrates with Docusaurus
+The heatmap visualization is generated from CSV metadata in `data/letter_metadata.csv` and displayed in the Docusaurus frontend. The system consists of:
 
-## How It Works
+1. A CSV file containing letter metadata (date, word count, etc.)
+2. A template JSX component for the heatmap
+3. A Python script to generate the heatmap component
+4. A synchronization script to copy the component to the frontend
+5. The React component in the frontend that renders the heatmap
 
-1. The `letter_parser.py` script processes all TEI XML files in the `letters/` directory and extracts metadata including dates and word counts.
-2. The `cavriana_heatmap.py` script generates a React component for Docusaurus that creates an interactive calendar heatmap.
-3. A GitHub Actions workflow automatically updates the heatmap component in the Docusaurus frontend repository whenever new letters are added.
+## Scripts
 
-## Manual Update Process
+### `update_heatmap.py`
 
-You can manually update the heatmap by running:
+This is the main script you should use to update the heatmap. It:
 
-```bash
-python letter_parser.py  # Generate letter_metadata.csv from XML files
-python cavriana_heatmap.py  # Generate the heatmap component
-```
-
-This will create a file called `CavrianaHeatmap.jsx` that can be copied to your Docusaurus project.
-
-## Integration with Docusaurus
-
-### Dependencies
-
-Add these dependencies to your Docusaurus project:
+1. Generates the heatmap component from the CSV data
+2. Synchronizes the generated component with the frontend
 
 ```bash
-npm install cal-heatmap d3 @docusaurus/BrowserOnly
+# Run from the CavrianaCorr directory
+python scripts/update_heatmap.py
 ```
 
-### Usage in Docusaurus
+### `generate_heatmap.py`
 
-1. Copy the generated `CavrianaHeatmap.jsx` to your Docusaurus project's `src/components/` directory.
-2. Import and use the component in your Markdown files:
+This script reads the letter metadata CSV and generates a React component file in `generated/CavrianaHeatmap.jsx`.
 
-```md
-import CavrianaHeatmap from '@site/src/components/CavrianaHeatmap';
-
-# Filippo Cavriana's Correspondence
-
-<CavrianaHeatmap />
-
-Regular markdown content continues here...
+```bash
+# Run from the CavrianaCorr directory
+python scripts/generate_heatmap.py
 ```
 
-### Styling
+### `sync_frontend.py`
 
-You can add custom CSS for the heatmap in your Docusaurus CSS files:
+This script copies the generated heatmap component to the frontend repository.
 
-```css
-.cavriana-heatmap {
-  margin: 2rem 0;
-}
-
-.cavriana-heatmap .legend {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-}
-
-.cavriana-heatmap .legend-title {
-  margin-right: 1rem;
-  font-weight: bold;
-}
-
-.cavriana-heatmap .legend-scale {
-  display: inline-block;
-  width: 150px;
-  height: 20px;
-  background: linear-gradient(to right, #f7fcf0, #41ab5d);
-  margin: 0 10px;
-}
-
-.cavriana-heatmap .note {
-  font-size: 0.8rem;
-  color: #666;
-  margin-top: 1rem;
-}
+```bash
+# Run from the CavrianaCorr directory
+python scripts/sync_frontend.py
 ```
 
-## GitHub Actions Workflow
+## Workflow
 
-The included GitHub Actions workflow will automatically:
+1. Update letter metadata in `data/letter_metadata.csv`
+2. Run `python scripts/update_heatmap.py` to update the heatmap
+3. In the frontend directory, run `npm start` to preview the changes
+4. Commit and push changes in both repositories
 
-1. Run whenever new letters are added to the `letters/` directory
-2. Generate updated letter metadata and the heatmap component
-3. Push the changes to your Docusaurus frontend repository
+## Troubleshooting
 
-Note: You'll need to add a repository secret named `FRONTEND_REPO_TOKEN` containing a GitHub Personal Access Token with write access to your Docusaurus repository.
+If the heatmap doesn't display correctly:
+
+1. Check that the CSV has valid data with `date` and `word_count` columns
+2. Verify that the generated component was correctly copied to the frontend
+3. Make sure the frontend is using the correct CSS for the heatmap
+4. Check the browser console for any JavaScript errors
+
+## CSS Styling
+
+The heatmap styling is defined in `assets/cavriana-heatmap.css` and copied to the frontend during synchronization. If you need to adjust the heatmap appearance, modify this file and run the update script again.
+
+## Handling Duplicate Dates
+
+When multiple letters exist for the same date, the system will now use the maximum word count value for that date to ensure consistent display. This resolves the issue with entries like "1570-07-29" appearing in different orders.
+
+## Plugin Configuration
+
+The heatmap uses the `LegendLite` and `Tooltip` plugins from cal-heatmap. If you need to modify how these plugins work:
+
+1. Update the template in `templates/CavrianaHeatmap.template.jsx`
+2. Run the update script to propagate changes to the frontend
