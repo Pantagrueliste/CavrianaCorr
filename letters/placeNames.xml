@@ -452,10 +452,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7004675</idno>
         </place>
 
-        <!-- ======================== -->
-        <!-- NEW ENTRIES FOR UNDEFINED REFERENCES -->
-        <!-- ======================== -->
-
         <!-- Bagni di Lucca -->
         <place xml:id="place-bagni-di-lucca">
           <placeName xml:lang="it">Bagni di Lucca</placeName>
@@ -468,7 +464,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7011806</idno>
         </place>
 
-        <!-- Lucca -->
         <place xml:id="place-lucca">
           <placeName xml:lang="it">Lucca</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
