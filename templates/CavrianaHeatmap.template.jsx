@@ -1,7 +1,7 @@
 /* templates/CavrianaHeatmap.template.jsx
    ---------------------------------------------------------------
    React component produced by scripts/generate_heatmap.py.
-   Shows a single-year GitHub-style heat-map with arrow navigation.
+   Renders a single-year GitHub-style heat-map with arrow navigation.
 */
 
 import React, { useEffect, useState, useRef } from 'react';
@@ -9,11 +9,11 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import CalHeatmap from 'cal-heatmap';
 import * as d3 from 'd3';
 
-/* years covered by the corpus (over-written by the build script) */
+/* years present in the corpus – overwritten by generate_heatmap.py */
 const YEARS = [1568, 1569, 1570, 1571];
 
-/* data rows injected by the build script – one row per day
-   [{ date : 'YYYY-MM-DD', value : <word-count> }, … ]              */
+/* rows injected by the build script
+   [{ date: 'YYYY-MM-DD', value: <word-count> }, … ]                */
 const rows = /* __DATA_PLACEHOLDER__ */;
 
 const CavrianaHeatmap = () => (
@@ -29,78 +29,72 @@ const HeatmapOneYear = () => {
   const calRef              = useRef(null);
 
   useEffect(() => {
-    if (!window.d3) window.d3 = d3;           // Cal-Heatmap tooltip helper
+    /* Cal-Heatmap’s tooltip helper expects d3 on window */
+    if (!window.d3) window.d3 = d3;
 
-    /* drop any previous instance (year changed or first render) */
+    /* destroy any previous instance */
     calRef.current?.destroy();
     calRef.current = new CalHeatmap();
 
     const currentYear = YEARS[yearIx];
 
-    /* keep only the rows that belong to the selected year */
+    /* keep only the rows for the selected year */
     const yearRows = rows.filter(r => r.date.startsWith(currentYear));
-
     const maxValue = yearRows.length
       ? Math.max(...yearRows.map(r => r.value))
-      : 0;                                    // guard empty year
+      : 0;
 
     calRef.current
-      .paint(
-        {
-          itemSelector: '#cav-calendar',
+      .paint({
+        itemSelector: '#cav-calendar',
 
-          date  : { start: new Date(currentYear, 0, 1), timezone: 'utc' },
-          range : 1,                           // one domain → one year
+        date : { start: new Date(currentYear, 0, 1), timezone: 'utc' },
+        range: 1,                               // one domain → one year
 
-          domain: {
-            type  : 'year',
-            gutter: 10,
-            label : { text: d => d.getUTCFullYear() },  // d is a Date
-          },
+        domain: {
+          type  : 'year',
+          gutter: 10,
+          /* Cal-Heatmap passes a Unix-ms timestamp; convert to Date */
+          label : { text: ts => new Date(ts).getUTCFullYear() },
+        },
 
-          subDomain: {
-            type  : 'day',
-            width : 11,
-            height: 11,
-            gutter: 2,
-            radius: 2,
-          },
+        subDomain: {
+          type  : 'day',
+          width : 11,
+          height: 11,
+          gutter: 2,
+          radius: 2,
+        },
 
-          /* hand Cal-Heatmap the raw rows – it reads x / y props */
-          data: {
-            source: yearRows,
-            type  : 'json',
-            x     : 'date',
-            y     : 'value',
-          },
+        /* feed the raw rows, tell Cal-Heatmap which fields to use */
+        data: { source: yearRows, x: 'date', y: 'value', type: 'json' },
 
-          scale: {
-            color: {
-              type  : 'quantize',
-              scheme: 'Spectral',
-              domain: [0, maxValue || 1],     // avoid 0-range crash
-            },
-          },
-
-          legend: {
-            show        : true,
-            itemSelector: '#cav-legend',
-            position    : 'bottom',
-          },
-
-          tooltip: {
-            enabled: true,
-            text   : (date, value) =>
-              value
-                ? `${new Date(date).toLocaleDateString('en-GB', {
-                    day  : 'numeric',
-                    month: 'long',
-                    year : 'numeric',
-                  })}: ${value} words`
-                : 'No letters on this day',
+        scale: {
+          color: {
+            type  : 'quantize',
+            scheme: 'Spectral',
+            domain: [0, maxValue || 1],         // avoid zero-range crash
           },
         },
-      )
+
+        legend: {
+          show        : true,
+          itemSelector: '#cav-legend',
+          position    : 'bottom',
+        },
+
+        tooltip: {
+          enabled: true,
+          text   : (date, value) =>
+            value
+              ? `${new Date(date).toLocaleDateString('en-GB', {
+                  day  : 'numeric',
+                  month: 'long',
+                  year : 'numeric',
+                })}: ${value} words`
+              : 'No letters on this day',
+        },
+      })
       .then(() => setBusy(false))
       .catch(e => {
         console.error('Cal-Heatmap error:', e);
@@ -130,7 +124,7 @@ const HeatmapOneYear = () => {
     <div className="cavriana-heatmap">
       <h2>Cavriana Letter-Writing Activity – {YEARS[yearIx]}</h2>
 
-      {/* year jump buttons */}
+      {/* jump directly to a year */}
       <div className="year-selector">
         {YEARS.map((y, i) => (
           <button
