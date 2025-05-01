@@ -1,91 +1,65 @@
 #!/usr/bin/env python3
 """
-Generate CavrianaHeatmap.jsx from a fixed template, injecting only the data rows.
-Keeps presentation logic in the template so API regressions can't slip in.
+scripts/generate_heatmap.py
+Build CavrianaHeatmap.jsx from the JSX template + CSV data.
+The finished file is written to generated/CavrianaHeatmap.jsx
 """
+
+from __future__ import annotations
 
 import csv
 import json
-from datetime import datetime
+import re
 from pathlib import Path
+from typing import List, Dict
 
-# ----------------------------------------------------------------------
-# Use the correct relative path based on where the script is being run from
-SCRIPT_DIR = Path(__file__).parent
-REPO_ROOT = SCRIPT_DIR.parent
+# ── repo structure ──────────────────────────────────────────────
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT       = SCRIPT_DIR.parent
+TEMPLATE   = ROOT / "templates" / "CavrianaHeatmap.template.jsx"
+CSV_FILE   = ROOT / "data"      / "letter_metadata.csv"
+OUT_DIR    = ROOT / "generated"
+OUT_FILE   = OUT_DIR / "CavrianaHeatmap.jsx"
 
-TEMPLATE_PATH = REPO_ROOT / "templates" / "CavrianaHeatmap.template.jsx"
-CSV_PATH      = REPO_ROOT / "data" / "letter_metadata.csv"
-OUTPUT_PATH   = REPO_ROOT / "CavrianaHeatmap.jsx"
-# ----------------------------------------------------------------------
+# ── helpers ─────────────────────────────────────────────────────
+def load_metadata(csv_path: Path = CSV_FILE) -> List[Dict]:
+    """Return rows as [{'date':'YYYY-MM-DD', 'value': <int>}, …]."""
+    rows: List[Dict] = []
 
-def load_metadata(csv_path: Path = CSV_PATH) -> list[dict]:
-    """Return data in a format Cal-Heatmap can use."""
-    rows = []
-    
-    print(f"CSV path: {csv_path}")
-    print(f"CSV exists: {csv_path.exists()}")
-    
-    with csv_path.open(newline="", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        
-        for r in reader:
-            # Check for the date column
-            date_col = next((col for col in r.keys() if 'date' in col.lower()), None)
+    with csv_path.open(encoding="utf-8-sig", newline="") as fh:
+        rdr = csv.DictReader(fh)
+        for r in rdr:
+            date_col = next((c for c in r if "date" in c.lower()), None)
             if not date_col:
-                print(f"Warning: No date column found in row: {r}")
-                continue
-            
-            # Process the date
-            date_str = r[date_col]
-            
-            # Extract year, month, day
-            y, m, d = map(int, date_str.split("-"))
-            
-            # Create a key in format "YYYY-MM-DD" for Cal-Heatmap
-            date_key = f"{y}-{m:02d}-{d:02d}"
-            
-            # Get the word count
-            word_count = int(r['word_count'])
-            
-            rows.append({"date": date_key, "value": word_count})
-    
-    print(f"Processed {len(rows)} rows of data")
-    if rows:
-        print(f"Sample data: {rows[0]}")
-    
+                continue                                           # skip bad row
+            y, m, d  = map(int, r[date_col].split("-"))
+            word_cnt = int(r["word_count"])
+            rows.append({"date": f"{y}-{m:02d}-{d:02d}", "value": word_cnt})
+
     return rows
 
 
-def main() -> None:
-    # Print debug information
-    print(f"Current directory: {Path.cwd()}")
-    print(f"Template path: {TEMPLATE_PATH}")
-    print(f"Template exists: {TEMPLATE_PATH.exists()}")
-    
-    # Read the template
-    template = TEMPLATE_PATH.read_text()
-    
-    # Prepare the data
-    data = load_metadata()
-    
-    # Create appropriate YEARS list based on the data
-    if data:
-        years = sorted(set(int(item["date"].split("-")[0]) for item in data))
-        print(f"Years in data: {years}")
-        years_json = json.dumps(years)
-        
-        # Update the YEARS constant in the template
-        template = template.replace("const YEARS = [1568, 1569, 1570, 1571];", f"const YEARS = {years_json};")
-    
-    # Format the data as JSON
-    rows_json = json.dumps(data, indent=2)
+def inject_years(template: str, years: List[int]) -> str:
+    """Replace the hard-coded YEARS constant with the one we computed."""
+    pattern = re.compile(r"const YEARS = \[[^\]]+\];")
+    return pattern.sub(f"const YEARS = {json.dumps(years)};", template)
 
-    # Create the output file
-    OUTPUT_PATH.write_text(
-        template.replace("/* __DATA_PLACEHOLDER__ */", rows_json)
-    )
-    print("✅  Heat-map component saved to", OUTPUT_PATH)
+
+# ── main build routine ──────────────────────────────────────────
+def main() -> None:
+    rows   = load_metadata()
+    years  = sorted({int(r["date"][:4]) for r in rows})
+
+    # read/patch template
+    jsx    = TEMPLATE.read_text()
+    jsx    = inject_years(jsx, years)
+    jsx    = jsx.replace("/* __DATA_PLACEHOLDER__ */",
+                         json.dumps(rows, indent=2))
+
+    # ensure output folder exists, write file
+    OUT_DIR.mkdir(exist_ok=True)
+    OUT_FILE.write_text(jsx, encoding="utf-8")
+    print("✅ wrote", OUT_FILE.relative_to(ROOT))
 
 
 if __name__ == "__main__":
