@@ -6,8 +6,13 @@
 
 import React, { useEffect, useState, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+
 import CalHeatmap  from 'cal-heatmap';
-import * as d3     from 'd3';
+import Legend      from 'cal-heatmap/plugins/Legend';
+import Tooltip     from 'cal-heatmap/plugins/Tooltip';
+import 'cal-heatmap/cal-heatmap.css';
+
+import * as d3 from 'd3';
 
 /* overwritten by generate_heatmap.py */
 const YEARS = [1568, 1569, 1570, 1571];
@@ -31,9 +36,15 @@ const HeatmapOneYear = () => {
     calRef.current?.destroy();
     calRef.current = new CalHeatmap();
 
+    /* register plugins ----------------------------------------------------- */
+    const PLUGINS = [
+      [Legend , { itemSelector: '#cav-legend', position: 'bottom' }],
+      [Tooltip, {}],
+    ];
+
     const currentYear = YEARS[yearIx];
 
-    /* keep rows of this year and turn ISO date → epoch-seconds */
+    /* keep rows of this year and turn ISO date → epoch-seconds -------------- */
     const yearRows = rows
       .filter(r => r.date.startsWith(currentYear))
       .map(r => ({ date: Date.parse(r.date) / 1000, value: r.value }));
@@ -69,16 +80,7 @@ const HeatmapOneYear = () => {
             domain: [0, maxValue],
           },
         },
-
-        legend : { show: true, itemSelector: '#cav-legend', position: 'bottom' },
-        tooltip: {
-          enabled: true,
-          text: (ts, val) =>
-            val
-              ? `${new Date(ts).toLocaleDateString('en-GB', {day:'numeric', month:'long', year:'numeric'})}: ${val} words`
-              : 'No letters on this day',
-        },
-      })
+      }, PLUGINS)                   // ← plugin array passed here
       .then(() => setBusy(false))
       .catch(e => { setErr(e.message); setBusy(false); });
 
@@ -94,7 +96,7 @@ const HeatmapOneYear = () => {
     );
   }
 
-  /* navigation */
+  /* navigation ------------------------------------------------------------- */
   const prev   = () => yearIx > 0 && setYearIx(yearIx - 1);
   const next   = () => yearIx < YEARS.length - 1 && setYearIx(yearIx + 1);
   const jumpTo = i => setYearIx(i);
