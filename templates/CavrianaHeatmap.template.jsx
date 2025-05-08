@@ -31,8 +31,7 @@ const HeatmapOneYear = () => {
   const calRef              = useRef(null);
 
   useEffect(() => {
-    if (!window.d3) window.d3 = d3;
-
+    // Remove global D3 assignment to prevent conflicts
     calRef.current?.destroy();
     calRef.current = new CalHeatmap();
 
@@ -59,8 +58,8 @@ const HeatmapOneYear = () => {
     /* --- data for the current year -------------------------------------- */
     const currentYear = YEARS[yearIx];
     const yearRows = rows
-      .filter(r => r.date.startsWith(currentYear))
-      .map(r => ({ date: Date.parse(r.date) / 1000, value: r.value }));
+      .filter(r => r.date.startsWith(String(currentYear)))
+      .map(r => ({ date: new Date(r.date).getTime() / 1000, value: r.value }));
 
     const maxValue = yearRows.length
       ? Math.max(...yearRows.map(r => r.value))
@@ -101,7 +100,7 @@ const HeatmapOneYear = () => {
         PLUGINS,             // ← second argument
       )
       .then(() => setBusy(false))
-      .catch(e => { setErr(e.message); setBusy(false); });
+      .catch(e => { console.error("CalHeatmap paint error:", e); setErr(e.message); setBusy(false); });
 
     return () => calRef.current?.destroy();
   }, [yearIx]);
