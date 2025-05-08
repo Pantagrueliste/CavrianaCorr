@@ -148,27 +148,22 @@ const HeatmapOneYear = () => {
     setBusy(true);
     setErr(null);
 
-    // Create a new CalHeatmap instance for the current year.
-    // This instance will be local to this effect's execution.
     const newCal = new CalHeatmap();
 
-    // Explicitly clear the target DOM elements before painting.
-    // This ensures we're painting on a clean slate.
     const calendarDiv = document.getElementById('cav-calendar');
     if (calendarDiv) {
-      calendarDiv.innerHTML = ''; // Clear previous SVG or content
+      calendarDiv.innerHTML = ''; 
     }
     const legendDiv = document.getElementById('cav-legend');
     if (legendDiv) {
-      legendDiv.innerHTML = ''; // Clear previous legend content
+      legendDiv.innerHTML = ''; 
     }
 
-    /* --- plugins --------------------------------------------------------- */
     const PLUGINS = [
       [
         LegendLite,
         {
-          itemSelector: '#cav-legend', // Target for the legend
+          itemSelector: '#cav-legend', 
           width: 170,
         },
       ],
@@ -183,7 +178,6 @@ const HeatmapOneYear = () => {
       ],
     ];
 
-    /* --- data for the current year -------------------------------------- */
     const currentYear = YEARS[yearIx];
     const yearRows = rows
       .filter(r => r.date.startsWith(String(currentYear)))
@@ -191,19 +185,18 @@ const HeatmapOneYear = () => {
 
     const maxValue = yearRows.length
       ? Math.max(...yearRows.map(r => r.value))
-      : 1; // Avoid Math.max on empty array, provide a default max
+      : 1; 
 
-    /* --- render ---------------------------------------------------------- */
     newCal
       .paint(
         {
-          itemSelector: '#cav-calendar', // Target for the calendar
+          itemSelector: '#cav-calendar', 
           date: { start: new Date(currentYear, 0, 1), timezone: 'utc' },
           range: 1,
           domain: {
             type: 'year',
             gutter: 10,
-            label: { text: ts => new Date(ts).getUTCFullYear(), position: 'top' }, // Ensure label is for the current year
+            label: { text: ts => new Date(ts).getUTCFullYear(), position: 'top' }, 
           },
           subDomain: {
             type: 'day',
@@ -216,7 +209,7 @@ const HeatmapOneYear = () => {
           scale: {
             color: {
               type: 'quantize',
-              scheme: 'Spectral', // Or any other D3 scheme like 'Blues', 'Greens', 'OrRd'
+              scheme: 'Spectral', 
               domain: [0, maxValue],
             },
           },
@@ -225,8 +218,6 @@ const HeatmapOneYear = () => {
       )
       .then(() => {
         setBusy(false);
-        // Store the new instance in the ref *after* successful paint
-        // Though for cleanup, we'll use the 'newCal' from this effect's scope
         calRef.current = newCal;
       })
       .catch(e => {
@@ -235,24 +226,18 @@ const HeatmapOneYear = () => {
         setBusy(false);
       });
 
-    // Cleanup function:
-    // This will be called when yearIx changes (before the next effect runs)
-    // or when the component unmounts. It should destroy the instance created in *this* effect run.
     return () => {
-      // console.log(`Destroying CalHeatmap instance for year: ${currentYear}`);
       newCal?.destroy()
         .then(() => {
-          // console.log(`Instance for ${currentYear} destroyed.`);
-          // Explicitly clear DOM again on destroy, just to be absolutely sure
           if (calendarDiv) calendarDiv.innerHTML = '';
           if (legendDiv) legendDiv.innerHTML = '';
         })
         .catch(destroyError => {
           // console.error(`Error destroying CalHeatmap instance for ${currentYear}:`, destroyError);
         });
-      calRef.current = null; // Clear the ref
+      calRef.current = null; 
     };
-  }, [yearIx]); // Re-run effect if yearIx changes
+  }, [yearIx]); 
 
   if (err) {
     return (
@@ -264,7 +249,6 @@ const HeatmapOneYear = () => {
     );
   }
 
-  /* navigation ----------------------------------------------------------- */
   const prev = () => yearIx > 0 && setYearIx(yearIx - 1);
   const next = () => yearIx < YEARS.length - 1 && setYearIx(yearIx + 1);
   const jumpTo = i => setYearIx(i);
@@ -278,16 +262,20 @@ const HeatmapOneYear = () => {
           <button
             key={y}
             onClick={() => jumpTo(i)}
-            className={`year-button ${yearIx === i ? 'active' : ''}`} // Ensure 'year-button' class is used from custom.css
+            className={`year-button ${yearIx === i ? 'active' : ''}`} 
           >
             {y}
           </button>
         ))}
       </div>
 
-      {busy && <p>Loading heatmap for {YEARS[yearIx]}…</p>}
-      <div id="cav-calendar" style={{ minHeight: 200 }} /> {/* Kept increased minHeight */}
-      <div id="cav-legend" style={{ marginTop: 6 }} />
+      {/* Keyed wrapper div starts here */}
+      <div key={yearIx} className="heatmap-instance-wrapper">
+        {busy && <p>Loading heatmap for {YEARS[yearIx]}…</p>}
+        <div id="cav-calendar" style={{ minHeight: 200 }} /> 
+        <div id="cav-legend" style={{ marginTop: 6 }} />
+      </div>
+      {/* Keyed wrapper div ends here */}
 
       <div style={{ marginTop: 8, textAlign: 'center' }}>
         <button onClick={prev} disabled={yearIx === 0}>
