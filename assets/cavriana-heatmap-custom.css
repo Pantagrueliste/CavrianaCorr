@@ -1,0 +1,151 @@
+/* Styling for Custom Cavriana Correspondence Heatmap */
+
+.cavriana-heatmap-custom {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--ifm-card-background-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: var(--ifm-font-family-base);
+}
+
+.cavriana-heatmap-custom h2 {
+  margin-bottom: 0.8rem;
+  color: var(--ifm-heading-color);
+  font-size: 1.5rem;
+}
+
+/* Year selector styling */
+.cavriana-heatmap-custom .year-selector {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.cavriana-heatmap-custom .year-selector button {
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.cavriana-heatmap-custom .year-selector button:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.cavriana-heatmap-custom .year-selector button.active {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border-color: var(--ifm-color-primary);
+}
+
+/* Heatmap grid container */
+.cavriana-heatmap-custom .heatmap-container {
+  position: relative;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  padding: 0.5rem 0;
+}
+
+.cavriana-heatmap-custom .heatmap-grid {
+  position: relative;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+/* SVG styling */
+.cavriana-heatmap-custom .cavriana-heatmap-grid {
+  margin: 0 auto;
+}
+
+.cavriana-heatmap-custom .month-label {
+  fill: var(--ifm-color-emphasis-700);
+  font-size: 10px;
+  text-anchor: start;
+}
+
+.cavriana-heatmap-custom .day-cell {
+  transition: stroke 0.2s ease;
+}
+
+.cavriana-heatmap-custom .day-cell:hover {
+  stroke: var(--ifm-color-emphasis-500);
+  stroke-width: 1px;
+}
+
+/* Legend styling */
+.cavriana-heatmap-custom .cavriana-heatmap-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Year navigation */
+.cavriana-heatmap-custom .year-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cavriana-heatmap-custom .year-navigation button {
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background-color: var(--ifm-background-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+.cavriana-heatmap-custom .year-navigation button:hover:not(:disabled) {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.cavriana-heatmap-custom .year-navigation button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cavriana-heatmap-custom .year-navigation span {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-900);
+}
+
+/* Tooltip styling */
+.cavriana-heatmap-custom .heatmap-tooltip {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] .cavriana-heatmap-custom {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cavriana-heatmap-custom .heatmap-container {
+    margin: 1rem 0;
+  }
+  
+  .cavriana-heatmap-custom .year-selector {
+    justify-content: center;
+  }
+  
+  .cavriana-heatmap-custom .year-navigation {
+    margin-top: 0.5rem;
+  }
+}
