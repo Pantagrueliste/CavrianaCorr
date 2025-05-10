@@ -47,14 +47,14 @@ gantt
     section Content Release
     
     1st Batch (1566)         :2024-12, 2025-02
-    2nd Batch (69-71)     :2025-01, 2025-04
-    3rd Batch (72-77)      :2025-04, 2025-06
-    4th Batch (77-87)     :2025-06, 2025-08
-    5th Batch (87-89)      :2025-08, 2025-10
-    6th Batch (89-06)      :2025-10, 2025-12
+    2nd Batch (69-71)     :2025-01, 2025-06
+    3rd Batch (72-77)      :2025-06, 2025-08
+    4th Batch (77-87)     :2025-08, 2025-10
+    5th Batch (87-89)      :2025-10, 2025-12
+    6th Batch (89-06)      :2025-12, 2026-02
     
     section Review
-    Peer Review & Final Edition  :2025-12, 2026-04
+    Peer Review & Final Edition  :2025-02, 2026-04
 ```
 
 ## Access and Licensing
