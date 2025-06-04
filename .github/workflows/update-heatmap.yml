@@ -1,5 +1,4 @@
 name: Update Cavriana Heatmap
-
 on:
   push:
     branches: [ main ]
@@ -7,65 +6,52 @@ on:
       - "letters/**/*.xml"
       - "scripts/**.py"
       - "templates/CavrianaHeatmap.template.jsx"
-
 jobs:
   update-heatmap:
     runs-on: ubuntu-latest
-
     steps:
     # ── 1  Back-end: fetch repo and build component ───────────────
     - uses: actions/checkout@v4        # CavrianaCorr
-
     - uses: actions/setup-python@v4
       with:
         python-version: "3.10"
-
     - name: Cache pip
       uses: actions/cache@v4
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
         restore-keys: ${{ runner.os }}-pip-
-
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install pandas numpy lxml
-
     - name: Generate letter metadata → CSV
       working-directory: scripts
       run: python letter_parser.py
-
     # generate_heatmap.py expects repo-root, writes to generated/
     - name: Generate CavrianaHeatmap.jsx
       run: python scripts/generate_heatmap.py
-
     # ── 2  Front-end: check out site repo ─────────────────────────
     - uses: actions/checkout@v4
       with:
         repository: Pantagrueliste/CavrianaCorr_FrontEnd
         path: CavrianaCorr_FrontEnd
         token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
-
     - name: Copy component into front-end repo
       run: |
         mkdir -p CavrianaCorr_FrontEnd/src/components
         cp generated/CavrianaHeatmap.jsx \
            CavrianaCorr_FrontEnd/src/components/
-
     # ── 3  Smoke-build the Docusaurus site ───────────────────────
     - uses: actions/setup-node@v4
       with:
         node-version: "20"
-
     - name: Install JS dependencies
       working-directory: CavrianaCorr_FrontEnd
       run: npm ci
-
     - name: Build site (smoke-test)
       working-directory: CavrianaCorr_FrontEnd
       run: npm run build
-
     # ── 4  Commit & push component if build succeeded ────────────
     - name: Commit and push component
       if: ${{ success() }}
@@ -76,5 +62,12 @@ jobs:
         git config user.name  "GitHub Actions"
         git config user.email "github-actions@github.com"
         git add src/components/CavrianaHeatmap.jsx
-        git diff --cached --quiet || git commit -m "Auto-update Cavriana heat-map"
-        git push https://$GH_TOKEN@github.com/Pantagrueliste/CavrianaCorr_FrontEnd.git HEAD:main
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto-update Cavriana heat-map"
+          # Try to push up to 3 times with pull --rebase
+          for i in 1 2 3; do
+            git pull --rebase origin main && \
+            git push https://$GH_TOKEN@github.com/Pantagrueliste/CavrianaCorr_FrontEnd.git HEAD:main && \
+            break || sleep 5
+          done
+        fi
