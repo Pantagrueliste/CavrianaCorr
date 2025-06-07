@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 26 January 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4600</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="17r" to="17v">fols. 17r-17v</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">This intelligence report from the French court is written by Filippo Cavriana to Bartolomeo Concino, using the false identities "Tommaso dalla Paglia" (for Cavriana) and "Marco" (for Concino) as part of their espionage network. Written in a disguised hand different from Cavriana's usual writing, the letter reports on various French court affairs and political developments. It begins with news of failed marriage negotiations between the Admiral and a wealthy lady from Bourg-en-Bresse, disrupted by the Duke of Savoy who favored his own candidate, Monsignor de Cahors from Piedmont. The writer discusses the arrival of Danville (Henri de Montmorency) at court with 400 cavalry and a Franciscan monk who testified about criminal plots allegedly ordered by the Cardinal of Lorraine (encoded in cipher). The letter details ongoing feuds between French nobles, including tensions between Danville and Monluc over governance issues, and conflicts between Nemours and other nobles over precedence at the king's planned entry into Paris. A significant portion describes the illness of the new queen Elisabeth of Austria, explaining through intimate medical details how she became ill after riding in inappropriate clothing during her menstrual period, leading to fever and joint pain. The letter includes cipher-encoded references to various figures including the Queen Mother Catherine de' Medici and discussions about Jesuit influence at court. The writer reports on military recruitments for Venice, fortification activities by the Pope at Castelfranco near Ferrara, and describes a dangerous incident where King Charles IX nearly drowned after falling through ice while hunting. The postscript mentions diplomatic missions to Germany to negotiate marriages for the Duke of Alençon with daughters of the Dukes of Saxony or Bavaria. The use of false identities and disguised handwriting underscores the sensitive nature of this intelligence gathering operation.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Disguised hand of Filippo Cavriana</handNote>
+            </handDesc>
+            <note>This letter uses false identities: "Tommaso dalla Paglia" for Filippo Cavriana and "Marco" or "Marco da Empoli" for Bartolomeo Concino, as part of their intelligence network.</note>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1571-01-26"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="17r"/>
+        <opener>
+          <salute>Messer Marco,</salute>
+        </opener>
+        <p>
+          le nozze dell'ammiraglio, con quella ricca Signora del contado <lb/>di borgo in bressa, non si <choice><abbr>fara̍no</abbr><expan>faranno</expan></choice> <choice><abbr>piu</abbr><expan>più</expan></choice>, <choice><abbr>percioche</abbr><expan>perciochè</expan></choice> il <persName ref="#pers-savoy-em-fil">Duca di Savoia</persName>, le ha distor<lb break="no"/>nate et rotte, desiderando, che <choice><abbr>monsignor</abbr><expan>monsignore</expan></choice> di chaors suo favorito, et pie<lb break="no"/>montese, la sposi, avendolo egli amata molti anni, onde l'ammiraglio reste<lb break="no"/>rà escluso, del che io vi ho voluto avisare, affine che <choice><abbr>nō</abbr><expan>non</expan></choice> vi meravigli<lb break="no"/>asti, se intendesse il contrario di quello, che vi ho di già scritto per <choice><abbr>ms</abbr><expan>messer</expan></choice> <lb/><persName ref="#pers-orsini-t">Troilo Ursino</persName>, <choice><abbr>percioche</abbr><expan>perciochè</expan></choice> il cielo di qua, ha il moto irregolare, e stravagante <lb/>/ <persName ref="#pers-montmorency-h">Danvilla</persName> ha menato seco un monaco franciscano, il quale conta cose terribili, che <lb/>voleva fare contro di lui, per comandamento del <seg xml:id="cyph1" type="cipher" subtype="numeric" hand="#hand1">22020 1217134520121531 13410 <lb/>15450161731536016</seg> <supplied reason="deciphered" resp="#editor" cert="high"><persName ref="#pers-lorraine-ch-card">cardinale di Loreno</persName></supplied> et essendo priggione, poterà <choice><abbr>penba</abbr><expan>pena</expan></choice> degna de suoi meriti, et <lb/>scuoprirà qualche bel colpo; arrivò alla corte con più di 400 cavalli / et questa <lb/>nova rottura, <choice><abbr>co̍</abbr><expan>con</expan></choice> il cardinale, mantenerà gli <choice><abbr>odij</abbr><expan>odii</expan></choice> antiqui in piedi, et gli rin<lb break="no"/>forzerà d'avantaggio; quello che non si deveria desiderare, nella infermità di questo <lb/>povero regno; Persevera l'inimicizia col Signore di <persName ref="#pers-montluc-b">Monlucco</persName>, in quale, è stato <lb/>deposto del governamento, et però fulmina, havendo risposto al cartello che ne man<lb break="no"/>dò <persName ref="#pers-montmorency-h">Danvilla</persName>, che se haverà da far seco, <choice><abbr>q̃ndo</abbr><expan>quando</expan></choice> lo trovarà, allhora che le parli, che <lb/>le darà conto di se; voleva fare contro di lui, per comandamento del <seg xml:id="cyph2" type="cipher" subtype="numeric" hand="#hand1">5 31 51 16 17 71 20 500 20 <lb/>15450161731536016</seg> <supplied reason="deciphered" resp="#editor" cert="high"><persName ref="#pers-savoie-j-nem">Nemors</persName></supplied>, ricordandosi della sentenza data <lb/>in <seg xml:id="cyph3" type="cipher" subtype="numeric" hand="#hand1">71 16 20 20 71 5 31</seg> <supplied reason="deciphered" resp="#editor" cert="high">rosne</supplied>, in materia di <seg xml:id="cyph4" type="cipher" subtype="numeric" hand="#hand1">61 17 31 2 20 31 13 31 58 12</seg> <supplied reason="deciphered" resp="#editor" cert="high">preferenza</supplied>, contro di lui, et son <lb/><seg xml:id="cyph5" type="cipher" subtype="numeric" hand="#hand1">15 31 14 12</seg> <supplied reason="deciphered" resp="#editor" cert="high">lega</supplied> brava; et dicisi che alla entrata, che farà il <persName ref="#pers-valois-ch-9">re</persName> in <placeName ref="#place-paris">parigi</placeName>, vuole <lb/>soprastar gli altri, et vincerla in orgni modo, poiche, in conspetto del popolo di <lb/><placeName ref="#place-paris">parigi</placeName>; se farà atto di risentimento, le parerà haver accomplito al debito suo, <lb/>et mostrato, che in ogni maniera è superiore/. Il <persName ref="#pers-valois-ch-9">re</persName> prevedendo il disordine, che <lb/>poteva nascere nelli allogiamenti, del essere prima et dopò, et di precedere l'uno <lb/>all'altro, ha egli medesimo comandato, che si allogiassero, prencipi nel modo, che <lb/>ha dato et cosi non si intende rumore sin hora, doppo che si è venuto a <unclear>Madrid</unclear> <lb/>casa di piacere del <persName ref="#pers-valois-ch-9">re</persName>, sotto <placeName ref="#place-paris">parigi</placeName> a 4 miglia, dove sta à piacere della caccia, <lb/>et se <choice><abbr>continueran̄o</abbr><expan>continueranno</expan></choice> gli forrieri a far, in questo modo, <choice><abbr>nō</abbr><expan>non</expan></choice> si udirà <choice><abbr>piu</abbr><expan>più</expan></choice> strepito, tra <lb/>gli prencipi, et cosi <persName ref="#pers-savoie-j-nem">nemors</persName>, et <persName ref="#pers-orleans-l">longavilla</persName> non haveranno che contendere insieme. <lb/>Fu dato loggiamento à <persName ref="#pers-lorraine-ch-aum">Monsignore d'Omala</persName>, per la sua persona, et subito che hav<lb break="no"/>uto l'hebbe, la famiglia di <persName ref="#pers-montm-fr">Mamoransi</persName> c'entrò dentro, con patente del <persName ref="#pers-valois-ch-9">re</persName> / del <lb/>che se ne è parlato molto; <seg xml:id="cyph6" type="cipher" subtype="numeric" hand="#hand1">15 12 20 17 31 4 5 12 20 51 61 8 12</seg> <supplied reason="deciphered" resp="#editor" cert="high"><persName ref="#pers-habsburg-e">la reina nova</persName></supplied> è <seg xml:id="cyph7" type="cipher" subtype="numeric" hand="#hand1">51 12 15 12 7 12</seg> <supplied reason="deciphered" resp="#editor" cert="high">malata</supplied> assai <lb/>bene gravemente, la causa del suo accidente è, che havendo ella i suoi fiori, <lb/>nel tempo, che andò a <seg xml:id="cyph8" type="cipher" subtype="numeric" hand="#hand1">18 4 15 12 2 16 7 7 17 31</seg> <supplied reason="deciphered" resp="#editor" cert="high">Vilacotre</supplied>, e correndo come si accostuma qui, <lb/>qua e la, senza isguardo, in cocchio e à cavallo, si scaldò, et si imollò tutta <lb/>la camiscia, et la tenne tutto un di, senza cavarla mai, non osando per <lb/>vergogna dire motto ; anzi fu vestita, di vesti più leggieri, che <choice><abbr>nō</abbr><expan>non</expan></choice> usava <lb/>di portare in <seg xml:id="cyph9" type="cipher" subtype="numeric" hand="#hand1">14 31 17 51 12 54 12</seg> <supplied reason="deciphered" resp="#editor" cert="high"><placeName ref="#place-de">Germania</placeName></supplied> per compiacere con questo <choice><abbr>nr̄o</abbr><expan>nostro</expan></choice> habito, alle <choice><abbr>ge̍ti</abbr><expan>genti</expan></choice> <lb/>di qui, seccatosele dunque la camiscia indosso, et ritornando dentro l'humore <lb/>che voleva uscire, gli ha causato la febre, et il dolore delle <choice><abbr>giúture</abbr><expan>giunture</expan></choice>. Questa è la <lb/>causa, saputa da pochissimi; si credeva, che la <persName ref="#pers-habsburg-e">reina</persName> fosse gravida, et si è <lb/>mandato qui, con gran fretta per una levatrice di figliuoli, non si sa certo se ella <lb/>è, o non. Ma la povera figura, sta anchora <choice><abbr>cō</abbr><expan>con</expan></choice> quel rispetto, come se fosse sotto il
+        </p>
+
+        <pb n="17v"/>
+        <p>
+          padre, o madre / non dicendo mai parola, in tutto un di, le sue damigelle, et altre <lb/>venute seco, non si possono <seg xml:id="cyph10" type="cipher" subtype="numeric" hand="#hand1">2 16 5 7 31 20 20 5 7 12 17 31</seg> <supplied reason="deciphered" resp="#editor" cert="high">contentare</supplied>, ma questo è usanza di chi, <lb/>e forastiere, in un luogo / Non mancano cavallieri francesi, i quali si offeriscono <lb/>venir in <placeName ref="#place-it">Italia</placeName>, al servitio di venetiani, con bande grosse de soldati, ma <lb/>fin hora, non si sa, che habbino accettato alcuno. Venne l'altro di un corriere <lb/>di Ferrara con diligenza, ma non si sa che speditione porti di certo, facendo, <lb/>di <choice><abbr>varij</abbr><expan>varii</expan></choice> <choice><abbr>giudicij</abbr><expan>giudicii</expan></choice>, et scrivendogli, che il <persName ref="#pers-gregorio-xiii">papa</persName> fa fortificare Castelfanco, <lb/>sulle confini fi Ferrara, ha dato materia da sospettare novi rumori et tumul<lb break="no"/>ti. Si è detto che <seg xml:id="cyph11" type="cipher" subtype="numeric" hand="#hand1">5 31 51 16 17 71</seg> <supplied reason="deciphered" resp="#editor" cert="high"><persName ref="#pers-savoie-j-nem">nemors</persName></supplied> voleva lasciar il suo governo, del <seg xml:id="cyph12" type="cipher" subtype="numeric" hand="#hand1">15 4 16 5 31 <lb/>7 5 31</seg> <supplied reason="deciphered" resp="#editor" cert="medium">lionese</supplied>, et tutta quella commarca, ma però non se ne vede effetto alcuno. <lb/>La connestabile; è molto accetta alla <persName ref="#pers-habsburg-e">reina novella</persName>, et qui, si attende à fare <lb/>livree et apparati <choice><abbr>regij</abbr><expan>regii</expan></choice> per l'entrata / per il <persName ref="#pers-valois-ch-9">re</persName> et <persName ref="#pers-habsburg-e">reina</persName>, la quale <choice><abbr>cō</abbr><expan>con</expan></choice> <lb/>tutto che fosse inferma, se la fatto portare ad una chiesa vicina à Madril <lb/>, famosa per divotione d'una madonna a sodisfar un voto che ella haveva <lb/>fatto, et il di seguente a S. Dionisi. Il <persName ref="#pers-valois-ch-9">re</persName>, l'ama estremamente, et ha una passione <lb/>di vederla inferma molto grande il quale andando, l'altro di alla caccia, pas<lb break="no"/>sò sopra un bagno aggiacciato, longissimo, et tirandolo il piacere a starne <choice><abbr>piu</abbr><expan>più</expan></choice> <lb/>longo tempo, il giaccio cominciò a fondersi et spezzarsi, onde à fatica, pote arri<lb break="no"/>vare a viva, ne seppe tanto fare, che alcuni di suoi, non si bagnassero molto <lb/>essendosi à viva rotta la giaccia, molto innanzi. Questi <seg xml:id="cyph13" type="cipher" subtype="numeric" hand="#hand1">4 31 71 18 4 71 74</seg> <supplied reason="deciphered" resp="#editor" cert="high">jesuisti</supplied> bra<lb break="no"/>vano, perché hanno opinione che la <seg xml:id="cyph14" type="cipher" subtype="numeric" hand="#hand1">17 31 45 12 51 12 13 17 31</seg> <supplied reason="deciphered" resp="#editor" cert="high"><persName ref="#pers-medici-cat">Reina Madre</persName></supplied>, non habbia voluto che <lb/>con la nova sia venuto un suo <seg xml:id="cyph15" type="cipher" subtype="numeric" hand="#hand1">2 16 5 3 31 71 16 17 31</seg> <supplied reason="deciphered" resp="#editor" cert="high">confesore</supplied> <seg xml:id="cyph16" type="cipher" subtype="numeric" hand="#hand1">71 61 12 14 5 16 15 20 20 16</seg> <supplied reason="deciphered" resp="#editor" cert="high">Spagnolo</supplied> <lb/>per poter governare ogni cosa <choice><abbr>piu</abbr><expan>più</expan></choice> liberamente. La <persName ref="#pers-habsburg-e">reina</persName> sta nel letto et <lb/>ha una febbre da non sprezzasi, et per che si teme che sia gravida, gli <lb/>medici vanno riservati in gli <choice><abbr>rimedij</abbr><expan>rimedii</expan></choice>, et per quello si ode, è continua, <choice><abbr>có</abbr><expan>con</expan></choice> <lb/>i dolori delle braccia et ginocchia, qui fa un freddo eccessivo, longo et <lb/>terribile, et straordinario, ne per esserci altro di novo, faro fine. <choice><abbr>xpo</abbr><expan>Christo</expan></choice> <lb/>da mal vi guardi et ve ne <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> con le cose mie, le quali sono poi <lb/>vostre.
+        </p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parise</placeName> il di <date when="1571-01-26">26 di Gennaro del Anno 1571</date>.</dateline>
+          <lb/>Tutto <choice><abbr>vr̄o</abbr><expan>vostro</expan></choice>.
+          <lb/><signed>Thomaso dalla paglia./</signed>
+        </closer>
+        <postscript>
+          <p>
+            <lb/>Monsignore di <unclear>Ruffee</unclear>, che parti di Mesieres per andar in <placeName ref="#place-de">Germania</placeName>, a <lb/>vedere, se si poteva havere una figlia del Duca di <placeName ref="#place-saxony">sassonia</placeName>, o di Bave<lb break="no"/>ra, per il Duca di Alansone, ultimo <choice><abbr>frllo</abbr><expan>fratello</expan></choice> del <persName ref="#pers-valois-ch-9">re</persName>, o se fusse parso meglio <lb/><choice><abbr>ꝑ</abbr><expan>per</expan></choice> Monsignore, si aspetta in corto et si ha opinione su quella di <placeName ref="#place-saxony">Saxonia</placeName>, <lb/>et detto Monsignore, vien qui à <placeName ref="#place-paris">parigi</placeName> molto spesso, a piacere et benedetti.
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
