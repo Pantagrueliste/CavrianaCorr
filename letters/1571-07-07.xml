@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 7 July 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>563</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="222r" to="223r">fols. 222r-223r</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Writing from the spa town of Bagni di Lucca to Bartolomeo Concino, Cavriana reports on significant military developments in Lombardy. He describes the presence of four German regiments at Casalmaggiore in Cremona territory, where each soldier received 27 scudi on June 27th and was required to swear an oath. He notes with concern the stockpiling of over 2,500 cases of hay in preparation for 5,000 cavalry troops, observing that such cavalry would not embark on galleys and questioning the need for such extensive provisions. Cavriana warns about secret recruitment efforts by servants of His Highness (likely the Grand Duke of Tuscany) to hire prominent captains in Lombardy, criticizing the lack of discretion given the current political tensions. In encrypted passages, he reveals intelligence about Don Alfonso d'Este's attempts to cultivate the Count of Retz (Albert de Gondi), information obtained from Antonio da Pals, a Genoese noble who inadvertently showed Cavriana a letter about seeking assistance. The letter also mentions Don Juan of Austria's movements and expresses concern for the recipient's health (suffering from 'flux'). Cavriana reaffirms his loyalty to the Grand Duke and celebrates the proper recognition of his title.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on multiple folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+              <handNote xml:id="hand2" scope="minor">Second hand adding deciphered text</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
+          <date when="1571-07-07"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="222r"/>
+        <opener>
+          <salute><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <choice><abbr>osser.mo</abbr><expan>osservandissimo</expan></choice></salute>
+        </opener>
+        <p>
+          Per <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice> di <placeName>Lombardia</placeName>, venutemi hieri, nel hora is<lb break="no"/>tessa che ricevei quella del <choice><abbr>s.re</abbr><expan>signore</expan></choice> Cavagliere serguidi, in<lb break="no"/>tesi che a casal maggiore <unclear>terra</unclear> del cremonese, nel <lb/>Pò, erano <choice><abbr>4.ro</abbr><expan>quattro</expan></choice> reggimenti d'Allamanni, a quali <lb/>il di 27 del passato, furono dati 27 scudi per <lb/>uno, et furono fatti giurare / come si pensassero di vo<lb break="no"/>ler marchiare in alcun luogo; et che nel'istesso Ca<lb break="no"/>sal maggiore, si faceva condure, piu di due mille et <lb/>cinquecento cassi di fieno perche vi si ispettavano <lb/>cinque mille ferraiuoli. Questa <choice><abbr>seco̍da</abbr><expan>seconda</expan></choice> <unclear>parte</unclear>, mi pare <lb/>da considerare, perché sulle galere, <choice><abbr>no̍</abbr><expan>non</expan></choice> s'imbarcano <lb/>questi soldati da cavallo; et <choice><abbr>co̍</abbr><expan>con</expan></choice> gli Principi, <choice><abbr>no̍</abbr><expan>non</expan></choice> pas<lb break="no"/>sano, tanti genti, che à quel luogo, sia bisogno fare <lb/>cosi grande provisione / M'è parso di darne aviso à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <lb/><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> sicome anche ho inteso, che da alcuni servidori di <lb/><choice><abbr>S. Alt.</abbr><expan>Sua Altezza</expan></choice> et forse de piu apparenti, si <choice><abbr>prattica̍</abbr><expan>prattica</expan></choice> <choice><abbr>segretam̍te</abbr><expan>segretamente</expan></choice> <lb/>alcuni capitani in <placeName>Lombardia</placeName>, bravi et stimati, per tirar<lb break="no"/>gli al soldo, di <choice><abbr>sua Alt.</abbr><expan>sua Altezza</expan></choice>/ et ne cosnosco io de <choice><abbr>quē</abbr><expan>questi</expan></choice> tali <lb/>un piano, i quali sono di primi cavalli leggieri della natio<lb break="no"/>ne, Ma si spiace che questo fatto <choice><abbr>no̍</abbr><expan>non</expan></choice> si fa cosi segreta<lb break="no"/>mente, come merita il tempo, nel quale si troveano, et <lb/>i rumori, che sono in piedi, Parendo che si voglia fare
+        </p>
+        <pb n="222v"/>
+        <p>
+          una cosa tutto contraria alle dimostrationi di fuori <lb/>et alle presenti, i quali odo, che si apparevcchiano. Io <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>so, se offenderò alcuno. Ho di buon luogo, che <seg xml:id="cyph1" type="cipher" subtype="numeric" hand="#hand1">13165 <lb/>1215316571161323317131</seg><add xml:id="dec1" type="decipher" hand="#hand2" place="above" target="#cyph1">Don <persName ref="#pers-este-a">Alfonso da Este</persName></add> prattica <seg xml:id="cyph2" type="cipher" subtype="numeric" hand="#hand1">415216573213202031173171</seg><add xml:id="dec2" type="decipher" hand="#hand2" place="above" target="#cyph2">il <persName ref="#pers-gondi-albert">Conte di Res</persName></add>. con <lb/>ogni maniera che puo, non so se starà <unclear>satio</unclear>; et se egli, è, <lb/>pur di nostri <choice><abbr>internam̍ēte</abbr><expan>internamente</expan></choice>. Questo, mi lo ha detto (imprudē<lb break="no"/>temente parlando, <choice><abbr>no̍</abbr><expan>non</expan></choice> sapendo che io sia cosi ardente <lb/>al servitio di <choice><abbr>S. Alt.</abbr><expan>Sua Altezza</expan></choice>) <seg xml:id="cyph3" type="cipher" subtype="numeric" hand="#hand1">41571414516171257165416131261127<lb/>7120201431516118317131</seg><add xml:id="dec3" type="decipher" hand="#hand2" place="above" target="#cyph3">il <choice><abbr>nove</abbr><expan>nobile</expan></choice> <persName>Ant.o da Pals Genovese</persName></add>, in <seg xml:id="cyph4" type="cipher" subtype="numeric" hand="#hand1">2127112</seg><add xml:id="dec4" type="decipher" hand="#hand2" place="above" target="#cyph4">casa</add> del quale quelli <seg xml:id="cyph5" type="cipher" subtype="numeric" hand="#hand1">1215161441<lb/>20</seg><add xml:id="dec5" type="decipher" hand="#hand2" place="above" target="#cyph5">alloggio</add> non ha molto, et le mostrò <seg xml:id="cyph6" type="cipher" subtype="numeric" hand="#hand1">185121531720311712</seg><add xml:id="dec6" type="decipher" hand="#hand2" place="above" target="#cyph6">una lettera</add> che <unclear>egli</unclear> <lb/>allhora <seg xml:id="cyph7" type="cipher" subtype="numeric" hand="#hand1">712174183120201812</seg><add xml:id="dec7" type="decipher" hand="#hand2" place="above" target="#cyph7">scriveva</add>, diclendo questa va, a chi mi <lb/><seg xml:id="cyph8" type="cipher" subtype="numeric" hand="#hand1">61181612472020121731</seg><add xml:id="dec8" type="decipher" hand="#hand2" place="above" target="#cyph8">mio aiutare</add> molto et <choice><abbr>cōvien</abbr><expan>convien</expan></choice> obligarlomi, nella <lb/>maniera che vedeva. Et di questo anche ho voluto avisarne<lb break="no"/>La acciochè ella assicuri le loro <choice><abbr>Alt.</abbr><expan>Altezze</expan></choice> che io sono loro pur fe<lb break="no"/>dele, et sarò sempre in ogni fortuna, che mi sia <lb/>Ho inteso che <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.</abbr><expan>Illustre</expan></choice> era indisposta di flusso: et mi è <choice><abbr>som̍ame̍<lb break="no"/>te</abbr><expan>sommamente</expan></choice> spiaciuto; di gratia conservi la persona sua; quanto <lb/>puo, che sa bene quanto bisogno et ne sia; si bene <choice><abbr>ill.re</abbr><expan>illustre</expan></choice> <lb/>cavagliere serguidi, puom, come novo Atlante, settentiare, <lb/>al peso grave, che <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> regge, piu <choice><abbr>co̍</abbr><expan>con</expan></choice> lo spirito, che <lb/>col corpo / Ma io fo torto alla prudenza di <choice><abbr>V.S</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice>, Iscusimi <lb/>per tanto, la troppa mia affettione verso di lei / accompagna<lb break="no"/>
+        </p>
+        <pb n="223r"/>
+        <p>
+          ta dalla <choice><abbr>riverēza</abbr><expan>riverenza</expan></choice>, che son obligato portarle, per honorarmi <lb/>come fa, tenendomi nel numero, delle sue devote crea<lb break="no"/>ture. Non li scrivo cosa alcuna, <del rend="strikethrough">della venuta</del> di <choice><abbr>do̍</abbr><expan>don</expan></choice> <lb/><persName ref="#pers-habsburg-j"><choice><abbr>Giova̍ni</abbr><expan>Giovanni</expan></choice> d'Austria</persName>, ne di coloro che seco vengono, <lb/>et seco s'hanno ad unire, perciochè queste cosi de<lb break="no"/>vono essere piu note che <choice><abbr>no̍</abbr><expan>non</expan></choice> sono a me. Et però <lb/>farò qui fine, baciandole le mani, et dicendole <lb/>che io <choice><abbr>no̍</abbr><expan>non</expan></choice> potevo ricevere dal mio Padrone, piu <lb/>gran piacere, che di vedere che, col titolo dovuto, <lb/>habbia honorato <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Alt:</abbr><expan>Altezza</expan></choice> meritevole d'altro che di <lb/>questo. Alle quale piacerà à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> raccordarmele per <lb/>sempre al nome di lei <choice><abbr>devotiss.o</abbr><expan>devotissimo</expan></choice> servidore.
+        </p>
+        <closer>
+          <dateline>Delli <placeName ref="#place-bagni-di-lucca">bagni di Luca</placeName>, il <date when="1571-07-07">vij di Luglio del 71</date>.</dateline>
+          <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice>
+          <lb/><choice><abbr>Devotissimo</abbr><expan>Devotissimo</expan></choice> <choice><abbr>ser.re</abbr><expan>servitore</expan></choice> et creatura.
+          <lb/><signed>Il Cavaglier <persName ref="#pers-cavriana-f">Cavriana</persName>.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
