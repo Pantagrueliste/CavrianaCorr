@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Jacopo Dani, 20 March 1570</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>1317</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>538r</locus>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Letter discussing the receipt of correspondence, travels, and request for investiture into the Order of Santo Stefano</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on one side of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-03-20"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-dani-j">Jacopo Dani</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="538r"/>
+        <opener>
+          <salute>Molto <choice><abbr>Mf.co</abbr><expan>Magnifico</expan></choice> <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice></salute>
+        </opener>
+        <p>
+          Le due <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice> di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> scritte in diversi tempi, mi sono venute <lb/>alli mani, in luoghi, et tempi diversi, et però la risposta <lb/>a quelle, doverá arrivar tardo à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, atteso che il <choice><abbr>nr̍o</abbr><expan>nostro</expan></choice> viag<lb break="no"/>gio, e stato cosi longo, et sconcio, che non ho mai havuto <lb/>modo (et anche otio), di mandarli di me novelle / si come <lb/>io pur desiderava continuamente / Hora che la necessità <lb/>ne trattiene qui in <placeName ref="#place-paris">Parigi</placeName>, ho voluto accusare la ricevuta <lb/>delle sue, li quali per essere simili, a chi li scrive, cioe <unclear reason="folded margin">p</unclear><lb/>ne d'amori, et di otiosissima humanità, col piacere <unclear reason="folded margin">che</unclear> <lb/>mi portano leggendoli, mi <choice><abbr>fan̍o</abbr><expan>fanno</expan></choice> <unclear>insieme</unclear> conoscere l'obbligo <lb/>che ogni di maggiormente <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> mi mette addosso, col favo<lb break="no"/>rir la cosa mia, la quale se è, cosi fornita dal canto di <lb/>quelli <choice><abbr>s.ri</abbr><expan>signori</expan></choice> Cavallieri, come è fornita dal mio, <choice><abbr>no̍</abbr><expan>non</expan></choice> tarderà <lb/>molto al venire la <choice><abbr>cõmissione</abbr><expan>commissione</expan></choice>, al <choice><abbr>s.or</abbr><expan>signor</expan></choice> <choice><abbr>Ambascia.re</abbr><expan>Ambasciatore</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName> <lb/>per darmi l'habito, il quale io dimandai gia, <choice><abbr>co̍</abbr><expan>con</expan></choice> le <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice> <lb/>che scrissi d'<placeName ref="#place-ancona">Ancona</placeName>, a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, pensando che sino di qui <unclear reason="damaged">gionti</unclear> <lb/>le mie provanze fossero state admesse, Ne sarei io stato cosi <lb/>imprudente, che io lo havessi chiesto, <choice><abbr>qn̍do</abbr><expan>quando</expan></choice> delle mie prove, havessi <lb/>havuto dubio alcuno, sapendo, che queste, sono per legge, et per <lb/>natura prime, et antiriori di quello. Hora io <choice><abbr>no̍</abbr><expan>non</expan></choice> espetto altro
+        </p>
+        <p>
+          che l'avviso, di quello che si será risoluto, il che, mi imagino <lb/>che da <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice> a quest'hora si sia saputo, et per essermi stata <lb/>lei favorevole sin qui, la supplico ad ornarmi dal suo patro<lb break="no"/>cinio, anche per l'avvenire, che in ogni modo; <choice><abbr>no̍</abbr><expan>non</expan></choice> potrò <lb/>essere, che obligatissimo, a tanto amore, che mi porta. <lb/>Se si potrà ottenere, che l'Abbate <persName ref="#pers-petrucci">Petruzzi</persName>, mi dia <lb/>l'habito, io l'havrò molto caro, per molti rispetti, il quale <lb/>come vegga, che serà doppò pasqua (Dovendo noi andar alla corte); et altresi il Vescovo di <unclear>Ainès</unclear>, saluterò affettuosissima<lb break="no"/>mente, in nome di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> alla quale bacio le mani di vivo cuore. <lb/>Di <placeName ref="#place-paris">Parigi</placeName> il <date when="1570-03-20">XX di Marzo del LXX</date>. <lb/>Di <choice><abbr>V.Sig.ria</abbr><expan>Vostra Signoria</expan></choice>
+        </p>
+        <closer>
+          servitor <choice><abbr>aff.mo</abbr><expan>affettuosissimo</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName>/</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
