@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Unknown Recipient, 31 March 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>559</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="212r" to="213v">fols. 212r-213v</locus>
+              <title>Letter from Filippo Cavriana to Unknown Recipient</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana writes about multiple French court intrigues and diplomatic matters. He reports on tensions in La Rochelle where Huguenots threaten to restart the war if justice isn't served for the murder of 40 Huguenots in Rouen, though Montmorency's return suggests a peaceful resolution may be found. The letter describes a major court conflict during the Queen's ceremonial entry, where the Duchess of Nevers and the Marquise d'Isle refused to attend due to a precedence dispute with their sister, the Duchess of Guise. The Duke of Nevers, deeply offended, threatened to withdraw from court and renounce his governorship of Piedmont. Cavriana discusses marriage negotiations between the future king Henri III and Elizabeth I of England, noting the same obstacles that prevented the match with Archduke Charles: the right to celebrate Catholic mass and foreign guards. The letter mentions Cardinal Châtillon's possible death in England and the scramble for his benefices. In encrypted passages, Cavriana reveals that the Grand Duke of Tuscany enjoys excellent standing with the French royal family, but warns this friendship is arousing Spanish suspicions, with the Spanish ambassador closely monitoring Franco-Tuscan relations. He includes a cipher key and emphasizes his exclusive loyalty to the Grand Duke, noting he uses this cipher with no one else. The letter also contains a scandalous anecdote about a Spanish member of the ambassador's household being severely whipped in the stables for making advances to a beautiful woman of Monsieur's household.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of two folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+            <additions>
+              <p>Cipher key included at bottom of folio 213v</p>
+            </additions>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1571-03-31"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Unknown</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="212r"/>
+        <p>
+          ho ricevuto la <choice><abbr>lra̍</abbr><expan>lettera</expan></choice>, che havevo mandato a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> scrittta in cifra, <lb/>la quale portava seco, cose per allhora necessarie a sapersi, ma <lb/>per essersi poi sopito in buona parte, quel rumore, <choice><abbr>no̍</abbr><expan>non</expan></choice> occore <lb/>che inutilmente le replichi. Hora le mando copia della me<lb break="no"/>desima cifra la quale io non ho commune con persona, <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>usando io di scrivere, ad altro huomo al mondo in questa <lb/>maniera, che a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> percioche <choice><abbr>no̍</abbr><expan>non</expan></choice> dispero da alcuno, che <lb/>dal <persName ref="#pers-medici-cos-1">Gran duca</persName>; et non voglio altro <choice><abbr>pro̍ne</abbr><expan>padrone</expan></choice> che sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> et <lb/>però io non so, come equivocatione vi sia; Di qua, si <lb/>ha nova certa, che in <placeName ref="#place-rochelle">la Roscella</placeName>, si stava molto bene <lb/>in ordine, per rinovar la guerra, se non si faceva gius<lb break="no"/>titia, di coloro, che in <placeName>Roano</placeName> hanno ucciso, ben 40 Ugo<lb break="no"/>notti, et volevano ancho far peggio. Ma il <persName ref="#pers-valois-ch-9">Re</persName>, vi manda <lb/>archibugieri, per guardia, et affine che la giustitia <lb/>si essequisca, con sicurezza: nondimeno <persName ref="#pers-montm-fr">Mamoransi</persName>, è ri<lb break="no"/>tornato di la, il che da a credere, che ci serà qualche mez<lb break="no"/>zo, di <choice><abbr>acco̍modare</abbr><expan>accommodare</expan></choice> le querele, senza spargimento di sangue <lb/>et senza morte; L'intrata della <persName ref="#pers-medici-cat">reina</persName> è stata bellis<lb break="no"/>sima, ma poco fu il numero, delle princesse che la segui<lb break="no"/>vano, percioche ne la <persName ref="#pers-cleves-h">Duchessa di Nevers</persName>, ne la Marche<lb break="no"/>sa <choice><abbr>dysle</abbr><expan>d'Isle</expan></choice>, vi si trovarono / non <choice><abbr>hn̍do</abbr><expan>havendo</expan></choice> potuto haver il luo<lb break="no"/>go, che pretendino, ch'era secondo elle, quello che <persName ref="#pers-guise-h">Ghisa</persName> <lb/>lor sorella, et lo connestabile tennevano; et come che <lb/>il <persName ref="#pers-gonzaga-l-nev">Duca</persName> suo marito l'habbia disputata assai, nondimeno <lb/>non ha ottenuto niente; anzi tutto mal contento disse al <persName ref="#pers-valois-ch-9">re</persName>, <lb/>che poiche, egli vedeva, che in poco pregio era di sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> <lb/>che si voleva rittirare della corte, alla quale <choice><abbr>no̍</abbr><expan>non</expan></choice> seria ve<lb break="no"/>nuto mai se sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> l'havesse commandato, amando meglio
+        </p>
+
+        <pb n="212v"/>
+        <p>
+          starsene a casa sua, che vedersi fare ingiuria, la quale peste<lb break="no"/>rà a suoi posteri, et peròche egli parimente rinonciava il <lb/>governo di <placeName ref="#place-piemonte">Piemonte</placeName>, il quale, sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> poteva dare, a chi <lb/>piu li piaceva / questo tutto usci dal <persName ref="#pers-gonzaga-l-nev">Duca di Nevers</persName> il <lb/>che essendosi publicato, et sapendo io che <choice><abbr>V.</abbr><expan>Vostra</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.r</abbr><expan>Signoria</expan></choice> inten<lb break="no"/>derà d'altronde, ho voluto significarle <choice><abbr>co̍</abbr><expan>con</expan></choice> la <choice><abbr>pn̍te</abbr><expan>presente</expan></choice> poiche <lb/>la cosa fu publica et però <choice><abbr>nō</abbr><expan>non</expan></choice> è a me disdicevole il scri<lb break="no"/>verla, si bene è, di signore, di cui mangio il pane/ Di<lb break="no"/>mandava egli, d'esser l'ultimo, nel <unclear>marchiare</unclear>, ma chi <unclear reason="illegible">p</unclear> <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> facesse fare una fede, et sottoscrivesse di sua mano <lb/>per la quale dichiarasse che <choice><abbr>nō</abbr><expan>non</expan></choice> intendeva che si fusse pregiu<lb break="no"/>dicato al suo luogo, et inviolabilmente questo perpetuasse <lb/>accioche, <choice><abbr>no̍</abbr><expan>non</expan></choice> si credesse da suoi posteri, che egli imprudente<lb break="no"/>mente havesse loro pregiudicato. Disse molto, ma il <persName ref="#pers-valois-ch-9">re</persName> <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>fece altro, et <persName ref="#pers-guise-h">Ghisa</persName> parlò, contro <persName ref="#pers-gonzaga-l-nev">Nevers</persName>. <persName ref="#pers-orleans-l">Longavilla</persName> <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>vi trovò. La principessa di Condè, era la prima et la più <lb/>bella, doppò le sorelle del <persName ref="#pers-valois-ch-9">re</persName>, et di vero, si poteva dire <lb/><cit><quote xml:lang="la">Micat inter omnes</quote></cit>. Si dubita che il <persName ref="#pers-coligny-g">cardinale sciatiglione</persName> <lb/>sia morto in <placeName ref="#place-england">Inghilterra</placeName> / et però vi è una calca a chi di <lb/>i suoi benefitij, che non ve ne era tanta, all'entrata; gli <lb/>Ughonotti gli <unclear>vorriano</unclear>, et il <persName ref="#pers-bourbon-h-nav">Cardinal di Borbone</persName>, <choice><abbr>no̍</abbr><expan>non</expan></choice> si <lb/>vuol privare, mostrando editti regij et apostoloci, della reli<lb break="no"/>gione, che in essi pretende; se <choice><abbr>no̍</abbr><expan>non</expan></choice> è morto, era almeno in <lb/>malissimo stato. Si manderà Carnevaletto in <placeName ref="#place-england">Inghilterra</placeName> / <lb/>per quanto si giudica, per il <seg type="cipher" subtype="numeric">51121741214416</seg> (mariaggio di <choice><abbr>monsig.re</abbr><expan>monsignore</expan></choice>) di <seg type="cipher" subtype="numeric">2051</seg> <lb/><seg type="cipher" subtype="numeric">165714145161731</seg>, il quale havrà due gran difficoltà, a vin<lb break="no"/>cire, che furono le medesime, che impedirono l'accordo <choice><abbr>co̍</abbr><expan>con</expan></choice> l'<lb break="no"/>arciduca carlo, l'una del poter far celebrare la messa, et
+        </p>
+
+        <pb n="213r"/>
+        <p>
+          altri divisi uffitij, a <choice><abbr>nr̍a</abbr><expan>nostra</expan></choice> foggia, in ogni luogo, dove il <lb/>futuro re, si troverà, et vi intervenghino quanto, et qua<lb break="no"/>li vi <choice><abbr>vorran̍o</abbr><expan>vorranno</expan></choice> venire / L'altra di presidij stranieri, Mi<lb break="no"/>lort Robert, aiuta per quello si vede esteriormente / <lb/><seg type="cipher" subtype="numeric">20511657141451611731</seg> et un suo creato, che qui è ami<lb break="no"/>co mio, visita sovente carnevaletto, il quale ha preso <choice><abbr>stā<lb break="no"/>za</abbr><expan>stanza</expan></choice> vicino à lui, et altresi l'ambasciatore Inghlese, il <lb/>quale <choice><abbr>hn̍do</abbr><expan>havendo</expan></choice> moglie, si domesticherà piu tosto <choice><abbr>co̍</abbr><expan>con</expan></choice> questi, <lb/>per le visite, che <choice><abbr>faran̍o</abbr><expan>faranno</expan></choice> le lor donne insieme / la <seg type="cipher" subtype="numeric">15</seg> <lb/><seg type="cipher" subtype="numeric">1217241317112</seg> <seg type="cipher" subtype="numeric">d'41531</seg> (Marchesa d'Ile), ha dato assai rigorosamente <lb/><seg type="cipher" subtype="numeric">1542315812</seg>, al <seg type="cipher" subtype="numeric">512020121724131731</seg>, di <seg type="cipher" subtype="numeric">5131531</seg>, (licentia al Marchese di Mene) <lb/>ma non però, si resta, di <seg type="cipher" subtype="numeric">713114184171512</seg> (seguirla), non però cosi <lb/>arditamente, come innanzj. Un <seg type="cipher" subtype="numeric">716112145161516</seg> (spagnuolo del <choice><abbr>Amb.re</abbr><expan>Ambasciatore</expan></choice>), <lb/><seg type="cipher" subtype="numeric">12512112711213161731</seg>, havendo havuto ardire, di diman<lb break="no"/>dare qualche cosa, ad <seg type="cipher" subtype="numeric">182512</seg> <seg type="cipher" subtype="numeric">1316520512</seg> (una donna), di <seg type="cipher" subtype="numeric">5116571</seg> <lb/><seg type="cipher" subtype="numeric">4145161731</seg> (<choice><abbr>Monsig.re</abbr><expan>Monsignore</expan></choice>), assai <seg type="cipher" subtype="numeric">2131151512</seg> (bella), fu menato alla <seg type="cipher" subtype="numeric">7171215</seg> <lb/><seg type="cipher" subtype="numeric">1512</seg> (stalla), et <seg type="cipher" subtype="numeric">71712341512716</seg> (staffilato) crudelmente; et senza un ca<lb break="no"/>vagliere mio amorevole, la si li faceva publicamente la <lb/><seg type="cipher" subtype="numeric">1218171512</seg> (burla). Costoro che volevano venire alla guerra in <placeName ref="#place-it">Ita<lb break="no"/>lia</placeName> per <seg type="cipher" subtype="numeric">33117121712</seg> (ferrara), paiono rallentati, il che à me piace <lb/>molto, che non si giudica / La Motta finellone, ambasci<lb break="no"/>atore hora in <placeName ref="#place-england">Inghilterra</placeName>, verrà a <placeName ref="#place-roma">Roma</placeName>, per <choice><abbr>ambascia.re</abbr><expan>ambasciatore</expan></choice> <lb/>straordinario, del <persName ref="#pers-valois-ch-9">Re <choice><abbr>chrm̍</abbr><expan>christianissimo</expan></choice></persName> et in <placeName ref="#place-england">Inghilterra</placeName> va Ramboliet <lb/>consigliero della corte in <placeName ref="#place-paris">Parigi</placeName>/ Il <seg type="cipher" subtype="numeric">14171251318212</seg> (Granduca) è, <lb/>in buonissima opinione della <persName ref="#pers-medici-cat">Reina</persName>, et del <persName ref="#pers-valois-ch-9">Re</persName>, ne vi <lb/>bisogna piu puntelli; et temo che non sia sospetta questa <lb/>scambievole volontà, a <seg type="cipher" subtype="numeric">71611214512</seg> (spagna), poiché il suo <seg type="cipher" subtype="numeric">125121</seg> <lb/><seg type="cipher" subtype="numeric">1271127161731</seg> (<choice><abbr>amb.re</abbr><expan>ambasciatore</expan></choice>) qui, pon l'occhio molto, a questo; et parlando
+        </p>
+
+        <pb n="213v"/>
+        <p>
+          io seco spesso, veggo che <choice><abbr>no̍</abbr><expan>non</expan></choice> tiene piu la forma che soleva <lb/><choice><abbr>qn̍do</abbr><expan>quando</expan></choice> di lui ragiono, et di vero teme molto, che in segreto <lb/>vi sia qualche unione tra lui et loro / della quale si teme <lb/>da <seg type="cipher" subtype="numeric">151217314512</seg> (Regina) che per venir sulla verità del fatto, <lb/>vi ha posto spie molte/ questo punto mi pare <choice><abbr>importā<lb break="no"/>tissimo</abbr><expan>importantissimo</expan></choice>, a fatti <choice><abbr>nr̍i</abbr><expan>nostri</expan></choice>. et qui doppò haver baciato le <lb/>mani à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> me le <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> molto, supplicandola, à <lb/>conservarmi la <choice><abbr>gr̄a</abbr><expan>gratia</expan></choice> del mio <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Di <placeName ref="#place-paris">Parigi</placeName> il di <lb/><date when="1571-03-31">ultimo di Marzo, del LXXI</date>
+        </p>
+        <closer>
+          Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <lb/><choice><abbr>Obligatiss.o</abbr><expan>Obligatissimo</expan></choice> servitore <lb/><signed>Il cavaglier <persName ref="#pers-cavriana-f">Cavirana</persName>.</signed>
+        </closer>
+        
+        <postscript>
+          <label>Cipher key:</label>
+          <table>
+            <row>
+              <cell>A</cell><cell>B</cell><cell>C</cell><cell>D</cell><cell>E</cell><cell>F</cell><cell>G</cell>
+            </row>
+            <row>
+              <cell>12</cell><cell>21</cell><cell>2</cell><cell>13</cell><cell>31</cell><cell>3</cell><cell>14</cell>
+            </row>
+            <row>
+              <cell>H</cell><cell>I</cell><cell>L</cell><cell>M</cell><cell>N</cell><cell>O</cell><cell>P</cell>
+            </row>
+            <row>
+              <cell>41</cell><cell>4</cell><cell>15</cell><cell>51</cell><cell>5</cell><cell>16</cell><cell>61</cell>
+            </row>
+            <row>
+              <cell>Q</cell><cell>R</cell><cell>S</cell><cell>T</cell><cell>U</cell><cell>X</cell><cell>Z</cell>
+            </row>
+            <row>
+              <cell>6</cell><cell>17</cell><cell>71</cell><cell>7</cell><cell>18</cell><cell>81</cell><cell>8</cell>
+            </row>
+          </table>
+          <p>et 9<lb/>19 91 Nulla 20 et ogni altro numero <lb/>via da questi/</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
