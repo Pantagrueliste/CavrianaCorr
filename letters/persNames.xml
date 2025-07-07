@@ -28,7 +28,7 @@
     <body>
       <listPerson>
 
-        <!-- Italian Noble Houses -- Medici Dynasty -->
+        <!-- Italian Noble Houses - Medici Dynasty -->
         <person xml:id="pers-medici-cos-1">
           <persName>Cosimo I de' Medici</persName>
           <persName type="alias">Gran Duca</persName>
@@ -113,7 +113,7 @@
           <sex value="male"/>
           <occupation type="nobility">Chevalier de St Michel</occupation>
           <occupation type="nobility">Chevalier du St Esprit</occupation>
-          <idno type="VIAF">4166955799046910252</idno>
+          <idno type="VIAF">451148389482610711686</idno>
         </person>
 
         <person xml:id="pers-pazzi-f">
@@ -315,6 +315,7 @@
         <!-- Prelates -->
         <person xml:id="pers-auger-ed">
           <persName>Émond Auger</persName>
+          <persName type="Italian">Emondo Ugenio</persName>
           <sex value="male"/>
           <birth>1530</birth>
           <death>1591</death>
@@ -473,6 +474,12 @@
           <death>1572</death>
           <idno type="VIAF">643145857896423021076</idno>
           <note>French noble and military figure</note>
+        </person>
+        <person xml:id="pers-lhospital-m">
+          <persName>Michel de L'Hospital</persName>
+          <birth>1507</birth>
+          <death>1573-03-13</death>
+          <idno type="VIAF">100198491</idno>
         </person>
 
         <!-- Osmanlı hanedanı -->
