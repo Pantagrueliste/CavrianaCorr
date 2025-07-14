@@ -1,0 +1,93 @@
+Here's the complete TEI file:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 14 August 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>564</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="442r" to="442v">fols. 442r-v</locus>
+              <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana apologizes for not being able to meet Cosimo I in person due to his obligations to the Duke of Nevers, who is recovering from an ear ailment at the baths. He expresses his devotion and service to both Cosimo I and the Prince.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-firenze">Firenze</placeName>
+          <date when="1571-08-14"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="442r"/>
+        <opener>
+          <salute><choice><abbr>Sereniss.o</abbr><expan>Serenissimo</expan></choice> <choice><abbr>sig.re</abbr><expan>signore</expan></choice> <choice><abbr>s.or</abbr><expan>signor</expan></choice> mio <choice><abbr>coL.mo</abbr><expan>colendissimo</expan></choice></salute>
+        </opener>
+        <p>
+          Gli varij accidenti occorsi al <persName ref="#pers-gonzaga-l-nev"><choice><abbr>S.or</abbr><expan>Signor</expan></choice> Duca di Nevers</persName>, mio <choice><abbr>Pro̍ne</abbr><expan>Padrone</expan></choice><lb/> doppò che egli arrivò à bagni, per curarsi d'un tinnito<lb/> d'orecchia, mi hanno sin hora tenuto cosi oppresso, che io <choice><abbr>nō</abbr><expan>non</expan></choice><lb/> ho potuto venire, prima che hieri à far riverenza à <choice><abbr>V. Alt.</abbr><expan>Vostra Altezza</expan></choice><lb/> come era et mio debito, et mio antiquo desiderio. Ma <choice><abbr>no̍</abbr><expan>non</expan></choice><lb/> l'havendo trovata, et intendendo anche, che era per starse<lb break="no"/>ne, qualche di absente, non ho voluto mancare di bacciar<lb/> le mani, al serenissimo <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Principe, per complere et <choice><abbr>co̍</abbr><expan>con</expan></choice><lb/> sua, et con <choice><abbr>V. Alt.</abbr><expan>Vostra Altezza</expan></choice> quanto mi si apparteneva per l'obligo<lb/> che ho all'una, et all'altra di quelle; dal quale essendo<lb/> io stato raccolto, et riconsciuto per devotissimo servidore,<lb/> sicome le sono et serò sempre, non mi pareva di doverme<lb break="no"/>ne andare, senza chieder licenza à <choice><abbr>V. Alt.</abbr><expan>Vostra Altezza</expan></choice> et supplicarla<lb/> di credere, che ella non haverà gia mai servidore piu fede<lb break="no"/>le o affetionato al suo servitio di me, et per l'obligo<lb/> di molti favori che da lei, et dal serenissimo <choice><abbr>S.or</abbr><expan>Signor</expan></choice> Princi<lb break="no"/>pe ho ricevuto, et per una mia natural inclinatione,<lb/> della quale havendone ella havuto qualche testimonio sin<lb/> hora, <choice><abbr>no̍</abbr><expan>non</expan></choice> mi resta a dirle altro, se <choice><abbr>no̍</abbr><expan>non</expan></choice> che essendomi stata
+        </p>
+        <pb n="442v"/>
+        <p>
+          la fortuina contaria, in <choice><abbr>no̍</abbr><expan>non</expan></choice> haver potuto far riverenza<lb/> personalmente à <choice><abbr>V. Alt.</abbr><expan>Vostra Altezza</expan></choice> come m'havevo persuaso, m'in<lb break="no"/>gegnerò, <choice><abbr>co̍</abbr><expan>con</expan></choice> le occasioni, che ella si degnarà presentarmi<lb/> di scriverla in modo che conoscerà, quanto io desideri la<lb/> buona gratia di lei, alla quale <choice><abbr>humilissimam̍te</abbr><expan>humilissimamente</expan></choice> mi<lb/> <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> Di <placeName ref="#place-firenze">Fiorenza</placeName> il di <date when="1571-08-14">Xiiij di Agosto del Lxxi</date><lb/> Di <choice><abbr>V. Altz.za</abbr><expan>Vostra Altezza</expan></choice>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+```
