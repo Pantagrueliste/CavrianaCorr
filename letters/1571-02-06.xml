@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 6 February [year unclear]</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>557</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="177r">fols. 177r etc.</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Damaged letter discussing Cavriana's service to the Queen as physician, issues regarding wearing the cross of Santo Stefano, French court politics, and military reforms. The document is incomplete with missing pages and significant damage to the right margin.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+            <condition>
+              <p>Significant damage to right margin affecting legibility. Missing pages noted in transcription.</p>
+            </condition>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1571-02-06">6 February 1571</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="177r"/>
+        <opener>
+          <salute><unclear reason="illegible"><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>sig.re</abbr><expan>signore</expan></choice></unclear></salute>
+        </opener>
+        <p>
+          Io scrivo a <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice>, come <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> potrà, (anzi desidero che contenti) vedere / <unclear reason="illegible">app</unclear> <lb/>che trovandomi io al servitio della <persName ref="#pers-medici-cat">Reina <choice><abbr>Christian.ma</abbr><expan>Christianissima</expan></choice></persName> per medico, <unclear>che</unclear> <lb/>sia fatta relatione sinistra di me, <choice><abbr>a.s.</abbr><expan>a sua</expan></choice> <choice><abbr>Alt.a</abbr><expan>Altezza</expan></choice>, <choice><abbr>qn̍do</abbr><expan>quando</expan></choice> non portassi la cro<lb break="no"/>ce scoperta; espetterò suo commandamento, per non incorrere la pena <lb/>et piu la sua disgratia, <choice><abbr>qn̍do</abbr><expan>quando</expan></choice> altrimenti facessi; onde come cavagliere ob<lb break="no"/>bediente, le scrivo gli incommodi, che possono nascere al suo <unclear>seno</unclear> <lb/>portandola scoperta, come facevo, Piacerà à <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice>, ricordare à sua <choice><abbr>seren̍</abbr><expan>serenità</expan></choice> <lb/>che la croce l'ho scolpita nel cuore, <del>et</del> nella bocca, et nelle mani, <lb/>et che in tutti i modi, come ho fatto sin hora, la manifesterò sempre <lb/>Nondimeno, che a me pare di doverle mettere in consideratione, <lb/>quello che le scrivo, non per altro rispetto, che per il servitio suo <lb/>il quale, à me pare, che si rallenterà, <choice><abbr>qn̍do</abbr><expan>quando</expan></choice> sia per io sospetto <lb/>et io so di potere, far piu in un giorno, per sua <choice><abbr>Alt</abbr><expan>Altezza</expan></choice> hora et <lb/>non facevo in tre mesi <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>, perché come trovi tempo, potrò <lb/>una liggiere passata <choice><abbr>co̍</abbr><expan>con</expan></choice> la <persName ref="#pers-medici-cat">Reina madre</persName>; et farmi conoscere <unclear reason="illegible">div</unclear> di sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> et ricordarle in ogni tempo, che da suoi emuli sia <lb/>nuova istanza, (in absenza etiandio, delli suoi ministri) che dal <lb/><persName ref="#pers-medici-cos-1">Duca</persName>, come di cosa sua, si tenga protettione. Il tempo ammenerà <lb/>ogni commodo, et il fine delle nostre speranze, et <choice><abbr>no̍</abbr><expan>non</expan></choice> <choice><abbr>sero̍</abbr><expan>serò</expan></choice> cosi <unclear reason="illegible">ab</unclear> <lb/>a scriverle tutte le minutie, come ero, dovendo solamente contendere di <unclear reason="illegible">quel</unclear> <lb/>che piu, è importante, cioe la cosa di Precedenza, et del <unclear reason="illegible">tir</unclear> <lb/>dovendo io, con molta arte, et maggior industria di prima, governar<lb break="no"/>mi, per non dar sospetto, quando mi si vegga pratticare, <choice><abbr>co̍</abbr><expan>con</expan></choice> i minis<lb break="no"/>tri di sua <choice><abbr>Alt.a</abbr><expan>Altezza</expan></choice>. Questa nova servitù, che deve per molti <unclear reason="illegible">ral</unclear> <lb/>(et di <placeName ref="#place-de">Germania</placeName> et di <placeName ref="#place-es">Spagna</placeName>) essere accetta à <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Altez.</abbr><expan>Altezza</expan></choice>, mi sforza <lb/>a supplicarla di novo, per la professione accioche non perda <choice><abbr>inutilme̍te</abbr><expan>inutilmente</expan></choice> <lb/>il mio tempo; se le piace farmi gratia, che io qui la <choice><abbr>comincij</abbr><expan>comincii</expan></choice> et <lb/>fornisca, ne sentirò molto piacere, et ne saprò buon grado, al <choice><abbr>Sr.</abbr><expan>Signor</expan></choice> <persName ref="#pers-concini-b">concino</persName> <lb/>mio primo promotore, il quale vede bene, che io non fuggo venir... <lb/>a <placeName ref="#place-pisa">Pisa</placeName>. ma che honeste cause mi ritengono, le quali <choice><abbr>cederan̄o</abbr><expan>cederanno</expan></choice> al fin <unclear reason="illegible">fine</unclear> <lb/>in servitio del Gran mastro, et per consequenza della religione.
+        </p>
+        
+        <gap reason="missing" extent="1 page" resp="#editor">
+          <desc>Note: missing page.</desc>
+        </gap>
+        
+        <p>
+          nosce l'animo mio, et sa il desiderio, che ho di servire a <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> ne ha <lb/>havuto anche qualche saggio. Però io <choice><abbr>nō</abbr><expan>non</expan></choice> voglio, <choice><abbr>co̍</abbr><expan>con</expan></choice> vana reiteratione, ri<lb break="no"/>cordarle, che io non cambierò mai di volontà, per accidente sinistro, <lb/>che mi possa venire, ma di quello, che à me puo nocere, et non ser<lb break="no"/>vire à <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> mi pare di dovernele mettere in consideratione, per ri<lb break="no"/>ceverne suo <choice><abbr>com̍andamento</abbr><expan>commandamento</expan></choice>, affine che io non l'offendessi per imprudenza, <lb/>temendo sempre molto, et l'ira sua, et la sua disgratia. Et quanto à me, <lb/>non ho piu modo alcuno di dimostrare a <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> ne a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, che io le sia <lb/>servidore divoto, et fedele, di quello che sin hora ho tenuto, che se gli huo<lb break="no"/>mini havessero quella finestra al cuore, che desiderava socrate, io <choice><abbr>nō</abbr><expan>non</expan></choice> <lb/>ho dubio che sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> mi stimeria il primo di quanti n'habbia, (trattone <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>co̍</abbr><expan>con</expan></choice> la quale io non voglio contendere), perché vederia l'affetto, il quale <lb/>parte per il poco poter mio, parte per l'inesperienza, et parte per l'ig<lb break="no"/>noranza, <choice><abbr>no̍</abbr><expan>non</expan></choice> so con ornamento di parole fargliele parere piu chiaro; <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice> <lb/>che conosce i tempi, potrà se le pare, con la sua prudente maniera, far<lb break="no"/>ne certa <choice><abbr>S.</abbr><expan>Sua</expan></choice> <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> et assicurarla, che piu povero di me, non ha cavagliere <lb/>in quella religione, di sapere, di potere, et di giuditio, ne piu ricco <lb/>di divotione et di fede. Di me non altro. <lb/>Qua, si ha certezza, che la <choice><abbr>nr̍a</abbr><expan>nostra</expan></choice> pace durerà sempre. Poiche si sono <unclear>cassi</unclear> <lb/>tutti gli soldati, et non si interviene altro che 40 compagnie di <lb/>fanti, et 60 di cavalli, computando quelle delle frontiere di <placeName ref="#place-piemonte"><choice><abbr>Piemo̍te</abbr><expan>Piemonte</expan></choice></placeName>, <placeName ref="#place-picardie">Picardia</placeName>, et di Lucimborgo lassi sono tutti gli stipendiati, che <lb/>l'entrata al re, di ottocento mille scudi ogni anno, et si attende <lb/>solamente, al pagar debiti, et aumentare l'entrate regie il che fa <lb/>disperare, et rabbiare molti et molti. <choice><abbr>Mons.re</abbr><expan>Monsignore</expan></choice> della Valetta, è, in <choice><abbr>buo̍</abbr><expan>buon</expan></choice> <lb/>credito. La sua compagnia è stata rimessa quella del Marchese di <lb/><unclear>Mesne</unclear> et del bastardo di <placeName ref="#place-fr">Francia</placeName>, <choice><abbr>co̍</abbr><expan>con</expan></choice> quella del <persName ref="#pers-savoy-em-fil">Principe di savoia</persName>, <lb/>tutti gli altri cassati, non sono stati punto rimessi/ La Reina sposa sta bene, et è convalescenter; fra sei giorni <choice><abbr>co̍</abbr><expan>con</expan></choice> l'aiuto di Dio si levarà <lb/>ma <choice><abbr>nō</abbr><expan>non</expan></choice> uscirà di camera, per 10 altri appresso; il <persName ref="#pers-gondi-albert">conte di Rez</persName> si <lb/>crea Duca, et da, da parlar molto di se. La casa di <persName ref="#pers-montm-fr">Mamoransi</persName>, fa il
+        </p>
+        
+        <pb n="[177v or later]"/>
+        <p>
+          tutto adesso / Qua si tien per certo, che noi altri che siete stati <unclear reason="illegible">C</unclear><lb break="no"/>tori delle guerre di <placeName ref="#place-fr">Francia</placeName>, et della <choice><abbr>nr̍a</abbr><expan>nostra</expan></choice> tragicomedia; sarete <unclear reason="illegible">...</unclear> <lb/>et chi farete noia à <placeName ref="#place-ferrara">Ferrara</placeName>, ben tosto, col quale pare, che <placeName ref="#place-venezia">Venetia</placeName> <lb/>o <placeName ref="#place-es">spagna</placeName> si collegi. non so credere che sia, overo che serà. Si attende <unclear reason="illegible">il</unclear>re<lb/>, à darsi piacere, et fare un allegro carnevale/ onde <choice><abbr>nō</abbr><expan>non</expan></choice> essendo, <lb/>cosa qui di momento. Le mie <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice> <choice><abbr>serāno</abbr><expan>seranno</expan></choice> sterili, et poco grate <lb/>a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> Le quali, anche questo rispetto, desidero che ardino, <unclear reason="illegible">come</unclear> <lb/>ardo io, di desiderio di servirle et con questo bacio le mani a <unclear reason="illegible"><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice></unclear> <lb/><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> et me le <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> molto. Di <placeName ref="#place-paris">Parigi</placeName> il di <choice><abbr>vj</abbr><expan>sei</expan></choice> di febraro del <date when="1571-02-06">71</date> <lb/>di <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice>.
+        </p>
+        
+        <closer>
+          <choice><abbr>Aff.mo</abbr><expan>Affettissimo</expan></choice> servidore et <choice><abbr>obligat.o</abbr><expan>obligato</expan></choice> <lb/>Il Cavaglier <persName ref="#pers-cavriana-f">Cavriana</persName>
+        </closer>
+        
+        <postscript>
+          <p>
+            s'intende che si divizza una posta dalla <placeName ref="#place-rochelle">Roscella</placeName>, al conte <unclear reason="illegible">Pal</unclear> <lb/>et è posta ordinaria, per gli affari del <persName ref="#pers-coligny-g">Amiraglio</persName>. Dio <unclear reason="illegible">prove</unclear> <lb/>che questa frequenza di corrieri, non causi qualche openione <unclear reason="illegible">n</unclear><lb break="no"/>menti di molti, perniciosa et dannosa al regno.
+          </p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
