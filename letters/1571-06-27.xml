@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 27 June 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>561</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="631r" to="631v">fols. 631r-631v</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">This letter provides crucial evidence that Cavriana was already working as an intelligence agent for Catherine de' Medici by June 1571, earlier than previously documented. Writing from Bagni di Lucca where he accompanies the Duke of Nevers for medical treatment, Cavriana reveals he has received a formal commission from the Queen Mother to correspond with her directly. He asks Concino to forward enclosed letters to her through secure diplomatic channels (either the Tuscan ambassador or Abbot Guadagni), and to burn sensitive French news reports after reading them. This predates his known intelligence activities under the pseudonym "Vincenzo da Castello" and demonstrates his established role in Catherine's intelligence network.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated according to the project authority files.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
+          <date when="1571-06-27"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="631r"/>
+        <opener>
+          <salute><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>s.or</abbr><expan>signor</expan></choice> mio <choice><abbr>ossr.</abbr><expan>osservandissimo</expan></choice></salute>
+        </opener>
+        <p>
+          Il <persName ref="#pers-gonzaga-l-nev">Duca</persName> mio <choice><abbr>s.re</abbr><expan>signore</expan></choice> per una quasi assoluta sordità, è venuto <lb/>a docciarsi a <placeName ref="#place-bagni-di-lucca">bagni di Lucca</placeName>, consigliato da tutti gli <lb/>medici francesi, et perche <choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> mi chiese in prestito, <lb/>alle reine mie <choice><abbr>s.re</abbr><expan>signore</expan></choice>, le quali mi comandarono per due <lb/>volte il venire, son stato constretto lasciare molte mie <lb/>cose imperfette. Nondimeno, per la speranza che ho <lb/>di vedere <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice>, per piu tardi à fine di luglio <lb/>et baciar le serenissime mani di <choice><abbr>S. Alt.</abbr><expan>Sua Altezza</expan></choice> alla quale <lb/>Dio m'ha creato servidore, il viaggio mi è parso <lb/>assai piu piacevole/ Le mando intanto, quello che <lb/>mi pare degno, che ella intenda, delle cose di <placeName ref="#place-fr">Francia</placeName> <lb/>il che, si ben in parte haverà inteso, ci troverà poche <lb/>nelli avisi, qualche cosetta di piu, che <choice><abbr>no̍</abbr><expan>non</expan></choice> haverà <lb/>visto da altri, et perché contengono cose, che non <lb/>sta bene che molti risappiano, si contenterà dopò <lb/>che gli haverà letti, à chi si appartiene, ardegli. <lb/>La <choice><abbr>supp.co</abbr><expan>supplico</expan></choice> anche con primo messo, farmi gratia che <lb/>le incluse sieno mandate in <placeName ref="#place-fr">francia</placeName>, havendo io havu<lb break="no"/>to <choice><abbr>com̍issione</abbr><expan>commissione</expan></choice>, dalla <persName ref="#pers-medici-cat">reina madre</persName>, di scriverla, et <lb/>mandar mie <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice>, sottocoperta o del <choice><abbr>Ambascia.re</abbr><expan>Ambasciatore</expan></choice> di <lb/><choice><abbr>S.Al.</abbr><expan>Sua Altezza</expan></choice> o del <persName ref="#pers-guadagni">Abbate Guadagni</persName> siccome faccio et <lb/>con la speranza che ho, di dovere tosto vedere <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.</abbr><expan>Illustre</expan></choice>, con molti altri miei signori et <choice><abbr>Pron̍i</abbr><expan>Patroni</expan></choice>, di
+        </p>
+        <pb n="631v"/>
+        <p>
+          cotesta città, et corte et far <choice><abbr>riverēza</abbr><expan>riverenza</expan></choice> a chi io, cotanto <lb/>devo, non serò piu lungio, et con questo me le <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> <lb/>di tutto cuore in <choice><abbr>gr̍a</abbr><expan>gratia</expan></choice>. pregando <choice><abbr>Nr̍o</abbr><expan>Nostro</expan></choice> <choice><abbr>S.re</abbr><expan>Signore</expan></choice> che longa<lb break="no"/>mente la <choice><abbr>cōservi</abbr><expan>conservi</expan></choice>. Dalli <placeName ref="#place-bagni-di-lucca">bagni di Lucca</placeName> il <lb/><date when="1571-06-27">27o di Giugno del lxxi</date>
+        </p>
+        <closer>
+          Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <lb/><choice><abbr>obligatissim.o</abbr><expan>obligatissimo</expan></choice> servidore, et <lb/>creatura. <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
