@@ -6,6 +6,7 @@ a
 ṕ 
 p̸
 ꝑ
+p̃
 ꝗ
 q̃
 q̄
@@ -19,6 +20,7 @@ e --> i
 Δ 
 
 # frequent abbreviations
+co̍
 lr̍e
 no̍
 nõ
@@ -31,6 +33,9 @@ q̄lli
 q̍sto
 qn̍do
 pn̍te
+pro̍ne
+Mr̍e
+
 
 # ciphers
 
