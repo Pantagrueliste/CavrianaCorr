@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+                >Letter from Filippo Cavriana to Cosimo I de' Medici, 12 February 1571</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>571</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="235r" to="235v">fols. 235r-235v</locus>
+              <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note
+                                type="summary"
+                            >Cavriana requests permission to fulfil his service obligations to the Order of Santo Stefano while remaining at the French court.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote
+                                xml:id="hand1"
+                                scope="major"
+                            >Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-blois">Blois</placeName>
+          <date when="1571-02-12" />
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p
+                >All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="235r" />
+        <opener>
+          <salute><choice><abbr>Sereniss.o</abbr><expan
+                            >Serenissimo</expan></choice> <choice><abbr
+                            >S.ore</abbr><expan>Signore</expan></choice> <choice
+                        ><abbr>Sig.re</abbr><expan
+                            >Signore</expan></choice> mio <choice><abbr
+                            >osserv.mo</abbr><expan
+                            >osservandissimo</expan></choice></salute>
+        </opener>
+        <p>
+          Io ho più volte fatto sapere alla <persName
+                        ref="#pers-medici-cat"
+                    >Reina</persName> mia <choice><abbr>s.ra</abbr><expan
+                        >signora</expan></choice> et insieme al <persName
+                        ref="#pers-gonzaga-l-nev"
+                    >Duca</persName> <lb />mio <choice><abbr>Próne</abbr><expan
+                        >Padrone</expan></choice>, che desiderano venir a <placeName
+                        ref="#place-pisa"
+                    >Pisa</placeName>, per servire secondo gli <lb
+                    />ordini, gli tre anni continui alla religione, Ma con tutte <lb
+                    />le rimostranze fatte loro, non ho potuto ottener licenza, che <lb
+                    />mi paresse grata, anzi nata sempre nuova occasione, o all'uno <lb
+                    />o all'altra servirsi della persona mia, hanno cercato di trat<lb
+                        break="no"
+                    />tenermi qui, onde visto che con poca loro sodisfattione, mi <lb
+                    />sarei partito, et che a <choice><abbr>V.A.</abbr><expan
+                        >Vostra Altezza</expan></choice> potrei forse servir altretanto in <lb
+                    />questa corte, come haverei à <placeName
+                        ref="#place-pisa"
+                    >Pisa</placeName>, ho cercato, che dalla rei<lb
+                        break="no"
+                    />na mia <choice><abbr>S.ra</abbr><expan
+                        >Signora</expan></choice> fusse notificato à <choice
+                    ><abbr>V.Al.</abbr><expan
+                        >Vostra Altezza</expan></choice>, il desiderio, che havevo <lb
+                    />et ho tuttavia di venir costì, et insieme <choice><abbr
+                        >co̍</abbr><expan
+                        >con</expan></choice> l'intercessione <lb
+                    />sua, potessi godere, del benefitio del tempo, il quale ho dimostra<lb
+                        break="no"
+                    />to a <choice><abbr>S.M.tà</abbr><expan
+                        >Sua Maestà</expan></choice> quanto m'importasse, poiché senza questo, et <lb
+                    />l'habito, et il star presso di lei, mi tornavano a grandissimo <lb
+                    />incommodo/ Ella dunque è stata ... di favorirmi <choice
+                    ><abbr>co̍</abbr><expan>con</expan></choice> le <lb /><choice
+                    ><abbr>lr̍e</abbr><expan
+                        >lettere</expan></choice>, che con questa mia, a <choice
+                    ><abbr>V.Al.</abbr><expan
+                        >Vostra Altezza</expan></choice> et insieme alla <choice
+                    ><abbr>seren.ma</abbr><expan
+                        >serenissima</expan></choice> Princessa <lb
+                    />mando, le quali nate dalla buona volontà, che sua <choice
+                    ><abbr>M.tà</abbr><expan>Maestà</expan></choice> por<lb
+                        break="no"
+                    />ta al servitio mio; <choice><abbr>supp.co</abbr><expan
+                        >supplico</expan></choice> <choice><abbr
+                        >V.AL.</abbr><expan
+                        >Vostra Altezza</expan></choice> che tanto possino presso di <lb
+                    />lei, quanto ella si ha promesso, che debbano potere; assicuran<lb
+                        break="no"
+                    />dola, che con tutto che da <choice><abbr
+                        >V.Al.</abbr><expan
+                        >Vostra Altezza</expan></choice> sia habilitato a ricevere <lb
+                    />questa gratia dell'antianità, io nondimeno, a buona occasi<lb
+                        break="no"
+                    />one mostrerò, che mi sentirò essere del tempo solamente, <choice
+                    ><abbr>no̍</abbr><expan>non</expan></choice> <lb
+                    />del debito mio, con questa gratia disobligato et portando io <lb
+                    />questo segno non per una honorevol apparenza, ma per testi<lb
+                        break="no"
+                    />monio del desiderio, che già molt'anni in me vive
+        </p>
+        <pb n="235v" />
+        <p>
+          d'essere quello istesso, da <choice><abbr>V.Al.</abbr><expan
+                        >Vostra Altezza</expan></choice> et da tutto il mondo conosciuto <lb
+                    />che già qualche anni, mi son ingegnato che s'intenda, siccome <lb
+                    />nelle occasioni che mi si presenteranno per servitio di <lb
+                    /><choice><abbr>V.Al.</abbr><expan
+                        >Vostra Altezza</expan></choice> ne darò contezza ad ogniuno; et qui <choice
+                    ><abbr>riverentem.te</abbr><expan
+                        >riverentemente</expan></choice> <lb
+                    />le bacio le mani pregando <choice><abbr>Nr̍o</abbr><expan
+                        >Nostro</expan></choice> <choice><abbr>S.r</abbr><expan
+                        >Signor</expan></choice> Dio, che lunga<lb
+                        break="no"
+                    />mente la prosperi felicissima.
+        </p>
+        <closer>
+          <dateline>Di <placeName
+                            ref="#place-blois"
+                        >Blois</placeName> il dì <date
+                            when="1571-02-12"
+                        >xij di febraio del lxxi</date></dateline>
+          <lb />Di <choice><abbr>V.</abbr><expan
+                        >Vostra</expan></choice> Altezza.
+          <lb /><choice><abbr>Devotiss.o</abbr><expan
+                        >Devotissimo</expan></choice> servitore
+          <lb /><signed><persName
+                            ref="#pers-cavriana-f"
+                        >Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
