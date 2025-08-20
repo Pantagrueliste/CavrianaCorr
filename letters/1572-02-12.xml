@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title
-                >Letter from Filippo Cavriana to Cosimo I de' Medici, 12 February 1571</title>
+                >Letter from Filippo Cavriana to Cosimo I de' Medici, 12 February 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -62,7 +62,7 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-blois">Blois</placeName>
-          <date when="1571-02-12" />
+          <date when="1572-02-12" />
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName>
@@ -173,15 +173,30 @@
                             ref="#place-blois"
                         >Blois</placeName> il dì <date
                             when="1572-02-12"
-                        >xij di febraio del lxxi</date></dateline>
+                        >xij di febraio del lxxii</date></dateline>
           <lb />Di <choice><abbr>V.</abbr><expan
                         >Vostra</expan></choice> Altezza.
           <lb /><choice><abbr>Devotiss.o</abbr><expan
-                        >Devotissimo</expan></choice> servitore
+                        >Devotissimo</expan></choice> et <choice><abbr
+                        >fedelis.o</abbr><expan
+                        >fedelissimo</expan></choice> servitore
           <lb /><signed><persName
                             ref="#pers-cavriana-f"
-                        >Filippo Cavriana</persName></signed>
+                        >Il cavaglier Cavriana</persName></signed>
         </closer>
+        <postscript>
+          <p>
+            Deverà <choice><abbr>V.Alt.</abbr><expan
+                            >Vostra Altezza</expan></choice> sapere con questo, che io di licenza del Ambasciatore <lb
+                        />suo, ho fatto un pezzo della professione, sicome mi pare, che <lb
+                        />con <choice><abbr>lr̍e</abbr><expan
+                            >lettere</expan></choice>, già di più mesi scritte à lui, si conoscesse, che questo <lb
+                        />fusse in piacere di <choice><abbr>V.Alt.</abbr><expan
+                            >Vostra Altezza</expan></choice>, forse con opinione di concedermi la <choice
+                        ><abbr>gr̃a</abbr><expan
+                            >gratia</expan></choice> che hora se le chiede.
+          </p>
+        </postscript>
       </div>
     </body>
   </text>

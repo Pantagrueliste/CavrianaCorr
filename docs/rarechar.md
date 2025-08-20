@@ -3,7 +3,7 @@ m̄, n̄, r̄
 ś
 d̵
 a
-ṕ 
+ṕ
 p̸
 ꝑ
 p̃
@@ -17,7 +17,7 @@ i --> e
 e --> i
 
 # monnaie
-Δ 
+Δ
 
 # frequent abbreviations
 co̍
@@ -35,7 +35,7 @@ qn̍do
 pn̍te
 pro̍ne
 Mr̍e
-
+g̃ra
 
 # ciphers
 
