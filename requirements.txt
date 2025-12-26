@@ -1,0 +1,6 @@
+# CavrianaCorr Python Dependencies
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+lxml>=4.9.0,<5.0.0

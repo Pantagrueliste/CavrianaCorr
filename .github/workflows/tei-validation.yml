@@ -3,10 +3,12 @@ name: Validate TEI Documents
 on:
   push:
     branches:
+      - main
       - validation
       - staging
   pull_request:
     branches:
+      - main
       - validation
       - staging
 
