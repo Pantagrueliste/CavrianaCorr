@@ -31,6 +31,42 @@ The collection encompasses Cavriana's extensive correspondence network throughou
 - Version-controlling and lifecylce management through GitHub
 - Long-term storage on Zenodo
 
+## Development Setup
+
+### Prerequisites
+- Python 3.9+
+- Java 11+ (for TEI validation)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Pantagrueliste/CavrianaCorr.git
+cd CavrianaCorr
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# (Optional) Install pre-commit hooks
+pip install pre-commit
+pre-commit install
+```
+
+### Running Scripts
+
+```bash
+# Parse letters and generate metadata CSV
+python scripts/letter_parser.py
+
+# Generate heatmap visualization
+python scripts/generate_heatmap.py
+
+# Validate entity references
+python scripts/validate_references.py
+```
+
+See [docs/SCRIPTS.md](docs/SCRIPTS.md) for detailed script documentation.
+
 ## Release Schedule
 
 The project follows a phased release approach, with development and content publication spanning from late 2024 through early 2026.

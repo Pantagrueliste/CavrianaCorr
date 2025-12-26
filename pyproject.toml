@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cavriana-corr"
+version = "0.1.0"
+description = "Digital edition of Filippo Cavriana's correspondence (1536-1606)"
+readme = "README.md"
+license = {text = "CC-BY-4.0"}
+authors = [
+    {name = "Clément Godbarge", email = "cag30@st-andrews.ac.uk"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0,<3.0.0",
+    "numpy>=1.24.0,<2.0.0",
+    "lxml>=4.9.0,<5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "pre-commit>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Pantagrueliste/CavrianaCorr"
+Documentation = "https://github.com/Pantagrueliste/CavrianaCorr#readme"
+Repository = "https://github.com/Pantagrueliste/CavrianaCorr.git"
+
+[tool.black]
+line-length = 88
+target-version = ['py39', 'py310', 'py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+    | \.github
+    | __pycache__
+    | generated
+    | templates
+)/
+'''
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+exclude = [
+    ".git",
+    "__pycache__",
+    "generated",
+    "templates",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+addopts = "-v"
