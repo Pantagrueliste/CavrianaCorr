@@ -195,9 +195,13 @@ def generate_heatmap(
 
         # Ensure output folder exists, write file
         try:
-            output_path.parent.mkdir(exist_ok=True)
+            output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_text(jsx, encoding="utf-8")
-            logger.info("✅ Wrote %s", output_path.relative_to(ROOT))
+            try:
+                display_path = output_path.relative_to(ROOT)
+            except ValueError:
+                display_path = output_path
+            logger.info("✅ Wrote %s", display_path)
             return 0
         except OSError as e:
             logger.error("Error writing output file: %s", e)

@@ -53,7 +53,7 @@
            <editorialDecl>
                <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
            </editorialDecl>
-           <encodingDesc><projectDesc><p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p></projectDesc></encodingDesc>
+           <projectDesc><p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p></projectDesc>
        </encodingDesc>
        <profileDesc>
            <correspDesc>
