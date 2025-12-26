@@ -571,6 +571,134 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7024267</idno>
         </place>
 
+        <!-- Additional Places -->
+        <place xml:id="place-blois">
+          <placeName type="historical" xml:lang="fr">Blois</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>47.5861 1.3359</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008356</idno>
+        </place>
+        <place xml:id="place-bourbon">
+          <placeName type="historical" xml:lang="fr">Bourbon</placeName>
+          <placeName type="modern" xml:lang="fr">Bourbonnais</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7024266</idno>
+        </place>
+        <place xml:id="place-chatillon-sur-seine">
+          <placeName type="historical" xml:lang="fr">Châtillon-sur-Seine</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>47.8575 4.5703</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008283</idno>
+        </place>
+        <place xml:id="place-europe">
+          <placeName type="modern" xml:lang="en">Europe</placeName>
+          <placeName type="historical" xml:lang="it">Europa</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/1000003</idno>
+        </place>
+        <place xml:id="place-ferrara">
+          <placeName type="historical" xml:lang="it">Ferrara</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <location>
+            <geo>44.8381 11.6198</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003899</idno>
+        </place>
+        <place xml:id="place-gatinais">
+          <placeName type="historical" xml:lang="fr">Gâtinais</placeName>
+          <placeName type="historical" xml:lang="it">Gattinois</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7027704</idno>
+        </place>
+        <place xml:id="place-genova">
+          <placeName type="historical" xml:lang="it">Genova</placeName>
+          <placeName type="modern" xml:lang="en">Genoa</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <location>
+            <geo>44.4056 8.9463</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003664</idno>
+        </place>
+        <place xml:id="place-guyenne">
+          <placeName type="historical" xml:lang="fr">Guyenne</placeName>
+          <placeName type="modern" xml:lang="fr">Aquitaine</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7024281</idno>
+        </place>
+        <place xml:id="place-lille">
+          <placeName type="historical" xml:lang="fr">Lille</placeName>
+          <placeName type="historical" xml:lang="it">Lilla</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>50.6292 3.0573</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008840</idno>
+        </place>
+        <place xml:id="place-limousin">
+          <placeName type="historical" xml:lang="fr">Limousin</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7024283</idno>
+        </place>
+        <place xml:id="place-lyon">
+          <placeName type="historical" xml:lang="fr">Lyon</placeName>
+          <placeName type="historical" xml:lang="it">Lione</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>45.7640 4.8357</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008772</idno>
+        </place>
+        <place xml:id="place-montlucon">
+          <placeName type="historical" xml:lang="fr">Montluçon</placeName>
+          <placeName type="historical" xml:lang="it">Monlucon</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>46.3403 2.6036</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008333</idno>
+        </place>
+        <place xml:id="place-navarre">
+          <placeName type="historical" xml:lang="fr">Navarre</placeName>
+          <placeName type="historical" xml:lang="it">Navarra</placeName>
+          <placeName type="country" xml:lang="en">France/Spain</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/4003735</idno>
+        </place>
+        <place xml:id="place-nivernais">
+          <placeName type="historical" xml:lang="fr">Nivernais</placeName>
+          <placeName type="historical" xml:lang="it">Nivernese</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7024274</idno>
+        </place>
+        <place xml:id="place-orleans">
+          <placeName type="historical" xml:lang="fr">Orléans</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>47.9029 1.9039</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008322</idno>
+        </place>
+        <place xml:id="place-sancerre">
+          <placeName type="historical" xml:lang="fr">Sancerre</placeName>
+          <placeName type="historical" xml:lang="it">Sanserra</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo>47.3300 2.8386</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7008379</idno>
+        </place>
+        <place xml:id="place-venezia">
+          <placeName type="historical" xml:lang="it">Venezia</placeName>
+          <placeName type="modern" xml:lang="en">Venice</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <location>
+            <geo>45.4408 12.3155</geo>
+          </location>
+          <idno type="TGN">http://vocab.getty.edu/tgn/7003085</idno>
+        </place>
+
       </listPlace>
     </body>
   </text>

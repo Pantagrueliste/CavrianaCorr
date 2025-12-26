@@ -675,6 +675,74 @@
           <birth>c. 1550</birth>
           <death>1622</death>
         </person>
+
+        <!-- Additional Persons -->
+        <person xml:id="pers-bourbon-conde">
+          <persName>Louis I de Bourbon, Prince de Condé</persName>
+          <persName type="alias">Condé</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Prince of Condé</occupation>
+          <occupation type="military">Huguenot military leader</occupation>
+          <birth>1530-05-07</birth>
+          <death>1569-03-13</death>
+          <idno type="VIAF">120742878</idno>
+        </person>
+        <person xml:id="pers-cesare">
+          <persName>Cesare</persName>
+          <persName type="alias">Caesar</persName>
+          <sex value="male"/>
+          <note>Generic reference to the Holy Roman Emperor</note>
+        </person>
+        <person xml:id="pers-este-card">
+          <persName>Ippolito II d'Este</persName>
+          <persName type="alias">Cardinal d'Este</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastical">Cardinal</occupation>
+          <birth>1509-08-25</birth>
+          <death>1572-12-02</death>
+          <idno type="VIAF">88698270</idno>
+        </person>
+        <person xml:id="pers-guadagni">
+          <persName>Guadagni</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Florentine noble family</occupation>
+          <note>Member of the Guadagni family of Florence</note>
+        </person>
+        <person xml:id="pers-lorraine-h">
+          <persName>Henri de Lorraine</persName>
+          <persName type="alias">Henri de Guise</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Guise</occupation>
+          <birth>1550-12-31</birth>
+          <death>1588-12-23</death>
+          <idno type="VIAF">27146192</idno>
+        </person>
+        <person xml:id="pers-papazzone-g">
+          <persName>Giovanni Papazzone</persName>
+          <sex value="male"/>
+          <note>Mentioned in Cavriana's correspondence</note>
+        </person>
+        <person xml:id="pers-pontefice">
+          <persName>Pontefice</persName>
+          <persName type="alias">Pope</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastical">Pope</occupation>
+          <note>Generic reference to the reigning Pope</note>
+        </person>
+        <person xml:id="pers-sanseverino-g">
+          <persName>Galeazzo Sanseverino</persName>
+          <persName type="alias">Conte di Gaiazzo</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of Gaiazzo</occupation>
+          <occupation type="military">Military commander</occupation>
+        </person>
+        <person xml:id="pers-taxis-c">
+          <persName>Cristóbal de Taxis</persName>
+          <sex value="male"/>
+          <occupation type="postal">Postmaster</occupation>
+          <note>Member of the Taxis postal family</note>
+        </person>
+
       </listPerson>
     </body>
   </text>
