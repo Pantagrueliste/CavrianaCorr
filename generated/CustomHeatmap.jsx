@@ -8,7 +8,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 /* overwritten by generate_heatmap.py */
-const YEARS = [1568, 1569, 1570, 1571];
+const YEARS = [1568, 1569, 1570, 1571, 1572];
 const rows  = [
   {
     "date": "1568-04-06",
@@ -36,7 +36,7 @@ const rows  = [
   },
   {
     "date": "1568-07-03",
-    "value": 490
+    "value": 492
   },
   {
     "date": "1568-07-24",
@@ -57,6 +57,10 @@ const rows  = [
   {
     "date": "1569-12-21",
     "value": 648
+  },
+  {
+    "date": "1570-03-20",
+    "value": 756
   },
   {
     "date": "1570-05-20",
@@ -91,8 +95,8 @@ const rows  = [
     "value": 912
   },
   {
-    "date": "1570-10-11",
-    "value": 3348
+    "date": "1570-10-13",
+    "value": 4497
   },
   {
     "date": "1570-11-02",
@@ -107,20 +111,52 @@ const rows  = [
     "value": 278
   },
   {
+    "date": "1571-01-12",
+    "value": 4424
+  },
+  {
     "date": "1571-01-14",
     "value": 3903
   },
   {
+    "date": "1571-01-26",
+    "value": 2458
+  },
+  {
+    "date": "1571-02-06",
+    "value": 2081
+  },
+  {
+    "date": "1571-03-31",
+    "value": 2170
+  },
+  {
     "date": "1571-04-18",
-    "value": 328
+    "value": 344
   },
   {
     "date": "1571-04-19",
     "value": 1394
   },
   {
+    "date": "1571-06-27",
+    "value": 628
+  },
+  {
+    "date": "1571-07-07",
+    "value": 1296
+  },
+  {
     "date": "1571-07-15",
     "value": 326
+  },
+  {
+    "date": "1571-08-14",
+    "value": 572
+  },
+  {
+    "date": "1572-02-12",
+    "value": 878
   }
 ];   // [{date:'YYYY-MM-DD', value}, …]
 

@@ -12,11 +12,12 @@ import LegendLite  from 'cal-heatmap/plugins/LegendLite';
 import Tooltip     from 'cal-heatmap/plugins/Tooltip';
 import 'cal-heatmap/cal-heatmap.css';
 
-import * as d3 from 'd3';
+// import * as d3 from 'd3'; // CalHeatmap v4+ bundles its own D3, this might not be needed or could conflict. Try commenting out if issues persist.
 
 /* overwritten by generate_heatmap.py */
-const YEARS = [1568, 1569, 1570, 1571];
+const YEARS = [1568, 1569, 1570, 1571, 1572];
 const rows  = [
+  // ... (your data remains the same) ...
   {
     "date": "1568-04-06",
     "value": 544
@@ -138,23 +139,32 @@ const CavrianaHeatmap = () => (
 );
 
 const HeatmapOneYear = () => {
-  const [yearIx, setYearIx] = useState(0);
-  const [err   , setErr   ] = useState(null);
-  const [busy  , setBusy  ] = useState(true);
-  const calRef              = useRef(null);
+  const [yearIx, setYearIx] = useState(0); // Default to first year in YEARS array
+  const [err, setErr] = useState(null);
+  const [busy, setBusy] = useState(true);
+  const calRef = useRef(null); // To hold the CalHeatmap instance
 
   useEffect(() => {
-    // Remove global D3 assignment to prevent conflicts
-    calRef.current?.destroy();
-    calRef.current = new CalHeatmap();
+    setBusy(true);
+    setErr(null);
 
-    /* --- plugins --------------------------------------------------------- */
+    const newCal = new CalHeatmap();
+
+    const calendarDiv = document.getElementById('cav-calendar');
+    if (calendarDiv) {
+      calendarDiv.innerHTML = ''; 
+    }
+    const legendDiv = document.getElementById('cav-legend');
+    if (legendDiv) {
+      legendDiv.innerHTML = ''; 
+    }
+
     const PLUGINS = [
       [
         LegendLite,
         {
-          itemSelector: '#cav-legend',
-          width       : 170,   // px – tune to taste
+          itemSelector: '#cav-legend', 
+          width: 170,
         },
       ],
       [
@@ -168,7 +178,6 @@ const HeatmapOneYear = () => {
       ],
     ];
 
-    /* --- data for the current year -------------------------------------- */
     const currentYear = YEARS[yearIx];
     const yearRows = rows
       .filter(r => r.date.startsWith(String(currentYear)))
@@ -176,60 +185,72 @@ const HeatmapOneYear = () => {
 
     const maxValue = yearRows.length
       ? Math.max(...yearRows.map(r => r.value))
-      : 1;
+      : 1; 
 
-    /* --- render ---------------------------------------------------------- */
-    calRef.current
+    newCal
       .paint(
         {
-          itemSelector: '#cav-calendar',
-
-          date : { start: new Date(currentYear, 0, 1), timezone: 'utc' },
+          itemSelector: '#cav-calendar', 
+          date: { start: new Date(currentYear, 0, 1), timezone: 'utc' },
           range: 1,
-
           domain: {
-            type  : 'year',
+            type: 'year',
             gutter: 10,
-            label : { text: ts => new Date(ts).getUTCFullYear() },
+            label: { text: ts => new Date(ts).getUTCFullYear(), position: 'top' }, 
           },
           subDomain: {
-            type  : 'day',
-            width : 11,
+            type: 'day',
+            width: 11,
             height: 11,
             gutter: 2,
             radius: 2,
           },
-
           data: { source: yearRows, x: 'date', y: 'value', type: 'json' },
-
           scale: {
             color: {
-              type  : 'quantize',
-              scheme: 'Spectral',
+              type: 'quantize',
+              scheme: 'Spectral', 
               domain: [0, maxValue],
             },
           },
         },
-        PLUGINS,             // ← second argument
+        PLUGINS
       )
-      .then(() => setBusy(false))
-      .catch(e => { console.error("CalHeatmap paint error:", e); setErr(e.message); setBusy(false); });
+      .then(() => {
+        setBusy(false);
+        calRef.current = newCal;
+      })
+      .catch(e => {
+        console.error("CalHeatmap paint error:", e);
+        setErr(e.message || "Unknown error painting heatmap.");
+        setBusy(false);
+      });
 
-    return () => calRef.current?.destroy();
-  }, [yearIx]);
+    return () => {
+      newCal?.destroy()
+        .then(() => {
+          if (calendarDiv) calendarDiv.innerHTML = '';
+          if (legendDiv) legendDiv.innerHTML = '';
+        })
+        .catch(destroyError => {
+          // console.error(`Error destroying CalHeatmap instance for ${currentYear}:`, destroyError);
+        });
+      calRef.current = null; 
+    };
+  }, [yearIx]); 
 
   if (err) {
     return (
       <div className="cavriana-heatmap">
         <h2>Cavriana Letter-Writing Activity – {YEARS[yearIx]}</h2>
-        <p style={{color:'red'}}>Heat-map error: {err}</p>
+        <p style={{ color: 'red' }}>Heat-map error: {err}</p>
+        <p>Data for {YEARS[yearIx]}: {JSON.stringify(rows.filter(r => r.date.startsWith(String(YEARS[yearIx]))))}</p>
       </div>
     );
   }
 
-  /* navigation ----------------------------------------------------------- */
-  const prev   = () => yearIx > 0 && setYearIx(yearIx - 1);
-  const next   = () => yearIx < YEARS.length - 1 && setYearIx(yearIx + 1);
+  const prev = () => yearIx > 0 && setYearIx(yearIx - 1);
+  const next = () => yearIx < YEARS.length - 1 && setYearIx(yearIx + 1);
   const jumpTo = i => setYearIx(i);
 
   return (
@@ -237,20 +258,33 @@ const HeatmapOneYear = () => {
       <h2>Cavriana Letter-Writing Activity – {YEARS[yearIx]}</h2>
 
       <div className="year-selector">
-        {YEARS.map((y,i) =>
-          <button key={y} onClick={() => jumpTo(i)}
-                  className={yearIx===i ? 'active' : ''}>{y}</button>
-        )}
+        {YEARS.map((y, i) => (
+          <button
+            key={y}
+            onClick={() => jumpTo(i)}
+            className={`year-button ${yearIx === i ? 'active' : ''}`} 
+          >
+            {y}
+          </button>
+        ))}
       </div>
 
-      {busy && <p>Loading…</p>}
-      <div id="cav-calendar" style={{minHeight:150}} />
-      <div id="cav-legend"   style={{marginTop:6}} />
+      {/* Keyed wrapper div starts here */}
+      <div key={yearIx} className="heatmap-instance-wrapper">
+        {busy && <p>Loading heatmap for {YEARS[yearIx]}…</p>}
+        <div id="cav-calendar" style={{ minHeight: 200 }} /> 
+        <div id="cav-legend" style={{ marginTop: 6 }} />
+      </div>
+      {/* Keyed wrapper div ends here */}
 
-      <div style={{marginTop:8, textAlign:'center'}}>
-        <button onClick={prev} disabled={yearIx===0}>◀︎</button>
-        <span style={{margin:'0 1rem'}}>{YEARS[yearIx]}</span>
-        <button onClick={next} disabled={yearIx===YEARS.length-1}>▶︎</button>
+      <div style={{ marginTop: 8, textAlign: 'center' }}>
+        <button onClick={prev} disabled={yearIx === 0}>
+          ◀︎
+        </button>
+        <span style={{ margin: '0 1rem' }}>{YEARS[yearIx]}</span>
+        <button onClick={next} disabled={yearIx === YEARS.length - 1}>
+          ▶︎
+        </button>
       </div>
     </div>
   );
