@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to [RECIPIENT], [DATE]</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>[ARCHIVE_CITY]</settlement>
+            <repository>[ARCHIVE_NAME]</repository>
+            <collection>[COLLECTION_NAME]</collection>
+            <idno>[DOCUMENT_ID]</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="[FOLIO]r" to="[FOLIO]v">fols. [FOLIO]r-[FOLIO]v</locus>
+              <title>Letter from Filippo Cavriana to [RECIPIENT]</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">[BRIEF_SUMMARY_OF_CONTENT]</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-[PLACE_ID]">[SENDING_LOCATION]</placeName>
+          <date when="[YYYY-MM-DD]" />
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-[RECIPIENT_ID]">[RECIPIENT_NAME]</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="[FOLIO]r" />
+        <opener>
+          <salute>[OPENING_SALUTATION]</salute>
+        </opener>
+        
+        <!-- Main content paragraphs -->
+        <p>
+          [LETTER_CONTENT_WITH_TEI_MARKUP]
+        </p>
+        
+        <!-- Additional paragraphs as needed -->
+        
+        <closer>
+          <salute>[CLOSING_SALUTATION]</salute>
+          <dateline>
+            <placeName ref="#place-[PLACE_ID]">[SENDING_LOCATION]</placeName>
+            <date when="[YYYY-MM-DD]">[DATE_IN_WORDS]</date>
+          </dateline>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

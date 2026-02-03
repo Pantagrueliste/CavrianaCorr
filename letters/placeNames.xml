@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,10 +25,7 @@
   </teiHeader>
   <text>
     <body>
-      <listPlace>
-
-        <!-- Already Present Entries -->
-        <place xml:id="place-firenze">
+      <listPlace><!-- Other Locations --><place xml:id="place-firenze">
           <placeName type="historical" xml:lang="it">Firenze</placeName>
           <placeName type="modern" xml:lang="en">Florence</placeName>
           <placeName type="country" xml:lang="en">Italy</placeName>
@@ -452,7 +449,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7004675</idno>
         </place>
 
-        <!-- Bagni di Lucca -->
         <place xml:id="place-bagni-di-lucca">
           <placeName xml:lang="it">Bagni di Lucca</placeName>
           <placeName type="modern" xml:lang="en">Bagni di Lucca</placeName>
@@ -474,7 +470,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7005341</idno>
         </place>
 
-        <!-- Nevers -->
         <place xml:id="place-nevers">
           <placeName xml:lang="fr">Nevers</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
@@ -571,7 +566,6 @@
           <idno type="TGN">http://vocab.getty.edu/tgn/7024267</idno>
         </place>
 
-      </listPlace>
-    </body>
+      <!-- INCOMPLETE ENTITIES (needs research) --><!-- INCOMPLETE ENTITIES (needs research) --><place xml:id="place-blois"><placeName type="modern">Blois</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-sancerre"><placeName type="modern">Sancerre</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-bourbon"><placeName type="modern">Bourbon</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-europe"><placeName type="modern">Europe</placeName><placeName type="country">Europe</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-ferrara"><placeName type="modern">Ferrara</placeName><placeName type="country">Italy</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-gatinais"><placeName type="modern">Gâtinais</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-genova"><placeName type="modern">Genoa</placeName><placeName type="country">Italy</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-guyenne"><placeName type="modern">Guyenne</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-lille"><placeName type="modern">Lille</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-limousin"><placeName type="modern">Limousin</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-lyon"><placeName type="modern">Lyon</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-navarre"><placeName type="modern">Navarre</placeName><placeName type="country">Spain/France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-orleans"><placeName type="modern">Orléans</placeName><placeName type="country">France</placeName><note>Entity needs coordinates and authority references</note></place><place xml:id="place-venezia"><placeName type="modern">Venice</placeName><placeName type="country">Italy</placeName><note>Entity needs coordinates and authority references</note></place></listPlace></body>
   </text>
 </TEI>

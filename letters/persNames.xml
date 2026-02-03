@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -26,10 +26,7 @@
 
   <text>
     <body>
-      <listPerson>
-
-        <!-- Italian Noble Houses - Medici Dynasty -->
-        <person xml:id="pers-medici-cos-1">
+      <listPerson><!-- Other Historical Figures --><person xml:id="pers-medici-cos-1">
           <persName>Cosimo I de' Medici</persName>
           <persName type="alias">Gran Duca</persName>
           <sex value="male"/>
@@ -50,7 +47,6 @@
           <idno type="VIAF">100212180</idno>
         </person>
 
-        <!-- Italian Noble Houses – Este -->
         <person xml:id="pers-este-a">
           <persName>Alfonso d'Este</persName>
           <sex value="male"/>
@@ -65,7 +61,6 @@
           <idno type="VIAF">74104371</idno>
         </person>
 
-        <!-- Italian Noble Houses – Savoy -->
         <person xml:id="pers-savoy-em-fil">
           <persName>Emanuele Filiberto di Savoia</persName>
           <sex value="male"/>
@@ -79,7 +74,6 @@
           <occupation type="nobility">Marquis of Susa</occupation>
         </person>
 
-        <!-- Italian Noble Houses – Gonzaga -->
         <person xml:id="pers-gonzaga-gugl">
           <persName>Guglielmo Gonzaga</persName>
           <sex value="male"/>
@@ -98,7 +92,6 @@
           <idno type="VIAF">66529198</idno>
         </person>
 
-        <!-- Other Italian Noble Houses -->
         <person xml:id="pers-galeazzosanseverino-g">
           <persName>Gian Galeazzo Sanseverino</persName>
           <sex value="male"/>
@@ -116,12 +109,6 @@
           <idno type="VIAF">451148389482610711686</idno>
         </person>
 
-        <person xml:id="pers-pazzi-f">
-          <persName>Filippino Pazzi</persName>
-          <sex value="male"/>
-        </person>
-
-        <!-- French Royal House – Valois -->
         <person xml:id="pers-valois-ch-9">
           <persName>Charles IX</persName>
           <persName type="alias">Re</persName>
@@ -143,7 +130,6 @@
           <idno type="VIAF">78750412</idno>
         </person>
 
-        <!-- French Royal House – Bourbon -->
         <person xml:id="pers-bourbon-h-nav">
           <persName>Henri de Bourbon</persName>
           <sex value="male"/>
@@ -158,7 +144,6 @@
           <idno type="VIAF">15202389</idno>
         </person>
 
-        <!-- Other French Noble Houses -->
         <person xml:id="pers-lorraine-ch-card">
           <persName>Charles de Lorraine</persName>
           <persName type="alias">Lorena</persName>
@@ -245,7 +230,6 @@
           <death>1622</death>
         </person>
 
-        <!-- Habsburg -->
         <person xml:id="pers-habsburg-e">
           <persName>Elisabeth</persName>
           <sex value="female"/>
@@ -268,7 +252,6 @@
           <idno type="VIAF">27863609</idno>
         </person>
 
-        <!-- Physicians and Surgeons -->
         <person xml:id="pers-cavriana-f">
           <persName>Filippo Cavriana</persName>
           <persName type="alias">Vincenzo da Castello</persName>
@@ -282,7 +265,6 @@
           <occupation>Premier médecin to Catherine de' Medici</occupation>
         </person>
 
-        <!-- Military / Diplomatic Figures -->
         <person xml:id="pers-coligny-g">
           <persName>Gaspard de Coligny</persName>
           <sex value="male"/>
@@ -312,7 +294,6 @@
           <occupation type="diplomatic">ambassador</occupation>
         </person>
 
-        <!-- Prelates -->
         <person xml:id="pers-auger-ed">
           <persName>Émond Auger</persName>
           <persName type="Italian">Emondo Ugenio</persName>
@@ -342,7 +323,6 @@
           <occupation type="religious">Franciscan Friar</occupation>
         </person>
 
-        <!-- Medicean Officials -->
         <person xml:id="pers-concini-b">
           <persName>Bartolomeo Concino di Conti della Penna</persName>
           <persName type="alias">Bartolomeo Concini</persName>
@@ -355,14 +335,6 @@
           <sex value="male"/>
           <occupation>Medici Secretary</occupation>
         </person>
-        <person xml:id="pers-alamanni-v">
-          <persName>Vincenzo Alamanni</persName>
-          <persName type="alias">Alamanni</persName>
-          <sex value="male"/>
-          <note>Diplomat and intermediary</note>
-        </person>
-
-        <!-- Royal Household -->
         <person xml:id="pers-loignac-j">
           <persName>Jacques de Loignac</persName>
           <sex value="male"/>
@@ -374,7 +346,6 @@
           <occupation>Master of the King's Wardrobe</occupation>
         </person>
 
-        <!-- Other Notable Figures -->
         <person xml:id="pers-epernon-jl">
           <persName>Jean‑Louis de Nogaret de La Valette</persName>
           <sex value="male"/>
@@ -394,7 +365,6 @@
           <idno type="VIAF">96139668</idno>
         </person>
 
-        <!-- German Princes -->
         <person xml:id="pers-pfalz-fr-3">
           <persName>Friedrich III von der Pfalz</persName>
           <sex value="male"/>
@@ -430,7 +400,6 @@
           <idno type="VIAF">27863609</idno>
         </person>
 
-        <!-- French Nobles -->
         <person xml:id="pers-guise-h">
           <persName>Henri de Guise</persName>
           <persName type="alias">Guisa</persName>
@@ -482,7 +451,6 @@
           <idno type="VIAF">100198491</idno>
         </person>
 
-        <!-- Osmanlı hanedanı -->
         <person xml:id="pers-osmanli-s2">
           <persName>Selim II</persName>
           <sex value="male"/>
@@ -491,7 +459,6 @@
           <idno type="VIAF">44058182</idno>
         </person>
 
-        <!-- Military / Diplomatic Figures -->
         <person xml:id="pers-nassau-w">
           <persName>Willem van Oranje</persName>
           <persName type="alias">Principe di Orange</persName>
@@ -511,7 +478,6 @@
           <idno type="VIAF">34561686</idno>
         </person>
 
-        <!-- Ecclesiastical Figures -->
         <person xml:id="pers-salviati-a">
           <persName>Antonio Maria Salviati</persName>
           <persName type="alias">Monsig. Salviati</persName>
@@ -535,22 +501,11 @@
           <idno type="VIAF">262746497</idno>
         </person>
 
-        <!-- Other Officials -->
         <person xml:id="pers-petrucci">
           <persName>Petrucci</persName>
           <sex value="male"/>
           <occupation>Commendatore</occupation>
           <note>Tuscan ambassador to France</note>
-        </person>
-        <person xml:id="pers-pers-papazzone-g">
-          <persName>Giulio Cesare Papppazone</persName>
-          <sex value="male"/>
-          <note>Servidore della signora Marchesa di Pescara</note>
-        </person>
-        <person xml:id="pers-vaini-e">
-          <persName>Enea Vaini</persName>
-          <sex value="male"/>
-          <note>Order of Santo Stefano official</note>
         </person>
         <person xml:id="pers-alberto">
           <persName>Alberto</persName>
@@ -561,11 +516,6 @@
           <persName>Monsignore d'Ossonville</persName>
           <sex value="male"/>
           <occupation>French noble</occupation>
-        </person>
-        <person xml:id="pers-crotto">
-          <persName>crotto</persName>
-          <sex value="unknown"/>
-          <note>Further identification needed</note>
         </person>
         <person xml:id="pers-riorikide-i-iv">
           <persName>Ivan IV</persName>
@@ -642,8 +592,7 @@
           <occupation type="stateCourtPersonnel">Provisionato di Cosimo I de' Medici</occupation>
           <occupation type="musician" from="1566">Musico / Musicista</occupation>
         </person>
-                <!-- French Nobles – Gondi -->
-        <person xml:id="pers-gondi-albert">
+                <person xml:id="pers-gondi-albert">
           <persName>Albert de Gondi</persName>
           <persName type="alias">Comte de Retz</persName>
           <persName type="Italian">Alberto di Gondi</persName>
@@ -654,7 +603,6 @@
           <idno type="VIAF">89654338</idno>
         </person>
 
-        <!-- French Nobles – Montmorency -->
         <person xml:id="pers-montmorency-charles">
           <persName>Charles de Montmorency</persName>
           <persName type="alias">Méru</persName>
@@ -667,7 +615,6 @@
           <idno type="VIAF">47146030646835862535</idno>
         </person>
 
-        <!-- French Nobles – Cossé -->
         <person xml:id="pers-cosse-renee">
           <persName>Renée de Cossé-Brissac</persName>
           <sex value="female"/>
@@ -675,7 +622,33 @@
           <birth>c. 1550</birth>
           <death>1622</death>
         </person>
-      </listPerson>
-    </body>
+      <person xml:id="pers-pazzi-f">
+          <persName>Filippino Pazzi</persName>
+          <sex value="male"/>
+        </person>
+
+        <person xml:id="pers-alamanni-v">
+          <persName>Vincenzo Alamanni</persName>
+          <persName type="alias">Alamanni</persName>
+          <sex value="male"/>
+          <note>Diplomat and intermediary</note>
+        </person>
+
+        <person xml:id="pers-pers-papazzone-g">
+          <persName>Giulio Cesare Papppazone</persName>
+          <sex value="male"/>
+          <note>Servidore della signora Marchesa di Pescara</note>
+        </person>
+        <person xml:id="pers-vaini-e">
+          <persName>Enea Vaini</persName>
+          <sex value="male"/>
+          <note>Order of Santo Stefano official</note>
+        </person>
+        <person xml:id="pers-crotto">
+          <persName>crotto</persName>
+          <sex value="unknown"/>
+          <note>Further identification needed</note>
+        </person>
+        <!-- INCOMPLETE ENTITIES (needs research) --><!-- INCOMPLETE ENTITIES (needs research) --><person xml:id="pers-bourbon-conde"><persName>Louis I de Bourbon, Prince of Condé</persName><sex value="male"/><occupation>Prince of Condé</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-pontefice"><persName>The Pope</persName><sex value="male"/><occupation>Pope</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-cesare"><persName>Cesare d'Este</persName><sex value="male"/><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-este-card"><persName>Este Cardinal</persName><sex value="male"/><occupation>Cardinal</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-guadagni"><persName>Guadagni family member</persName><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-lorraine-h"><persName>Henry of Lorraine</persName><sex value="male"/><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-papazzone-g"><persName>Pope (papazzone)</persName><sex value="male"/><occupation>Pope</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-sanseverino-g"><persName>Sanseverino family member</persName><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-taxis-c"><persName>Taxi family member</persName><occupation>Noble</occupation><note>Entity needs research and completion</note></person></listPerson></body>
   </text>
 </TEI>
