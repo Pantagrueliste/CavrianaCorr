@@ -70,6 +70,53 @@
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
 
+    <!-- Visible metadata block -->
+    <xsl:variable name="sender"       select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName"/>
+    <xsl:variable name="senderPlace"  select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName"/>
+    <xsl:variable name="sendDate"     select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
+    <xsl:variable name="receiver"     select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName"/>
+    <xsl:variable name="receiverPlace" select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:placeName"/>
+    <xsl:variable name="summary"      select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:note[@type='summary']"/>
+
+    <xsl:text disable-output-escaping="yes">&lt;div class="letter-metadata"&gt;&#10;</xsl:text>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:text>| | |&#10;</xsl:text>
+    <xsl:text>|---|---|&#10;</xsl:text>
+
+    <xsl:text>| **From** | </xsl:text>
+    <xsl:value-of select="normalize-space($sender)"/>
+    <xsl:if test="normalize-space($senderPlace) != ''">
+      <xsl:text>, </xsl:text>
+      <xsl:value-of select="normalize-space($senderPlace)"/>
+    </xsl:if>
+    <xsl:text> |&#10;</xsl:text>
+
+    <xsl:text>| **To** | </xsl:text>
+    <xsl:value-of select="normalize-space($receiver)"/>
+    <xsl:if test="normalize-space($receiverPlace) != ''">
+      <xsl:text>, </xsl:text>
+      <xsl:value-of select="normalize-space($receiverPlace)"/>
+    </xsl:if>
+    <xsl:text> |&#10;</xsl:text>
+
+    <xsl:text>| **Date** | </xsl:text>
+    <xsl:value-of select="normalize-space($sendDate)"/>
+    <xsl:text> |&#10;</xsl:text>
+
+    <xsl:text>| **Archive** | </xsl:text>
+    <xsl:value-of select="$archiveRef"/>
+    <xsl:text> |&#10;</xsl:text>
+
+    <xsl:if test="normalize-space($summary) != ''">
+      <xsl:text>| **Summary** | </xsl:text>
+      <xsl:value-of select="normalize-space($summary)"/>
+      <xsl:text> |&#10;</xsl:text>
+    </xsl:if>
+
+    <xsl:text>&#10;</xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
+    <xsl:text>&#10;</xsl:text>
+
     <!-- Now apply templates to the text body -->
     <xsl:apply-templates select="tei:text"/>
   </xsl:template>
