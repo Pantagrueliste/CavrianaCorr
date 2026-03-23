@@ -1,5 +1,6 @@
 name: Update Cavriana Heatmap
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:

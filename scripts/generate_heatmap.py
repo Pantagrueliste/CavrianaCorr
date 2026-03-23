@@ -2,7 +2,7 @@
 """
 scripts/generate_heatmap.py
 Build CavrianaHeatmap.jsx from the JSX template + CSV data.
-The finished file is written to generated/CavrianaHeatmap.jsx
+The finished file is written to generated/CavrianaHeatmap.jsx.
 """
 
 from __future__ import annotations
