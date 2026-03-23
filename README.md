@@ -71,6 +71,10 @@ To report issues or provide feedback, please submit an issue via GitHub or conta
 
 This project has received support from the State Archives of Florence, the University of St Andrews, The Harvard University Center for Italian Renaissance Studies, and the Medici Archive Project.
 
+## Note on AI-Assisted Tooling
+
+This edition also serves as an experimentation ground for new AI tools applied to Digital Humanities. Part of the encoding workflow relies on AI-assisted processes, including validation and transformation pipelines built with [tei-mcp](https://github.com/Pantagrueliste/tei-mcp), a Model Context Protocol server that exposes the TEI P5 specification to AI coding assistants. All AI-generated outputs are reviewed and corrected by the editor. Scholarly responsibility for the content of this edition remains entirely with the editor.
+
 ---
 
 **Note on Data Use**: This digital edition represents substantial scholarly work in transcription, annotation, and encoding. While we encourage its use for research, teaching, or data scraping, we ask that you acknowledge this contribution by citing the project appropriately in your work.
