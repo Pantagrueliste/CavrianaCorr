@@ -67,6 +67,7 @@ jobs:
         git add src/components/CavrianaHeatmap.jsx src/components/CustomHeatmap.jsx
         if ! git diff --cached --quiet; then
           git commit -m "Auto-update Cavriana heat-map"
+          git stash --include-untracked
           for i in 1 2 3; do
             git pull --rebase origin main && \
             git push origin main && break || sleep 5
