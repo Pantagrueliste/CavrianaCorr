@@ -33,28 +33,24 @@ The collection encompasses Cavriana's extensive correspondence network throughou
 
 ## Release Schedule
 
-The project follows a phased release approach, with development and content publication spanning from late 2024 through early 2026.
+The project follows a phased release approach, with development and content publication spanning from late 2024 through early 2027.
 
 ```mermaid
 gantt
     title Project Release Schedule
     dateFormat YYYY-MM
     axisFormat %Y-%m
-    
+
     section Development
     Backend Development & Launch :2024-09, 2025-01
-    
+
     section Content Release
-    
-    1st Batch (1566)         :2024-12, 2025-02
-    2nd Batch (69-71)     :2025-02, 2025-06
-    3rd Batch (72-77)      :2025-06, 2025-08
-    4th Batch (77-87)     :2025-08, 2025-10
-    5th Batch (87-89)      :2025-10, 2025-12
-    6th Batch (89-06)      :2025-12, 2026-02
-    
+    1st Batch (1566-72)      :2024-12, 2026-06
+    2nd Batch (72-77)        :2026-06, 2026-10
+    3rd Batch (77-1606)      :2026-10, 2027-02
+
     section Review
-    Peer Review & Final Edition  :2026-02, 2026-06
+    Peer Review & Final Edition  :2027-02, 2027-06
 ```
 
 ## Access and Licensing
