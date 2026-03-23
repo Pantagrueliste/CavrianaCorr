@@ -497,8 +497,7 @@ const HeatmapDisplay = () => {
   // Handle tooltip display
   const showCellTooltip = (date, value, e) => {
     const rect = e.target.getBoundingClientRect();
-    const svgRect = svgRef.current.getBoundingClientRect();
-    
+
     // Format date for display
     const displayDate = new Date(date);
     const formattedDate = displayDate.toLocaleDateString(undefined, {
@@ -506,19 +505,19 @@ const HeatmapDisplay = () => {
       month: 'long',
       day: 'numeric'
     });
-    
-    // Set tooltip content and position
+
+    // Set tooltip content and position (fixed to viewport)
     setTooltipContent(
-      value 
+      value
         ? `${formattedDate}: ${value} words`
         : `No letters on ${formattedDate}`
     );
-    
+
     setTooltipPosition({
-      x: rect.left - svgRect.left + rect.width / 2,
-      y: rect.top - svgRect.top
+      x: rect.left + rect.width / 2,
+      y: rect.top
     });
-    
+
     setShowTooltip(true);
   };
   
@@ -692,20 +691,20 @@ const HeatmapDisplay = () => {
           
           {/* Tooltip */}
           {showTooltip && (
-            <div 
+            <div
               className="heatmap-tooltip"
               style={{
-                position: 'absolute',
+                position: 'fixed',
                 left: `${tooltipPosition.x}px`,
-                top: `${tooltipPosition.y - 40}px`,
-                transform: 'translateX(-50%)',
+                top: `${tooltipPosition.y - 8}px`,
+                transform: 'translate(-50%, -100%)',
                 backgroundColor: 'rgba(0, 0, 0, 0.8)',
                 color: 'white',
                 padding: '5px 10px',
                 borderRadius: '4px',
                 fontSize: '14px',
                 pointerEvents: 'none',
-                zIndex: 10
+                zIndex: 9999
               }}
             >
               {tooltipContent}
