@@ -50,11 +50,15 @@
               <handNote xml:id="hand1" scope="major">Hand of Davari</handNote>
             </handDesc>
           </physDesc>
-          <custodialHistory>
-          <p>
-            This transcription is based on a modern copy produced by the XIXth-centiry archivist Gian Antonio Stefano Davari, held at the Archivio di Stato di Mantova.
-          </p>
-        </custodialHistory>
+          <additional>
+            <adminInfo>
+              <custodialHist>
+                <custEvent>
+                  <p>This transcription is based on a modern copy produced by the XIXth-century archivist Gian Antonio Stefano Davari, held at the Archivio di Stato di Mantova.</p>
+                </custEvent>
+              </custodialHist>
+            </adminInfo>
+          </additional>
         </msDesc>
       </sourceDesc>
     </fileDesc>

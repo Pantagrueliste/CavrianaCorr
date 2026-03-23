@@ -47,7 +47,9 @@
             <handDesc hands="1">
               <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
             </handDesc>
-            <p>Significant damage to right margin affecting legibility. Missing pages noted in transcription.</p>
+            <additions>
+              <p>Significant damage to right margin affecting legibility. Missing pages noted in transcription.</p>
+            </additions>
           </physDesc>
         </msDesc>
       </sourceDesc>

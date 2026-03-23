@@ -47,7 +47,9 @@
             <handDesc hands="1">
               <handNote xml:id="hand1" scope="major">Disguised hand of Filippo Cavriana</handNote>
             </handDesc>
-            <p>This letter uses false identities: "Tommaso dalla Paglia" for Filippo Cavriana and "Marco" or "Marco da Empoli" for Bartolomeo Concino, as part of their intelligence network.</p>
+            <additions>
+              <p>This letter uses false identities: "Tommaso dalla Paglia" for Filippo Cavriana and "Marco" or "Marco da Empoli" for Bartolomeo Concino, as part of their intelligence network.</p>
+            </additions>
           </physDesc>
         </msDesc>
       </sourceDesc>
