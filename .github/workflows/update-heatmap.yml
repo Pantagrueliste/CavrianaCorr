@@ -6,6 +6,7 @@ on:
       - "letters/**/*.xml"
       - "scripts/**.py"
       - "templates/CavrianaHeatmap.template.jsx"
+      - "templates/CustomHeatmap.template.jsx"
 jobs:
   update-heatmap:
     runs-on: ubuntu-latest
@@ -31,6 +32,8 @@ jobs:
     # generate_heatmap.py expects repo-root, writes to generated/
     - name: Generate CavrianaHeatmap.jsx
       run: python scripts/generate_heatmap.py
+    - name: Generate CustomHeatmap.jsx
+      run: python scripts/generate_custom_heatmap.py
     # ── 2  Front-end: check out site repo ─────────────────────────
     - uses: actions/checkout@v4
       with:
@@ -41,6 +44,8 @@ jobs:
       run: |
         mkdir -p CavrianaCorr_FrontEnd/src/components
         cp generated/CavrianaHeatmap.jsx \
+           CavrianaCorr_FrontEnd/src/components/
+        cp generated/CustomHeatmap.jsx \
            CavrianaCorr_FrontEnd/src/components/
     # ── 3  Smoke-build the Docusaurus site ───────────────────────
     - uses: actions/setup-node@v4
@@ -59,7 +64,7 @@ jobs:
       run: |
         git config user.name  "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add src/components/CavrianaHeatmap.jsx
+        git add src/components/CavrianaHeatmap.jsx src/components/CustomHeatmap.jsx
         if ! git diff --cached --quiet; then
           git commit -m "Auto-update Cavriana heat-map"
           for i in 1 2 3; do
