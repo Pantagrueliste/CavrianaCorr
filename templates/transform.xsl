@@ -86,9 +86,13 @@
     <xsl:text>]**&#10;&#10;</xsl:text>
   </xsl:template>
 
-  <!-- 5) Line breaks (corrected): escaped HTML tags explicitly for consistent output. -->
+  <!-- 5) Line breaks: preserve original line breaks.
+       break="no" means the word is split across lines, so add a hyphen. -->
+  <xsl:template match="tei:lb[@break='no']">
+    <xsl:text disable-output-escaping="yes">-&lt;br/&gt;&#10;</xsl:text>
+  </xsl:template>
   <xsl:template match="tei:lb">
-    <xsl:text disable-output-escaping="yes">&lt;span class="lb-marker"&gt;&lt;/span&gt; </xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;br/&gt;&#10;</xsl:text>
   </xsl:template>
 
   <!-- 6) Paragraph-like elements -->
