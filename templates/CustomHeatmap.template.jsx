@@ -148,11 +148,15 @@ const HeatmapDisplay = () => {
     const monthLabels = [];
     const weeks = [];
     
-    // Group days into weeks for rendering
-    daysInYear.forEach((date, index) => {
+    // Group days into calendar weeks (columns = weeks, rows = weekdays)
+    const jan1DayOfWeek = new Date(currentYear, 0, 1).getDay(); // 0=Sun … 6=Sat
+    daysInYear.forEach((date) => {
       const dayOfWeek = date.getDay(); // 0-6 (Sunday to Saturday)
-      const weekOfYear = Math.floor(index / 7);
-      
+      // Day-of-year (0-based)
+      const dayOfYear = Math.floor((date - new Date(currentYear, 0, 1)) / 86400000);
+      // Week column: offset by Jan 1's weekday so each column is a real calendar week
+      const weekOfYear = Math.floor((dayOfYear + jan1DayOfWeek) / 7);
+
       // Add month labels when month changes
       if (date.getMonth() !== lastMonth) {
         lastMonth = date.getMonth();
@@ -162,16 +166,16 @@ const HeatmapDisplay = () => {
           x: weekOfYear * (cellSize + cellGap)
         });
       }
-      
+
       // Create week array if it doesn't exist
       if (!weeks[weekOfYear]) {
         weeks[weekOfYear] = [];
       }
-      
+
       // Add day to the week
       const dateStr = formatDateString(date);
       const value = valueMap[dateStr] || 0;
-      
+
       weeks[weekOfYear][dayOfWeek] = {
         date: dateStr,
         value: value,
