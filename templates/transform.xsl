@@ -39,12 +39,11 @@
     <xsl:text>---&#10;</xsl:text>
 
     <xsl:text>title: "</xsl:text>
-    <xsl:value-of select="concat(
-      tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName,
-      ' (',
-      tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when,
-      ')'
-    )"/>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+    <xsl:text>"&#10;</xsl:text>
+
+    <xsl:text>sidebar_label: "</xsl:text>
+    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
     <xsl:text>"&#10;</xsl:text>
 
     <xsl:text>expeditor: "</xsl:text>
