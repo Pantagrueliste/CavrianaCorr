@@ -1,2 +1,4 @@
 .DS_Store
 /data/
+.claude/
+docs/transcription-agenda.md

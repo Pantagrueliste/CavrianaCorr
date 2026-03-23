@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,14 +24,14 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>1317</idno>
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus>538r</locus>
+              <locus from="538r" to="538r">538r</locus>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Letter discussing the receipt of correspondence, travels, and request for investiture into the Order of Santo Stefano</note>
@@ -55,7 +55,7 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
-          <date when="1570-03-20"/>
+          <date when="1570-03-20">20 March 1570</date>
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-dani-j">Jacopo Dani</persName>

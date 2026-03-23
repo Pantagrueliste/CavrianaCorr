@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 12 May 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="114r" to="119v">fols. 114r-119v</locus>
+              <title>Letter from Filippo Cavriana</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana reports intelligence gathered from the minister of a great prince (likely Spain) about suspicions towards the Grand Duke of Tuscany and the Florentine ambassador Petrucci. He discusses the death of Pope Pius V and the upcoming conclave, with faction counts for Farnese, Ferrara, and Florence. He gives a detailed account of Strozzi's naval expedition departing from Bordeaux, possibly aimed at the African coast near the Canaries. He reports on Count Ludwig of Nassau's corsair activities, the peace between Guise and Coligny, preparations for the wedding of Marguerite de Valois to the Prince of Navarre, and the return of Huguenot-held towns to royal control. A postscript assesses the new Spanish ambassador.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on multiple folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>This transcription is based on a pre-existing transcription without manuscript images. No line break positions are recorded. Page breaks within the text (between fols. 114r and 119v) could not be determined from the transcription and are not marked beyond the opening folio. Uncertain readings from the source transcription (indicated by question marks or parenthetical alternatives) are marked with unclear. The transcription preserves all original spellings, including apparent scribal or transcription errors (e.g. "gran duvca", "semopre", "eglim noin", "duca dsi Ghisa", "nell'armarta").</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-fr">Francia</placeName>
+          <date notBefore="1572-05-12" notAfter="1572-12-05" cert="medium">1572</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName><!-- Recipient unidentified; addressed as "Vostra Signoria Illustrissima", likely a Medici secretary --></persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="114r"/>
+        <note type="editorial">No opening salutation is present in the transcription. The letter begins directly with the body text. No closing date or signature is present. The date is estimated from internal evidence: the death of Pope Pius V (1 May 1572) is known but the new pope has not yet been elected or the news has not yet reached France; preparations for the wedding of Marguerite de Valois are underway; Strozzi's naval expedition is being organised.</note>
+
+        <p>Mi è occorso, più volte di parlare col ministro di quel gran principe, del quale gia ho scritto a Vostra Signoria Illustrissima quanto havevo potuto cavare dalli ragionamenti che meco ha per diverse occasioni tenuto e semopre li ho trovato del medesimo finora; intorno alla volontà del suo padrone, verso il nostro, Replicandomi, che e si vede che diverso camino tiene vostra Altezza da quello, che haveva per tutto il tempo passato tenuto col suo signore; et che l'ambasciatore che qui risiede haveva cosi ben servito alla volontà, (ma non necessità del <persName ref="#pers-medici-cos-1">gran duvca</persName>) in questa corte¡, che quando sua Altezza a i suoi figliuoli fussero stati qui presenti, a maneggiar il negotio, che per ancho non è, dici egli fornito, non havriano potuto, o saputo far piu. La qual cosa pareva bene di fuori via in che rilevasse servitio al <persName ref="#pers-medici-cos-1">gran duvca</persName>, ma chi dall'altra parte la sminuiva l'amorevolezza del suo prencipe, il quale non usava muoversi di liggiero ne alle voci, o <unclear>gran gatto</unclear> di ogni uno; ma che però, una flemma di quel capo, come cominciava a muoversi rendeva attonito, et stupido ogniuno queste formali parole, mi ha piu volte detto et sempre con un riso, che pareva da pensier turbato, dando due o tre scosse al capo. Io le instava pure per sapere; qual negotio fusse questo, non anchor fornito, ma eglim noin ha voluto andar più inanzi, sempre dicendomi; el tempo lo dirà. Dal che io cavo, come per correlario che in costoro sia entrato in gran sospetto, et che vadino spiando il quando di nostri affari, i quali cercheranno di rendere difficili il più che loro sia possibile.</p>
+
+        <p>Essendo poi gionto à questa corte, il successore di chi parti di qui, con cosi poco garbo; et parlando io seco; quando d'un fatto, quando dell'altro, ho compreso che egli, non sia troppo buon amico di nostri, et che ha havuto carica particolarmente di intendere i maneggi del signor <persName ref="#pers-petrucci">petruzzi</persName>, dicendomi egli sempre: e egli vero Signor <persName ref="#pers-cavriana-f">Cavriana</persName> che l'ambasciatore di <placeName ref="#place-firenze">Fiorenza</placeName> sia cosi valenthuomo et serva cosi distamente il Duca suo. Risposi: io non so in che lo serva, ne in quale cosa sia cosi destro. so bene che è un gentilhuomo da bene; questo stimo replicommi egli; ma da noi si tien per fermo che il consiglio suo et l'opera habbiano partorito la pace a questo regno. A qual fine dissi io volete voi signor mio che un privato huomo et straniero; si intermetta a questi maneggi, non havendo <placeName ref="#place-toscana">Thoscana</placeName> et <placeName ref="#place-fr">Francia</placeName> cosa alcuna di commune! Ob signore mio soggiunse egli, il buon duca si temeva dal mal tempo, et però fece nove prattiche; non penso diss'io, che l'animo di quel signore, si muti mai; salvo si col vedessi levar il suo, non fusse necessitato, a diffendersi dalle insidie, et ingiurie altrui. Ne più oltre si passò.</p>
+
+        <p>Venuta poi la nova della morte del <persName ref="#pers-pius-v">Pontefice</persName>, tanto importante alle cose nostre di la; parlai con uno di <placeName ref="#place-ferrara">Ferrara</placeName>, il qual mi disse che <persName ref="#pers-farnese-a-card">Farnese</persName> haveva 17 voci libero, et <placeName ref="#place-ferrara">ferrara</placeName> <unclear>21</unclear> <placeName ref="#place-firenze">Fiorenza</placeName> 12 che chiamava doppie perché servivano e a far un papa da sè, et ad uno fatto da altri a gratiosicarselo et che delli francesi che verranno a <placeName ref="#place-roma">Roma</placeName>, anchor che sieno per haver comandamento dal <persName ref="#pers-valois-ch-9">re</persName>, per <unclear>acutar</unclear> <placeName ref="#place-firenze">Fiorenza</placeName> (come quello che non vorrebbe esse colto dal mal tempio d'un papa aversario et da un re poco amico, come <placeName ref="#place-es">spagna</placeName>, che ha un'armata di mare alle porte di <placeName ref="#place-livorno">Livorno</placeName>) tutta volta, che seranno se non sono sino a quest'hora incapparati destramente per <placeName ref="#place-ferrara">ferrara</placeName>.</p>
+
+        <p>Di questo medesimo femmi qualche proposito, col ministro di quel gran signore et dolevami della morte del <persName ref="#pers-pius-v">papa</persName>, per benefitio di tutta christianità perché la lega si poteva o rompere, o dal futuro Pontefice negligere. Rispose egli questo non averrà, ma quando <gap reason="illegible"><desc>illegible</desc></gap> accadere, il mio signore armerà 24 galere d'avantaggio et non haverà obligo a persona, poiche le istesse galere non erano del <persName ref="#pers-pius-v">papa</persName> ma di <placeName ref="#place-firenze">Fiorenza</placeName>; il quale artificiosamente, a sua santità li haveva prestate per trattenersi l'amicitia di lui; per sapere i negotiij che nell'armarta passavano, et finalmente per mostrare la sua potenza. Hor vedremo che papa serà et son ben certo che il mio signore, dissi egli, ha i doi tersi di cardinali a sua divotione, et qualcheduno potria cominciare a sentire la forza del mio signore.</p>
+
+        <p>Tutto questo servirà à Vostra signoria Illustrissima per confermarsi, nell'opinione che a mio giuditio puo sin a quest'hora haver concetto delli disegni et desiderij de nostri avversarij, i quali Dio tolga cge mai adempino, perché <unclear>serieno</unclear> a rovina <gap reason="illegible"><desc>illegible</desc></gap> d'<placeName ref="#place-it">Italia</placeName>.</p>
+
+        <p>Di qui non c'è cosa di nuovo da scrivere. <persName ref="#pers-strozzi-f">Strozzi</persName> con quel fiore de soldati che leva che sono una buona et valorosissima banda di ben sei mille archibugieri essercitatiassimi, va a <placeName ref="#place-bordeaux">Bordeaux</placeName> in <placeName ref="#place-gascogne">Vascogna</placeName> per inbarcarsi conduce seco guastatori, porta gran numero di selle et di vettovaglia buonissima come 22 grossi canoni, dugento mille scudi et tanto equipaggio da mare che o si ha da fare una rileva ta et honorata impresa di molto servitio al <persName ref="#pers-valois-ch-9">re</persName>; o si ha a ricevere cosi notabil vergogna questa si possa imaginare. I primi cavallieri del regno giovini vi vanno; i capitani eccelsi dui <placeName ref="#place-gascogne">Guascogna</placeName>, et tutti volontarij, senza premio; di modo che <placeName ref="#place-es">spagna</placeName>, et <placeName ref="#place-portugal">Portogallo</placeName> hanno paura et ogni di protestano et dimandano come sicurtà al <persName ref="#pers-valois-ch-9">re</persName> di questa armata; al che molte volte si è da sua Maestà risposto che non va per dannificare ne l'uno né l'altro, et che non le promette onde io stimo, che debba andare verso quella parte d'Africa che guarda le canarie, vicino al regno di Fez; et tirante al oceano mirandosi da molti pilotti portoghesi de quali con l'industria di <persName ref="#pers-dalava-f">Don Frances d'Alava</persName>, doi furono appicati <gap reason="illegible"><desc>illegible</desc></gap> in prigione a <placeName ref="#place-paris">Parigi</placeName>) et altri cavallieri, che gli anni passati col figliuolo di <persName ref="#pers-montluc-b">Monlucco</persName> andarono in quelle parti, scoperto fra terra; alcun re di argento, et oro molto potente, chi con poca pena si potrebbe vincere; come anche da certi andamenti del <persName ref="#pers-laguardia">baron della guardia</persName> generale delle galere che l'impresa guida; mi pare potere <unclear>agevolandosi</unclear> compretendere. <placeName ref="#place-es">Spagna</placeName> temeva che si andasse in <placeName ref="#place-corsica">corsica</placeName> o in <placeName ref="#place-fiandra">Fiandra</placeName>, ma il sospetto se le è rallentato. <placeName ref="#place-portugal">Portogallo</placeName> la gran timore; ne se le può persuadere, che questa tela non sia ordita ai suoi danni.</p>
+
+        <p>So ben certo che il <persName ref="#pers-laguardia">baron della guardia</persName>, ha detto, che o morira alla impresa, o morirà almeno glorioso doppoi, facendo così rilevato servitio al <persName ref="#pers-valois-ch-9">re</persName> Dio voglia, che non sia una mossa di vento; o vero che ogniuno avertito, di molti mesi della armata; che si <unclear>profarava</unclear>, non sia talmente provisto; che di oro; et le <unclear>ricele</unclear><gap reason="illegible"><desc>illegible</desc></gap>, per le quali per fatto questa impresa, non sia stato portato fra terra, et nascosto in modo che quando arrivino trovino scriutto; <foreign xml:lang="la">surrexit non est hi</foreign>.</p>
+
+        <p>Vi va <unclear>quegli (questi, quanti)</unclear> <persName ref="#">Pilles</persName> Vascone, segnalatissimo capitano, per l'assedio <placeName ref="#place-saint-jean-dangely">S. Giovan d'Angeli</placeName>, con più di 1500 hugonotti. <persName ref="#">Clemmont tallado</persName>, <persName ref="#">Lansacco</persName> giovine, doi favoriti di <persName ref="#pers-valois-h-3">Monsignor di Angiò</persName>, il <persName ref="#">signor di Lur basci</persName>, et moltissimi cavallieri di credito et di valore, et se io potessi scrivere a Vostra Signoria Illustrissima più innanzi di questa impresa, le farei toccar con meno, che vanno solamente, per pigliare; et vanno a man salva senza andar al perù, ni al America, ni Florida: ritornando, si diffarà l'armata, et di anderpa in corso predando, perché il <persName ref="#pers-nassau-l">conte ludovico di Nassau</persName> vi ha parte dentro et molti legni de corsari, del oceano, che passano piu di 80 huomini <unclear>ricesi</unclear>, conosciuti, et famosi, col far male a questo e a quello sono talmente perseguita ti da <placeName ref="#place-es">Spagna</placeName> <placeName ref="#place-fiandra">fiandra</placeName>, <unclear>frisa</unclear> <placeName ref="#place-england">inghilterra</placeName> et da <unclear>sueti</unclear> che non possono salvare se non col dire che sono vasselloi francesi sotto la caria del <persName ref="#pers-nassau-l">conte ludovico</persName>; come hanno detto sempre chi si sono trovati in pericolo.</p>
+
+        <p>Ma il conte è povero; et si ha voluto uscire di <placeName ref="#place-blois">Bles</placeName>, è stato forzato impegnar la vasella d'argento, et altre cose preciose, per pagare i creditori onde haver poca entrata, et grossa spesa et volet essere capo di parte, non si può parere longo tempo galant'huomo et per ciò converralle andar in corso; con quel pretesto che dice di voler far la guerra al <persName ref="#pers-toledo-f">Duca d'Alva</persName>, che i suggetti del <persName ref="#pers-habsburg-f">re Filippo</persName>, tirannicamente tratta; dichiarandosi però egli sempre fedele, et buon servidore di quel <persName ref="#pers-habsburg-f">re</persName>. Pare, che pretenda di sposare la figliola della <persName ref="#pers-albret-j">reina di Navarra</persName> ma non si lascia intendere, perché il boccone è troppo grosso per lui.</p>
+
+        <p><persName ref="#pers-gontaut-a">Birone</persName> resta governatore della <placeName ref="#place-rochelle">Roscella</placeName>, che già è in potere del <persName ref="#pers-valois-ch-9">re</persName> er si mette in ordine per andarvi. Le altre terre che gli Ugonotti tenevano senza alcun fallo se le daranno.</p>
+
+        <p>Si attende al far provisione per le nozze di <persName ref="#pers-valois-m">Madama</persName> alle quali vi interverranno <persName ref="#pers-guise-h">Ghisa</persName> et l'<persName ref="#pers-coligny-g">Ammiraglio</persName>, con tutti le loro donne, essendosi pacificato il <persName ref="#pers-guise-h">duca dsi Ghisa</persName> con l'<persName ref="#pers-coligny-g">Ammiraglio</persName>, per per procuratore et con l'intervento del <persName ref="#pers-valois-ch-9">re</persName> gli altri della famiglia di <persName ref="#pers-guise-h">Ghisa</persName>, non hanno voluto intendere parola, mostrandosi ne piu che mai acerbi et irati. Per lo che, il <persName ref="#pers-valois-ch-9">re</persName> sdegnato, ha proibito la corte al <persName ref="#pers-lorraine-ch-card">cardinal di Loreno</persName>, non udendo nutrire in essa querele et discordie</p>
+
+        <p><placeName ref="#place-fr">Francia</placeName> è queta. Il <persName ref="#pers-laguardia">Baron della guardia</persName> andando inbarcarsi a <placeName ref="#place-bordeaux">Bordeaux</placeName> passa per la <placeName ref="#place-rochelle">Roscilla</placeName> dove metterà al possesso <persName ref="#pers-gontaut-a">Monsignor di Birone</persName> et gia un valetto di camera del <persName ref="#pers-valois-ch-9">re</persName> è ito a tutti i luoghi tenuti dalli Ugonotti per fargli rendere a governanti da Sua Maestà <unclear>postivi</unclear> al che gli Ugonotti tutti <unclear>condiscendeno</unclear> volentieri, onde a questo modo <placeName ref="#place-fr">Francia</placeName> poste giu l'armi, serà pacifica et tranquilla.</p>
+
+        <p>Il <persName ref="#pers-bourbon-h-nav">principe di Navarra</persName> era infermo di terzana nel suo paese per questo rispetto, le nozze di <persName ref="#pers-valois-m">madamma</persName> si differiranno u poco più, ancorché tutte così che per essa sibi necessarie sieno quasi tutte in ordine. La <persName ref="#pers-habsburg-e">reina christianissima</persName> ha sentito moversi la creatura nel ventre ma è tanto vergongosa che non lo confessa che al <persName ref="#pers-valois-ch-9">re</persName> suo marito, et a gran pena anchora.</p>
+
+        <p>Molti altri particolari serieno da scriversi, ma di poco rilievio però, onde non mi affaticherò di darne contezza a Vostra Signoria Illustrissima tanto meno che io son certo, che questa mia arriverà tardi a lei, per essere io fuori di corte, rimaso con alquanti indisposti, et però questo che qui scrivo, puo chi de altri haverà forse; molto prima inteso; benché non cosi distintamente;</p>
+
+        <p>Mi scordavo di dirle che con tutto che l'amicitia et <unclear>aderenza</unclear> di costoro di qui, non sia troppo stabile, come si vede, et si ha visto per tale prove, in tempi passati; nondimeno è necessario coltivarla, et trattenerla, perché di questa sola natione i spagniuoli temeno; poco curando l'armi di soli Italiani; havendo eglino tanta autorità et forza in <placeName ref="#place-it">Italia</placeName> et però per forza è mistieri abbracciarla et poiche entrato è il sospetto nelli spagniuoli, et di Sua Altezza sono ingelositi, ragionevole cosa è che muovino del male, del quale temino, sicome eglino à me molte volte hanno confessato, di timere.</p>
+
+        <p>Ho renduta partialissima al servitio di sua Altezza una gran dama di corte, che puo molto con la <persName ref="#pers-habsburg-e">reina giovine</persName>; et son sicuro che non c'è alcuno della casa di Sua Maesta che al servitio del <persName ref="#pers-medici-cos-1">granduca</persName> sia per esser risistente, o negligente, seria molto a proposito, che si commandasse al Ambasciatore di farle intendere alle volte, come per passata, per non seno che da voi altri signori si le sa grado, di questa amorevol inclinatione, la quale un di, potria essere utilissima a Sua Altezza io so quello medico, et il G. Ambasciatore conosce la persona che puo molto. Hor resta che voi altri signori facciate un buon papa, et amico; altrimenti ci farete star continuamente in gelosia delle cose nostre.</p>
+
+        <closer>Qui fo fine. Il piu obligato et fedelissimo che ella sabbia. Se non le pare troppa propositione la mia mi raccorderà spesso per divotissimo servidore di loro Altezze.</closer>
+
+        <postscript>
+          <p>L'Ambasciator di <placeName ref="#place-es">Spagna</placeName> novello, è buon cavaliero; di altro humore che non l'altro, il quale parti insalutato hospite: ha miglior casa, miglior nerbo et non sarà cosìo ruvido, ne aspero nel negotiare. Resta le appresso il medesimo ripetano regio che vi era al tempo di <persName ref="#pers-dalava-f">don Frances</persName>, et potro servire à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> Illustrissima qualche volta, benché io sarò tanto occupato, et distante qua e la, da questo maledetto offitio che posso pochissimo, ma nascondo occasione <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> si assicuri che non sarò sorde ne losco, lo vedrà.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -7,8 +7,8 @@
        <author>Filippo Cavriana</author>
        <editor>Clément Godbarge</editor>
        <respStmt>
-         <resp>Lecturer in Digital Humanities</resp>
-         <name>University of St Andrews</name>
+         <resp>Transcription and encoding</resp>
+         <name>Clément Godbarge</name>
        </respStmt>
      </titleStmt>
      <publicationStmt>
@@ -22,7 +22,7 @@
      <sourceDesc>
        <msDesc>
          <msIdentifier>
-           <settlement>Florence</settlement>
+           <placeName>Florence</placeName>
            <repository>Archivio di Stato di Firenze</repository>
            <collection>Mediceo del Principato</collection>
            <idno>551</idno>
@@ -54,7 +54,7 @@
        <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
      </editorialDecl>
      <projectDesc>
-       <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+       <p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p>
      </projectDesc>
    </encodingDesc>
    <profileDesc>
@@ -62,7 +62,7 @@
        <correspAction type="sent">
          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
          <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>
-         <date when="1570-07-15"/>
+         <date when="1570-07-15">15 July 1570</date>
        </correspAction>
        <correspAction type="received">
          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>

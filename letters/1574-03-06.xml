@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to La Señora de Florencia, 6 March 1574</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>5924</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="18r" to="19v">fols. 18r-19v</locus>
+              <title>Letter from Filippo Cavriana to La Señora de Florencia</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana reports on the discovery of the conspiracy of the Duke of Alençon and the King of Navarre against Charles IX at Saint-Germain-en-Laye, tracing its origins to the time of the Admiral (Coligny) and involving the malcontents Méru and others. He describes the Queen Mother's reaction, the court's movements, the King's repeated offers of pardon, the role of La Mole, the involvement of Guise, Nassau's military threat on the Luxembourg border, Ottoman pressure on Philip II, and the prospect of a second St Bartholomew's Day massacre.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of multiple folios. This is an inserto (copy), not the original letter.</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="sole">Hand of copyist</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated according to the project authority files. This is an inserto (copy) of a letter. The heading "Di 6. di marzo del Cavriano" appears on the copy, with "16i" noted in the top right corner of fol. 18r. Fol. 19v contains only the final two lines of text; the remaining visible marks are bleed-through from 19r.</p>
+        <p>NOTE ON DATE: The date on the copy reads 6 March; internal evidence (reference to the Admiral's death, the King of Poland, and the Alençon-Navarre conspiracy discovered February 1574) points unambiguously to 1574, not 1572.</p>
+        <p>NOTE ON PLACE: "San Germano" in this letter refers to Saint-Germain-en-Laye (the royal château), not Saint-Germain-des-Prés. A new entry is needed in placeNames.xml.</p>
+        <p>NOTE ON PERSONS: The Duke of Alençon (pers-valois-f-alen), Joseph Boniface de la Môle (pers-lamole-j), and Guillaume de Montmorency-Thoré (pers-montmorency-g-thore) need to be added to persNames.xml. The reading "turu" (fol. 18r) is identified as Thoré (= Torè on fol. 18v). Saint-Germain-en-Laye (place-saint-germain-en-laye), Provence (place-provence), Luxembourg (place-luxembourg), Flanders (place-fiandra), Naples (place-napoli), Orbetello (place-orbetello), and Porto Ercole (place-porto-ercole) need to be added to placeNames.xml. Entries for all of these are provided in authority_entries_to_add.xml.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1574-03-06">6 March 1574</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-habsburg-j">La Señora de Florencia</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="18r"/>
+        <head>Di 6. di marzo del Cavriano,</head>
+        <p>Io scrissi à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> per l'ultime mie, che non poteva andar molto tempo, e haveresti udito nuo<lb break="no"/>ve horride, et cosi è avenuto col tradimento scoperto del <persName ref="#pers-valois-f-alen">Duca d'Alansone</persName>, et <lb/><persName ref="#pers-bourbon-h-nav">Re di Navarra</persName> contro il <persName ref="#pers-valois-ch-9">Re</persName> <choice><abbr>nr̍o</abbr><expan>nostro</expan></choice> <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice> <add place="above">a 23</add> di febraro a <placeName ref="#place-saint-germain-en-laye">San Germano</placeName>. La cosa è, <lb/>di gran tempo ordita dalla malitia delle stelle, et dalli mal contenti del <persName ref="#pers-valois-ch-9">Re</persName>, et <lb/><persName ref="#pers-medici-cat">Reina</persName>, che sono infiniti, et sino al tempo dell'<persName ref="#pers-coligny-g">Amiraglio</persName>, fu posto in cuore <lb/>a <choice><abbr>q.to</abbr><expan>questo</expan></choice> figliuolo il voler <del>conoscere</del> comandare, et conoscere quello, che rompe le <lb/>amicitie, cioè <persName ref="#pers-montmorency-charles">meru</persName>, et <persName ref="#pers-montmorency-g-thore"><unclear>turu</unclear></persName>, Hora quando s'andò a compagnare il <persName ref="#pers-valois-h-3">Re di Pollo<lb break="no"/>nia</persName> a <placeName ref="#place-soissons">Suessoni</placeName> si dovea fare l'impresa fatta hora, Ma la si scopri, et cosi al <lb/>buio al buio, la madre <choice><abbr>no̍</abbr><expan>non</expan></choice> anchor ben certa della verità, tuttavia dubiosa <unclear>de</unclear> gri<lb break="no"/>dò molto <choice><abbr>fieram.te</abbr><expan>fieramente</expan></choice>, et subito la corte volò qui, egli all'hora domandò un mezo per<lb break="no"/>dono à lei, et al <persName ref="#pers-valois-ch-9">Re</persName>, havendo poi, havendo poi imbarcato tanti, et li <choice><abbr>med.i</abbr><expan>medesimi</expan></choice> seco, <lb/>è stato forza darla fuora, et per tre volte ha dimandato perdono al Re di <choice><abbr>q.to</abbr><expan>questo</expan></choice> <lb/>fatto. La cosa era ordita cosi, che poco à poco si mettevano insieme sin ad 800 <lb/>cavalli Ugonotti et <choice><abbr>Catt.ci</abbr><expan>Cattolici</expan></choice>; et elli con <persName ref="#pers-bourbon-h-nav">Navarra</persName>, fingendo andar alla caccia usciva <lb/>di corte, la qual sprovista di cosi gran numero di <choice><abbr>Cav.li</abbr><expan>Cavalli</expan></choice> era surpresa da coloro, <lb/>oltre che vi restavano molti complici, et aiutanti; che davano mano à questo <lb/>negotio. Dio pertanto misericordioso, fece che d'ogni parte, <choice><abbr>ven̍e</abbr><expan>venne</expan></choice> nuova della <lb/>assemblea, che si faceva, et <persName ref="#pers-lamole-j">la Mola</persName> gentilhuomo di <placeName ref="#place-provence">Provenza</placeName>, l'anima del <lb/><persName ref="#pers-valois-f-alen">Duca</persName>, et suo Idolo n'avvertì à tempo la <persName ref="#pers-medici-cat">Reina</persName>, stimo io vedendosi scoperto, ò <lb/>forse tocco dalla conscienza, ò dal stimolo della fellonia, Hora le difficultà, che <lb/>incontriamo intorno al remedio di questo male sono, che i Consiglieri Regij</p>
+
+        <pb n="18v"/>
+        <p>sono o ignoranti, o perfidi, o timidi, et essendoci mescolata la materna pietà, et <lb/>fraterna tenerezza, et la maggior parte de nobili <choice><abbr>nõ</abbr><expan>non</expan></choice> si sa risolvere per l'ese<lb break="no"/>cutione, se bene si è; l'essempio di <persName ref="#pers-habsburg-f">Filippo</persName> n'è qui <cit><quote xml:lang="la">profecto filio non pepercisset</quote></cit> <lb/><persName ref="#pers-montmorency-charles">Meru</persName>, <persName ref="#pers-montmorency-g-thore">Torè</persName>, <choice><abbr>fr̍lli</abbr><expan>fratelli</expan></choice> di <persName ref="#pers-montm-fr">Montmoransi</persName> vi sono interessati; egli non gia ma l'odio co<lb break="no"/>mune di Corte contro di lui trata di farvelo cadere dentro, sonovi mescolate <lb/>molte dame di Corte, conscie, et ministri di tutto, et per esservi tanta confusione <lb/><choice><abbr>nõ</abbr><expan>non</expan></choice> si sa venir à capo. Il <persName ref="#pers-valois-ch-9">Re</persName> stà con sospetto, et il <persName ref="#pers-valois-f-alen">Duca</persName> altresi, et questo <lb/>giuoco non può fornir bene. Perche havendo elli voluto <choice><abbr>nè</abbr><expan>né</expan></choice> vender il <persName ref="#pers-valois-ch-9">Re</persName>, <choice><abbr>nè</abbr><expan>né</expan></choice> <lb/>farsi capo delli Ugonotti; et haver piu assoluta auttorità di commandare, <lb/>questa gelosia <choice><abbr>nõ</abbr><expan>non</expan></choice> ci lascerà viver quieti; <cit><quote xml:lang="la">Malus enim dignitatis custos, Metus.</quote><bibl>Cicero, <title type="work">Philippicae</title> 1.14</bibl></cit> <lb/>Possiamo hora cantare col Petrarca, <cit><quote xml:lang="it">Pace <choice><abbr>nõ</abbr><expan>non</expan></choice> trovo, et <choice><abbr>nõ</abbr><expan>non</expan></choice> so da far guerra,</quote><bibl>Petrarch, <title type="work">Canzoniere</title> 134</bibl></cit> <lb/>ognuno stà sulla sua, et si provede d'armi, et cavalli, et fa monitione, non <lb/>sapendo quello, che seguirà, Preveggo che la misera madre, ò viverà con sem<lb break="no"/>piterno dolore, ò pericolo, <choice><abbr>nõ</abbr><expan>non</expan></choice> perdonando anche alli altri il stimolo di commandare, <lb/>ò sarà constretta, per fuggir l'invidia universale di ritirarsi al tutto di qui; <lb/>Habbiamo bisogno qui di quello, che abbonda in voi, cioè del Consiglio, et certo che <lb/>se Dio non ci pon la mano stiamo male. La Corte è tanto data à vita nefa<lb break="no"/>ria, che quelle delli Assirij tanto biasimate dalli antichi <choice><abbr>nõ</abbr><expan>non</expan></choice> l'avanzano, Ma<lb break="no"/>raviglio, questa donna, e <choice><abbr>constantem.te</abbr><expan>constantemente</expan></choice> in questi frangenti; nè perde punto cosa <lb/>alcuna dell'ordinario suo del bere, mangiare, et dormire, et trattar come innanzi <lb/>le cose publiche, tanto che <choice><abbr>nõ</abbr><expan>non</expan></choice> so se <unclear>sento</unclear>, ò l'ha del divino, che <choice><abbr>nõ</abbr><expan>non</expan></choice> è offeso da cosa</p>
+
+        <pb n="19r"/>
+        <p>terrena, Io vorrei esser fuori di qui, perche conviene seguendo l'uno offendere <lb/>l'altro, et star separato da questi freschi à chi è, cortigiano è impossibile <lb/>poiche il sospetto tosto entra nella mente de partigiani; Ma <choice><abbr>nõ</abbr><expan>non</expan></choice> so alcuna patria <lb/>poiche havendo perduto tutto il mio patrimonio, per una lite perdei seco la <lb/>patria, perche fuggimi la voluttà di ritornarvi piu, fra <choice><abbr>q.to</abbr><expan>questo</expan></choice> desidero l'aiuto <lb/>et consiglio di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> la qual <unclear>consta</unclear> <choice><abbr>ch̍</abbr><expan>che</expan></choice> io sia <choice><abbr>Serv.re</abbr><expan>Servitore</expan></choice> di quelle <choice><abbr>lor</abbr><expan>loro</expan></choice> <choice><abbr>S.rie</abbr><expan>Signorie</expan></choice> <choice><abbr>Ill.me</abbr><expan>Illustrissime</expan></choice> Casa, <lb/><persName ref="#pers-guise-h">Guisa</persName> se è mostrato aperto nemico del <persName ref="#pers-valois-f-alen">Duca</persName>, et non ne fa conto, si vuol far <lb/>come innanzi; impiástrar il male, perche piu incrudisca, cosi si maneggia <lb/>la pace con gli Ugonotti, che ci darà su le orecchie, et il <persName ref="#pers-nassau-l">Conte Lodovico</persName> <lb/>fratello d'<persName ref="#pers-nassau-w">Oranges</persName> è alli confini di <placeName ref="#place-luxembourg">Luxemburg</placeName> con grosso essercito, et ci pone <lb/>paura, temendo noi, che dicendogli bene la fortuna, come ha cominciato <lb/>in <placeName ref="#place-fiandra">Fiandra</placeName>, egli volga l'armi contro di noi; da quali è stato offeso, et bur<lb break="no"/>lato al tempo dell'<persName ref="#pers-coligny-g">Amiraglio</persName> per l'impresa di <placeName ref="#place-fiandra">Fiandra</placeName>, et con esso sono <lb/>molti Francesi bravi, et risoluti, i quali serveno ad accender il fuoco. <lb/>questa festa di <placeName ref="#place-fiandra">Fiandra</placeName> fa per noi, perche la necessità, nella quale <lb/>entra <persName ref="#pers-habsburg-f">Filippo</persName>, lo constringerà havendo il <persName ref="#pers-osmanli-s2">Turco</persName> alla porta di <placeName ref="#place-napoli">Napoli</placeName> per <lb/>giunta, à rendersi <placeName ref="#place-orbetello">Orbatello</placeName>, et <placeName ref="#place-porto-ercole">Portarcole</placeName>, che piaccia à Dio sia ben basso, <lb/>acciò <choice><abbr>ch̍</abbr><expan>che</expan></choice> io sia partecipe di cosi grate viste, et ivi conservi, come à mia <lb/>dovuta sepoltura <choice><abbr>q.to</abbr><expan>questo</expan></choice> capo, et questa alma, Honore è, <unclear>mette</unclear> qui di sicurtà <lb/>ne di buono, et conviene al primo ammazamento già di san Bartolomeo <lb/>segua il secondo più fiero, et più empio, che Dio <choice><abbr>nõ</abbr><expan>non</expan></choice> ne voglia, però noi</p>
+
+        <pb n="19v"/>
+        <p>allor più havereti obligo alli ochi vostri, che non haverano visto queste carnifi<lb break="no"/>cine di <placeName ref="#place-paris">Parigi</placeName> &amp;c.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

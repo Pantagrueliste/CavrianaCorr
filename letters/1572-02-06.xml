@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Inserto di Francia del Cavriano, 6 February 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>5924</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="17r" to="17v">fols. 17r-17v</locus>
+              <title>Inserto di Francia del Cavriano</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note
+                                type="summary"
+                            >Intelligence report on French affairs: the King's focus on enemies, judicial reform, money sent to Geneva, factional tensions between Alençon, Navarre, Montmorency, and the Queen Mother, military preparations, Huguenot movements in Flanders and western France, and fears of a renewed civil war.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote
+                                xml:id="hand1"
+                                scope="sole"
+                            >Unknown hand (copy)</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p
+                >Named entities are annotated only in the main hand. This is a copy; the original hand is unknown.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p
+                >All places and persons are referenced from placeNames.xml and persNames.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#">Corte</placeName>
+          <date when="1572-02-06">6 February 1572</date>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="17r" />
+        <head>Inserto di <placeName
+                        ref="#place-fr"
+                    >Francia</placeName> del <persName
+                        ref="#pers-cavriana-f"
+                    >Cavriano</persName></head>
+        <p>Il <persName
+                        ref="#pers-valois-ch-9"
+                    >Re</persName> comíncia a porre il suo spirito alli nemici; et <choice
+                    ><abbr>qs.ta</abbr><expan
+                        >questa</expan></choice> cagione lo rendera molto <lb
+                    />melancolico, alqual huomini e di <choice><abbr
+                        >gra̍</abbr><expan
+                        >gran</expan></choice> bene inclinato, Ha ripreso <choice
+                    ><abbr>agram.te</abbr><expan
+                        >agramente</expan></choice> li Iudici <lb
+                    />della <choice><abbr>iust.a</abbr><expan
+                        >iustitia</expan></choice> perché la vendevano et minacciatoli. In <placeName
+                    >Ginivra</placeName> sono stati portati <lb />d'<placeName
+                        ref="#place-it"
+                    >Itlia</placeName> m/150 scudi, et questo so di bocca d'<persName
+                    >Andrea Birago</persName>, che n'havvertito <lb
+                    />il <persName
+                        ref="#pers-valois-ch-9"
+                    >Re</persName>. Questo fatto è da tenere a <choice><abbr
+                        >mem.a</abbr><expan
+                        >memoria</expan></choice>, che vi scriverà contro vostri adversarj <lb
+                    />undi, et so quello, che dico, <persName
+                    >Alansone</persName> sa il governo delle cose, ma la <persName
+                        ref="#pers-medici-cat"
+                    >madre</persName> <lb />lo tiene basso, et il <persName
+                        ref="#pers-valois-ch-9"
+                    >Re</persName> <choice><abbr>no̍</abbr><expan
+                        >non</expan></choice> ama, che se li domandi gratia col <choice
+                    ><abbr>intervēto</abbr><expan
+                        >intervento</expan></choice> d'altri <lb
+                    />che della <persName
+                        ref="#pers-medici-cat"
+                    >madre</persName>, tanto che pare vi frà gelosia tra loro <persName
+                        ref="#pers-montm-fr"
+                    ><choice><abbr>Montmorāsi</abbr><expan
+                            >Montmoransi</expan></choice></persName> <choice
+                    ><abbr>co̍</abbr><expan>con</expan></choice> <choice><abbr
+                        >frelli</abbr><expan>fratelli</expan></choice> <lb
+                    /><unclear
+                    >molta</unclear>, governa parte delle cose, con tutto che vi si conosce <choice
+                    ><abbr>no̍</abbr><expan
+                        >non</expan></choice> so che di diffi<lb
+                        break="no"
+                    />denza, <persName ref="#pers-valois-f-alen">Alansone</persName>, <persName
+                        ref="#pers-bourbon-h-nav"
+                    >Navarra</persName>, et per lui i <unclear
+                    >i Tiran.te</unclear>. Il <persName
+                        ref="#pers-valois-ch-9"
+                    >Re</persName> cosi cosi, La <persName
+                        ref="#pers-medici-cat"
+                    >madre</persName> <lb />tutto in contrario, <unclear
+                    >mai</unclear> finge, le due case sono reconciliate esteriormente. Siamo <lb
+                    />privi di denari in tutto et per tutto, et quello che piu importa di consigli <lb
+                    />si cassarono tutti quelli parevono superflui allo stato del <persName
+                        ref="#pers-valois-ch-9"
+                    >Re</persName>, <choice><abbr>Subitam.te</abbr><expan
+                        >Subitamente</expan></choice> <lb
+                    />poi sono stati rimessi, che è segno e haveremo guerra, anchorche <choice
+                    ><abbr>nō</abbr><expan>non</expan></choice> la vo<lb
+                        break="no"
+                    />gliamo, I nimici crescono molto, et <choice><abbr
+                        >háno</abbr><expan
+                        >hanno</expan></choice> mandato in <placeName
+                        ref="#place-de"
+                    >Germania</placeName> denari <lb /><choice><abbr
+                        >p</abbr><expan>per</expan></choice> levar <choice><abbr
+                        >gēti</abbr><expan
+                        >genti</expan></choice>, ogni di pigliano qualche loghetto, et hanno per tutto in<lb
+                        break="no"
+                    />telligenze, et <choice><abbr>tradimēti</abbr><expan
+                        >tradimenti</expan></choice>, de quali alcuni sono stati poco fa scoperti, et <lb
+                    />noi <choice><abbr>nō</abbr><expan
+                        >non</expan></choice> lo crediamo, perché tanta è la copia delli adulatori, et d'altra <lb
+                    />parte tanti, che parlano per loro interessi, che <choice
+                    ><abbr>nō</abbr><expan
+                        >non</expan></choice> si puo creder quello <lb
+                    />che si vede, et prova, le quali cosi rendono irresoluti gl'animi di <lb
+                    />quei che governano et tardi alle attioni, Il <persName
+                        ref="#pers-valois-ch-9"
+                    >Re</persName> s'è molto invecchiato <lb
+                    />et debilitato, et dice volersio trovar alla guerra in persona ad aprile, <lb
+                    />la rotta delli spagnoli in <placeName
+                    >fiandra</placeName> è la vita delli Ugonotti di <placeName
+                        ref="#place-fr"
+                    >Francia</placeName>,</p>
+        <pb n="17v" />
+        <p>capi de quali è stato gridato <persName
+                    >Mongomeri</persName>, et <persName
+                    >la Nua</persName>, il quale è alla <placeName
+                        ref="#place-rochelle"
+                    >Roccella</placeName>, <lb
+                    />dove concorron'ogni di genti, Ma noi con denari, officij, amabasciate et preghi <lb
+                    />facciamo conoscere ad <persName
+                        ref="#pers-nassau-w"
+                    >Oranges</persName>, che gli vogliamo <choice><abbr
+                        >es̄e</abbr><expan
+                        >essere</expan></choice> amici et fautori perché <lb
+                    />perché <choice><abbr>nō</abbr><expan
+                        >non</expan></choice> aiuti li Ugonotti cosi noi coviamo il foco in <placeName
+                    >Fiandra</placeName>, come il <lb /><persName
+                    >Duca d'Alba</persName> ce lo <choice><abbr
+                        >mātenne</abbr><expan
+                        >mantenne</expan></choice> in <placeName
+                        ref="#place-fr"
+                    >Francia</placeName>, è stato fatto credere alla <persName
+                        ref="#pers-medici-cat"
+                    ><choice><abbr>Reg.a</abbr><expan
+                            >Regina</expan></choice></persName> <lb
+                    />che era congiura contro lei, et n'ha havuto gran paura, ma la cosa <lb
+                    />è passata sotto silentio, et pure n'era qualche cosa/ Noi <choice
+                    ><abbr>nō</abbr><expan>non</expan></choice> partiamo <lb
+                    />di qui, perché <persName ref="#">Mongomeri</persName> è a <unclear
+                    >Granisi</unclear> Isole in vista di <placeName
+                        ref="#place-normandie"
+                    >Normandia</placeName> né si fa suo <lb
+                    />disegno, et in <placeName
+                        ref="#place-normandie"
+                    >Normandia</placeName>, <placeName
+                        ref="#place-bretagne"
+                    >Brettagna</placeName>, <placeName
+                        ref="#place-anjou"
+                    >Angiù</placeName>, poiché v'è romore,</p>
+        <closer>
+          <dateline>Di Coprte il di <date
+                            when="1572-02-06"
+                        >6 di Febbraro</date></dateline>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

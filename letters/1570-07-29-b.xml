@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,14 +22,14 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>551</idno>
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus>218r</locus>
+              <locus from="218r" to="218r">218r</locus>
               <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
@@ -55,7 +55,7 @@
         <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
       </editorialDecl>
       <projectDesc>
-        <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+        <p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p>
       </projectDesc>
     </encodingDesc>
     <profileDesc>

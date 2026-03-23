@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 22 April 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="102r" to="104r">fols. 102r-104r</locus>
+              <title>Letter from Filippo Cavriana, 22 April 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Intelligence on Franco-Spanish tensions, Flanders preparations, Nassau, Strozzi's armada, the Cardinal d'Este's influence, and cipher on the cavaliere da Este.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-blois">Bles</placeName>
+          <date when="1572-04-22">22 April 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.ma in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="102r"/>
+        <p>Non vorrei che Vostra Signoria Illustrissima pensasse alle colte che per haver io ricevuto repulsa da sua Altezza della gratia che le dimandai dell'antianità, mi fussi rallentato del desiderio et uffitio di servirla. Perciochè ricevendo, ogni cosa in grado, di quello che à lei piace d'ordinare nella persona mia, non son mai per lasciare a parte quello, che crederò essere di suo servitio. Hor di qua non c'è molto che dire. Grandi sono i sospetti dell'una, et altra parte, et da amendue si sta sull'aviso benché da Spagna, molto più, che da Francia, come quella che si teme di novità. In fiandra grande apparecchio di guerra, di gente assoldata, et molto piu di denari, cavati parte del publico, parte da privati, parte da parsimonia del vivere, et parte da nove impositioni; et perché si vede che i ribelli del re filippo, sono portati da francesi, et qui è Nassau assai amato da questa natione, si sta espettando novo vespero in Fiandra. Ma le galline malamente covano fuori del loro nido, et gia si conosce, chi noi non possiamo ne siamo per potere si molti mesi dovendosi pagar Raiteri dar dote à Madama, rendere alcune prestanze, fabricar galere et fortificarre alcuni luoghi di provenza, in questo mezzo, novi accidenti nascono, et le colonie de spagniuoli si drizzano in Fiandra, et altri paesi bassi, et chi haverà, o sfortunatamente, o impudentemente cominciato novità et di casa sua si troverà cacciato, verrà qui a mendicar il pane, grato per un poco di tempo, ma col progresso del medesimo, amarissimo et ingratissimo. Strozzi stava per andare con la</p>
+        <pb n="102v"/>
+        <p>sua armata al viaggio da lui et da doi altri ordinato, et gia haveva posto in assetto tutto. Ma qui si espetta il baron della Guardia Almirante del mar mediterraneo, per lo re, il quale ritroverà forsi altra deliberatione nella mente di loro Maestà che sia qui non haveva pensato, Percioché la non si vorria rompere con Spagna, et questo viaggio, non puo essere che o diritta, o transversamenti in alcun modo non offenda Filippo onde alla venuta sua da Bordeaux, dove faceva l'apalto, et messa delle sue genti, qui in corte; si saperà se l'armata parte o no. Dove ella vada, non sia sa di certo; altri vogliono in Scotia, altri in Portogallo, altri in Algieri, et altri al mondo novo, Ma per mio parere l'avaritia, gli potria far precipitare, et poiché sono soldati, per lo piu volontarij, et non avessi al travaglio del mare; o si distronirà da se, non vi essendo leggittimo imperatore, o sulla fine i vassalli anderanno, che qua, et che le predando, et rubando il mare, come ha fatto Nassau, in quella costa di la Roscella et di Brettagna. So bene che il barone della guardia, gia molti anni, ha alcuni pensieri di cercare nove isole, et hora vorria effettuare il desiderio, ma non sò come piacerà a Spagna in questi tempi, che da quella si vive con tanto sospetto, Basta che si sia dove vada à trovar terra, et pare un miracolo che stia tanto sospeta? questa impresa; la dove spagniuoli hanno un martello grandissimo, per non saperlo, il che causa loro grossa sopesa, dovendo munire tanti luoghi; et</p>
+        <pb n="103r"/>
+        <p>provederli di grossissimi presidij. Quello che haverà trattato Monsignore di Villeruel, cavagliere fiammingo mandato qui dal duca d'Alva, Vostra Signoria l'intenderà da quel suo amico, percioche oltre à complimenti, si dolse della piratteria, che si esserci fatta da Francesi nelli mari di ponente, et di tramontana; delle preparationi di guerra, le quali parevano dirizzate verso il paese basso. Ma come ho detto l'amico le farà ampiamente sapere il tutto; perché non dorme. Questa gioventù è tutta ardente, cupida di novità et tanto amica di movimento che non puo star in otio; et si non che, il re et reina desiderano pace. Si comincieria tumulto onde conviene con nova procella portarne 10 mila o 12 mila in qualche parte a menar le mani, altrimenti questo povero corpo, non serà sano et la giustitia, non è assai possente a purgare gli humori. Noi poi facciamo come potemo il meglio, non perdiamo del nostro un punto, ma non possiamo acquistare anche tanto, che non siamo in molte cose, soprafatti dalla presenza del <seg type="cipher" subtype="numeric">21219134512151543171731</seg> <supplied reason="deciphered">cavaliere da este</supplied>, perché egli con doni, con banchetti, con visite licite, et concesse a lui et noi solte, con modi inusitati, et non conosciuti, et con aderenze che egli ha, ci opprime; credami V.S. che possono molto le parole, et le accoglienze, ma i doni? molto piu, havendo eglino forza di placare gli Idoli et però facciamo di vero quanto possiamo; ma che possiamo? Quando l'andava da solo a solo, et da tu per tu, si vide questo che si sapeva</p>
+        <pb n="103v"/>
+        <p>con l'industria nostra operare, ma hora basta a diffendersi non havendo noi questo numero d'amici fedeli, et autorevoli che seria bisogno, Però se qui fusse huomo, che havesse polso del spendere, io crederei, che si farieno molte cose, che non si fanno. Ma questa parte, dio sa, come seria cara ad alcuni, se la fusse loro letta ob signore che questi luoghi, et questi tempi; portano seco questa necessità, alla quale, dio sa qual altra provisione si le possa fare. Si è scoperto un numero di streghe et altri che ammaliano le genti, che pare incredibile; et con tutto il fuoco che si le da per pena, il diavolo sempre mai ne intrica nuove legioni, onde non se ne puo diffendere. Querele infinite tra cavaglieri di corte, et rumori, et sempre mai nove dissensioni, si odono ogni di. La corte è, piccola, non c'è alcun prencipe che Nevers; Mamoransi e ito in Inghilterra, per legar la lega, et con questo potria scattare di maritaggio, della reina con Mons. le duc, ma questo o l'accessorio et copertura, L'altro è il principale. Giubilan le due antique reine del accordo per il matrimonio ne par loro di dover tanto vivere, che veggano i loro figliuoli accompagnati; ob come sta vita? Navarra, o come la reina madre, o come la piu gran parte del regno, poiche seranno unite di volontaria concordia le due case le quali havevano con diversi pretesti contrastato. Il conte ludovico, si mantiene, corteggia di continuo Navarra et ha nel sembiante qualche disegno di nova impresa nelle mani.</p>
+        <pb n="104r"/>
+        <p>La quale potria succederle, et non succederle, <seg type="cipher" subtype="numeric">131251454717174134331171220201712</seg> <supplied reason="deciphered">da ministri di Ferrara</supplied> si <seg type="cipher" subtype="numeric">13161531</seg> <supplied reason="deciphered">vuole</supplied> molto. Che noi siamo <seg type="cipher" subtype="numeric">1312151617201651</seg> <supplied reason="deciphered">da loro</supplied> cosi ben visti, et pare che quelle tenghino sospette nelle cose, che tra di noi et quelli vertiscono, onde mandano alle volte, certe voci fuori piene di passione et di lamenti; per contro lodando <seg type="cipher" subtype="numeric">207161121452012</seg> <supplied reason="deciphered">Spagna</supplied>, et gli avversarij della nostra grandezza, et di lui insieme di <seg type="cipher" subtype="numeric">2317112201731</seg> <supplied reason="deciphered">cesare</supplied> si promettono molto. Quest'amico. mi tornò di nuovo a dire, che bisognava caminare di buone gambe, con <seg type="cipher" subtype="numeric">71611214512</seg> <supplied reason="deciphered">spagna</supplied> come si haveva fatto pel passato, et che egli non haveria fatto mossa alcuna, ma se va intertenuto, spiando con la sua flemma le nostre attioni, le quali poi, come fossero state consosciute cattive, al pesar de quien quisiera haverna gastigato acertosissimamente. Ritornomi pur di nuovo à dire di quei millioni d'oro et chi la morte del papa seria stata molto, mal à proposito per lui, Perché sperava con progresso di tempo, farsi chiamar Re, per dar compimento alla sua ambitione, et calcar gli altri, cosa che non le seria venuta, sotto altro papa, cosi facilmente, come sotto questo, che le era così indulgente. Et questo basti poiché sono al fine della carta, serà anche della lettera. bacio le mani a Vostra Signoria Illustrissima, con tutto l'animo.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-blois">Bles</placeName> il 22 di Aprile del LXXIJ</dateline>
+          <signed><persName ref="#pers-cavriana-f" type="alias">Chi ella sa</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 4 November 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="314r" to="314v">fols. 314r-314v</locus>
+              <title>Letter from Filippo Cavriana, 4 November 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Report on the collapse of Montmorency's faction, death of Damville, Ferrarese diplomacy, papal equilibrium, La Rochelle and Sancerre sieges, and Orange's winter quarters.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-11-04">4 November 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.re in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="314r"/>
+        <p>Le cose di qua più torbide per noi, che prima percio che gli nostri avversarij, non lasciano a dietro alcuna sorte d'offitio o complimento per levarsi i favori, che solevano havere. la fattione di Mamoransi è talmente caduta che non rilevrà d'un pezzo, et tanto più si è unita la morte di Danville Maresciallo che è certificata quasi di ognuno di corte; et veggo che i suoi parenti medesimi, parte prendendo la borrasca, che le viene addosso, parte guidati dalla poco lodevole consuetudine delli huomini cortigiani, hanno lasciato Mamoransi et si sono attacati à chi ha in mano il governo delle cose loro, et alla parentela che è. Ma io temo tanto dalle malie di queste donne, dalle sollecitazioni di certi ministri, che hanno i nostri avversarij, et dalla natura di questo paese, inconstante, vano et versatile, che non ci veggo fermezza, ne in le parole, ne in gli uffitij che faranno fare. E pure, poichè di loro, si ha bisogno, conviene mostrar di credere ogni cosa et tenerseli piu che si può amici, o se questo non si può, non almeno contrarij, hoggi ha fatto riverenza alla reina madre, vespasiano Mancino Ferrarese, favorito del Duca. et le ha narrato la morte della duchessa et il medesimo uffitio ha fatto con tutti i signori di corte, della sua fattione, che sono tutti quanti, et sul fine aggianse à tutti che le raccomandava la riputatione et grandezza del Duca suo, come quello che era figliuolo naturale, et vero di questa corona, et pregava loro, che non lo lasciassero soprafare in alcuna maniera, da chi à torto la voleva offuscare et ragionando al longo, disse che il papa havendo visto che dalla contesa di principi, nasceva il vilipendio del publico, et l'esterminio del christianesimo; haveva risoluto</p>
+        <pb n="314v"/>
+        <p>di tenere le cose in equilibrio, et non favoreggiare piu l'uno che l'altro, si come pare che habbia cominciato ad effettuare, onde Ferrara, et Mantova; certificati da questa volontà tramavano qualche cosa. Hor pensi Vostra Signoria che non serà per farne bene. Di questo senso furono le sue parole. Et io ho poi udito dire dal vescovo di Lodeva, gia agente qui, del Cardinale di Ferrara, che la Reina Madre era sospetta al Duca, onde i suoi ministri et i suoi parenti abbracciavano Monsignore et se lo tenevano piu grato che possono. Se Loreno col Cardinal d'Este vengono, haveremo una gran calca. Ma io so certo che colui non durerà in corte, et forsi haverà paura, del esempio di morti. So quello che vi dico. Non si va anche alla Roscella, dubitandosi di ricevere un affronto con l'esempio di Carlo Quinto, quando ando a Metz et oltre questo, si sta con speranza che si possi emendare Per lo che Lanoa, et Labayes vi sono iti: ma se non portano risolutione, Monsignore vi va, et si farà quanto si potrà, per haverla hannoci mandato Pietro Paolo Tosingho per riconoscerla et rapportando che l'impresa sia facile, non si guarderà ne à stagione ne à gente ma se per il contrario, non vi andrà che Tavanes. Non si vede in corte alcuno che della fattione di Ghisa, et la reina Madre gli accarezza sin tanto, che non presumino di volere governare et essere compagni. Perchè se questo vorranno intraprendere si ripentiranno. La reina moglie sta bene et ha partorito con poca fatica et è molto cara al re, espettiamo una legione di scuvilleri che servirà di corpo per l'esercitio. Sanserra fa il diavolo. Ma al fine la perderà, così farà Montalbano, et Monpelieri, i quali si arrenderanno e seranno desolati. Oranges s'inverna in Gheldonia per fare un'altra favata questa primavera.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> alle 4 di Novembre del Lxxij</dateline>
+          <signed><persName ref="#pers-cavriana-f" type="alias">Thomaso della paglia</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

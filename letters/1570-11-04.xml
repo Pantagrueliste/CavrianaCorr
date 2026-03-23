@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,7 +22,7 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>555</idno>
@@ -54,7 +54,7 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName>
           <placeName ref="#place-paris">Parigi</placeName>
-          <date when="1570-11-04"/>
+          <date when="1570-11-04">4 November 1570</date>
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
@@ -85,7 +85,7 @@
         </closer>
         
         <p>Post scriptum<lb/>
-        le compagnie, che andavano in <placeName ref="#place-piemonte">piemōte</placeName>, sono restate in Delphino, temendosi che ivi non cominciate principio di guerra, essendovi ughonotti assai forti, oltre ciò, per non esservi denari, da pagarle; senza gli quali, <choice><abbr>nō</abbr><expan>non</expan></choice> vogli<lb break="no"/>ono marciare; il presidente Monfort, mandato dal <persName ref="#pers-savoy-em-fil">duca di savoia</persName>, a questa corte, per vedere se, in questa necessità de denari, potesse ricuperare le terre del <placeName ref="#place-piemonte">piemonte</placeName>, dandole cinque, overo sei cento mille scudi, in <choice><abbr>pstanza</abbr><expan>prestanza</expan></choice>, in dono, o in orgni altra maniera, <choice><abbr>nō</abbr><expan>non</expan></choice> ha ottenuto niente, et la <persName ref="#pers-medici-cat">reina</persName> non vuol dar orecchia a queste cose, se bene e nella povertà sino alli occhi, poiche niun <persName ref="#pers-valois-ch-9">re</persName>, fu mai posto priggion <unclear></unclear> debiti. Vero, e, che il detto presidente, dice essere mandato qui ad altro fine, ma che udito l'ha parlar alla <persName ref="#pers-medici-cat">reina</persName> <choice><abbr>privatam̄<lb break="no"/></abbr><expan>privatamente</expan></choice> ha raccolto questo; che <choice><abbr>nō</abbr><expan>non</expan></choice> si sa per ogni luogo.</p>
+        le compagnie, che andavano in <placeName ref="#place-piemonte">piemōte</placeName>, sono restate in Delphino, temendosi che ivi non cominciate principio di guerra, essendovi ughonotti assai forti, oltre ciò, per non esservi denari, da pagarle; senza gli quali, <choice><abbr>nō</abbr><expan>non</expan></choice> vogli<lb break="no"/>ono marciare; il presidente Monfort, mandato dal <persName ref="#pers-savoy-em-fil">duca di savoia</persName>, a questa corte, per vedere se, in questa necessità de denari, potesse ricuperare le terre del <placeName ref="#place-piemonte">piemonte</placeName>, dandole cinque, overo sei cento mille scudi, in <choice><abbr>pstanza</abbr><expan>prestanza</expan></choice>, in dono, o in orgni altra maniera, <choice><abbr>nō</abbr><expan>non</expan></choice> ha ottenuto niente, et la <persName ref="#pers-medici-cat">reina</persName> non vuol dar orecchia a queste cose, se bene e nella povertà sino alli occhi, poiche niun <persName ref="#pers-valois-ch-9">re</persName>, fu mai posto priggion <unclear>per</unclear> debiti. Vero, e, che il detto presidente, dice essere mandato qui ad altro fine, ma che udito l'ha parlar alla <persName ref="#pers-medici-cat">reina</persName> <choice><abbr>privatam̄<lb break="no"/></abbr><expan>privatamente</expan></choice> ha raccolto questo; che <choice><abbr>nō</abbr><expan>non</expan></choice> si sa per ogni luogo.</p>
 
         <pb n="333bis"/>
         <p>Il <persName ref="#pers-gonzaga-l-nev">Duca di Nevers</persName>, va migliorando della gamba, alla quale pati dome<lb break="no"/>nica passata, andando a torre il giubil alla chiesa de cordellieri, una gran storta, simile a quella c hebbe gia un mese nel cocchio, et questa, per colpa di chi lo protava in sedia, di sorte che, questo signore, serà per un pezzo valetudinario. <persName ref="#pers-guise-h">Ghisa</persName> sta bene, et attende alli piaceri. Il <persName ref="#pers-lorraine-ch-card">cardinal di loreno</persName>, è ito a Rems, suo arcivescovato <unclear>per</unclear> ricevere ivi la <persName ref="#pers-medici-cat">reina</persName>, <choice><abbr>q̍ndo</abbr><expan>quando</expan></choice> venirà, la quale vera fia avertita da la madre di <persName ref="#pers-montm-fr">Momoransi</persName>, come si debba portare <choice><abbr>co̍</abbr><expan>con</expan></choice> quella famiglia. Il <persName ref="#pers-lorraine-c">Duca di loreno</persName> è qui grasso et grosso, et amatore delle feste, et delli piaceri. Il <persName ref="#pers-valois-ch-9">re</persName> attende alle caccie, et per colpa della licenza intro<lb break="no"/>dotta dalla calamita della guerra civile, qualche volte, al <choice><abbr>bestem̄iare</abbr><expan>bestemiare</expan></choice> Di et notte, la <persName ref="#pers-medici-cat">reina</persName> è, <choice><abbr>cō</abbr><expan>con</expan></choice> <persName ref="#pers-france-c">madama di loreno</persName>, suo idolo in quel sesso et non si satia mai della sua presenza, ne delle sue parole.</p>

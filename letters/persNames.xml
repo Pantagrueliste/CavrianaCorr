@@ -26,7 +26,10 @@
 
   <text>
     <body>
-      <listPerson><!-- Other Historical Figures --><person xml:id="pers-medici-cos-1">
+      <listPerson>
+
+        <!-- Italian Noble Houses – Medici Dynasty -->
+        <person xml:id="pers-medici-cos-1">
           <persName>Cosimo I de' Medici</persName>
           <persName type="alias">Gran Duca</persName>
           <sex value="male"/>
@@ -47,6 +50,7 @@
           <idno type="VIAF">100212180</idno>
         </person>
 
+        <!-- Italian Noble Houses – Este -->
         <person xml:id="pers-este-a">
           <persName>Alfonso d'Este</persName>
           <sex value="male"/>
@@ -61,6 +65,7 @@
           <idno type="VIAF">74104371</idno>
         </person>
 
+        <!-- Italian Noble Houses – Savoy -->
         <person xml:id="pers-savoy-em-fil">
           <persName>Emanuele Filiberto di Savoia</persName>
           <sex value="male"/>
@@ -74,6 +79,7 @@
           <occupation type="nobility">Marquis of Susa</occupation>
         </person>
 
+        <!-- Italian Noble Houses – Gonzaga -->
         <person xml:id="pers-gonzaga-gugl">
           <persName>Guglielmo Gonzaga</persName>
           <sex value="male"/>
@@ -92,12 +98,12 @@
           <idno type="VIAF">66529198</idno>
         </person>
 
+        <!-- Other Italian Noble Houses -->
         <person xml:id="pers-galeazzosanseverino-g">
           <persName>Gian Galeazzo Sanseverino</persName>
           <sex value="male"/>
           <birth>1527</birth>
           <death>1575</death>
-          <idno type="VIAF">4166955799046910252</idno>
         </person>
 
         <person xml:id="pers-birague-c">
@@ -106,9 +112,14 @@
           <sex value="male"/>
           <occupation type="nobility">Chevalier de St Michel</occupation>
           <occupation type="nobility">Chevalier du St Esprit</occupation>
-          <idno type="VIAF">451148389482610711686</idno>
         </person>
 
+        <person xml:id="pers-pazzi-f">
+          <persName>Filippino Pazzi</persName>
+          <sex value="male"/>
+        </person>
+
+        <!-- French Royal House – Valois -->
         <person xml:id="pers-valois-ch-9">
           <persName>Charles IX</persName>
           <persName type="alias">Re</persName>
@@ -129,7 +140,18 @@
           <death>1615-03-27</death>
           <idno type="VIAF">78750412</idno>
         </person>
+        <person xml:id="pers-valois-f-alen">
+          <persName>François de Valois</persName>
+          <persName type="alias">Duca d'Alansone</persName>
+          <persName type="alias">Monseigneur le Duc</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Alençon, later Duke of Anjou</occupation>
+          <birth>1555-03-18</birth>
+          <death>1584-06-10</death>
+          <idno type="VIAF">88890786</idno>
+        </person>
 
+        <!-- French Royal House – Bourbon -->
         <person xml:id="pers-bourbon-h-nav">
           <persName>Henri de Bourbon</persName>
           <sex value="male"/>
@@ -144,6 +166,7 @@
           <idno type="VIAF">15202389</idno>
         </person>
 
+        <!-- French Noble Houses – Lorraine -->
         <person xml:id="pers-lorraine-ch-card">
           <persName>Charles de Lorraine</persName>
           <persName type="alias">Lorena</persName>
@@ -158,12 +181,72 @@
           <occupation type="nobility">Duke of Aumale</occupation>
           <idno type="VIAF">120178357</idno>
         </person>
-        <person xml:id="pers-lorraine-chr">
-          <persName>Christine de Lorraine</persName>
-          <sex value="female"/>
-          <occupation type="nobility">Princess of Lorraine</occupation>
-          <idno type="VIAF">4230910</idno>
+
+        <person xml:id="pers-lorraine-c">
+          <persName>Charles III de Lorraine</persName>
+          <sex value="male"/>
+          <birth>1543-02-18</birth>
+          <death>1608-05-14</death>
+          <idno type="VIAF">59905716</idno>
         </person>
+        <person xml:id="pers-lorraine-h1">
+          <persName>Henri de Lorraine</persName>
+          <persName type="alias">Loreno</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Guise</occupation>
+          <idno type="VIAF">69048019</idno>
+        </person>
+
+
+        <!-- French Noble Houses – Guise -->
+        <person xml:id="pers-guise-h">
+          <persName>Henri de Guise</persName>
+          <persName type="alias">Guisa</persName>
+          <persName type="alias">Duca di Ghisa</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Guise</occupation>
+          <idno type="VIAF">34454133</idno>
+        </person>
+
+        <!-- French Noble Houses – Montmorency -->
+        <person xml:id="pers-montm-fr">
+          <persName>François de Montmorency</persName>
+          <persName type="alias">Montmoransy</persName>
+          <persName type="alias">Mamoransi</persName>
+          <sex value="male"/>
+          <occupation type="military">Marshal of France</occupation>
+          <idno type="VIAF">67259075</idno>
+        </person>
+        <person xml:id="pers-montmorency-charles">
+          <persName>Charles de Montmorency</persName>
+          <persName type="alias">Méru</persName>
+          <persName type="alias">Damville</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Damville</occupation>
+          <occupation type="military">Marshal of France</occupation>
+          <birth>1537-03-31</birth>
+          <death>1612-05-05</death>
+        </person>
+        <person xml:id="pers-montmorency-g-thore">
+          <persName>Guillaume de Montmorency-Thoré</persName>
+          <persName type="alias">Torè</persName>
+          <persName type="alias">Thoré</persName>
+          <persName type="alias">turu</persName>
+          <sex value="male"/>
+          <occupation type="military">Military commander</occupation>
+          <birth>c. 1543</birth>
+          <death>1593</death>
+          <note>Brother of François de Montmorency and Charles de Montmorency (Méru). Implicated in the Malcontent conspiracy of 1574.</note>
+        </person>
+        <person xml:id="pers-montmorency-h">
+          <persName>Henri de Montmorency</persName>
+          <persName type="alias">Danville</persName>
+          <sex value="male"/>
+          <occupation type="military">Marshal of France, Governor of Languedoc</occupation>
+          <idno type="VIAF">68977937</idno>
+        </person>
+
+        <!-- French Noble Houses – Other -->
         <person xml:id="pers-deteligny-c">
           <persName>Charles de Téligny</persName>
           <sex value="male"/>
@@ -178,33 +261,12 @@
           <death>1592</death>
           <idno type="VIAF">44293531</idno>
         </person>
-        <person xml:id="pers-lorraine-c">
-          <persName>Charles III de Lorraine</persName>
-          <sex value="male"/>
-          <birth>1543-02-18</birth>
-          <death>1608-05-14</death>
-          <idno type="VIAF">59905716</idno>
-        </person>
         <person xml:id="pers-france-c">
           <persName>Claude de France</persName>
           <sex value="female"/>
           <birth>1547-11-12</birth>
           <death>1575-02-21</death>
           <idno type="VIAF">305115069</idno>
-        </person>
-        <person xml:id="pers-lorraine-h2">
-          <persName>Henri II de Lorraine</persName>
-          <sex value="male"/>
-          <birth>1563-11-08</birth>
-          <death>1624-07-31</death>
-          <idno type="VIAF">37071898</idno>
-        </person>
-        <person xml:id="pers-lorraine-h1">
-          <persName>Henri de Lorraine</persName>
-          <persName type="alias">Loreno</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Duke of Guise</occupation>
-          <idno type="VIAF">69048019</idno>
         </person>
         <person xml:id="pers-cleves-h">
           <persName>Henriette de Clèves</persName>
@@ -214,13 +276,6 @@
           <death>1601-06-24</death>
           <idno type="VIAF">4552150203822803250006</idno>
         </person>
-        <person xml:id="pers-anjou-mezieres-r">
-          <persName>Renée d'Anjou‑Mézières</persName>
-          <sex value="female"/>
-          <occupation type="nobility">Duchess of Montpensier</occupation>
-          <birth>1550-10-21</birth>
-          <death>1586</death>
-        </person>
 
         <person xml:id="pers-delamarck-d">
           <persName>Diane de la Marck</persName>
@@ -229,7 +284,85 @@
           <birth>1544-06-16</birth>
           <death>1622</death>
         </person>
+        <person xml:id="pers-joyeuse-a">
+          <persName>Anne de Joyeuse</persName>
+          <persName type="alias">Gioiosa</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Joyeuse</occupation>
+          <idno type="VIAF">45097317</idno>
+        </person>
+        <person xml:id="pers-savoie-j-nem">
+          <persName>Jacques de Savoie</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Nemours</occupation>
+          <idno type="VIAF">29843872</idno>
+        </person>
+        <person xml:id="pers-savoie-h-ten">
+          <persName>Honorat de Savoie</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of Tende</occupation>
+        </person>
+        <person xml:id="pers-briquemault-f">
+          <persName>François de Beauvais</persName>
+          <persName type="alias">Brichmod</persName>
+          <persName type="title">Seigneur de Briquemault</persName>
+          <sex value="male"/>
+          <birth>c. 1502</birth>
+          <death>1572</death>
+          <note>French noble and military figure</note>
+        </person>
+        <person xml:id="pers-lhospital-m">
+          <persName>Michel de L'Hospital</persName>
+          <birth>1507</birth>
+          <death>1573-03-13</death>
+          <idno type="VIAF">100198491</idno>
+        </person>
 
+        <person xml:id="pers-orleans-l">
+          <persName>Léonor d'Orléans</persName>
+          <persName type="alias">Longueville</persName>
+          <persName type="alias">Longavilla</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Longueville</occupation>
+        </person>
+        <person xml:id="pers-montluc-b">
+          <persName>Blaise de Montluc</persName>
+          <persName type="alias">Monlucco</persName>
+          <sex value="male"/>
+          <occupation type="military">Marshal of France</occupation>
+          <idno type="VIAF">7394560</idno>
+        </person>
+        <person xml:id="pers-cosse-renee">
+          <persName>Renée de Cossé-Brissac</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Marquise de Méru</occupation>
+          <birth>c. 1550</birth>
+          <death>1622</death>
+        </person>
+
+        <!-- French Nobles – Gondi -->
+        <person xml:id="pers-gondi-albert">
+          <persName>Albert de Gondi</persName>
+          <persName type="alias">Comte de Retz</persName>
+          <persName type="Italian">Alberto di Gondi</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Marshal of France</occupation>
+          <birth>1522-11-04</birth>
+          <death>1602-04-12</death>
+          <idno type="VIAF">89654338</idno>
+        </person>
+
+        <!-- French Nobles – La Môle -->
+        <person xml:id="pers-lamole-j">
+          <persName>Joseph Boniface de la Môle</persName>
+          <persName type="alias">la Mola</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Provençal gentleman, favourite of the Duke of Alençon</occupation>
+          <death>1574-04-30</death>
+          <note>Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.</note>
+        </person>
+
+        <!-- Habsburg -->
         <person xml:id="pers-habsburg-e">
           <persName>Elisabeth</persName>
           <sex value="female"/>
@@ -246,12 +379,20 @@
         </person>
         <person xml:id="pers-habsburg-m">
           <persName>Maxmilian II</persName>
+          <persName type="alias">Cesare</persName>
           <sex value="male"/>
           <birth>1527-07-31</birth>
           <death>1576-10-12</death>
           <idno type="VIAF">27863609</idno>
         </person>
+        <person xml:id="pers-habsburg-j">
+          <persName>Juan de Austria</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Don Juan de Austria</occupation>
+          <idno type="VIAF">96139668</idno>
+        </person>
 
+        <!-- Physicians and Surgeons -->
         <person xml:id="pers-cavriana-f">
           <persName>Filippo Cavriana</persName>
           <persName type="alias">Vincenzo da Castello</persName>
@@ -265,6 +406,7 @@
           <occupation>Premier médecin to Catherine de' Medici</occupation>
         </person>
 
+        <!-- Military / Diplomatic Figures -->
         <person xml:id="pers-coligny-g">
           <persName>Gaspard de Coligny</persName>
           <sex value="male"/>
@@ -293,7 +435,26 @@
           <occupation type="military">condottiere</occupation>
           <occupation type="diplomatic">ambassador</occupation>
         </person>
+        <person xml:id="pers-nassau-w">
+          <persName>Willem van Oranje</persName>
+          <persName type="alias">Principe di Orange</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Prince of Orange</occupation>
+          <idno type="VIAF">49260512</idno>
+        </person>
+        <person xml:id="pers-nassau-l">
+          <persName>Ludwig von Nassau</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of Nassau</occupation>
+        </person>
+        <person xml:id="pers-bellievre-p">
+          <persName>Pomponne de Bellièvre</persName>
+          <sex value="male"/>
+          <occupation>Royal councillor and diplomat</occupation>
+          <idno type="VIAF">34561686</idno>
+        </person>
 
+        <!-- Prelates -->
         <person xml:id="pers-auger-ed">
           <persName>Émond Auger</persName>
           <persName type="Italian">Emondo Ugenio</persName>
@@ -316,13 +477,31 @@
           <death>1606-05-01</death>
           <idno type="VIAF">2526805</idno>
         </person>
-        <person xml:id="pers-charite-h">
-          <persName>Hugues de La Charité</persName>
-          <persName type="Italian">Ugone</persName>
+
+        <person xml:id="pers-salviati-a">
+          <persName>Antonio Maria Salviati</persName>
+          <persName type="alias">Monsig. Salviati</persName>
           <sex value="male"/>
-          <occupation type="religious">Franciscan Friar</occupation>
+          <occupation type="ecclesiastic">Papal Nuncio</occupation>
+        </person>
+        <person xml:id="pers-gregorio-xiii">
+          <persName>Gregory XIII</persName>
+          <persName>Hugo Buoncompagni</persName>
+          <persName type="alias">Pontefice</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Pope</occupation>
+          <idno type="VIAF">316407579</idno>
+        </person>
+        <person xml:id="pers-pius-v">
+          <persName>Pius V</persName>
+          <persName type="alias">Michele Ghislieri</persName>
+          <persName type="alias">Papa</persName>
+          <occupation type="ecclesiastic">Pope</occupation>
+          <note>Pope from 1566 to 1572</note>
+          <idno type="VIAF">262746497</idno>
         </person>
 
+        <!-- Medicean Officials -->
         <person xml:id="pers-concini-b">
           <persName>Bartolomeo Concino di Conti della Penna</persName>
           <persName type="alias">Bartolomeo Concini</persName>
@@ -335,36 +514,33 @@
           <sex value="male"/>
           <occupation>Medici Secretary</occupation>
         </person>
-        <person xml:id="pers-loignac-j">
-          <persName>Jacques de Loignac</persName>
+        <person xml:id="pers-alamanni-v">
+          <persName>Vincenzo Alamanni</persName>
+          <persName type="alias">Alamanni</persName>
           <sex value="male"/>
-          <occupation>Master of the King's Wardrobe</occupation>
-        </person>
-        <person xml:id="pers-termes-j">
-          <persName>Jean de Termes</persName>
-          <sex value="male"/>
-          <occupation>Master of the King's Wardrobe</occupation>
+          <note>Diplomat and intermediary</note>
         </person>
 
-        <person xml:id="pers-epernon-jl">
-          <persName>Jean‑Louis de Nogaret de La Valette</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Duke of Épernon</occupation>
-          <idno type="VIAF">51679355</idno>
-        </person>
+        <!-- Royal Household -->
+
+
+        <!-- Other Notable Figures -->
         <person xml:id="pers-tudor-e">
           <persName>Elizabeth Tudor</persName>
           <sex value="female"/>
           <occupation type="nobility">Queen of England</occupation>
           <idno type="VIAF">73876780</idno>
         </person>
-        <person xml:id="pers-habsburg-j">
-          <persName>Juan de Austria</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Don Juan de Austria</occupation>
-          <idno type="VIAF">96139668</idno>
+        <person xml:id="pers-este-r">
+          <persName>Renée de France</persName>
+          <persName type="alias">Madama di Ferrara</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Duchess of Ferrara</occupation>
+          <idno type="VIAF">47560739</idno>
+          <note>Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara</note>
         </person>
 
+        <!-- German Princes -->
         <person xml:id="pers-pfalz-fr-3">
           <persName>Friedrich III von der Pfalz</persName>
           <sex value="male"/>
@@ -391,66 +567,8 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Saxony</occupation>
         </person>
-        <person xml:id="pers-maxmilian-m">
-          <persName>Maxmilian II</persName>
-          <persName type="alias">Cesare</persName>
-          <sex value="male"/>
-          <birth>1527-07-31</birth>
-          <death>1576-10-12</death>
-          <idno type="VIAF">27863609</idno>
-        </person>
 
-        <person xml:id="pers-guise-h">
-          <persName>Henri de Guise</persName>
-          <persName type="alias">Guisa</persName>
-          <persName type="alias">Duca di Ghisa</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Duke of Guise</occupation>
-          <idno type="VIAF">34454133</idno>
-        </person>
-        <person xml:id="pers-montm-fr">
-          <persName>François de Montmorency</persName>
-          <persName type="alias">Montmoransy</persName>
-          <persName type="alias">Mamoransi</persName>
-          <sex value="male"/>
-          <occupation type="military">Marshal of France</occupation>
-          <idno type="VIAF">67259075</idno>
-        </person>
-        <person xml:id="pers-joyeuse-a">
-          <persName>Anne de Joyeuse</persName>
-          <persName type="alias">Gioiosa</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Duke of Joyeuse</occupation>
-          <idno type="VIAF">45097317</idno>
-        </person>
-        <person xml:id="pers-savoie-j-nem">
-          <persName>Jacques de Savoie</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Duke of Nemours</occupation>
-          <idno type="VIAF">29843872</idno>
-        </person>
-        <person xml:id="pers-savoie-h-ten">
-          <persName>Honorat de Savoie</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Count of Tende</occupation>
-        </person>
-        <person xml:id="pers-briquemault-f">
-          <persName>François de Beauvais</persName>
-          <persName type="alias">Brichmod</persName>
-          <persName type="title">Seigneur de Briquemault</persName>
-          <sex value="male"/>
-          <birth>c. 1502</birth>
-          <death>1572</death>
-          <idno type="VIAF">643145857896423021076</idno>
-          <note>French noble and military figure</note>
-        </person>
-        <person xml:id="pers-lhospital-m">
-          <persName>Michel de L'Hospital</persName>
-          <birth>1507</birth>
-          <death>1573-03-13</death>
-          <idno type="VIAF">100198491</idno>
-        </person>
-
+        <!-- Osmanlı -->
         <person xml:id="pers-osmanli-s2">
           <persName>Selim II</persName>
           <sex value="male"/>
@@ -459,64 +577,7 @@
           <idno type="VIAF">44058182</idno>
         </person>
 
-        <person xml:id="pers-nassau-w">
-          <persName>Willem van Oranje</persName>
-          <persName type="alias">Principe di Orange</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Prince of Orange</occupation>
-          <idno type="VIAF">49260512</idno>
-        </person>
-        <person xml:id="pers-nassau-l">
-          <persName>Ludwig von Nassau</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Count of Nassau</occupation>
-        </person>
-        <person xml:id="pers-bellievre-p">
-          <persName>Pomponne de Bellièvre</persName>
-          <sex value="male"/>
-          <occupation>Royal councillor and diplomat</occupation>
-          <idno type="VIAF">34561686</idno>
-        </person>
-
-        <person xml:id="pers-salviati-a">
-          <persName>Antonio Maria Salviati</persName>
-          <persName type="alias">Monsig. Salviati</persName>
-          <sex value="male"/>
-          <occupation type="ecclesiastic">Papal Nuncio</occupation>
-        </person>
-        <person xml:id="pers-gregorio-xiii">
-          <persName>Gregory XIII</persName>
-          <persName>Hugo Buoncompagni</persName>
-          <persName type="alias">Pontefice</persName>
-          <sex value="male"/>
-          <occupation type="ecclesiastic">Pope</occupation>
-          <idno type="VIAF">316407579</idno>
-        </person>
-        <person xml:id="pers-pius-v">
-          <persName>Pius V</persName>
-          <persName type="alias">Michele Ghislieri</persName>
-          <persName type="alias">Papa</persName>
-          <occupation type="ecclesiastic">Pope</occupation>
-          <note>Pope from 1566 to 1572</note>
-          <idno type="VIAF">262746497</idno>
-        </person>
-
-        <person xml:id="pers-petrucci">
-          <persName>Petrucci</persName>
-          <sex value="male"/>
-          <occupation>Commendatore</occupation>
-          <note>Tuscan ambassador to France</note>
-        </person>
-        <person xml:id="pers-alberto">
-          <persName>Alberto</persName>
-          <sex value="male"/>
-          <occupation>Secretary</occupation>
-        </person>
-        <person xml:id="pers-ossonville">
-          <persName>Monsignore d'Ossonville</persName>
-          <sex value="male"/>
-          <occupation>French noble</occupation>
-        </person>
+        <!-- Eastern European -->
         <person xml:id="pers-riorikide-i-iv">
           <persName>Ivan IV</persName>
           <persName type="alias">Ivan the Terrible</persName>
@@ -534,44 +595,9 @@
           <death>1572-07-07</death>
           <idno type="VIAF">804948</idno>
         </person>
-        <person xml:id="pers-katarzyna-k">
-          <persName>Katarzyna</persName>
-          <sex value="female"/>
-          <occupation>Queen of Poland</occupation>
-          <birth>1533-09-15</birth>
-          <death>1572-02-28</death>
-          <idno type="VIAF">81319677</idno>
-        </person>
-        <person xml:id="pers-orleans-l">
-          <persName>Léonor d'Orléans</persName>
-          <persName type="alias">Longueville</persName>
-          <persName type="alias">Longavilla</persName>
-          <sex value="male"/>
-          <idno type="VIAF">5145003707261340813</idno>
-          <occupation type="nobility">Duke of Longueville</occupation>
-        </person>
-        <person xml:id="pers-montmorency-h">
-          <persName>Henri de Montmorency</persName>
-          <persName type="alias">Danville</persName>
-          <sex value="male"/>
-          <occupation type="military">Marshal of France, Governor of Languedoc</occupation>
-          <idno type="VIAF">68977937</idno>
-        </person>
-        <person xml:id="pers-montluc-b">
-          <persName>Blaise de Montluc</persName>
-          <persName type="alias">Monlucco</persName>
-          <sex value="male"/>
-          <occupation type="military">Marshal of France</occupation>
-          <idno type="VIAF">7394560</idno>
-        </person>
-        <person xml:id="pers-este-r">
-          <persName>Renée de France</persName>
-          <persName type="alias">Madama di Ferrara</persName>
-          <sex value="female"/>
-          <occupation type="nobility">Duchess of Ferrara</occupation>
-          <idno type="VIAF">47560739</idno>
-          <note>Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara</note>
-        </person>
+
+
+        <!-- Courtiers and Minor Figures -->
         <person xml:id="pers-bobba-t">
           <persName>Traiano di Fabrizio Bobba</persName>
           <sex value="male"/>
@@ -592,50 +618,26 @@
           <occupation type="stateCourtPersonnel">Provisionato di Cosimo I de' Medici</occupation>
           <occupation type="musician" from="1566">Musico / Musicista</occupation>
         </person>
-                <person xml:id="pers-gondi-albert">
-          <persName>Albert de Gondi</persName>
-          <persName type="alias">Comte de Retz</persName>
-          <persName type="Italian">Alberto di Gondi</persName>
-          <sex value="male"/>
-          <occupation type="nobility">Marshal of France</occupation>
-          <birth>1522-11-04</birth>
-          <death>1602-04-12</death>
-          <idno type="VIAF">89654338</idno>
-        </person>
 
-        <person xml:id="pers-montmorency-charles">
-          <persName>Charles de Montmorency</persName>
-          <persName type="alias">Méru</persName>
-          <persName type="alias">Damville</persName>
+        <!-- Other Officials -->
+        <person xml:id="pers-petrucci">
+          <persName>Petrucci</persName>
           <sex value="male"/>
-          <occupation type="nobility">Duke of Damville</occupation>
-          <occupation type="military">Marshal of France</occupation>
-          <birth>1537-03-31</birth>
-          <death>1612-05-05</death>
-          <idno type="VIAF">47146030646835862535</idno>
+          <occupation>Commendatore</occupation>
+          <note>Tuscan ambassador to France</note>
         </person>
-
-        <person xml:id="pers-cosse-renee">
-          <persName>Renée de Cossé-Brissac</persName>
-          <sex value="female"/>
-          <occupation type="nobility">Marquise de Méru</occupation>
-          <birth>c. 1550</birth>
-          <death>1622</death>
-        </person>
-      <person xml:id="pers-pazzi-f">
-          <persName>Filippino Pazzi</persName>
+        <person xml:id="pers-alberto">
+          <persName>Alberto</persName>
           <sex value="male"/>
+          <occupation>Secretary</occupation>
         </person>
-
-        <person xml:id="pers-alamanni-v">
-          <persName>Vincenzo Alamanni</persName>
-          <persName type="alias">Alamanni</persName>
+        <person xml:id="pers-ossonville">
+          <persName>Monsignore d'Ossonville</persName>
           <sex value="male"/>
-          <note>Diplomat and intermediary</note>
+          <occupation>French noble</occupation>
         </person>
-
-        <person xml:id="pers-pers-papazzone-g">
-          <persName>Giulio Cesare Papppazone</persName>
+        <person xml:id="pers-papazzone-g">
+          <persName>Giulio Cesare Papazzone</persName>
           <sex value="male"/>
           <note>Servidore della signora Marchesa di Pescara</note>
         </person>
@@ -649,6 +651,237 @@
           <sex value="unknown"/>
           <note>Further identification needed</note>
         </person>
-        <!-- INCOMPLETE ENTITIES (needs research) --><!-- INCOMPLETE ENTITIES (needs research) --><person xml:id="pers-bourbon-conde"><persName>Louis I de Bourbon, Prince of Condé</persName><sex value="male"/><occupation>Prince of Condé</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-pontefice"><persName>The Pope</persName><sex value="male"/><occupation>Pope</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-cesare"><persName>Cesare d'Este</persName><sex value="male"/><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-este-card"><persName>Este Cardinal</persName><sex value="male"/><occupation>Cardinal</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-guadagni"><persName>Guadagni family member</persName><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-lorraine-h"><persName>Henry of Lorraine</persName><sex value="male"/><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-papazzone-g"><persName>Pope (papazzone)</persName><sex value="male"/><occupation>Pope</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-sanseverino-g"><persName>Sanseverino family member</persName><occupation>Noble</occupation><note>Entity needs research and completion</note></person><person xml:id="pers-taxis-c"><persName>Taxi family member</persName><occupation>Noble</occupation><note>Entity needs research and completion</note></person></listPerson></body>
+
+        <!-- Habsburg – Austria -->
+        <person xml:id="pers-medici-giovanna">
+          <persName>Giovanna d'Austria</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Grand Duchess of Tuscany</occupation>
+          <birth>1547-01-24</birth>
+          <death>1578-04-11</death>
+          <idno type="VIAF">43563321</idno>
+        </person>
+
+        <!-- French Noble Houses – Bourbon (continued) -->
+        <person xml:id="pers-bourbon-conde-h">
+          <persName>Henri I de Bourbon</persName>
+          <persName type="alias">Principe di Condé</persName>
+          <persName type="alias">Condè</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Prince of Condé</occupation>
+          <birth>1552-12-29</birth>
+          <death>1588-03-05</death>
+          <idno type="VIAF">66475488</idno>
+        </person>
+        <person xml:id="pers-albret-j">
+          <persName>Jeanne d'Albret</persName>
+          <persName type="alias">Reina di Navarra</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Queen of Navarre</occupation>
+          <birth>1528-11-16</birth>
+          <death>1572-06-09</death>
+          <idno type="VIAF">88872517</idno>
+        </person>
+
+        <!-- Italian Noble Houses – Farnese -->
+        <person xml:id="pers-farnese-a-card">
+          <persName>Alessandro Farnese</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Cardinal</occupation>
+          <birth>1520-10-07</birth>
+          <death>1589-03-02</death>
+          <idno type="VIAF">23504937</idno>
+        </person>
+
+        <!-- Italian Noble Houses – Strozzi -->
+        <person xml:id="pers-strozzi-f">
+          <persName>Filippo Strozzi</persName>
+          <persName type="alias">Strozzi</persName>
+          <sex value="male"/>
+          <occupation type="military">Colonel-General of the Infantry, commander of the French naval expedition (1572)</occupation>
+          <birth>1541</birth>
+          <death>1582</death>
+          <idno type="VIAF">315945612</idno>
+        </person>
+
+        <!-- Spanish Diplomats -->
+        <person xml:id="pers-dalava-f">
+          <persName>Francés de Álava</persName>
+          <persName type="alias">Don Frances d'Alava</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">Spanish ambassador to France</occupation>
+        </person>
+
+        <!-- French Military -->
+        <person xml:id="pers-laguardia">
+          <persName>Antoine Escalin des Aimars</persName>
+          <persName type="alias">Baron de la Garde</persName>
+          <persName type="alias">Baron della guardia</persName>
+          <sex value="male"/>
+          <occupation type="military">General of the French galleys</occupation>
+          <birth>1498</birth>
+          <death>1578</death>
+          <idno type="VIAF">4997694</idno>
+        </person>
+        <person xml:id="pers-toledo-f">
+          <persName>Fernando Álvarez de Toledo</persName>
+          <persName type="alias">Duca d'Alva</persName>
+          <persName type="alias">Duca d'Alba</persName>
+          <sex value="male"/>
+          <occupation type="military">Duke of Alba, Governor of the Spanish Netherlands</occupation>
+          <birth>1507-10-29</birth>
+          <death>1582-12-11</death>
+          <idno type="VIAF">20476873</idno>
+        </person>
+
+        <!-- English Diplomats -->
+        <person xml:id="pers-walsingham-f">
+          <persName>Francis Walsingham</persName>
+          <persName type="alias">Ambasciatore Inglese</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">English ambassador to France</occupation>
+          <birth>1532</birth>
+          <death>1590-04-06</death>
+          <idno type="VIAF">69738466</idno>
+        </person>
+
+        <!-- French Diplomats -->
+        <person xml:id="pers-mauvissiere">
+          <persName>Michel de Castelnau</persName>
+          <persName type="alias">Mauvissière</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">French envoy to England</occupation>
+          <birth>1520</birth>
+          <death>1592</death>
+          <idno type="VIAF">7396729</idno>
+        </person>
+
+        <!-- Prelates (continued) -->
+        <person xml:id="pers-maldonado-j">
+          <persName>Juan Maldonado</persName>
+          <persName type="alias">Maldonato</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Jesuit theologian</occupation>
+          <birth>1533</birth>
+          <death>1583-01-05</death>
+          <idno type="VIAF">44310930</idno>
+        </person>
+        <person xml:id="pers-rosieres">
+          <persName>Rosières</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Former Huguenot minister, converted after St Bartholomew</occupation>
+        </person>
+        <person xml:id="pers-orsini-card">
+          <persName>Flavio Orsini</persName>
+          <persName type="alias">Cardinal Orsino</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Cardinal, papal legate</occupation>
+          <birth>1532</birth>
+          <death>1581-05-16</death>
+        </person>
+
+        <!-- Imperial Officials -->
+        <person xml:id="pers-caan">
+          <persName>Caan</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">Imperial Grand Equerry (cavallerizo maggiore)</occupation>
+          <note>Sent by Maximilian II to congratulate the Queen of France on her childbirth, December 1572</note>
+        </person>
+
+        <!-- INCOMPLETE ENTITIES (needs research) -->
+        <person xml:id="pers-bourbon-conde">
+          <persName>Louis I de Bourbon, Prince of Condé</persName>
+          <sex value="male"/>
+          <occupation>Prince of Condé</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-pontefice">
+          <persName>The Pope</persName>
+          <sex value="male"/>
+          <occupation>Pope</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-este-card">
+          <persName>Este Cardinal</persName>
+          <sex value="male"/>
+          <occupation>Cardinal</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-guadagni">
+          <persName>Guadagni family member</persName>
+          <occupation>Noble</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-lorraine-h">
+          <persName>Henry of Lorraine</persName>
+          <sex value="male"/>
+          <occupation>Noble</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-sanseverino-g">
+          <persName>Sanseverino family member</persName>
+          <occupation>Noble</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-taxis-c">
+          <persName>Taxi family member</persName>
+          <occupation>Noble</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+
+      <!-- UNREFERENCED ENTRIES (defined but not yet used in any letter) -->
+        <person xml:id="pers-lorraine-chr">
+          <persName>Christine de Lorraine</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Princess of Lorraine</occupation>
+          <idno type="VIAF">4230910</idno>
+        </person>
+        <person xml:id="pers-lorraine-h2">
+          <persName>Henri II de Lorraine</persName>
+          <sex value="male"/>
+          <birth>1563-11-08</birth>
+          <death>1624-07-31</death>
+          <idno type="VIAF">37071898</idno>
+        </person>
+        <person xml:id="pers-anjou-mezieres-r">
+          <persName>Renée d'Anjou‑Mézières</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Duchess of Montpensier</occupation>
+          <birth>1550-10-21</birth>
+          <death>1586</death>
+        </person>
+        <person xml:id="pers-epernon-jl">
+          <persName>Jean‑Louis de Nogaret de La Valette</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Épernon</occupation>
+          <idno type="VIAF">51679355</idno>
+        </person>
+        <person xml:id="pers-charite-h">
+          <persName>Hugues de La Charité</persName>
+          <persName type="Italian">Ugone</persName>
+          <sex value="male"/>
+          <occupation type="religious">Franciscan Friar</occupation>
+        </person>
+        <person xml:id="pers-loignac-j">
+          <persName>Jacques de Loignac</persName>
+          <sex value="male"/>
+          <occupation>Master of the King's Wardrobe</occupation>
+        </person>
+        <person xml:id="pers-termes-j">
+          <persName>Jean de Termes</persName>
+          <sex value="male"/>
+          <occupation>Master of the King's Wardrobe</occupation>
+        </person>
+        <person xml:id="pers-katarzyna-k">
+          <persName>Katarzyna</persName>
+          <sex value="female"/>
+          <occupation>Queen of Poland</occupation>
+          <birth>1533-09-15</birth>
+          <death>1572-02-28</death>
+          <idno type="VIAF">81319677</idno>
+        </person>
+
+      </listPerson>
+    </body>
   </text>
 </TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 4 August 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence corresp="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4726a</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="11r" to="15r">fols. 11r-15r</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana reports a lengthy conversation with the Venetian ambassador Giovanni Micheli concerning Medici foreign policy, the balance of power between France and Spain, Ottoman affairs, the Polish succession, the papal title of Grand Duke, and court news from Paris. The letter discusses perceptions of Florentine strategy in fomenting religious conflict to gain advantage, and contains encrypted passages identifying individuals at court. Written weeks before the St Bartholomew's Day Massacre.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of multiple folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+              <handNote xml:id="hand2" scope="minor">Second hand adding deciphered text</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated only in the main hand. Cipher passages are encoded with their numeric ciphertext and, where present, the interlinear decipherment by a second hand.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-08-04">4 August 1572</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Firenze</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="11r"/>
+        <opener>
+          <dateline><placeName ref="#place-paris">Parigi</placeName> <date when="1572-08-04">4 <choice><abbr>off.o</abbr><expan>Agosto</expan></choice> 1572</date></dateline>
+          <salute><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.re</abbr><expan>Signore</expan></choice> mio <choice><abbr>ott.mo</abbr><expan>ottimo</expan></choice> <choice><abbr>S.mo</abbr><expan>Signorissimo</expan></choice></salute>
+        </opener>
+
+        <p>Hoggi parlando di varie cose, con <seg xml:id="cyph1" type="cipher" subtype="numeric" hand="#hand1">4155142141315​4 1251 2112 71122716 <lb/>1731346131517412 183151871614121331271​34 61841312516​4</seg><add xml:id="dec1" type="decipher" hand="#hand2" place="above" corresp="#cyph1">il <persName ref="#">micheli</persName> <choice><abbr>amb.re</abbr><expan>ambasciatore</expan></choice> di <placeName ref="#">Venetia</placeName> venuto <lb/>gia dieci di, qui da noi</add> <lb/>cadde il proposito del <choice><abbr>S.re</abbr><expan>Signore</expan></choice> <choice><abbr>N.ro</abbr><expan>Nostro</expan></choice>, et sopra quello andai tentando, ciò <lb/>che questo buon huomo, et molto cauto mi sapesse dire. Per la <unclear>prima</unclear> <lb/>egli è nella opinione commune, che voi altri habbiate fomentato <lb/>questi ugonotti, et heretici, non perchè vogliate deviare del <choice><abbr>v.ro</abbr><expan>vostro</expan></choice> <lb/>camino di santa chiesa catholica, ma per dar loro forle, et <unclear>animo</unclear> <lb/>di resistere, et offendere <placeName ref="#place-es">Spagna</placeName>, et mentre si rompono tra <unclear>loro</unclear> <lb/><unclear>la testa</unclear>, voi vi veniate guadagnando il beneficio del tempo, <unclear>per</unclear> <lb/>accomodarvi la corona arci ducale et regia in capo, et lo <unclear>stato</unclear> <lb/>rendervi piu sicuro, piu potente, et piu soggetto; parendo à <unclear>voi</unclear> <lb/>che mentre <persName ref="#pers-habsburg-f">Filippo</persName> <choice><abbr>v.ro</abbr><expan>vostro</expan></choice> antagonista, seria occupato in <placeName ref="#">Fiandra</placeName> <lb/>in <placeName ref="#place-it">Italia</placeName> per diversi <unclear>guene</unclear>, et molto maggiori sospetti, <unclear>voi</unclear> <lb/>veniate ad haver, il giuoco vinto/. Piu oltre mi dissi, <unclear>che</unclear> <lb/>era un valent'huomo, ma che se venisse à morire, dio sa, come <lb/>seria il fatto. Percioche quel stato, sempre mai patira <choice><abbr>grandissim̍a</abbr><expan>grandissima</expan></choice> <lb/>bonasca, nella mutatione di prencipi, atteso che Fiorentini, <unclear>per</unclear> <lb/>quel desiderio antiquo di libertà, moveranno dentro rumori, <lb/>et tumulti, et il re di <placeName ref="#place-es">Spagna</placeName>, sospinto dalla continua emulatione <lb/>di tutti gli altri duchi con lui, per di fuori, non mancheria far <unclear>quan</unclear><lb break="no"/>to havesse potuto, per smembrare cosi ricco stato et tanto <choice><abbr>opportu̍</abbr><expan>opportuno</expan></choice> <lb/>no à far guerra: onde per rimediare à questo, necessariamente <unclear>fu</unclear><lb break="no"/>turo male, questo solo pareva à lui ottimo rimedio, che qui popoli <lb/>havessero piu che mediocre opinione del valore, et virtù del successore <lb/>et percioche questa, et in casa et fuori, haveria <unclear>intendato</unclear>, et <unclear>amortivo</unclear></p>
+
+        <pb n="11v"/>
+        <p>ogni loro dissegno et mala volontà. Appresso dissemi, che si non <lb/>fusse stato, il continuo disparere, che è tra <placeName ref="#place-fr">Franza</placeName> et <placeName ref="#place-es">Spagna</placeName>, <lb/>et l'armi d'oriente, che erano sulle porte d'<placeName ref="#place-it">Italia</placeName>, che senza dub<lb break="no"/>bio alcuno, <persName ref="#pers-habsburg-m">Cesare</persName> et <persName ref="#pers-habsburg-f">Filippo</persName> ve ne davano una buona mano, fin <lb/>l'altro anno passato, et che in amendoi continuava questo dis<lb break="no"/>segno, quale per le turbulenze de tempi, <choice><abbr>nō</abbr><expan>non</expan></choice> si poteva effettuare, <lb/>et che voi, molto al <choice><abbr>v.ro</abbr><expan>vostro</expan></choice> particolare intenti, fatti accorti di <lb/>tutto questo, cominciaste piegare a <placeName ref="#place-fr">Francia</placeName>, per ingelosire <persName ref="#pers-habsburg-f">Filippo</persName>, <lb/>ma che poi, piu da accorti, che veritieri amici, havete soccorso <lb/><placeName ref="#place-es">Spagna</placeName> de denari, contro que medesimi, che voi havevate mostra<lb break="no"/>to di aggrandire. Ultimamente dissi, che voi nodrite segretamen<lb break="no"/>te il fuoco, et il veleno, tra queste due corone, Perciochè, non <lb/>altrimente, che tutti i Prencipi del mondo siete guidati del <lb/>utile, et del provechio apparente delle cose, per stabilire le <lb/><choice><abbr>v.re</abbr><expan>vostre</expan></choice>, che pare che vacellino. A tutto questo, crollando il capo, <lb/>aggiunse, che voi siete savij, et molto denarosi, et che vince<lb break="no"/>rete per un pezzo, perchè conoscete il tempo, et vi fidate de ca<lb break="no"/>si, delle mutationi, et della necessità altrui, le quali sono cause <lb/>fortissime, di farmi andar innādi, et guadagnar quello, che in <lb/>altro tempo, non potreste mai havere.</p>
+
+        <p>Posto fine à ques<lb break="no"/>to ragionamento, dissi io, si <persName ref="#pers-habsburg-f">Filippo</persName> haveva questo mal animo <lb/>contro il <choice><abbr>S.re</abbr><expan>Signore</expan></choice> <choice><abbr>n.ro</abbr><expan>nostro</expan></choice>, et voi lo sapevate, per qual cagione far lega <lb/>seco? Per batter il <persName ref="#pers-osmanli-s2">Turco</persName> rispose. Et se havesse voltato l'ar<lb break="no"/>mi contro la <placeName ref="#place-toscana">Thoscana</placeName>, haverebbe noi potuto patire, di videre <lb/>un principe cosi saggio, cosi catholico, et <choice><abbr>nō</abbr><expan>non</expan></choice> <unclear>punto</unclear> uno</p>
+
+        <pb n="12r"/>
+        <p>nimico, esser oppresso pur una sola opinione, et sospetto ben <lb/>vano, da un re straniero, il quale se havesse soggiogata la <placeName ref="#place-toscana">Thos<lb break="no"/>cana</placeName>, si voltava diritto a voi, per riunire allo stato di <placeName ref="#place-milano">Mila<lb break="no"/>no</placeName>, <unclear>quello</unclear>, che con molta piu ragione se le puo appartenere, <lb/>che non la <placeName ref="#place-toscana">Thoscana</placeName>; una portioncella, della quale ha egli havu<lb break="no"/>to per forza, et per sciocchezza di coloro, che male si seppe<lb break="no"/>ro governare, quando l'armi mossero? A questo <choice><abbr>nō</abbr><expan>non</expan></choice> mi rispose.</p>
+
+        <p>Passamo, alle cose del <persName ref="#pers-osmanli-s2">Turco</persName>, et mi disse dolendosi, che Francesi fa<lb break="no"/>cevano male à favorirlo; et si pure volevano aitarlo, che <unclear>havria</unclear> <lb/><unclear>via</unclear> havuto molto caro, che insieme con lui, fussero iti in <unclear>levan</unclear><lb break="no"/>te, et ivi far la guerra commune, senza sturbar <persName ref="#pers-habsburg-f">Filippo</persName>, <unclear>nelle</unclear> <lb/>parti di <placeName ref="#">Fiandra</placeName>/ il quale haveva questa ostinatione nel ca<lb break="no"/>po, che piu tosto haveria perduto, overo lasciato perdere (an<lb break="no"/>che per negligenza) tutto il regno di Grecia, et l'imperio d'orien<lb break="no"/>te, quando acquistato l'havesse; che patire, che un picciol <lb/>borgo, overo casale, de suoi stati patrimoniali le fusse stato le<lb break="no"/>vato. Qual sicurezza dunque, o fede dissi io, potete voi haver, <lb/>che egli al aitarvi sia cosi pronto, come credete, contro il <lb/><persName ref="#pers-osmanli-s2">Turco</persName>? lo farà bene, quanto la necessità delle cose sue porterà; <lb/>ma posto che elle siano non in sicuro, ma in stato di essere <lb/>lontane, da un apparente et soprastante male, volterà le vele <lb/>in Africa, come fa hora; Allhora con un sospiro dissi, et <placeName ref="#place-fr">Fran<lb break="no"/>za</placeName>, et <placeName ref="#place-es">Spagna</placeName>, et ogni altro oltremontano è nimico <choice><abbr>v.ro</abbr><expan>vostro</expan></choice>, et <lb/>l'honesto <choice><abbr>nō</abbr><expan>non</expan></choice> è, piu guida de prencipi, ma l'utile. Suggiunse <lb/>à questo di <placeName ref="#place-fr">Francia</placeName> <choice><abbr>nō</abbr><expan>non</expan></choice> lo potete dire, poichè vi aiuta, al</p>
+
+        <pb n="12v"/>
+        <p>trattar accordo col <persName ref="#pers-osmanli-s2">Turco</persName>, dove <placeName ref="#place-es">Spagna</placeName> vi interteneva à consumare <lb/>le <choice><abbr>v.re</abbr><expan>vostre</expan></choice> forze, contro di lui, per inghiottirvi doppoi, con piu bel <lb/>agio. Voglia Dio, disse egli, che <placeName ref="#place-fr">Francia</placeName> non ci impedisca, et <lb/>ci nocia, et quanto alle forze nostre, elle sono piu deboli che <lb/>altri non pensano, et sono exhausti i serinij de molti, <choice><abbr>nō</abbr><expan>non</expan></choice> si <lb/>navigando, ne trafficando, et spendendosi ogni mese, piu di mezzo <lb/>millione d'oro.</p>
+
+        <p>Toccai i tasti delle cose di <persName ref="#pers-habsburg-m">Cesare</persName>; dissimi <lb/>che seria di poca vita, per quelle sue antique passioni di cuori; <lb/>et che questa ultima infermità di Gennaro, l'haveva debilita<lb break="no"/>to straordinariamente. Ma che però attendeva, à far quanti <lb/>favori, et piaceri poteva a signori di <placeName ref="#">Polonia</placeName>, palatini, ecclesi<lb break="no"/>astici, et altri, per farne incoronare il suo <choice><abbr>seco̍dogenito</abbr><expan>secondogenito</expan></choice>, <lb/><persName ref="#">Hernesto</persName>, re di quel regno; atteso che de naturali, et non <lb/>c'era alcuno <unclear>signore</unclear>, il quale havesse tanta lena, et gli altri <lb/>haveranno voluto ubbidire; del Transilvano <choice><abbr>nō</abbr><expan>non</expan></choice> è era alcuno, per<lb break="no"/>chè gia doi anni egli se ne mori, et era nipote del re <unclear>presente</unclear> <lb/>vecchio, il quale à pena, dice poteva vivere sino à ottobre; <lb/>di <placeName ref="#place-saxony">Sassonia</placeName>, <choice><abbr>nō</abbr><expan>non</expan></choice> se ne voleva, per le heresie; et del <persName ref="#pers-riorikide-i-iv">Moscovita</persName>, <lb/>per la continua guerra: di <unclear>quel</unclear> altro, à cui per ragione <lb/>di sangue, pare che il regno pervenisse, che era ito come fu<lb break="no"/>gitivo in <unclear>Svetia</unclear>, per la medesima ragione dell'heresia, <choice><abbr>nō</abbr><expan>non</expan></choice> <lb/>se ne voleva; et in <placeName ref="#">Polonia</placeName> gli catholici sono molti, molto po<lb break="no"/>tenti, et tirano per parentado à sua divotione (quanto alla crea<lb break="no"/>tione di Hernesto) un buon numero di heretici; onde <persName ref="#pers-habsburg-m">Cesare</persName> <lb/>con modi, et artificij, degni del animo suo versatile, fa quello</p>
+
+        <pb n="13r"/>
+        <p>che puo, per tirare quel regno, in casa sua, mostrando come <unclear>donna</unclear> <lb/>gia sua madre, sia discesa da <persName ref="#pers-zygmunt-z">Isigmondo re di Polonia</persName>, et <lb/>come questa confederatione, sarà molto utile al regno, per <lb/>gli aiuti, che haveria da lui, et da <persName ref="#pers-habsburg-f">Filippo</persName> <choice><abbr>2.o</abbr><expan>secondo</expan></choice> et si questo <lb/>suo ottennere, verrà ad essere mittigata, quella grave piaga <lb/>dell'animo suo, di haver visto certo suo <unclear>frllo</unclear>, maritarsi <lb/>come per dio, et corto il suo pensiero, et <unclear>alcuni</unclear> <unclear>fedeli</unclear> <lb/>do detto in preda, ad una amorosa <unclear>imago</unclear>; che vivea <unclear>fa</unclear> <lb/>da buon catholico; parendo che questa maniera di vita, le <lb/>mettesse molto à corto, con <placeName ref="#place-es">Spagna</placeName>, <placeName ref="#place-it">Italia</placeName>, et <placeName ref="#">Polonia</placeName>. Ciò <lb/>che tuttavia riteneva nel cuore, la cosa del titolo dato <lb/>dal <persName ref="#pers-gregorio-xiii">Papa</persName> al <choice><abbr>G.</abbr><expan>Gran</expan></choice> <choice><abbr>N.ro</abbr><expan>Nostro</expan></choice>, per la quale stava molto mal <unclear>contento</unclear>; <lb/>onde ne chiedeva al <choice><abbr>pr̍te</abbr><expan>presente</expan></choice> Pontefice, come ragione: il quale <lb/>per quello odio, voleva si vedesse de iure, si il <persName ref="#pers-pius-v">Papa</persName> pas<lb break="no"/>sato lo poteva fare. Ma <persName ref="#pers-habsburg-m">Cesare</persName> <choice><abbr>nō</abbr><expan>non</expan></choice> vuol star à questa <lb/>giudicatura, si bene aconsente, che s'informi contra del <lb/>gran duca, in <placeName ref="#place-it">Italia</placeName>; onde io temo molto, che questo <persName ref="#pers-gregorio-xiii">Papa</persName> <lb/><choice><abbr>nō</abbr><expan>non</expan></choice> cambi humor, et che la <unclear>sperela</unclear> di far grandi i suoi <lb/>buoni compagni, con le opulente di <placeName ref="#place-es">Spagna</placeName>, molto maggiori, <lb/>ma non piu stabili, delle <choice><abbr>n.re</abbr><expan>nostre</expan></choice>, lo faccia preuaricare; <unclear>Herr</unclear> <lb/>piu che <placeName ref="#">Genova</placeName>, va <unclear>incannelendo</unclear> in questo negotio, il quale à <lb/>la lingua Alemane, che egli ha apparato, et <choice><abbr>cō</abbr><expan>con</expan></choice> si <unclear>curre prato</unclear> <lb/>alla corte di <persName ref="#pers-habsburg-m">Cesare</persName>, si ha acquistato gran divotione di quella <lb/>gente; variabile però et venale. Io non ho potuto vedere</p>
+
+        <pb n="13v"/>
+        <p>delle parole di costui, che i miei signori, siano troppo male edificati <lb/>di noi, nondimeno è, da credere, che <choice><abbr>nō</abbr><expan>non</expan></choice> vi uomini piu grandi <lb/>di quello, che siete. Perciochè a tutti gli altri d'<placeName ref="#place-it">Italia</placeName>, la <lb/><choice><abbr>v.ra</abbr><expan>vostra</expan></choice> grandezza ha meno sospetto, et a voi stessi, cosa invidia <lb/>tenibile. Come pensate dissi io, che i popoli di <placeName ref="#place-toscana">Thoscana</placeName>, si <lb/>muovessino, se la guerra è andare? Non lo so, disse egli, egli <lb/><choice><abbr>nō</abbr><expan>non</expan></choice> han tanta paura di lui, che si <choice><abbr>nō</abbr><expan>non</expan></choice> lo vedenero ò estinto, <lb/>o ridotto in un tapino, et meschinissimo stato <unclear>inseparabile</unclear>, <lb/>non oseranno moversi; dubitando che riprese forze, come sono <lb/><unclear>varij</unclear>, i casi delle fortuna, et incerti i fini delle guerre, <lb/><choice><abbr>nō</abbr><expan>non</expan></choice> fussero per perdere in tutto, con i beni, la vita; Basta <lb/>egli nodrirsi <placeName ref="#place-es">Spagna</placeName>, et intretien <placeName ref="#place-fr">Francia</placeName>; et quando le <lb/>mette conto, fa un patto per l'uno; et quando no, lo fa <lb/>per l'altro, cosi vive egli, scaricandosi su amendoi, <unclear>tapino</unclear> <lb/>da bene. che questi doi re, mai <unclear>srano</unclear> <unclear>congiungale</unclear> amici, <lb/>et peio mettendosi guerra tra loro, se ne stara in sicuro, ne <lb/>si parlera piu, di la iudicatura della precedenza, potendo <lb/>egli far gran contrapeso, à qualunque parte egli piegera.</p>
+
+        <p>L'<choice><abbr>Ambasciat.</abbr><expan>Ambasciatore</expan></choice> di <placeName ref="#place-es">Spagna</placeName>, voleva mandare a dire al <persName ref="#pers-coligny-g">Amirante</persName>, che <lb/>havendo udito per relatione, di un certo, che egli lo haveva <lb/><unclear>uscire</unclear>, quando <persName ref="#">Gianlis</persName> fusse stato <unclear>morire</unclear>; che <unclear>perciò</unclear> <lb/>desiderava, di <unclear>confirmarlo</unclear>, che fuori d'una porta di <placeName ref="#place-paris">Pari<lb break="no"/>gi</placeName> seria ito solo, con spada, et cappa à cavallo, dove le la <lb/><unclear>uria</unclear> fatto cosi buon partito della sua persona, da solo, à solo,</p>
+
+        <pb n="14r"/>
+        <p>che per ventura, le seria uscito di mente, il capitolo d'uccidere <lb/>quanti ugonotti, sono in <placeName ref="#place-fr">Francia</placeName>. Ma <choice><abbr>nō</abbr><expan>non</expan></choice> li ha fatto, per ché <lb/>colui, che la fattova la relatione, dice <choice><abbr>nō</abbr><expan>non</expan></choice> haverlo di buon luogo.</p>
+
+        <p>Questo diro à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> che non sarà il fine d'ottobre, per il <lb/>piu longo termine, che irano in <placeName ref="#place-picardie">Piccardia</placeName> piu di <unclear>70m</unclear> <lb/>huomini, sotto la carica dell'<persName ref="#pers-coligny-g">Amirale</persName>, et si bene il <persName ref="#pers-valois-ch-9">re</persName> <choice><abbr>nō</abbr><expan>non</expan></choice> <lb/>vuol armi ne guerra, vi irano però, et come si cominci, <lb/>egli sarà constretto ad entrarvi, perchè costoro <choice><abbr>nō</abbr><expan>non</expan></choice> possono star <lb/>senza le rumore, ò straniero, ò domestico. La nobiltà tutta, è <lb/>fastidita, per il rumore che si è sparso della morte di <persName ref="#">Gian<lb break="no"/>lis</persName>, ne si puo credere, come à tutti ugualmente sia spiacciuto, <lb/>onde ognuno grida la guerra à <placeName ref="#">Fiandras</placeName>. Ogni rumor di guer<lb break="no"/>ra fa per noi, et poichè i <choice><abbr>n.ri</abbr><expan>nostri</expan></choice> avversarij lo crescono, io lo <lb/>aggravo.</p>
+
+        <p><persName ref="#">Strozzi</persName> fece vela, pregato et commandato. <lb/>Credo, che non si combatteria dispensa per le <unclear>notte</unclear>, poichè il <lb/><persName ref="#pers-gregorio-xiii">Papa</persName> non ha intentione di darla/ Basteria haverla dimanda<lb break="no"/>ta, per poter dire, da noi non si mancò di chiederla, <lb/>se altri non ce la vollero dare, fu non <choice><abbr>n.ra</abbr><expan>nostra</expan></choice>, ma lor colpa.</p>
+
+        <p>Scrivesi di <placeName ref="#place-roma">Roma</placeName>, i mali andamenti delli Ambasciatori regij, <lb/>et come <placeName ref="#">Ferrara</placeName>, <unclear>Fiorenzo</unclear>, <placeName ref="#">Este</placeName>, <unclear>Relevè</unclear>, sono sempre insie<lb break="no"/>me; pensate che non sono per ungerci, ma per pungerci, <lb/>et io temo, che questi nipoti, <unclear>Ghisinoldi</unclear>, et <persName ref="#pers-orsini-t">Orsini</persName> pontefi<lb break="no"/>cij si laschino voltare, et voltati, voltino il <persName ref="#pers-gregorio-xiii">Papa</persName> contro <lb/>di noi: ma voi siete piu vicini, et sapete, come si ha <lb/>da governar la barca, et che le tanti anni governate il mondo,</p>
+
+        <pb n="14v"/>
+        <p>et cosi saviamente. À me pesano ogni <choice><abbr>v.ro</abbr><expan>vostro</expan></choice> incommodo, non altri<lb break="no"/>menti, che il mio proprio. La <persName ref="#pers-habsburg-e">reina di <placeName ref="#place-fr">Francia</placeName></persName>, porta <choice><abbr>cō</abbr><expan>con</expan></choice> <lb/>gran pena, il peso del parto, et ogni di vomita, et si sma<lb break="no"/>gra molto. Madama di <persName ref="#pers-guise-h">Ghisa</persName> abortì gia doi di, ne vi <lb/>si trovò presente, che il suo marito col capellano, per essere <lb/>stata cosa repentina. ella sta bene. <persName ref="#">Vasquiere</persName> governante <lb/>delle <persName ref="#pers-medici-cat">reina</persName>, è stata al estremo di sua vita. hora, è sa<lb break="no"/>na dio gratia; Seria bisogno trattenersi con quelli af<lb break="no"/>fitij, che si conviene, à donna cosi savia, et <choice><abbr>v.ra</abbr><expan>vostra</expan></choice> parti<lb break="no"/>ale come ella è; perciochè puo ella sola contrapesare <lb/>molto, alle gravi pene, che vi si fano in questa corte da huo<lb break="no"/>mini, et donne; et benchè il <choice><abbr>v.ro</abbr><expan>vostro</expan></choice> ministro di qua faccia <lb/>opera, per mantenersela, potendo ella servir molto, nondi<lb break="no"/>meno si da <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>nō</abbr><expan>non</expan></choice> le viene imposta cura particolare, di ciò, <lb/>questi uffitij, srano conosciuti per volgari. Credami <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> et <lb/>qui ci sono pochissimi amici nostri, et il tempo meglio le dirà <lb/>quanto bisogno habbiamo, di fedeli, et amorevoli partiali, <lb/>allhora il pentir non valerà; si che piglisi cura, da chi ap<lb break="no"/>partiene, di trattenerli, poichè con gli huomini si stabilisco<lb break="no"/>no i regni. La marchesa d'<persName ref="#">Isle</persName>, è stata un poco inferma <lb/>ma il <persName ref="#">prencipe di Condè</persName>, fra doi di la renderà sana.</p>
+
+        <p>Si crede che <seg xml:id="cyph2" type="cipher" subtype="numeric" hand="#hand1">571181715311316 2714260127141051127161​3</seg><add xml:id="dec2" type="decipher" hand="#hand2" place="above" corresp="#cyph2"><choice><abbr>Mons.r</abbr><expan>Monsieur</expan></choice> le duca <persName ref="#">Alanzon</persName> sia apasionato di lei, et</add> <lb/><seg xml:id="cyph3" type="cipher" subtype="numeric" hand="#hand1">4 51 14 </seg><add xml:id="dec3" type="decipher" hand="#hand2" place="above" corresp="#cyph3">maritato</add> l'assalita. <lb/><seg xml:id="cyph4" type="cipher" subtype="numeric" hand="#hand1">4511217147121715​151271125417​12</seg> questi sono frutti <lb/>di questo paese. Il <persName ref="#pers-bourbon-h-nav">re di Navarra</persName>, ha detto al <persName ref="#pers-valois-ch-9">re</persName>, che se suo <lb/>servitio è anderà in <placeName ref="#place-picardie">Piccardia</placeName> alla guerra; contro il duca</p>
+
+        <pb n="15r"/>
+        <p>d'<persName ref="#">Alua</persName>; questi sono mottivi et tentativi, et facil cosa <lb/>è, che la carne, vinca lo spirito. Bacio à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> le <lb/>mani, con <choice><abbr>lr̍a</abbr><expan>lettera</expan></choice> cosi longa, et in molte cose odiosa <lb/>a chi la legge, et à chi l'ode/ di <placeName ref="#place-paris">Parigi</placeName> il <lb/>di <date when="1572-08-04"><choice><abbr>4.o</abbr><expan>quarto</expan></choice> di Agosto del Lxxij</date></p>
+
+        <closer>
+          <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice>
+          <lb/><choice><abbr>aff.mo</abbr><expan>affettionatissimo</expan></choice> <choice><abbr>fed.le</abbr><expan>fedele</expan></choice> et sempre <choice><abbr>fed.le</abbr><expan>fedele</expan></choice>.
+          <lb/><signed>La sua creatura.</signed>
+        </closer>
+
+        <postscript>
+          <p>Piaccia à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> baciar à loro <choice><abbr>Alt.e</abbr><expan>Altezze</expan></choice> le mani in mio <lb/>nome.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

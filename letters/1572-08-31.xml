@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 31 August 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4600</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="250r" to="250v">fols. 250r-250v</locus>
+              <title>Letter from Filippo Cavriana, 31 August 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Urgent report after the St Bartholomew's Day massacre. Analyses implications for Florentine diplomacy, urges maintaining friendship with Catherine de' Medici. PS encloses a report on Coligny's death.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-08-31">31 August 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.re in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="250r"/>
+        <p>Le cose successe qui gia otto giorni sono, mi fanno a credere, che gli spagniuoli leveranno la testa, et si valeranno della occasione, perciocché sono estinti gli veri nemici di Filippo, onde non posso pensare altro se non ché per noi, la non possa andar molto bene, facendo al nostro proposito molto le controversie, che erano in Francia; et però è necessario che gli ministri vostri, cerchino di mantenere la reina madre in amicitia, amorevolezza, et uffitio verso di noi, altrimenti, quel stimolo di Filippo mi da un gran sospetto et per quanto veggo, voi havete cosi pochi amici fedeli qui, che non oso dirlo, affine che mi sia creduto. Voi siete savij, et sapete navigare col vento buono, o cattivo che sia; però pensateci un poco. Di la c'è, chi lo desiderava, ma non può succederle il pensiero; et per questo rispetto, ad amendoi i vinti, ben che contrarij, con prudenza volgete le vele. Cosi mi disse hieri un huomo dalla bocca di cui io cavai, quanto con l'ultima lettera mia vi scrissi. Dogliomi, che habbiate pochi amici di qua, et che subito si cangia l'aria, in questo clima. Si erit in ijs fides, in quibus esse deberet, non laborabimus. Però stiamo attenti che le occasioni fanno variar pensiero. Spagna col nostro sangue crescerà et convien che naschino garbuglij in francia, che troppo alte radici haveva la maledetta setta. Si vuol riformar il mondo et si delibera di acquetare il regno, ma non si puo fare, tosto che i fiumi corrono sangue. Si stima da molti, che voi haverete sentito con gran condoglio la nuova di qua; Ma io le ho detto, che s'ingannano, perché siete zelatore del bene et servitio del re. Hor pensate, che farà la vostra parte adversa, et se si terrà le mani a cintola, poiché i nimici di quella che erano in francia, sono spenti. Teniamoci la reina amica, et il re al-</p>
+        <pb n="250v"/>
+        <p>tresì che senza loro, non sapremo far contrapeso à colui che insidia al nostro et il ministro vostro che verrà in corte di costà, haverà più a fare intorno à questo negotio, che a qual altro si sia, anchorchè il suo predecessore habbia fatto il debito, et accomplito nel'uffitio suo; Io parlo troppo liberamente, perciochè io amo troppo il loro servitio et l'infinita pietà altrui. Si mandano per le provincie i governatori per porre buon ordine à queste novità, et si sta per publicare un editto acciochè ogniuno viva da huomo da bene, et vero christiano, et forse che il concilio vi haverà luogo, non gia del tutto, ma in parte, perciocchè i grandi, che hanno beni di chiesa, non si può al tutto, prononciare. Se Navarra et Condè stanno in cervello, haveremo quiete. Se si muovono, serà guerra che al fine terminarà col male anno loro: Orange la perderà, poiche il fomento di Francia le è fallito, et con Filippo, senza cavar spada, haverà vinto i nimici suoi, et stabilito l'imperio di fiandra, non mi possendo imaginare che gli Alemanni, tentino con alcuna si bene veggono una legha formata contro di loro. Non sarò piu longo; bacio à V.S. Ill.e le mani col piu ardente affetto dell'animo mio, et se le pare à proposito ricorderà a loro Altezze la divotion mia verso quelle che Nostro Signor Dio prosperi sempre.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> l'ultimo d'Agosto del 72</dateline>
+          <signed><persName ref="#pers-cavriana-f" type="alias">Chi ella sa</persName></signed>
+        </closer>
+            <postscript><p>Serà con questa la relatione della morte dell'Almirante fatta da me con mio grandissimo incommodo, et però così in fretta come è nata, vien a trovar V.S. iscusimi di gratia, et consideri piu la volontà di chi serve, che il modo di scrivere, perchè si potessi attendere intieramente al servitio di Sua Altezza io farli qualchecosa che la contentaria, ma conviemmi attendere à questa professione, che mal mio grado faccio, per poter vivere, della quale piaccia al Signore levarmene vadi et le bacio di nuovo le mani.</p></postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+                >Letter from Filippo Cavriana to Bartolomeo Concino, 8 March 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>5924</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="233r" to="234r">fols. 233r-234r</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note
+                                type="summary"
+                            >Cavriana reports a conversation with a Spanish secretary about Cosimo I's relations with Spain, the precedence dispute between Florence and Ferrara at the Imperial court, the Cardinal of Ferrara's displeasure with the French Crown, Catherine de' Medici's continued support for Cosimo, and Montmorency's mission to England to negotiate a marriage between Alençon and Elizabeth I. Contains partially enciphered passages.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of multiple folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote
+                                xml:id="hand1"
+                                scope="sole"
+                            >Unknown hand (copy)</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p
+                >Named entities are annotated according to the project authority files. This is a copy; the original hand is unknown. Cipher passages are transcribed as found, with editorial decipherments supplied.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p
+                >All places and persons are referenced from placeNames.xml and persNames.xml.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#">Blois</placeName>
+          <date when="1572-03-08">8 March 1572</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="233r" />
+        <opener>
+          <salute><choice><abbr>Ill.re</abbr><expan
+                            >Illustre</expan></choice> <choice><abbr
+                            >S.ore</abbr><expan
+                            >Signore</expan></choice></salute>
+        </opener>
+        <p>Parlando à caso con <seg
+                        xml:id="cyph1"
+                        type="cipher"
+                        subtype="numeric"
+                    >41571321417317121761331151731134716112 <lb
+                        />145121317161214415165</seg> <supplied
+                        reason="deciphered"
+                        resp="#editor"
+                        cert="high"
+                    >il segretario del <persName
+                            ref="#pers-habsburg-f"
+                        >Re di Spagna</persName> detto ag Silon</supplied>, delle cose di <placeName
+                        ref="#place-it"
+                    >Italia</placeName>, ma <choice><abbr
+                        >particolarmēte</abbr><expan
+                        >particolarmente</expan></choice> <lb />di <placeName
+                        ref="#place-toscana"
+                    >Thoscana</placeName>, questo intesi, degno che da <choice
+                    ><abbr>V.S.</abbr><expan
+                        >Vostra Signoria</expan></choice> s'intenda. Che sua <choice
+                    ><abbr>Alt.</abbr><expan
+                        >Altezza</expan></choice> sin hora si era mostrato molto divoto, alla fattione <lb
+                    />di <placeName
+                        ref="#place-es"
+                    >Spagna</placeName>, et era stato leal amico, et servidore del <persName
+                        ref="#pers-habsburg-f"
+                    >re Filip<lb
+                            break="no"
+                        />po</persName>, ma che da qualche anni in qua, pareva essere un <lb
+                    />poco allentato alla coltivatione di detta amicitia; et che <lb
+                    />ciò, fra molti segni che lo scoprivano, L'haver tenuto amis<lb
+                        break="no"
+                    />tà segreta con Ugonotti, lo confermava nella mente di <choice
+                    ><abbr>q̄lli</abbr><expan>quelli</expan></choice> <lb
+                    />che sono intorno al <persName
+                        ref="#pers-habsburg-f"
+                    >re di spagna</persName>; et però se con quelle <lb
+                    />arti et mezzi, che sua <choice><abbr>Alt.</abbr><expan
+                        >Altezza</expan></choice> ha acquistato, un cosi ricco <lb
+                    />imperio, caminerà sino al fine, lo lascerà senza dubio stabile <lb
+                    />et fermo à suoi figlioli / ma se seguira il traino cominci<lb
+                        break="no"
+                    />ato, dando gelosia à <persName
+                        ref="#pers-habsburg-f"
+                    >Filippo</persName> / potria havere un rumore in <lb
+                    />testa piu grande, che <choice><abbr>no̍</abbr><expan
+                        >non</expan></choice> si crede. A questo risposi io L'<lb
+                    />insolenza de spagniuoli è fatta cosi grande, et cosi grande L'<lb
+                    />ambitione loro, che per non vedere la grandezza di <persName
+                        ref="#pers-medici-cos-1"
+                    >Cosimo</persName>, <lb /><choice><abbr
+                        >trovera̍no</abbr><expan
+                        >troveranno</expan></choice> occasioni di romperla, come havevano cominciato, <choice
+                    ><abbr>co̍</abbr><expan>con</expan></choice> <lb
+                    />parlar di toglierle <placeName
+                    >Siena</placeName>; et però eglino, che sapevano <choice
+                    ><abbr>no̍</abbr><expan>non</expan></choice> poter <lb
+                    />haver altro contrapreso che da Francesi, trovarono à dire, che <lb
+                    />e ministri di sua <choice><abbr>Altz.</abbr><expan
+                        >Altezza</expan></choice> trattavano con Ugonotti; egli subito <lb
+                    />Per dio, che di <placeName
+                    >Siena</placeName> mai si parlò, ne di moverle L'armi, <lb
+                    />ma <choice><abbr>q̄lli</abbr><expan
+                        >quelli</expan></choice> Italiani, che sono in corte di <placeName
+                        ref="#place-es"
+                    >Spagna</placeName>, alla foggia <lb
+                    />della natione, discorsivi, trovarono per L'astrolabio del loro <lb
+                    />cervello, che il <persName
+                        ref="#pers-habsburg-f"
+                    >re Filippo</persName> voleva <placeName
+                    >Siena</placeName>, et farle guerra, per <lb
+                    />abbassarlo. Ma non devea sua <choice><abbr
+                        >Alt.</abbr><expan
+                        >Altezza</expan></choice> credere cosi di liggiero, ne <lb
+                    />dar sospetto, perche ha fatto vacillar <persName
+                        ref="#pers-habsburg-f"
+                    >Filippo</persName>, et i suoi nell' <lb
+                    />amore, et benevolenza che le portavano, la quale però va riacquis<lb
+                        break="no"
+                    />tando poco a poco, et in fine, vi rientrerà tenendo i modi <lb
+                    />vecchi, et non gli novi / Nel che il <persName
+                    >duca d'Alva</persName> ha molto <lb
+                    />giovato, con tutto che egli sia rigiso, et sivero, percioche <lb
+                    />il rispetto di quel huomo, ha importato molto alla consumati<lb
+                        break="no"
+                    />one di <persName
+                        ref="#pers-medici-cos-1"
+                    >Cosimo</persName> / si bene non da ogniun s'intende, come, <lb
+                    />et con qual maniera, et che ragionamenti sieno passati, per <lb
+                    />questo fatto. Io subito ; deli spagnuoli, <choice><abbr
+                        >no̍</abbr><expan
+                        >non</expan></choice> si puo alcun gran <lb
+                    />di fidare, perche l'ambition loro, <choice><abbr
+                        >no̍</abbr><expan
+                        >non</expan></choice> ha alcun termine, et <lb
+                    />ogni arte usano, per estirpare <choice><abbr
+                        >q̄lli</abbr><expan
+                        >quelli</expan></choice>, che col valor loro aspirano <lb
+                    />a lasciar nome di sèe; però è ben fatto credere quello meno <lb
+                    />che si puo, delle loro finte dimostrationi, come ne mostra <lb
+                    />l'essempio d'<persName ref="#">Agmonte</persName> et d'<persName
+                    >orna</persName>, et di molti altri, a <lb
+                    />quali si trovò a dire, che havevano sputato in chiesa. Re<lb
+                        break="no"
+                    /><choice><abbr>plicom̍i</abbr><expan
+                        >replicommi</expan></choice> egli. Il <persName
+                        ref="#pers-medici-cos-1"
+                    >Duca di Fiorenza</persName>, oltre il <persName
+                    >duca d'Alva</persName> suo <lb
+                    />amico, ha quà millioni di scudi, i quali sono forse, il <lb
+                    />piu solido fondamento, della sua grandezza, et qui inarcò <lb
+                    />le ciglia. Passai molte altre cose seco, per essere egli <lb
+                    />amico mio di longa mano, et con chi domesticamente tratto. <lb
+                    />et conobbi; che spagniuoli hanno dubitato, et forse voluto, <lb
+                    />ma per i tempi non potuto far il fatto loto. Venne poi <lb
+                    />qui un <seg
+                        xml:id="cyph2"
+                        type="cipher"
+                        subtype="numeric"
+                    >7161121454261516,511681613421251311712133115124516131 <lb
+                        />1712717174231,1331716711257418121453171.</seg> <supplied
+                        reason="deciphered"
+                        resp="#editor"
+                        cert="medium"
+                    >spagnuolo mozzo di camera dell'<persName
+                            ref="#pers-habsburg-e"
+                        >Imperatrice</persName> detto santi vagnes</supplied> et intesi che <persName
+                        ref="#pers-habsburg-m"
+                    >cesare</persName> <lb /><choice><abbr>no̍</abbr><expan
+                        >non</expan></choice> vuol prononciare la <choice><abbr
+                        >sn̄ta</abbr><expan
+                        >sententia</expan></choice>, della precedenza tra sua <choice
+                    ><abbr>Alt.</abbr><expan>Altezza</expan></choice> <lb
+                    />et <placeName
+                    >Ferrara</placeName>, anchorche mostri di fuori via, volonta del contrario, <lb
+                    />la quale, per opinione ... serà a favore di <placeName
+                    >Ferrara</placeName>, essendo <lb
+                    />egli amato da tutti gli <choice><abbr>Alama̍ni</abbr><expan
+                        >Alamanni</expan></choice>, et grato à tutti, per mostrar<lb
+                        break="no"
+                    />si con ogni maniera di uffitij, <choice><abbr
+                        >dovotiss.o</abbr><expan
+                        >dovotissimo</expan></choice> di <persName
+                        ref="#pers-habsburg-m"
+                    >cesare</persName> dove dico <lb /><choice><abbr
+                        >q̄ll'</abbr><expan>quell'</expan></choice>altro, <choice
+                    ><abbr>no̍</abbr><expan
+                        >non</expan></choice> è stimato punto da persona, anzi mal voluto</p>
+        <pb n="233v" />
+        <p>ancorche <persName
+                        ref="#pers-habsburg-m"
+                    >Cesare</persName>, l'animi et honori, per la vertù, et fortuna sua, <lb
+                    />piu che per, proprio instinto di benevolenza; et in questa pro<lb
+                        break="no"
+                    />nonciatione, la quale partorirà molti inconvenienti, che <persName
+                        ref="#pers-habsburg-m"
+                    >cesare</persName> <lb />prevede, anderà piu <choice><abbr
+                        >circōspetto</abbr><expan
+                        >circospetto</expan></choice>, et tardo che potrà; amando <lb
+                    /><placeName ref="#">Ferrara</placeName>, et <choice><abbr
+                        >am̍irando</abbr><expan
+                        >ammirando</expan></choice> <placeName
+                        ref="#place-firenze"
+                    >Fiorenza</placeName>. Et ti so dire, mi disse egli <lb
+                    />che <persName
+                        ref="#pers-habsburg-m"
+                    >cesare</persName> da tutta la corte, et da suoi ministri è battu<lb
+                        break="no"
+                    />to per <placeName ref="#">Ferrara</placeName>, ma <choice><abbr
+                        >no̍</abbr><expan
+                        >non</expan></choice> puo lasciare L'opinione di <choice
+                    ><abbr>Fiorēza</abbr><expan>Fiorenza</expan></choice> <lb
+                    /><pb n="234r" /> Dissemi anche, che <persName
+                        ref="#pers-habsburg-m"
+                    >cesare</persName> si doleva, che dal <persName
+                        ref="#pers-valois-ch-9"
+                    >re di <placeName
+                            ref="#place-fr"
+                        >Francia</placeName></persName> <lb
+                    />fusse stato dato il titolo di grande et <choice><abbr
+                        >seren.mo</abbr><expan
+                        >serenissimo</expan></choice> a <persName
+                        ref="#pers-medici-cos-1"
+                    >Cosimo</persName>. <lb />Di molte altre cose, L'<choice
+                    ><abbr>Ambascia.re</abbr><expan
+                        >Ambasciatore</expan></choice> di sua <choice><abbr
+                        >Alt.</abbr><expan
+                        >Altezza</expan></choice> a mio nome <lb
+                    />le haverà scritto, et però à <choice><abbr
+                        >q̄lle</abbr><expan
+                        >quelle</expan></choice> mi rimetto. Il <persName
+                        ref="#pers-deste-i"
+                    >cardinal <lb />di <seg
+                            xml:id="cyph3"
+                            type="cipher"
+                            subtype="numeric"
+                        >33217121712</seg> <supplied
+                            reason="deciphered"
+                            resp="#editor"
+                            cert="medium"
+                        >Ferrara</supplied></persName>, non sta bene a modo alcuno <choice
+                    ><abbr>co̍</abbr><expan>con</expan></choice> queste <choice
+                    ><abbr>M.tà</abbr><expan>Maestà</expan></choice> <lb
+                    />et ha ricchiamato il suo agente, per molte assignationi <lb
+                    />fattele, et tutte vane, <choice><abbr>no̍</abbr><expan
+                        >non</expan></choice> si voglia venire a fine, et <lb
+                    />però egli è sdeganto. La <persName
+                        ref="#pers-medici-cat"
+                    >reina madre</persName> sta ferma nell'amore <lb
+                    />verso sua <choice><abbr>Alt.</abbr><expan
+                        >Altezza</expan></choice> per quello si vede. <persName
+                        ref="#pers-montm-fr"
+                    >Momoransi</persName> va in <placeName
+                        ref="#place-england"
+                    >In<lb
+                            break="no"
+                        />ghilterra</placeName>, per trattar matrimonio della nipote della <persName
+                        ref="#pers-tudor-e"
+                    >reina</persName> <lb />con <persName
+                    >Monsie le duc</persName>, ultimo fratello del <persName
+                        ref="#pers-valois-ch-9"
+                    >re</persName> / ma con conditione <lb />che la <persName
+                        ref="#pers-tudor-e"
+                    >reina</persName> rinonci poi il regno, quod non fiet. et qui <lb
+                    />bascio le mani à <choice><abbr>V.S.</abbr><expan
+                        >Vostra Signoria</expan></choice> <choice><abbr
+                        >Ill.re</abbr><expan
+                        >Illustre</expan></choice> et supplicandola a conservarmi <lb
+                    />nella <choice><abbr>gr̍a</abbr><expan
+                        >gratia</expan></choice> sua, et de <choice><abbr
+                        >nr̍i</abbr><expan
+                        >nostri</expan></choice> Padroni, me le <choice><abbr
+                        >racc.o</abbr><expan>raccomando</expan></choice> <choice
+                    ><abbr>co̍</abbr><expan>con</expan></choice> <lb
+                    />ogni affetto. et le mando insieme il negotio delli antia<lb
+                        break="no"
+                    />nità per lo quale, la <persName
+                        ref="#pers-medici-cat"
+                    >reina</persName> scrisse a sua <choice><abbr
+                        >Alt.</abbr><expan>Altezza</expan></choice> Di <lb
+                    /><placeName ref="#">Bles</placeName> il di <date
+                        when="1572-03-08"
+                    >8o. di Marzo del 72</date></p>
+        <closer>
+          Di <choice><abbr>V.S.</abbr><expan
+                        >Vostra Signoria</expan></choice> <choice><abbr
+                        >Ill.re</abbr><expan>Illustre</expan></choice> <lb
+                    /><choice><abbr>obligatiss.o</abbr><expan
+                        >obligatissimo</expan></choice> <choice><abbr
+                        >Sig.re</abbr><expan>Signore</expan></choice> <lb
+                    /><signed><persName
+                            ref="#pers-cavriana-f"
+                            type="alias"
+                        >Chi ella sa</persName>/</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +24,7 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>4600</idno>
@@ -47,7 +47,7 @@
             <handDesc hands="1">
               <handNote xml:id="hand1" scope="major">Disguised hand of Filippo Cavriana</handNote>
             </handDesc>
-            <note>This letter uses false identities: "Tommaso dalla Paglia" for Filippo Cavriana and "Marco" or "Marco da Empoli" for Bartolomeo Concino, as part of their intelligence network.</note>
+            <p>This letter uses false identities: "Tommaso dalla Paglia" for Filippo Cavriana and "Marco" or "Marco da Empoli" for Bartolomeo Concino, as part of their intelligence network.</p>
           </physDesc>
         </msDesc>
       </sourceDesc>
@@ -57,7 +57,7 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
-          <date when="1571-01-26"/>
+          <date when="1571-01-26">26 January 1571</date>
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-concini-b">Bartolomeo Concino</persName>

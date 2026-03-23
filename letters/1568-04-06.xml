@@ -7,8 +7,8 @@
                <author>Filippo Cavriana</author>
                <editor>Clément Godbarge</editor>
                <respStmt>
-                   <resp>Lecturer in Digital Humanities</resp>
-                   <name>University of St Andrews</name>
+                   <resp>Transcription and encoding</resp>
+                   <name>Clément Godbarge</name>
                </respStmt>
            </titleStmt>
            <publicationStmt>
@@ -22,7 +22,7 @@
            <sourceDesc>
                <msDesc>
                    <msIdentifier>
-                       <settlement>Mantova</settlement>
+                       <placeName>Mantova</placeName>
                        <repository>Archivio di Stato di Mantova</repository>
                        <collection>Archivio Gonzaga</collection>
                        <idno>b654</idno>
@@ -53,14 +53,16 @@
            <editorialDecl>
                <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
            </editorialDecl>
-           <encodingDesc><projectDesc><p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p></projectDesc></encodingDesc>
+           <projectDesc>
+               <p>All places and persons are referenced from placeNames.xml and persNames.xml.</p>
+           </projectDesc>
        </encodingDesc>
        <profileDesc>
            <correspDesc>
                <correspAction type="sent">
                    <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
                    <placeName ref="#place-nevers">Nevers</placeName>
-                   <date when="1568-04-06"/>
+                   <date when="1568-04-06">6 April 1568</date>
                </correspAction>
                <correspAction type="received">
                    <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>

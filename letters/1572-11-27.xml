@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 27 November 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="325r" to="326r">fols. 325r-326r</locus>
+              <title>Letter from Filippo Cavriana, 27 November 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Extensive cipher report warning against Spanish friendship, the Spanish ambassador's bribery attempt, a cardinal hostile to Florence, Venetian discontent, La Rochelle preparations, and Montmorency's eclipse.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-11-27">27 November 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.ma in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="325r"/>
+        <p>a qualunque dimostratione d'amicitia, che vi faccia <seg type="cipher" subtype="numeric">7161121420205121671181645145204711774</seg> <supplied reason="deciphered">spagna o suoi ministri</supplied>, non ci credete, in modo alcuno, perche tiene ancora dentro di se, il velleno si come confidentemente parlando meco <seg type="cipher" subtype="numeric">41571181612512112711271617316184</seg> <supplied reason="deciphered">il suo ambasciatore qui</supplied>, mi disse gia doi giorni, et m'aggionse il negotij del mondo s'hanno a voltar in un'altro modo et in altra parte, et io starò avertito molto bene de maneggi <seg type="cipher" subtype="numeric">134144161731581213121561812151831172020127131516117311215141617311347171817214</seg> <supplied reason="deciphered">di fiorenza dal quale era sempre al mio Re disturbo</supplied>, doppo le quali parole, havendomi parlato longo tempo m' <seg type="cipher" subtype="numeric">163311771203161811271716514153171218134</seg> <supplied reason="deciphered">offerse quattro scudi</supplied> che mi mostrò, se in un suo affare <seg type="cipher" subtype="numeric">1516411218317120412418712716</seg> <supplied reason="deciphered">l'havessi aiutato</supplied> Quello che le risposi allhora. Dio lo sa. Teme molto che <seg type="cipher" subtype="numeric">31712524121716516112141831172012</seg> <supplied reason="deciphered">francia rompa la guerra</supplied>, ne sa dove ne perchè lo sia fare; ma io dubito che per voler mostrare d'esser accorto et provido, et tenersi in riputatione <seg type="cipher" subtype="numeric">21615718167141451617</seg> <supplied reason="deciphered">col suo signore</supplied> si vada pensando cose impossibili, et delle chimere pur assai à foggia <seg type="cipher" subtype="numeric">13311571181661173113312202031171161731</seg> <supplied reason="deciphered">del suo predecessore</supplied> basta che si teme molto, tanto più che egli credeva, che gli Alamanni, fossero per trovare molto strana la morte del Ammiraglio ne dovessero mai servire questa corona, onde venivano per necessità ad haver <seg type="cipher" subtype="numeric">21471161451613471611214512</seg> <supplied reason="deciphered">bisogno de spagna</supplied>, et dispondere da lui, per essere intervenuti come sono da ambedue queste corone francia e spagna; ma il fatto sta che chi è morto è morto, et si è rinovellata l'amicitia da questa corona, con que' prencipi et republiche col'andata del Fregoso, et di Valenza in la; di dove formato quelli riporta che al re serviranno sempre, con tanto numero di genti a piedi et cavallo che havrà bisogno, mentre dunque correrà il denaro, coloro ci saranno amici et favorevoli. La qual amicitia per essere venale et accattata con tanto prezzo</p>
+        <pb n="325v"/>
+        <p>quanto ci vuole ogn'anno, per intertenimento di coloro; c'è stato, chi haveva consigliato il re, a non mantenerla piu, et non dar loro conto, delle sue attioni, come fa; per non avvillire la sua, et crescere la loro riputatione, poichè in tempo di guerra, haverà svizzeri, per le legioni; et di raiteri piu del nimico, se piu di paga le darà onde si metteva in borsa, tutto l'intervenimento, bastante ad una longa guerra. Ma non si è creduto à questo consiglio. <seg type="cipher" subtype="numeric">151218315187121346183171716212171345121531</seg> <supplied reason="deciphered">la venuta di questo cardinale</supplied> si stima <seg type="cipher" subtype="numeric">166131171213415161731516</seg> <supplied reason="deciphered">opera de loreno</supplied> per <seg type="cipher" subtype="numeric">718172112174155151316</seg> <supplied reason="deciphered">turbar il mondo</supplied> è stato ricevuto malamente, poichè in dispetto <seg type="cipher" subtype="numeric">516717172615411251125131271641561122161202012</seg> <supplied reason="deciphered">nostro l'ha mandato il Papa</supplied> ha molte ragioni di farvi del male ma non spuntarà, perchè Madonna non le crede, et ella vuole <seg type="cipher" subtype="numeric">2165111251312731516515161751516</seg> <supplied reason="deciphered">comandare non loreno</supplied> i suoi ben sanno, che <seg type="cipher" subtype="numeric">181251213115127116121831518712</seg> <supplied reason="deciphered">vana è la sua venuta</supplied>, et si dolgono ma che ci possono fare. Pamphilus aniget aures, se ci è cosa di momento. Non vi farà male, poiche è battuto sulle prime mosse. S'ode che i Venetiani restano mal contenti di Spagna; et però comincia a <seg type="cipher" subtype="numeric">73151311731316513431141612112712716273161731</seg> <supplied reason="deciphered">temere don Diego ambasciatore</supplied> che si faccia pace col Turco col nostro mezzo, et <seg type="cipher" subtype="numeric">2165205164</seg> <supplied reason="deciphered">con noi</supplied> insieme <seg type="cipher" subtype="numeric">2165181645185471212</seg> <supplied reason="deciphered">con voi s'unisca</supplied> in <seg type="cipher" subtype="numeric">713114173171215311412</seg> <supplied reason="deciphered">secreta liga</supplied>. Se è così, io non lo so. So bene che guadagnate tanto; che se non fate male, stimano però, che ne possiate fare, et nocere a molti. La Roscella si munisce, et noi habbiamo 6000 guastatori con 40 canoni, che s'aviano pian piano acciochè doppo natale andiamo a dirle le buone calende del anno novello. Danvilla fa poco progresso nella Langedoca et i suoi aversarij lo tassano. bacio a V.S. Ill.ma le mani pregandola a farmi scrivere doi righe, se havra ricevuto questa, et le altre che le</p>
+        <pb n="326r"/>
+        <p>manderò per via de mercanti, et del nostro de corrieri di lione; et per non darle la pena; comanderà ad alcuno de suoi servidori, che lo faccia senza specificar il nome V.S. ciò faccio accioche sappia se vanno bene o no et s'io prendo il tempo e la fatica.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il 27 di Novembre del Lxxij</dateline>
+          <signed><persName ref="#pers-cavriana-f">Il piu obligato et divoto servidore che ella habbia</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to the Grand Duke, 23 October 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="304r" to="304v">fols. 304r-304v</locus>
+              <title>Letter from Filippo Cavriana to the Grand Duke, 23 October 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Formal letter to the Grand Duke regarding the commission as procurator general for the Order of Santo Stefano in France.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-10-23">23 October 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName ref="#pers-medici-cos-1">Cosimo I de' Medici</persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="304r"/>
+        <p>Havevo deliberato meco stesso, di mandare a Vostra Altezza un gentilhuomo a posta, con le lettere della reina, mia signora et le fedi della professione, che ho fatta, acciochè li fussi noto quanto Sua Maestà desiderava, che mi corressi l'Antianità; et il tempo mi cominciasse appunto, col tempo, che io entrai a servirla, che fu l'anno passato al principio di Febraio; havendomi impedito, il venir a servir, come dovesso la religione et come era di mio fermo proponimento, et mi persuasi, come mi è riuscito, in gratia di Vostra Altezza che questo servitio fusse buon augurio dell'altro, et col favore di doi cosi vivi lumi, del mondo, potessi rasserenar le tenebre mie. Quando ecco presentarmi dal Ambasciatore di Vostra Serenissima commissione, di procurator generale, per la religione, in questo regno; la qual cosa ha fatto, che mutando consiglio, mi risolsi di mandare (come faccio) la lettera sola di Sua Maestà con le fedi dette, con l'ordinario di Lione; acciochè intesa la dimanda amorevolissima di quella, possa restare Vostra Serenità certificata, quanto Sua Maestà sia per divenir sodisfatta del prudente modo che Vostra Altezza ha tenuto, perchè col mezzo di tal honore, io possa senza altrui offesa, godere cosi benigna gratia sicuramente, et per la commissione, et per quello l'Ambasciatore medesimo, mi ha mostrato, in una parte della lettera del Signor Principe che dice. Damisi tal commissione, per essere del tutto, secondo il desiderio mio. Io haverei bene mandato</p>
+        <pb n="304v"/>
+        <p>la lettera di Sua Maestà allhora, che fu scritta, ma l'ambasciatore che stava per ritornarsene, et la poteva portar seco, per piu commodamente esporre à Vostra Altezza quello che dalla bocca di Sua Maestà haveva inteso, intorno a questo negotio, arrivato sin qui cosi felicemente, a mio favore; mi fece andare un poco più lento. Nondimeno non lasciai di riconoscere, et alhora et al presente, l'obligo che à Vostra Altezza ho, il qual mi sprona a renderle humilissime gratie, con tutto l'animo, come faccio con la presente, della carica che mi ha dato, per questo effetto: et si questo è spetie di riconoscere la mercede che si riceve, et dell'obligo che si ha, credami Vostra Altezza che giorno et notte, son in quest'atto, volto tutto con l'animo verso lei, maggiormente pensando quanto sia disuguale alle forze mie, così honorato et grave peso, dove et quando occorra essercitarlo. Ma per non riprovare, il giuditio suo, col quale m'ha eletto a questo, possendo le cose humili, rendere con la sua auttorità, altissime, non sarò più longo et sempre alla sua felicissima grandezza raccomandarmi humilissimamente li bacio le mani.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> alle XXIII d'Ottobre del LXXIJ</dateline>
+          <signed><persName ref="#pers-cavriana-f">Il cavaglier Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

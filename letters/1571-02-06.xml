@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +24,7 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>557</idno>
@@ -47,9 +47,7 @@
             <handDesc hands="1">
               <handNote xml:id="hand1" scope="sole">Hand of Filippo Cavriana</handNote>
             </handDesc>
-            <condition>
-              <p>Significant damage to right margin affecting legibility. Missing pages noted in transcription.</p>
-            </condition>
+            <p>Significant damage to right margin affecting legibility. Missing pages noted in transcription.</p>
           </physDesc>
         </msDesc>
       </sourceDesc>

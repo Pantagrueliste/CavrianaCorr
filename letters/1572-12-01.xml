@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 1 December 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence corresp="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>5924</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="320r" to="321v">fols. 320r–321v</locus>
+              <title>Letter from Filippo Cavriana, 1 December 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Intelligence report on German and English reactions to the St Bartholomew's Day massacres, Elizabeth I's strategic position, the military situation at La Rochelle, the Prince of Orange's forces in Holland, Count Ludwig of Nassau at Cologne, Maldonado's theological mission to Sedan, the siege of Sancerre, the Imperial embassy, and cipher passages on Orsini, the King's relationship with the Queen, and Montmorency.</note>
+              <note type="editorial">This letter (fols. 320–321) is intercalated in the filza between the two halves of a separate letter dated 7 December 1572 (fols. 319 + 322).</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="2">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+              <handNote xml:id="hand2" scope="minor">Second hand adding deciphered text above cipher passages</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-12-01">1 December 1572</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName><!-- Recipient unknown: "Ill.re sig.re" --></persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="320r"/>
+        <opener>
+          <salute><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>sig.re</abbr><expan>Signore</expan></choice></salute>
+        </opener>
+        <p>Non si puo <choice><abbr>pensarĩ</abbr><expan>pensare</expan></choice> delli Alemani et Inglesi, che la festa delli <lb/>Ugonotti sia fornita à Ma dubitano, et forsi con apparente ragio<lb break="no"/>ne, chi il fatto debbia di andar piu innanzi, et che <choice><abbr>giam̍</abbr><expan>giamai</expan></choice> gia <lb/><choice><abbr>nō</abbr><expan>non</expan></choice> estinta la setta in <placeName ref="#place-fr">Francia</placeName>, queste due corone, <placeName ref="#place-fr">Francia</placeName> et <lb/><placeName ref="#place-es">Spagna</placeName> <choice><abbr>s'unire</abbr><expan>s'unire</expan></choice> per fare qualche bel atto, contro di <unclear>Casa</unclear> onde ne <lb/><choice><abbr>stanō</abbr><expan>stano</expan></choice> con molto sospetto; et se la <persName ref="#pers-tudor-e">reina di <placeName ref="#place-england">Inghilterra</placeName></persName>, fusse <lb/>cosi huomo, come ella è donna, senza dubio <unclear>entraria</unclear> co i Ros<lb break="no"/>sellesi in liga, contro <placeName ref="#place-fr">Francia</placeName>, et in liga aperta; (poiche in se<lb break="no"/>greta <unclear>condiscendo</unclear> à favorirli, dissimulando, molte cose de suoi <lb/>vassalli, i quali fanno qualche effetto, ma non grande, nè <lb/>troppo apparente, per i nostri nimici:) La ragione per la quale, <lb/>i suoi piu intimi, non la consigliano alle armi, è, et intendo <lb/>come mi ha detto un gran Milort, chi con tutto che ella sia savia <lb/>et valorosa Donna, niente però sempre mai, un certo che di <foreign xml:lang="la">non <lb/>nescio</foreign> et femineo, nelle sue attioni. et che questo precede <unclear>una</unclear> <lb/><choice><abbr>com̍unio</abbr><expan>communio</expan></choice> dal sesso. oltre di ciò, le cose della guerra vogliono <lb/>un cuor risoluto, ardito, et intrepido il quale alle occasioni, <lb/>non <unclear>sia</unclear> cieco, et alle essecutioni non lento, chi questo alti<lb break="no"/>more di <persName ref="#pers-habsburg-f">Filippo</persName>, et di tirarsi una guerra adosso, questo <choice><abbr>nō</abbr><expan>non</expan></choice> <lb/>la premeva niente, sapendo egli, chi <unclear>poco</unclear> male le poteva fare <lb/><placeName ref="#place-es">Spagna</placeName>, con tutte le armi del mondo. L'<unclear>aggiorne</unclear> anche, chi ella <lb/>era ancora, conditione non propria di un capitano, chi ha da con<lb break="no"/>dure esserciti. Ma che per esser ella, sino nello midollo, devo<lb break="no"/>tissima della heresia, et nimica implacabile di la religion <lb/>catholica, non poteva sentire, se non, piacere incredibile di la <lb/>risolutione, d'alcuni suoi vassalli, i quali con pretesto di <unclear>correre</unclear></p>
+
+        <pb n="320v"/>
+        <p>il mare, come hanno di costume, havevano aiutato a Rossellesi; et <lb/>in questo caso, poteva ella, bona fide, giurare chi <choice><abbr>nō</abbr><expan>non</expan></choice> aiu<lb break="no"/>tava i nimici di questa corona; oltre di ciò, trovandosi in <lb/><placeName ref="#place-england">Inghilterra</placeName> 1500. Francesi, i quali del commune <unclear>tratto</unclear>, della <lb/>Isola, sono malcontenti, et tutto il di piangono per la sicu<lb break="no"/>rezza della lor vita, la quale dicono, essere in pericolo, per <lb/>la religione, non puo la <persName ref="#pers-tudor-e">reina</persName> essere si rigida; chi à prieghi <lb/>di tanti non si muova, desiderando massime scaricarsi, di <lb/>con grave <unclear>offesa</unclear>. Ma ella fa, con altri, come altri di <unclear>co</unclear>. et co<lb break="no"/>me <unclear>bisogni</unclear>, in buona parte s'usa da Prencipi; buoni ufficii, et <lb/>complimenti; ma interiormente sa tutto il contrario di quanto di <lb/>li le dice, et in ciò si verificano gli axiomi del governare <lb/>il mondo, usciti dalla <unclear>una</unclear> scuola per quello si ragiona. Fare, <lb/>disfare, et dar ad intendere. Rossellesi hanno 5000. archita<lb break="no"/>gieri dentro, di quali 2000. sono essercitatissimi, et atti à <lb/><choice><abbr>commandar̍</abbr><expan>commandare</expan></choice> per ciescuno, et erano nelli bande di <unclear>stro Dij</unclear>, ma <lb/>visto il Massacro, si fuggirono alla <placeName ref="#place-rochelle">Rosella</placeName>. 600. <unclear>colate</unclear> huo<lb break="no"/>ne, le quali corrono ogni di, et per 50 miglia intorno, hanno <lb/>preso, arso, et <unclear>ruinato</unclear> ogni cosa. Per via di mare, sono piu <lb/>potenti de nostri; atteso chi le galere chi <unclear>sotto</unclear> il governo del <lb/>Baron della Guarda, stano all' Isola di <placeName ref="#place-rez">Rez</placeName>, sono mal armate, <lb/>et peggio fornite, in picciol numero; et <choice><abbr>nō</abbr><expan>non</expan></choice> punto buone, <lb/>per que' mari; et per quanto s'ode, non si fa tutto quello, che <lb/>si deveria o potria fare, per offendere gli nimici. è anche <lb/>fornito di grano, per quello chi si ragiona, et <choice><abbr>sanō</abbr><expan>sano</expan></choice> distribui<lb break="no"/>to à 12 gentilhuomini. il carico della guerra, a 12 mercanti</p>
+
+        <pb n="321r"/>
+        <p>il fatto della republica, a 12 ministri, quello della religione. <lb/><persName ref="#pers-nassau-w">Orange</persName>, ha <unclear>havuto</unclear> il sospetto di un cavalliere Alamano chi stava <lb/>qui in corte, et chi <unclear>ando</unclear> passato nel suo campo, <unclear>parsi</unclear> ito là <lb/>per amazzarlo, et credeva <seg xml:id="cyph1" type="cipher" subtype="numeric" hand="#hand1">3187182061311712138151781</seg><add xml:id="dec1" type="decipher" hand="#hand2" place="above" corresp="#cyph1">essere opera del <persName ref="#pers-valois-ch-9">Re</persName></add>, si <lb/>ben <choice><abbr>nō</abbr><expan>non</expan></choice> era. Il cavagliere avisato del sospetto, se ne partì, <lb/>et son certo, chi <unclear>sa</unclear> farà a credere, à tutti gli principi pro<lb break="no"/>testanti, chi da qui inanzi, <unclear>correvano</unclear> pericolo dalle insidie <lb/>et tradimenti de nostri, accioche si trasferino le cose <unclear>dal</unclear> <lb/><unclear>saggio</unclear>. La sue genti <unclear>irano</unclear> in <placeName ref="#place-hollanda">Hollanda</placeName>. 8000 fanti, et <lb/>2000 cavalli. haveva anche rinfrescato, di seicento fanti, il <lb/>presidio di <placeName ref="#place-flesinga">Flesinga</placeName>. Il <persName ref="#pers-nassau-l">conte Ludovico</persName>, suo <choice><abbr>fr̍llo</abbr><expan>fratello</expan></choice>, pianto <lb/>et stimato da tutti per morto, è à casa sua vicina à <placeName ref="#place-colonia">Co<lb break="no"/>lonia</placeName>, ove piglia carne, et vita. Si mandò, à di passati <lb/><persName ref="#pers-maldonado-j">Maldonato</persName> spagnuolo, grandissimo Theologo, con un detto <persName ref="#pers-rosieres">Rosieres</persName>, <lb/>ministro delli Ugonotti (et in questo Massacro ritornato per <lb/>la paura, alla religion catholica) à <placeName ref="#place-sedana">Sedana</placeName> terra del Duca <lb/>di <placeName ref="#place-bollione">Bollione</placeName>, nella foresta di <placeName ref="#place-ardena">Ardena</placeName>, per convertir sua <lb/>moglie, figliuola di <persName ref="#pers-bourbonvendome-l3"><unclear>Monpensiero</unclear></persName>, dove si trovavano, alcu<lb break="no"/>ni ministri, per disputare, contro <persName ref="#pers-maldonado-j">Maldonato</persName> et <persName ref="#pers-rosieres">Rosieres</persName>, <lb/>ma arrivati al luogo, <persName ref="#pers-maldonado-j">Maldonato</persName> entrò et <persName ref="#pers-rosieres">Rosieres</persName> <choice><abbr>nō</abbr><expan>non</expan></choice></p>
+
+        <pb n="321v"/>
+        <p>volle essere visto; anzi sempre gridando, io vorrei esser <lb/>morto, si, ne restò fuori, confuso dalla vergogna, et dal pec<lb break="no"/>cato. à <placeName ref="#place-sancerre">Sansona</placeName> dicesi, chi vi va il Duca d'<persName ref="#pers-valois-f-alen">Alansone</persName>, et <lb/><persName ref="#pers-montm-fr">Mamoransi</persName>. è luogo forte di sito, ma soggetto alla zappa, <lb/>non ha trincei, ne artigliene chi 4. o cinq pezzi; ma un <lb/>buon presidio, di genti disperate. L'imperatore mandarà <lb/>qui <persName ref="#pers-caan">Caan</persName>, suo cavallerizo maggiore, con splendidissima <lb/>legatione, a rallegrarsi, con la <persName ref="#pers-habsburg-e">reina</persName> sua figliuola del <lb/>parto. <unclear>La forsi</unclear> farà <choice><abbr>l'uffitio</abbr><expan>l'ufficio</expan></choice> di buon amico di <seg xml:id="cyph2" type="cipher" subtype="numeric" hand="#hand1">1331 <lb/>17021712</seg><add xml:id="dec2" type="decipher" hand="#hand2" place="above" corresp="#cyph2"><placeName ref="#place-ferrara">Ferrara</placeName></add>. si parlene anche della venuta di <persName ref="#pers-savoy-em-fil">Savoia</persName> <lb/>per compare. A me pare, chi quando queste stelle <unclear>si</unclear> <lb/><unclear>si</unclear> movono e causino alteratione, nelle cose dabbasso, ma <lb/>si starà avvertito, accioche <choice><abbr>nō</abbr><expan>non</expan></choice> si riceva danno, o scor<lb break="no"/>no. Il <choice><abbr>cavall.t</abbr><expan>cavalliere</expan></choice> <seg xml:id="cyph3" type="cipher" subtype="numeric" hand="#hand1">181731451816</seg><add xml:id="dec3" type="decipher" hand="#hand2" place="above" corresp="#cyph3"><persName ref="#pers-orsini-t">orsino</persName></add> sarà <seg xml:id="cyph4" type="cipher" subtype="numeric" hand="#hand1">71710271127162651915141</seg><add xml:id="dec4" type="decipher" hand="#hand2" place="above" corresp="#cyph4">sarà trattato come merita</add> <lb/><seg xml:id="cyph5" type="cipher" subtype="numeric" hand="#hand1">174712</seg><add xml:id="dec5" type="decipher" hand="#hand2" place="above" corresp="#cyph5">mandato contro nostro volere</add>, chi il <unclear>se</unclear> si <seg xml:id="cyph6" type="cipher" subtype="numeric" hand="#hand1">125412 1716 2105717165167172618426 1615</seg> <lb/><seg xml:id="cyph7" type="cipher" subtype="numeric" hand="#hand1">1731</seg>. il <choice><abbr>q.le</abbr><expan>quale</expan></choice>, col far <seg xml:id="cyph8" type="cipher" subtype="numeric" hand="#hand1">4156121413121268104537</seg><add xml:id="dec8" type="decipher" hand="#hand2" place="above" corresp="#cyph8">il <unclear>pre</unclear> commune</add>, <choice><abbr>nō</abbr><expan>non</expan></choice> è nostro <lb/><seg xml:id="cyph9" type="cipher" subtype="numeric" hand="#hand1">12514126</seg><add xml:id="dec9" type="decipher" hand="#hand2" place="above" corresp="#cyph9">amico</add>. Il <seg xml:id="cyph10" type="cipher" subtype="numeric" hand="#hand1">1731</seg><add xml:id="dec10" type="decipher" hand="#hand2" place="above" corresp="#cyph10"><persName ref="#pers-valois-ch-9">Re</persName></add> tornato da <seg xml:id="cyph11" type="cipher" subtype="numeric" hand="#hand1">2122241</seg><add xml:id="dec11" type="decipher" hand="#hand2" place="above" corresp="#cyph11">caccia</add> in <seg xml:id="cyph12" type="cipher" subtype="numeric" hand="#hand1">312716</seg>, <seg xml:id="cyph13" type="cipher" subtype="numeric" hand="#hand1">202172</seg><add xml:id="dec13" type="decipher" hand="#hand2" place="above" corresp="#cyph13">a fatto carezze</add> <lb/><seg xml:id="cyph14" type="cipher" subtype="numeric" hand="#hand1">832</seg> inestimabili <seg xml:id="cyph15" type="cipher" subtype="numeric" hand="#hand1">12051217345012 5116154 31</seg><add xml:id="dec15" type="decipher" hand="#hand2" place="above" corresp="#cyph15">alla <persName ref="#pers-habsburg-e">reina</persName> moglie</add> ma <seg xml:id="cyph16" type="cipher" subtype="numeric" hand="#hand1">31121712</seg><add xml:id="dec16" type="decipher" hand="#hand2" place="above" corresp="#cyph16">ella</add> <choice><abbr>nō</abbr><expan>non</expan></choice> <lb/><unclear>parlo</unclear> mai. <lb/><seg xml:id="cyph17" type="cipher" subtype="numeric" hand="#hand1">612171516 51124</seg>. cosi <seg xml:id="cyph18" type="cipher" subtype="numeric" hand="#hand1">24712 127165471213451184</seg><add xml:id="dec18" type="decipher" hand="#hand2" place="above" corresp="#cyph17">attonita di lui et innamorata di lui</add>, et <seg xml:id="cyph19" type="cipher" subtype="numeric" hand="#hand1">451251</seg> <lb/><seg xml:id="cyph20" type="cipher" subtype="numeric" hand="#hand1">261712174 1345184</seg>. <unclear>gallo</unclear> bo, <seg xml:id="cyph21" type="cipher" subtype="numeric" hand="#hand1">16 31 1331</seg><add xml:id="dec21" type="decipher" hand="#hand2" place="above" corresp="#cyph21">vede</add>. o <seg xml:id="cyph22" type="cipher" subtype="numeric" hand="#hand1">1613331</seg><add xml:id="dec22" type="decipher" hand="#hand2" place="above" corresp="#cyph22">ode</add>. è gran <lb/>cosa per dir. bacio à <choice><abbr>VS</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.te</abbr><expan>Illustre</expan></choice> le mani. raccoman<lb break="no"/>dondomi, alla sua buona <choice><abbr>gr̍a</abbr><expan>gratia</expan></choice>. et di miei <choice><abbr>sig.ri</abbr><expan>Signori</expan></choice> <unclear>Pron</unclear><lb break="no"/>delli un de quali, odo chi la vita è, molto indisposta <lb/>et afflitta; et noi non saremo <unclear>misteri</unclear> di muta<lb break="no"/>tionj.</p>
+
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il <choice><abbr>p.o</abbr><expan>primo</expan></choice> di decembre. <unclear>DL</unclear>. Lxxij</dateline>
+          Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <lb/><choice><abbr>obligatiss.o</abbr><expan>obligatissimo</expan></choice> <choice><abbr>serv.re</abbr><expan>servitore</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f" type="alias">Tomaso</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

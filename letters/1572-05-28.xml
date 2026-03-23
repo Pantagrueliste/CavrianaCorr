@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 28 May 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="142r" to="146r">fols. 142r-146r</locus>
+              <title>Letter from Filippo Cavriana, 28 May 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Report on Spanish suspicion of the Grand Duke, allegations of secret Florentine-French alliance, Gregory XIII's election, and French court reactions.</note>
+              <note type="editorial">Fol. 142r begins mid-sentence, suggesting a missing opening page.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-blois">Bles</placeName>
+          <date when="1572-05-28">28 May 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.re in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="142r"/>
+        <p>Se io havessi in prattica, l'humori del re di Spagna, cosi bene, come ho quello di molti principi, io crederi poter fare de pronostici delle cose future, molto meglio che molti usano di publicare al mondo. Ma perché non ho quella contenta di lui come vorrei, se bene ho pur inteso qualche cosa che mi da sume, à quello, di che le son per scrivere, non vuo entrar a parlar di lui al presente. Ma solamente le dirò, quanto ho potuto scuoprire, da doi ragionamenti tenuti da tre suoi ministri principalissimi sopra le cose, di sua Altezza. et per venir al fatto. Non posso conoscere che alcun ministro del re sia di buona volontà verso Sua Altezza Perciochè, oltre al destraerle di i titoli, et in ogni proposito, nominando col solo nome proprio hanno sempre in bocca, che egli sia collegato segretamente con Francia, et che dissegni con aiuto di questo re, et della reina madre, chi sua dicono essere, ingrandirsi davantaggio di quanto, che gli è. Perciocchè publicano haver visto andamenti de ministri suoi; corrieri piu del ordinario; visite complimenti fatti; et certi segni quando di allegrezza, et quando di dolori inusitati secondo le cose che occorrevano, i quali hanno potuto generar sospetto, non nelli spagnuoli solamente, ma nelle menti de piu grossissimi huomini del</p>
+        <pb n="143v"/>
+        <p>mondo. Et che le haver tenuto mano con gli ugonotti, et accordarli col re nostro, sendo stata opera del Gran Duca, puo ognuno vedere chiaramente, di che sorte di humori sia egli, verso Spagna. Perché si bene pareva al papa, che egli fusse, il più affetionato huomo di tutti i catholici a santa chiesa (perché con malie li haveva questo, et a cosi credere condotto) Nondimen, quando si fusse venuto a voler gastigar la superbia sua, egli si saria aiutato, non delli heretici solamente, ma di infideli etiamdio cosa che prevista da ministri del re di Spagna, et a lui intimata, non era anchora stata intieramente da sua Maestà creduta, ma che però l'andava ruminando, et poneva ogni cura, per chiarirsi del vero; acciochè non leggiermente corresse, a gastigare, che forsi era innocente. Usando egli (per quanto dicono) sofferir molto tempo, ogni incommodo, et ogni passione, prima di scoppiare, et venire ad essecutione che habbia seco violenza, Ma che trovato il vero, et venendo a fatti, era molto piu deliberato et fiero chel padre non s'acquettava cosi tosto. Aggionseco anche; che con la speranza che egli poteva haver dato alla reina madre di aiutarla a far signor, di qualche gran paese, o stato d'</p>
+        <pb n="144r"/>
+        <p>importanza. Monsignor fatto del re, et fossi di Milano, haveva confermato l'amicitia di Francia, molto bene, la quale sola era il contrapeso di spagna, et l'antidoto ad ogni male, che questa tentare di farle. Questo ha io piu volte raccolto dalle loro parole; et quantunque a me pare miracoloso alcuni Giansuisti Spagniuoli non solamente hanno la medesima opinione, ma pare che consentino che contro di Sua Altezza per questa causa, si possa mover guerra. Perché la confederatione porta seco comercio, et il comercio con heretici, è prohibito; vedete di gratia, come questi huomini, col pretesto del zelo di Dio, di mescolino al maneggio delle cose seculari. Ben è vero, che come è falso, che sua Altezza habbia commercio con Ugonotti; cosi quando si venisse alla pruova, non si potria mostrare; ma con tutto ciò, non lasciano di parlarne, spiare molto meglio, quello che si traffichi da ministri del gran duca. Et per dire il mio parere; tutto questo viene da alcuni ecclesiastici Italiani, et Francesi, che qui sono, i quali parte impediti nella promotione al capello da sua Altezza, parte nemici della fattione sua, et forsi della reina (la quale per loro parere del granduca confida molto), per offenderla</p>
+        <pb n="144v"/>
+        <p>lei, et lui di mortal piaga, publicandoli per fautori di heretici. Io scriverei piu ampiamente, il nome di coloro, se io non fussi certo, che Vostra Signoria puo haverlo gia buon tempo conosciuto, et il scriverlo senza cifra, ben difficile, non mi pare molto utile à casi miei, Veggo dunque che coloro hanno un mal animo verso di noi, et se si lasciasse correre l'acqua al lor modo; non passerebbe molto tempo, che in Thoscana ci seria del fuoco, il quale potria, per giusta ira di Dio, bruciar coloro prima che acceso loro l'havessero. Ma che egli non lo volgia, o il re non creda a tutte queste voci, o pure non le paia tempo a farlo, et si contenti della quiete che ora gode in Europa, havendo da far con Mori et con Turchi, non possono godere del loro intento, ma solamente serbano dentro di se, una malivolenza degna piu di gastigo, chi di vociferatione. Hor à questa nuova creatione di Papa, che cosa pensa Vostra Signoria che detto habbino? La prima cosa che chiesero, ad un huomo da bene, fu, come si allegrava il re et reina di questo Papa moderno, et se il duca di Fiorenza, vi haveva lavorato, con la sua alchimia a farlo fare. Altro di lui non hanno mai dimandato, anzi dissero. Si bene è Bolognese, si farà divenir Fiorentino</p>
+        <pb n="145r"/>
+        <p>ad un tratto. e per cio sono rimasi stupidi quando udirono che in diciotto hore fusse creato dolendosi molto tacitamente che con la prudenza, dirollo liberamente, vostra sia stata posta una maschera sul viso, a tutti i partiggiani di Spagna; che è stato come un baleno che col venir sparisce. Non la possono portare, a dir il vero, et murmurano et forconsi, et fanno mille moine per svillupparsi, ma non si puo chi son presi, et il papa è fatto al loro dispetto, il quale di sera buon compagno, amerà piu i suoi che gli oltremontani et oltremarini. Il re hebbe cara molto la lettera di sua Altezza et dimandò subito ad uno amico mio, si questo Papa, era per innanzi amico del granduca, risposele si, allegrossi molto molto. Ma che credete disse egli, haveremmo la dispensa per mia sorella! Non so quello che si rispondesse, et di vero il re pare molto inclinato alla grandezza del serenissimo nostro signore, perché parlo allhora molto amorevolmente con quel mio amico, di sua Altezza. Ma per quanto odo, coloro, con i quali i ministri suoi negotiano dolgonsi che si vada riserbato tanto come si fa, che par quasi da nostri si pesino le parole. si misuri il tempo si consideri ogni accidente et si espetti sempre un non so che, che non sa loro del libero, et non si veda mezzo alla Carlona</p>
+        <pb n="145v"/>
+        <p>come al mondo pare che con questa natione, si costumi di trattare, in somma, chi da voi altri signori si negotij troppo col vantaggio, et temiate sempre di offendere Filippo. Io ho havuto questo di buon luogo, et risposi che non si va con cautela da voi in alcuna maniera; et che siete sempre mai amici de nostri amici; ma che è nostro costume naturale di parlare et fare prudentemente le attioni nostre, affine di non ripentirmene poi tardi, et d'essere insieme burlati dal mondo; et quali voi vi siate, et come fedeli adherenti, le vostre attioni passate, ne possono far fede. Feci questo uffitio, non sapendo però che cosa passi, tra voi et questa maesta, ne tampoco saperlo; ma per quel colpo che mi venne, lo parai in questa maniera, parendomi volesse dire; che non vi mostrate in tutto Francesi, come vorrieno, la qual cosa come non mi pare che sia vera intentione, cosi ne il tempo, ne le forze di costoro lo permetteno al punto; et vi seria di danno, et spesa à tiranni regna in casa, senza manifesta ragione, è ben fatto da savio huomo, conoscere i vinti, et i varii; et secondo le legge dell'arte, navigare sicuramente, massime quando e venti, sono contrarij. Io starò sul vedere, dove vadino a parare</p>
+        <pb n="146r"/>
+        <p>queste minaccie spagniuole, dalle quali convien per forza guardarsi, et ne aviserò Vostra Signoria sempre mai, se mi verrà cosa alcuna, à notitia, percioché hanno volontà costoro di darci una stiggiata, non perché gli habbiamo offeso ma per che temeno che gli offendiamo. So ben anche che di Francia non sono ben edificati, tutto che mostrino di fuori altrimente, et di Ferrara molto meno, sicome pur hieri riseppi da chi maneggia le cose loro di qua, ma si accomodono à tempi, dando un colpo alla botte, et l'altra al cerchio, alzando costoro, per abbassar noi, et renderli nostri antagonisti. Se ho passati il termine della modestia in scrivere a Vostra Signoria lettere così longa, mi perdonerà, perche bisognava farmi amare, per amar poco; servirò sempre che potrò a Vostra Signoria, et al suo et mio Signore, ma mi dole et del mio poco potere, et del povero giuditio che ho, essendo io nato per un mistieri et facendone mal mio grado, un'altro. Aggradisca la volontà mia con la quale la scrivo, et mi comandi sempre, come a cosa sua Nostro signore la conservi sempre in sua santa gratia.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-blois">Bles</placeName> a 28 Maggio del 72</dateline>
+          <signed><persName ref="#pers-cavriana-f" type="alias">chi ella sa</persName></signed>
+        </closer>
+            <postscript><p>PS. Il re haveva comandato a suoi Cardinali di dar i voti a Ferrara, se si vedeva potesse riuscire papa, se non à buon compagno, overo Montepulciano. E cosa che ha misterio et si vede che bisogna conoscere l'occasione et far i fatti suoi senza aspettar aiuto da compagni.</p></postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to the Grand Duchess of Tuscany, 21 November 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>5924</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="103r" to="107r">fols. 103r–107r (reading order: 103r–103v, 106r–106v, 104r–104v, 105r–105v, 107r)</locus>
+              <title>Letter from Filippo Cavriana to the Grand Duchess of Tuscany</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="pseudonym">Signed "Thomaso della Paglia"</note>
+              <note type="address">Address on verso: "Signora Gran Duchessa di Toscana mia padrona"</note>
+              <note type="summary">Report of a lengthy conversation with the English ambassador Francis Walsingham concerning Elizabeth I's support for the Grand Duke of Tuscany, the aftermath of the St Bartholomew's Day Massacre, the siege of La Rochelle and Sancerre, the Polish succession prospects for the duc d'Anjou, and marriage negotiations between the duc d'Alençon and Elizabeth I of England.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <foliation>
+                  <p>Modern archival foliation in ink, upper right corner: fols. 103–107. The foliation does not reflect the original order of the bifolios. The correct reading order, established by textual continuity across page breaks, is: 103r, 103v, 106r, 106v, 104r, 104v, 105r, 105v, 107r. The bifolium now numbered 106r–106v has been displaced during binding and should sit between fol. 103v and fol. 104r.</p>
+                </foliation>
+              </supportDesc>
+              <layoutDesc>
+                <p>Single column, written on both sides of the folios</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated according to the project authority files. Persons and places not yet in the authority files are marked with ref="#" and flagged in editorial notes for future addition.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f" type="alias">Thomaso della Paglia</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-11-21">21 November 1572</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-medici-giovanna">Grand Duchess of Tuscany</persName>
+          <note>Addressed to "Signora Gran Duchessa di Toscana mia padrona"</note>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+
+        <!-- FOL. 103r — reading order position 1 -->
+        <pb n="103r"/>
+        <opener>
+          <salute><choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice></salute>
+        </opener>
+
+        <p>Parlai hieri <choice><abbr>longiss.o</abbr><expan>longissimo</expan></choice> spatio, <choice><abbr>co̍</abbr><expan>con</expan></choice> l'<choice><abbr>Ambasci.re</abbr><expan>Ambasciatore</expan></choice> <persName ref="#pers-walsingham-f">Inglese</persName>, al <lb/>quale dimandai, in qual cosa poteva la <persName ref="#pers-tudor-e">reina</persName> sua <choice><abbr>S.ra</abbr><expan>Signora</expan></choice> <lb/>aiutare il <persName ref="#pers-medici-cos-1">gran Duca</persName>, quando fussi venuto il bisogno, <lb/>et in che la profittava l'amicitia, et confederatione <lb/>che seco teneva. Rispose, che di denari in buona som<lb break="no"/>ma; ma piu, et piu utilmente, in la riputatione <lb/>et in far contrapeso alle forze di <placeName ref="#place-es">Spagna</placeName>, mezzo <choice><abbr>tira̍<lb break="no"/>no</abbr><expan>tiranno</expan></choice> delli altri potentati da Christianità; in oltre, in <lb/>mantenerlo sempre in credito con gli <choice><abbr>Alema̍ni</abbr><expan>Alemanni</expan></choice>, i quali <lb/>erano collegati con essa lei. et per dir piu <choice><abbr>liberame̍<lb break="no"/>te</abbr><expan>liberamente</expan></choice>, in tanto le giovava l'amicitia sua, in quanto <lb/>che non era amica di <placeName ref="#place-es">Spagna</placeName>, et non punto nimica <lb/>à lui. Per qual causa honora ella, le dissi, <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> <lb/><choice><abbr>sig.re</abbr><expan>signore</expan></choice> per il buon credito rispose, che egli ha per ogni <lb/>luogo, di savio, et giusto. Ma sopra tutto, per essere egli <lb/>huomo accorto, ben avisato d'ogni cosa, et che puo, con <lb/>un solo avertimento, che da lui venga, liberare quella <lb/>reina col suo regno da insidie et incommodi. Come ne <lb/>parla di lui, le dimandai. con meraviglie, rispose, et <choice><abbr>sõ</abbr><expan>sono</expan></choice> <lb/>certo, che se venisse bisogno, si valeva del suo consiglio, <lb/>et lo piglieria, come d'amico fedele; sapendo che egli <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>puo piu fidarsi di <placeName ref="#place-es">Spagna</placeName>, ne credere, che giamai sia per <lb/>essere tenuto, nel interiore, divoto di quella corona, per le <lb/>prattiche tenute gli anni passati, da suoi ministri, con <unclear>Franc</unclear></p>
+
+        <!-- FOL. 103v — reading order position 2 -->
+        <pb n="103v"/>
+        <p>et huomini della religione. Ma di vero soggiungse egli, è <lb/>pur grande, grave, grato, et saggio; et come egli è, tale <lb/>dubito che il <persName ref="#pers-medici-fer">Prencipe</persName>, <choice><abbr>no̍</abbr><expan>non</expan></choice> risponda mai alle mosse del Pa<lb break="no"/>dre; anzi disse; Il <persName ref="#pers-medici-fer">cardinale</persName> appò la <persName ref="#pers-tudor-e">reina</persName> mia <choice><abbr>S.ra</abbr><expan>Signora</expan></choice> è, <lb/>tenuto piu simile di lui, che <choice><abbr>no̍</abbr><expan>non</expan></choice> il <persName ref="#pers-medici-fer">Principe</persName>, et lo stima <lb/>di più prudenza, et di più ardita essecutione. (Questa <lb/>parte non le legga <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> a persona, per <choice><abbr>nō</abbr><expan>non</expan></choice> porre gelosia <lb/>tra <unclear>ftti</unclear>, benchè io so à chi scriva). A che dimandile <lb/>conoscete la saggezza soa? In molte cose disse, si è, co<lb break="no"/>nosciuta, particolarmente nell'haver superato tante <lb/>congiure, contro di lui ordite; nel haver conosciuto il <lb/>tempo, et le occasioni, et secondo <choice><abbr>q̄lle</abbr><expan>quelle</expan></choice> cresciuto in tan<lb break="no"/>to lo stato suo, che contende con i Rè; nel haver saputo <lb/>burlarsi delli Spagnuoli gia <choice><abbr>4.o</abbr><expan>quarto</expan></choice> anni sono, i quali vole<lb break="no"/>vano abbassarlo; nel vedere finalmente, chi con doi la <lb/><unclear>chiaj</unclear>, solo se ne vada per <placeName ref="#place-firenze">Firenze</placeName>, anzi per tutta <placeName ref="#place-toscana">Thos<lb break="no"/>cana</placeName>, nella quale v'haveva particolari nimici. et come <lb/>principe gratissimo, habbia acquistato l'opinioni di <lb/>tutti i suoi vassalli. onde concludo ch'egli è, savissimo <lb/>et so certo, che la <persName ref="#pers-tudor-e">reina</persName> mia <choice><abbr>S.ra</abbr><expan>Signora</expan></choice> l'honora; ama, et stima <lb/>et venendole bisogno <unclear>l'aiuteva</unclear> sempre mai; Non già che <lb/>volesse apertamente, fare delle dimostrationi, che voi mi <lb/>richiedete, per non tirarsi adosso, una guerra; ma <unclear>farà</unclear> <lb/>in modo, che i suoi nimici anderiano con più timore</p>
+
+        <!-- FOL. 106r — reading order position 3 (displaced bifolium) -->
+        <pb n="106r"/>
+        <p>et opriana con gli Alemanij, che non si possono, più <lb/>innanzi. Hor perchè, la <persName ref="#pers-medici-cat">reina</persName>, mandò hieri <persName ref="#pers-mauvissiere">Mauvisi<lb break="no"/>ere</persName>, suo gentilhuomo in <placeName ref="#place-england">Inghilterra</placeName>, per richiedere <lb/>quella <choice><abbr>Sig.ra</abbr><expan>Signora</expan></choice> di comadre, per la figlia nata al <persName ref="#pers-valois-ch-9">rè</persName>, <lb/>li chiesi con qual modo, et per qual canone, puo <lb/>una heretica, unire in un sacramento simile, ad un <lb/>catholico? Sorrise rispondendomi, che il papa l'ad<lb break="no"/>mettria, senza dubio, et la dispensaria senza dubioglene <lb/>no: che dal nuncio ciò era stato promesso, per operata <lb/>d'un altro gran bene, per la christianità, amicando <lb/>si questi doi capri; sicome si fece delle nozze, del <persName ref="#pers-bourbon-h-nav">du<lb break="no"/>ca di Navarra</persName>, et del <persName ref="#pers-bourbon-conde-h">principe di Condé</persName>. Diman<lb break="no"/>daile appresso. Non trattare <persName ref="#pers-mauvissiere">Manvisiere</persName> il matrimonio <lb/>della <persName ref="#pers-tudor-e">Reina</persName>, col <persName ref="#pers-valois-f-alen">duca d'Alansone</persName>? <choice><abbr>Sap.r la</abbr><expan>Sapperla</expan></choice> rispose, no <lb/>so con qual volto che posso fare; havendo i francesi, à <lb/>si medesimi guasto un bel mondo, messo in dubio la <lb/>fede asso gli amici, et violato le confederationi; <lb/>con il macello dell'<persName ref="#pers-coligny-g">Amiraglio</persName>, che quale sa che fuene essa<lb break="no"/>gato in lui, et nelle case, non si da historia parlato <lb/>più; ma perseverando tuttavia, nella plebè, et altri <lb/>non complici della cospiratione, pare che habbino vo<lb break="no"/>luto complicare, alli antiqui ricordi del <persName ref="#pers-toledo-f">duca d'Alba</persName>, <lb/>per imprudentemente, esprandir <placeName ref="#place-es">Spagna</placeName>, abbattare li Fran<lb break="no"/>si, et far credere, ad Inglesi, et Alemani, che seguita</p>
+
+        <!-- FOL. 106v — reading order position 4 -->
+        <pb n="106v"/>
+        <p>conventione sia tra questi doi re, d'estirpare l'here<lb break="no"/>sia; come aperta parentella, à tutte le altre natio<lb break="no"/>ni dannosa, et sospetta. Però non sò, con quale volto, si <lb/>possa di ciò parlare. Et forsi che c'è, alcuno gran<lb break="no"/>dissimo, il quale portando invidia alla grandezza, di <lb/><choice><abbr>Mons.re</abbr><expan>Monsignore</expan></choice> le due, impedisce che non si tratti, et conclu<lb break="no"/>da il matrimonio tra di lui, et la <persName ref="#pers-tudor-e">reina</persName>, per <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>lo vedere salito, a cosi alto segno. Nondimeno, se <lb/>di di qua, si farano segni, et dimostrationi vere, <lb/>d'amicitia, et di desiderio, di unione con <placeName ref="#place-england">Inghilter<lb break="no"/>ra</placeName>, potria essere, che si raddolcessiro gli animi le <lb/>nostri. Ma sono tanto. Volsi dire inconstanti. et <lb/>qui si tacque. Qual sorte di dimostrationi ci biso<lb break="no"/>gneria, li dissi? che il <persName ref="#pers-valois-ch-9">rè</persName> lasci vivere, risposi le <choice><abbr>ge̍<lb break="no"/>ti</abbr><expan>genti</expan></choice> come innanzi. Perchè con questa maniera ci sarà <lb/>traffico et comertio in <placeName ref="#place-fr">Francia</placeName> d'Inglesi, et d' <lb/>Alamanni, che è tutt'uno; si leveria il sospetto d' <lb/>essere collegato segretamente con <placeName ref="#place-es">Spagna</placeName>, per ruina <lb/>di quelli, et si leveria il dubio della monarchia; <lb/>et si bene il <persName ref="#pers-valois-ch-9">rè</persName>, <choice><abbr>no̍</abbr><expan>non</expan></choice> vuol due religioni in <placeName ref="#place-fr">Francia</placeName>, <lb/><choice><abbr>no̍</abbr><expan>non</expan></choice> saprà mai, estirpare del cuore, di <choice><abbr>q̄lli</abbr><expan>quelli</expan></choice> che erano <lb/>Ugonotti, et poi ritornati per timore, i primi principij, <lb/>onde espettativi sempre mai novità, in questo regno; <lb/>le quali, con la moltitudine de tanti mal contenti</p>
+
+        <!-- FOL. 104r — reading order position 5 -->
+        <pb n="104r"/>
+        <p>et la discordia, che puo leggiermente nascere tra sotta <lb/><choice><abbr>sera̍no</abbr><expan>seranno</expan></choice> una peste, et un esterminio al regno. Come <lb/>volete voi, dissi io, che persona si fidi, della permissi<lb break="no"/>one, che il <persName ref="#pers-valois-ch-9">Rè</persName> farà, di vivere in libertà di <choice><abbr>cosciē<lb break="no"/>za</abbr><expan>coscienza</expan></choice>, come per lo <choice><abbr>innāzi</abbr><expan>innanzi</expan></choice>; se si è visto quel crudel <lb/>essempio dell'<persName ref="#pers-coligny-g">Amiraglio</persName>; à questo, è vero dissi, et <lb/>questo è, il punto che si dimanda della sicurtà, <lb/>ma anche a questo, si troverà rimedio. Come se il <persName ref="#pers-valois-ch-9">re</persName> <lb/>promettesse ad <placeName ref="#place-england">Inghilterra</placeName>, et prencipi di <placeName ref="#place-de">Germania</placeName> <lb/>la sua fede à questo soggionsi io, lo dislega da <placeName ref="#place-es">Spagna</placeName>, <lb/>et lo rende troppo soggetto, à privati signori; conclusi <lb/>infine, che Francesi, non sanno dominare, et che si <lb/>hanno guasto il mondo, potendo dar legge a <placeName ref="#place-es">Spagna</placeName>, <lb/>da quella si <choice><abbr>l'havera̍no</abbr><expan>l'haveranno</expan></choice> hora, da ricevere. La <persName ref="#pers-medici-cat">reina <lb/>madre</persName>, sollicita la cosa di <placeName ref="#place-polonia">Polonia</placeName> per <choice><abbr>Monsig.re</abbr><expan>Monsignore</expan></choice> le <unclear>quale</unclear> <lb/>pare impossibile; ma vorrebbe adempire, la profettia <lb/>di vedere, tutti i tre suoi figliuoli Rè, come già le <lb/>fu detto. S'era cominciato rumore in <placeName ref="#place-paris">Parigi</placeName>, di <lb/>rubare le case de ricchi, sotto pretesto d'uccidere gli <lb/>Ugonotti conversi, cosa scandalosa, et pericolosa; ma è, <lb/>stato sopito dal <persName ref="#pers-gonzaga-l-nev">duca di Nevers</persName>; et questo ha fatto usci<lb break="no"/>re di <placeName ref="#place-paris">Parigi</placeName> piu di 1300. persone, che si dubitavano <lb/>d'un sacco, et d'un altro macello. Dal che, si conosce, <lb/>quanto poco utilmente, si pongano l'armi in mano,</p>
+
+        <!-- FOL. 104v — reading order position 6 -->
+        <pb n="104v"/>
+        <p>di popoli, non si potendo facilmente toglierle. onde sa<lb break="no"/>rà bisogno, che in absenza del <persName ref="#pers-valois-ch-9">Rè</persName>, da <placeName ref="#place-paris">parigi</placeName>, vi sia <lb/>una grossa guardia, che impedisca il tumulto popu<lb break="no"/>lare; overo che si stia sempre, con timore di male <lb/>nove, et forse che la guardia istessa, potria essere <lb/><choice><abbr>q̍lla</abbr><expan>quella</expan></choice> che prima rubasse; onde il consiglio del <persName ref="#pers-medici-cos-1">grà <lb/>duca</persName> è, molto approbato. Non dar ad altri l'aut<lb break="no"/>torità, che si vuol per se ;-- <placeName ref="#place-ferrara">Ferrara</placeName>, pare che sia <lb/>per casarsi, o con <placeName ref="#place-baviera">Baviera</placeName>, o con <placeName ref="#place-lorraine">Lorena</placeName>, parlo dl <lb/>duca; che c'ha pure una sorella, se ne buccina da al<lb break="no"/>cune dame, l'una et l'altra, <choice><abbr>no̍</abbr><expan>non</expan></choice> fa per noi. <lb/>Si va mettendo in ordine, un campo, per il primo tempo, <lb/>di assediar la <placeName ref="#place-rochelle">Roscella</placeName>, et gli altri luoghi tenuti da <lb/>gli Ugonotti; i quali sono forti in <placeName ref="#place-gascogne">Gascogna</placeName>, et <placeName ref="#place-languedoc">Lan<lb break="no"/>gudoca</placeName>; per lo che, si è, mandato <persName ref="#pers-bellievre-p">Bilevre</persName>, in parte <lb/>di svizzeri, per procurare, una levata di 6000 sviz<lb break="no"/>zeri, da far il corpo dell'essercito; essendosi inteso, che <lb/>gli cantoni Ugonotti, impedivano con ragione, gli ca<lb break="no"/>tholici al venire. Per lo che, il <persName ref="#pers-valois-ch-9">rè</persName> vi ha mandato co<lb break="no"/>stui, già suo ambasciatore là, affine che rammollisca <lb/>quei villani; i quali credevano, che il <persName ref="#pers-valois-ch-9">rè</persName> volesse es<lb break="no"/>tirpare la setta di Calvino; ma egli ha da parlare delle <lb/>congiure, et scuoprire la causa <choice><abbr>d̵lla</abbr><expan>della</expan></choice> morte dell'<persName ref="#pers-coligny-g"><choice><abbr>Amirāte</abbr><expan>Amirante</expan></choice></persName> <lb/>et mostrar loro, che <choice><abbr>no̍</abbr><expan>non</expan></choice> è, per il fatto, della religione.</p>
+
+        <!-- FOL. 105r — reading order position 7 -->
+        <pb n="105r"/>
+        <p><placeName ref="#place-sancerre">Sanserra</placeName> fra il diavolo. et udirà, le piu crudeli pro<lb break="no"/>ve del mondo, che <choice><abbr>sean̍o</abbr><expan>seanno</expan></choice> fatte in questa guerra, <lb/>vorrei dir ultima civile; ma <choice><abbr>no̍</abbr><expan>non</expan></choice> posso, perché si nar<lb break="no"/><choice><abbr>reran̄o</abbr><expan>rereranno</expan></choice> fatti, et essempij, simili à Numantini, overo <lb/>Carthaginesi tanto ha da esser barbara, fiera, et <lb/>crudele. Non si intende, motivo, aperto, delli <choice><abbr>Alema̍nj</abbr><expan>Alemannj</expan></choice> <lb/>o Inglesi; ma si dubita di qualche segreto aiuto, di <lb/>denari per costoro. Basta che <choice><abbr>haverem̍o</abbr><expan>haveremo</expan></choice> per tutta l' <lb/>estate à venire, guerra; et veggo gli animi tanto <lb/>esasperati di una parte, et d'altra che <choice><abbr>co̍</abbr><expan>con</expan></choice> tutto che <lb/>siamo per vincere; la vittoria sarà lamentevole, et <lb/>temo che rabbiosi come sono i nimici, insidijno alle <lb/>persone di capi, con opinione risoluta, di morir loro <lb/>insieme. Non si vuol rendere la <placeName ref="#place-rochelle">Rosella</placeName>, nella <choice><abbr>q.ale</abbr><expan>quale</expan></choice> <lb/>sparlano del <persName ref="#pers-valois-ch-9">Rè</persName>, <unclear>frtti</unclear>, et madre, sinistramente mol<lb break="no"/>to. Si è trattato del concilio di <placeName ref="#place-trento">Trento</placeName>, del <choice><abbr>ambascia.re</abbr><expan>ambasciatore</expan></choice> <lb/>Spagnuolo, che venne, ditto <unclear>Agimonte</unclear>. ma <choice><abbr>no̍</abbr><expan>non</expan></choice> si accetta<lb break="no"/>ra qui, non vi essendo huomo laico in corte, ne <lb/>donna, che non habbia beneficij, oltri che <choice><abbr>no̍</abbr><expan>non</expan></choice> si sappia <lb/>piu vivere, cosi rittiratamente essendosi goduto da <lb/>un ciascuno sin hora, la troppo grata, ma dannosa <lb/>licenza, introdotta dal tempo. onde il <persName ref="#pers-orsini-card">Cardinal orsino</persName>, <lb/>potrà tornare, con le trombe nel sacco; quanto per <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> <lb/>tanto piu, che la <persName ref="#pers-medici-cat">reina</persName>, non approvo mai da principio</p>
+
+        <!-- FOL. 105v — reading order position 8 -->
+        <pb n="105v"/>
+        <p>la venuta soa qui. Vorrieno gli Spagniuoli, dare à <choice><abbr>Mo̍<lb break="no"/>signor</abbr><expan>Monsignore</expan></choice> la figlia di <persName ref="#pers-habsburg-f">Filippo</persName>, nipote di ditto monsignore, <lb/>mandandola quì, sotto custodia della <persName ref="#pers-medici-cat">reina madre</persName>, <lb/>vino al tempo di maritarla. Ma <choice><abbr>no̍</abbr><expan>non</expan></choice> si è, concluso al<lb break="no"/>tro. <persName ref="#pers-savoy-em-fil">Savoia</persName> <unclear>sera</unclear> compadre, delle figliuola dl <persName ref="#pers-valois-ch-9">Rè</persName>. <lb/>et noi pian piano, andiamo sotto alli Spagniuoli, i <lb/>quali mentre <choice><abbr>sera̍no</abbr><expan>seranno</expan></choice> occupati contro il <persName ref="#pers-osmanli-s2">Turco</persName>, noi <lb/>di <placeName ref="#place-toscana">Toscana</placeName> staremo bene, abbassandosi l'orgoglio lo<lb break="no"/>ro: et de Vinitiani, bella spada d'oriente. Si è, <lb/>inteso, che il <persName ref="#pers-medici-cos-1">gran duca</persName>, è fatto mal sano, et che ha<lb break="no"/>verà una cortissima vita. Non posso scrivere, il dispiace<lb break="no"/>re che ne ho sentito. Dio ci conservi quel signore, <lb/>il quale quando sarà salito al cielo, i suoi nimici <lb/>istessi lo <choice><abbr>piangeran̍o</abbr><expan>piangeranno</expan></choice>. Al suo novel ministro, ho <lb/>fatto riverenza, et lo servirò sempre mai; ha buo<lb break="no"/>nissima maniera, et è successore d'uno, il quale ha <lb/>lasciato gran nome di se, et è stimato molto. An<lb break="no"/>zi ognuno lo giudica Cardinale, col <choice><abbr>vr̍o</abbr><expan>vostro</expan></choice> <unclear>merito</unclear>, <lb/>et se <choice><abbr>no̍</abbr><expan>non</expan></choice> lo fate, vi <choice><abbr>terran̍o</abbr><expan>terranno</expan></choice> per poco grati, et im<lb break="no"/>memori di molti servitij fatti a voi; et a questa co<lb break="no"/>rona. <placeName ref="#place-england">Inghilterra</placeName> lo vorria videre col capel rosso et <lb/>perché, credo che il novel ministro, sarà stato cortese <lb/>in scriverle, le nove, che ha da me inteso, <unclear>havendo<lb break="no"/>mi</unclear> cosi di fare promesso. fo qui fine, baciando le</p>
+
+        <!-- FOL. 107r — reading order position 9 -->
+        <pb n="107r"/>
+        <closer>
+          mani di <choice><abbr>V.S.Ill.a</abbr><expan>Vostra Signoria Illustrissima</expan></choice> con tutto il cuore, di <placeName ref="#place-paris">Parigi</placeName> <lb/>alli <date when="1572-11-21">XXI. di Novembre dl Lxxii</date>
+          <lb/><choice><abbr>obligatiss.o</abbr><expan>obligatissimo</expan></choice> <choice><abbr>Serv.</abbr><expan>Servitore</expan></choice>
+          <lb/><signed><persName ref="#pers-cavriana-f" type="alias">Thomaso</persName></signed>
+        </closer>
+
+        <postscript>
+          <p>Ho scritto, del <choice><abbr>ambascia.re</abbr><expan>ambasciatore</expan></choice> <persName ref="#pers-walsingham-f">Inglese</persName>, assai; perchè à <choice><abbr>q̄lla</abbr><expan>quella</expan></choice> <lb/>natione, pesa più dell'altre, la morte delli Ugo<lb break="no"/>notti, da quali pende il disturbo di questo regno, <lb/>et perchè, sappia <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> in quanto credito, noi siamo <lb/><unclear>appo</unclear> <choice><abbr>q̄lla</abbr><expan>quella</expan></choice>; non pensando ad altro, che al servitio solo <lb/>di <choice><abbr>S. A.</abbr><expan>Sua Altezza</expan></choice>; et le altre nove <choice><abbr>fan̍o</abbr><expan>fanno</expan></choice> per empir il foglio <lb/>et darmi materia, di discorrere.</p>
+        </postscript>
+
+      </div>
+    </body>
+  </text>
+</TEI>

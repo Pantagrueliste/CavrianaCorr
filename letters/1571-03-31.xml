@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +24,7 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>559</idno>
@@ -59,10 +59,10 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-paris">Parigi</placeName>
-          <date when="1571-03-31"/>
+          <date when="1571-03-31">31 March 1571</date>
         </correspAction>
         <correspAction type="received">
-          <persName>Unknown</persName>
+          <persName ref="#">Unknown</persName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -77,7 +77,7 @@
       <div type="letter">
         <pb n="212r"/>
         <p>
-          ho ricevuto la <choice><abbr>lra̍</abbr><expan>lettera</expan></choice>, che havevo mandato a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> scrittta in cifra, <lb/>la quale portava seco, cose per allhora necessarie a sapersi, ma <lb/>per essersi poi sopito in buona parte, quel rumore, <choice><abbr>no̍</abbr><expan>non</expan></choice> occore <lb/>che inutilmente le replichi. Hora le mando copia della me<lb break="no"/>desima cifra la quale io non ho commune con persona, <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>usando io di scrivere, ad altro huomo al mondo in questa <lb/>maniera, che a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> percioche <choice><abbr>no̍</abbr><expan>non</expan></choice> dispero da alcuno, che <lb/>dal <persName ref="#pers-medici-cos-1">Gran duca</persName>; et non voglio altro <choice><abbr>pro̍ne</abbr><expan>padrone</expan></choice> che sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> et <lb/>però io non so, come equivocatione vi sia; Di qua, si <lb/>ha nova certa, che in <placeName ref="#place-rochelle">la Roscella</placeName>, si stava molto bene <lb/>in ordine, per rinovar la guerra, se non si faceva gius<lb break="no"/>titia, di coloro, che in <placeName>Roano</placeName> hanno ucciso, ben 40 Ugo<lb break="no"/>notti, et volevano ancho far peggio. Ma il <persName ref="#pers-valois-ch-9">Re</persName>, vi manda <lb/>archibugieri, per guardia, et affine che la giustitia <lb/>si essequisca, con sicurezza: nondimeno <persName ref="#pers-montm-fr">Mamoransi</persName>, è ri<lb break="no"/>tornato di la, il che da a credere, che ci serà qualche mez<lb break="no"/>zo, di <choice><abbr>acco̍modare</abbr><expan>accommodare</expan></choice> le querele, senza spargimento di sangue <lb/>et senza morte; L'intrata della <persName ref="#pers-medici-cat">reina</persName> è stata bellis<lb break="no"/>sima, ma poco fu il numero, delle princesse che la segui<lb break="no"/>vano, percioche ne la <persName ref="#pers-cleves-h">Duchessa di Nevers</persName>, ne la Marche<lb break="no"/>sa <choice><abbr>dysle</abbr><expan>d'Isle</expan></choice>, vi si trovarono / non <choice><abbr>hn̍do</abbr><expan>havendo</expan></choice> potuto haver il luo<lb break="no"/>go, che pretendino, ch'era secondo elle, quello che <persName ref="#pers-guise-h">Ghisa</persName> <lb/>lor sorella, et lo connestabile tennevano; et come che <lb/>il <persName ref="#pers-gonzaga-l-nev">Duca</persName> suo marito l'habbia disputata assai, nondimeno <lb/>non ha ottenuto niente; anzi tutto mal contento disse al <persName ref="#pers-valois-ch-9">re</persName>, <lb/>che poiche, egli vedeva, che in poco pregio era di sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> <lb/>che si voleva rittirare della corte, alla quale <choice><abbr>no̍</abbr><expan>non</expan></choice> seria ve<lb break="no"/>nuto mai se sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> l'havesse commandato, amando meglio
+          ho ricevuto la <choice><abbr>lra̍</abbr><expan>lettera</expan></choice>, che havevo mandato a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> scrittta in cifra, <lb/>la quale portava seco, cose per allhora necessarie a sapersi, ma <lb/>per essersi poi sopito in buona parte, quel rumore, <choice><abbr>no̍</abbr><expan>non</expan></choice> occore <lb/>che inutilmente le replichi. Hora le mando copia della me<lb break="no"/>desima cifra la quale io non ho commune con persona, <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>usando io di scrivere, ad altro huomo al mondo in questa <lb/>maniera, che a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice> percioche <choice><abbr>no̍</abbr><expan>non</expan></choice> dispero da alcuno, che <lb/>dal <persName ref="#pers-medici-cos-1">Gran duca</persName>; et non voglio altro <choice><abbr>pro̍ne</abbr><expan>padrone</expan></choice> che sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> et <lb/>però io non so, come equivocatione vi sia; Di qua, si <lb/>ha nova certa, che in <placeName ref="#place-rochelle">la Roscella</placeName>, si stava molto bene <lb/>in ordine, per rinovar la guerra, se non si faceva gius<lb break="no"/>titia, di coloro, che in <placeName ref="#place-rouen">Roano</placeName> hanno ucciso, ben 40 Ugo<lb break="no"/>notti, et volevano ancho far peggio. Ma il <persName ref="#pers-valois-ch-9">Re</persName>, vi manda <lb/>archibugieri, per guardia, et affine che la giustitia <lb/>si essequisca, con sicurezza: nondimeno <persName ref="#pers-montm-fr">Mamoransi</persName>, è ri<lb break="no"/>tornato di la, il che da a credere, che ci serà qualche mez<lb break="no"/>zo, di <choice><abbr>acco̍modare</abbr><expan>accommodare</expan></choice> le querele, senza spargimento di sangue <lb/>et senza morte; L'intrata della <persName ref="#pers-medici-cat">reina</persName> è stata bellis<lb break="no"/>sima, ma poco fu il numero, delle princesse che la segui<lb break="no"/>vano, percioche ne la <persName ref="#pers-cleves-h">Duchessa di Nevers</persName>, ne la Marche<lb break="no"/>sa <choice><abbr>dysle</abbr><expan>d'Isle</expan></choice>, vi si trovarono / non <choice><abbr>hn̍do</abbr><expan>havendo</expan></choice> potuto haver il luo<lb break="no"/>go, che pretendino, ch'era secondo elle, quello che <persName ref="#pers-guise-h">Ghisa</persName> <lb/>lor sorella, et lo connestabile tennevano; et come che <lb/>il <persName ref="#pers-gonzaga-l-nev">Duca</persName> suo marito l'habbia disputata assai, nondimeno <lb/>non ha ottenuto niente; anzi tutto mal contento disse al <persName ref="#pers-valois-ch-9">re</persName>, <lb/>che poiche, egli vedeva, che in poco pregio era di sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> <lb/>che si voleva rittirare della corte, alla quale <choice><abbr>no̍</abbr><expan>non</expan></choice> seria ve<lb break="no"/>nuto mai se sua <choice><abbr>M.ta</abbr><expan>Maestà</expan></choice> l'havesse commandato, amando meglio
         </p>
 
         <pb n="212v"/>

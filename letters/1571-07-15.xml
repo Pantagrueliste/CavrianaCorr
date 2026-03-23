@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
         <respStmt>
         <resp>Copied by</resp>
@@ -26,14 +26,14 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Mantova</settlement>
+            <placeName>Mantova</placeName>
             <repository>Archivio di Stato di Mantova</repository>
             <collection>Archivio Gonzaga</collection>
             <idno>b654</idno>
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus>fol. 336r</locus>
+              <locus from="336r" to="336r">fol. 336r</locus>
               <title>Letter from Filippo Cavriana to Guglielmo Gonzaga</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
@@ -63,7 +63,7 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
-          <date when="1571-07-15"/>
+          <date when="1571-07-15">15 July 1571</date>
         </correspAction>
         <correspAction type="received">
           <persName ref="#pers-gonzaga-gugl">Guglielmo Gonzaga</persName>
@@ -77,7 +77,7 @@
       <div type="letter">
         <pb n="336r"/>
         <opener>
-          <salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> et <choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>Il.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <unclear reason="illegible"></unclear></salute>
+          <salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> et <choice><abbr>Ecc.mo</abbr><expan>Eccellentissimo</expan></choice> <choice><abbr>Il.re</abbr><expan>Illustre</expan></choice> <choice><abbr>S.or</abbr><expan>Signor</expan></choice> mio <gap reason="illegible"><desc>illegible</desc></gap></salute>
         </opener>
         <p>
           Al testimonio della divotion mia verso <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> et della <lb/>riverentia che le debbo. che il <persName ref="#pers-crotto">crotto</persName> col fero ritorno costi; <lb/>le farà per mio nome, ho voluto aggiungerle la presente <lb/>per humilmente supplicarla, che le piaccia di credere che di <lb/>quanti servidori ella ha, non ha alcuno più di me divoto, <lb/>et affetionato, et che in ogni occasione, che se le appresenti; <lb/>non saprei ricevere, maggior favore da lei, che d'essere <unclear reason="illegible">operato</unclear> <lb/>in servitio suo, il che sperando che pur un giorno debba essere, <lb/>non vi entenderò piu oltre ma prima che il <persName ref="#pers-crotto">Crotto</persName>, darà <lb/>minutamente aviso a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <choice><abbr>Ill.a</abbr><expan>Illustrissima</expan></choice> dello stato del <choice><abbr>Sr</abbr><expan>Signor</expan></choice> mio <lb/>Padrone: et qui humilmente le bacio le mani, pregando <lb/>nostro <choice><abbr>S.re</abbr><expan>Signore</expan></choice> Dio, che perpetuamente la conservi, Dalli <placeName ref="#place-bagni-di-lucca">bagni

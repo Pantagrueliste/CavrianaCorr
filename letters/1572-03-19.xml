@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 19 March 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="63r" to="64r">fols. 63r-64r</locus>
+              <title>Letter from Filippo Cavriana, 19 March 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Report on Count Ludwig of Nassau's pension, the proposed English league, Navarre marriage negotiations, the Cardinal of Lorraine's lawsuit against Nevers, and cipher passages on the nuncio's hostility to the Grand Duke and Spanish diplomatic pressure.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-blois">Bles</placeName>
+          <date when="1572-03-19">19 March 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.me in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="63r"/>
+        <p>Il conte Ludovico di Nassau, fratello del principe di oranges ha havuto pensione dal re di dodici mille franchi l'anno, cosa che spiacciuto molto à capitani di raiteri, i quali servirono a Sua Maestà contro gli Ugonotti et pare che dichino, che ad un'altra occasione, nella quale occorra al re, servissi di loro, potrieno ricordarsi della ingiuria, esendo piu primiato il nimico, che l'amico et si murmura molto di questo fatto, parendo, che poco habbia fatto in servitio di casa sua, il detto conte onde meno possa fare in servitio di sua Maestà peché chi non sa fare i fatti suoi, meno saperà quelli d'altrui et che però questa paga grossa, sia tutta inutilmente gettata, dove a molti si poteva meglio conferire oltre che pare, che il re voglia con arte mantenere i ribelli di spagna, et tenessi collegato con alamagna. La liga con inghilterra, dicesi che è conlusa, et che per questa, va a quella reina Mamoransi sotto colori però di matrimonio et nozze con monsignore il Duca d'Alanzone si era concluso, che il duca di Monpensiero, sposeva a nome del principe di Navarra, Madama alla chiesa, et alla forma di nostra relligione, ma da doi di in qua, ogni cosa è stata turbata, et non se ne parlava piu. Le nozze pure si faranno di sicuro per un rispetto che non voglio scrivere, ma anderanno lente, et tarde et pare che si cerchi di produrle sino che arrivi il tempo della restitutione, delle piazze, che tengono gli Ugonotti, cercandosi da ambe li parti avantaggio; Dimandava la reina di</p>
+        <pb n="63v"/>
+        <p>Navarra, la sopraintendenza della Ghienna, del contado di Armagnacco, et della miglior parte di Vascogna et insieme che tutto quello tratto della Roscilla, sino a Baiona (parlo di mare, et di terra) cedene per partaggio à Madama sorella del re, et fusse come patrimonio usuale o dote, et su queste dimande vi è gran disputa, non si potendo mai alienare il dominio del re, ne sminuire le forze della corona; oltre che pare essere troppo vantaggio la cosa per loro, i quali havereno commodità di Inglesi, et la miglior parte del regno, in bontà di paese, et industria d'huomini et martiali, a loro volere et possanza congionta con Navarra. Il cardinal di Loreno ha mosso lite al Duca di Nevers, et a sua cognita la Marchesa di Yle, tanto che la ha ritta con i piu congionti, cosa che ha mosso spiacciuta à Madama di Ghisa, sorella di detta Marchesa, ma non poco mosso, havendola il cardinale violentata et minacciata molte, et molte volte, per questa causa onde si rinoveranno querelle gia in tutto estinte alle quali non si puo rimediare per non potere negare giustitia a chi ha dimanda il re, ne il consiglio suo et questa medesima lite, move rumori alla casa d'Arescot in Fiandra, per essersi miscolata e sicome con altre mie le dirò piu a pieno <seg type="cipher" subtype="numeric">41551852416</seg> <supplied reason="deciphered">il nuntio</supplied>, fa di mali ufficij contro <seg type="cipher" subtype="numeric">4151417125318212</seg> <supplied reason="deciphered">il Granduca</supplied> et lo mette in sospetto a tutti, et fa quanto puo per offenderlo, ricordatevene Signor mio quando sarà tempo, <seg type="cipher" subtype="numeric">12 14 41 51 6 5 71311417317121741613471611214512</seg> <supplied reason="deciphered">Aglion ? di spagna</supplied> mi ha tornato a dire che bisogna caminare nel medesimo modo con Filippo, che sin ho-</p>
+        <pb n="64r"/>
+        <p>ra si è fatto, et che Filippo, non credeva tutto quello, che di voi altri le veniva detto. Ma che vi amava anchora. Non dimeno se mutare opinione, che ve ne pentireste che il duca d'Alva, vi ha servito per scudo et serve molto et che le due piazze, le quali tiene in Thoscana Filippo non le lascierà per un millione d'oro, anzi che la parte, che tiene in Thoscana, non la cederia per tutta Sardegna ne forsi per la metà di Sicilia onde io credo che pensino anchora questi spagniuoli ad avanzarsi piu inanzi che di quel poco. Che non dovete temere da Filippo in niente, ma che lasciarle altresi le prattichi di Francia et Inghilterra altrimenti turbarete il fonte della vostra tranquillità, sicome havete fatto, dice egli con il titolo della nova dignità, la quale voi richiedete, per haver una scala a farvi fare Re doppoi et soprafare gli altri. Quello che io la risposi, seria longa cosa il scriverlo, basta che secondo il tempo sodisfeci. Non ho piu tempo, convenendomi seguire questo maledetto mistieri, che contra volonta faccio, il quale mi leva le occasioni di scrivervi piu spesso. Bacio à Vostra Signoria le mani et me la raccomando in gratia, supplicandola a conservarmi vivo nella memoria di loro altezza.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-blois">Bles</placeName> alli 19 Marzo del 72</dateline>
+          <signed><persName ref="#pers-cavriana-f" type="alias">chi ella sa</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

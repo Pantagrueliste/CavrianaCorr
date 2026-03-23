@@ -7,8 +7,8 @@
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
-          <resp>Lecturer in Digital Humanities</resp>
-          <name>University of St Andrews</name>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,14 +22,14 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Florence</settlement>
+            <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
             <idno>551</idno>
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus>217r-217v</locus>
+              <locus from="217r" to="217v">217r-217v</locus>
               <title>Letter discussing French political matters</title>
               <author>Chi ella sà</author>
               <textLang mainLang="it">Italian</textLang>
@@ -54,18 +54,18 @@
         <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
       </editorialDecl>
       <projectDesc>
-        <p>All places and persons are now referenced from authorityPlaces.xml and authorityPersons.xml.</p>
+        <p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p>
       </projectDesc>
     </encodingDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Chi ella sà</persName>
+          <persName ref="#pers-cavriana-f">Chi ella sà</persName>
           <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>
           <date when="1570-07-29">29 July 1570</date>
         </correspAction>
         <correspAction type="received">
-          <persName>Unknown recipient</persName>
+          <persName ref="#">Unknown recipient</persName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -74,7 +74,10 @@
     <body>
       <div type="letter">
         <pb n="217r"/>
-        <p>Signore. Si maneggia d'havere il contento de prencipi catholici Francesi et la pace, che si concluderà poi, da tutte due le par<lb break="no"/>ti, siccome è conclusa tra il re et gli nimici, ma non pubbliccate; et <lb/>dimane, ritornano gli deputati dal Amiraglio, resoluti, et sicuri./ <lb/>Se bene <persName ref="#pers-lorraine-ch-card">lorena</persName> fa del cattivo, et finge l'ammalato, per non venire <lb/>al capitolo qui in <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>, Pure voglia o no, la vi escluderà sul <lb/>naso, et haverà pacienza. egli è un strano gambero di mare, et vor<lb break="no"/>ria assicurarsi ben bene, ma io temo che, le <choice><abbr>cōverrà</abbr><expan>converrà</expan></choice> chiuder l'orec<lb break="no"/>chie, et havere pacienza. hieri la reina lo mandò a visitare, et es<lb break="no"/>sortarlo a venir da <placeName ref="#place-paris">parigi</placeName> (dove è l'aria cattiva) a <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>, <lb/>che l'ha <choice><abbr>purgatiss.a</abbr><expan>purgatissima</expan></choice>, ma disse di non voler venire, amando meglio, <lb/>esser la infermo. che qui dishonorato, perchioche non va trovar buona <lb/>questa pace. Molti credeno, che non habbia male, ma che finger lo <lb/><unclear>sconucciato</unclear> si tiene per fermo, che egli sia in odio alla corte, per<lb break="no"/>cioche pure, che egli sia bandato, con tutti i principi catholici di <placeName ref="#place-fr">fran<lb break="no"/>cia</placeName> et con certi ambasciatori qui, come spagna, savoia et il papa, <lb/>contro il paese di tutti quelli, che vogliono la pace, et quasi <unclear>capo</unclear> <lb/>d'una parte, sminuisca l'auttorità regia nel terminare le cose <unclear>suei</unclear> che par come a dire, una altra seditione, o ribellione ; ma la si <lb/>rompe; percioche uno <unclear>se conpensiero</unclear> venirà dimane, che à guadagnato, <lb/>et se ne <choice><abbr>guadagneran̄o</abbr><expan>guadagneranno</expan></choice> delli altri, con modi, et con artifici ; et se <lb/>egli solo, con uno o doi, resta di fuori, non si farà gran caso.</p>
+        <opener>
+          <salute>Signore.</salute>
+        </opener>
+        <p>Si maneggia d'havere il contento de prencipi catholici Francesi et la pace, che si concluderà poi, da tutte due le par<lb break="no"/>ti, siccome è conclusa tra il re et gli nimici, ma non pubbliccate; et <lb/>dimane, ritornano gli deputati dal Amiraglio, resoluti, et sicuri./ <lb/>Se bene <persName ref="#pers-lorraine-ch-card">lorena</persName> fa del cattivo, et finge l'ammalato, per non venire <lb/>al capitolo qui in <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>, Pure voglia o no, la vi escluderà sul <lb/>naso, et haverà pacienza. egli è un strano gambero di mare, et vor<lb break="no"/>ria assicurarsi ben bene, ma io temo che, le <choice><abbr>cōverrà</abbr><expan>converrà</expan></choice> chiuder l'orec<lb break="no"/>chie, et havere pacienza. hieri la reina lo mandò a visitare, et es<lb break="no"/>sortarlo a venir da <placeName ref="#place-paris">parigi</placeName> (dove è l'aria cattiva) a <placeName ref="#place-saint-germain-des-pres">San Germano</placeName>, <lb/>che l'ha <choice><abbr>purgatiss.a</abbr><expan>purgatissima</expan></choice>, ma disse di non voler venire, amando meglio, <lb/>esser la infermo. che qui dishonorato, perchioche non va trovar buona <lb/>questa pace. Molti credeno, che non habbia male, ma che finger lo <lb/><unclear>sconucciato</unclear> si tiene per fermo, che egli sia in odio alla corte, per<lb break="no"/>cioche pure, che egli sia bandato, con tutti i principi catholici di <placeName ref="#place-fr">fran<lb break="no"/>cia</placeName> et con certi ambasciatori qui, come spagna, savoia et il papa, <lb/>contro il paese di tutti quelli, che vogliono la pace, et quasi <unclear>capo</unclear> <lb/>d'una parte, sminuisca l'auttorità regia nel terminare le cose <unclear>suei</unclear> che par come a dire, una altra seditione, o ribellione ; ma la si <lb/>rompe; percioche uno <unclear>se conpensiero</unclear> venirà dimane, che à guadagnato, <lb/>et se ne <choice><abbr>guadagneran̄o</abbr><expan>guadagneranno</expan></choice> delli altri, con modi, et con artifici ; et se <lb/>egli solo, con uno o doi, resta di fuori, non si farà gran caso.</p>
 
         <p>Et aggionge la <choice><abbr>lrā</abbr><expan>lettera</expan></choice>, che si dice che mandò a varij prencipi, per <lb/>impedire il mariaggio della novella del re, accioche <persName ref="#pers-guise-h">guisa</persName> suo <lb/>nipote la sposasse, la quale ha aaspiaciuto molto, à Monsignore <choice><abbr>fr.llo</abbr><expan>fratello</expan></choice> <lb/>del Re, dal quale hebbe una schiavina di parole. Ma <lb/><persName ref="#pers-guise-h">guisa</persName> sposa fra 15 giorni, la princesse di Portiano, che cosi ha <lb/>ordinato il Re et reina, et il cardinale di <persName ref="#pers-guise-h">Guisa</persName> le dona un <lb/>diamante di valuta di 5 mila Δ d'oro onde, poi che si comincia a <lb/>a far nozze una volta qui in corte, et da grandi ; credetemi che secō<lb break="no"/>do il corso di questa natione, non si penserà piu alla guerra, ma <lb/>alla pace di <unclear>marcone</unclear>, et a madonna venere. <persName ref="#pers-montm-fr">Mamoransi</persName> guidò <lb/>hieri un Consiglio con <persName ref="#pers-gonzaga-l-nev">Nevers</persName>, et hebbero aspre parole, non si <unclear>sa</unclear> quello <lb/>che riuscirà. Si è concluso che si venda in <placeName ref="#place-piemonte">Piemonte</placeName> <unclear>detto</unclear> sta<lb break="no"/>to di <placeName ref="#place-saluzzo">Saluzzi</placeName>, cioe de beni del dominio, per 30 mila Δ per so<lb break="no"/>venire alle miserie di quelle quarniggioni le quali ne van per<lb break="no"/>dute, et rovinate, non havendo in 20 mesi toccato pur un soldo, <lb/>et per schiffare le insidie delli ugonotti, che <choice><abbr>han̄o</abbr><expan>hanno</expan></choice> intelligenza</p>
 

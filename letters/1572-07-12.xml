@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 12 July 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="194r" to="195r">fols. 194r-195r</locus>
+              <title>Letter from Filippo Cavriana, 12 July 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Report on reactions to the Grand Duke's loan to the Duke of Alba, Spanish manipulation of relations, and the Emperor's refusal to use the Grand Duke title.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-07-12">12 July 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.ma in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="194r"/>
+        <p>Per essersi sentita stranamente, in questa corte, la prestanza delli dugento milli, al duca d'alva, tutto che da chi è prudente et sa governare i regni si mostri di fuori il contrario, non posso mancare di avisarne. V.S.; atteso che io odo quello, che ad altri è celato, et l'odo da passione intrinseche et familiari di quelli a chi il male preme. Percioché non si nota solamente la prestanza (poiché per legge delli stati, nessuno ha da fare il fatto suo) ma la troppo cauta maniera del negotiare, et venire con disdegno, havendo fatto il dolce et il sviscerato nelle vostre necessità et sospetti per il tempo passato; hora mo, per dar un colpo alla botte, et l'altra al cerchio, havete voluto contentar spagna per livrarsi d'addosso, il sospetto che l'era entrato nell'animo, che fuste non per francesi, ma poco meno, di Ugonotti, cosa che ben pesata da ministri di quella, hanno (a confusione di coloro, che francesi vi hanno sempre voluto tenere) sparso voce, che voi siete visi spagniuoli, et che per vostro interesse particolare, havete in certi tempi fatto del francese, ma che il mondo, non conosceva bene l'artificio, col quale lavoravate; onde mi disse hieri colui, del quale per altre mi vi scrissi. Che vi pare Thomaso? Gli Ugonotti che si forzavano far credere al mondo, che Fiorenza fosse loro amico, hon son chiariti poiché ha prestato grossissima somma de denari al duca d'Alva, per far loro guerra et di vero ha ben fatto, percioché con questo atto, viene scemare la diffidenza, nella quale, il re di spagna poteva esser entrato di lui, per certi maneggi, che i ministri di quello, haveano havuto</p>
+        <pb n="194v"/>
+        <p>con gli Ugnonotti. Ma questo atto solo, non è anchora bastevole à farsi tener Spagnuolo, et servidor di cuore del Re Filippo, bisogna far qualche altra cosa insieme, perché del tutto, si gli levi dell'animo, quella gelosia, che l'havea cominciato a occupare, et la farà di certo secondo le occasioni che se le appresentaranno, perché non ha al mondo cosa alcuna, che non la riconosca dalla larga mano di Carlo quinto et da Filippo. Questo medesimo, ha detto in piu luoghi, non per amor che ci porti, ne per una riputazione, ma per metterci in diffidenza, con questa corona, accioché privato in tutto, della buona volontà dell'uno, et in sospetto posto dall'altro, non habbiate, nelle vostre necessità alcun aiuto, o sopporto fermo, et stabile, onde io che conosco gli andamenti di costoro, poco credo alle loro apparenti dimostrazioni. La qual cosa mi pare, che meritassi essere intesa da Vostra Signoria, accioché con buon modo si medichino quelle piaghe le quali covando un tempo, senza far molto gran male, al fine neglette uccidono, o almeno corrompono la memoria. Vostra signoria è tanto savia, et ha governato cosi longo tempo prudentemente i regni, et quello che è, piu gli humori de re diversi, che saprà andare pian piano trovando il fondo, et il grado, per uscire a quel fine, che si è proposta. In ultimo mi convien dirle che non ha molto, che Cesare scrisse alla reina sua figliola assai piu calmamente che non si crede, che non disse il titolo di gran duca, a Sua Altezza, perciò che et a se, et al re di Spagna</p>
+        <pb n="195r"/>
+        <p>suo cugino, et à molti altri prencipi pregiudicava molto, ma io che desidero servire, a sua serenità, feci che con l'occasione, del effettuare la gratia concessami dell'antianità ella se lo desse, et continuarà anche piacendo a Dio, la qual cosa, mi pare tanto piu a mia gloria, quanto io son stato il primo, che l'abbia con sua Maesta procurato e ottenuto. Restami solamente, pregar Vostra Signoria che mi tenga nel numero de suoi piu devoti servidori, persuadendosi, che io mi stimerò assai felice, si col commandarmi, mi darà occasione di acquistarmi maggiormente la gratia di lei, alla quale con ogni affetto mi raccomando et se troppo di me non presumo, bacio con ogni humiltà le serenissime mani di sua altezza.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il Xij di Luglio del Lxxij</dateline>
+          <signed><persName ref="#pers-cavriana-f">obligatissimo servidore</persName></signed>
+        </closer>
+            <postscript><p>Tutto quello che a V.S. scrivo comunicai hieri col vostro ministro; et perché faceva il sicuro, et si fidava molto nelle parole dettele, perché pensava che venissero dal cuore, le feci intendere, che gli humori stavano altrimenti, sicome da chi quelli governa, ho molto bene inteso. Spagniuoli si vagliono di questa occasione, non per amore, ma per malitia.</p></postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

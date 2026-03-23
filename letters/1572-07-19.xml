@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana, 19 July 1572</title>
+        <author>Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="205r" to="206r">fols. 205r-206r</locus>
+              <title>Letter from Filippo Cavriana, 19 July 1572</title>
+              <author>Filippo Cavriana</author>
+              <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
+              <note type="summary">Report on Spanish pressure regarding Tuscan fortresses, allegations of Florentine involvement in the Flemish revolt, Madame de Nemours's intrigues, and the Franco-Spanish balance.</note>
+              <note type="editorial">Fol. 205r begins mid-sentence, suggesting a missing opening page.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter"><layoutDesc><p>Single column, written on both sides of the folios</p></layoutDesc></objectDesc>
+            <handDesc hands="1"><handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote></handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-07-19">19 July 1572</date>
+        </correspAction>
+        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.ma in closing) --></persName></correspAction>
+      </correspDesc>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="205r"/>
+        <p>e pur hieri parlai col ministro di quel gran signore, il quale mostra di havere opinione un poco migliore che vuoi altri, che non ha havuto sin hora, visto che non siete di tutto Francesi, come si sospettò molto tempo da lui, per la nova prestanza delle trecento mille: et tenendo più longo proposito seco, passò tant'oltre a dirmi, che Filippo teneva in mano alcune fortezze di Thoscana, con le quali gridava i sfrenati, et abbassava i sospetti; Però che se le fusse venuta volonta di movervi l'armi contro, come havevate creduto, che haveva in animo di fare, senza molta fatica seria entrato in Thoscana; Ma questo poco m'importa, percioché altro maggior dolore ci sta nascosto nel petto, et è che voi siate stati autori, et piu che persuasori, et consiglieri di questo novo romore Fiammingo, quando impauriti dell'armata di mare, et di terra, del re Catholico, con le voci, che andavano intorno, della risolutione di Siena, voltaste il mal tempo altrove; il quale non potè per allora far alcun male, perché ogni forza le mancava. Io cavo questo da certe sue parole, mezzo fra denti, et mezze fuori, ma non la vuole scoprire; et io le ho risposto, sapere di buon luogo, che tanto ha, chi voi consigliate guerra hora, ne la consigliate mai in questa forma che havete con la reina, perché conservi inviolabile il nodo della consanguinità col re di Spagna, dicendole col essempio</p>
+        <pb n="205v"/>
+        <p>di tanti fuoriusciti Alemani, et Italiani, che hora vanno mendicando il pane, à questa corte, et à quell'altra, che non si può credere mai, alcuna grande impresa, o honorata riuscita di questi altri moderni Fiamminghi, et che però continuasse il suo, colla amicitia di Spagna senza porlo a rischio, per vane persuasioni altrui. A questo sorrise, e mi disse Tirar la pietra, et scender il braccio quae pars est? Basta. Di voi si contentiamo al presente, ma bisognerà far altro, di piu momento, si come il tempo porterà. Io non vorrei che questo rumore andassi più innanzi accioché più innanzi non entrassi il sospetto che voi altri che consigliato l'haveste, Ma per ragion di stato lo debbo desiderare; Perché garbuglio fa per noi; percioché rompendosi la testa costoro, ci lascieranno in pace; et potria venire tal necessità se la festa dura. Che Portlevole et Orbetello, con cio che c'è, ci seria renduto. Il Turco anche farà meglio il fatto suo, perché non si puo far longo tempo guerra in levante et ponente, massime dubitandosi che Vinitiani si accomoderanno seco con ogni honorevole conditione et però come huomo, desidero che vada innanzi il negotio, tutto che costoro sieno molto debili di denari. La qual ragione sola, potria far cessare il ballo. Il ministro vostro havrà scritto quanto le dissi di que' particolari che havevo udito con la venuta del segretario, del Ambasciator regio in Constantinopoli, et</p>
+        <pb n="206r"/>
+        <p>però non replico, per non empire vanamente il foglio. Il medesimo, Madama di Nemours è qui lavora da valente, et ci fa testa in fatti vuo dir il vero; ci sono alcune donne che valgono per molti huomini. Quando è il tempo c'è chi ci fa tenere spagniuoli dalla reina, et francesi di certi altri, che non sia bisogno et mi son trovato in alcuni luoghi, dove ho udito cose che mi hanno dato gran pena, alle quali ho risposto, piu discretamente che ho potuto; dicendo che noi non sappiamo il modo di governar gli stati, onde giudichiamo ben spesso erroneamente; le attioni de grandi. Basta che ci batteno quanto piu possono. Conviene intrattenersi con ogni studio, quelli fedeli et devoti, che qui c'havete, che pur son pochi à mio giuditio, onde la spesa non può esser grande; altrimenti col tempo la perderemo, per quello che ne scrive un grande historico, che plures sub qui orientem solem venerantur, quam occidentem, et 54 anni sono il termine per lo piu, della vita nostra, Il re anchorché sia martiale, non vuol però guerra col cognato. Ma le sospettioni, le commodità, i consigli altrui, et il tempo, fanno variar pensiero. Staremo a veder, quest'anno, et poi ci pensiamo un poco. bacio a Vostra Signoria Illustrissima le mani, con ogni affetto d'animo.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il di 19 di Luglio del Lxxij</dateline>
+          <signed><persName ref="#pers-cavriana-f">obligatissimo servidore</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

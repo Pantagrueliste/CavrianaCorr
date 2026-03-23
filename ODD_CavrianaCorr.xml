@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD for the Digital Edition of Filippo Cavriana's Correspondence</title>
+        <author>Clément Godbarge</author>
+        <respStmt>
+          <resp>Lecturer in Digital Humanities</resp>
+          <name>University of St Andrews</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+        <idno type="DOI">10.5281/zenodo.14789457</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born-digital ODD document for the CavrianaCorr project.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">CavrianaCorr: Encoding Guidelines</titlePart>
+          <titlePart type="sub">ODD for the Digital Edition of Filippo Cavriana's Correspondence (1568–1606)</titlePart>
+        </docTitle>
+        <docAuthor>Clément Godbarge</docAuthor>
+        <docDate>2026</docDate>
+      </titlePage>
+    </front>
+
+    <body>
+      <!-- ============================================================ -->
+      <!-- 1. PROJECT DESCRIPTION                                       -->
+      <!-- ============================================================ -->
+      <div xml:id="project-description">
+        <head>Project Description</head>
+        <p>This ODD defines the TEI customisation for the digital edition of the
+        correspondence of <hi rend="italic">Filippo Cavriana</hi> (1536–1606), an
+        Italian physician, humanist, and diplomatic informant active at the French
+        court during the Wars of Religion. The edition publishes letters preserved
+        in the Archivio di Stato di Firenze (Mediceo del Principato), the Archivio
+        di Stato di Mantova (Archivio Gonzaga), and the Bibliothèque nationale de
+        France.</p>
+
+        <p>Cavriana wrote under his own name and under the pseudonym
+        <hi rend="italic">Vincenzo da Castello</hi>. His letters are addressed
+        primarily to Medicean secretaries (Bartolomeo Concini, Jacopo Dani) and to
+        the Duke of Mantua (Guglielmo Gonzaga). Several letters contain passages
+        in numerical cipher, deciphered either by contemporary hands or by the
+        editor.</p>
+
+        <p>The encoding follows TEI P5 and is designed to support:
+          <list>
+            <item>diplomatic transcription with abbreviation expansion;</item>
+            <item>named entity annotation with centralised authority files;</item>
+            <item>cipher text documentation with decipherment apparatus;</item>
+            <item>manuscript damage and uncertain readings;</item>
+            <item>correspondence metadata compliant with
+            <ref target="https://correspsearch.net">correspSearch</ref>.</item>
+          </list>
+        </p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 2. EDITORIAL PRINCIPLES                                      -->
+      <!-- ============================================================ -->
+      <div xml:id="editorial-principles">
+        <head>Editorial Principles</head>
+
+        <div xml:id="transcription-policy">
+          <head>Transcription Policy</head>
+          <p>The transcription is <hi rend="bold">semi-diplomatic</hi>: the original
+          spelling, punctuation, and capitalisation of the source are preserved. No
+          silent normalisation is applied. Line breaks are recorded with
+          <gi>lb</gi> to maintain the spatial structure of the manuscript page.
+          Page and folio breaks are marked with <gi>pb</gi>.</p>
+
+          <p>Abbreviations are expanded using the <gi>choice</gi> /
+          <gi>abbr</gi> / <gi>expan</gi> mechanism, making both the original
+          abbreviated form and its resolution available to the reader. The
+          original abbreviation marks — combining diacritics such as the
+          combining dot above (U+0315), the combining macron (U+0304), and
+          special letter forms (ꝑ, ꝗ) — are preserved in the <gi>abbr</gi>
+          element.</p>
+        </div>
+
+        <div xml:id="entity-annotation">
+          <head>Named Entity Annotation</head>
+          <p>All persons and places mentioned in the main hand of each letter are
+          annotated with <gi>persName</gi> and <gi>placeName</gi> elements
+          carrying a <att>ref</att> attribute that points to a centralised
+          authority file (<hi rend="italic">persNames.xml</hi> and
+          <hi rend="italic">placeNames.xml</hi>). Entity annotation is
+          restricted to the main scribal hand; marginalia and secondary hands
+          are not annotated.</p>
+
+          <p>Person entries in the authority file include VIAF identifiers
+          where available. Place entries include Getty TGN identifiers and
+          geographic coordinates.</p>
+        </div>
+
+        <div xml:id="cipher-policy">
+          <head>Cipher Text</head>
+          <p>Several letters contain passages in numerical substitution cipher.
+          These are encoded as <gi>seg</gi> elements with
+          <att>type</att>=<val>cipher</val> and <att>subtype</att>=<val>numeric</val>.
+          Where a contemporary hand has written the decipherment above the cipher
+          text in the manuscript, this is recorded with <gi>add</gi> elements of
+          <att>type</att>=<val>decipher</val> and <att>place</att>=<val>above</val>.
+          Where the editor supplies a decipherment, <gi>supplied</gi> is used with
+          <att>reason</att>=<val>deciphered</val>, <att>resp</att>=<val>#editor</val>,
+          and a <att>cert</att> value indicating the level of confidence.</p>
+        </div>
+
+        <div xml:id="damage-policy">
+          <head>Damage, Gaps, and Unclear Readings</head>
+          <p>Physical damage to the manuscript (typically ink corrosion) is recorded
+          with <gi>damage</gi> and <gi>gap</gi>. The <gi>damage</gi> element
+          carries an <att>agent</att> attribute (e.g. <val>ink_corrosion</val>).
+          The enclosed <gi>gap</gi> specifies the estimated extent with
+          <att>quantity</att> and <att>unit</att> (typically <val>words</val>).</p>
+
+          <p>Text that can be read but with uncertainty is marked with
+          <gi>unclear</gi>. Where the reason for the uncertainty is known,
+          a <att>reason</att> attribute is used (e.g. <val>illegible</val>).</p>
+
+          <p>Where the editor restores text lost to damage, <gi>supplied</gi>
+          is used with <att>reason</att>=<val>damage</val>.</p>
+        </div>
+
+        <div xml:id="corrections-policy">
+          <head>Corrections</head>
+          <p>Where the scribe has made a clear error (not a variant spelling
+          characteristic of the period), the <gi>choice</gi> / <gi>sic</gi> /
+          <gi>corr</gi> mechanism is used. Period-typical spellings
+          (e.g. <hi rend="italic">percioche</hi> for <hi rend="italic">perciocché</hi>)
+          are left unemended.</p>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 3. FILE STRUCTURE                                            -->
+      <!-- ============================================================ -->
+      <div xml:id="file-structure">
+        <head>File Structure</head>
+        <p>Each letter is encoded in a separate TEI file named by its date in
+        ISO 8601 format (<hi rend="italic">YYYY-MM-DD.xml</hi>). Where multiple
+        letters share the same date, a letter suffix is appended
+        (e.g. <hi rend="italic">1570-11-02-a.xml</hi>).</p>
+
+        <p>The corpus is accompanied by two authority files:
+          <list>
+            <item><hi rend="italic">persNames.xml</hi>: a
+            <gi>listPerson</gi> containing all referenced persons with
+            biographical data and VIAF identifiers;</item>
+            <item><hi rend="italic">placeNames.xml</hi>: a
+            <gi>listPlace</gi> containing all referenced places with
+            historical and modern names, geographic coordinates, and TGN
+            identifiers.</item>
+          </list>
+        </p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 4. HEADER STRUCTURE                                          -->
+      <!-- ============================================================ -->
+      <div xml:id="header-structure">
+        <head>Header Structure</head>
+        <p>Every letter file contains a <gi>teiHeader</gi> with the following
+        components:</p>
+
+        <div xml:id="header-filedesc">
+          <head>fileDesc</head>
+          <p>The <gi>titleStmt</gi> records the title (in the form
+          <hi rend="italic">Letter from [Author] to [Recipient], [Date]</hi>),
+          the author, the editor (Clément Godbarge), and the institutional
+          affiliation (University of St Andrews).</p>
+
+          <p>The <gi>publicationStmt</gi> declares the publisher, place of
+          publication (St Andrews, Scotland, UK), date, and the CC BY 4.0
+          licence.</p>
+
+          <p>The <gi>sourceDesc</gi> contains a <gi>msDesc</gi> with:
+            <list>
+              <item><gi>msIdentifier</gi>: settlement, repository, collection,
+              and shelf mark (<gi>idno</gi>);</item>
+              <item><gi>msContents</gi> / <gi>msItem</gi>: locus (folio range),
+              title, author, language (<gi>textLang</gi>), and a summary
+              (<gi>note</gi> <att>type</att>=<val>summary</val>);</item>
+              <item><gi>physDesc</gi>: object description
+              (<att>form</att>=<val>letter</val>), layout, physical condition
+              where relevant (<gi>supportDesc</gi> / <gi>condition</gi>), and
+              hand description (<gi>handDesc</gi> / <gi>handNote</gi>).</item>
+            </list>
+          </p>
+        </div>
+
+        <div xml:id="header-encodingdesc">
+          <head>encodingDesc</head>
+          <p>The <gi>encodingDesc</gi> contains:
+            <list>
+              <item><gi>editorialDecl</gi>: a prose description of editorial
+              choices specific to the letter (e.g. annotation scope, cipher
+              handling);</item>
+              <item><gi>projectDesc</gi>: a reference to the centralised
+              authority files.</item>
+            </list>
+          </p>
+        </div>
+
+        <div xml:id="header-profiledesc">
+          <head>profileDesc</head>
+          <p>The <gi>correspDesc</gi> records the correspondence metadata:
+            <list>
+              <item><gi>correspAction</gi> <att>type</att>=<val>sent</val>:
+              sender (<gi>persName</gi> with <att>ref</att>), place of sending
+              (<gi>placeName</gi> with <att>ref</att>), and date
+              (<gi>date</gi> with <att>when</att> in ISO 8601);</item>
+              <item><gi>correspAction</gi> <att>type</att>=<val>received</val>:
+              recipient (<gi>persName</gi> with <att>ref</att>), and optionally
+              place of reception.</item>
+            </list>
+          </p>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 5. TEXT BODY STRUCTURE                                        -->
+      <!-- ============================================================ -->
+      <div xml:id="text-structure">
+        <head>Text Body Structure</head>
+        <p>The body of each letter is enclosed in a single
+        <gi>div</gi> <att>type</att>=<val>letter</val> and follows the
+        epistolary structure:</p>
+
+        <list>
+          <item><gi>pb</gi>: page/folio break with <att>n</att> giving the
+          folio designation (e.g. <val>235r</val>, <val>235v</val>);</item>
+          <item><gi>opener</gi> / <gi>salute</gi>: the opening salutation;</item>
+          <item><gi>p</gi>: body paragraphs with inline encoding;</item>
+          <item><gi>closer</gi>: containing <gi>salute</gi> (closing formula),
+          <gi>dateline</gi> (place and date), and <gi>signed</gi> (signature,
+          sometimes with <att>type</att>=<val>alias</val> on <gi>persName</gi>
+          for pseudonymous signatures);</item>
+          <item><gi>postscript</gi>: post-scriptum paragraphs, when present.</item>
+        </list>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 6. INLINE ENCODING                                           -->
+      <!-- ============================================================ -->
+      <div xml:id="inline-encoding">
+        <head>Inline Encoding</head>
+
+        <div xml:id="enc-abbreviations">
+          <head>Abbreviations</head>
+          <p>All abbreviations are encoded with <gi>choice</gi> containing
+          <gi>abbr</gi> (the abbreviation as it appears in the manuscript,
+          including combining diacritics) and <gi>expan</gi> (the expanded
+          form).</p>
+          <p>Common patterns include:
+            <list>
+              <item>Honorific titles: <hi rend="italic">V.S.</hi> →
+              <hi rend="italic">Vostra Signoria</hi>; <hi rend="italic">S.or</hi> →
+              <hi rend="italic">Signor</hi>; <hi rend="italic">Ill.mo</hi> →
+              <hi rend="italic">Illustrissimo</hi></item>
+              <item>Nasal abbreviations with combining dot:
+              <hi rend="italic">co̍</hi> → <hi rend="italic">con</hi>;
+              <hi rend="italic">no̍</hi> → <hi rend="italic">non</hi></item>
+              <item>Superlative suffixes: <hi rend="italic">-iss.o</hi> →
+              <hi rend="italic">-issimo</hi></item>
+              <item>Pronoun abbreviations: <hi rend="italic">q̍sto</hi> →
+              <hi rend="italic">questo</hi>; <hi rend="italic">q̄lli</hi> →
+              <hi rend="italic">quelli</hi></item>
+              <item>Per/par abbreviations with special forms:
+              <hi rend="italic">p̸</hi> → <hi rend="italic">per</hi>;
+              <hi rend="italic">ꝑ</hi> → <hi rend="italic">par</hi></item>
+            </list>
+          </p>
+        </div>
+
+        <div xml:id="enc-entities">
+          <head>Named Entities</head>
+          <p><gi>persName</gi> elements carry a <att>ref</att> attribute
+          pointing to the authority file (e.g.
+          <val>#pers-cavriana-f</val>, <val>#pers-medici-cos-1</val>).
+          The naming convention is <hi rend="italic">#pers-[surname]-[disambiguator]</hi>.</p>
+
+          <p><gi>placeName</gi> elements carry a <att>ref</att> attribute
+          pointing to the place authority file (e.g.
+          <val>#place-paris</val>, <val>#place-firenze</val>).
+          The naming convention is <hi rend="italic">#place-[toponym]</hi>.</p>
+
+          <p>When Cavriana uses a pseudonym or alias to refer to himself or
+          others, the <gi>persName</gi> element carries
+          <att>type</att>=<val>alias</val> in addition to the <att>ref</att>.</p>
+        </div>
+
+        <div xml:id="enc-linebreaks">
+          <head>Line and Page Breaks</head>
+          <p><gi>lb</gi> marks every line break in the manuscript. When a word
+          is broken across a line boundary, the <gi>lb</gi> at the break point
+          carries <att>break</att>=<val>no</val>, indicating that no space
+          should be inserted between the word fragments.</p>
+
+          <p><gi>pb</gi> marks folio or page boundaries, with <att>n</att>
+          giving the folio designation in the format <hi rend="italic">NNNr</hi>
+          or <hi rend="italic">NNNv</hi> (recto/verso).</p>
+        </div>
+
+        <div xml:id="enc-cipher">
+          <head>Cipher Passages</head>
+          <p>Cipher text is encoded as follows:</p>
+          <list>
+            <item>The cipher itself is wrapped in <gi>seg</gi> with
+            <att>xml:id</att> (e.g. <val>cyph1</val>),
+            <att>type</att>=<val>cipher</val>,
+            <att>subtype</att>=<val>numeric</val>, and
+            <att>hand</att> identifying the scribal hand.</item>
+            <item>Contemporary decipherments written above the cipher in the
+            manuscript are encoded as <gi>add</gi> with
+            <att>xml:id</att> (e.g. <val>dec1</val>),
+            <att>type</att>=<val>decipher</val>,
+            <att>hand</att> (typically <val>#hand2</val>),
+            <att>place</att>=<val>above</val>, and
+            <att>target</att> pointing to the cipher <att>xml:id</att>.</item>
+            <item>Editorial decipherments are encoded with <gi>supplied</gi>
+            carrying <att>reason</att>=<val>deciphered</val>,
+            <att>resp</att>=<val>#editor</val>, and
+            <att>cert</att> (<val>high</val> or <val>medium</val>).</item>
+          </list>
+        </div>
+
+        <div xml:id="enc-damage">
+          <head>Damage and Gaps</head>
+          <p><gi>damage</gi> with <att>agent</att> (e.g. <val>ink_corrosion</val>)
+          wraps the affected area. Inside, <gi>gap</gi> records the extent of
+          lost text with <att>reason</att>=<val>hole</val>,
+          <att>quantity</att>, and <att>unit</att>=<val>words</val>.</p>
+        </div>
+
+        <div xml:id="enc-unclear">
+          <head>Unclear Readings</head>
+          <p><gi>unclear</gi> wraps text that can be partially read but remains
+          uncertain. Where the cause of illegibility is known, a
+          <att>reason</att> attribute is used.</p>
+        </div>
+
+        <div xml:id="enc-notes">
+          <head>Editorial Notes</head>
+          <p><gi>note</gi> elements with <att>type</att>=<val>editorial</val>
+          are used for the editor's commentary on factual matters, identification
+          issues, or historical context. Notes with
+          <att>type</att>=<val>summary</val> appear in the header to provide
+          a brief summary of each letter's content.</p>
+        </div>
+
+        <div xml:id="enc-split">
+          <head>Split Words</head>
+          <p>When a word is split across a structural boundary (e.g. a page break
+          falling within a word that also coincides with a paragraph break),
+          <gi>seg</gi> with <att>type</att>=<val>split</val> and
+          <att>part</att> (<val>I</val> for initial, <val>M</val> for medial,
+          <val>F</val> for final) is used.</p>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 7. AUTHORITY FILE STRUCTURE                                  -->
+      <!-- ============================================================ -->
+      <div xml:id="authority-files">
+        <head>Authority Files</head>
+
+        <div xml:id="auth-persons">
+          <head>Person Authority (persNames.xml)</head>
+          <p>Each person is encoded as a <gi>person</gi> element with
+          <att>xml:id</att> within a <gi>listPerson</gi>. The entry contains:</p>
+          <list>
+            <item><gi>persName</gi>: primary name form. Additional
+            <gi>persName</gi> elements with <att>type</att>=<val>alias</val>
+            record alternative names, titles, or pseudonyms;</item>
+            <item><gi>sex</gi> with <att>value</att>
+            (<val>male</val>, <val>female</val>, <val>unknown</val>);</item>
+            <item><gi>occupation</gi> with <att>type</att> classifying the role
+            (values: <val>nobility</val>, <val>ecclesiastic</val>,
+            <val>diplomat</val>, <val>physician</val>, <val>military</val>);</item>
+            <item><gi>birth</gi> and <gi>death</gi>: dates when known;</item>
+            <item><gi>idno</gi> <att>type</att>=<val>VIAF</val>: the VIAF
+            identifier.</item>
+          </list>
+          <p>Persons are grouped thematically (Italian noble houses, French royal
+          family, Medicean officials, etc.). Entries that require further research
+          are placed in a dedicated <hi rend="italic">Incomplete Entities</hi>
+          section.</p>
+        </div>
+
+        <div xml:id="auth-places">
+          <head>Place Authority (placeNames.xml)</head>
+          <p>Each place is encoded as a <gi>place</gi> element with
+          <att>xml:id</att> within a <gi>listPlace</gi>. The entry contains:</p>
+          <list>
+            <item><gi>placeName</gi> with <att>type</att>=<val>historical</val>
+            and <att>xml:lang</att>=<val>it</val>: the historical Italian
+            toponym as used in the letters;</item>
+            <item><gi>placeName</gi> with <att>type</att>=<val>modern</val>
+            and <att>xml:lang</att>=<val>en</val>: the modern English name;</item>
+            <item><gi>placeName</gi> with <att>type</att>=<val>country</val>
+            or <val>region</val>: broader geographic context;</item>
+            <item><gi>location</gi> / <gi>geo</gi>: geographic coordinates
+            (latitude, longitude);</item>
+            <item><gi>idno</gi> <att>type</att>=<val>TGN</val>: the Getty
+            Thesaurus of Geographic Names URI.</item>
+          </list>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 8. HAND DESCRIPTIONS                                         -->
+      <!-- ============================================================ -->
+      <div xml:id="hand-descriptions">
+        <head>Hand Descriptions</head>
+        <p>Each letter's <gi>handDesc</gi> records the number of hands
+        (<att>hands</att> attribute) and identifies each with a
+        <gi>handNote</gi>:</p>
+        <list>
+          <item><att>xml:id</att>=<val>hand1</val>: the primary hand (usually
+          Cavriana's autograph, or an unknown copyist);</item>
+          <item><att>xml:id</att>=<val>hand2</val>: a secondary hand, typically
+          used for cipher decipherments or recipient annotations;</item>
+          <item><att>scope</att>: <val>sole</val> (only hand),
+          <val>major</val> (primary hand in multi-hand documents), or
+          <val>minor</val> (secondary hand).</item>
+        </list>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 9. SCHEMA SPECIFICATION                                      -->
+      <!-- ============================================================ -->
+      <div xml:id="schema-spec">
+        <head>Schema Specification</head>
+        <p>The following <gi>schemaSpec</gi> defines the TEI customisation
+        for this project. It selects the required modules and constrains
+        element and attribute usage to match the encoding practices documented
+        above.</p>
+
+        <schemaSpec ident="CavrianaCorr" start="TEI" prefix="tei_"
+          targetLang="en" docLang="en">
+
+          <!-- ======= MODULE DECLARATIONS ======= -->
+
+          <!-- Core module -->
+          <moduleRef key="core"
+            include="p name date note choice abbr expan unclear gap add del
+                     lb pb sic corr foreign desc hi list item ref head
+                     respStmt resp author editor title publisher pubPlace
+                     availability licence signed salute"/>
+
+          <!-- Header module -->
+          <moduleRef key="header"
+            include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
+                     encodingDesc editorialDecl projectDesc profileDesc
+                     correspDesc correspAction"/>
+
+          <!-- Text structure module -->
+          <moduleRef key="textstructure"
+            include="TEI text body div front back titlePage docTitle
+                     titlePart docAuthor docDate opener closer dateline
+                     postscript"/>
+
+          <!-- Manuscript description module -->
+          <moduleRef key="msdescription"
+            include="msDesc msIdentifier settlement repository collection
+                     idno msContents msItem locus physDesc objectDesc
+                     layoutDesc handDesc handNote supportDesc condition
+                     textLang"/>
+
+          <!-- Names and dates module -->
+          <moduleRef key="namesdates"
+            include="persName placeName listPerson person listPlace place
+                     sex birth death occupation geo location"/>
+
+          <!-- Linking module (for seg) -->
+          <moduleRef key="linking"
+            include="seg"/>
+
+          <!-- Transcription module -->
+          <moduleRef key="transcr"
+            include="supplied damage"/>
+
+          <!-- Tag documentation module (for ODD itself) -->
+          <moduleRef key="tagdocs"
+            include="att gi val schemaSpec moduleRef elementSpec classSpec
+                     attDef valList valItem"/>
+
+          <!-- ======= ELEMENT SPECIFICATIONS ======= -->
+
+          <!-- Constrain div/@type -->
+          <elementSpec ident="div" mode="change" module="textstructure">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="letter">
+                    <desc>A single letter.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain seg/@type -->
+          <elementSpec ident="seg" mode="change" module="linking">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="cipher">
+                    <desc>A passage written in cipher.</desc>
+                  </valItem>
+                  <valItem ident="split">
+                    <desc>A fragment of a word split across a structural boundary.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="subtype" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="numeric">
+                    <desc>A numerical substitution cipher.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain add/@type -->
+          <elementSpec ident="add" mode="change" module="core">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="decipher">
+                    <desc>A contemporary decipherment of a cipher passage.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="place" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="above">
+                    <desc>Written above the line or cipher text.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain supplied/@reason -->
+          <elementSpec ident="supplied" mode="change" module="transcr">
+            <attList>
+              <attDef ident="reason" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="deciphered">
+                    <desc>Text deciphered from a cipher passage by the editor.</desc>
+                  </valItem>
+                  <valItem ident="damage">
+                    <desc>Text reconstructed by the editor where the manuscript is damaged.</desc>
+                  </valItem>
+                  <valItem ident="missing">
+                    <desc>Text supplied where material is missing from the manuscript.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="resp" mode="change" usage="req">
+                <desc>Identifies who supplied the text. Typically <val>#editor</val>.</desc>
+              </attDef>
+              <attDef ident="cert" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="high">
+                    <desc>High confidence in the supplied reading.</desc>
+                  </valItem>
+                  <valItem ident="medium">
+                    <desc>Moderate confidence in the supplied reading.</desc>
+                  </valItem>
+                  <valItem ident="low">
+                    <desc>Low confidence in the supplied reading.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain damage/@agent -->
+          <elementSpec ident="damage" mode="change" module="transcr">
+            <attList>
+              <attDef ident="agent" mode="change" usage="req">
+                <valList type="semi" mode="replace">
+                  <valItem ident="ink_corrosion">
+                    <desc>Damage caused by iron gall ink corrosion.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain gap/@reason and units -->
+          <elementSpec ident="gap" mode="change" module="core">
+            <attList>
+              <attDef ident="reason" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="hole">
+                    <desc>Physical hole in the manuscript.</desc>
+                  </valItem>
+                  <valItem ident="missing">
+                    <desc>Material missing (e.g. lost page).</desc>
+                  </valItem>
+                  <valItem ident="illegible">
+                    <desc>Text present but entirely illegible.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="unit" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="words">
+                    <desc>Extent measured in words.</desc>
+                  </valItem>
+                  <valItem ident="chars">
+                    <desc>Extent measured in characters.</desc>
+                  </valItem>
+                  <valItem ident="lines">
+                    <desc>Extent measured in lines.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain note/@type -->
+          <elementSpec ident="note" mode="change" module="core">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="summary">
+                    <desc>A brief summary of the letter's content (in teiHeader).</desc>
+                  </valItem>
+                  <valItem ident="editorial">
+                    <desc>An editorial comment by the editor.</desc>
+                  </valItem>
+                  <valItem ident="marginal">
+                    <desc>A marginal note in the manuscript.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain objectDesc/@form -->
+          <elementSpec ident="objectDesc" mode="change" module="msdescription">
+            <attList>
+              <attDef ident="form" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="letter">
+                    <desc>The object is a letter.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain handNote/@scope -->
+          <elementSpec ident="handNote" mode="change" module="msdescription">
+            <attList>
+              <attDef ident="scope" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="sole">
+                    <desc>The only hand in the document.</desc>
+                  </valItem>
+                  <valItem ident="major">
+                    <desc>The primary hand in a multi-hand document.</desc>
+                  </valItem>
+                  <valItem ident="minor">
+                    <desc>A secondary hand.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain correspAction/@type -->
+          <elementSpec ident="correspAction" mode="change" module="header">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="sent">
+                    <desc>The action of sending the letter.</desc>
+                  </valItem>
+                  <valItem ident="received">
+                    <desc>The action of receiving the letter.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain persName/@type in authority file -->
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="alias">
+                    <desc>An alternative name, pseudonym, or title used in the letters.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain placeName/@type in authority file -->
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="historical">
+                    <desc>The historical toponym.</desc>
+                  </valItem>
+                  <valItem ident="modern">
+                    <desc>The modern name of the place.</desc>
+                  </valItem>
+                  <valItem ident="country">
+                    <desc>The country in which the place is located.</desc>
+                  </valItem>
+                  <valItem ident="region">
+                    <desc>The region in which the place is located.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain occupation/@type -->
+          <elementSpec ident="occupation" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="nobility">
+                    <desc>A member of the nobility.</desc>
+                  </valItem>
+                  <valItem ident="ecclesiastic">
+                    <desc>A member of the clergy or religious order.</desc>
+                  </valItem>
+                  <valItem ident="diplomat">
+                    <desc>A diplomatic agent or ambassador.</desc>
+                  </valItem>
+                  <valItem ident="physician">
+                    <desc>A medical practitioner.</desc>
+                  </valItem>
+                  <valItem ident="military">
+                    <desc>A military officer or soldier.</desc>
+                  </valItem>
+                  <valItem ident="secretary">
+                    <desc>A secretary or administrative official.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain idno/@type -->
+          <elementSpec ident="idno" mode="change" module="msdescription">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="VIAF">
+                    <desc>Virtual International Authority File identifier.</desc>
+                  </valItem>
+                  <valItem ident="TGN">
+                    <desc>Getty Thesaurus of Geographic Names URI.</desc>
+                  </valItem>
+                  <valItem ident="DOI">
+                    <desc>Digital Object Identifier.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- Constrain sex/@value -->
+          <elementSpec ident="sex" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="value" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="male">
+                    <desc>Male.</desc>
+                  </valItem>
+                  <valItem ident="female">
+                    <desc>Female.</desc>
+                  </valItem>
+                  <valItem ident="unknown">
+                    <desc>Sex unknown or unspecified.</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+        </schemaSpec>
+      </div>
+    </body>
+  </text>
+</TEI>
