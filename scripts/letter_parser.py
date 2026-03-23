@@ -58,7 +58,7 @@ def process_xml(path: Path):
         word_count = count_body_words(body[0]) if body else 0
 
         return {
-            "date"      : date[0].get("when") if date else "",
+            "date"      : (date[0].get("when") or "") if date else "",
             "place"     : get_text(place[0])   if place else "",
             "sender"    : get_text(sender[0])  if sender else "",
             "receiver"  : get_text(receiver[0])if receiver else "",
@@ -77,7 +77,7 @@ def main():
     letters = [p for p in LETTERS.glob("*.xml") if p.name not in EXCLUDE]
 
     rows = [r for p in letters if (r := process_xml(p))]
-    rows.sort(key=lambda d: d["date"])
+    rows.sort(key=lambda d: d["date"] or "")
 
     with OUT_CSV.open("w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(
