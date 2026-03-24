@@ -161,7 +161,7 @@
   <!-- 8) UNCLEAR words -->
   <xsl:template match="tei:unclear">
     <xsl:text disable-output-escaping="yes">&lt;span class="unclear"&gt;</xsl:text>
-    <xsl:value-of select="."/>
+    <xsl:apply-templates/>
     <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
   </xsl:template>
 
@@ -170,7 +170,7 @@
 
   <!-- 9) <add> inline -->
   <xsl:template match="tei:add">
-    <xsl:value-of select="."/>
+    <xsl:apply-templates/>
   </xsl:template>
 
   <!-- 8) Note handling -->
