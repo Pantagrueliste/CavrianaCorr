@@ -50,7 +50,9 @@
           <placeName ref="#place-blois">Bles</placeName>
           <date when="1572-03-19">19 March 1572</date>
         </correspAction>
-        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.me in closing) --></persName></correspAction>
+        <correspAction type="received"><persName><persName ref="#pers-concino-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-florence">Florence</placeName></persName>
+        </correspAction>
       </correspDesc>
     </profileDesc>
     <encodingDesc>

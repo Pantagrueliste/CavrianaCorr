@@ -66,8 +66,8 @@
           <placeName ref="#place-fr">Francia</placeName>
           <date notBefore="1572-05-12" notAfter="1572-12-05" cert="medium">1572</date>
         </correspAction>
-        <correspAction type="received">
-          <persName><!-- Recipient unidentified; addressed as "Vostra Signoria Illustrissima", likely a Medici secretary --></persName>
+        <correspAction type="received"><persName><persName ref="#pers-concino-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-florence">Florence</placeName></persName>
         </correspAction>
       </correspDesc>
     </profileDesc>

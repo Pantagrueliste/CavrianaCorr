@@ -85,6 +85,11 @@ jobs:
           for file in letters/*.xml; do
             if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
+                # Skip placeholder files (metadata only, no transcription)
+                if grep -q 'revisionDesc.*status="placeholder"' "$file"; then
+                  echo "Skipping placeholder: $file"
+                  continue
+                fi
                 echo "Processing $file"
                 filename=$(basename "$file" .xml)
                 filepath=$(realpath "$file")
