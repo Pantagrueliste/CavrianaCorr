@@ -168,9 +168,8 @@
   <!-- 8) Skip <del> -->
   <xsl:template match="tei:del"/>
 
-  <!-- 9) <add> inline (space before to separate from preceding text) -->
+  <!-- 9) <add> inline -->
   <xsl:template match="tei:add">
-    <xsl:text> </xsl:text>
     <xsl:apply-templates/>
   </xsl:template>
 
