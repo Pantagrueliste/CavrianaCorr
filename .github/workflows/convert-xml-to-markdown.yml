@@ -92,7 +92,7 @@ jobs:
                 
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
-                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; let \$date := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date/@when return normalize-space(substring(\$date, 1, 4))" \
+                    -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; let \$d := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date let \$v := if (\$d/@when) then string(\$d/@when) else if (\$d/@notBefore) then string(\$d/@notBefore) else '' return normalize-space(substring(\$v, 1, 4))" \
                     | grep -o '[0-9]\{4\}' || echo "unknownYear"
                 )
                 

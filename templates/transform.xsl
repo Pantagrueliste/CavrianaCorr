@@ -38,8 +38,11 @@
     <!-- YAML-like front matter for Markdown -->
     <xsl:text>---&#10;</xsl:text>
 
+    <xsl:variable name="sentDate" select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date"/>
+    <xsl:variable name="dateValue" select="if ($sentDate/@when) then $sentDate/@when else if ($sentDate/@notBefore) then $sentDate/@notBefore else ''"/>
+
     <xsl:text>title: "</xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+    <xsl:value-of select="$dateValue"/>
     <xsl:text>"&#10;</xsl:text>
 
     <xsl:text>expeditor: "</xsl:text>
@@ -51,7 +54,7 @@
     <xsl:text>"&#10;</xsl:text>
 
     <xsl:text>date: "</xsl:text>
-    <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+    <xsl:value-of select="$dateValue"/>
     <xsl:text>"&#10;</xsl:text>
 
     <xsl:text>placeOfOrigin: "</xsl:text>
