@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana, 20 November 1572</title>
+        <title>Letter from Filippo Cavriana to unknown addressee, 20 November 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="323r" to="323r">fol. 323r</locus>
-              <title>Letter from Filippo Cavriana, 20 November 1572</title>
+              <title>Letter from Filippo Cavriana to unknown addressee, 20 November 1572</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Brief letter of courtesy accompanying Petrucci's departure, commending four years of loyal service.</note>

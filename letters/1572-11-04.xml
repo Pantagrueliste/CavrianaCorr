@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana, 4 November 1572</title>
+        <title>Letter from Filippo Cavriana to unknown addressee, 4 November 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="314r" to="314v">fols. 314r-314v</locus>
-              <title>Letter from Filippo Cavriana, 4 November 1572</title>
+              <title>Letter from Filippo Cavriana to unknown addressee, 4 November 1572</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Report on the collapse of Montmorency's faction, death of Damville, Ferrarese diplomacy, papal equilibrium, La Rochelle and Sancerre sieges, and Orange's winter quarters.</note>

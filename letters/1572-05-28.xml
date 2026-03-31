@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana, 28 May 1572</title>
+        <title>Letter from Filippo Cavriana to unknown addressee, 28 May 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="142r" to="146r">fols. 142r-146r</locus>
-              <title>Letter from Filippo Cavriana, 28 May 1572</title>
+              <title>Letter from Filippo Cavriana to unknown addressee, 28 May 1572</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Report on Spanish suspicion of the Grand Duke, allegations of secret Florentine-French alliance, Gregory XIII's election, and French court reactions.</note>

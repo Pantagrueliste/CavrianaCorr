@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana, 19 July 1572</title>
+        <title>Letter from Filippo Cavriana to unknown addressee, 19 July 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="205r" to="206r">fols. 205r-206r</locus>
-              <title>Letter from Filippo Cavriana, 19 July 1572</title>
+              <title>Letter from Filippo Cavriana to unknown addressee, 19 July 1572</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Report on Spanish pressure regarding Tuscan fortresses, allegations of Florentine involvement in the Flemish revolt, Madame de Nemours's intrigues, and the Franco-Spanish balance.</note>

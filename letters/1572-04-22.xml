@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana, 22 April 1572</title>
+        <title>Letter from Filippo Cavriana to unknown addressee, 22 April 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="102r" to="104r">fols. 102r-104r</locus>
-              <title>Letter from Filippo Cavriana, 22 April 1572</title>
+              <title>Letter from Filippo Cavriana to unknown addressee, 22 April 1572</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Intelligence on Franco-Spanish tensions, Flanders preparations, Nassau, Strozzi's armada, the Cardinal d'Este's influence, and cipher on the cavaliere da Este.</note>

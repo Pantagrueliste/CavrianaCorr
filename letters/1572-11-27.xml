@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana, 27 November 1572</title>
+        <title>Letter from Filippo Cavriana to unknown addressee, 27 November 1572</title>
         <author>Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="325r" to="326r">fols. 325r-326r</locus>
-              <title>Letter from Filippo Cavriana, 27 November 1572</title>
+              <title>Letter from Filippo Cavriana to unknown addressee, 27 November 1572</title>
               <author>Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Extensive cipher report warning against Spanish friendship, the Spanish ambassador's bribery attempt, a cardinal hostile to Florence, Venetian discontent, La Rochelle preparations, and Montmorency's eclipse.</note>
