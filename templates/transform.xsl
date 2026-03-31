@@ -128,8 +128,8 @@
     <!-- Beta disclaimer -->
     <xsl:text disable-output-escaping="yes">&lt;div class="beta-notice"&gt;&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
-    <xsl:text>:::caution Beta version&#10;</xsl:text>
-    <xsl:text>This digital edition is currently in **beta** (stage one of publication is in progress). Transcription quality cannot yet be fully guaranteed. Please exercise caution when citing this document, and verify readings against the original manuscript when possible.&#10;</xsl:text>
+    <xsl:text>:::caution Editorial notice&#10;</xsl:text>
+    <xsl:text>This is a staged edition. The first stage (1568–1573) is not yet complete.&#10;</xsl:text>
     <xsl:text>:::&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
     <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
