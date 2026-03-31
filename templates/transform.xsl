@@ -111,6 +111,25 @@
       <xsl:text> |&#10;</xsl:text>
     </xsl:if>
 
+    <!-- Suggested citation -->
+    <xsl:variable name="editor" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/>
+    <xsl:variable name="letterTitle" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+    <xsl:text>| **Cite as** | </xsl:text>
+    <xsl:value-of select="normalize-space($editor)"/>
+    <xsl:text> (ed.), "</xsl:text>
+    <xsl:value-of select="normalize-space($letterTitle)"/>
+    <xsl:text>," in *Filippo Cavriana: The Secret Correspondence*, accessed 31 March 2026, https://pantagrueliste.github.io/CavrianaCorr_FrontEnd/ |&#10;</xsl:text>
+
+    <xsl:text>&#10;</xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
+    <xsl:text>&#10;</xsl:text>
+
+    <!-- Beta disclaimer -->
+    <xsl:text disable-output-escaping="yes">&lt;div class="beta-notice"&gt;&#10;</xsl:text>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:text>:::caution Beta version&#10;</xsl:text>
+    <xsl:text>This digital edition is currently in **beta** (stage one of publication is in progress). Transcription quality cannot yet be fully guaranteed. Please exercise caution when citing this document, and verify readings against the original manuscript when possible.&#10;</xsl:text>
+    <xsl:text>:::&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
     <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
