@@ -119,7 +119,7 @@
     <xsl:value-of select="normalize-space($editor)"/>
     <xsl:text> (ed.), "</xsl:text>
     <xsl:value-of select="normalize-space($letterTitle)"/>
-    <xsl:text>," in *Filippo Cavriana: The Secret Correspondence*, accessed 31 March 2026, https://doi.org/10.5281/zenodo.14789457 |&#10;</xsl:text>
+    <xsl:text>," in *Filippo Cavriana: The Secret Correspondence*, accessed 31 March 2026, https://doi.org/10.5281/zenodo.8224585 |&#10;</xsl:text>
 
     <xsl:text>&#10;</xsl:text>
     <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
