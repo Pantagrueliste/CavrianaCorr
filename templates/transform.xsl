@@ -17,7 +17,7 @@
     <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
-    <xsl:value-of select="replace($rawOutput, '[ \t\r\n]+([,;:\.])', '$1')"/>
+    <xsl:value-of select="replace($rawOutput, '[ \t\r\n]+([,;\.])', '$1')"/>
   </xsl:template>
 
   <!-- 2) Process root <TEI> to output front matter, then apply templates to the text. -->
