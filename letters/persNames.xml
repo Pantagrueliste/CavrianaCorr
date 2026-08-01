@@ -20,6 +20,7 @@
       </publicationStmt>
       <sourceDesc>
         <p>Authority file compiled from the correspondence of Filippo Cavriana.</p>
+        <p><bibl xml:id="map-mia">Medici Archive Project, MIA (Medici Interactive Archive), https://mia.medici.org. Person identifiers and the dates marked @source="#map-mia" were verified against MAP's biographical records.</bibl></p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -36,6 +37,9 @@
           <sex value="male"/>
           <occupation type="nobility">Grand Duke of Tuscany</occupation>
           <idno type="VIAF">59259382</idno>
+          <idno type="MAP">203</idno>
+          <birth when="1519" source="#map-mia">1519</birth>
+          <death when="1574" source="#map-mia">1574</death>
         </person>
         <person xml:id="pers-medici-cat">
           <persName>Caterina de' Medici</persName>
@@ -44,6 +48,9 @@
           <sex value="female"/>
           <occupation type="nobility">Queen Mother of France</occupation>
           <idno type="VIAF">4936327</idno>
+          <idno type="MAP">348</idno>
+          <birth when="1519" source="#map-mia">1519</birth>
+          <death when="1589" source="#map-mia">1589</death>
         </person>
         <person xml:id="pers-medici-fer">
           <persName>Ferdinando de' Medici</persName>
@@ -59,6 +66,9 @@
           <persName type="sort">Este, Alfonso d'</persName>
           <sex value="male"/>
           <occupation type="nobility">Duke of Ferrara</occupation>
+          <idno type="MAP">2970</idno>
+          <birth when="1527" source="#map-mia">1527</birth>
+          <death when="1587" source="#map-mia">1587</death>
         </person>
         <person xml:id="pers-deste-i">
           <persName>Ippolito d'Este</persName>
@@ -77,6 +87,9 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Savoy</occupation>
           <idno type="VIAF">100170223</idno>
+          <idno type="MAP">1245</idno>
+          <birth when="1528" source="#map-mia">1528</birth>
+          <death when="1580" source="#map-mia">1580</death>
         </person>
         <person xml:id="pers-savoie-h-susa">
           <persName>Honorat de Savoie</persName>
@@ -92,12 +105,18 @@
           <persName type="sort">Gonzaga, Guglielmo</persName>
           <sex value="male"/>
           <occupation type="nobility">Duke of Mantua</occupation>
+          <idno type="MAP">826</idno>
+          <birth when="1538" source="#map-mia">1538</birth>
+          <death when="1587" source="#map-mia">1587</death>
         </person>
         <person xml:id="pers-gonzaga-isa">
           <persName>Isabella Gonzaga</persName>
           <persName type="sort">Gonzaga, Isabella</persName>
           <sex value="female"/>
           <occupation type="nobility">Marchioness of Pescara</occupation>
+          <idno type="MAP">2879</idno>
+          <birth when="1537" source="#map-mia">1537</birth>
+          <death when="1579" source="#map-mia">1579</death>
         </person>
         <person xml:id="pers-gonzaga-l-nev">
           <persName>Luigi Gonzaga</persName>
@@ -140,6 +159,9 @@
           <sex value="male"/>
           <occupation type="nobility">King of France</occupation>
           <idno type="VIAF">59215242</idno>
+          <idno type="MAP">3433</idno>
+          <birth when="1550" source="#map-mia">1550</birth>
+          <death when="1574" source="#map-mia">1574</death>
         </person>
         <person xml:id="pers-valois-h-3">
           <persName>Henri III</persName>
@@ -147,6 +169,9 @@
           <sex value="male"/>
           <occupation type="nobility">King of France</occupation>
           <idno type="VIAF">7398374</idno>
+          <idno type="MAP">932</idno>
+          <birth when="1551" source="#map-mia">1551</birth>
+          <death when="1589" source="#map-mia">1589</death>
         </person>
         <person xml:id="pers-valois-m">
           <persName>Marguerite de Valois</persName>
@@ -166,6 +191,7 @@
           <birth>1555-03-18</birth>
           <death>1584-06-10</death>
           <idno type="VIAF">88890786</idno>
+          <idno type="MAP">4142</idno>
         </person>
 
         <!-- French Royal House – Bourbon -->
@@ -210,6 +236,7 @@
           <birth>1543-02-18</birth>
           <death>1608-05-14</death>
           <idno type="VIAF">59905716</idno>
+          <idno type="MAP">608</idno>
         </person>
         <person xml:id="pers-lorraine-h1">
           <persName>Henri de Lorraine</persName>
@@ -241,6 +268,9 @@
           <sex value="male"/>
           <occupation type="military">Marshal of France</occupation>
           <idno type="VIAF">67259075</idno>
+          <idno type="MAP">18605</idno>
+          <birth when="1530" source="#map-mia">1530</birth>
+          <death when="1579" source="#map-mia">1579</death>
         </person>
         <person xml:id="pers-montmorency-charles">
           <persName>Charles de Montmorency</persName>
@@ -252,6 +282,7 @@
           <occupation type="military">Marshal of France</occupation>
           <birth>1537-03-31</birth>
           <death>1612-05-05</death>
+          <idno type="MAP">22740</idno>
         </person>
         <person xml:id="pers-montmorency-g-thore">
           <persName>Guillaume de Montmorency-Thoré</persName>
@@ -290,6 +321,7 @@
           <birth>1524</birth>
           <death>1592</death>
           <idno type="VIAF">44293531</idno>
+          <idno type="MAP">17294</idno>
         </person>
         <person xml:id="pers-france-c">
           <persName>Claude de France</persName>
@@ -324,6 +356,9 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Joyeuse</occupation>
           <idno type="VIAF">45097317</idno>
+          <idno type="MAP">17269</idno>
+          <birth when="1560" source="#map-mia">1560</birth>
+          <death when="1587" source="#map-mia">1587</death>
         </person>
         <person xml:id="pers-savoie-j-nem">
           <persName>Jacques de Savoie</persName>
@@ -331,6 +366,9 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Nemours</occupation>
           <idno type="VIAF">29843872</idno>
+          <idno type="MAP">17254</idno>
+          <birth when="1531" source="#map-mia">1531</birth>
+          <death when="1585" source="#map-mia">1585</death>
         </person>
         <person xml:id="pers-savoie-h-ten">
           <persName>Honorat de Savoie</persName>
@@ -392,6 +430,7 @@
           <birth>1522-11-04</birth>
           <death>1602-04-12</death>
           <idno type="VIAF">89654338</idno>
+          <idno type="MAP">10642</idno>
         </person>
 
         <!-- French Nobles – La Môle -->
@@ -430,6 +469,7 @@
           <birth>1527-07-31</birth>
           <death>1576-10-12</death>
           <idno type="VIAF">27863609</idno>
+          <idno type="MAP">874</idno>
         </person>
         <person xml:id="pers-habsburg-j">
           <persName>Juan de Austria</persName>
@@ -487,6 +527,7 @@
           <death>1577-12-02</death>
           <occupation type="military">condottiere</occupation>
           <occupation type="diplomat">ambassador</occupation>
+          <idno type="MAP">1986</idno>
         </person>
         <person xml:id="pers-nassau-w">
           <persName>Willem van Oranje</persName>
@@ -508,6 +549,9 @@
           <sex value="male"/>
           <occupation>Royal councillor and diplomat</occupation>
           <idno type="VIAF">34561686</idno>
+          <idno type="MAP">21253</idno>
+          <birth when="1529" source="#map-mia">1529</birth>
+          <death when="1607" source="#map-mia">1607</death>
         </person>
 
         <!-- Prelates -->
@@ -527,6 +571,7 @@
           <birth>1515</birth>
           <death>1575</death>
           <idno type="VIAF">39246854</idno>
+          <idno type="MAP">21396</idno>
         </person>
         <person xml:id="pers-sorbin-a">
           <persName>Arnauld Sorbin</persName>
@@ -584,6 +629,9 @@
           <persName type="alias">Alamanni</persName>
           <sex value="male"/>
           <note>Diplomat and intermediary</note>
+          <idno type="MAP">133</idno>
+          <birth when="1537" source="#map-mia">1537</birth>
+          <death when="1591" source="#map-mia">1591</death>
         </person>
 
         <!-- Royal Household -->
@@ -596,6 +644,9 @@
           <sex value="female"/>
           <occupation type="nobility">Queen of England</occupation>
           <idno type="VIAF">73876780</idno>
+          <idno type="MAP">1703</idno>
+          <birth when="1533" source="#map-mia">1533</birth>
+          <death when="1603" source="#map-mia">1603</death>
         </person>
         <person xml:id="pers-este-r">
           <persName>Renée de France</persName>
@@ -676,11 +727,12 @@
           <persName>Traiano di Fabrizio Bobba</persName>
           <persName type="sort">Bobba, Traiano di Fabrizio</persName>
           <sex value="male"/>
-          <death when="1590"/>
+          <death when="1590" source="#map-mia">1590</death>
           <occupation type="chivalricOrder" from="1562">Cavaliere dell'Ordine di Santo Stefano</occupation>
           <occupation type="courtier">Cameriere di Cosimo I de' Medici</occupation>
           <occupation type="courtier" from="1574">Cameriere di Francesco I</occupation>
           <occupation type="stateCourtPersonnel">Coppiere di Cosimo I de' Medici</occupation>
+          <idno type="MAP">2569</idno>
         </person>
         <person xml:id="pers-striggio-a">
           <persName>Alessandro Striggio</persName>
@@ -702,6 +754,8 @@
           <sex value="male"/>
           <occupation>Commendatore</occupation>
           <note>Tuscan ambassador to France</note>
+          <idno type="MAP">19579</idno>
+          <death when="1628" source="#map-mia">1628</death>
         </person>
         <person xml:id="pers-alberto">
           <persName>Alberto</persName>
@@ -726,6 +780,9 @@
           <persName type="sort">Vaini, Enea</persName>
           <sex value="male"/>
           <note>Order of Santo Stefano official</note>
+          <idno type="MAP">772</idno>
+          <birth when="1537" source="#map-mia">1537</birth>
+          <death when="1612" source="#map-mia">1612</death>
         </person>
         <person xml:id="pers-crotto">
           <persName>crotto</persName>
@@ -789,6 +846,7 @@
           <birth>1541</birth>
           <death>1582</death>
           <idno type="VIAF">315945612</idno>
+          <idno type="MAP">19123</idno>
         </person>
 
         <!-- Spanish Diplomats -->
@@ -834,6 +892,7 @@
           <birth>1532</birth>
           <death>1590-04-06</death>
           <idno type="VIAF">69738466</idno>
+          <idno type="MAP">19164</idno>
         </person>
 
         <!-- French Diplomats -->
@@ -858,6 +917,7 @@
           <birth>1533</birth>
           <death>1583-01-05</death>
           <idno type="VIAF">44310930</idno>
+          <idno type="MAP">20786</idno>
         </person>
         <person xml:id="pers-rosieres">
           <persName>Rosières</persName>
@@ -873,6 +933,7 @@
           <occupation type="ecclesiastic">Cardinal, papal legate</occupation>
           <birth>1532</birth>
           <death>1581-05-16</death>
+          <idno type="MAP">15452</idno>
         </person>
 
         <!-- Imperial Officials -->
@@ -891,6 +952,8 @@
           <sex value="male"/>
           <occupation>Ducal secretary in Mantua</occupation>
           <note>Entity needs research and completion</note>
+          <idno type="MAP">34608</idno>
+          <death when="1589" source="#map-mia">1589</death>
         </person>
         <person xml:id="pers-michiel-g">
           <persName>Giovanni Michiel</persName>
@@ -898,6 +961,9 @@
           <sex value="male"/>
           <occupation type="diplomat">Venetian ambassador to France</occupation>
           <note>Entity needs research and completion</note>
+          <idno type="MAP">23349</idno>
+          <birth when="1516" source="#map-mia">1516</birth>
+          <death when="1596" source="#map-mia">1596</death>
         </person>
         <person xml:id="pers-bourbon-conde">
           <persName>Louis I de Bourbon, Prince of Condé</persName>
@@ -905,6 +971,9 @@
           <sex value="male"/>
           <occupation>Prince of Condé</occupation>
           <note>Entity needs research and completion</note>
+          <idno type="MAP">9791</idno>
+          <birth when="1530" source="#map-mia">1530</birth>
+          <death when="1569" source="#map-mia">1569</death>
         </person>
         <person xml:id="pers-pontefice">
           <persName>The Pope</persName>
@@ -961,6 +1030,7 @@
           <birth>1563-11-08</birth>
           <death>1624-07-31</death>
           <idno type="VIAF">37071898</idno>
+          <idno type="MAP">3234</idno>
         </person>
         <person xml:id="pers-anjou-mezieres-r">
           <persName>Renée d'Anjou-Mézières</persName>
@@ -976,6 +1046,9 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Épernon</occupation>
           <idno type="VIAF">51679355</idno>
+          <idno type="MAP">16017</idno>
+          <birth when="1554" source="#map-mia">1554</birth>
+          <death when="1642" source="#map-mia">1642</death>
         </person>
         <person xml:id="pers-charite-h">
           <persName>Hugues de La Charité</persName>
