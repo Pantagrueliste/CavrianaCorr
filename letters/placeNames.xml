@@ -29,6 +29,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2026-08-02" who="#CG">Vitry-le-François, Châlons-en-Champagne and Marne had all been given Getty's record for Champagne, because the derivation treated a place's region as one of its own names. The two towns now carry their own records; Marne's identifier was removed pending a decision on whether the letters mean the river, the region or the department.</change>
       <change when="2026-08-01" who="#CG">Getty TGN identifiers checked against Getty's own records. Of the 83 distinct identifiers the file carried, 13 did not resolve and 56 resolved to an unrelated place, so they were re-derived from Getty and verified against the coordinates held here. Wikidata and GeoNames identifiers added.</change>
     </revisionDesc>
   </teiHeader>
@@ -79,7 +80,7 @@
           <location>
             <geo>48.9996 4.3939</geo>
           </location>
-          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7658604</idno>
+          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7009747</idno>
           <idno type="WIKIDATA" source="#wikidata">Q623374</idno>
           <idno type="GEONAMES" source="#wikidata">2967856</idno>
         </place>
@@ -90,7 +91,6 @@
           <location>
             <geo>49.0097 4.0367</geo>
           </location>
-          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7658604</idno>
         </place>
         <place xml:id="place-bar-sur-aube">
           <placeName type="historical" xml:lang="it">Bar su Auba</placeName>
@@ -176,7 +176,7 @@
           <location>
             <geo>48.9578 4.3673</geo>
           </location>
-          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7658604</idno>
+          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7008339</idno>
           <idno type="WIKIDATA" source="#wikidata">Q47135</idno>
           <idno type="GEONAMES" source="#wikidata">6618295</idno>
         </place>
