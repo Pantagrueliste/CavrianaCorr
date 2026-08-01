@@ -1,76 +1,62 @@
-# Cavriana Heatmap Generation and Synchronization
+# Letter Heatmap: Generation and Synchronization
 
-This documentation explains how to use the scripts that generate and maintain the GitHub-style heatmap showing Cavriana's letter-writing activity.
+The site's calendar heatmap is a GitHub-style activity visualization of
+Cavriana's letter-writing, built with pure React and SVG (no external
+charting libraries). Colour intensity represents text volume (word count).
 
-## Overview
+## How it works
 
-The heatmap visualization is generated from CSV metadata in `data/letter_metadata.csv` and displayed in the Docusaurus frontend. The system consists of:
+The pipeline runs automatically in CI
+(`.github/workflows/update-heatmap.yml`) on every push that touches
+`letters/`, `scripts/`, the component template, or the heatmap stylesheet:
 
-1. A CSV file containing letter metadata (date, word count, etc.)
-2. A template JSX component for the heatmap
-3. A Python script to generate the heatmap component
-4. A synchronization script to copy the component to the frontend
-5. The React component in the frontend that renders the heatmap
+1. `scripts/letter_parser.py` extracts metadata from every letter in
+   `letters/` into `data/letter_metadata.csv` (one row per TEI file, keyed
+   by the `file` column). Letters whose sent date has only a
+   `notBefore`/`notAfter` range register under their `notBefore` date.
+2. `scripts/generate_custom_heatmap.py` injects the CSV data into
+   `templates/CustomHeatmap.template.jsx` and writes
+   `generated/CustomHeatmap.jsx`.
+3. CI copies `generated/CustomHeatmap.jsx` to the frontend's
+   `src/components/` and `assets/cavriana-heatmap-custom.css` to the
+   frontend's `src/css/`, smoke-builds the site, and pushes.
 
-## Scripts
-
-### `update_heatmap.py`
-
-This is the main script you should use to update the heatmap. It:
-
-1. Generates the heatmap component from the CSV data
-2. Synchronizes the generated component with the frontend
-
-```bash
-# Run from the CavrianaCorr directory
-python scripts/update_heatmap.py
-```
-
-### `generate_heatmap.py`
-
-This script reads the letter metadata CSV and generates a React component file in `generated/CavrianaHeatmap.jsx`.
+To run the generation locally:
 
 ```bash
-# Run from the CavrianaCorr directory
-python scripts/generate_heatmap.py
+# from the CavrianaCorr directory
+python scripts/letter_parser.py
+python scripts/generate_custom_heatmap.py
 ```
 
-### `sync_frontend.py`
+## Files
 
-This script copies the generated heatmap component to the frontend repository.
+- **`templates/CustomHeatmap.template.jsx`** — component template with a
+  data placeholder.
+- **`generated/CustomHeatmap.jsx`** — generated component (do not edit by
+  hand; regenerate instead).
+- **`assets/cavriana-heatmap-custom.css`** — heatmap styles, including
+  dark-mode rules.
+- **`scripts/letter_parser.py`** — CSV extraction.
+- **`scripts/generate_custom_heatmap.py`** — component generation.
 
-```bash
-# Run from the CavrianaCorr directory
-python scripts/sync_frontend.py
+## Component features
+
+- Pure SVG rendering (day cells as `<rect>`s), no runtime dependencies.
+- Year navigation via buttons and prev/next controls.
+- Tooltips with per-day letter details.
+- Colour-scale legend.
+- Responsive layout and Docusaurus light/dark theme support.
+
+## Usage in the frontend
+
+`docs/intro.md` in the frontend imports the component:
+
+```jsx
+import CustomHeatmap from '@site/src/components/CustomHeatmap';
+
+<CustomHeatmap />
 ```
 
-## Workflow
-
-1. Update letter metadata in `data/letter_metadata.csv`
-2. Run `python scripts/update_heatmap.py` to update the heatmap
-3. In the frontend directory, run `npm start` to preview the changes
-4. Commit and push changes in both repositories
-
-## Troubleshooting
-
-If the heatmap doesn't display correctly:
-
-1. Check that the CSV has valid data with `date` and `word_count` columns
-2. Verify that the generated component was correctly copied to the frontend
-3. Make sure the frontend is using the correct CSS for the heatmap
-4. Check the browser console for any JavaScript errors
-
-## CSS Styling
-
-The heatmap styling is defined in `assets/cavriana-heatmap.css` and copied to the frontend during synchronization. If you need to adjust the heatmap appearance, modify this file and run the update script again.
-
-## Handling Duplicate Dates
-
-When multiple letters exist for the same date, the system will now use the maximum word count value for that date to ensure consistent display. This resolves the issue with entries like "1570-07-29" appearing in different orders.
-
-## Plugin Configuration
-
-The heatmap uses the `LegendLite` and `Tooltip` plugins from cal-heatmap. If you need to modify how these plugins work:
-
-1. Update the template in `templates/CavrianaHeatmap.template.jsx`
-2. Run the update script to propagate changes to the frontend
+The stylesheet is loaded globally via the `customCss` array in
+`docusaurus.config.js`.

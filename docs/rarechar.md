@@ -1,3 +1,7 @@
+# Transcription cheat-sheet: rare characters, abbreviation marks, and cipher markup
+
+Characters and TEI snippets used when transcribing Cavriana's letters.
+
 a̍, e̍, m̍, n̍, o̍, q̍, r̍, t̍, s̍
 m̄, n̄, r̄, s̄
 ś
