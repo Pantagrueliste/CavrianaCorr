@@ -41,6 +41,18 @@ DELAY_SECONDS = 1.0      # pause between calls
 MAX_CALLS_PER_RUN = 400  # hard ceiling; the whole job needs fewer
 
 
+# Documented endpoints, from MAP's own module specifications (MIA-API-DOCS,
+# Biographical / Geographical / Search modules). Read-only calls only: this
+# client never touches an add, modify or delete route.
+PERSON_SEARCH = "/Mia/json/document/findPeople/{q}"
+PERSON_DETAIL = "/Mia/json/biographical/findBiographicalPeople/{id}"
+PERSON_NAMES = "/Mia/json/biographical/findPersonNames/{id}"
+PERSON_TITLES = "/Mia/json/biographical/findPersonTitlesAndOccs/{id}"
+PERSON_DOCS = "/Mia/json/biodoc/findDocumentsPeople/{id}"
+PLACE_SEARCH = "/Mia/json/document/findPlaces/{q}"
+PLACE_DETAIL = "/Mia/json/geographical/findGeographicalPlace/{id}"
+
+
 class Budget(Exception):
     """Raised when a run reaches its request ceiling."""
 
