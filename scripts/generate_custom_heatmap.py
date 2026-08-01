@@ -24,7 +24,7 @@ OUT_FILE   = OUT_DIR / "CustomHeatmap.jsx"
 
 # ── helpers ─────────────────────────────────────────────────────
 def load_metadata(csv_path: Path = CSV_FILE) -> List[Dict]:
-    """Return rows as [{'date':'YYYY-MM-DD', 'value': <int>}, …]."""
+    """Return rows as [{'date':'YYYY-MM-DD', 'value': <int>, 'slug': str}, …]."""
     if not csv_path.exists():
         raise FileNotFoundError(f"CSV file not found: {csv_path}")
         
@@ -66,7 +66,11 @@ def load_metadata(csv_path: Path = CSV_FILE) -> List[Dict]:
                     # Parse word count
                     word_cnt = int(r["word_count"])
                     
-                    rows.append({"date": f"{y}-{m:02d}-{d:02d}", "value": word_cnt})
+                    # The letter's own file name is its page slug, so a day
+                    # cell can link to the letter (or letters) written on it.
+                    slug = (r.get("file") or "").removesuffix(".xml")
+                    rows.append({"date": f"{y}-{m:02d}-{d:02d}", "value": word_cnt,
+                                 "slug": slug})
                 except ValueError as e:
                     print(f"Warning: Error processing row {r}: {e}", file=sys.stderr)
                     continue
@@ -108,15 +112,17 @@ def main() -> int:
         for row in rows:
             date = row["date"]
             value = row["value"]
-            if date in date_map:
-                # For dates with multiple entries, we'll use the maximum value
-                # This ensures consistent data representation
-                date_map[date] = max(date_map[date], value)
-            else:
-                date_map[date] = value
-                
+            # Several letters can be written on one day. Sum their words —
+            # taking the maximum silently under-reported the busiest days — and
+            # keep every slug so a cell can link to each letter.
+            entry = date_map.setdefault(date, {"value": 0, "slugs": []})
+            entry["value"] += value
+            if row.get("slug"):
+                entry["slugs"].append(row["slug"])
+
         # Rebuild rows with deduped data
-        deduped_rows = [{"date": date, "value": value} for date, value in date_map.items()]
+        deduped_rows = [{"date": date, "value": e["value"], "slugs": sorted(e["slugs"])}
+                        for date, e in date_map.items()]
         # Sort by date for consistency
         deduped_rows.sort(key=lambda x: x["date"])
 

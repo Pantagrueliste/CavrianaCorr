@@ -149,3 +149,47 @@ html[data-theme='dark'] .cavriana-heatmap-custom {
     margin-top: 0.5rem;
   }
 }
+/* A day with letters is clickable. */
+.cavriana-heatmap-custom .day-cell--has-letters {
+  cursor: pointer;
+}
+.cavriana-heatmap-custom .day-cell--has-letters:hover {
+  stroke: var(--ifm-color-emphasis-800);
+  stroke-width: 1.5px;
+}
+
+/* Letters written on a selected day. */
+.cavriana-heatmap-custom .heatmap-day-letters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.6rem;
+  margin: 0.9rem 0 0;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.82rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 3px;
+}
+.cavriana-heatmap-custom .heatmap-day-letters__label {
+  color: var(--ifm-color-emphasis-700);
+}
+.cavriana-heatmap-custom .heatmap-day-letters__link {
+  font-variant-numeric: tabular-nums;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 2px;
+  text-decoration: none;
+}
+.cavriana-heatmap-custom .heatmap-day-letters__link:hover {
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+.cavriana-heatmap-custom .heatmap-day-letters__close {
+  margin-left: auto;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1rem;
+  line-height: 1;
+}

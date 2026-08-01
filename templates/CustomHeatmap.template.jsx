@@ -6,6 +6,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 /* overwritten by generate_heatmap.py */
 const YEARS = [1568, 1569, 1570, 1571];
@@ -74,6 +75,8 @@ const HeatmapDisplay = () => {
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const [showTooltip, setShowTooltip] = useState(false);
   const svgRef = useRef(null);
+  const [selectedDay, setSelectedDay] = useState(null);
+  const docsBase = useBaseUrl('/docs/');
   
   // Current year and data for that year
   const currentYear = YEARS[yearIx];
@@ -81,10 +84,13 @@ const HeatmapDisplay = () => {
   // Filter data for current year
   const yearData = rows.filter(row => row.date.startsWith(String(currentYear)));
   
-  // Create a map for quick lookup of values by date string
+  // Values are already summed per day by the generator, which also supplies
+  // every letter written that day so a cell can link to them.
   const valueMap = {};
+  const slugMap = {};
   yearData.forEach(item => {
     valueMap[item.date] = item.value;
+    slugMap[item.date] = item.slugs || [];
   });
   
   // Get max value for color scaling
@@ -98,7 +104,7 @@ const HeatmapDisplay = () => {
   const jumpTo = (i) => setYearIx(i);
 
   // Handle tooltip display
-  const showCellTooltip = (date, value, e) => {
+  const showCellTooltip = (date, value, e, letterCount = 0) => {
     const rect = e.target.getBoundingClientRect();
 
     // Format date for display. Build the Date from components: parsing the
@@ -114,8 +120,8 @@ const HeatmapDisplay = () => {
 
     // Set tooltip content and position (fixed to viewport)
     setTooltipContent(
-      value
-        ? `${formattedDate}: ${value} words`
+      letterCount
+        ? `${formattedDate}: ${letterCount === 1 ? '1 letter' : `${letterCount} letters`}, ${value} words`
         : `No letters on ${formattedDate}`
     );
 
@@ -129,6 +135,19 @@ const HeatmapDisplay = () => {
   
   const hideTooltip = () => {
     setShowTooltip(false);
+  };
+
+  const letterHref = (slug) => `${docsBase}${slug.slice(0, 4)}/${slug}`;
+
+  const openDay = (day) => {
+    if (!day.slugs.length) {
+      return;
+    }
+    if (day.slugs.length === 1) {
+      window.location.assign(letterHref(day.slugs[0]));
+      return;
+    }
+    setSelectedDay(day);
   };
   
   // Generate the heatmap grid
@@ -182,6 +201,7 @@ const HeatmapDisplay = () => {
       weeks[weekOfYear][dayOfWeek] = {
         date: dateStr,
         value: value,
+        slugs: slugMap[dateStr] || [],
         day: dayOfWeek,
         week: weekOfYear
       };
@@ -222,11 +242,12 @@ const HeatmapDisplay = () => {
                 rx={2}
                 ry={2}
                 fill={getColorForValue(day.value, maxValue)}
-                className="day-cell"
+                className={day.slugs.length ? 'day-cell day-cell--has-letters' : 'day-cell'}
                 data-date={day.date}
                 data-value={day.value}
-                onMouseEnter={(e) => showCellTooltip(day.date, day.value, e)}
+                onMouseEnter={(e) => showCellTooltip(day.date, day.value, e, day.slugs.length)}
                 onMouseLeave={hideTooltip}
+                onClick={() => openDay(day)}
               />
             ))}
           </g>
@@ -324,6 +345,28 @@ const HeatmapDisplay = () => {
       </div>
       
       {/* Color legend */}
+      {/* A day carrying several letters lists them here rather than in the
+          tooltip, so the links stay put and can actually be clicked. */}
+      {selectedDay && (
+        <div className="heatmap-day-letters">
+          <span className="heatmap-day-letters__label">
+            {selectedDay.slugs.length} letters on {selectedDay.date}
+          </span>
+          {selectedDay.slugs.map((slug) => (
+            <a key={slug} href={letterHref(slug)} className="heatmap-day-letters__link">
+              {slug}
+            </a>
+          ))}
+          <button
+            type="button"
+            className="heatmap-day-letters__close"
+            onClick={() => setSelectedDay(null)}
+            aria-label="Dismiss">
+            ×
+          </button>
+        </div>
+      )}
+
       {renderLegend()}
       
       {/* Year navigation buttons */}

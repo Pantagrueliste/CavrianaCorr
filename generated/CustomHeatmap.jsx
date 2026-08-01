@@ -6,229 +6,397 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 /* overwritten by generate_heatmap.py */
 const YEARS = [1568, 1569, 1570, 1571, 1572, 1574];
 const rows  = [
   {
     "date": "1568-04-06",
-    "value": 544
+    "value": 544,
+    "slugs": [
+      "1568-04-06"
+    ]
   },
   {
     "date": "1568-04-28",
-    "value": 786
+    "value": 786,
+    "slugs": [
+      "1568-04-28"
+    ]
   },
   {
     "date": "1568-05-04",
-    "value": 780
+    "value": 780,
+    "slugs": [
+      "1568-05-04"
+    ]
   },
   {
     "date": "1568-05-05",
-    "value": 494
+    "value": 494,
+    "slugs": [
+      "1568-05-05"
+    ]
   },
   {
     "date": "1568-05-28",
-    "value": 488
+    "value": 488,
+    "slugs": [
+      "1568-05-28"
+    ]
   },
   {
     "date": "1568-06-09",
-    "value": 410
+    "value": 410,
+    "slugs": [
+      "1568-06-09"
+    ]
   },
   {
     "date": "1568-07-03",
-    "value": 492
+    "value": 492,
+    "slugs": [
+      "1568-07-03"
+    ]
   },
   {
     "date": "1568-07-24",
-    "value": 538
+    "value": 538,
+    "slugs": [
+      "1568-07-24"
+    ]
   },
   {
     "date": "1568-09-07",
-    "value": 854
+    "value": 854,
+    "slugs": [
+      "1568-09-07"
+    ]
   },
   {
     "date": "1569-01-03",
-    "value": 1238
+    "value": 1238,
+    "slugs": [
+      "1569-01-03"
+    ]
   },
   {
     "date": "1569-11-29",
-    "value": 500
+    "value": 500,
+    "slugs": [
+      "1569-11-29"
+    ]
   },
   {
     "date": "1569-12-21",
-    "value": 648
+    "value": 648,
+    "slugs": [
+      "1569-12-21"
+    ]
   },
   {
     "date": "1570-03-20",
-    "value": 756
+    "value": 756,
+    "slugs": [
+      "1570-03-20"
+    ]
   },
   {
     "date": "1570-05-20",
-    "value": 1876
+    "value": 1876,
+    "slugs": [
+      "1570-05-20"
+    ]
   },
   {
     "date": "1570-07-15",
-    "value": 2314
+    "value": 2314,
+    "slugs": [
+      "1570-07-15"
+    ]
   },
   {
     "date": "1570-07-29",
-    "value": 1738
+    "value": 2352,
+    "slugs": [
+      "1570-07-29",
+      "1570-07-29-b"
+    ]
   },
   {
     "date": "1570-08-17",
-    "value": 3316
+    "value": 3316,
+    "slugs": [
+      "1570-08-17"
+    ]
   },
   {
     "date": "1570-09-01",
-    "value": 5416
+    "value": 5416,
+    "slugs": [
+      "1570-09-01"
+    ]
   },
   {
     "date": "1570-09-11",
-    "value": 3826
+    "value": 3826,
+    "slugs": [
+      "1570-09-11"
+    ]
   },
   {
     "date": "1570-09-14",
-    "value": 436
+    "value": 436,
+    "slugs": [
+      "1570-09-14"
+    ]
   },
   {
     "date": "1570-10-03",
-    "value": 912
+    "value": 912,
+    "slugs": [
+      "1570-10-03"
+    ]
   },
   {
     "date": "1570-10-13",
-    "value": 4497
+    "value": 4497,
+    "slugs": [
+      "1570-10-13"
+    ]
   },
   {
     "date": "1570-11-02",
-    "value": 898
+    "value": 1757,
+    "slugs": [
+      "1570-11-02",
+      "1570-11-02-b"
+    ]
   },
   {
     "date": "1570-11-04",
-    "value": 1974
+    "value": 1974,
+    "slugs": [
+      "1570-11-04"
+    ]
   },
   {
     "date": "1570-11-09",
-    "value": 278
+    "value": 278,
+    "slugs": [
+      "1570-11-09"
+    ]
   },
   {
     "date": "1571-01-12",
-    "value": 4424
+    "value": 4424,
+    "slugs": [
+      "1571-01-12"
+    ]
   },
   {
     "date": "1571-01-14",
-    "value": 3688
+    "value": 3688,
+    "slugs": [
+      "1571-01-14"
+    ]
   },
   {
     "date": "1571-01-26",
-    "value": 2458
+    "value": 2458,
+    "slugs": [
+      "1571-01-26"
+    ]
   },
   {
     "date": "1571-02-06",
-    "value": 2081
+    "value": 2081,
+    "slugs": [
+      "1571-02-06"
+    ]
   },
   {
     "date": "1571-03-31",
-    "value": 2170
+    "value": 2170,
+    "slugs": [
+      "1571-03-31"
+    ]
   },
   {
     "date": "1571-04-18",
-    "value": 328
+    "value": 328,
+    "slugs": [
+      "1571-04-18"
+    ]
   },
   {
     "date": "1571-04-19",
-    "value": 1394
+    "value": 1394,
+    "slugs": [
+      "1571-04-19"
+    ]
   },
   {
     "date": "1571-06-27",
-    "value": 628
+    "value": 628,
+    "slugs": [
+      "1571-06-27"
+    ]
   },
   {
     "date": "1571-07-07",
-    "value": 1296
+    "value": 1296,
+    "slugs": [
+      "1571-07-07"
+    ]
   },
   {
     "date": "1571-07-15",
-    "value": 328
+    "value": 328,
+    "slugs": [
+      "1571-07-15"
+    ]
   },
   {
     "date": "1571-08-14",
-    "value": 572
+    "value": 572,
+    "slugs": [
+      "1571-08-14"
+    ]
   },
   {
     "date": "1572-02-06",
-    "value": 959
+    "value": 959,
+    "slugs": [
+      "1572-02-06"
+    ]
   },
   {
     "date": "1572-02-12",
-    "value": 878
+    "value": 878,
+    "slugs": [
+      "1572-02-12"
+    ]
   },
   {
     "date": "1572-03-08",
-    "value": 1870
+    "value": 1870,
+    "slugs": [
+      "1572-03-08"
+    ]
   },
   {
     "date": "1572-03-19",
-    "value": 1520
+    "value": 1520,
+    "slugs": [
+      "1572-03-19"
+    ]
   },
   {
     "date": "1572-04-22",
-    "value": 2538
+    "value": 2538,
+    "slugs": [
+      "1572-04-22"
+    ]
   },
   {
     "date": "1572-05-12",
-    "value": 4292
+    "value": 4292,
+    "slugs": [
+      "1572-05-12"
+    ]
   },
   {
     "date": "1572-05-28",
-    "value": 3076
+    "value": 3076,
+    "slugs": [
+      "1572-05-28"
+    ]
   },
   {
     "date": "1572-07-12",
-    "value": 1458
+    "value": 1458,
+    "slugs": [
+      "1572-07-12"
+    ]
   },
   {
     "date": "1572-07-19",
-    "value": 1402
+    "value": 1402,
+    "slugs": [
+      "1572-07-19"
+    ]
   },
   {
     "date": "1572-08-04",
-    "value": 4754
+    "value": 4754,
+    "slugs": [
+      "1572-08-04"
+    ]
   },
   {
     "date": "1572-08-31",
-    "value": 1290
+    "value": 1290,
+    "slugs": [
+      "1572-08-31"
+    ]
   },
   {
     "date": "1572-10-23",
-    "value": 868
+    "value": 868,
+    "slugs": [
+      "1572-10-23"
+    ]
   },
   {
     "date": "1572-11-04",
-    "value": 1224
+    "value": 1224,
+    "slugs": [
+      "1572-11-04"
+    ]
   },
   {
     "date": "1572-11-20",
-    "value": 204
+    "value": 204,
+    "slugs": [
+      "1572-11-20"
+    ]
   },
   {
     "date": "1572-11-21",
-    "value": 4103
+    "value": 4103,
+    "slugs": [
+      "1572-11-21"
+    ]
   },
   {
     "date": "1572-11-27",
-    "value": 1320
+    "value": 1320,
+    "slugs": [
+      "1572-11-27"
+    ]
   },
   {
     "date": "1572-12-01",
-    "value": 2252
+    "value": 2252,
+    "slugs": [
+      "1572-12-01"
+    ]
   },
   {
     "date": "1572-12-07",
-    "value": 1828
+    "value": 1828,
+    "slugs": [
+      "1572-12-07"
+    ]
   },
   {
     "date": "1574-03-06",
-    "value": 1922
+    "value": 1922,
+    "slugs": [
+      "1574-03-06"
+    ]
   }
 ];   // [{date:'YYYY-MM-DD', value}, …]
 
@@ -295,6 +463,8 @@ const HeatmapDisplay = () => {
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const [showTooltip, setShowTooltip] = useState(false);
   const svgRef = useRef(null);
+  const [selectedDay, setSelectedDay] = useState(null);
+  const docsBase = useBaseUrl('/docs/');
   
   // Current year and data for that year
   const currentYear = YEARS[yearIx];
@@ -302,10 +472,13 @@ const HeatmapDisplay = () => {
   // Filter data for current year
   const yearData = rows.filter(row => row.date.startsWith(String(currentYear)));
   
-  // Create a map for quick lookup of values by date string
+  // Values are already summed per day by the generator, which also supplies
+  // every letter written that day so a cell can link to them.
   const valueMap = {};
+  const slugMap = {};
   yearData.forEach(item => {
     valueMap[item.date] = item.value;
+    slugMap[item.date] = item.slugs || [];
   });
   
   // Get max value for color scaling
@@ -319,7 +492,7 @@ const HeatmapDisplay = () => {
   const jumpTo = (i) => setYearIx(i);
 
   // Handle tooltip display
-  const showCellTooltip = (date, value, e) => {
+  const showCellTooltip = (date, value, e, letterCount = 0) => {
     const rect = e.target.getBoundingClientRect();
 
     // Format date for display. Build the Date from components: parsing the
@@ -335,8 +508,8 @@ const HeatmapDisplay = () => {
 
     // Set tooltip content and position (fixed to viewport)
     setTooltipContent(
-      value
-        ? `${formattedDate}: ${value} words`
+      letterCount
+        ? `${formattedDate}: ${letterCount === 1 ? '1 letter' : `${letterCount} letters`}, ${value} words`
         : `No letters on ${formattedDate}`
     );
 
@@ -350,6 +523,19 @@ const HeatmapDisplay = () => {
   
   const hideTooltip = () => {
     setShowTooltip(false);
+  };
+
+  const letterHref = (slug) => `${docsBase}${slug.slice(0, 4)}/${slug}`;
+
+  const openDay = (day) => {
+    if (!day.slugs.length) {
+      return;
+    }
+    if (day.slugs.length === 1) {
+      window.location.assign(letterHref(day.slugs[0]));
+      return;
+    }
+    setSelectedDay(day);
   };
   
   // Generate the heatmap grid
@@ -403,6 +589,7 @@ const HeatmapDisplay = () => {
       weeks[weekOfYear][dayOfWeek] = {
         date: dateStr,
         value: value,
+        slugs: slugMap[dateStr] || [],
         day: dayOfWeek,
         week: weekOfYear
       };
@@ -443,11 +630,12 @@ const HeatmapDisplay = () => {
                 rx={2}
                 ry={2}
                 fill={getColorForValue(day.value, maxValue)}
-                className="day-cell"
+                className={day.slugs.length ? 'day-cell day-cell--has-letters' : 'day-cell'}
                 data-date={day.date}
                 data-value={day.value}
-                onMouseEnter={(e) => showCellTooltip(day.date, day.value, e)}
+                onMouseEnter={(e) => showCellTooltip(day.date, day.value, e, day.slugs.length)}
                 onMouseLeave={hideTooltip}
+                onClick={() => openDay(day)}
               />
             ))}
           </g>
@@ -545,6 +733,28 @@ const HeatmapDisplay = () => {
       </div>
       
       {/* Color legend */}
+      {/* A day carrying several letters lists them here rather than in the
+          tooltip, so the links stay put and can actually be clicked. */}
+      {selectedDay && (
+        <div className="heatmap-day-letters">
+          <span className="heatmap-day-letters__label">
+            {selectedDay.slugs.length} letters on {selectedDay.date}
+          </span>
+          {selectedDay.slugs.map((slug) => (
+            <a key={slug} href={letterHref(slug)} className="heatmap-day-letters__link">
+              {slug}
+            </a>
+          ))}
+          <button
+            type="button"
+            className="heatmap-day-letters__close"
+            onClick={() => setSelectedDay(null)}
+            aria-label="Dismiss">
+            ×
+          </button>
+        </div>
+      )}
+
       {renderLegend()}
       
       {/* Year navigation buttons */}
