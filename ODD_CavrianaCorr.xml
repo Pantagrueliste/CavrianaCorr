@@ -33,7 +33,7 @@
       <titlePage>
         <docTitle>
           <titlePart type="main">CavrianaCorr: Encoding Guidelines</titlePart>
-          <titlePart type="sub">ODD for the Digital Edition of Filippo Cavriana's Correspondence (1568–1606)</titlePart>
+          <titlePart type="sub">ODD for the Digital Edition of Filippo Cavriana's Correspondence (1566–1606)</titlePart>
         </docTitle>
         <docAuthor>Clément Godbarge</docAuthor>
         <docDate>2026</docDate>
@@ -157,8 +157,27 @@
         <head>File Structure</head>
         <p>Each letter is encoded in a separate TEI file named by its date in
         ISO 8601 format (<hi rend="italic">YYYY-MM-DD.xml</hi>). Where multiple
-        letters share the same date, a letter suffix is appended
-        (e.g. <hi rend="italic">1570-11-02-a.xml</hi>).</p>
+        letters share the same date, the first letter keeps the plain date name
+        and subsequent letters append a letter suffix starting at
+        <hi rend="italic">-b</hi> (e.g. <hi rend="italic">1570-11-02.xml</hi>,
+        <hi rend="italic">1570-11-02-b.xml</hi>).</p>
+
+        <p><gi>revisionDesc</gi> <att>status</att>=<val>placeholder</val>
+        marks a letter as not yet ready for publication; the conversion
+        pipeline withholds every such letter from the public site. Two cases
+        carry this status:
+          <list>
+            <item>letters catalogued but not yet transcribed, encoded as
+            <hi rend="italic">placeholder stubs</hi> — a complete
+            <gi>teiHeader</gi> (including <gi>correspDesc</gi>) and a body
+            containing a single <gi>p</gi> with
+            <gi>gap</gi> <att>reason</att>=<val>untranscribed</val>;</item>
+            <item>incomplete or superseded transcriptions, such as damaged
+            fragments that duplicate a better witness encoded elsewhere in
+            the corpus. The accompanying <gi>change</gi> note states why the
+            letter is withheld.</item>
+          </list>
+        </p>
 
         <p>The corpus is accompanied by two authority files:
           <list>
@@ -194,7 +213,8 @@
 
           <p>The <gi>sourceDesc</gi> contains a <gi>msDesc</gi> with:
             <list>
-              <item><gi>msIdentifier</gi>: settlement, repository, collection,
+              <item><gi>msIdentifier</gi>: place of preservation
+              (<gi>placeName</gi>), repository, collection,
               and shelf mark (<gi>idno</gi>);</item>
               <item><gi>msContents</gi> / <gi>msItem</gi>: locus (folio range),
               title, author, language (<gi>textLang</gi>), and a summary
@@ -335,7 +355,7 @@
             <att>type</att>=<val>decipher</val>,
             <att>hand</att> (typically <val>#hand2</val>),
             <att>place</att>=<val>above</val>, and
-            <att>target</att> pointing to the cipher <att>xml:id</att>.</item>
+            <att>corresp</att> pointing to the cipher <att>xml:id</att>.</item>
             <item>Editorial decipherments are encoded with <gi>supplied</gi>
             carrying <att>reason</att>=<val>deciphered</val>,
             <att>resp</att>=<val>#editor</val>, and
@@ -465,31 +485,37 @@
             include="p name date note choice abbr expan unclear gap add del
                      lb pb sic corr foreign desc hi list item ref head
                      respStmt resp author editor title publisher pubPlace
-                     availability licence signed salute"/>
+                     textLang quote cit bibl label"/>
 
           <!-- Header module -->
           <moduleRef key="header"
             include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
                      encodingDesc editorialDecl projectDesc profileDesc
-                     correspDesc correspAction"/>
+                     correspDesc correspAction revisionDesc change
+                     availability licence idno handNote"/>
 
           <!-- Text structure module -->
           <moduleRef key="textstructure"
             include="TEI text body div front back titlePage docTitle
                      titlePart docAuthor docDate opener closer dateline
-                     postscript"/>
+                     postscript signed salute"/>
 
           <!-- Manuscript description module -->
           <moduleRef key="msdescription"
-            include="msDesc msIdentifier settlement repository collection
-                     idno msContents msItem locus physDesc objectDesc
-                     layoutDesc handDesc handNote supportDesc condition
-                     textLang"/>
+            include="msDesc msIdentifier repository collection
+                     msContents msItem locus physDesc objectDesc
+                     layoutDesc handDesc supportDesc condition
+                     additions additional adminInfo custodialHist
+                     custEvent foliation"/>
+
+          <!-- Figures module (tables, e.g. cipher keys) -->
+          <moduleRef key="figures"
+            include="table row cell"/>
 
           <!-- Names and dates module -->
           <moduleRef key="namesdates"
             include="persName placeName listPerson person listPlace place
-                     sex birth death occupation geo location"/>
+                     sex birth death occupation geo location settlement"/>
 
           <!-- Linking module (for seg) -->
           <moduleRef key="linking"
@@ -624,6 +650,10 @@
                   <valItem ident="illegible">
                     <desc>Text present but entirely illegible.</desc>
                   </valItem>
+                  <valItem ident="untranscribed">
+                    <desc>Letter catalogued but not yet transcribed
+                    (placeholder stub).</desc>
+                  </valItem>
                 </valList>
               </attDef>
               <attDef ident="unit" mode="change" usage="opt">
@@ -675,7 +705,7 @@
           </elementSpec>
 
           <!-- Constrain handNote/@scope -->
-          <elementSpec ident="handNote" mode="change" module="msdescription">
+          <elementSpec ident="handNote" mode="change" module="header">
             <attList>
               <attDef ident="scope" mode="change" usage="req">
                 <valList type="closed" mode="replace">
@@ -767,13 +797,26 @@
                   <valItem ident="secretary">
                     <desc>A secretary or administrative official.</desc>
                   </valItem>
+                  <valItem ident="courtier">
+                    <desc>A member of a princely court.</desc>
+                  </valItem>
+                  <valItem ident="stateCourtPersonnel">
+                    <desc>State or court personnel not covered by a more
+                    specific category.</desc>
+                  </valItem>
+                  <valItem ident="chivalricOrder">
+                    <desc>A member of a chivalric order.</desc>
+                  </valItem>
+                  <valItem ident="musician">
+                    <desc>A musician.</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
 
           <!-- Constrain idno/@type -->
-          <elementSpec ident="idno" mode="change" module="msdescription">
+          <elementSpec ident="idno" mode="change" module="header">
             <attList>
               <attDef ident="type" mode="change" usage="opt">
                 <valList type="semi" mode="replace">
