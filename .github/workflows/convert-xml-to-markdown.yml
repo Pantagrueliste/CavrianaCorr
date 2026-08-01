@@ -55,6 +55,11 @@ jobs:
   convert:
     needs: validate
     runs-on: ubuntu-latest
+    # Serialize pushes to the frontend repo with update-heatmap.yml. Only
+    # pushing runs join the shared group: GitHub keeps one pending job per
+    # group, so PR runs sharing it could cancel a queued conversion.
+    concurrency:
+      group: ${{ github.event_name == 'push' && 'frontend-push' || format('frontend-push-pr-{0}', github.run_id) }}
     steps:
       - name: Checkout TEI repo
         uses: actions/checkout@v4
@@ -82,6 +87,7 @@ jobs:
       - name: Convert XML to Markdown by Year
         run: |
           set -e
+          : > expected_pages.txt
           for file in letters/*.xml; do
             if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
               if [ -f "$file" ]; then
@@ -94,20 +100,51 @@ jobs:
                 filename=$(basename "$file" .xml)
                 filepath=$(realpath "$file")
                 fileurl="file://$filepath"
-                
+
                 yearRaw=$(
                   java -cp saxon.jar net.sf.saxon.Query \
                     -qs:"declare namespace tei='http://www.tei-c.org/ns/1.0'; let \$d := doc('$fileurl')//tei:correspAction[@type='sent']/tei:date let \$v := if (\$d/@when) then string(\$d/@when) else if (\$d/@notBefore) then string(\$d/@notBefore) else '' return normalize-space(substring(\$v, 1, 4))" \
                     | grep -o '[0-9]\{4\}' || echo "unknownYear"
                 )
-                
+
                 year=${yearRaw:-unknownYear}
                 yearDir="CavrianaCorr_FrontEnd/docs/$year"
                 mkdir -p "$yearDir"
                 output_file="$yearDir/${filename}.md"
                 echo "Converting $file -> $output_file (year=$year)"
                 java -cp saxon.jar net.sf.saxon.Transform -s:"$file" -xsl:"templates/transform.xsl" -o:"$output_file"
+                echo "$year/${filename}.md" >> expected_pages.txt
               fi
+            fi
+          done
+
+      - name: Prune stale letter pages
+        # Remove pages whose TEI source was deleted, renamed, re-dated, or
+        # demoted to placeholder — otherwise old URLs stay live forever.
+        run: |
+          set -e
+          # Never prune against a missing or empty manifest: grep exits 2 on
+          # an unreadable file, which would mark every page stale.
+          if [ ! -s expected_pages.txt ]; then
+            echo "expected_pages.txt missing or empty — refusing to prune"
+            exit 1
+          fi
+          cd CavrianaCorr_FrontEnd
+          # -mindepth 2 covers every generated bucket (including unknownYear)
+          # while leaving hand-written top-level pages such as intro.md alone.
+          find docs -mindepth 2 -type f -name '*.md' | while read -r md; do
+            rel="${md#docs/}"
+            if ! grep -qxF "$rel" ../expected_pages.txt; then
+              echo "Pruning stale page: $md"
+              rm "$md"
+            fi
+          done
+          # Drop letter directories left without any page
+          for d in docs/*/; do
+            [ -d "$d" ] || continue
+            if [ -z "$(find "$d" -name '*.md' -print -quit)" ]; then
+              echo "Removing empty directory: $d"
+              rm -rf "$d"
             fi
           done
 
@@ -120,7 +157,7 @@ jobs:
           cd CavrianaCorr_FrontEnd
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/
+          git add -A docs/
           if ! git diff --cached --quiet; then
             git commit -m "Update converted Markdown files"
             for i in 1 2 3; do

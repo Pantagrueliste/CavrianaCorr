@@ -6,11 +6,14 @@ on:
     paths:
       - "letters/**/*.xml"
       - "scripts/**.py"
-      - "templates/CavrianaHeatmap.template.jsx"
       - "templates/CustomHeatmap.template.jsx"
+      - "assets/cavriana-heatmap-custom.css"
 jobs:
   update-heatmap:
     runs-on: ubuntu-latest
+    # Serialize pushes to the frontend repo with convert-xml-to-markdown.yml
+    concurrency:
+      group: frontend-push
     steps:
     # ── 1  Back-end: fetch repo and build component ───────────────
     - uses: actions/checkout@v4        # CavrianaCorr
@@ -30,9 +33,7 @@ jobs:
     - name: Generate letter metadata → CSV
       working-directory: scripts
       run: python letter_parser.py
-    # generate_heatmap.py expects repo-root, writes to generated/
-    - name: Generate CavrianaHeatmap.jsx
-      run: python scripts/generate_heatmap.py
+    # generate_custom_heatmap.py expects repo-root, writes to generated/
     - name: Generate CustomHeatmap.jsx
       run: python scripts/generate_custom_heatmap.py
     # ── 2  Front-end: check out site repo ─────────────────────────
@@ -41,13 +42,13 @@ jobs:
         repository: Pantagrueliste/CavrianaCorr_FrontEnd
         path: CavrianaCorr_FrontEnd
         token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
-    - name: Copy component into front-end repo
+    - name: Copy component and stylesheet into front-end repo
       run: |
-        mkdir -p CavrianaCorr_FrontEnd/src/components
-        cp generated/CavrianaHeatmap.jsx \
-           CavrianaCorr_FrontEnd/src/components/
+        mkdir -p CavrianaCorr_FrontEnd/src/components CavrianaCorr_FrontEnd/src/css
         cp generated/CustomHeatmap.jsx \
            CavrianaCorr_FrontEnd/src/components/
+        cp assets/cavriana-heatmap-custom.css \
+           CavrianaCorr_FrontEnd/src/css/
     # ── 3  Smoke-build the Docusaurus site ───────────────────────
     - uses: actions/setup-node@v4
       with:
@@ -65,7 +66,7 @@ jobs:
       run: |
         git config user.name  "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add src/components/CavrianaHeatmap.jsx src/components/CustomHeatmap.jsx
+        git add src/components/CustomHeatmap.jsx src/css/cavriana-heatmap-custom.css
         if ! git diff --cached --quiet; then
           git commit -m "Auto-update Cavriana heat-map"
           git stash --include-untracked
