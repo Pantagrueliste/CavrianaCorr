@@ -20,6 +20,15 @@
     <xsl:sequence select="replace(replace(replace(string($v), '&amp;', '&amp;amp;'), '&lt;', '&amp;lt;'), '&quot;', '&amp;quot;')"/>
   </xsl:function>
 
+  <!-- Escape text destined for the page body. The pages are compiled as MDX,
+       where a bare { opens an expression and < opens a tag: both compile
+       silently and then fail at render time. No transcription contains these
+       characters today; this keeps it that way if one ever does. -->
+  <xsl:function name="cav:mdx" as="xs:string">
+    <xsl:param name="v"/>
+    <xsl:sequence select="replace(replace(replace(string($v), '\{', '\\{'), '\}', '\\}'), '&lt;', '&amp;lt;')"/>
+  </xsl:function>
+
   <!-- 1)  Entry point: collect entire text, then strip spaces before punctuation. -->
   <xsl:template match="/">
     <xsl:variable name="rawOutput">
@@ -138,7 +147,7 @@
 
     <xsl:if test="normalize-space($summary) != ''">
       <xsl:text>| **Summary** | </xsl:text>
-      <xsl:value-of select="normalize-space($summary)"/>
+      <xsl:value-of select="cav:mdx(normalize-space($summary))"/>
       <xsl:text> |&#10;</xsl:text>
     </xsl:if>
 
@@ -149,7 +158,7 @@
     <xsl:text>| **Cite as** | </xsl:text>
     <xsl:value-of select="normalize-space($editor)"/>
     <xsl:text> (ed.), "</xsl:text>
-    <xsl:value-of select="normalize-space($letterTitle)"/>
+    <xsl:value-of select="cav:mdx(normalize-space($letterTitle))"/>
     <xsl:text>," in *Filippo Cavriana: The Secret Correspondence*, https://doi.org/10.5281/zenodo.8224585 |&#10;</xsl:text>
 
     <xsl:text>&#10;</xsl:text>
@@ -159,7 +168,7 @@
     <!-- Beta disclaimer -->
     <xsl:text disable-output-escaping="yes">&lt;div class="beta-notice"&gt;&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
-    <xsl:text>:::caution Editorial notice&#10;</xsl:text>
+    <xsl:text>:::caution[Editorial notice]&#10;</xsl:text>
     <xsl:text>This is a staged edition. The first stage (1566–1574) is not yet complete.&#10;</xsl:text>
     <xsl:text>:::&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
@@ -252,6 +261,39 @@
   </xsl:template>
   <xsl:template match="tei:add">
     <xsl:apply-templates/>
+  </xsl:template>
+
+  <!-- 11b) Enciphered passages. Without a template these fell through to
+       the catch-all and dumped a bare digit run straight into the reading
+       text, with no space before the words that follow it. -->
+  <xsl:template match="tei:seg[@type='cipher']">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&lt;span class=&quot;cipher&quot; title=&quot;',
+                     cav:attr(string-join((
+                       'enciphered passage',
+                       if (@subtype) then concat(@subtype, ' cipher') else (),
+                       if (@hand) then concat('hand ', substring-after(@hand, '#')) else ()
+                     ), ', ')),
+                     '&quot;&gt;')"/>
+    <xsl:apply-templates/>
+    <xsl:text disable-output-escaping="yes">&lt;/span&gt; </xsl:text>
+  </xsl:template>
+
+  <!-- 11c) Text supplied by the editor — decipherments and restorations.
+       These are the editor's reconstruction, not the manuscript's words, so
+       they are bracketed and marked. Without this they were indistinguishable
+       from the transcription. -->
+  <xsl:template match="tei:supplied">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&lt;span class=&quot;supplied&quot; title=&quot;',
+                     cav:attr(string-join((
+                       concat('supplied by the editor',
+                              if (@reason) then concat(' (', @reason, ')') else ''),
+                       if (@cert) then concat('certainty ', @cert) else ()
+                     ), ', ')),
+                     '&quot;&gt;[')"/>
+    <xsl:apply-templates/>
+    <xsl:text disable-output-escaping="yes">]&lt;/span&gt; </xsl:text>
   </xsl:template>
 
   <!-- 12) Foreign-language passages keep their language tag. -->
@@ -356,6 +398,11 @@
   <!-- 16) Default TEI handling -->
   <xsl:template match="tei:*">
     <xsl:apply-templates/>
+  </xsl:template>
+
+  <!-- 17) All body text passes through MDX escaping. -->
+  <xsl:template match="text()">
+    <xsl:value-of select="cav:mdx(.)"/>
   </xsl:template>
 
 </xsl:stylesheet>
