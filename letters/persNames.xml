@@ -23,6 +23,9 @@
         <p><bibl xml:id="map-mia">Medici Archive Project, MIA (Medici Interactive Archive), https://mia.medici.org. Person identifiers and the dates marked @source="#map-mia" were verified against MAP's biographical records.</bibl></p>
       </sourceDesc>
     </fileDesc>
+  <revisionDesc>
+      <change when="2026-08-01">Removed four VIAF identifiers that resolved to a different person: Emanuele Filiberto di Savoia, François de Valois, Johann Casimir von der Pfalz and Filippo Strozzi. Each was checked against Wikidata, and for the first two the Medici Archive Project's dates corroborate the error. The identifiers for Zygmunt II and Katarzyna were kept: they resolve to Sigismund II Augustus and Catherine of Austria, the same people under different name forms.</change>
+    </revisionDesc>
   </teiHeader>
 
   <text>
@@ -86,7 +89,6 @@
           <persName type="sort">Savoia, Emanuele Filiberto di</persName>
           <sex value="male"/>
           <occupation type="nobility">Duke of Savoy</occupation>
-          <idno type="VIAF">100170223</idno>
           <idno type="MAP">1245</idno>
           <birth when="1528" source="#map-mia">1528</birth>
           <death when="1580" source="#map-mia">1580</death>
@@ -190,7 +192,6 @@
           <occupation type="nobility">Duke of Alençon, later Duke of Anjou</occupation>
           <birth>1555-03-18</birth>
           <death>1584-06-10</death>
-          <idno type="VIAF">88890786</idno>
           <idno type="MAP">4142</idno>
         </person>
 
@@ -672,8 +673,7 @@
           <persName type="alias">Duca di Duponte</persName>
           <sex value="male"/>
           <occupation type="nobility">Count Palatine</occupation>
-          <idno type="VIAF">52484350</idno>
-        </person>
+          </person>
         <person xml:id="pers-sachsen-aug">
           <persName>August von Sachsen</persName>
           <persName type="sort">Sachsen, August von</persName>
@@ -845,7 +845,6 @@
           <occupation type="military">Colonel-General of the Infantry, commander of the French naval expedition (1572)</occupation>
           <birth>1541</birth>
           <death>1582</death>
-          <idno type="VIAF">315945612</idno>
           <idno type="MAP">19123</idno>
         </person>
 
