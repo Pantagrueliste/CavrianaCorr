@@ -37,14 +37,17 @@ def build_persons() -> dict:
         if not pid:
             continue
         names = p.xpath("./tei:persName", namespaces=NS)
-        primary = next((n for n in names if n.get("type") != "alias"), None)
+        primary = next((n for n in names if n.get("type") not in ("alias", "sort")), None)
         aliases = [text(n) for n in names if n.get("type") == "alias"]
+        sort_form = next((text(n) for n in names if n.get("type") == "sort"), "")
         occ = p.find("tei:occupation", NS)
         viaf = next((text(i) for i in p.xpath("./tei:idno", namespaces=NS)
                      if i.get("type") == "VIAF"), "")
         out[pid] = {
             "kind": "person",
             "name": text(primary) if primary is not None else pid,
+            # Index form, family name first; falls back to natural order.
+            "sortName": sort_form or (text(primary) if primary is not None else pid),
             "aliases": [a for a in aliases if a],
             "role": text(occ),
             "roleType": occ.get("type", "") if occ is not None else "",
@@ -82,6 +85,7 @@ def build_places() -> dict:
         out[pid] = {
             "kind": "place",
             "name": (modern or untyped or historical or [pid])[0],
+            "sortName": (modern or untyped or historical or [pid])[0],
             "historical": historical,
             "country": (by_type.get("country") or [""])[0],
             "lat": lat,

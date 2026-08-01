@@ -747,6 +747,20 @@
                   <valItem ident="alias">
                     <desc>An alternative name, pseudonym, or title used in the letters.</desc>
                   </valItem>
+                  <valItem ident="sort">
+                    <desc>The index form of the name, family name first
+                    (e.g. <hi rend="italic">Medici, Cosimo I de'</hi>). Sovereigns
+                    are filed under their house where the file names one, popes and
+                    other regnal-only figures under their regnal name. Used to order
+                    and display the person index; not an authority form, so
+                    <gi>idno</gi> remains the external matching key.</desc>
+                  </valItem>
+                  <valItem ident="title">
+                    <desc>A name derived from a title or seigneury.</desc>
+                  </valItem>
+                  <valItem ident="Italian">
+                    <desc>The Italian form of a French name, as Cavriana writes it.</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
