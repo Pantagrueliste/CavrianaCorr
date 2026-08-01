@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>To Bartolomeo Concino, 9 November 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="343r" to="343r">fol. 343r</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concini</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana expresses his loyalty and devotion to serving the religion.</note>
             </msItem>

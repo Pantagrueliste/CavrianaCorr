@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 27 June 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="631r" to="631v">fols. 631r-631v</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">This letter provides crucial evidence that Cavriana was already working as an intelligence agent for Catherine de' Medici by June 1571, earlier than previously documented. Writing from Bagni di Lucca where he accompanies the Duke of Nevers for medical treatment, Cavriana reveals he has received a formal commission from the Queen Mother to correspond with her directly. He asks Concino to forward enclosed letters to her through secure diplomatic channels (either the Tuscan ambassador or Abbot Guadagni), and to burn sensitive French news reports after reading them. This predates his known intelligence activities under the pseudonym "Vincenzo da Castello" and demonstrates his established role in Catherine's intelligence network.</note>
             </msItem>

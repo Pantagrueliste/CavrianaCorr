@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 4 August 1572</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="11r" to="15r">fols. 11r-15r</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana reports a lengthy conversation with the Venetian ambassador Giovanni Micheli concerning Medici foreign policy, the balance of power between France and Spain, Ottoman affairs, the Polish succession, the papal title of Grand Duke, and court news from Paris. The letter discusses perceptions of Florentine strategy in fomenting religious conflict to gain advantage, and contains encrypted passages identifying individuals at court. Written weeks before the St Bartholomew's Day Massacre.</note>
             </msItem>

@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 12 May 1572</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="114r" to="119v">fols. 114r-119v</locus>
               <title>Letter from Filippo Cavriana</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana reports intelligence gathered from the minister of a great prince (likely Spain) about suspicions towards the Grand Duke of Tuscany and the Florentine ambassador Petrucci. He discusses the death of Pope Pius V and the upcoming conclave, with faction counts for Farnese, Ferrara, and Florence. He gives a detailed account of Strozzi's naval expedition departing from Bordeaux, possibly aimed at the African coast near the Canaries. He reports on Count Ludwig of Nassau's corsair activities, the peace between Guise and Coligny, preparations for the wedding of Marguerite de Valois to the Prince of Navarre, and the return of Huguenot-held towns to royal control. A postscript assesses the new Spanish ambassador.</note>
             </msItem>

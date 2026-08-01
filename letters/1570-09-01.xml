@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Vincenzo da Castello to Bartolomeo Concino, 1 September 1570</title>
-        <author>Vincenzo da Castello</author>
+        <author ref="#pers-cavriana-f">Vincenzo da Castello</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="236r" to="239r">fols. 236r-239r</locus>
               <title>Letter signed by Vincenzo da Castello with avvisi from the court of France</title>
-              <author>Vincenzo da Castello</author>
+              <author ref="#pers-cavriana-f">Vincenzo da Castello</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">
                Avvisi dated September 1, 1570, reporting on French court affairs. It details the slow implementation of peace agreements with Huguenots, German mercenaries delayed at borders awaiting payment, and continued violence despite official peace. The letter describes Cardinal of Lorraine's opposition to peace execution, the financial crisis with the King extracting funds from churches and creating new taxes, and military reductions. Court intrigues involving the Duke of Guise, Admiral Coligny's rising reputation, Catherine de Medici's support for the Grand Duke of Tuscany, concerns about alliances between Spain, the Emperor and the Pope, and turmoil in the Saluzzo border region are also reported.

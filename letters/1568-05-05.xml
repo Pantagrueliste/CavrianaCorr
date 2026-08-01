@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Update on Nevers' condition - 5 May 1568</title>
-                <author>Filippo Cavriana</author>
+                <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -30,7 +30,7 @@
                     <msContents>
                         <msItem>
                             <locus from="292r" to="292v">fols. 292r-292v</locus>
-                            <author>Filippo Cavriana</author>
+                            <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">Report on the improving health condition of the Duke of Nevers, noting progress with treatment of a liver tumor and ongoing issues with his knee injury, with an overall positive prognosis.</note>
                         </msItem>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 14 August 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="442r" to="442v">fols. 442r-v</locus>
               <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana apologizes for not being able to meet Cosimo I in person due to his obligations to the Duke of Nevers, who is recovering from an ear ailment at the baths. He expresses his devotion and service to both Cosimo I and the Prince.</note>
             </msItem>

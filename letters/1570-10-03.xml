@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 3 October 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="331r" to="331v">331r-331v</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Letter discussing Cavriana's investiture into the Order of Santo Stefano and his gratitude towards the Grand Duke.</note>
             </msItem>

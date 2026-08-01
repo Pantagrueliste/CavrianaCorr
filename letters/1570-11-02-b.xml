@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Letter from Filippo Cavriana to Bartolomeo Concino, 2 November 1570</title>
-                <author>Filippo Cavriana</author>
+                <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -32,7 +32,7 @@
                     <msContents>
                         <msItem>
                             <locus from="336r" to="336v">fols. 336r-336v</locus>
-                            <author>Filippo Cavriana</author>
+                            <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">Letter discussing Cavriana’s investiture into the Order of Santo Stefano, addressed to Bartolomeo Concino.</note>
                         </msItem>

@@ -4,7 +4,7 @@
        <fileDesc>
            <titleStmt>
                <title>Update on Nevers' condition - 9 June 1568</title>
-               <author>Filippo Cavriana</author>
+               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                <editor>Clément Godbarge</editor>
                <respStmt>
                    <resp>Transcription and encoding</resp>
@@ -30,7 +30,7 @@
                    <msContents>
                        <msItem>
                            <locus from="296r" to="296v">fols. 296r-296v</locus>
-                           <author>Filippo Cavriana</author>
+                           <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                            <textLang mainLang="it">Italian</textLang>
                            <note type="summary">Report on the Duke of Nevers' improving condition, mentioning his ability to leave his bed and house, with plans to transport him to court within a month, though noting his leg will require more time and possibly mud baths the following year.</note>
                        </msItem>

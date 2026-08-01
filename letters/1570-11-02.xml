@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 2 November 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="47r" to="47v">47r-47v</locus>
               <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Neatly-written letter informing Cosimo I about Cavriana's investiture into the Order of Santo Stefano and expressing gratitude for this honor.</note>
             </msItem>

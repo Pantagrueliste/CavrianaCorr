@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 7 July 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="222r" to="223r">fols. 222r-223r</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Writing from the spa town of Bagni di Lucca to Bartolomeo Concino, Cavriana reports on significant military developments in Lombardy. He describes the presence of four German regiments at Casalmaggiore in Cremona territory, where each soldier received 27 scudi on June 27th and was required to swear an oath. He notes with concern the stockpiling of over 2,500 cases of hay in preparation for 5,000 cavalry troops, observing that such cavalry would not embark on galleys and questioning the need for such extensive provisions. Cavriana warns about secret recruitment efforts by servants of His Highness (likely the Grand Duke of Tuscany) to hire prominent captains in Lombardy, criticizing the lack of discretion given the current political tensions. In encrypted passages, he reveals intelligence about Don Alfonso d'Este's attempts to cultivate the Count of Retz (Albert de Gondi), information obtained from Antonio da Pals, a Genoese noble who inadvertently showed Cavriana a letter about seeking assistance. The letter also mentions Don Juan of Austria's movements and expresses concern for the recipient's health (suffering from 'flux'). Cavriana reaffirms his loyalty to the Grand Duke and celebrates the proper recognition of his title.</note>
             </msItem>

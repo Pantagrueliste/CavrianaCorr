@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Jacopo Dani, 20 March 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -32,7 +32,7 @@
           <msContents>
             <msItem>
               <locus from="538r" to="538r">538r</locus>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Letter discussing the receipt of correspondence, travels, and request for investiture into the Order of Santo Stefano</note>
             </msItem>

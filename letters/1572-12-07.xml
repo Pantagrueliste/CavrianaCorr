@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to unknown addressee, 7 December 1572</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="319r" to="322v">fols. 319r–319v, 322r–322v</locus>
               <title>Letter from Filippo Cavriana to unknown addressee, 7 December 1572</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Intelligence report discussing Spanish diplomatic manoeuvres, the siege of La Rochelle, military operations at Sancerre, papal politics, Mantuan and Ferrarese diplomacy, the Condé remarriage, the papal legate, and Montmorency's political eclipse. Contains extensive cipher passages with interlinear decipherments by a second hand. Postscript on Italian military levies.</note>
               <note type="editorial">Fols. 319 and 322 form a single letter: fol. 319v ends "cosa che ha sturba-" and fol. 322r begins "to molto la mente del Legato", forming "sturbato". Fols. 320–321 (a separate letter dated 1 December 1572) are intercalated in the filza between the two halves of this letter.</note>

@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to the Grand Duchess of Tuscany, 21 November 1572</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="103r" to="107r">fols. 103r–107r (reading order: 103r–103v, 106r–106v, 104r–104v, 105r–105v, 107r)</locus>
               <title>Letter from Filippo Cavriana to the Grand Duchess of Tuscany</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="pseudonym">Signed "Thomaso della Paglia"</note>
               <note type="address">Address on verso: "Signora Gran Duchessa di Toscana mia padrona"</note>

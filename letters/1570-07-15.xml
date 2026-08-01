@@ -4,7 +4,7 @@
    <fileDesc>
      <titleStmt>
        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 15 July 1570</title>
-       <author>Filippo Cavriana</author>
+       <author ref="#pers-cavriana-f">Filippo Cavriana</author>
        <editor>Clément Godbarge</editor>
        <respStmt>
          <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
            <msItem>
              <locus from="219r" to="220v">fols. 219r-220v</locus>
              <title>Letter from Filippo Cavriana to Ambassador Petrucci</title>
-             <author>Filippo Cavriana</author>
+             <author ref="#pers-cavriana-f">Filippo Cavriana</author>
              <textLang mainLang="it">Italian</textLang>
              <note type="summary">Letter discussing Cavriana's application to the Order of Santo Stefano and offering his services to the Grand Duke</note>
            </msItem>

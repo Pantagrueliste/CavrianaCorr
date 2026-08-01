@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>To Cosimo I, 29 July 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="218r" to="218r">218r</locus>
               <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Request to join the Order of Santo Stefano</note>
             </msItem>

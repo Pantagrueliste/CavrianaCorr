@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Unknown Recipient, 31 March 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="212r" to="213v">fols. 212r-213v</locus>
               <title>Letter from Filippo Cavriana to Unknown Recipient</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana writes about multiple French court intrigues and diplomatic matters. He reports on tensions in La Rochelle where Huguenots threaten to restart the war if justice isn't served for the murder of 40 Huguenots in Rouen, though Montmorency's return suggests a peaceful resolution may be found. The letter describes a major court conflict during the Queen's ceremonial entry, where the Duchess of Nevers and the Marquise d'Isle refused to attend due to a precedence dispute with their sister, the Duchess of Guise. The Duke of Nevers, deeply offended, threatened to withdraw from court and renounce his governorship of Piedmont. Cavriana discusses marriage negotiations between the future king Henri III and Elizabeth I of England, noting the same obstacles that prevented the match with Archduke Charles: the right to celebrate Catholic mass and foreign guards. The letter mentions Cardinal Châtillon's possible death in England and the scramble for his benefices. In encrypted passages, Cavriana reveals that the Grand Duke of Tuscany enjoys excellent standing with the French royal family, but warns this friendship is arousing Spanish suspicions, with the Spanish ambassador closely monitoring Franco-Tuscan relations. He includes a cipher key and emphasizes his exclusive loyalty to the Grand Duke, noting he uses this cipher with no one else. The letter also contains a scandalous anecdote about a Spanish member of the ambassador's household being severely whipped in the stables for making advances to a beautiful woman of Monsieur's household.</note>
             </msItem>

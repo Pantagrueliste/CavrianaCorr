@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 20 May 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="333r" to="336r">fols. 333r-336r</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">A letter reporting on political and military developments in France, particularly concerning Protestant movements and German support.</note>
             </msItem>
@@ -89,7 +89,7 @@
           <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il <date when="1570-05-20">XX di Maggio <lb/>del LXX</date>.</dateline>
           <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>
           <lb/>servitor
-          <lb/><signed>Filippo Cavriana</signed>
+          <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
         </closer>
       </div>
     </body>

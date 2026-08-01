@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to La Señora de Florencia, 6 March 1574</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="18r" to="19v">fols. 18r-19v</locus>
               <title>Letter from Filippo Cavriana to La Señora de Florencia</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana reports on the discovery of the conspiracy of the Duke of Alençon and the King of Navarre against Charles IX at Saint-Germain-en-Laye, tracing its origins to the time of the Admiral (Coligny) and involving the malcontents Méru and others. He describes the Queen Mother's reaction, the court's movements, the King's repeated offers of pardon, the role of La Mole, the involvement of Guise, Nassau's military threat on the Luxembourg border, Ottoman pressure on Philip II, and the prospect of a second St Bartholomew's Day massacre.</note>
             </msItem>
@@ -79,7 +79,7 @@
     <body>
       <div type="letter">
         <pb n="18r"/>
-        <head>Di 6. di marzo del Cavriano,</head>
+        <head>Di 6. di marzo del <persName ref="#pers-cavriana-f">Cavriano</persName>,</head>
         <p>Io scrissi à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> per l'ultime mie, che non poteva andar molto tempo, e haveresti udito nuo<lb break="no"/>ve horride, et cosi è avenuto col tradimento scoperto del <persName ref="#pers-valois-f-alen">Duca d'Alansone</persName>, et <lb/><persName ref="#pers-bourbon-h-nav">Re di Navarra</persName> contro il <persName ref="#pers-valois-ch-9">Re</persName> <choice><abbr>nr̍o</abbr><expan>nostro</expan></choice> <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice> <add place="above">a 23</add> di febraro a <placeName ref="#place-saint-germain-en-laye">San Germano</placeName>. La cosa è, <lb/>di gran tempo ordita dalla malitia delle stelle, et dalli mal contenti del <persName ref="#pers-valois-ch-9">Re</persName>, et <lb/><persName ref="#pers-medici-cat">Reina</persName>, che sono infiniti, et sino al tempo dell'<persName ref="#pers-coligny-g">Amiraglio</persName>, fu posto in cuore <lb/>a <choice><abbr>q.to</abbr><expan>questo</expan></choice> figliuolo il voler <del>conoscere</del> comandare, et conoscere quello, che rompe le <lb/>amicitie, cioè <persName ref="#pers-montmorency-charles">meru</persName>, et <persName ref="#pers-montmorency-g-thore"><unclear>turu</unclear></persName>, Hora quando s'andò a compagnare il <persName ref="#pers-valois-h-3">Re di Pollo<lb break="no"/>nia</persName> a <placeName ref="#place-soissons">Suessoni</placeName> si dovea fare l'impresa fatta hora, Ma la si scopri, et cosi al <lb/>buio al buio, la madre <choice><abbr>no̍</abbr><expan>non</expan></choice> anchor ben certa della verità, tuttavia dubiosa <unclear>de</unclear> gri<lb break="no"/>dò molto <choice><abbr>fieram.te</abbr><expan>fieramente</expan></choice>, et subito la corte volò qui, egli all'hora domandò un mezo per<lb break="no"/>dono à lei, et al <persName ref="#pers-valois-ch-9">Re</persName>, havendo poi, havendo poi imbarcato tanti, et li <choice><abbr>med.i</abbr><expan>medesimi</expan></choice> seco, <lb/>è stato forza darla fuora, et per tre volte ha dimandato perdono al Re di <choice><abbr>q.to</abbr><expan>questo</expan></choice> <lb/>fatto. La cosa era ordita cosi, che poco à poco si mettevano insieme sin ad 800 <lb/>cavalli Ugonotti et <choice><abbr>Catt.ci</abbr><expan>Cattolici</expan></choice>; et elli con <persName ref="#pers-bourbon-h-nav">Navarra</persName>, fingendo andar alla caccia usciva <lb/>di corte, la qual sprovista di cosi gran numero di <choice><abbr>Cav.li</abbr><expan>Cavalli</expan></choice> era surpresa da coloro, <lb/>oltre che vi restavano molti complici, et aiutanti; che davano mano à questo <lb/>negotio. Dio pertanto misericordioso, fece che d'ogni parte, <choice><abbr>ven̍e</abbr><expan>venne</expan></choice> nuova della <lb/>assemblea, che si faceva, et <persName ref="#pers-lamole-j">la Mola</persName> gentilhuomo di <placeName ref="#place-provence">Provenza</placeName>, l'anima del <lb/><persName ref="#pers-valois-f-alen">Duca</persName>, et suo Idolo n'avvertì à tempo la <persName ref="#pers-medici-cat">Reina</persName>, stimo io vedendosi scoperto, ò <lb/>forse tocco dalla conscienza, ò dal stimolo della fellonia, Hora le difficultà, che <lb/>incontriamo intorno al remedio di questo male sono, che i Consiglieri Regij</p>
 
         <pb n="18v"/>

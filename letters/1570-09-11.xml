@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Cosimo I de' Medici, 11 September 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="3r" to="5r">3r-5r</locus>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cosimo's new title, including information about various factions and diplomatic relations.</note>
             </msItem>

@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Update on Nevers' condition - 28 May 1568</title>
-                <author>Filippo Cavriana</author>
+                <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
                         <msItem>
                             <locus from="294r" to="294v">fols. 294r-294v</locus>
                             <title>Update on Nevers' condition</title>
-                            <author>Filippo Cavriana</author>
+                            <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">A letter reporting on the recovery of Ludovico Gonzaga, Duke of Nevers, from a gunshot wound</note>
                         </msItem>

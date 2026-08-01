@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 12 January 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="3r" to="6r">fols. 3r-6r</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Cavriana reports on the new queen's adaptation to French court life and concerns about moral corruption. He discusses the fragile religious peace, with the king wanting to maintain it despite Cardinal Lorraine's inflammatory preaching through the Jesuit Émond Auger. He details a financial crisis requiring noble contributions (100 scudi from princes, 10 from gentlemen), with Nevers leading voluntary payments. The letter covers chancellorship changes (Morvilliers resigning, Birague taking the seal), false rumors from Rome about the Grand Duke becoming secretly French, Catherine de' Medici's secret financial transfers to Florence via the Count of Retz, and Huguenot presence in Savoy. Cipher passages reveal Cardinal Lorraine maintaining Huguenots in his nephew's household despite leading Catholics. Also mentions Admiral Coligny's wealthy wife, court preparations for Paris entry festivities, and the Count of Guazzo's troubles in Rome.</note>
             </msItem>

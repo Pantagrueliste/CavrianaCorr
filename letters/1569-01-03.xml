@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Letter from Filippo Cavriana to Bartolomeo Concino, 3 January 1569</title>
-                <author>Filippo Cavriana</author>
+                <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
                         <msItem>
                             <locus from="740r" to="740v">740r-v</locus>
                             <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-                            <author>Filippo Cavriana</author>
+                            <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">A number of avvisi from France reported by Filippo Cavriana</note>
                         </msItem>
@@ -85,7 +85,7 @@
 
                 <closer>
                     <salute>servidore <choice><abbr>affetionatiss.o</abbr><expan>affetionatissimo</expan></choice> di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>illustrí</abbr><expan>illustrissima</expan></choice>. <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> arderà <choice><abbr>qsta</abbr><expan>questa</expan></choice>, doppo haverla letta, perché non vorrei <lb/>si smarissi per ventura <choice><abbr>nó</abbr><expan>non</expan></choice> mio danno. Espetto risposta.</salute>
-                    <signed>Filippo cavriana</signed>
+                    <signed><persName ref="#pers-cavriana-f">Filippo cavriana</persName></signed>
                 </closer>
             </div>
         </body>

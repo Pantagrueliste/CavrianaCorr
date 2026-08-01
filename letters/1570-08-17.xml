@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 17 August 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="1r" to="1v">1r-v</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Report on the Peace of Saint-Germain-en-Laye and French politics</note>
             </msItem>
@@ -95,7 +95,7 @@
           <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.re</abbr><expan>Illustre</expan></choice>
           <lb/>Servitor si cuore er perpetuamente
           <lb/><choice><abbr>affett.mo</abbr><expan>affettionatissimo</expan></choice>
-          <lb/><signed>Vincenzo da Castello</signed> /
+          <lb/><signed><persName ref="#pers-cavriana-f">Vincenzo da Castello</persName></signed> /
         </closer>
       </div>
     </body>

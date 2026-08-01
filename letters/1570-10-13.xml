@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Vincenzo da Castello to Bartolomeo Concino, 13 October 1570</title>
-        <author>Vincenzo da Castello</author>
+        <author ref="#pers-cavriana-f">Vincenzo da Castello</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="266r" to="268v">fols. 266r-268v</locus>
               <title>Letter discussing the difficulties of peace implementation in France</title>
-              <author>Vincenzo da Castello</author>
+              <author ref="#pers-cavriana-f">Vincenzo da Castello</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Letter discussing the difficulties in implementing the peace agreement with the Huguenots, financial problems, military reorganization, and the marriage of the Duke of Guise</note>
             </msItem>

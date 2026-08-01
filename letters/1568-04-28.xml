@@ -4,7 +4,7 @@
    <fileDesc>
      <titleStmt>
        <title>Update on Nevers' condition</title>
-       <author>Filippo Cavriana</author>
+       <author ref="#pers-cavriana-f">Filippo Cavriana</author>
        <editor>Clément Godbarge</editor>
        <respStmt>
          <resp>Transcription and encoding</resp>
@@ -32,7 +32,7 @@
          <msContents>
            <msItem>
              <locus from="288r" to="289r">fols. 288r-289r</locus>
-             <author>Filippo Cavriana</author>
+             <author ref="#pers-cavriana-f">Filippo Cavriana</author>
              <textLang mainLang="it">Italian</textLang>
              <note type="summary">Medical report on the worsening condition of the Duke of Nevers, discussing symptoms, treatments, and prognosis.</note>
            </msItem>

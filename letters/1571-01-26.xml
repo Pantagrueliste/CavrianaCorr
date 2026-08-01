@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Bartolomeo Concino, 26 January 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -33,7 +33,7 @@
             <msItem>
               <locus from="17r" to="17v">fols. 17r-17v</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">This intelligence report from the French court is written by Filippo Cavriana to Bartolomeo Concino, using the false identities "Tommaso dalla Paglia" (for Cavriana) and "Marco" (for Concino) as part of their espionage network. Written in a disguised hand different from Cavriana's usual writing, the letter reports on various French court affairs and political developments. It begins with news of failed marriage negotiations between the Admiral and a wealthy lady from Bourg-en-Bresse, disrupted by the Duke of Savoy who favored his own candidate, Monsignor de Cahors from Piedmont. The writer discusses the arrival of Danville (Henri de Montmorency) at court with 400 cavalry and a Franciscan monk who testified about criminal plots allegedly ordered by the Cardinal of Lorraine (encoded in cipher). The letter details ongoing feuds between French nobles, including tensions between Danville and Monluc over governance issues, and conflicts between Nemours and other nobles over precedence at the king's planned entry into Paris. A significant portion describes the illness of the new queen Elisabeth of Austria, explaining through intimate medical details how she became ill after riding in inappropriate clothing during her menstrual period, leading to fever and joint pain. The letter includes cipher-encoded references to various figures including the Queen Mother Catherine de' Medici and discussions about Jesuit influence at court. The writer reports on military recruitments for Venice, fortification activities by the Pope at Castelfranco near Ferrara, and describes a dangerous incident where King Charles IX nearly drowned after falling through ice while hunting. The postscript mentions diplomatic missions to Germany to negotiate marriages for the Duke of Alençon with daughters of the Dukes of Saxony or Bavaria. The use of false identities and disguised handwriting underscores the sensitive nature of this intelligence gathering operation.</note>
             </msItem>

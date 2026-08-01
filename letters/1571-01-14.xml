@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Bartolomeo Concino, 14 January 1571</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="7r" to="10v">fols 7r–10v</locus>
               <title>To Bartolomeo Concino</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary" xml:lang="en">Cavriana, writing from Paris, asks Concino to obtain permission for him to make his profession as a Knight of Santo Stefano locally rather than in Pisa. He describes a delicate conversation with his patron, the Duke of Nevers, who refuses to address Cosimo I with the title of Grand Duke of Tuscany until it is confirmed by Emperor Maximilian II. Cavriana explains the need to engage imperial support, praises Cosimo's influence, and requests Concino's mediation. A substantial post-script reports Huguenot unrest in Picardy and a precedence dispute between the Dukes of Nemours and Longueville linked to Madame di Ferrara's cession of Montargis and Breton estates.</note>
               <note type="catalogue" xml:lang="en">Includes a post scriptum note.</note>

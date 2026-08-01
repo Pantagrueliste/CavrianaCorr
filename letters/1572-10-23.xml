@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to the Grand Duke, 23 October 1572</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="304r" to="304v">fols. 304r-304v</locus>
               <title>Letter from Filippo Cavriana to the Grand Duke, 23 October 1572</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Formal letter to the Grand Duke regarding the commission as procurator general for the Order of Santo Stefano in France.</note>
             </msItem>

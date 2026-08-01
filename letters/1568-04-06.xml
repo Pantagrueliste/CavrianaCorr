@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
        <fileDesc>
            <titleStmt>
                <title>Letter from Filippo Cavriana to Duke of Mantua, 6 April 1568</title>
-               <author>Filippo Cavriana</author>
+               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                <editor>Clément Godbarge</editor>
                <respStmt>
                    <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
                        <msItem>
                            <locus from="286r" to="286v">fols. 286r-286v</locus>
                            <title>Letter from Filippo Cavriana to Guglielmo Gonzaga</title>
-                           <author>Filippo Cavriana</author>
+                           <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                            <textLang mainLang="it">Italian</textLang>
                            <note type="summary">Cavriana reports on the health condition of the Duke of Nevers and apologizes for not writing earlier about his accident.</note>
                        </msItem>

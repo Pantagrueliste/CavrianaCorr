@@ -4,7 +4,7 @@
        <fileDesc>
            <titleStmt>
                <title>Update on Nevers' condition - 7 September 1568</title>
-               <author>Filippo Cavriana</author>
+               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                <editor>Clément Godbarge</editor>
                <respStmt>
                    <resp>Transcription and encoding</resp>
@@ -30,7 +30,7 @@
                    <msContents>
                        <msItem>
                            <locus from="303r" to="303v">fols. 303r-303v</locus>
-                           <author>Filippo Cavriana</author>
+                           <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                            <textLang mainLang="it">Italian</textLang>
                            <note type="summary">A report to the Duke of Mantua on the Duke of Nevers' medical condition and treatment, discussing a leg injury and prospects for recovery.</note>
                        </msItem>

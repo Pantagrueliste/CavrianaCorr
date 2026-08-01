@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter discussing French political matters, 29 July 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="217r" to="217v">217r-217v</locus>
               <title>Letter discussing French political matters</title>
-              <author>Chi ella sà</author>
+              <author ref="#pers-cavriana-f">Chi ella sà</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">A report on French court politics discussing: peace negotiations with Catholic princes and the Admiral Coligny; Cardinal of Lorraine's opposition to peace and his illness in Paris; the upcoming marriage of the Duke of Guise to the Princess of Portiano; tensions between Montmorency and Nevers over the Piedmont situation; the sale of Saluzzo's domain for 30,000 gold ducats; Alfonso d'Este's diplomatic mission; and various court intrigues. The letter is likely to be written by Cavriana, who sometimes signs letters as "chi ella sà". It refers to its second false identity: Vincenzo da Castello.</note>
             </msItem>
@@ -89,7 +89,7 @@
         <closer>
           <dateline>Di <placeName ref="#place-saint-germain-en-laye">San Germano</placeName>, il di <date when="1570-07-29">29 Luglio 1570</date>.</dateline>
           <signed><unclear>di</unclear> V.S. <unclear>nova</unclear></signed>
-          <lb/>chi ella sa
+          <lb/><persName ref="#pers-cavriana-f">chi ella sa</persName>
           <lb/>che se le raccomanda
           <lb/>molto con le cose sue
         </closer>

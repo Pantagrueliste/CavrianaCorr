@@ -4,7 +4,7 @@
        <fileDesc>
            <titleStmt>
                <title>Letter from Filippo Cavriana to Bartolomeo Concino, 21 December 1569</title>
-               <author>Filippo Cavriana</author>
+               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                <editor>Clément Godbarge</editor>
                <respStmt>
                    <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
                        <msItem>
                            <locus from="57r" to="57v">57r-57v</locus>
                            <title>Letter from Filippo Cavriana</title>
-                           <author>Filippo Cavriana</author>
+                           <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                            <textLang mainLang="it">Italian</textLang>
                            <note type="summary">Cavriana cannot travel to Pisa due to the Duke of Nevers's illness. He is requesting dispensation regarding his investiture in the Order of Santo Stefano.</note>
                        </msItem>

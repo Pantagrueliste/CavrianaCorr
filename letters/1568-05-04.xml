@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Update on Nevers' condition - 4 May 1568</title>
-                <author>Filippo Cavriana</author>
+                <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -30,7 +30,7 @@
                     <msContents>
                         <msItem>
                             <locus from="290r" to="291r">fols. 290r-291r</locus>
-                            <author>Filippo Cavriana</author>
+                            <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">A detailed medical report from Cavriana as physician to Guglielmo Gonzaga, Duke of Mantua, describing the condition and treatment of Ludovico Gonzaga, Duke of Nevers.</note>
                         </msItem>

@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 14 September 1570</title>
-        <author>Filippo Cavriana</author>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
             <msItem>
               <locus from="2r" to="2r">2r</locus>
               <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
-              <author>Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Letter thanking Cosimo I for allowing Cavriana to join the Order of Santo Stefano and expressing his commitment to serve both the Duke and the Order.</note>
             </msItem>

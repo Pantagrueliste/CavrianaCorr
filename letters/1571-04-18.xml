@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Letter from Filippo Cavriana to Cosimo I de' Medici, 18 April 1571</title>
-                <author>Filippo Cavriana</author>
+                <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                 <editor>Clément Godbarge</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
@@ -31,7 +31,7 @@
                         <msItem>
                             <locus from="130r" to="130r">130r</locus>
                             <title>Letter from Filippo Cavriana to Cosimo I de' Medici</title>
-                            <author>Filippo Cavriana</author>
+                            <author ref="#pers-cavriana-f">Filippo Cavriana</author>
                             <textLang mainLang="it">Italian</textLang>
                             <note type="summary">Cavriana informs Cosimo I about Monsignor Salviati's return to Italy and offers his services.</note>
                         </msItem>
