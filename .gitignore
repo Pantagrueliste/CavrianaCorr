@@ -3,3 +3,7 @@
 .claude/
 docs/transcription-agenda.md
 __pycache__/
+
+# Local working caches of third-party sources (MAP/MIA lookups).
+# Never published: this is their data, not ours.
+.cache/
