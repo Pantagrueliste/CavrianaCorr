@@ -21,6 +21,7 @@
       <sourceDesc>
         <p>Authority file compiled from the correspondence of Filippo Cavriana.</p>
         <p><bibl xml:id="map-mia">Medici Archive Project, MIA (Medici Interactive Archive), https://mia.medici.org. Person identifiers and the dates marked @source="#map-mia" were verified against MAP's biographical records.</bibl></p>
+      <p><bibl xml:id="wikidata">Wikidata (https://www.wikidata.org) and Wikimedia Commons. Matches were anchored on VIAF where the file holds one, and otherwise accepted only where birth and death years corroborate. Portrait file names refer to Commons; the images are not copied here.</bibl></p>
       </sourceDesc>
     </fileDesc>
   <revisionDesc>
@@ -43,6 +44,8 @@
           <idno type="MAP">203</idno>
           <birth when="1519" source="#map-mia">1519</birth>
           <death when="1574" source="#map-mia">1574</death>
+          <idno type="WIKIDATA" source="#wikidata">Q48547</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg</idno>
         </person>
         <person xml:id="pers-medici-cat">
           <persName>Caterina de' Medici</persName>
@@ -54,6 +57,8 @@
           <idno type="MAP">348</idno>
           <birth when="1519" source="#map-mia">1519</birth>
           <death when="1589" source="#map-mia">1589</death>
+          <idno type="WIKIDATA" source="#wikidata">Q131552</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Catarina de' Medici Uffizi.jpg</idno>
         </person>
         <person xml:id="pers-medici-fer">
           <persName>Ferdinando de' Medici</persName>
@@ -72,6 +77,7 @@
           <idno type="MAP">2970</idno>
           <birth when="1527" source="#map-mia">1527</birth>
           <death when="1587" source="#map-mia">1587</death>
+          <idno type="WIKIDATA" source="#wikidata">Q1616509</idno>
         </person>
         <person xml:id="pers-deste-i">
           <persName>Ippolito d'Este</persName>
@@ -81,6 +87,8 @@
           <birth>1509-08-25</birth>
           <death>1572-12-01</death>
           <idno type="VIAF">74104371</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q554296</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ippolito II d'Este.jpg</idno>
         </person>
 
         <!-- Italian Noble Houses – Savoy -->
@@ -92,6 +100,8 @@
           <idno type="MAP">1245</idno>
           <birth when="1528" source="#map-mia">1528</birth>
           <death when="1580" source="#map-mia">1580</death>
+          <idno type="WIKIDATA" source="#wikidata">Q76508</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ritratto di Emanuele Filiberto di Savoia.jpg</idno>
         </person>
         <person xml:id="pers-savoie-h-susa">
           <persName>Honorat de Savoie</persName>
@@ -110,6 +120,8 @@
           <idno type="MAP">826</idno>
           <birth when="1538" source="#map-mia">1538</birth>
           <death when="1587" source="#map-mia">1587</death>
+          <idno type="WIKIDATA" source="#wikidata">Q935424</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Guglielmo I Gonzaga.jpg</idno>
         </person>
         <person xml:id="pers-gonzaga-isa">
           <persName>Isabella Gonzaga</persName>
@@ -119,6 +131,8 @@
           <idno type="MAP">2879</idno>
           <birth when="1537" source="#map-mia">1537</birth>
           <death when="1579" source="#map-mia">1579</death>
+          <idno type="WIKIDATA" source="#wikidata">Q3802268</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Isabel Gonzaga by Carderera.jpg</idno>
         </person>
         <person xml:id="pers-gonzaga-l-nev">
           <persName>Luigi Gonzaga</persName>
@@ -164,6 +178,8 @@
           <idno type="MAP">3433</idno>
           <birth when="1550" source="#map-mia">1550</birth>
           <death when="1574" source="#map-mia">1574</death>
+          <idno type="WIKIDATA" source="#wikidata">Q134309</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg</idno>
         </person>
         <person xml:id="pers-valois-h-3">
           <persName>Henri III</persName>
@@ -182,6 +198,8 @@
           <birth>1553-05-14</birth>
           <death>1615-03-27</death>
           <idno type="VIAF">78750412</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q220845</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Marguerite de Valois vers 1574.jpg</idno>
         </person>
         <person xml:id="pers-valois-f-alen">
           <persName>François de Valois</persName>
@@ -210,6 +228,8 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Montpensier</occupation>
           <idno type="VIAF">15202389</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q927365</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ludwik III de Montpensier.JPG</idno>
         </person>
 
         <!-- French Noble Houses – Lorraine -->
@@ -238,6 +258,8 @@
           <death>1608-05-14</death>
           <idno type="VIAF">59905716</idno>
           <idno type="MAP">608</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q505040</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Charles III, Duke of Lorraine, by studio of François Clouet.jpg</idno>
         </person>
         <person xml:id="pers-lorraine-h1">
           <persName>Henri de Lorraine</persName>
@@ -246,6 +268,8 @@
           <sex value="male"/>
           <occupation type="nobility">Duke of Guise</occupation>
           <idno type="VIAF">69048019</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q313700</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Guise.jpg</idno>
         </person>
 
 
@@ -272,6 +296,8 @@
           <idno type="MAP">18605</idno>
           <birth when="1530" source="#map-mia">1530</birth>
           <death when="1579" source="#map-mia">1579</death>
+          <idno type="WIKIDATA" source="#wikidata">Q580292</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Clouet-montmorencyfrançois.jpg</idno>
         </person>
         <person xml:id="pers-montmorency-charles">
           <persName>Charles de Montmorency</persName>
@@ -284,6 +310,8 @@
           <birth>1537-03-31</birth>
           <death>1612-05-05</death>
           <idno type="MAP">22740</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1066589</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Charles de Montmorency, duc de Damville by Massard.jpg</idno>
         </person>
         <person xml:id="pers-montmorency-g-thore">
           <persName>Guillaume de Montmorency-Thoré</persName>
@@ -304,6 +332,8 @@
           <sex value="male"/>
           <occupation type="military">Marshal of France, Governor of Languedoc</occupation>
           <idno type="VIAF">68977937</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1605895</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">François Clouet (cercle de) - Henri 1er, Duc de Montmorency, Seigneur de Damville.jpg</idno>
         </person>
 
         <!-- French Noble Houses – Other -->
@@ -314,6 +344,8 @@
           <birth>1535</birth>
           <death>1572</death>
           <idno type="VIAF">314802260</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1868249</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Charles-louis-de-teligny.jpg</idno>
         </person>
         <person xml:id="pers-gontaut-a">
           <persName>Armand de Gontaut</persName>
@@ -323,6 +355,8 @@
           <death>1592</death>
           <idno type="VIAF">44293531</idno>
           <idno type="MAP">17294</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q678012</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Armand de Gontaut, baron de Biron.jpg</idno>
         </person>
         <person xml:id="pers-france-c">
           <persName>Claude de France</persName>
@@ -331,6 +365,8 @@
           <birth>1547-11-12</birth>
           <death>1575-02-21</death>
           <idno type="VIAF">305115069</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q242336</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">FRANCOIS-CLOUET HERZOGIN-CLAUDIA-TOCHTER-HEINRICHS-II-VON-FRANKREICH CC-BY-SA BSTGS 1489.jpg</idno>
         </person>
         <person xml:id="pers-cleves-h">
           <persName>Henriette de Clèves</persName>
@@ -340,6 +376,8 @@
           <birth>1542-10-31</birth>
           <death>1601-06-24</death>
           <idno type="VIAF">4552150203822803250006</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q289646</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Henriette de Nevers.jpg</idno>
         </person>
 
         <person xml:id="pers-delamarck-d">
@@ -349,6 +387,8 @@
           <occupation type="nobility">Duchess of Tonnerre</occupation>
           <birth>1544-06-16</birth>
           <death>1622</death>
+          <idno type="WIKIDATA" source="#wikidata">Q21294643</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Diane de La Marck.jpg</idno>
         </person>
         <person xml:id="pers-joyeuse-a">
           <persName>Anne de Joyeuse</persName>
@@ -360,6 +400,8 @@
           <idno type="MAP">17269</idno>
           <birth when="1560" source="#map-mia">1560</birth>
           <death when="1587" source="#map-mia">1587</death>
+          <idno type="WIKIDATA" source="#wikidata">Q565927</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Annejoyeuse.jpg</idno>
         </person>
         <person xml:id="pers-savoie-j-nem">
           <persName>Jacques de Savoie</persName>
@@ -370,6 +412,8 @@
           <idno type="MAP">17254</idno>
           <birth when="1531" source="#map-mia">1531</birth>
           <death when="1585" source="#map-mia">1585</death>
+          <idno type="WIKIDATA" source="#wikidata">Q2579854</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Jacques de Savoie duc de Nemours - François Clouet.jpg</idno>
         </person>
         <person xml:id="pers-savoie-h-ten">
           <persName>Honorat de Savoie</persName>
@@ -393,6 +437,8 @@
           <birth>1507</birth>
           <death>1573-03-13</death>
           <idno type="VIAF">100198491</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q551804</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Michel-Hospital.jpg</idno>
         </person>
 
         <person xml:id="pers-orleans-l">
@@ -410,6 +456,8 @@
           <sex value="male"/>
           <occupation type="military">Marshal of France</occupation>
           <idno type="VIAF">7394560</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q378025</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Blaise-monluc.jpg</idno>
         </person>
         <person xml:id="pers-cosse-renee">
           <persName>Renée de Cossé-Brissac</persName>
@@ -432,6 +480,8 @@
           <death>1602-04-12</death>
           <idno type="VIAF">89654338</idno>
           <idno type="MAP">10642</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1968726</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Albert-de-Gondi.jpg</idno>
         </person>
 
         <!-- French Nobles – La Môle -->
@@ -443,6 +493,7 @@
           <occupation type="nobility">Provençal gentleman, favourite of the Duke of Alençon</occupation>
           <death>1574-04-30</death>
           <note>Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.</note>
+          <idno type="WIKIDATA" source="#wikidata">Q1924885</idno>
         </person>
 
         <!-- Habsburg -->
@@ -453,6 +504,8 @@
           <birth>1554-06-05</birth>
           <death>1592-01-22</death>
           <idno type="VIAF">97794481</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q164512</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">François Clouet - Elisabeth of Austria (ca. 1571) - Google Art Project.jpg</idno>
         </person>
         <person xml:id="pers-habsburg-f">
           <persName>Philippe</persName>
@@ -461,6 +514,8 @@
           <birth>1527-05-21</birth>
           <death>1598-09-13</death>
           <idno type="VIAF">88973996</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q34417</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg</idno>
         </person>
         <person xml:id="pers-habsburg-m">
           <persName>Maxmilian II</persName>
@@ -471,6 +526,8 @@
           <death>1576-10-12</death>
           <idno type="VIAF">27863609</idno>
           <idno type="MAP">874</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q150862</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Nicolas Neufchâtel 002.jpg</idno>
         </person>
         <person xml:id="pers-habsburg-j">
           <persName>Juan de Austria</persName>
@@ -519,6 +576,8 @@
           <death>1573-06-19</death>
           <occupation type="military">Marshal of France</occupation>
           <idno type="VIAF">2578946</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q563042</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Gaspard-Saulx.jpg</idno>
         </person>
         <person xml:id="pers-orsini-t">
           <persName>Troilo Orsini</persName>
@@ -529,6 +588,7 @@
           <occupation type="military">condottiere</occupation>
           <occupation type="diplomat">ambassador</occupation>
           <idno type="MAP">1986</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q18421538</idno>
         </person>
         <person xml:id="pers-nassau-w">
           <persName>Willem van Oranje</persName>
@@ -553,6 +613,8 @@
           <idno type="MAP">21253</idno>
           <birth when="1529" source="#map-mia">1529</birth>
           <death when="1607" source="#map-mia">1607</death>
+          <idno type="WIKIDATA" source="#wikidata">Q3396109</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Desnos (née Robin) - Pomponne de Bellièvre, Chancelier de France (1529-1607).jpg</idno>
         </person>
 
         <!-- Prelates -->
@@ -564,6 +626,8 @@
           <birth>1530</birth>
           <death>1591</death>
           <idno type="VIAF">51712390</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3047736</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Edmond Auger.jpg</idno>
         </person>
         <person xml:id="pers-vigor-s">
           <persName>Simon Vigor</persName>
@@ -573,6 +637,7 @@
           <death>1575</death>
           <idno type="VIAF">39246854</idno>
           <idno type="MAP">21396</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3484471</idno>
         </person>
         <person xml:id="pers-sorbin-a">
           <persName>Arnauld Sorbin</persName>
@@ -581,6 +646,7 @@
           <birth>1532-07-14</birth>
           <death>1606-05-01</death>
           <idno type="VIAF">2526805</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q2863220</idno>
         </person>
 
         <person xml:id="pers-salviati-a">
@@ -633,6 +699,7 @@
           <idno type="MAP">133</idno>
           <birth when="1537" source="#map-mia">1537</birth>
           <death when="1591" source="#map-mia">1591</death>
+          <idno type="WIKIDATA" source="#wikidata">Q114909631</idno>
         </person>
 
         <!-- Royal Household -->
@@ -648,6 +715,8 @@
           <idno type="MAP">1703</idno>
           <birth when="1533" source="#map-mia">1533</birth>
           <death when="1603" source="#map-mia">1603</death>
+          <idno type="WIKIDATA" source="#wikidata">Q7207</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Elizabeth1England.jpg</idno>
         </person>
         <person xml:id="pers-este-r">
           <persName>Renée de France</persName>
@@ -657,6 +726,8 @@
           <occupation type="nobility">Duchess of Ferrara</occupation>
           <idno type="VIAF">47560739</idno>
           <note>Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara</note>
+          <idno type="WIKIDATA" source="#wikidata">Q235841</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Renee de france.jpg</idno>
         </person>
 
         <!-- German Princes -->
@@ -673,7 +744,7 @@
           <persName type="alias">Duca di Duponte</persName>
           <sex value="male"/>
           <occupation type="nobility">Count Palatine</occupation>
-          </person>
+        </person>
         <person xml:id="pers-sachsen-aug">
           <persName>August von Sachsen</persName>
           <persName type="sort">Sachsen, August von</persName>
@@ -698,6 +769,8 @@
           <birth>1524-05-28</birth>
           <death>1574-12-15</death>
           <idno type="VIAF">44058182</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q161872</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait of Selim II by Nakkaş Osman, Şemâ'ilnâme, 1579, Istanbul, Topkapı Sarayı Müzesi, Н. 1563.jpg</idno>
         </person>
 
         <!-- Eastern European -->
@@ -710,6 +783,8 @@
           <birth>1530-08-25</birth>
           <death>1584-03-18</death>
           <idno type="VIAF">89633898</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q7996</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ivan grozny frame.jpg</idno>
         </person>
         <person xml:id="pers-zygmunt-z">
           <persName>Zygmunt II</persName>
@@ -719,6 +794,8 @@
           <birth>1520-08-01</birth>
           <death>1572-07-07</death>
           <idno type="VIAF">804948</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q54058</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Cranach the Younger Sigismund II Augustus.jpg</idno>
         </person>
 
 
@@ -800,6 +877,8 @@
           <birth>1547-01-24</birth>
           <death>1578-04-11</death>
           <idno type="VIAF">43563321</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q84459</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Alessandro Allori 033.jpg</idno>
         </person>
 
         <!-- French Noble Houses – Bourbon (continued) -->
@@ -813,6 +892,8 @@
           <birth>1552-12-29</birth>
           <death>1588-03-05</death>
           <idno type="VIAF">66475488</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q430973</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Conde-henri.jpg</idno>
         </person>
         <person xml:id="pers-albret-j">
           <persName>Jeanne d'Albret</persName>
@@ -823,6 +904,8 @@
           <birth>1528-11-16</birth>
           <death>1572-06-09</death>
           <idno type="VIAF">88872517</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q229286</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Jeanne-albret-navarre.jpg</idno>
         </person>
 
         <!-- Italian Noble Houses – Farnese -->
@@ -834,6 +917,8 @@
           <birth>1520-10-07</birth>
           <death>1589-03-02</death>
           <idno type="VIAF">23504937</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q248459</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait of Cardinal Alessandro Farnese (by Titian)FXD.jpg</idno>
         </person>
 
         <!-- Italian Noble Houses – Strozzi -->
@@ -846,6 +931,8 @@
           <birth>1541</birth>
           <death>1582</death>
           <idno type="MAP">19123</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1414020</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Strozzi-philippe.jpg</idno>
         </person>
 
         <!-- Spanish Diplomats -->
@@ -868,6 +955,8 @@
           <birth>1498</birth>
           <death>1578</death>
           <idno type="VIAF">4997694</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q2853927</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Antoine des Escalins des Aimars, baron de La Garde.jpg</idno>
         </person>
         <person xml:id="pers-toledo-f">
           <persName>Fernando Álvarez de Toledo</persName>
@@ -879,6 +968,8 @@
           <birth>1507-10-29</birth>
           <death>1582-12-11</death>
           <idno type="VIAF">20476873</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q80847</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Fernando Álvarez de Toledo, III Duque de Alba, retratado por Antonio Moro.jpg</idno>
         </person>
 
         <!-- English Diplomats -->
@@ -892,6 +983,8 @@
           <death>1590-04-06</death>
           <idno type="VIAF">69738466</idno>
           <idno type="MAP">19164</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q138409</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Sir Francis Walsingham by John De Critz the Elder.jpg</idno>
         </person>
 
         <!-- French Diplomats -->
@@ -904,6 +997,8 @@
           <birth>1520</birth>
           <death>1592</death>
           <idno type="VIAF">7396729</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q599082</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Jaspar Isaac - Michel de Castelnau Mauvissière - 11-511165.jpg</idno>
         </person>
 
         <!-- Prelates (continued) -->
@@ -917,6 +1012,8 @@
           <death>1583-01-05</death>
           <idno type="VIAF">44310930</idno>
           <idno type="MAP">20786</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q352804</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Maldonatus.jpg</idno>
         </person>
         <person xml:id="pers-rosieres">
           <persName>Rosières</persName>
@@ -933,6 +1030,7 @@
           <birth>1532</birth>
           <death>1581-05-16</death>
           <idno type="MAP">15452</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1135565</idno>
         </person>
 
         <!-- Imperial Officials -->
@@ -953,6 +1051,7 @@
           <note>Entity needs research and completion</note>
           <idno type="MAP">34608</idno>
           <death when="1589" source="#map-mia">1589</death>
+          <idno type="WIKIDATA" source="#wikidata">Q3629838</idno>
         </person>
         <person xml:id="pers-michiel-g">
           <persName>Giovanni Michiel</persName>
@@ -963,6 +1062,7 @@
           <idno type="MAP">23349</idno>
           <birth when="1516" source="#map-mia">1516</birth>
           <death when="1596" source="#map-mia">1596</death>
+          <idno type="WIKIDATA" source="#wikidata">Q110269977</idno>
         </person>
         <person xml:id="pers-bourbon-conde">
           <persName>Louis I de Bourbon, Prince of Condé</persName>
@@ -1030,6 +1130,8 @@
           <death>1624-07-31</death>
           <idno type="VIAF">37071898</idno>
           <idno type="MAP">3234</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q704178</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Henri II Lorraine.jpg</idno>
         </person>
         <person xml:id="pers-anjou-mezieres-r">
           <persName>Renée d'Anjou-Mézières</persName>
@@ -1048,6 +1150,8 @@
           <idno type="MAP">16017</idno>
           <birth when="1554" source="#map-mia">1554</birth>
           <death when="1642" source="#map-mia">1642</death>
+          <idno type="WIKIDATA" source="#wikidata">Q667104</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Jean Louis de Nogaret de La Valette.jpg</idno>
         </person>
         <person xml:id="pers-charite-h">
           <persName>Hugues de La Charité</persName>
@@ -1076,6 +1180,8 @@
           <birth>1533-09-15</birth>
           <death>1572-02-28</death>
           <idno type="VIAF">81319677</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q237737</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Tiziano Vecellio - Bildnis der Erzherzogin Katharina von Österreich.jpg</idno>
         </person>
 
       </listPerson>

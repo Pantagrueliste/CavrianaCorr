@@ -41,8 +41,8 @@ def build_persons() -> dict:
         aliases = [text(n) for n in names if n.get("type") == "alias"]
         sort_form = next((text(n) for n in names if n.get("type") == "sort"), "")
         occ = p.find("tei:occupation", NS)
-        viaf = next((text(i) for i in p.xpath("./tei:idno", namespaces=NS)
-                     if i.get("type") == "VIAF"), "")
+        idnos = {i.get("type"): text(i) for i in p.xpath("./tei:idno", namespaces=NS)}
+        viaf = idnos.get("VIAF", "")
         out[pid] = {
             "kind": "person",
             "name": text(primary) if primary is not None else pid,
@@ -55,6 +55,10 @@ def build_persons() -> dict:
             "death": text(p.find("tei:death", NS)),
             "note": text(p.find("tei:note", NS)),
             "viaf": viaf.strip(),
+            "map": idnos.get("MAP", ""),
+            "wikidata": idnos.get("WIKIDATA", ""),
+            # Commons file name; the image itself stays on Commons.
+            "image": idnos.get("WIKIMEDIA_IMAGE", ""),
         }
     return out
 
