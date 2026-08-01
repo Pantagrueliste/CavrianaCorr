@@ -34,7 +34,10 @@
     <xsl:variable name="rawOutput">
       <xsl:apply-templates select="tei:TEI"/>
     </xsl:variable>
-    <xsl:value-of select="replace($rawOutput, '[ \t\r\n]+([,;\.])', '$1')"/>
+    <!-- Drop the space a <choice> leaves before punctuation. Only spaces and
+         tabs: swallowing newlines would pull punctuation onto the line of a
+         closing block tag, which MDX rejects. -->
+    <xsl:value-of select="replace($rawOutput, '[ \t]+([,;\.])', '$1')"/>
   </xsl:template>
 
   <!-- 2) Process root <TEI> to output front matter, then apply templates to the text. -->
@@ -89,6 +92,10 @@
     <xsl:text>archiveRef: "</xsl:text>
     <xsl:value-of select="$archiveRef"/>
     <xsl:text>"&#10;</xsl:text>
+
+    <xsl:if test="tei:text//tei:seg[@type='cipher']">
+      <xsl:text>hasCipher: true&#10;</xsl:text>
+    </xsl:if>
 
     <xsl:text>---&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
@@ -145,9 +152,15 @@
     <xsl:value-of select="$archiveRef"/>
     <xsl:text> |&#10;</xsl:text>
 
-    <xsl:if test="normalize-space($summary) != ''">
-      <xsl:text>| **Summary** | </xsl:text>
-      <xsl:value-of select="cav:mdx(normalize-space($summary))"/>
+    <!-- Scribal hands. Eight letters are written in more than one hand, and
+         several are copies or use a disguised hand — worth stating up front
+         in an espionage correspondence. -->
+    <xsl:variable name="hands" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote"/>
+    <xsl:if test="$hands[normalize-space(.) != '']">
+      <xsl:text>| **</xsl:text>
+      <xsl:value-of select="if (count($hands) > 1) then 'Hands' else 'Hand'"/>
+      <xsl:text>** | </xsl:text>
+      <xsl:value-of select="cav:mdx(string-join($hands[normalize-space(.) != '']/normalize-space(.), '; '))"/>
       <xsl:text> |&#10;</xsl:text>
     </xsl:if>
 
@@ -165,14 +178,32 @@
     <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
 
-    <!-- Beta disclaimer -->
-    <xsl:text disable-output-escaping="yes">&lt;div class="beta-notice"&gt;&#10;</xsl:text>
-    <xsl:text>&#10;</xsl:text>
-    <xsl:text>:::caution[Editorial notice]&#10;</xsl:text>
-    <xsl:text>This is a staged edition. The first stage (1566–1574) is not yet complete.&#10;</xsl:text>
-    <xsl:text>:::&#10;</xsl:text>
-    <xsl:text>&#10;</xsl:text>
-    <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;</xsl:text>
+    <!-- The scholarly abstract, as prose. It averages 313 characters and runs
+         to nearly 2,000, which a two-column table cell cannot carry. Emitted
+         through the templates so the people and places it names are linked
+         like those in the transcription. -->
+    <xsl:if test="$summary[normalize-space(.) != '']">
+      <xsl:text disable-output-escaping="yes">&lt;div class="letter-summary"&gt;&#10;&#10;</xsl:text>
+      <xsl:apply-templates select="$summary/node()"/>
+      <xsl:text>&#10;&#10;</xsl:text>
+      <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;&#10;</xsl:text>
+    </xsl:if>
+
+    <!-- Cipher apparatus summary, on the letters that carry cipher. -->
+    <xsl:variable name="ciphers" select="tei:text//tei:seg[@type='cipher']"/>
+    <xsl:if test="$ciphers">
+      <xsl:variable name="solved"
+        select="count($ciphers[@xml:id and //tei:add[@type='decipher'][substring-after(@corresp,'#') = current()//tei:seg/@xml:id]])"/>
+      <xsl:value-of disable-output-escaping="yes"
+        select="concat('&lt;CipherNote total=&quot;', count($ciphers),
+                       '&quot; solved=&quot;',
+                       count(tei:text//tei:add[@type='decipher']) + count(tei:text//tei:supplied[@reason='deciphered']),
+                       '&quot;/&gt;&#10;&#10;')"/>
+    </xsl:if>
+
+    <!-- Editorial statement. Set as a colophon rather than an alert: this is
+         a standing statement about the edition's progress, not a warning. -->
+    <xsl:text disable-output-escaping="yes">&lt;p class="editorial-notice"&gt;&lt;span&gt;Editorial notice&lt;/span&gt;This is a staged edition; the first stage (1566–1574) is not yet complete.&lt;/p&gt;&#10;</xsl:text>
     <xsl:text>&#10;</xsl:text>
 
     <!-- Now apply templates to the text body -->
@@ -193,6 +224,14 @@
 
   <!-- 5) Line breaks: preserve original line breaks.
        break="no" means the word is split across lines, so add a hyphen. -->
+  <!-- A line break inside an inline wrapper must not start a new output line:
+       MDX would read the <br/> as an HTML block and leave the wrapper open. -->
+  <xsl:template match="tei:lb[ancestor::tei:persName | ancestor::tei:placeName]" priority="2">
+    <xsl:if test="@break = 'no'">
+      <xsl:text>-</xsl:text>
+    </xsl:if>
+    <xsl:text disable-output-escaping="yes">&lt;br/&gt;</xsl:text>
+  </xsl:template>
   <xsl:template match="tei:lb[@break='no']">
     <xsl:text disable-output-escaping="yes">-&lt;br/&gt;&#10;</xsl:text>
   </xsl:template>
@@ -200,22 +239,68 @@
     <xsl:text disable-output-escaping="yes">&lt;br/&gt;&#10;</xsl:text>
   </xsl:template>
 
-  <!-- 6) Paragraph-like elements -->
-  <xsl:template match="tei:p | tei:opener | tei:closer | tei:postscript">
+  <!-- 6) Paragraph-like elements. The opener, closer and postscript are the
+       formal architecture of a diplomatic letter, so they are wrapped rather
+       than run together with the body. -->
+  <xsl:template match="tei:p">
     <xsl:apply-templates/>
     <xsl:text>&#10;&#10;</xsl:text>
   </xsl:template>
 
-  <!-- 7) persName/placeName: process children so that nested <choice>
-       elements resolve to a single alternative instead of the raw string
-       value (which would concatenate abbr and expan). -->
+  <!-- Block wrappers. These must be separated from their content by blank
+       lines: the transcription is full of <br/> at the start of a line, which
+       MDX reads as an HTML block, and an inline wrapper spanning such a line
+       would be left unclosed. -->
+  <xsl:template match="tei:opener | tei:closer | tei:postscript">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&#10;&#10;&lt;div class=&quot;letter-', local-name(), '&quot;&gt;&#10;&#10;')"/>
+    <xsl:apply-templates/>
+    <xsl:text>&#10;&#10;</xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;&#10;</xsl:text>
+  </xsl:template>
+
+  <!-- 6b) Parts of the epistolary frame: the date and place of writing, the
+       salutation, the subscription, and the address. None of these had a
+       template, so they ran together as undifferentiated prose. -->
+  <xsl:template match="tei:dateline | tei:salute | tei:signed | tei:address">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&#10;&#10;&lt;div class=&quot;', local-name(), '&quot;&gt;&#10;&#10;')"/>
+    <xsl:apply-templates/>
+    <xsl:text>&#10;&#10;</xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;/div&gt;&#10;&#10;</xsl:text>
+  </xsl:template>
+
+  <!-- 7) persName/placeName. Names carrying a resolvable @ref become <Ent>,
+       a component that looks the record up in the authority dataset and
+       links to the index. Names without one are processed for their
+       children, so that a nested <choice> still resolves to one reading
+       rather than concatenating abbr and expan. -->
+  <xsl:template match="tei:persName[@ref][@ref != '#'] | tei:placeName[@ref][@ref != '#']">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&lt;Ent k=&quot;',
+                     if (self::tei:persName) then 'p' else 'l',
+                     '&quot; id=&quot;', cav:attr(substring-after(@ref, '#')), '&quot;&gt;')"/>
+    <xsl:apply-templates/>
+    <xsl:text disable-output-escaping="yes">&lt;/Ent&gt;</xsl:text>
+  </xsl:template>
+
   <xsl:template match="tei:persName | tei:placeName">
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- 8) <choice>: prefer the editorial alternative — expan for
-       abbreviations, corr for corrected errors, reg for regularisations;
-       fall back to the first child. -->
+  <!-- 8) <choice>: emit BOTH readings so the site can offer a diplomatic
+       view. The expansion is shown by default and the manuscript's own
+       abbreviation is revealed by the reader's view setting; only one of
+       the two is ever displayed, so copied text stays clean.
+       sic/corr and orig/reg keep the editorial reading only. -->
+  <xsl:template match="tei:choice[tei:abbr][tei:expan]">
+    <xsl:text disable-output-escaping="yes">&lt;span class="expan"&gt;</xsl:text>
+    <xsl:apply-templates select="tei:expan"/>
+    <xsl:text disable-output-escaping="yes">&lt;/span&gt;&lt;span class="abbr"&gt;</xsl:text>
+    <xsl:apply-templates select="tei:abbr"/>
+    <xsl:text disable-output-escaping="yes">&lt;/span&gt; </xsl:text>
+  </xsl:template>
+
   <xsl:template match="tei:choice">
     <xsl:apply-templates select="(tei:expan, tei:corr, tei:reg, *[1])[1]"/>
     <xsl:text> </xsl:text>

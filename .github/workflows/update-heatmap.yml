@@ -36,6 +36,8 @@ jobs:
     # generate_custom_heatmap.py expects repo-root, writes to generated/
     - name: Generate CustomHeatmap.jsx
       run: python scripts/generate_custom_heatmap.py
+    - name: Build authority dataset (entity links, people/places indexes)
+      run: python scripts/build_authorities.py
     # ── 2  Front-end: check out site repo ─────────────────────────
     - uses: actions/checkout@v4
       with:
@@ -44,11 +46,13 @@ jobs:
         token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
     - name: Copy component and stylesheet into front-end repo
       run: |
-        mkdir -p CavrianaCorr_FrontEnd/src/components CavrianaCorr_FrontEnd/src/css
+        mkdir -p CavrianaCorr_FrontEnd/src/components CavrianaCorr_FrontEnd/src/css CavrianaCorr_FrontEnd/src/data
         cp generated/CustomHeatmap.jsx \
            CavrianaCorr_FrontEnd/src/components/
         cp assets/cavriana-heatmap-custom.css \
            CavrianaCorr_FrontEnd/src/css/
+        cp generated/authorities.json \
+           CavrianaCorr_FrontEnd/src/data/
     # ── 3  Smoke-build the Docusaurus site ───────────────────────
     - uses: actions/setup-node@v4
       with:
@@ -66,9 +70,9 @@ jobs:
       run: |
         git config user.name  "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add src/components/CustomHeatmap.jsx src/css/cavriana-heatmap-custom.css
+        git add src/components/CustomHeatmap.jsx src/css/cavriana-heatmap-custom.css src/data/authorities.json
         if ! git diff --cached --quiet; then
-          git commit -m "Auto-update Cavriana heat-map"
+          git commit -m "Auto-update heat-map and authority data"
           git stash --include-untracked
           for i in 1 2 3; do
             git pull --rebase origin main && \

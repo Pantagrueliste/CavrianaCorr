@@ -1,0 +1,6501 @@
+{
+ "dates": {
+  "1568-04-06": "1568-04-06",
+  "1568-04-28": "1568-04-28",
+  "1568-05-04": "1568-05-04",
+  "1568-05-05": "1568-05-05",
+  "1568-05-28": "1568-05-28",
+  "1568-06-09": "1568-06-09",
+  "1568-07-03": "1568-07-03",
+  "1568-07-24": "1568-07-24",
+  "1568-09-07": "1568-09-07",
+  "1569-01-03": "1569-01-03",
+  "1569-11-29": "1569-11-29",
+  "1569-12-21": "1569-12-21",
+  "1570-03-20": "1570-03-20",
+  "1570-05-20": "1570-05-20",
+  "1570-07-15": "1570-07-15",
+  "1570-07-29": "1570-07-29",
+  "1570-07-29-b": "1570-07-29",
+  "1570-08-17": "1570-08-17",
+  "1570-09-01": "1570-09-01",
+  "1570-09-11": "1570-09-11",
+  "1570-09-14": "1570-09-14",
+  "1570-10-03": "1570-10-03",
+  "1570-10-13": "1570-10-13",
+  "1570-11-02": "1570-11-02",
+  "1570-11-02-b": "1570-11-02",
+  "1570-11-04": "1570-11-04",
+  "1570-11-09": "1570-11-09",
+  "1571-01-12": "1571-01-12",
+  "1571-01-14": "1571-01-14",
+  "1571-01-26": "1571-01-26",
+  "1571-02-06": "1571-02-06",
+  "1571-03-31": "1571-03-31",
+  "1571-04-18": "1571-04-18",
+  "1571-04-19": "1571-04-19",
+  "1571-06-27": "1571-06-27",
+  "1571-07-07": "1571-07-07",
+  "1571-07-15": "1571-07-15",
+  "1571-08-14": "1571-08-14",
+  "1572-02-06": "1572-02-06",
+  "1572-02-12": "1572-02-12",
+  "1572-03-08": "1572-03-08",
+  "1572-03-19": "1572-03-19",
+  "1572-04-22": "1572-04-22",
+  "1572-05-12": "1572-05-12",
+  "1572-05-28": "1572-05-28",
+  "1572-07-12": "1572-07-12",
+  "1572-07-19": "1572-07-19",
+  "1572-08-04": "1572-08-04",
+  "1572-08-31": "1572-08-31",
+  "1572-10-23": "1572-10-23",
+  "1572-11-04": "1572-11-04",
+  "1572-11-20": "1572-11-20",
+  "1572-11-21": "1572-11-21",
+  "1572-11-27": "1572-11-27",
+  "1572-12-01": "1572-12-01",
+  "1572-12-07": "1572-12-07",
+  "1574-03-06": "1574-03-06"
+ },
+ "entities": {
+  "pers-alamanni-v": {
+   "aliases": [
+    "Alamanni"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 2,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    }
+   ],
+   "name": "Vincenzo Alamanni",
+   "note": "Diplomat and intermediary",
+   "role": "",
+   "roleType": "",
+   "total": 3,
+   "viaf": ""
+  },
+  "pers-alberto": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    }
+   ],
+   "name": "Alberto",
+   "note": "",
+   "role": "Secretary",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-albret-j": {
+   "aliases": [
+    "Reina di Navarra"
+   ],
+   "birth": "1528-11-16",
+   "death": "1572-06-09",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Jeanne d'Albret",
+   "note": "",
+   "role": "Queen of Navarre",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": "88872517"
+  },
+  "pers-anjou-mezieres-r": {
+   "aliases": [],
+   "birth": "1550-10-21",
+   "death": "1586",
+   "kind": "person",
+   "letters": [],
+   "name": "Renée d'Anjou‑Mézières",
+   "note": "",
+   "role": "Duchess of Montpensier",
+   "roleType": "nobility",
+   "total": 0,
+   "viaf": ""
+  },
+  "pers-auger-ed": {
+   "aliases": [],
+   "birth": "1530",
+   "death": "1591",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "name": "Émond Auger",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 2,
+   "viaf": "51712390"
+  },
+  "pers-bellievre-p": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Pomponne de Bellièvre",
+   "note": "",
+   "role": "Royal councillor and diplomat",
+   "roleType": "",
+   "total": 1,
+   "viaf": "34561686"
+  },
+  "pers-birague-c": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    }
+   ],
+   "name": "Charles de Birague",
+   "note": "",
+   "role": "Chevalier de St Michel",
+   "roleType": "nobility",
+   "total": 4,
+   "viaf": ""
+  },
+  "pers-bobba-t": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-09-14",
+     "n": 1,
+     "slug": "1570-09-14"
+    }
+   ],
+   "name": "Traiano di Fabrizio Bobba",
+   "note": "",
+   "role": "Cavaliere dell'Ordine di Santo Stefano",
+   "roleType": "chivalricOrder",
+   "total": 2,
+   "viaf": ""
+  },
+  "pers-bourbon-conde": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "name": "Louis I de Bourbon, Prince of Condé",
+   "note": "Entity needs research and completion",
+   "role": "Prince of Condé",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-bourbon-conde-h": {
+   "aliases": [
+    "Principe di Condé",
+    "Condè"
+   ],
+   "birth": "1552-12-29",
+   "death": "1588-03-05",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 2,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Henri I de Bourbon",
+   "note": "",
+   "role": "Prince of Condé",
+   "roleType": "nobility",
+   "total": 3,
+   "viaf": "66475488"
+  },
+  "pers-bourbon-h-nav": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 2,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 2,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Henri de Bourbon",
+   "note": "Future Henri IV of France",
+   "role": "King of Navarre",
+   "roleType": "nobility",
+   "total": 12,
+   "viaf": "266965539"
+  },
+  "pers-bourbonvendome-l3": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Louis III de Bourbon‑Vendôme",
+   "note": "",
+   "role": "Duke of Montpensier",
+   "roleType": "nobility",
+   "total": 2,
+   "viaf": "15202389"
+  },
+  "pers-briquemault-f": {
+   "aliases": [
+    "Brichmod"
+   ],
+   "birth": "c. 1502",
+   "death": "1572",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "François de Beauvais",
+   "note": "French noble and military figure",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-caan": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Caan",
+   "note": "Sent by Maximilian II to congratulate the Queen of France on her childbirth, December 1572",
+   "role": "Imperial Grand Equerry (cavallerizo maggiore)",
+   "roleType": "diplomat",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-castellan-h": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1568-04-28",
+     "n": 1,
+     "slug": "1568-04-28"
+    }
+   ],
+   "name": "Honoré Castellan",
+   "note": "",
+   "role": "Premier médecin to Catherine de' Medici",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-cavriana-f": {
+   "aliases": [
+    "Vincenzo da Castello",
+    "Chi ella sà"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1568-04-06",
+     "n": 1,
+     "slug": "1568-04-06"
+    },
+    {
+     "date": "1568-04-28",
+     "n": 1,
+     "slug": "1568-04-28"
+    },
+    {
+     "date": "1568-05-04",
+     "n": 1,
+     "slug": "1568-05-04"
+    },
+    {
+     "date": "1568-05-05",
+     "n": 1,
+     "slug": "1568-05-05"
+    },
+    {
+     "date": "1568-05-28",
+     "n": 1,
+     "slug": "1568-05-28"
+    },
+    {
+     "date": "1568-06-09",
+     "n": 1,
+     "slug": "1568-06-09"
+    },
+    {
+     "date": "1568-07-03",
+     "n": 1,
+     "slug": "1568-07-03"
+    },
+    {
+     "date": "1568-07-24",
+     "n": 1,
+     "slug": "1568-07-24"
+    },
+    {
+     "date": "1568-09-07",
+     "n": 1,
+     "slug": "1568-09-07"
+    },
+    {
+     "date": "1569-12-21",
+     "n": 1,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1570-03-20",
+     "n": 1,
+     "slug": "1570-03-20"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 3,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-09-14",
+     "n": 1,
+     "slug": "1570-09-14"
+    },
+    {
+     "date": "1570-10-03",
+     "n": 1,
+     "slug": "1570-10-03"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02-b"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1570-11-09",
+     "n": 1,
+     "slug": "1570-11-09"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-18",
+     "n": 1,
+     "slug": "1571-04-18"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1571-06-27",
+     "n": 1,
+     "slug": "1571-06-27"
+    },
+    {
+     "date": "1571-07-07",
+     "n": 1,
+     "slug": "1571-07-07"
+    },
+    {
+     "date": "1571-07-15",
+     "n": 1,
+     "slug": "1571-07-15"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-02-12",
+     "n": 1,
+     "slug": "1572-02-12"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-03-19",
+     "n": 1,
+     "slug": "1572-03-19"
+    },
+    {
+     "date": "1572-04-22",
+     "n": 1,
+     "slug": "1572-04-22"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-07-12",
+     "n": 1,
+     "slug": "1572-07-12"
+    },
+    {
+     "date": "1572-07-19",
+     "n": 1,
+     "slug": "1572-07-19"
+    },
+    {
+     "date": "1572-08-31",
+     "n": 1,
+     "slug": "1572-08-31"
+    },
+    {
+     "date": "1572-10-23",
+     "n": 1,
+     "slug": "1572-10-23"
+    },
+    {
+     "date": "1572-11-04",
+     "n": 1,
+     "slug": "1572-11-04"
+    },
+    {
+     "date": "1572-11-20",
+     "n": 1,
+     "slug": "1572-11-20"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-11-27",
+     "n": 1,
+     "slug": "1572-11-27"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Filippo Cavriana",
+   "note": "",
+   "role": "Physician and diplomat",
+   "roleType": "",
+   "total": 51,
+   "viaf": ""
+  },
+  "pers-charite-h": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Hugues de La Charité",
+   "note": "",
+   "role": "Franciscan Friar",
+   "roleType": "ecclesiastic",
+   "total": 0,
+   "viaf": ""
+  },
+  "pers-cleves-h": {
+   "aliases": [],
+   "birth": "1542-10-31",
+   "death": "1601-06-24",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    }
+   ],
+   "name": "Henriette de Clèves",
+   "note": "",
+   "role": "Duchess of Nevers",
+   "roleType": "nobility",
+   "total": 4,
+   "viaf": "4552150203822803250006"
+  },
+  "pers-coligny-g": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 2,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 3,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 5,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 2,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 3,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 2,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Gaspard de Coligny",
+   "note": "",
+   "role": "Admiral of France",
+   "roleType": "military",
+   "total": 25,
+   "viaf": "79105346"
+  },
+  "pers-concini-b": {
+   "aliases": [
+    "Bartolomeo Concini",
+    "Concinno"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 3,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02-b"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    }
+   ],
+   "name": "Bartolomeo Concino di Conti della Penna",
+   "note": "",
+   "role": "First Secretary of Cosimo I de' Medici",
+   "roleType": "",
+   "total": 7,
+   "viaf": ""
+  },
+  "pers-corso-a": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Alfonso Corso",
+   "note": "",
+   "role": "Military commander",
+   "roleType": "",
+   "total": 2,
+   "viaf": ""
+  },
+  "pers-cosse-renee": {
+   "aliases": [],
+   "birth": "c. 1550",
+   "death": "1622",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    }
+   ],
+   "name": "Renée de Cossé-Brissac",
+   "note": "",
+   "role": "Marquise de Méru",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-crotto": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-07-15",
+     "n": 2,
+     "slug": "1571-07-15"
+    }
+   ],
+   "name": "crotto",
+   "note": "Further identification needed",
+   "role": "",
+   "roleType": "",
+   "total": 2,
+   "viaf": ""
+  },
+  "pers-dalava-f": {
+   "aliases": [
+    "Don Frances d'Alava"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Francés de Álava",
+   "note": "",
+   "role": "Spanish ambassador to France",
+   "roleType": "diplomat",
+   "total": 2,
+   "viaf": ""
+  },
+  "pers-dani-j": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    }
+   ],
+   "name": "Jacopo Dani",
+   "note": "",
+   "role": "Medici Secretary",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-delamarck-d": {
+   "aliases": [],
+   "birth": "1544-06-16",
+   "death": "1622",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Diane de la Marck",
+   "note": "",
+   "role": "Duchess of Tonnerre",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-deste-i": {
+   "aliases": [],
+   "birth": "1509-08-25",
+   "death": "1572-12-01",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    }
+   ],
+   "name": "Ippolito d'Este",
+   "note": "",
+   "role": "Cardinal",
+   "roleType": "ecclesiastic",
+   "total": 3,
+   "viaf": "74104371"
+  },
+  "pers-deteligny-c": {
+   "aliases": [],
+   "birth": "1535",
+   "death": "1572",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    }
+   ],
+   "name": "Charles de Téligny",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 5,
+   "viaf": "314802260"
+  },
+  "pers-epernon-jl": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Jean‑Louis de Nogaret de La Valette",
+   "note": "",
+   "role": "Duke of Épernon",
+   "roleType": "nobility",
+   "total": 0,
+   "viaf": "51679355"
+  },
+  "pers-este-a": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-07-07",
+     "n": 1,
+     "slug": "1571-07-07"
+    }
+   ],
+   "name": "Alfonso d'Este",
+   "note": "",
+   "role": "Duke of Ferrara",
+   "roleType": "nobility",
+   "total": 4,
+   "viaf": ""
+  },
+  "pers-este-card": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Este Cardinal",
+   "note": "Entity needs research and completion",
+   "role": "Cardinal",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-este-r": {
+   "aliases": [
+    "Madama di Ferrara"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 2,
+     "slug": "1571-01-14"
+    }
+   ],
+   "name": "Renée de France",
+   "note": "Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara",
+   "role": "Duchess of Ferrara",
+   "roleType": "nobility",
+   "total": 2,
+   "viaf": "47560739"
+  },
+  "pers-farnese-a-card": {
+   "aliases": [],
+   "birth": "1520-10-07",
+   "death": "1589-03-02",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Alessandro Farnese",
+   "note": "",
+   "role": "Cardinal",
+   "roleType": "ecclesiastic",
+   "total": 1,
+   "viaf": "23504937"
+  },
+  "pers-france-c": {
+   "aliases": [],
+   "birth": "1547-11-12",
+   "death": "1575-02-21",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    }
+   ],
+   "name": "Claude de France",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 2,
+   "viaf": "305115069"
+  },
+  "pers-galeazzosanseverino-g": {
+   "aliases": [],
+   "birth": "1527",
+   "death": "1575",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Gian Galeazzo Sanseverino",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-gondi-albert": {
+   "aliases": [
+    "Comte de Retz"
+   ],
+   "birth": "1522-11-04",
+   "death": "1602-04-12",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1571-07-07",
+     "n": 1,
+     "slug": "1571-07-07"
+    }
+   ],
+   "name": "Albert de Gondi",
+   "note": "",
+   "role": "Marshal of France",
+   "roleType": "nobility",
+   "total": 4,
+   "viaf": "89654338"
+  },
+  "pers-gontaut-a": {
+   "aliases": [],
+   "birth": "1524",
+   "death": "1592",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Armand de Gontaut",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 3,
+   "viaf": "44293531"
+  },
+  "pers-gonzaga-gugl": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Guglielmo Gonzaga",
+   "note": "",
+   "role": "Duke of Mantua",
+   "roleType": "nobility",
+   "total": 0,
+   "viaf": ""
+  },
+  "pers-gonzaga-isa": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1568-05-05",
+     "n": 1,
+     "slug": "1568-05-05"
+    }
+   ],
+   "name": "Isabella Gonzaga",
+   "note": "",
+   "role": "Marchioness of Pescara",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-gonzaga-l-nev": {
+   "aliases": [
+    "Nevers"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1568-04-06",
+     "n": 1,
+     "slug": "1568-04-06"
+    },
+    {
+     "date": "1568-07-03",
+     "n": 1,
+     "slug": "1568-07-03"
+    },
+    {
+     "date": "1568-07-24",
+     "n": 1,
+     "slug": "1568-07-24"
+    },
+    {
+     "date": "1569-11-29",
+     "n": 1,
+     "slug": "1569-11-29"
+    },
+    {
+     "date": "1569-12-21",
+     "n": 2,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 4,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 4,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 3,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 2,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1571-06-27",
+     "n": 1,
+     "slug": "1571-06-27"
+    },
+    {
+     "date": "1571-08-14",
+     "n": 1,
+     "slug": "1571-08-14"
+    },
+    {
+     "date": "1572-02-12",
+     "n": 1,
+     "slug": "1572-02-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Luigi Gonzaga",
+   "note": "",
+   "role": "Duke of Nevers",
+   "roleType": "nobility",
+   "total": 28,
+   "viaf": "66529198"
+  },
+  "pers-gregorio-xiii": {
+   "aliases": [
+    "Pontefice"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 2,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 4,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 2,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Gregory XIII",
+   "note": "",
+   "role": "Pope",
+   "roleType": "ecclesiastic",
+   "total": 10,
+   "viaf": "316407579"
+  },
+  "pers-guadagni": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-06-27",
+     "n": 1,
+     "slug": "1571-06-27"
+    }
+   ],
+   "name": "Guadagni family member",
+   "note": "Entity needs research and completion",
+   "role": "Noble",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-guise-h": {
+   "aliases": [
+    "Guisa",
+    "Duca di Ghisa"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 3,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 3,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-03",
+     "n": 1,
+     "slug": "1570-10-03"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 4,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 2,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 3,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Henri de Guise",
+   "note": "",
+   "role": "Duke of Guise",
+   "roleType": "nobility",
+   "total": 22,
+   "viaf": "34454133"
+  },
+  "pers-habsburg-e": {
+   "aliases": [],
+   "birth": "1554-06-05",
+   "death": "1592-01-22",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 5,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 2,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Elisabeth",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 14,
+   "viaf": "97794481"
+  },
+  "pers-habsburg-f": {
+   "aliases": [],
+   "birth": "1527-05-21",
+   "death": "1598-09-13",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 6,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 6,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 2,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Philippe",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 19,
+   "viaf": "88973996"
+  },
+  "pers-habsburg-j": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1571-07-07",
+     "n": 1,
+     "slug": "1571-07-07"
+    }
+   ],
+   "name": "Juan de Austria",
+   "note": "",
+   "role": "Don Juan de Austria",
+   "roleType": "nobility",
+   "total": 2,
+   "viaf": "96139668"
+  },
+  "pers-habsburg-m": {
+   "aliases": [
+    "Cesare"
+   ],
+   "birth": "1527-07-31",
+   "death": "1576-10-12",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 2,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 3,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 6,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 5,
+     "slug": "1572-08-04"
+    }
+   ],
+   "name": "Maxmilian II",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 18,
+   "viaf": "27863609"
+  },
+  "pers-joyeuse-a": {
+   "aliases": [
+    "Gioiosa"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "name": "Anne de Joyeuse",
+   "note": "",
+   "role": "Duke of Joyeuse",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": "45097317"
+  },
+  "pers-katarzyna-k": {
+   "aliases": [],
+   "birth": "1533-09-15",
+   "death": "1572-02-28",
+   "kind": "person",
+   "letters": [],
+   "name": "Katarzyna",
+   "note": "",
+   "role": "Queen of Poland",
+   "roleType": "",
+   "total": 0,
+   "viaf": "81319677"
+  },
+  "pers-laguardia": {
+   "aliases": [
+    "Baron de la Garde",
+    "Baron della guardia"
+   ],
+   "birth": "1498",
+   "death": "1578",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 3,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Antoine Escalin des Aimars",
+   "note": "",
+   "role": "General of the French galleys",
+   "roleType": "military",
+   "total": 3,
+   "viaf": "4997694"
+  },
+  "pers-lamole-j": {
+   "aliases": [
+    "la Mola"
+   ],
+   "birth": "",
+   "death": "1574-04-30",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Joseph Boniface de la Môle",
+   "note": "Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.",
+   "role": "Provençal gentleman, favourite of the Duke of Alençon",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-lhospital-m": {
+   "aliases": [],
+   "birth": "1507",
+   "death": "1573-03-13",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "name": "Michel de L'Hospital",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": "100198491"
+  },
+  "pers-loignac-j": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Jacques de Loignac",
+   "note": "",
+   "role": "Master of the King's Wardrobe",
+   "roleType": "",
+   "total": 0,
+   "viaf": ""
+  },
+  "pers-lorraine-c": {
+   "aliases": [],
+   "birth": "1543-02-18",
+   "death": "1608-05-14",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    }
+   ],
+   "name": "Charles III de Lorraine",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 2,
+   "viaf": "59905716"
+  },
+  "pers-lorraine-ch-aum": {
+   "aliases": [
+    "d'Aumale"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    }
+   ],
+   "name": "Charles de Lorraine",
+   "note": "",
+   "role": "Duke of Aumale",
+   "roleType": "nobility",
+   "total": 2,
+   "viaf": "120178357"
+  },
+  "pers-lorraine-ch-card": {
+   "aliases": [
+    "Lorena",
+    "Loreno"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 3,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 6,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 6,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Charles de Lorraine",
+   "note": "",
+   "role": "Cardinal of Lorraine",
+   "roleType": "ecclesiastic",
+   "total": 22,
+   "viaf": ""
+  },
+  "pers-lorraine-chr": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Christine de Lorraine",
+   "note": "",
+   "role": "Princess of Lorraine",
+   "roleType": "nobility",
+   "total": 0,
+   "viaf": "4230910"
+  },
+  "pers-lorraine-h": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Henry of Lorraine",
+   "note": "Entity needs research and completion",
+   "role": "Noble",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-lorraine-h1": {
+   "aliases": [
+    "Loreno"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    }
+   ],
+   "name": "Henri de Lorraine",
+   "note": "",
+   "role": "Duke of Guise",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": "69048019"
+  },
+  "pers-lorraine-h2": {
+   "aliases": [],
+   "birth": "1563-11-08",
+   "death": "1624-07-31",
+   "kind": "person",
+   "letters": [],
+   "name": "Henri II de Lorraine",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 0,
+   "viaf": "37071898"
+  },
+  "pers-maldonado-j": {
+   "aliases": [
+    "Maldonato"
+   ],
+   "birth": "1533",
+   "death": "1583-01-05",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 3,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Juan Maldonado",
+   "note": "",
+   "role": "Jesuit theologian",
+   "roleType": "ecclesiastic",
+   "total": 3,
+   "viaf": "44310930"
+  },
+  "pers-mauvissiere": {
+   "aliases": [
+    "Mauvissière"
+   ],
+   "birth": "1520",
+   "death": "1592",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Michel de Castelnau",
+   "note": "",
+   "role": "French envoy to England",
+   "roleType": "diplomat",
+   "total": 2,
+   "viaf": "7396729"
+  },
+  "pers-medici-cat": {
+   "aliases": [
+    "Reina"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1568-04-28",
+     "n": 1,
+     "slug": "1568-04-28"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 4,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 6,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 4,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 4,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 6,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 6,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 2,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 2,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 2,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1571-06-27",
+     "n": 1,
+     "slug": "1571-06-27"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 4,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-02-12",
+     "n": 1,
+     "slug": "1572-02-12"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 2,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 4,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 2,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Caterina de' Medici",
+   "note": "",
+   "role": "Queen Mother of France",
+   "roleType": "nobility",
+   "total": 53,
+   "viaf": "4936327"
+  },
+  "pers-medici-cos-1": {
+   "aliases": [
+    "Gran Duca"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-12-21",
+     "n": 1,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-09-14",
+     "n": 2,
+     "slug": "1570-09-14"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 2,
+     "slug": "1570-11-02"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 9,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 3,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 4,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 3,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 3,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Cosimo I de' Medici",
+   "note": "",
+   "role": "Grand Duke of Tuscany",
+   "roleType": "nobility",
+   "total": 32,
+   "viaf": "59259382"
+  },
+  "pers-medici-fer": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 3,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Ferdinando de' Medici",
+   "note": "",
+   "role": "Grand Duke of Tuscany",
+   "roleType": "nobility",
+   "total": 4,
+   "viaf": "100212180"
+  },
+  "pers-medici-giovanna": {
+   "aliases": [],
+   "birth": "1547-01-24",
+   "death": "1578-04-11",
+   "kind": "person",
+   "letters": [],
+   "name": "Giovanna d'Austria",
+   "note": "",
+   "role": "Grand Duchess of Tuscany",
+   "roleType": "nobility",
+   "total": 0,
+   "viaf": "43563321"
+  },
+  "pers-michiel-g": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "name": "Giovanni Michiel",
+   "note": "Entity needs research and completion",
+   "role": "Venetian ambassador to France",
+   "roleType": "diplomat",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-montluc-b": {
+   "aliases": [
+    "Monlucco"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Blaise de Montluc",
+   "note": "",
+   "role": "Marshal of France",
+   "roleType": "military",
+   "total": 4,
+   "viaf": "7394560"
+  },
+  "pers-montm-fr": {
+   "aliases": [
+    "Montmoransy",
+    "Mamoransi"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 3,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 3,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 4,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "François de Montmorency",
+   "note": "",
+   "role": "Marshal of France",
+   "roleType": "military",
+   "total": 22,
+   "viaf": "67259075"
+  },
+  "pers-montmorency-charles": {
+   "aliases": [
+    "Méru",
+    "Damville"
+   ],
+   "birth": "1537-03-31",
+   "death": "1612-05-05",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 2,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Charles de Montmorency",
+   "note": "",
+   "role": "Duke of Damville",
+   "roleType": "nobility",
+   "total": 3,
+   "viaf": ""
+  },
+  "pers-montmorency-g-thore": {
+   "aliases": [
+    "Torè",
+    "Thoré",
+    "turu"
+   ],
+   "birth": "c. 1543",
+   "death": "1593",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 2,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Guillaume de Montmorency-Thoré",
+   "note": "Brother of François de Montmorency and Charles de Montmorency (Méru). Implicated in the Malcontent conspiracy of 1574.",
+   "role": "Military commander",
+   "roleType": "military",
+   "total": 2,
+   "viaf": ""
+  },
+  "pers-montmorency-h": {
+   "aliases": [
+    "Danville"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 2,
+     "slug": "1571-01-26"
+    }
+   ],
+   "name": "Henri de Montmorency",
+   "note": "",
+   "role": "Marshal of France, Governor of Languedoc",
+   "roleType": "military",
+   "total": 3,
+   "viaf": "68977937"
+  },
+  "pers-nassau-l": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Ludwig von Nassau",
+   "note": "",
+   "role": "Count of Nassau",
+   "roleType": "nobility",
+   "total": 5,
+   "viaf": ""
+  },
+  "pers-nassau-w": {
+   "aliases": [
+    "Principe di Orange"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 3,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Willem van Oranje",
+   "note": "",
+   "role": "Prince of Orange",
+   "roleType": "nobility",
+   "total": 8,
+   "viaf": "49260512"
+  },
+  "pers-orleans-l": {
+   "aliases": [
+    "Longueville",
+    "Longavilla"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 3,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    }
+   ],
+   "name": "Léonor d'Orléans",
+   "note": "",
+   "role": "Duke of Longueville",
+   "roleType": "nobility",
+   "total": 5,
+   "viaf": ""
+  },
+  "pers-orsini-card": {
+   "aliases": [
+    "Cardinal Orsino"
+   ],
+   "birth": "1532",
+   "death": "1581-05-16",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Flavio Orsini",
+   "note": "",
+   "role": "Cardinal, papal legate",
+   "roleType": "ecclesiastic",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-orsini-t": {
+   "aliases": [],
+   "birth": "1547",
+   "death": "1577-12-02",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 4,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Troilo Orsini",
+   "note": "",
+   "role": "condottiere",
+   "roleType": "military",
+   "total": 8,
+   "viaf": ""
+  },
+  "pers-osmanli-s2": {
+   "aliases": [],
+   "birth": "1524-05-28",
+   "death": "1574-12-15",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 3,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 4,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Selim II",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 11,
+   "viaf": "44058182"
+  },
+  "pers-ossonville": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 3,
+     "slug": "1570-05-20"
+    }
+   ],
+   "name": "Monsignore d'Ossonville",
+   "note": "",
+   "role": "French noble",
+   "roleType": "",
+   "total": 3,
+   "viaf": ""
+  },
+  "pers-papazzone-g": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1568-05-05",
+     "n": 1,
+     "slug": "1568-05-05"
+    }
+   ],
+   "name": "Giulio Cesare Papazzone",
+   "note": "Servidore della signora Marchesa di Pescara",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-pazzi-f": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Filippino Pazzi",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-petrucci": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-03-20",
+     "n": 2,
+     "slug": "1570-03-20"
+    },
+    {
+     "date": "1570-05-20",
+     "n": 2,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 3,
+     "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-10-03",
+     "n": 2,
+     "slug": "1570-10-03"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02-b"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Petrucci",
+   "note": "Tuscan ambassador to France",
+   "role": "Commendatore",
+   "roleType": "",
+   "total": 16,
+   "viaf": ""
+  },
+  "pers-pfalz-fr-3": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 2,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 2,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "name": "Friedrich III von der Pfalz",
+   "note": "",
+   "role": "Elector Palatine",
+   "roleType": "nobility",
+   "total": 5,
+   "viaf": "47559178"
+  },
+  "pers-pfalz-jc": {
+   "aliases": [
+    "Duca di Duponte"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 2,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-05-20",
+     "n": 2,
+     "slug": "1570-05-20"
+    }
+   ],
+   "name": "Johann Casimir von der Pfalz",
+   "note": "",
+   "role": "Count Palatine",
+   "roleType": "nobility",
+   "total": 4,
+   "viaf": "52484350"
+  },
+  "pers-pius-v": {
+   "aliases": [
+    "Michele Ghislieri",
+    "Papa"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 3,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "name": "Pius V",
+   "note": "Pope from 1566 to 1572",
+   "role": "Pope",
+   "roleType": "ecclesiastic",
+   "total": 5,
+   "viaf": "262746497"
+  },
+  "pers-pontefice": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "The Pope",
+   "note": "Entity needs research and completion",
+   "role": "Pope",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-riorikide-i-iv": {
+   "aliases": [
+    "Ivan the Terrible"
+   ],
+   "birth": "1530-08-25",
+   "death": "1584-03-18",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "name": "Ivan IV",
+   "note": "",
+   "role": "Czar of Russia",
+   "roleType": "",
+   "total": 3,
+   "viaf": "89633898"
+  },
+  "pers-rosieres": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 3,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Rosières",
+   "note": "",
+   "role": "Former Huguenot minister, converted after St Bartholomew",
+   "roleType": "ecclesiastic",
+   "total": 3,
+   "viaf": ""
+  },
+  "pers-sachsen-aug": {
+   "aliases": [
+    "Duca di Sassonia Agost"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 2,
+     "slug": "1570-05-20"
+    }
+   ],
+   "name": "August von Sachsen",
+   "note": "",
+   "role": "Elector of Saxony",
+   "roleType": "nobility",
+   "total": 2,
+   "viaf": "37714053"
+  },
+  "pers-sachsen-wil": {
+   "aliases": [
+    "Guglielmo duca di Sassonia"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 3,
+     "slug": "1570-05-20"
+    }
+   ],
+   "name": "Wilhelm von Sachsen",
+   "note": "",
+   "role": "Duke of Saxony",
+   "roleType": "nobility",
+   "total": 3,
+   "viaf": ""
+  },
+  "pers-salviati-a": {
+   "aliases": [
+    "Monsig. Salviati"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-04-18",
+     "n": 1,
+     "slug": "1571-04-18"
+    }
+   ],
+   "name": "Antonio Maria Salviati",
+   "note": "",
+   "role": "Papal Nuncio",
+   "roleType": "ecclesiastic",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-sanseverino-g": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Sanseverino family member",
+   "note": "Entity needs research and completion",
+   "role": "Noble",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-savoie-h-susa": {
+   "aliases": [
+    "di Susa"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "name": "Honorat de Savoie",
+   "note": "",
+   "role": "Marquis of Susa",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-savoie-h-ten": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "name": "Honorat de Savoie",
+   "note": "",
+   "role": "Count of Tende",
+   "roleType": "nobility",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-savoie-j-nem": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 5,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 3,
+     "slug": "1571-01-26"
+    }
+   ],
+   "name": "Jacques de Savoie",
+   "note": "",
+   "role": "Duke of Nemours",
+   "roleType": "nobility",
+   "total": 12,
+   "viaf": "29843872"
+  },
+  "pers-savoy-em-fil": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-11",
+     "n": 3,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Emanuele Filiberto di Savoia",
+   "note": "",
+   "role": "Duke of Savoy",
+   "roleType": "nobility",
+   "total": 8,
+   "viaf": "100170223"
+  },
+  "pers-sorbin-a": {
+   "aliases": [],
+   "birth": "1532-07-14",
+   "death": "1606-05-01",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Arnauld Sorbin",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": "2526805"
+  },
+  "pers-striggio-a": {
+   "aliases": [
+    "Striggi"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    }
+   ],
+   "name": "Alessandro Striggio",
+   "note": "",
+   "role": "Salariato di Cosimo I de' Medici",
+   "roleType": "stateCourtPersonnel",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-strozzi-f": {
+   "aliases": [
+    "Strozzi"
+   ],
+   "birth": "1541",
+   "death": "1582",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Filippo Strozzi",
+   "note": "",
+   "role": "Colonel-General of the Infantry, commander of the French naval expedition (1572)",
+   "roleType": "military",
+   "total": 1,
+   "viaf": "315945612"
+  },
+  "pers-tavannes-g": {
+   "aliases": [],
+   "birth": "1509",
+   "death": "1573-06-19",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "name": "Gaspard de Saulx‑Tavannes",
+   "note": "",
+   "role": "Marshal of France",
+   "roleType": "military",
+   "total": 1,
+   "viaf": "2578946"
+  },
+  "pers-taxis-c": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Taxi family member",
+   "note": "Entity needs research and completion",
+   "role": "Noble",
+   "roleType": "",
+   "total": 2,
+   "viaf": ""
+  },
+  "pers-termes-j": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Jean de Termes",
+   "note": "",
+   "role": "Master of the King's Wardrobe",
+   "roleType": "",
+   "total": 0,
+   "viaf": ""
+  },
+  "pers-toledo-f": {
+   "aliases": [
+    "Duca d'Alva",
+    "Duca d'Alba"
+   ],
+   "birth": "1507-10-29",
+   "death": "1582-12-11",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Fernando Álvarez de Toledo",
+   "note": "",
+   "role": "Duke of Alba, Governor of the Spanish Netherlands",
+   "roleType": "military",
+   "total": 2,
+   "viaf": "20476873"
+  },
+  "pers-tudor-e": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 2,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 5,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 2,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "Elizabeth Tudor",
+   "note": "",
+   "role": "Queen of England",
+   "roleType": "nobility",
+   "total": 13,
+   "viaf": "73876780"
+  },
+  "pers-vaini-e": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    }
+   ],
+   "name": "Enea Vaini",
+   "note": "Order of Santo Stefano official",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": ""
+  },
+  "pers-valois-ch-9": {
+   "aliases": [
+    "Re"
+   ],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 12,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 15,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 18,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 6,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 7,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 6,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 6,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 2,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 9,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 2,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 10,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 2,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 2,
+     "slug": "1572-12-07"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 5,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Charles IX",
+   "note": "",
+   "role": "King of France",
+   "roleType": "nobility",
+   "total": 107,
+   "viaf": "59215242"
+  },
+  "pers-valois-f-alen": {
+   "aliases": [
+    "Duca d'Alansone",
+    "Monseigneur le Duc"
+   ],
+   "birth": "1555-03-18",
+   "death": "1584-06-10",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 4,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "François de Valois",
+   "note": "",
+   "role": "Duke of Alençon, later Duke of Anjou",
+   "roleType": "nobility",
+   "total": 7,
+   "viaf": "88890786"
+  },
+  "pers-valois-h-3": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 2,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Henri III",
+   "note": "",
+   "role": "King of France",
+   "roleType": "nobility",
+   "total": 5,
+   "viaf": "7398374"
+  },
+  "pers-valois-m": {
+   "aliases": [],
+   "birth": "1553-05-14",
+   "death": "1615-03-27",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    }
+   ],
+   "name": "Marguerite de Valois",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 3,
+   "viaf": "78750412"
+  },
+  "pers-vigor-s": {
+   "aliases": [],
+   "birth": "1515",
+   "death": "1575",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "name": "Simon Vigor",
+   "note": "",
+   "role": "",
+   "roleType": "",
+   "total": 1,
+   "viaf": "39246854"
+  },
+  "pers-walsingham-f": {
+   "aliases": [
+    "Ambasciatore Inglese"
+   ],
+   "birth": "1532",
+   "death": "1590-04-06",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Francis Walsingham",
+   "note": "",
+   "role": "English ambassador to France",
+   "roleType": "diplomat",
+   "total": 2,
+   "viaf": "69738466"
+  },
+  "pers-zibramonti-a": {
+   "aliases": [],
+   "birth": "",
+   "death": "",
+   "kind": "person",
+   "letters": [],
+   "name": "Aurelio Zibramonti",
+   "note": "Entity needs research and completion",
+   "role": "Ducal secretary in Mantua",
+   "roleType": "",
+   "total": 0,
+   "viaf": ""
+  },
+  "pers-zygmunt-z": {
+   "aliases": [],
+   "birth": "1520-08-01",
+   "death": "1572-07-07",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "name": "Zygmunt II",
+   "note": "",
+   "role": "King of Poland",
+   "roleType": "",
+   "total": 2,
+   "viaf": "804948"
+  },
+  "place-ancona": {
+   "country": "Italy",
+   "historical": [
+    "Ancona"
+   ],
+   "kind": "place",
+   "lat": "43.6158",
+   "letters": [
+    {
+     "date": "1569-11-29",
+     "n": 3,
+     "slug": "1569-11-29"
+    },
+    {
+     "date": "1569-12-21",
+     "n": 1,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1570-03-20",
+     "n": 1,
+     "slug": "1570-03-20"
+    }
+   ],
+   "lon": "13.5189",
+   "name": "Ancona",
+   "note": "",
+   "tgn": "7004220",
+   "total": 5
+  },
+  "place-angrogna": {
+   "country": "Italy",
+   "historical": [
+    "l'Angrogna"
+   ],
+   "kind": "place",
+   "lat": "44.8167",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    }
+   ],
+   "lon": "7.1833",
+   "name": "Angrogna",
+   "note": "",
+   "tgn": "7264258",
+   "total": 1
+  },
+  "place-anjou": {
+   "country": "France",
+   "historical": [
+    "Anjou",
+    "Anioù"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    }
+   ],
+   "lon": "",
+   "name": "Anjou",
+   "note": "",
+   "tgn": "7007395",
+   "total": 1
+  },
+  "place-ardena": {
+   "country": "France/Belgium",
+   "historical": [
+    "Ardena"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "",
+   "name": "Ardennes",
+   "note": "",
+   "tgn": "7003622",
+   "total": 1
+  },
+  "place-auxerre": {
+   "country": "France",
+   "historical": [
+    "Ossarra"
+   ],
+   "kind": "place",
+   "lat": "47.7982",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "3.5733",
+   "name": "Auxerre",
+   "note": "",
+   "tgn": "7007078",
+   "total": 1
+  },
+  "place-bagni-di-lucca": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "44.0117",
+   "letters": [
+    {
+     "date": "1571-06-27",
+     "n": 2,
+     "slug": "1571-06-27"
+    },
+    {
+     "date": "1571-07-07",
+     "n": 1,
+     "slug": "1571-07-07"
+    },
+    {
+     "date": "1571-07-15",
+     "n": 1,
+     "slug": "1571-07-15"
+    }
+   ],
+   "lon": "10.5829",
+   "name": "Bagni di Lucca",
+   "note": "",
+   "tgn": "7011806",
+   "total": 4
+  },
+  "place-bar-sur-aube": {
+   "country": "France",
+   "historical": [
+    "Bar su Auba"
+   ],
+   "kind": "place",
+   "lat": "48.2373",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "4.1540",
+   "name": "Bar-sur-Aube",
+   "note": "",
+   "tgn": "7007401",
+   "total": 1
+  },
+  "place-baviera": {
+   "country": "Germany",
+   "historical": [
+    "Baviera"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "",
+   "name": "Bavaria",
+   "note": "",
+   "tgn": "7003669",
+   "total": 1
+  },
+  "place-blois": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-02-12",
+     "n": 1,
+     "slug": "1572-02-12"
+    },
+    {
+     "date": "1572-03-19",
+     "n": 1,
+     "slug": "1572-03-19"
+    },
+    {
+     "date": "1572-04-22",
+     "n": 1,
+     "slug": "1572-04-22"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    }
+   ],
+   "lon": "",
+   "name": "Blois",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 5
+  },
+  "place-bollione": {
+   "country": "Belgium",
+   "historical": [
+    "Bollione"
+   ],
+   "kind": "place",
+   "lat": "49.7917",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "5.0667",
+   "name": "Bouillon",
+   "note": "",
+   "tgn": "",
+   "total": 1
+  },
+  "place-bordeaux": {
+   "country": "France",
+   "historical": [
+    "Bordeaux"
+   ],
+   "kind": "place",
+   "lat": "44.8378",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    }
+   ],
+   "lon": "-0.5792",
+   "name": "Bordeaux",
+   "note": "",
+   "tgn": "7007251",
+   "total": 2
+  },
+  "place-bourbon": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "",
+   "name": "Bourbon",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-bretagne": {
+   "country": "France",
+   "historical": [
+    "Bretagna"
+   ],
+   "kind": "place",
+   "lat": "48.2020",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    }
+   ],
+   "lon": "-2.9326",
+   "name": "Bretagne",
+   "note": "",
+   "tgn": "7024267",
+   "total": 2
+  },
+  "place-chalons-en-champagne": {
+   "country": "France",
+   "historical": [
+    "Sciallone"
+   ],
+   "kind": "place",
+   "lat": "48.9578",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "4.3673",
+   "name": "Châlons-en-Champagne",
+   "note": "",
+   "tgn": "7007918",
+   "total": 1
+  },
+  "place-chantilly": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "49.1947",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    }
+   ],
+   "lon": "2.4856",
+   "name": "Chantilly",
+   "note": "",
+   "tgn": "7007221",
+   "total": 1
+  },
+  "place-charenton-le-pont": {
+   "country": "France",
+   "historical": [
+    "S. Moro Di Ponte Sciallanti"
+   ],
+   "kind": "place",
+   "lat": "48.8268",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "2.4121",
+   "name": "Charenton-le-Pont",
+   "note": "",
+   "tgn": "7007277",
+   "total": 1
+  },
+  "place-chatillon-sur-seine": {
+   "country": "France",
+   "historical": [
+    "Castillione su Senna"
+   ],
+   "kind": "place",
+   "lat": "47.8567",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "4.5728",
+   "name": "Châtillon-sur-Seine",
+   "note": "",
+   "tgn": "7008480",
+   "total": 1
+  },
+  "place-cognac": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "45.6950",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    }
+   ],
+   "lon": "-0.3272",
+   "name": "Cognac",
+   "note": "",
+   "tgn": "7007412",
+   "total": 1
+  },
+  "place-colonia": {
+   "country": "Germany",
+   "historical": [
+    "Colonia"
+   ],
+   "kind": "place",
+   "lat": "50.9375",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "6.9603",
+   "name": "Köln",
+   "note": "",
+   "tgn": "7004446",
+   "total": 1
+  },
+  "place-corsica": {
+   "country": "France",
+   "historical": [
+    "Corsica"
+   ],
+   "kind": "place",
+   "lat": "42.0396",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "lon": "9.0129",
+   "name": "Corse",
+   "note": "",
+   "tgn": "7002898",
+   "total": 1
+  },
+  "place-de": {
+   "country": "Germany",
+   "historical": [
+    "Germania",
+    "lamagna"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 3,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 2,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "",
+   "name": "Germany",
+   "note": "",
+   "tgn": "7001430",
+   "total": 14
+  },
+  "place-ecouen": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "49.0189",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "2.3778",
+   "name": "Écouen",
+   "note": "",
+   "tgn": "7007074",
+   "total": 2
+  },
+  "place-england": {
+   "country": "England",
+   "historical": [
+    "Inghiltera"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1571-03-31",
+     "n": 4,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 4,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 2,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "",
+   "name": "England",
+   "note": "",
+   "tgn": "7002445",
+   "total": 13
+  },
+  "place-es": {
+   "country": "Spain",
+   "historical": [
+    "Spagna"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 2,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 2,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 5,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 10,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 7,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 2,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 3,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "",
+   "name": "Spain",
+   "note": "",
+   "tgn": "7002327",
+   "total": 35
+  },
+  "place-europe": {
+   "country": "Europe",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "",
+   "name": "Europe",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-ferrara": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 3,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "",
+   "name": "Ferrara",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 7
+  },
+  "place-fiandra": {
+   "country": "Belgium",
+   "historical": [
+    "Fiandra"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 3,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 3,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "",
+   "name": "Flanders",
+   "note": "",
+   "tgn": "7001997",
+   "total": 9
+  },
+  "place-firenze": {
+   "country": "Italy",
+   "historical": [
+    "Firenze"
+   ],
+   "kind": "place",
+   "lat": "43.7696",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-08-14",
+     "n": 1,
+     "slug": "1571-08-14"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 4,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "11.2558",
+   "name": "Florence",
+   "note": "",
+   "tgn": "7003893",
+   "total": 10
+  },
+  "place-flesinga": {
+   "country": "Netherlands",
+   "historical": [
+    "Flesinga"
+   ],
+   "kind": "place",
+   "lat": "51.4428",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "3.5731",
+   "name": "Vlissingen",
+   "note": "",
+   "tgn": "",
+   "total": 1
+  },
+  "place-fr": {
+   "country": "France",
+   "historical": [
+    "Francia",
+    "francia"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1569-12-21",
+     "n": 2,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 3,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 2,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 3,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 3,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 3,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02-b"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 3,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 4,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 2,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-06-27",
+     "n": 2,
+     "slug": "1571-06-27"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 3,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 3,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 8,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 3,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "",
+   "name": "France",
+   "note": "",
+   "tgn": "1000070",
+   "total": 49
+  },
+  "place-gascogne": {
+   "country": "France",
+   "historical": [
+    "Vascogna",
+    "Guascogna",
+    "Gascogna"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "",
+   "name": "Gascogne",
+   "note": "",
+   "tgn": "7024281",
+   "total": 3
+  },
+  "place-gatinais": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "",
+   "name": "Gâtinais",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-genova": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "",
+   "name": "Genoa",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-guyenne": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "",
+   "name": "Guyenne",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-heidelberg": {
+   "country": "Germany",
+   "historical": [],
+   "kind": "place",
+   "lat": "49.3988",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    }
+   ],
+   "lon": "8.6724",
+   "name": "Heidelberg",
+   "note": "",
+   "tgn": "7003720",
+   "total": 1
+  },
+  "place-hollanda": {
+   "country": "Netherlands",
+   "historical": [
+    "Hollanda"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "",
+   "name": "Holland",
+   "note": "",
+   "tgn": "7003631",
+   "total": 1
+  },
+  "place-it": {
+   "country": "Italy",
+   "historical": [
+    "Italia"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1568-05-05",
+     "n": 1,
+     "slug": "1568-05-05"
+    },
+    {
+     "date": "1568-09-07",
+     "n": 2,
+     "slug": "1568-09-07"
+    },
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 3,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-18",
+     "n": 1,
+     "slug": "1571-04-18"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 5,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "",
+   "name": "Italy",
+   "note": "",
+   "tgn": "1000080",
+   "total": 26
+  },
+  "place-la-charite": {
+   "country": "France",
+   "historical": [
+    "la Charite"
+   ],
+   "kind": "place",
+   "lat": "47.1778",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 2,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "lon": "3.0147",
+   "name": "La Charité",
+   "note": "",
+   "tgn": "7004492",
+   "total": 4
+  },
+  "place-languedoc": {
+   "country": "France",
+   "historical": [
+    "Langudoca"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "",
+   "name": "Languedoc",
+   "note": "",
+   "tgn": "7024283",
+   "total": 1
+  },
+  "place-lille": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "",
+   "name": "Lille",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-limousin": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "",
+   "name": "Limousin",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 1
+  },
+  "place-livorno": {
+   "country": "Italy",
+   "historical": [
+    "Livorno"
+   ],
+   "kind": "place",
+   "lat": "43.5485",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "lon": "10.3106",
+   "name": "Livorno",
+   "note": "",
+   "tgn": "7004060",
+   "total": 1
+  },
+  "place-lombardia": {
+   "country": "Italy",
+   "historical": [
+    "Lombardia"
+   ],
+   "kind": "place",
+   "lat": "45.4700",
+   "letters": [
+    {
+     "date": "1571-07-07",
+     "n": 2,
+     "slug": "1571-07-07"
+    }
+   ],
+   "lon": "9.2050",
+   "name": "Lombardia",
+   "note": "",
+   "tgn": "7009742",
+   "total": 2
+  },
+  "place-lorraine": {
+   "country": "France",
+   "historical": [
+    "Loreno"
+   ],
+   "kind": "place",
+   "lat": "48.6937",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 3,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "6.1834",
+   "name": "Lorraine",
+   "note": "",
+   "tgn": "7003635",
+   "total": 5
+  },
+  "place-lucca": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "43.8430",
+   "letters": [
+    {
+     "date": "1568-07-24",
+     "n": 1,
+     "slug": "1568-07-24"
+    }
+   ],
+   "lon": "10.5077",
+   "name": "Lucca",
+   "note": "",
+   "tgn": "7005341",
+   "total": 1
+  },
+  "place-luxembourg": {
+   "country": "Luxembourg",
+   "historical": [
+    "Luxemburg"
+   ],
+   "kind": "place",
+   "lat": "49.6117",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "6.1300",
+   "name": "Luxembourg",
+   "note": "",
+   "tgn": "7006949",
+   "total": 1
+  },
+  "place-lyon": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "",
+   "name": "Lyon",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 2
+  },
+  "place-mantova": {
+   "country": "Italy",
+   "historical": [
+    "Mantova"
+   ],
+   "kind": "place",
+   "lat": "45.1563",
+   "letters": [
+    {
+     "date": "1569-11-29",
+     "n": 1,
+     "slug": "1569-11-29"
+    },
+    {
+     "date": "1569-12-21",
+     "n": 1,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "10.7914",
+   "name": "Mantova",
+   "note": "",
+   "tgn": "7004626",
+   "total": 3
+  },
+  "place-marne": {
+   "country": "France",
+   "historical": [
+    "Marna"
+   ],
+   "kind": "place",
+   "lat": "49.0097",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "4.0367",
+   "name": "Marna",
+   "note": "",
+   "tgn": "7007119",
+   "total": 1
+  },
+  "place-marseille": {
+   "country": "France",
+   "historical": [
+    "Marsilia"
+   ],
+   "kind": "place",
+   "lat": "43.2965",
+   "letters": [
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    }
+   ],
+   "lon": "5.3698",
+   "name": "Marseille",
+   "note": "",
+   "tgn": "7008772",
+   "total": 1
+  },
+  "place-metz": {
+   "country": "France",
+   "historical": [
+    "Metz"
+   ],
+   "kind": "place",
+   "lat": "49.1193",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "6.1757",
+   "name": "Metz",
+   "note": "",
+   "tgn": "7004558",
+   "total": 1
+  },
+  "place-milano": {
+   "country": "Italy",
+   "historical": [
+    "Millano"
+   ],
+   "kind": "place",
+   "lat": "45.4642",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "lon": "9.1900",
+   "name": "Milano",
+   "note": "",
+   "tgn": "7003853",
+   "total": 2
+  },
+  "place-monceau": {
+   "country": "France",
+   "historical": [
+    "Monceau"
+   ],
+   "kind": "place",
+   "lat": "48.8519",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "3.0036",
+   "name": "Monceau",
+   "note": "",
+   "tgn": "7007100",
+   "total": 1
+  },
+  "place-monferrato": {
+   "country": "Italy",
+   "historical": [
+    "Monferrato"
+   ],
+   "kind": "place",
+   "lat": "45.07",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    }
+   ],
+   "lon": "8.27",
+   "name": "Montferrat",
+   "note": "",
+   "tgn": "7009566",
+   "total": 1
+  },
+  "place-montargis": {
+   "country": "France",
+   "historical": [
+    "Montargis"
+   ],
+   "kind": "place",
+   "lat": "48.0019",
+   "letters": [
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    }
+   ],
+   "lon": "2.7333",
+   "name": "Montargis",
+   "note": "",
+   "tgn": "7008336",
+   "total": 1
+  },
+  "place-montauban": {
+   "country": "France",
+   "historical": [
+    "Montauban"
+   ],
+   "kind": "place",
+   "lat": "44.0167",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    }
+   ],
+   "lon": "1.3500",
+   "name": "Montauban",
+   "note": "",
+   "tgn": "7007339",
+   "total": 1
+  },
+  "place-montereau": {
+   "country": "France",
+   "historical": [
+    "Montereau"
+   ],
+   "kind": "place",
+   "lat": "48.3842",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "2.9500",
+   "name": "Montereau",
+   "note": "",
+   "tgn": "7007096",
+   "total": 1
+  },
+  "place-montlucon": {
+   "country": "France",
+   "historical": [
+    "Monlucon"
+   ],
+   "kind": "place",
+   "lat": "46.3400",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "2.6000",
+   "name": "Montluçon",
+   "note": "",
+   "tgn": "7008381",
+   "total": 1
+  },
+  "place-napoli": {
+   "country": "Italy",
+   "historical": [
+    "Napoli"
+   ],
+   "kind": "place",
+   "lat": "40.8518",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "14.2681",
+   "name": "Napoli",
+   "note": "",
+   "tgn": "7004474",
+   "total": 1
+  },
+  "place-navarre": {
+   "country": "Spain/France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "",
+   "name": "Navarre",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 2
+  },
+  "place-netherlands": {
+   "country": "Netherlands",
+   "historical": [
+    "Paesi Bassi"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [],
+   "lon": "",
+   "name": "Netherlands",
+   "note": "",
+   "tgn": "1000140",
+   "total": 0
+  },
+  "place-nevers": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "46.9917",
+   "letters": [
+    {
+     "date": "1568-04-06",
+     "n": 1,
+     "slug": "1568-04-06"
+    },
+    {
+     "date": "1568-05-04",
+     "n": 1,
+     "slug": "1568-05-04"
+    },
+    {
+     "date": "1568-05-05",
+     "n": 1,
+     "slug": "1568-05-05"
+    },
+    {
+     "date": "1568-06-09",
+     "n": 1,
+     "slug": "1568-06-09"
+    },
+    {
+     "date": "1568-07-03",
+     "n": 1,
+     "slug": "1568-07-03"
+    },
+    {
+     "date": "1568-07-24",
+     "n": 1,
+     "slug": "1568-07-24"
+    }
+   ],
+   "lon": "3.1620",
+   "name": "Nevers",
+   "note": "",
+   "tgn": "7007062",
+   "total": 6
+  },
+  "place-nivernais": {
+   "country": "France",
+   "historical": [
+    "Nivernese"
+   ],
+   "kind": "place",
+   "lat": "47.0000",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "3.1500",
+   "name": "Nivernais",
+   "note": "",
+   "tgn": "7017068",
+   "total": 1
+  },
+  "place-normandie": {
+   "country": "France",
+   "historical": [
+    "Normandie",
+    "Normandia"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 2,
+     "slug": "1572-02-06"
+    }
+   ],
+   "lon": "",
+   "name": "Normandie",
+   "note": "",
+   "tgn": "7003584",
+   "total": 4
+  },
+  "place-orbetello": {
+   "country": "Italy",
+   "historical": [
+    "Orbatello"
+   ],
+   "kind": "place",
+   "lat": "42.4400",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "11.2133",
+   "name": "Orbetello",
+   "note": "",
+   "tgn": "7006228",
+   "total": 1
+  },
+  "place-orleans": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "lon": "",
+   "name": "Orléans",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 2
+  },
+  "place-padova": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "45.4064",
+   "letters": [
+    {
+     "date": "1568-07-24",
+     "n": 1,
+     "slug": "1568-07-24"
+    }
+   ],
+   "lon": "11.8768",
+   "name": "Padua",
+   "note": "",
+   "tgn": "7004426",
+   "total": 1
+  },
+  "place-paris": {
+   "country": "France",
+   "historical": [
+    "Parigi",
+    "parigi"
+   ],
+   "kind": "place",
+   "lat": "48.8566",
+   "letters": [
+    {
+     "date": "1568-09-07",
+     "n": 2,
+     "slug": "1568-09-07"
+    },
+    {
+     "date": "1570-03-20",
+     "n": 2,
+     "slug": "1570-03-20"
+    },
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 4,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 4,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-09-14",
+     "n": 1,
+     "slug": "1570-09-14"
+    },
+    {
+     "date": "1570-10-03",
+     "n": 1,
+     "slug": "1570-10-03"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 4,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 2,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1570-11-09",
+     "n": 1,
+     "slug": "1570-11-09"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 3,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 5,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 2,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-18",
+     "n": 1,
+     "slug": "1571-04-18"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-07-12",
+     "n": 1,
+     "slug": "1572-07-12"
+    },
+    {
+     "date": "1572-07-19",
+     "n": 1,
+     "slug": "1572-07-19"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 3,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-08-31",
+     "n": 1,
+     "slug": "1572-08-31"
+    },
+    {
+     "date": "1572-10-23",
+     "n": 1,
+     "slug": "1572-10-23"
+    },
+    {
+     "date": "1572-11-04",
+     "n": 1,
+     "slug": "1572-11-04"
+    },
+    {
+     "date": "1572-11-20",
+     "n": 1,
+     "slug": "1572-11-20"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 4,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-11-27",
+     "n": 1,
+     "slug": "1572-11-27"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 2,
+     "slug": "1572-12-07"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "2.3522",
+   "name": "Paris",
+   "note": "",
+   "tgn": "7008882",
+   "total": 57
+  },
+  "place-parma": {
+   "country": "Italy",
+   "historical": [
+    "Parma"
+   ],
+   "kind": "place",
+   "lat": "44.8015",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    }
+   ],
+   "lon": "10.3279",
+   "name": "Parma",
+   "note": "",
+   "tgn": "7004942",
+   "total": 1
+  },
+  "place-picardie": {
+   "country": "France",
+   "historical": [
+    "Picchardia",
+    "Picardie"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 2,
+     "slug": "1572-08-04"
+    }
+   ],
+   "lon": "",
+   "name": "Picardy",
+   "note": "",
+   "tgn": "7024273",
+   "total": 4
+  },
+  "place-piemonte": {
+   "country": "Italy",
+   "historical": [
+    "Piemonte",
+    "Piemo̍te"
+   ],
+   "kind": "place",
+   "lat": "45.0522",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 3,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 3,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 2,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 2,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    }
+   ],
+   "lon": "7.5155",
+   "name": "Piedmont",
+   "note": "",
+   "tgn": "7002988",
+   "total": 15
+  },
+  "place-pinerolo": {
+   "country": "Italy",
+   "historical": [
+    "Pineruolo"
+   ],
+   "kind": "place",
+   "lat": "44.8833",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    }
+   ],
+   "lon": "7.3333",
+   "name": "Pinerolo",
+   "note": "",
+   "tgn": "7006116",
+   "total": 2
+  },
+  "place-pisa": {
+   "country": "Italy",
+   "historical": [
+    "Pisa"
+   ],
+   "kind": "place",
+   "lat": "43.7228",
+   "letters": [
+    {
+     "date": "1569-12-21",
+     "n": 1,
+     "slug": "1569-12-21"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02-b"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 2,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-02-12",
+     "n": 2,
+     "slug": "1572-02-12"
+    }
+   ],
+   "lon": "10.4017",
+   "name": "Pisa",
+   "note": "",
+   "tgn": "7004080",
+   "total": 9
+  },
+  "place-poitou": {
+   "country": "France",
+   "historical": [
+    "Poitou",
+    "poitou"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    }
+   ],
+   "lon": "",
+   "name": "Poitou",
+   "note": "",
+   "tgn": "7003945",
+   "total": 1
+  },
+  "place-polonia": {
+   "country": "Poland",
+   "historical": [
+    "Polonia"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "",
+   "name": "Poland",
+   "note": "",
+   "tgn": "7006366",
+   "total": 1
+  },
+  "place-porto-ercole": {
+   "country": "Italy",
+   "historical": [
+    "Portarcole"
+   ],
+   "kind": "place",
+   "lat": "42.3953",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "11.2053",
+   "name": "Porto Ercole",
+   "note": "",
+   "tgn": "7006227",
+   "total": 1
+  },
+  "place-portugal": {
+   "country": "Portugal",
+   "historical": [
+    "Portogallo"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    }
+   ],
+   "lon": "",
+   "name": "Portugal",
+   "note": "",
+   "tgn": "7003502",
+   "total": 2
+  },
+  "place-pragelato": {
+   "country": "Italy",
+   "historical": [
+    "Prageli"
+   ],
+   "kind": "place",
+   "lat": "45.0167",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    }
+   ],
+   "lon": "6.9333",
+   "name": "Pragelato",
+   "note": "",
+   "tgn": "7264358",
+   "total": 1
+  },
+  "place-provence": {
+   "country": "France",
+   "historical": [
+    "Provenza"
+   ],
+   "kind": "place",
+   "lat": "43.7500",
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "5.5000",
+   "name": "Provence",
+   "note": "",
+   "tgn": "7012222",
+   "total": 1
+  },
+  "place-rez": {
+   "country": "France",
+   "historical": [
+    "Rez"
+   ],
+   "kind": "place",
+   "lat": "46.2000",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "-1.4000",
+   "name": "Île de Ré",
+   "note": "",
+   "tgn": "7007231",
+   "total": 1
+  },
+  "place-rochelle": {
+   "country": "France",
+   "historical": [],
+   "kind": "place",
+   "lat": "46.1603",
+   "letters": [
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 2,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 2,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 3,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "-1.1511",
+   "name": "La Rochelle",
+   "note": "",
+   "tgn": "7007228",
+   "total": 17
+  },
+  "place-roma": {
+   "country": "Italy",
+   "historical": [
+    "Roma"
+   ],
+   "kind": "place",
+   "lat": "41.9028",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 4,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "lon": "12.4964",
+   "name": "Rome",
+   "note": "",
+   "tgn": "7000874",
+   "total": 9
+  },
+  "place-rouen": {
+   "country": "France",
+   "historical": [
+    "Roano"
+   ],
+   "kind": "place",
+   "lat": "49.4432",
+   "letters": [
+    {
+     "date": "1571-03-31",
+     "n": 1,
+     "slug": "1571-03-31"
+    }
+   ],
+   "lon": "1.0993",
+   "name": "Rouen",
+   "note": "",
+   "tgn": "7008929",
+   "total": 1
+  },
+  "place-saint-germain-des-pres": {
+   "country": "France",
+   "historical": [
+    "san Germano du prè",
+    "san Germano di Pre"
+   ],
+   "kind": "place",
+   "lat": "48.8539",
+   "letters": [
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02"
+    },
+    {
+     "date": "1570-11-02",
+     "n": 1,
+     "slug": "1570-11-02-b"
+    }
+   ],
+   "lon": "2.3345",
+   "name": "Saint-Germain-des-Prés",
+   "note": "",
+   "tgn": "7008147",
+   "total": 2
+  },
+  "place-saint-germain-en-laye": {
+   "country": "France",
+   "historical": [
+    "San Germano",
+    "San Girmano"
+   ],
+   "kind": "place",
+   "lat": "48.8986",
+   "letters": [
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 3,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "2.0936",
+   "name": "Saint-Germain-en-Laye",
+   "note": "",
+   "tgn": "7008038",
+   "total": 7
+  },
+  "place-saint-jean-dangely": {
+   "country": "France",
+   "historical": [
+    "S. Giovan d'Angeli"
+   ],
+   "kind": "place",
+   "lat": "45.9438",
+   "letters": [
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    }
+   ],
+   "lon": "-0.5197",
+   "name": "Saint-Jean-d'Angély",
+   "note": "",
+   "tgn": "7007240",
+   "total": 1
+  },
+  "place-saluzzo": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "44.6421",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "7.4950",
+   "name": "Saluzzo",
+   "note": "",
+   "tgn": "7004675",
+   "total": 2
+  },
+  "place-sancerre": {
+   "country": "France",
+   "historical": [
+    "Sanserra"
+   ],
+   "kind": "place",
+   "lat": "47.3289",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 2,
+     "slug": "1572-12-07"
+    }
+   ],
+   "lon": "2.8404",
+   "name": "Sancerre",
+   "note": "",
+   "tgn": "7007290",
+   "total": 8
+  },
+  "place-saumur": {
+   "country": "France",
+   "historical": [
+    "Saumur"
+   ],
+   "kind": "place",
+   "lat": "47.2607",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "-0.0763",
+   "name": "Saumur",
+   "note": "",
+   "tgn": "7007390",
+   "total": 1
+  },
+  "place-savoia": {
+   "country": "France",
+   "historical": [
+    "Savoia"
+   ],
+   "kind": "place",
+   "lat": "45.5667",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 2,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    }
+   ],
+   "lon": "5.9333",
+   "name": "Savoy",
+   "note": "",
+   "tgn": "7007817",
+   "total": 6
+  },
+  "place-saxony": {
+   "country": "Germany",
+   "historical": [
+    "Sassonia"
+   ],
+   "kind": "place",
+   "lat": "51.0493",
+   "letters": [
+    {
+     "date": "1571-01-26",
+     "n": 2,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "lon": "13.7384",
+   "name": "Saxony",
+   "note": "",
+   "tgn": "7003777",
+   "total": 3
+  },
+  "place-sedana": {
+   "country": "France",
+   "historical": [
+    "Sedana"
+   ],
+   "kind": "place",
+   "lat": "49.7019",
+   "letters": [
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "lon": "4.9400",
+   "name": "Sedan",
+   "note": "",
+   "tgn": "7007176",
+   "total": 1
+  },
+  "place-soissons": {
+   "country": "France",
+   "historical": [
+    "Soissons",
+    "soissone"
+   ],
+   "kind": "place",
+   "lat": "49.3850",
+   "letters": [
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "lon": "3.3272",
+   "name": "Soissons",
+   "note": "",
+   "tgn": "7007052",
+   "total": 3
+  },
+  "place-toscana": {
+   "country": "Italy",
+   "historical": [
+    "Toscana",
+    "Thoscana"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1571-01-14",
+     "n": 2,
+     "slug": "1571-01-14"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 4,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "",
+   "name": "Tuscany",
+   "note": "",
+   "tgn": "7003003",
+   "total": 11
+  },
+  "place-trento": {
+   "country": "Italy",
+   "historical": [
+    "Trento"
+   ],
+   "kind": "place",
+   "lat": "46.0748",
+   "letters": [
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "lon": "11.1217",
+   "name": "Trent",
+   "note": "",
+   "tgn": "7003994",
+   "total": 1
+  },
+  "place-urbino": {
+   "country": "Italy",
+   "historical": [
+    "Urbino"
+   ],
+   "kind": "place",
+   "lat": "43.726",
+   "letters": [
+    {
+     "date": "1571-01-14",
+     "n": 1,
+     "slug": "1571-01-14"
+    }
+   ],
+   "lon": "12.637",
+   "name": "Urbino",
+   "note": "",
+   "tgn": "7003994",
+   "total": 1
+  },
+  "place-venezia": {
+   "country": "Italy",
+   "historical": [],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-02-06",
+     "n": 1,
+     "slug": "1571-02-06"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "lon": "",
+   "name": "Venice",
+   "note": "Entity needs coordinates and authority references",
+   "tgn": "",
+   "total": 4
+  },
+  "place-vienna": {
+   "country": "Austria",
+   "historical": [],
+   "kind": "place",
+   "lat": "48.2082",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    }
+   ],
+   "lon": "16.3738",
+   "name": "Vienna",
+   "note": "",
+   "tgn": "7008039",
+   "total": 2
+  },
+  "place-vitry": {
+   "country": "France",
+   "historical": [
+    "Vitri Francese"
+   ],
+   "kind": "place",
+   "lat": "48.9996",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    }
+   ],
+   "lon": "4.3939",
+   "name": "Vitry-le-François",
+   "note": "",
+   "tgn": "7007196",
+   "total": 1
+  }
+ }
+}
