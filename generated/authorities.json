@@ -63,6 +63,7 @@
    "aliases": [
     "Alamanni"
    ],
+   "author": false,
    "birth": "1537",
    "death": "1591",
    "image": "",
@@ -91,6 +92,7 @@
   },
   "pers-alberto": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -116,6 +118,7 @@
    "aliases": [
     "Reina di Navarra"
    ],
+   "author": false,
    "birth": "1528-11-16",
    "death": "1572-06-09",
    "image": "Jeanne-albret-navarre.jpg",
@@ -139,6 +142,7 @@
   },
   "pers-anjou-mezieres-r": {
    "aliases": [],
+   "author": false,
    "birth": "1550-10-21",
    "death": "1586",
    "image": "",
@@ -156,6 +160,7 @@
   },
   "pers-auger-ed": {
    "aliases": [],
+   "author": false,
    "birth": "1530",
    "death": "1591",
    "image": "Edmond Auger.jpg",
@@ -184,6 +189,7 @@
   },
   "pers-bellievre-p": {
    "aliases": [],
+   "author": false,
    "birth": "1529",
    "death": "1607",
    "image": "Desnos (née Robin) - Pomponne de Bellièvre, Chancelier de France (1529-1607).jpg",
@@ -207,6 +213,7 @@
   },
   "pers-birague-c": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -245,6 +252,7 @@
   },
   "pers-bobba-t": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "1590",
    "image": "",
@@ -273,6 +281,7 @@
   },
   "pers-bourbon-conde": {
    "aliases": [],
+   "author": false,
    "birth": "1530",
    "death": "1569",
    "image": "",
@@ -299,6 +308,7 @@
     "Principe di Condé",
     "Condè"
    ],
+   "author": false,
    "birth": "1552-12-29",
    "death": "1588-03-05",
    "image": "Conde-henri.jpg",
@@ -327,6 +337,7 @@
   },
   "pers-bourbon-h-nav": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -390,6 +401,7 @@
   },
   "pers-bourbonvendome-l3": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "Ludwik III de Montpensier.JPG",
@@ -420,6 +432,7 @@
    "aliases": [
     "Brichmod"
    ],
+   "author": false,
    "birth": "c. 1502",
    "death": "1572",
    "image": "",
@@ -443,6 +456,7 @@
   },
   "pers-caan": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -466,6 +480,7 @@
   },
   "pers-castellan-h": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -492,6 +507,7 @@
     "Vincenzo da Castello",
     "Chi ella sà"
    ],
+   "author": true,
    "birth": "",
    "death": "",
    "image": "",
@@ -755,6 +771,7 @@
   },
   "pers-charite-h": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -772,6 +789,7 @@
   },
   "pers-cleves-h": {
    "aliases": [],
+   "author": false,
    "birth": "1542-10-31",
    "death": "1601-06-24",
    "image": "Henriette de Nevers.jpg",
@@ -805,6 +823,7 @@
   },
   "pers-coligny-g": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -886,6 +905,7 @@
     "Bartolomeo Concini",
     "Concinno"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -929,6 +949,7 @@
   },
   "pers-corso-a": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -957,6 +978,7 @@
   },
   "pers-cosse-renee": {
    "aliases": [],
+   "author": false,
    "birth": "c. 1550",
    "death": "1622",
    "image": "",
@@ -980,6 +1002,7 @@
   },
   "pers-crotto": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1005,6 +1028,7 @@
    "aliases": [
     "Don Frances d'Alava"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1028,6 +1052,7 @@
   },
   "pers-dani-j": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1051,6 +1076,7 @@
   },
   "pers-delamarck-d": {
    "aliases": [],
+   "author": false,
    "birth": "1544-06-16",
    "death": "1622",
    "image": "Diane de La Marck.jpg",
@@ -1074,6 +1100,7 @@
   },
   "pers-deste-i": {
    "aliases": [],
+   "author": false,
    "birth": "1509-08-25",
    "death": "1572-12-01",
    "image": "Ippolito II d'Este.jpg",
@@ -1107,6 +1134,7 @@
   },
   "pers-deteligny-c": {
    "aliases": [],
+   "author": false,
    "birth": "1535",
    "death": "1572",
    "image": "Charles-louis-de-teligny.jpg",
@@ -1145,6 +1173,7 @@
   },
   "pers-epernon-jl": {
    "aliases": [],
+   "author": false,
    "birth": "1554",
    "death": "1642",
    "image": "Jean Louis de Nogaret de La Valette.jpg",
@@ -1162,6 +1191,7 @@
   },
   "pers-este-a": {
    "aliases": [],
+   "author": false,
    "birth": "1527",
    "death": "1587",
    "image": "",
@@ -1200,6 +1230,7 @@
   },
   "pers-este-card": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1225,6 +1256,7 @@
    "aliases": [
     "Madama di Ferrara"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "Renee de france.jpg",
@@ -1248,6 +1280,7 @@
   },
   "pers-farnese-a-card": {
    "aliases": [],
+   "author": false,
    "birth": "1520-10-07",
    "death": "1589-03-02",
    "image": "Portrait of Cardinal Alessandro Farnese (by Titian)FXD.jpg",
@@ -1271,6 +1304,7 @@
   },
   "pers-france-c": {
    "aliases": [],
+   "author": false,
    "birth": "1547-11-12",
    "death": "1575-02-21",
    "image": "FRANCOIS-CLOUET HERZOGIN-CLAUDIA-TOCHTER-HEINRICHS-II-VON-FRANKREICH CC-BY-SA BSTGS 1489.jpg",
@@ -1299,6 +1333,7 @@
   },
   "pers-galeazzosanseverino-g": {
    "aliases": [],
+   "author": false,
    "birth": "1527",
    "death": "1575",
    "image": "",
@@ -1324,6 +1359,7 @@
    "aliases": [
     "Comte de Retz"
    ],
+   "author": false,
    "birth": "1522-11-04",
    "death": "1602-04-12",
    "image": "Albert-de-Gondi.jpg",
@@ -1362,6 +1398,7 @@
   },
   "pers-gontaut-a": {
    "aliases": [],
+   "author": false,
    "birth": "1524",
    "death": "1592",
    "image": "Armand de Gontaut, baron de Biron.jpg",
@@ -1390,6 +1427,7 @@
   },
   "pers-gonzaga-gugl": {
    "aliases": [],
+   "author": false,
    "birth": "1538",
    "death": "1587",
    "image": "Guglielmo I Gonzaga.jpg",
@@ -1407,6 +1445,7 @@
   },
   "pers-gonzaga-isa": {
    "aliases": [],
+   "author": false,
    "birth": "1537",
    "death": "1579",
    "image": "Isabel Gonzaga by Carderera.jpg",
@@ -1432,6 +1471,7 @@
    "aliases": [
     "Nevers"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1542,6 +1582,7 @@
    "aliases": [
     "Pontefice"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1585,6 +1626,7 @@
   },
   "pers-guadagni": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1611,6 +1653,7 @@
     "Guisa",
     "Duca di Ghisa"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1689,6 +1732,7 @@
   },
   "pers-habsburg-e": {
    "aliases": [],
+   "author": false,
    "birth": "1554-06-05",
    "death": "1592-01-22",
    "image": "François Clouet - Elisabeth of Austria (ca. 1571) - Google Art Project.jpg",
@@ -1742,6 +1786,7 @@
   },
   "pers-habsburg-f": {
    "aliases": [],
+   "author": false,
    "birth": "1527-05-21",
    "death": "1598-09-13",
    "image": "Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg",
@@ -1795,6 +1840,7 @@
   },
   "pers-habsburg-j": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -1825,6 +1871,7 @@
    "aliases": [
     "Cesare"
    ],
+   "author": false,
    "birth": "1527-07-31",
    "death": "1576-10-12",
    "image": "Nicolas Neufchâtel 002.jpg",
@@ -1870,6 +1917,7 @@
    "aliases": [
     "Gioiosa"
    ],
+   "author": false,
    "birth": "1560",
    "death": "1587",
    "image": "Annejoyeuse.jpg",
@@ -1893,6 +1941,7 @@
   },
   "pers-katarzyna-k": {
    "aliases": [],
+   "author": false,
    "birth": "1533-09-15",
    "death": "1572-02-28",
    "image": "Tiziano Vecellio - Bildnis der Erzherzogin Katharina von Österreich.jpg",
@@ -1913,6 +1962,7 @@
     "Baron de la Garde",
     "Baron della guardia"
    ],
+   "author": false,
    "birth": "1498",
    "death": "1578",
    "image": "Antoine des Escalins des Aimars, baron de La Garde.jpg",
@@ -1938,6 +1988,7 @@
    "aliases": [
     "la Mola"
    ],
+   "author": false,
    "birth": "",
    "death": "1574-04-30",
    "image": "",
@@ -1961,6 +2012,7 @@
   },
   "pers-lhospital-m": {
    "aliases": [],
+   "author": false,
    "birth": "1507",
    "death": "1573-03-13",
    "image": "Michel-Hospital.jpg",
@@ -1984,6 +2036,7 @@
   },
   "pers-loignac-j": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2001,6 +2054,7 @@
   },
   "pers-lorraine-c": {
    "aliases": [],
+   "author": false,
    "birth": "1543-02-18",
    "death": "1608-05-14",
    "image": "Charles III, Duke of Lorraine, by studio of François Clouet.jpg",
@@ -2031,6 +2085,7 @@
    "aliases": [
     "d'Aumale"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2062,6 +2117,7 @@
     "Lorena",
     "Loreno"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2125,6 +2181,7 @@
   },
   "pers-lorraine-chr": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2142,6 +2199,7 @@
   },
   "pers-lorraine-h": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2167,6 +2225,7 @@
    "aliases": [
     "Loreno"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "Guise.jpg",
@@ -2190,6 +2249,7 @@
   },
   "pers-lorraine-h2": {
    "aliases": [],
+   "author": false,
    "birth": "1563-11-08",
    "death": "1624-07-31",
    "image": "Henri II Lorraine.jpg",
@@ -2209,6 +2269,7 @@
    "aliases": [
     "Maldonato"
    ],
+   "author": false,
    "birth": "1533",
    "death": "1583-01-05",
    "image": "Maldonatus.jpg",
@@ -2234,6 +2295,7 @@
    "aliases": [
     "Mauvissière"
    ],
+   "author": false,
    "birth": "1520",
    "death": "1592",
    "image": "Jaspar Isaac - Michel de Castelnau Mauvissière - 11-511165.jpg",
@@ -2259,6 +2321,7 @@
    "aliases": [
     "Reina"
    ],
+   "author": false,
    "birth": "1519",
    "death": "1589",
    "image": "Catarina de' Medici Uffizi.jpg",
@@ -2369,6 +2432,7 @@
    "aliases": [
     "Gran Duca"
    ],
+   "author": false,
    "birth": "1519",
    "death": "1574",
    "image": "Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg",
@@ -2452,6 +2516,7 @@
   },
   "pers-medici-fer": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2480,6 +2545,7 @@
   },
   "pers-medici-giovanna": {
    "aliases": [],
+   "author": false,
    "birth": "1547-01-24",
    "death": "1578-04-11",
    "image": "Alessandro Allori 033.jpg",
@@ -2497,6 +2563,7 @@
   },
   "pers-michiel-g": {
    "aliases": [],
+   "author": false,
    "birth": "1516",
    "death": "1596",
    "image": "",
@@ -2522,6 +2589,7 @@
    "aliases": [
     "Monlucco"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "Blaise-monluc.jpg",
@@ -2563,6 +2631,7 @@
     "Montmoransy",
     "Mamoransi"
    ],
+   "author": false,
    "birth": "1530",
    "death": "1579",
    "image": "Clouet-montmorencyfrançois.jpg",
@@ -2654,6 +2723,7 @@
     "Méru",
     "Damville"
    ],
+   "author": false,
    "birth": "1537-03-31",
    "death": "1612-05-05",
    "image": "Charles de Montmorency, duc de Damville by Massard.jpg",
@@ -2686,6 +2756,7 @@
     "Thoré",
     "turu"
    ],
+   "author": false,
    "birth": "c. 1543",
    "death": "1593",
    "image": "",
@@ -2711,6 +2782,7 @@
    "aliases": [
     "Danville"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "François Clouet (cercle de) - Henri 1er, Duc de Montmorency, Seigneur de Damville.jpg",
@@ -2739,6 +2811,7 @@
   },
   "pers-nassau-l": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2779,6 +2852,7 @@
    "aliases": [
     "Principe di Orange"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2830,6 +2904,7 @@
     "Longueville",
     "Longavilla"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -2865,6 +2940,7 @@
    "aliases": [
     "Cardinal Orsino"
    ],
+   "author": false,
    "birth": "1532",
    "death": "1581-05-16",
    "image": "",
@@ -2888,6 +2964,7 @@
   },
   "pers-orsini-t": {
    "aliases": [],
+   "author": false,
    "birth": "1547",
    "death": "1577-12-02",
    "image": "",
@@ -2931,6 +3008,7 @@
   },
   "pers-osmanli-s2": {
    "aliases": [],
+   "author": false,
    "birth": "1524-05-28",
    "death": "1574-12-15",
    "image": "Portrait of Selim II by Nakkaş Osman, Şemâ'ilnâme, 1579, Istanbul, Topkapı Sarayı Müzesi, Н. 1563.jpg",
@@ -2979,6 +3057,7 @@
   },
   "pers-ossonville": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3002,6 +3081,7 @@
   },
   "pers-papazzone-g": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3025,6 +3105,7 @@
   },
   "pers-pazzi-f": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3048,6 +3129,7 @@
   },
   "pers-petrucci": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "1628",
    "image": "",
@@ -3116,6 +3198,7 @@
   },
   "pers-pfalz-fr-3": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3151,6 +3234,7 @@
    "aliases": [
     "Duca di Duponte"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3182,6 +3266,7 @@
     "Michele Ghislieri",
     "Papa"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3215,6 +3300,7 @@
   },
   "pers-pontefice": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3240,6 +3326,7 @@
    "aliases": [
     "Ivan the Terrible"
    ],
+   "author": false,
    "birth": "1530-08-25",
    "death": "1584-03-18",
    "image": "Ivan grozny frame.jpg",
@@ -3268,6 +3355,7 @@
   },
   "pers-rosieres": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3293,6 +3381,7 @@
    "aliases": [
     "Duca di Sassonia Agost"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3318,6 +3407,7 @@
    "aliases": [
     "Guglielmo duca di Sassonia"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3343,6 +3433,7 @@
    "aliases": [
     "Monsig. Salviati"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3366,6 +3457,7 @@
   },
   "pers-sanseverino-g": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3391,6 +3483,7 @@
    "aliases": [
     "di Susa"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3414,6 +3507,7 @@
   },
   "pers-savoie-h-ten": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3437,6 +3531,7 @@
   },
   "pers-savoie-j-nem": {
    "aliases": [],
+   "author": false,
    "birth": "1531",
    "death": "1585",
    "image": "Jacques de Savoie duc de Nemours - François Clouet.jpg",
@@ -3480,6 +3575,7 @@
   },
   "pers-savoy-em-fil": {
    "aliases": [],
+   "author": false,
    "birth": "1528",
    "death": "1580",
    "image": "Ritratto di Emanuele Filiberto di Savoia.jpg",
@@ -3528,6 +3624,7 @@
   },
   "pers-sorbin-a": {
    "aliases": [],
+   "author": false,
    "birth": "1532-07-14",
    "death": "1606-05-01",
    "image": "",
@@ -3553,6 +3650,7 @@
    "aliases": [
     "Striggi"
    ],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3578,6 +3676,7 @@
    "aliases": [
     "Strozzi"
    ],
+   "author": false,
    "birth": "1541",
    "death": "1582",
    "image": "Strozzi-philippe.jpg",
@@ -3601,6 +3700,7 @@
   },
   "pers-tavannes-g": {
    "aliases": [],
+   "author": false,
    "birth": "1509",
    "death": "1573-06-19",
    "image": "Gaspard-Saulx.jpg",
@@ -3624,6 +3724,7 @@
   },
   "pers-taxis-c": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3647,6 +3748,7 @@
   },
   "pers-termes-j": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "",
    "image": "",
@@ -3667,6 +3769,7 @@
     "Duca d'Alva",
     "Duca d'Alba"
    ],
+   "author": false,
    "birth": "1507-10-29",
    "death": "1582-12-11",
    "image": "Fernando Álvarez de Toledo, III Duque de Alba, retratado por Antonio Moro.jpg",
@@ -3695,6 +3798,7 @@
   },
   "pers-tudor-e": {
    "aliases": [],
+   "author": false,
    "birth": "1533",
    "death": "1603",
    "image": "Elizabeth1England.jpg",
@@ -3743,6 +3847,7 @@
   },
   "pers-vaini-e": {
    "aliases": [],
+   "author": false,
    "birth": "1537",
    "death": "1612",
    "image": "",
@@ -3768,6 +3873,7 @@
    "aliases": [
     "Re"
    ],
+   "author": false,
    "birth": "1550",
    "death": "1574",
    "image": "Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg",
@@ -3879,6 +3985,7 @@
     "Duca d'Alansone",
     "Monseigneur le Duc"
    ],
+   "author": false,
    "birth": "1555-03-18",
    "death": "1584-06-10",
    "image": "",
@@ -3917,6 +4024,7 @@
   },
   "pers-valois-h-3": {
    "aliases": [],
+   "author": false,
    "birth": "1551",
    "death": "1589",
    "image": "",
@@ -3955,6 +4063,7 @@
   },
   "pers-valois-m": {
    "aliases": [],
+   "author": false,
    "birth": "1553-05-14",
    "death": "1615-03-27",
    "image": "Marguerite de Valois vers 1574.jpg",
@@ -3983,6 +4092,7 @@
   },
   "pers-vigor-s": {
    "aliases": [],
+   "author": false,
    "birth": "1515",
    "death": "1575",
    "image": "",
@@ -4008,6 +4118,7 @@
    "aliases": [
     "Ambasciatore Inglese"
    ],
+   "author": false,
    "birth": "1532",
    "death": "1590-04-06",
    "image": "Sir Francis Walsingham by John De Critz the Elder.jpg",
@@ -4031,6 +4142,7 @@
   },
   "pers-zibramonti-a": {
    "aliases": [],
+   "author": false,
    "birth": "",
    "death": "1589",
    "image": "",
@@ -4048,6 +4160,7 @@
   },
   "pers-zygmunt-z": {
    "aliases": [],
+   "author": false,
    "birth": "1520-08-01",
    "death": "1572-07-07",
    "image": "Cranach the Younger Sigismund II Augustus.jpg",

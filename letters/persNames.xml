@@ -538,7 +538,7 @@
         </person>
 
         <!-- Physicians and Surgeons -->
-        <person xml:id="pers-cavriana-f">
+        <person xml:id="pers-cavriana-f" role="author">
           <persName>Filippo Cavriana</persName>
           <persName type="sort">Cavriana, Filippo</persName>
           <persName type="alias">Vincenzo da Castello</persName>

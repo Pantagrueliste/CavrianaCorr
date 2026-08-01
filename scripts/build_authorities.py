@@ -45,6 +45,9 @@ def build_persons() -> dict:
         viaf = idnos.get("VIAF", "")
         out[pid] = {
             "kind": "person",
+            # The correspondence's own author, who signs nearly every letter,
+            # is recorded here but not listed among the people it names.
+            "author": p.get("role") == "author",
             "name": text(primary) if primary is not None else pid,
             # Index form, family name first; falls back to natural order.
             "sortName": sort_form or (text(primary) if primary is not None else pid),
