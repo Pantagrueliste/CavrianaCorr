@@ -64,10 +64,11 @@
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <placeName ref="#place-fr">Francia</placeName>
-          <date notBefore="1572-05-12" notAfter="1572-12-05" cert="medium">1572</date>
+          <date notBefore="1572-05-12" notAfter="1572-05-28" cert="medium">1572</date>
         </correspAction>
-        <correspAction type="received"><persName><persName ref="#pers-concino-b">Bartolomeo Concino</persName>
-          <placeName ref="#place-florence">Florence</placeName></persName>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -76,7 +77,7 @@
     <body>
       <div type="letter">
         <pb n="114r"/>
-        <note type="editorial">No opening salutation is present in the transcription. The letter begins directly with the body text. No closing date or signature is present. The date is estimated from internal evidence: the death of Pope Pius V (1 May 1572) is known but the new pope has not yet been elected or the news has not yet reached France; preparations for the wedding of Marguerite de Valois are underway; Strozzi's naval expedition is being organised.</note>
+        <note type="editorial">No opening salutation is present in the transcription. The letter begins directly with the body text. No closing date or signature is present. The date is estimated from internal evidence: the death of Pope Pius V (1 May 1572) is known but the new pope has not yet been elected or the news has not yet reached France; preparations for the wedding of Marguerite de Valois are underway; Strozzi's naval expedition is being organised. The letter of 28 May 1572 in this collection already reports the election of Gregory XIII, which sets the terminus ante quem.</note>
 
         <p>Mi è occorso, più volte di parlare col ministro di quel gran principe, del quale gia ho scritto a Vostra Signoria Illustrissima quanto havevo potuto cavare dalli ragionamenti che meco ha per diverse occasioni tenuto e semopre li ho trovato del medesimo finora; intorno alla volontà del suo padrone, verso il nostro, Replicandomi, che e si vede che diverso camino tiene vostra Altezza da quello, che haveva per tutto il tempo passato tenuto col suo signore; et che l'ambasciatore che qui risiede haveva cosi ben servito alla volontà, (ma non necessità del <persName ref="#pers-medici-cos-1">gran duvca</persName>) in questa corte¡, che quando sua Altezza a i suoi figliuoli fussero stati qui presenti, a maneggiar il negotio, che per ancho non è, dici egli fornito, non havriano potuto, o saputo far piu. La qual cosa pareva bene di fuori via in che rilevasse servitio al <persName ref="#pers-medici-cos-1">gran duvca</persName>, ma chi dall'altra parte la sminuiva l'amorevolezza del suo prencipe, il quale non usava muoversi di liggiero ne alle voci, o <unclear>gran gatto</unclear> di ogni uno; ma che però, una flemma di quel capo, come cominciava a muoversi rendeva attonito, et stupido ogniuno queste formali parole, mi ha piu volte detto et sempre con un riso, che pareva da pensier turbato, dando due o tre scosse al capo. Io le instava pure per sapere; qual negotio fusse questo, non anchor fornito, ma eglim noin ha voluto andar più inanzi, sempre dicendomi; el tempo lo dirà. Dal che io cavo, come per correlario che in costoro sia entrato in gran sospetto, et che vadino spiando il quando di nostri affari, i quali cercheranno di rendere difficili il più che loro sia possibile.</p>
 

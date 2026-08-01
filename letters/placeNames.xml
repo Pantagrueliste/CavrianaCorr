@@ -188,8 +188,6 @@
         </place>
 
         <place xml:id="place-saint-germain-des-pres">
-          <placeName type="historical" xml:lang="it">San Germano</placeName>
-          <placeName type="historical" xml:lang="it">San Girmano</placeName>
           <placeName type="historical" xml:lang="it">san Germano du prè</placeName>
           <placeName type="historical" xml:lang="it">san Germano di Pre</placeName>
           <placeName type="modern" xml:lang="fr">Saint-Germain-des-Prés</placeName>
@@ -752,6 +750,7 @@
 
         <place xml:id="place-saint-germain-en-laye">
           <placeName type="historical" xml:lang="it">San Germano</placeName>
+          <placeName type="historical" xml:lang="it">San Girmano</placeName>
           <placeName type="modern" xml:lang="fr">Saint-Germain-en-Laye</placeName>
           <placeName type="country" xml:lang="en">France</placeName>
           <location>

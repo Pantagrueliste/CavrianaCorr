@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <placeName>Mantua</placeName>
-                        <repository>Archivio di Stato di Mantovae</repository>
+                        <repository>Archivio di Stato di Mantova</repository>
                         <collection>Archivio Gonzaga</collection>
                         <idno>b654</idno>
                     </msIdentifier>
@@ -60,7 +60,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-                    <placeName ref="#place-mantova">Nevers</placeName>
+                    <placeName ref="#place-nevers">Nevers</placeName>
                     <date when="1568-05-04">4 May 1568</date>
                 </correspAction>
                 <correspAction type="received">

@@ -433,7 +433,7 @@
           <birth>1547</birth>
           <death>1577-12-02</death>
           <occupation type="military">condottiere</occupation>
-          <occupation type="diplomatic">ambassador</occupation>
+          <occupation type="diplomat">ambassador</occupation>
         </person>
         <person xml:id="pers-nassau-w">
           <persName>Willem van Oranje</persName>
@@ -789,6 +789,18 @@
         </person>
 
         <!-- INCOMPLETE ENTITIES (needs research) -->
+        <person xml:id="pers-zibramonti-a">
+          <persName>Aurelio Zibramonti</persName>
+          <sex value="male"/>
+          <occupation>Ducal secretary in Mantua</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
+        <person xml:id="pers-michiel-g">
+          <persName>Giovanni Michiel</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">Venetian ambassador to France</occupation>
+          <note>Entity needs research and completion</note>
+        </person>
         <person xml:id="pers-bourbon-conde">
           <persName>Louis I de Bourbon, Prince of Condé</persName>
           <sex value="male"/>
@@ -860,7 +872,7 @@
           <persName>Hugues de La Charité</persName>
           <persName type="Italian">Ugone</persName>
           <sex value="male"/>
-          <occupation type="religious">Franciscan Friar</occupation>
+          <occupation type="ecclesiastic">Franciscan Friar</occupation>
         </person>
         <person xml:id="pers-loignac-j">
           <persName>Jacques de Loignac</persName>

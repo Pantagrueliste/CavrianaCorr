@@ -75,14 +75,7 @@
     <body>
       <div type="letter">
         <pb n="296r"/>
-        <opener>
-          <salute/>
-        </opener>
-        <p/>
-        <closer>
-          <salute/>
-          <signed/>
-        </closer>
+        <p><gap reason="untranscribed"/></p>
       </div>
     </body>
   </text>

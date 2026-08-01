@@ -34,6 +34,7 @@
               <author>Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">Letter discussing Cavriana's position as physician to the Queen Mother and his obligations regarding the Order of Santo Stefano</note>
+              <note type="editorial">Damaged fragment: the right margin is lost throughout. The text appears to be a partial witness of the letter transcribed in full as 1571-02-06.xml (identical incipit, same addressee), whose date is itself given as 6 February with the year unclear. Withheld from publication pending collation of the two witnesses.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -55,8 +56,9 @@
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
           <date notBefore="1570-01-01" notAfter="1570-12-31" cert="low">1570</date>
         </correspAction>
-        <correspAction type="received"><persName><persName ref="#pers-concino-b">Bartolomeo Concino</persName>
-          <placeName ref="#place-florence">Florence</placeName></persName>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -66,7 +68,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc status="placeholder">
-      <change when="2025-01-01">Initial encoding — incomplete transcription, approximate date only</change>
+      <change when="2025-01-01">Initial encoding — incomplete transcription, approximate date only; withheld from publication as a damaged fragment apparently duplicating 1571-02-06.xml</change>
     </revisionDesc>
   </teiHeader>
   <text>

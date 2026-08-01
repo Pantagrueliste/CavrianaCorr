@@ -73,6 +73,9 @@
           <placeName ref="#">Corte</placeName>
           <date when="1572-02-06">6 February 1572</date>
         </correspAction>
+        <correspAction type="received">
+          <persName><!-- Recipient unknown --></persName>
+        </correspAction>
       </correspDesc>
     </profileDesc>
   </teiHeader>
