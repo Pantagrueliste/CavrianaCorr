@@ -101,8 +101,11 @@ const HeatmapDisplay = () => {
   const showCellTooltip = (date, value, e) => {
     const rect = e.target.getBoundingClientRect();
 
-    // Format date for display
-    const displayDate = new Date(date);
+    // Format date for display. Build the Date from components: parsing the
+    // 'YYYY-MM-DD' string yields UTC midnight, which formats as the previous
+    // day for viewers in negative-offset zones.
+    const [dy, dm, dd] = date.split('-').map(Number);
+    const displayDate = new Date(dy, dm - 1, dd);
     const formattedDate = displayDate.toLocaleDateString(undefined, {
       year: 'numeric',
       month: 'long',

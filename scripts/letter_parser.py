@@ -40,6 +40,12 @@ def process_xml(path: Path):
         root = etree.parse(path).getroot()
         q = lambda xp: root.xpath(xp, namespaces=NS)
 
+        # Letters withheld from publication (untranscribed stubs, incomplete
+        # fragments) have no page on the site, so they stay out of the
+        # metadata CSV and the heatmap it drives.
+        if q("//tei:revisionDesc[@status='placeholder']"):
+            return None
+
         date  = q("//tei:correspAction[@type='sent']/tei:date")
         place = q("//tei:correspAction[@type='sent']/tei:placeName")
         sender   = q("//tei:correspAction[@type='sent']/tei:persName")
@@ -58,7 +64,8 @@ def process_xml(path: Path):
         word_count = count_body_words(body[0]) if body else 0
 
         return {
-            "date"      : (date[0].get("when") or "") if date else "",
+            "file"      : path.name,
+            "date"      : (date[0].get("when") or date[0].get("notBefore") or "") if date else "",
             "place"     : get_text(place[0])   if place else "",
             "sender"    : get_text(sender[0])  if sender else "",
             "receiver"  : get_text(receiver[0])if receiver else "",
@@ -83,7 +90,7 @@ def main():
         writer = csv.DictWriter(
             f,
             fieldnames=[
-                "date","place","sender","receiver","repository",
+                "file","date","place","sender","receiver","repository",
                 "idno","locus","word_count","summary"
             ],
         )

@@ -141,13 +141,13 @@ def check_entity_consistency():
     # Get defined entities
     defined_pers = set()
     for person in pers_doc.xpath(".//tei:person", namespaces=NS):
-        pers_id = person.get("xml:id", "")
+        pers_id = person.get("{http://www.w3.org/XML/1998/namespace}id", "")
         if pers_id:
             defined_pers.add(pers_id)
     
     defined_places = set()
     for place in place_doc.xpath(".//tei:place", namespaces=NS):
-        place_id = place.get("xml:id", "")
+        place_id = place.get("{http://www.w3.org/XML/1998/namespace}id", "")
         if place_id:
             defined_places.add(place_id)
     
@@ -164,16 +164,16 @@ def check_entity_consistency():
             # Check person references
             person_refs = doc.xpath(".//tei:persName[@ref]/@ref", namespaces=NS)
             for ref in person_refs:
-                # Handle both #pers-id and pers-id formats
-                clean_ref = ref if ref.startswith("#") else f"#{ref}"
+                # Authority ids are bare (no #), refs carry a # prefix
+                clean_ref = ref.lstrip("#")
                 if clean_ref not in defined_pers:
                     entity_issues["undefined_person_ref"].append(f"{xml_file.name}: {ref}")
             
             # Check place references
             place_refs = doc.xpath(".//tei:placeName[@ref]/@ref", namespaces=NS)
             for ref in place_refs:
-                # Handle both #place-id and place-id formats
-                clean_ref = ref if ref.startswith("#") else f"#{ref}"
+                # Authority ids are bare (no #), refs carry a # prefix
+                clean_ref = ref.lstrip("#")
                 if clean_ref not in defined_places:
                     entity_issues["undefined_place_ref"].append(f"{xml_file.name}: {ref}")
             

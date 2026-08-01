@@ -8,12 +8,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 /* overwritten by generate_heatmap.py */
-const YEARS = [1566, 1568, 1569, 1570, 1571, 1572, 1574];
+const YEARS = [1568, 1569, 1570, 1571, 1572, 1574];
 const rows  = [
-  {
-    "date": "1566-12-31",
-    "value": 0
-  },
   {
     "date": "1568-04-06",
     "value": 544
@@ -55,40 +51,20 @@ const rows  = [
     "value": 1238
   },
   {
-    "date": "1569-03-11",
-    "value": 0
-  },
-  {
     "date": "1569-11-29",
     "value": 500
-  },
-  {
-    "date": "1569-12-09",
-    "value": 0
   },
   {
     "date": "1569-12-21",
     "value": 648
   },
   {
-    "date": "1569-12-31",
-    "value": 0
-  },
-  {
     "date": "1570-03-20",
     "value": 756
   },
   {
-    "date": "1570-03-30",
-    "value": 0
-  },
-  {
     "date": "1570-05-20",
     "value": 1876
-  },
-  {
-    "date": "1570-05-30",
-    "value": 0
   },
   {
     "date": "1570-07-15",
@@ -99,24 +75,12 @@ const rows  = [
     "value": 1738
   },
   {
-    "date": "1570-08-08",
-    "value": 0
-  },
-  {
     "date": "1570-08-17",
     "value": 3316
   },
   {
-    "date": "1570-08-27",
-    "value": 0
-  },
-  {
     "date": "1570-09-01",
     "value": 5416
-  },
-  {
-    "date": "1570-09-09",
-    "value": 0
   },
   {
     "date": "1570-09-11",
@@ -127,24 +91,12 @@ const rows  = [
     "value": 436
   },
   {
-    "date": "1570-09-24",
-    "value": 0
-  },
-  {
     "date": "1570-10-03",
     "value": 912
   },
   {
-    "date": "1570-10-09",
-    "value": 0
-  },
-  {
     "date": "1570-10-13",
     "value": 4497
-  },
-  {
-    "date": "1570-10-23",
-    "value": 0
   },
   {
     "date": "1570-11-02",
@@ -155,16 +107,8 @@ const rows  = [
     "value": 1974
   },
   {
-    "date": "1570-11-07",
-    "value": 0
-  },
-  {
     "date": "1570-11-09",
     "value": 278
-  },
-  {
-    "date": "1570-11-12",
-    "value": 0
   },
   {
     "date": "1571-01-12",
@@ -179,24 +123,12 @@ const rows  = [
     "value": 2458
   },
   {
-    "date": "1571-02-05",
-    "value": 0
-  },
-  {
     "date": "1571-02-06",
     "value": 2081
   },
   {
     "date": "1571-03-31",
     "value": 2170
-  },
-  {
-    "date": "1571-04-10",
-    "value": 0
-  },
-  {
-    "date": "1571-04-11",
-    "value": 0
   },
   {
     "date": "1571-04-18",
@@ -207,14 +139,6 @@ const rows  = [
     "value": 1394
   },
   {
-    "date": "1571-04-28",
-    "value": 0
-  },
-  {
-    "date": "1571-06-02",
-    "value": 0
-  },
-  {
     "date": "1571-06-27",
     "value": 628
   },
@@ -223,48 +147,12 @@ const rows  = [
     "value": 1296
   },
   {
-    "date": "1571-07-10",
-    "value": 0
-  },
-  {
     "date": "1571-07-15",
     "value": 328
   },
   {
-    "date": "1571-07-17",
-    "value": 0
-  },
-  {
-    "date": "1571-08-08",
-    "value": 0
-  },
-  {
     "date": "1571-08-14",
     "value": 572
-  },
-  {
-    "date": "1571-08-24",
-    "value": 0
-  },
-  {
-    "date": "1571-09-28",
-    "value": 0
-  },
-  {
-    "date": "1571-11-04",
-    "value": 0
-  },
-  {
-    "date": "1571-12-08",
-    "value": 0
-  },
-  {
-    "date": "1571-12-11",
-    "value": 0
-  },
-  {
-    "date": "1572-01-22",
-    "value": 0
   },
   {
     "date": "1572-02-06",
@@ -283,36 +171,16 @@ const rows  = [
     "value": 1520
   },
   {
-    "date": "1572-03-29",
-    "value": 0
-  },
-  {
-    "date": "1572-04-17",
-    "value": 0
-  },
-  {
     "date": "1572-04-22",
     "value": 2538
   },
   {
-    "date": "1572-05-02",
-    "value": 0
+    "date": "1572-05-12",
+    "value": 4292
   },
   {
     "date": "1572-05-28",
     "value": 3076
-  },
-  {
-    "date": "1572-06-07",
-    "value": 0
-  },
-  {
-    "date": "1572-06-12",
-    "value": 0
-  },
-  {
-    "date": "1572-06-13",
-    "value": 0
   },
   {
     "date": "1572-07-12",
@@ -323,44 +191,16 @@ const rows  = [
     "value": 1402
   },
   {
-    "date": "1572-07-22",
-    "value": 0
-  },
-  {
-    "date": "1572-07-29",
-    "value": 0
-  },
-  {
     "date": "1572-08-04",
     "value": 4754
-  },
-  {
-    "date": "1572-08-13",
-    "value": 0
-  },
-  {
-    "date": "1572-08-27",
-    "value": 0
   },
   {
     "date": "1572-08-31",
     "value": 1290
   },
   {
-    "date": "1572-09-10",
-    "value": 0
-  },
-  {
     "date": "1572-10-23",
     "value": 868
-  },
-  {
-    "date": "1572-10-29",
-    "value": 0
-  },
-  {
-    "date": "1572-11-02",
-    "value": 0
   },
   {
     "date": "1572-11-04",
@@ -379,28 +219,12 @@ const rows  = [
     "value": 1320
   },
   {
-    "date": "1572-11-30",
-    "value": 0
-  },
-  {
     "date": "1572-12-01",
     "value": 2252
   },
   {
     "date": "1572-12-07",
     "value": 1828
-  },
-  {
-    "date": "1572-12-15",
-    "value": 0
-  },
-  {
-    "date": "1572-12-17",
-    "value": 0
-  },
-  {
-    "date": "1572-12-28",
-    "value": 0
   },
   {
     "date": "1574-03-06",
@@ -498,8 +322,11 @@ const HeatmapDisplay = () => {
   const showCellTooltip = (date, value, e) => {
     const rect = e.target.getBoundingClientRect();
 
-    // Format date for display
-    const displayDate = new Date(date);
+    // Format date for display. Build the Date from components: parsing the
+    // 'YYYY-MM-DD' string yields UTC midnight, which formats as the previous
+    // day for viewers in negative-offset zones.
+    const [dy, dm, dd] = date.split('-').map(Number);
+    const displayDate = new Date(dy, dm - 1, dd);
     const formattedDate = displayDate.toLocaleDateString(undefined, {
       year: 'numeric',
       month: 'long',

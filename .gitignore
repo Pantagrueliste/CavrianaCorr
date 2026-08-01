@@ -2,3 +2,4 @@
 /data/
 .claude/
 docs/transcription-agenda.md
+__pycache__/
