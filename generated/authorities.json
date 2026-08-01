@@ -4076,6 +4076,7 @@
   },
   "place-ancona": {
    "country": "Italy",
+   "geonames": "6542126",
    "historical": [
     "Ancona"
    ],
@@ -4101,12 +4102,15 @@
    "lon": "13.5189",
    "name": "Ancona",
    "note": "",
+   "scope": "",
    "sortName": "Ancona",
-   "tgn": "7004220",
-   "total": 5
+   "tgn": "7003980",
+   "total": 5,
+   "wikidata": "Q3415"
   },
   "place-angrogna": {
    "country": "Italy",
+   "geonames": "6543041",
    "historical": [
     "l'Angrogna"
    ],
@@ -4122,18 +4126,21 @@
    "lon": "7.1833",
    "name": "Angrogna",
    "note": "",
+   "scope": "",
    "sortName": "Angrogna",
-   "tgn": "7264258",
-   "total": 1
+   "tgn": "1043222",
+   "total": 1,
+   "wikidata": "Q9004"
   },
   "place-anjou": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Anjou",
     "Anioù"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "47.4667",
    "letters": [
     {
      "date": "1572-02-06",
@@ -4141,20 +4148,23 @@
      "slug": "1572-02-06"
     }
    ],
-   "lon": "",
+   "lon": "-0.5500",
    "name": "Anjou",
    "note": "",
+   "scope": "",
    "sortName": "Anjou",
-   "tgn": "7007395",
-   "total": 1
+   "tgn": "",
+   "total": 1,
+   "wikidata": "Q107426"
   },
   "place-ardena": {
    "country": "France/Belgium",
+   "geonames": "2803095",
    "historical": [
     "Ardena"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "50.2500",
    "letters": [
     {
      "date": "1572-12-01",
@@ -4162,15 +4172,18 @@
      "slug": "1572-12-01"
     }
    ],
-   "lon": "",
+   "lon": "5.6667",
    "name": "Ardennes",
    "note": "",
+   "scope": "",
    "sortName": "Ardennes",
-   "tgn": "7003622",
-   "total": 1
+   "tgn": "",
+   "total": 1,
+   "wikidata": "Q151985"
   },
   "place-auxerre": {
    "country": "France",
+   "geonames": "3035843",
    "historical": [
     "Ossarra"
    ],
@@ -4186,12 +4199,15 @@
    "lon": "3.5733",
    "name": "Auxerre",
    "note": "",
+   "scope": "",
    "sortName": "Auxerre",
-   "tgn": "7007078",
-   "total": 1
+   "tgn": "7013341",
+   "total": 1,
+   "wikidata": "Q167600"
   },
   "place-bagni-di-lucca": {
    "country": "Italy",
+   "geonames": "6539959",
    "historical": [],
    "kind": "place",
    "lat": "44.0117",
@@ -4215,12 +4231,15 @@
    "lon": "10.5829",
    "name": "Bagni di Lucca",
    "note": "",
+   "scope": "",
    "sortName": "Bagni di Lucca",
-   "tgn": "7011806",
-   "total": 4
+   "tgn": "7006075",
+   "total": 4,
+   "wikidata": "Q216399"
   },
   "place-bar-sur-aube": {
    "country": "France",
+   "geonames": "3034802",
    "historical": [
     "Bar su Auba"
    ],
@@ -4236,17 +4255,20 @@
    "lon": "4.1540",
    "name": "Bar-sur-Aube",
    "note": "",
+   "scope": "",
    "sortName": "Bar-sur-Aube",
-   "tgn": "7007401",
-   "total": 1
+   "tgn": "7008984",
+   "total": 1,
+   "wikidata": "Q209093"
   },
   "place-baviera": {
    "country": "Germany",
+   "geonames": "2951839",
    "historical": [
     "Baviera"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "49.0786",
    "letters": [
     {
      "date": "1572-11-21",
@@ -4254,18 +4276,21 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "",
+   "lon": "11.3856",
    "name": "Bavaria",
    "note": "",
+   "scope": "",
    "sortName": "Bavaria",
    "tgn": "7003669",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q980"
   },
   "place-blois": {
    "country": "France",
+   "geonames": "3032213",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "47.5931",
    "letters": [
     {
      "date": "1572-02-12",
@@ -4293,15 +4318,18 @@
      "slug": "1572-05-28"
     }
    ],
-   "lon": "",
+   "lon": "1.3272",
    "name": "Blois",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Blois",
-   "tgn": "",
-   "total": 5
+   "tgn": "7008320",
+   "total": 5,
+   "wikidata": "Q160927"
   },
   "place-bollione": {
    "country": "Belgium",
+   "geonames": "2801284",
    "historical": [
     "Bollione"
    ],
@@ -4317,12 +4345,15 @@
    "lon": "5.0667",
    "name": "Bouillon",
    "note": "",
+   "scope": "",
    "sortName": "Bouillon",
-   "tgn": "",
-   "total": 1
+   "tgn": "1026347",
+   "total": 1,
+   "wikidata": "Q217216"
   },
   "place-bordeaux": {
    "country": "France",
+   "geonames": "3031582",
    "historical": [
     "Bordeaux"
    ],
@@ -4338,12 +4369,15 @@
    "lon": "-0.5792",
    "name": "Bordeaux",
    "note": "",
+   "scope": "",
    "sortName": "Bordeaux",
-   "tgn": "7007251",
-   "total": 2
+   "tgn": "7008161",
+   "total": 2,
+   "wikidata": "Q1479"
   },
   "place-bourbon": {
    "country": "France",
+   "geonames": "",
    "historical": [],
    "kind": "place",
    "lat": "",
@@ -4357,12 +4391,15 @@
    "lon": "",
    "name": "Bourbon",
    "note": "Entity needs coordinates and authority references",
+   "scope": "",
    "sortName": "Bourbon",
    "tgn": "",
-   "total": 1
+   "total": 1,
+   "wikidata": ""
   },
   "place-bretagne": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Bretagna"
    ],
@@ -4383,12 +4420,15 @@
    "lon": "-2.9326",
    "name": "Bretagne",
    "note": "",
+   "scope": "",
    "sortName": "Bretagne",
-   "tgn": "7024267",
-   "total": 2
+   "tgn": "7012216",
+   "total": 2,
+   "wikidata": ""
   },
   "place-chalons-en-champagne": {
    "country": "France",
+   "geonames": "6618295",
    "historical": [
     "Sciallone"
    ],
@@ -4404,12 +4444,15 @@
    "lon": "4.3673",
    "name": "Châlons-en-Champagne",
    "note": "",
+   "scope": "",
    "sortName": "Châlons-en-Champagne",
-   "tgn": "7007918",
-   "total": 1
+   "tgn": "7658604",
+   "total": 1,
+   "wikidata": "Q47135"
   },
   "place-chantilly": {
    "country": "France",
+   "geonames": "6438625",
    "historical": [],
    "kind": "place",
    "lat": "49.1947",
@@ -4423,12 +4466,15 @@
    "lon": "2.4856",
    "name": "Chantilly",
    "note": "",
+   "scope": "",
    "sortName": "Chantilly",
-   "tgn": "7007221",
-   "total": 1
+   "tgn": "7010573",
+   "total": 1,
+   "wikidata": "Q126675"
   },
   "place-charenton-le-pont": {
    "country": "France",
+   "geonames": "3026637",
    "historical": [
     "S. Moro Di Ponte Sciallanti"
    ],
@@ -4444,12 +4490,15 @@
    "lon": "2.4121",
    "name": "Charenton-le-Pont",
    "note": "",
+   "scope": "",
    "sortName": "Charenton-le-Pont",
-   "tgn": "7007277",
-   "total": 1
+   "tgn": "7007614",
+   "total": 1,
+   "wikidata": "Q212793"
   },
   "place-chatillon-sur-seine": {
    "country": "France",
+   "geonames": "3026046",
    "historical": [
     "Castillione su Senna"
    ],
@@ -4465,12 +4514,15 @@
    "lon": "4.5728",
    "name": "Châtillon-sur-Seine",
    "note": "",
+   "scope": "",
    "sortName": "Châtillon-sur-Seine",
-   "tgn": "7008480",
-   "total": 1
+   "tgn": "7008222",
+   "total": 1,
+   "wikidata": "Q244707"
   },
   "place-cognac": {
    "country": "France",
+   "geonames": "3024440",
    "historical": [],
    "kind": "place",
    "lat": "45.6950",
@@ -4484,12 +4536,15 @@
    "lon": "-0.3272",
    "name": "Cognac",
    "note": "",
+   "scope": "",
    "sortName": "Cognac",
-   "tgn": "7007412",
-   "total": 1
+   "tgn": "7008568",
+   "total": 1,
+   "wikidata": "Q285"
   },
   "place-colonia": {
    "country": "Germany",
+   "geonames": "3247451",
    "historical": [
     "Colonia"
    ],
@@ -4505,12 +4560,15 @@
    "lon": "6.9603",
    "name": "Köln",
    "note": "",
+   "scope": "",
    "sortName": "Köln",
    "tgn": "7004446",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q365"
   },
   "place-corsica": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Corsica"
    ],
@@ -4526,18 +4584,21 @@
    "lon": "9.0129",
    "name": "Corse",
    "note": "",
+   "scope": "",
    "sortName": "Corse",
-   "tgn": "7002898",
-   "total": 1
+   "tgn": "7651069",
+   "total": 1,
+   "wikidata": "Q14112"
   },
   "place-de": {
    "country": "Germany",
+   "geonames": "2921044",
    "historical": [
     "Germania",
     "lamagna"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "51.0000",
    "letters": [
     {
      "date": "1570-05-20",
@@ -4590,15 +4651,18 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "",
+   "lon": "10.0000",
    "name": "Germany",
    "note": "",
+   "scope": "country",
    "sortName": "Germany",
-   "tgn": "7001430",
-   "total": 14
+   "tgn": "7000084",
+   "total": 14,
+   "wikidata": "Q183"
   },
   "place-ecouen": {
    "country": "France",
+   "geonames": "3020440",
    "historical": [],
    "kind": "place",
    "lat": "49.0189",
@@ -4617,17 +4681,20 @@
    "lon": "2.3778",
    "name": "Écouen",
    "note": "",
+   "scope": "",
    "sortName": "Écouen",
-   "tgn": "7007074",
-   "total": 2
+   "tgn": "7008036",
+   "total": 2,
+   "wikidata": "Q273695"
   },
   "place-england": {
    "country": "England",
+   "geonames": "2649994",
    "historical": [
     "Inghiltera"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "53.0000",
    "letters": [
     {
      "date": "1571-03-31",
@@ -4660,20 +4727,23 @@
      "slug": "1572-12-01"
     }
    ],
-   "lon": "",
+   "lon": "-1.0000",
    "name": "England",
    "note": "",
+   "scope": "country",
    "sortName": "England",
    "tgn": "7002445",
-   "total": 13
+   "total": 13,
+   "wikidata": "Q21"
   },
   "place-es": {
    "country": "Spain",
+   "geonames": "2510769",
    "historical": [
     "Spagna"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "40.2000",
    "letters": [
     {
      "date": "1570-09-11",
@@ -4726,18 +4796,21 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "",
+   "lon": "-3.5000",
    "name": "Spain",
    "note": "",
+   "scope": "country",
    "sortName": "Spain",
-   "tgn": "7002327",
-   "total": 35
+   "tgn": "1000095",
+   "total": 35,
+   "wikidata": "Q29"
   },
   "place-europe": {
    "country": "Europe",
+   "geonames": "6255148",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "53.5000",
    "letters": [
     {
      "date": "1570-09-01",
@@ -4745,18 +4818,21 @@
      "slug": "1570-09-01"
     }
    ],
-   "lon": "",
+   "lon": "15.5000",
    "name": "Europe",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "continent",
    "sortName": "Europe",
-   "tgn": "",
-   "total": 1
+   "tgn": "1000003",
+   "total": 1,
+   "wikidata": "Q46"
   },
   "place-ferrara": {
    "country": "Italy",
+   "geonames": "6542120",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "44.8392",
    "letters": [
     {
      "date": "1571-02-06",
@@ -4784,20 +4860,23 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "",
+   "lon": "11.6175",
    "name": "Ferrara",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Ferrara",
-   "tgn": "",
-   "total": 7
+   "tgn": "7004264",
+   "total": 7,
+   "wikidata": "Q13362"
   },
   "place-fiandra": {
    "country": "Belgium",
+   "geonames": "3337388",
    "historical": [
     "Fiandra"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "51.0000",
    "letters": [
     {
      "date": "1571-01-12",
@@ -4820,15 +4899,18 @@
      "slug": "1574-03-06"
     }
    ],
-   "lon": "",
+   "lon": "4.5000",
    "name": "Flanders",
    "note": "",
+   "scope": "",
    "sortName": "Flanders",
-   "tgn": "7001997",
-   "total": 9
+   "tgn": "7024097",
+   "total": 9,
+   "wikidata": "Q234"
   },
   "place-firenze": {
    "country": "Italy",
+   "geonames": "6542285",
    "historical": [
     "Firenze"
    ],
@@ -4874,12 +4956,15 @@
    "lon": "11.2558",
    "name": "Florence",
    "note": "",
+   "scope": "",
    "sortName": "Florence",
-   "tgn": "7003893",
-   "total": 10
+   "tgn": "7000457",
+   "total": 10,
+   "wikidata": "Q2044"
   },
   "place-flesinga": {
    "country": "Netherlands",
+   "geonames": "2745391",
    "historical": [
     "Flesinga"
    ],
@@ -4895,18 +4980,21 @@
    "lon": "3.5731",
    "name": "Vlissingen",
    "note": "",
+   "scope": "",
    "sortName": "Vlissingen",
-   "tgn": "",
-   "total": 1
+   "tgn": "7006750",
+   "total": 1,
+   "wikidata": "Q10084"
   },
   "place-fr": {
    "country": "France",
+   "geonames": "3017382",
    "historical": [
     "Francia",
     "francia"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "47.0000",
    "letters": [
     {
      "date": "1569-12-21",
@@ -4999,22 +5087,25 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "",
+   "lon": "2.0000",
    "name": "France",
    "note": "",
+   "scope": "country",
    "sortName": "France",
    "tgn": "1000070",
-   "total": 49
+   "total": 49,
+   "wikidata": "Q142"
   },
   "place-gascogne": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Vascogna",
     "Guascogna",
     "Gascogna"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "44.0000",
    "letters": [
     {
      "date": "1572-05-12",
@@ -5027,18 +5118,21 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "",
+   "lon": "-0.5000",
    "name": "Gascogne",
    "note": "",
+   "scope": "",
    "sortName": "Gascogne",
-   "tgn": "7024281",
-   "total": 3
+   "tgn": "",
+   "total": 3,
+   "wikidata": "Q191085"
   },
   "place-gatinais": {
    "country": "France",
+   "geonames": "",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "48.1269",
    "letters": [
     {
      "date": "1570-09-01",
@@ -5046,18 +5140,21 @@
      "slug": "1570-09-01"
     }
    ],
-   "lon": "",
+   "lon": "2.7544",
    "name": "Gâtinais",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Gâtinais",
-   "tgn": "",
-   "total": 1
+   "tgn": "7644947",
+   "total": 1,
+   "wikidata": "Q1303414"
   },
   "place-genova": {
    "country": "Italy",
+   "geonames": "6542282",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "44.4072",
    "letters": [
     {
      "date": "1570-09-01",
@@ -5065,18 +5162,21 @@
      "slug": "1570-09-01"
     }
    ],
-   "lon": "",
+   "lon": "8.9340",
    "name": "Genoa",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Genoa",
-   "tgn": "",
-   "total": 1
+   "tgn": "7008546",
+   "total": 1,
+   "wikidata": "Q1449"
   },
   "place-guyenne": {
    "country": "France",
+   "geonames": "",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "43.9770",
    "letters": [
     {
      "date": "1570-10-13",
@@ -5084,15 +5184,18 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "",
+   "lon": "-0.1760",
    "name": "Guyenne",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Guyenne",
    "tgn": "",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q849324"
   },
   "place-heidelberg": {
    "country": "Germany",
+   "geonames": "2907911",
    "historical": [],
    "kind": "place",
    "lat": "49.3988",
@@ -5106,17 +5209,20 @@
    "lon": "8.6724",
    "name": "Heidelberg",
    "note": "",
+   "scope": "",
    "sortName": "Heidelberg",
-   "tgn": "7003720",
-   "total": 1
+   "tgn": "7005177",
+   "total": 1,
+   "wikidata": "Q2966"
   },
   "place-hollanda": {
    "country": "Netherlands",
+   "geonames": "",
    "historical": [
     "Hollanda"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "52.2500",
    "letters": [
     {
      "date": "1572-12-01",
@@ -5124,20 +5230,23 @@
      "slug": "1572-12-01"
     }
    ],
-   "lon": "",
+   "lon": "4.6670",
    "name": "Holland",
    "note": "",
+   "scope": "",
    "sortName": "Holland",
-   "tgn": "7003631",
-   "total": 1
+   "tgn": "7263522",
+   "total": 1,
+   "wikidata": "Q102911"
   },
   "place-it": {
    "country": "Italy",
+   "geonames": "3175395",
    "historical": [
     "Italia"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "42.5000",
    "letters": [
     {
      "date": "1568-05-05",
@@ -5225,15 +5334,18 @@
      "slug": "1572-12-07"
     }
    ],
-   "lon": "",
+   "lon": "12.5000",
    "name": "Italy",
    "note": "",
+   "scope": "country",
    "sortName": "Italy",
    "tgn": "1000080",
-   "total": 26
+   "total": 26,
+   "wikidata": "Q38"
   },
   "place-la-charite": {
    "country": "France",
+   "geonames": "3010201",
    "historical": [
     "la Charite"
    ],
@@ -5259,17 +5371,20 @@
    "lon": "3.0147",
    "name": "La Charité",
    "note": "",
+   "scope": "",
    "sortName": "La Charité",
-   "tgn": "7004492",
-   "total": 4
+   "tgn": "7017054",
+   "total": 4,
+   "wikidata": "Q504883"
   },
   "place-languedoc": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Langudoca"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "43.6667",
    "letters": [
     {
      "date": "1572-11-21",
@@ -5277,18 +5392,21 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "",
+   "lon": "3.1667",
    "name": "Languedoc",
    "note": "",
+   "scope": "",
    "sortName": "Languedoc",
-   "tgn": "7024283",
-   "total": 1
+   "tgn": "7002884",
+   "total": 1,
+   "wikidata": "Q206221"
   },
   "place-lille": {
    "country": "France",
+   "geonames": "2998324",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "50.6319",
    "letters": [
     {
      "date": "1570-09-01",
@@ -5296,18 +5414,21 @@
      "slug": "1570-09-01"
     }
    ],
-   "lon": "",
+   "lon": "3.0575",
    "name": "Lille",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Lille",
-   "tgn": "",
-   "total": 1
+   "tgn": "7008461",
+   "total": 1,
+   "wikidata": "Q648"
   },
   "place-limousin": {
    "country": "France",
+   "geonames": "2998268",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "45.6880",
    "letters": [
     {
      "date": "1570-10-13",
@@ -5315,15 +5436,18 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "",
+   "lon": "1.6205",
    "name": "Limousin",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Limousin",
-   "tgn": "",
-   "total": 1
+   "tgn": "7001095",
+   "total": 1,
+   "wikidata": "Q1190"
   },
   "place-livorno": {
    "country": "Italy",
+   "geonames": "6540122",
    "historical": [
     "Livorno"
    ],
@@ -5339,12 +5463,15 @@
    "lon": "10.3106",
    "name": "Livorno",
    "note": "",
+   "scope": "",
    "sortName": "Livorno",
-   "tgn": "7004060",
-   "total": 1
+   "tgn": "7006074",
+   "total": 1,
+   "wikidata": "Q6761"
   },
   "place-lombardia": {
    "country": "Italy",
+   "geonames": "3174618",
    "historical": [
     "Lombardia"
    ],
@@ -5360,12 +5487,15 @@
    "lon": "9.2050",
    "name": "Lombardia",
    "note": "",
+   "scope": "",
    "sortName": "Lombardia",
-   "tgn": "7009742",
-   "total": 2
+   "tgn": "7003237",
+   "total": 2,
+   "wikidata": "Q1210"
   },
   "place-lorraine": {
    "country": "France",
+   "geonames": "2997551",
    "historical": [
     "Loreno"
    ],
@@ -5391,12 +5521,15 @@
    "lon": "6.1834",
    "name": "Lorraine",
    "note": "",
+   "scope": "",
    "sortName": "Lorraine",
-   "tgn": "7003635",
-   "total": 5
+   "tgn": "7002888",
+   "total": 5,
+   "wikidata": "Q1137"
   },
   "place-lucca": {
    "country": "Italy",
+   "geonames": "6542121",
    "historical": [],
    "kind": "place",
    "lat": "43.8430",
@@ -5410,12 +5543,15 @@
    "lon": "10.5077",
    "name": "Lucca",
    "note": "",
+   "scope": "",
    "sortName": "Lucca",
-   "tgn": "7005341",
-   "total": 1
+   "tgn": "7003165",
+   "total": 1,
+   "wikidata": "Q13373"
   },
   "place-luxembourg": {
    "country": "Luxembourg",
+   "geonames": "2960316",
    "historical": [
     "Luxemburg"
    ],
@@ -5431,15 +5567,18 @@
    "lon": "6.1300",
    "name": "Luxembourg",
    "note": "",
+   "scope": "",
    "sortName": "Luxembourg",
-   "tgn": "7006949",
-   "total": 1
+   "tgn": "7006254",
+   "total": 1,
+   "wikidata": "Q1842"
   },
   "place-lyon": {
    "country": "France",
+   "geonames": "2996944",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "45.7675",
    "letters": [
     {
      "date": "1570-09-01",
@@ -5452,15 +5591,18 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "",
+   "lon": "4.8350",
    "name": "Lyon",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Lyon",
-   "tgn": "",
-   "total": 2
+   "tgn": "8728756",
+   "total": 2,
+   "wikidata": "Q456"
   },
   "place-mantova": {
    "country": "Italy",
+   "geonames": "6541855",
    "historical": [
     "Mantova"
    ],
@@ -5486,12 +5628,15 @@
    "lon": "10.7914",
    "name": "Mantova",
    "note": "",
+   "scope": "",
    "sortName": "Mantova",
-   "tgn": "7004626",
-   "total": 3
+   "tgn": "7005879",
+   "total": 3,
+   "wikidata": "Q6247"
   },
   "place-marne": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Marna"
    ],
@@ -5507,12 +5652,15 @@
    "lon": "4.0367",
    "name": "Marna",
    "note": "",
+   "scope": "",
    "sortName": "Marna",
-   "tgn": "7007119",
-   "total": 1
+   "tgn": "7658604",
+   "total": 1,
+   "wikidata": ""
   },
   "place-marseille": {
    "country": "France",
+   "geonames": "2995469",
    "historical": [
     "Marsilia"
    ],
@@ -5528,12 +5676,15 @@
    "lon": "5.3698",
    "name": "Marseille",
    "note": "",
+   "scope": "",
    "sortName": "Marseille",
-   "tgn": "7008772",
-   "total": 1
+   "tgn": "7008781",
+   "total": 1,
+   "wikidata": "Q23482"
   },
   "place-metz": {
    "country": "France",
+   "geonames": "2994160",
    "historical": [
     "Metz"
    ],
@@ -5549,12 +5700,15 @@
    "lon": "6.1757",
    "name": "Metz",
    "note": "",
+   "scope": "",
    "sortName": "Metz",
-   "tgn": "7004558",
-   "total": 1
+   "tgn": "7008418",
+   "total": 1,
+   "wikidata": "Q22690"
   },
   "place-milano": {
    "country": "Italy",
+   "geonames": "3173435",
    "historical": [
     "Millano"
    ],
@@ -5575,12 +5729,15 @@
    "lon": "9.1900",
    "name": "Milano",
    "note": "",
+   "scope": "",
    "sortName": "Milano",
-   "tgn": "7003853",
-   "total": 2
+   "tgn": "7005903",
+   "total": 2,
+   "wikidata": "Q490"
   },
   "place-monceau": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Monceau"
    ],
@@ -5596,12 +5753,15 @@
    "lon": "3.0036",
    "name": "Monceau",
    "note": "",
+   "scope": "",
    "sortName": "Monceau",
-   "tgn": "7007100",
-   "total": 1
+   "tgn": "7249203",
+   "total": 1,
+   "wikidata": ""
   },
   "place-monferrato": {
    "country": "Italy",
+   "geonames": "",
    "historical": [
     "Monferrato"
    ],
@@ -5617,12 +5777,15 @@
    "lon": "8.27",
    "name": "Montferrat",
    "note": "",
+   "scope": "",
    "sortName": "Montferrat",
    "tgn": "7009566",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q19868"
   },
   "place-montargis": {
    "country": "France",
+   "geonames": "2993024",
    "historical": [
     "Montargis"
    ],
@@ -5638,12 +5801,15 @@
    "lon": "2.7333",
    "name": "Montargis",
    "note": "",
+   "scope": "",
    "sortName": "Montargis",
    "tgn": "7008336",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q212352"
   },
   "place-montauban": {
    "country": "France",
+   "geonames": "2993002",
    "historical": [
     "Montauban"
    ],
@@ -5659,12 +5825,15 @@
    "lon": "1.3500",
    "name": "Montauban",
    "note": "",
+   "scope": "",
    "sortName": "Montauban",
-   "tgn": "7007339",
-   "total": 1
+   "tgn": "7008454",
+   "total": 1,
+   "wikidata": "Q172593"
   },
   "place-montereau": {
    "country": "France",
+   "geonames": "2992671",
    "historical": [
     "Montereau"
    ],
@@ -5680,12 +5849,15 @@
    "lon": "2.9500",
    "name": "Montereau",
    "note": "",
+   "scope": "",
    "sortName": "Montereau",
-   "tgn": "7007096",
-   "total": 1
+   "tgn": "7009353",
+   "total": 1,
+   "wikidata": "Q242191"
   },
   "place-montlucon": {
    "country": "France",
+   "geonames": "2992292",
    "historical": [
     "Monlucon"
    ],
@@ -5701,12 +5873,15 @@
    "lon": "2.6000",
    "name": "Montluçon",
    "note": "",
+   "scope": "",
    "sortName": "Montluçon",
-   "tgn": "7008381",
-   "total": 1
+   "tgn": "7009366",
+   "total": 1,
+   "wikidata": "Q193256"
   },
   "place-napoli": {
    "country": "Italy",
+   "geonames": "3172395",
    "historical": [
     "Napoli"
    ],
@@ -5722,15 +5897,18 @@
    "lon": "14.2681",
    "name": "Napoli",
    "note": "",
+   "scope": "",
    "sortName": "Napoli",
    "tgn": "7004474",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q2634"
   },
   "place-navarre": {
    "country": "Spain/France",
+   "geonames": "",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "42.8169",
    "letters": [
     {
      "date": "1570-10-13",
@@ -5738,30 +5916,36 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "",
+   "lon": "-1.6428",
    "name": "Navarre",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Navarre",
    "tgn": "",
-   "total": 2
+   "total": 2,
+   "wikidata": "Q200262"
   },
   "place-netherlands": {
    "country": "Netherlands",
+   "geonames": "2750405",
    "historical": [
     "Paesi Bassi"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "52.3167",
    "letters": [],
-   "lon": "",
+   "lon": "5.5500",
    "name": "Netherlands",
    "note": "",
+   "scope": "country",
    "sortName": "Netherlands",
-   "tgn": "1000140",
-   "total": 0
+   "tgn": "7016845",
+   "total": 0,
+   "wikidata": "Q55"
   },
   "place-nevers": {
    "country": "France",
+   "geonames": "2990474",
    "historical": [],
    "kind": "place",
    "lat": "46.9917",
@@ -5800,12 +5984,15 @@
    "lon": "3.1620",
    "name": "Nevers",
    "note": "",
+   "scope": "",
    "sortName": "Nevers",
-   "tgn": "7007062",
-   "total": 6
+   "tgn": "7008240",
+   "total": 6,
+   "wikidata": "Q166997"
   },
   "place-nivernais": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Nivernese"
    ],
@@ -5821,12 +6008,15 @@
    "lon": "3.1500",
    "name": "Nivernais",
    "note": "",
+   "scope": "",
    "sortName": "Nivernais",
-   "tgn": "7017068",
-   "total": 1
+   "tgn": "7012206",
+   "total": 1,
+   "wikidata": "Q1468519"
   },
   "place-normandie": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Normandie",
     "Normandia"
@@ -5853,12 +6043,15 @@
    "lon": "",
    "name": "Normandie",
    "note": "",
+   "scope": "",
    "sortName": "Normandie",
-   "tgn": "7003584",
-   "total": 4
+   "tgn": "",
+   "total": 4,
+   "wikidata": ""
   },
   "place-orbetello": {
    "country": "Italy",
+   "geonames": "6541107",
    "historical": [
     "Orbatello"
    ],
@@ -5874,15 +6067,18 @@
    "lon": "11.2133",
    "name": "Orbetello",
    "note": "",
+   "scope": "",
    "sortName": "Orbetello",
-   "tgn": "7006228",
-   "total": 1
+   "tgn": "7006176",
+   "total": 1,
+   "wikidata": "Q214849"
   },
   "place-orleans": {
    "country": "France",
+   "geonames": "2989317",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "47.9022",
    "letters": [
     {
      "date": "1570-09-01",
@@ -5895,15 +6091,18 @@
      "slug": "1571-01-12"
     }
    ],
-   "lon": "",
+   "lon": "1.9042",
    "name": "Orléans",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Orléans",
-   "tgn": "",
-   "total": 2
+   "tgn": "7008337",
+   "total": 2,
+   "wikidata": "Q6548"
   },
   "place-padova": {
    "country": "Italy",
+   "geonames": "6542281",
    "historical": [],
    "kind": "place",
    "lat": "45.4064",
@@ -5917,12 +6116,15 @@
    "lon": "11.8768",
    "name": "Padua",
    "note": "",
+   "scope": "",
    "sortName": "Padua",
-   "tgn": "7004426",
-   "total": 1
+   "tgn": "7003085",
+   "total": 1,
+   "wikidata": "Q617"
   },
   "place-paris": {
    "country": "France",
+   "geonames": "2988507",
    "historical": [
     "Parigi",
     "parigi"
@@ -6094,12 +6296,15 @@
    "lon": "2.3522",
    "name": "Paris",
    "note": "",
+   "scope": "",
    "sortName": "Paris",
-   "tgn": "7008882",
-   "total": 57
+   "tgn": "7008038",
+   "total": 57,
+   "wikidata": "Q90"
   },
   "place-parma": {
    "country": "Italy",
+   "geonames": "6540120",
    "historical": [
     "Parma"
    ],
@@ -6115,18 +6320,21 @@
    "lon": "10.3279",
    "name": "Parma",
    "note": "",
+   "scope": "",
    "sortName": "Parma",
    "tgn": "7004942",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q2683"
   },
   "place-picardie": {
    "country": "France",
+   "geonames": "2987375",
    "historical": [
     "Picchardia",
     "Picardie"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "49.5000",
    "letters": [
     {
      "date": "1571-01-14",
@@ -6144,15 +6352,18 @@
      "slug": "1572-08-04"
     }
    ],
-   "lon": "",
+   "lon": "2.8333",
    "name": "Picardy",
    "note": "",
+   "scope": "",
    "sortName": "Picardy",
    "tgn": "7024273",
-   "total": 4
+   "total": 4,
+   "wikidata": "Q13950"
   },
   "place-piemonte": {
    "country": "Italy",
+   "geonames": "3170831",
    "historical": [
     "Piemonte",
     "Piemo̍te"
@@ -6209,12 +6420,15 @@
    "lon": "7.5155",
    "name": "Piedmont",
    "note": "",
+   "scope": "",
    "sortName": "Piedmont",
-   "tgn": "7002988",
-   "total": 15
+   "tgn": "7003120",
+   "total": 15,
+   "wikidata": "Q1216"
   },
   "place-pinerolo": {
    "country": "Italy",
+   "geonames": "6540662",
    "historical": [
     "Pineruolo"
    ],
@@ -6235,12 +6449,15 @@
    "lon": "7.3333",
    "name": "Pinerolo",
    "note": "",
+   "scope": "",
    "sortName": "Pinerolo",
-   "tgn": "7006116",
-   "total": 2
+   "tgn": "7005728",
+   "total": 2,
+   "wikidata": "Q9573"
   },
   "place-pisa": {
    "country": "Italy",
+   "geonames": "6542122",
    "historical": [
     "Pisa"
    ],
@@ -6286,18 +6503,21 @@
    "lon": "10.4017",
    "name": "Pisa",
    "note": "",
+   "scope": "",
    "sortName": "Pisa",
-   "tgn": "7004080",
-   "total": 9
+   "tgn": "7006082",
+   "total": 9,
+   "wikidata": "Q13375"
   },
   "place-poitou": {
    "country": "France",
+   "geonames": "2986493",
    "historical": [
     "Poitou",
     "poitou"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "46.6486",
    "letters": [
     {
      "date": "1570-10-13",
@@ -6305,20 +6525,23 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "",
+   "lon": "-0.2478",
    "name": "Poitou",
    "note": "",
+   "scope": "",
    "sortName": "Poitou",
-   "tgn": "7003945",
-   "total": 1
+   "tgn": "7002891",
+   "total": 1,
+   "wikidata": "Q954076"
   },
   "place-polonia": {
    "country": "Poland",
+   "geonames": "798544",
    "historical": [
     "Polonia"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "52.0000",
    "letters": [
     {
      "date": "1572-11-21",
@@ -6326,15 +6549,18 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "",
+   "lon": "19.0000",
    "name": "Poland",
    "note": "",
+   "scope": "country",
    "sortName": "Poland",
    "tgn": "7006366",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q36"
   },
   "place-porto-ercole": {
    "country": "Italy",
+   "geonames": "3170119",
    "historical": [
     "Portarcole"
    ],
@@ -6350,17 +6576,20 @@
    "lon": "11.2053",
    "name": "Porto Ercole",
    "note": "",
+   "scope": "",
    "sortName": "Porto Ercole",
-   "tgn": "7006227",
-   "total": 1
+   "tgn": "1046135",
+   "total": 1,
+   "wikidata": "Q1394400"
   },
   "place-portugal": {
    "country": "Portugal",
+   "geonames": "2264397",
    "historical": [
     "Portogallo"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "38.7000",
    "letters": [
     {
      "date": "1572-05-12",
@@ -6368,15 +6597,18 @@
      "slug": "1572-05-12"
     }
    ],
-   "lon": "",
+   "lon": "-9.1833",
    "name": "Portugal",
    "note": "",
+   "scope": "country",
    "sortName": "Portugal",
-   "tgn": "7003502",
-   "total": 2
+   "tgn": "1000090",
+   "total": 2,
+   "wikidata": "Q45"
   },
   "place-pragelato": {
    "country": "Italy",
+   "geonames": "3169958",
    "historical": [
     "Prageli"
    ],
@@ -6392,12 +6624,15 @@
    "lon": "6.9333",
    "name": "Pragelato",
    "note": "",
+   "scope": "",
    "sortName": "Pragelato",
-   "tgn": "7264358",
-   "total": 1
+   "tgn": "1046177",
+   "total": 1,
+   "wikidata": "Q10201"
   },
   "place-provence": {
    "country": "France",
+   "geonames": "2985246",
    "historical": [
     "Provenza"
    ],
@@ -6413,12 +6648,15 @@
    "lon": "5.5000",
    "name": "Provence",
    "note": "",
+   "scope": "",
    "sortName": "Provence",
-   "tgn": "7012222",
-   "total": 1
+   "tgn": "7012209",
+   "total": 1,
+   "wikidata": "Q101081"
   },
   "place-rez": {
    "country": "France",
+   "geonames": "2984309",
    "historical": [
     "Rez"
    ],
@@ -6434,12 +6672,15 @@
    "lon": "-1.4000",
    "name": "Île de Ré",
    "note": "",
+   "scope": "",
    "sortName": "Île de Ré",
-   "tgn": "7007231",
-   "total": 1
+   "tgn": "7012080",
+   "total": 1,
+   "wikidata": "Q292384"
   },
   "place-rochelle": {
    "country": "France",
+   "geonames": "3006787",
    "historical": [],
    "kind": "place",
    "lat": "46.1603",
@@ -6508,12 +6749,15 @@
    "lon": "-1.1511",
    "name": "La Rochelle",
    "note": "",
+   "scope": "",
    "sortName": "La Rochelle",
-   "tgn": "7007228",
-   "total": 17
+   "tgn": "7009264",
+   "total": 17,
+   "wikidata": "Q82185"
   },
   "place-roma": {
    "country": "Italy",
+   "geonames": "3169070",
    "historical": [
     "Roma"
    ],
@@ -6554,12 +6798,15 @@
    "lon": "12.4964",
    "name": "Rome",
    "note": "",
+   "scope": "",
    "sortName": "Rome",
    "tgn": "7000874",
-   "total": 9
+   "total": 9,
+   "wikidata": "Q220"
   },
   "place-rouen": {
    "country": "France",
+   "geonames": "2982652",
    "historical": [
     "Roano"
    ],
@@ -6575,12 +6822,15 @@
    "lon": "1.0993",
    "name": "Rouen",
    "note": "",
+   "scope": "",
    "sortName": "Rouen",
    "tgn": "7008929",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q30974"
   },
   "place-saint-germain-des-pres": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "san Germano du prè",
     "san Germano di Pre"
@@ -6602,12 +6852,15 @@
    "lon": "2.3345",
    "name": "Saint-Germain-des-Prés",
    "note": "",
+   "scope": "",
    "sortName": "Saint-Germain-des-Prés",
-   "tgn": "7008147",
-   "total": 2
+   "tgn": "7607890",
+   "total": 2,
+   "wikidata": "Q604717"
   },
   "place-saint-germain-en-laye": {
    "country": "France",
+   "geonames": "2979783",
    "historical": [
     "San Germano",
     "San Girmano"
@@ -6644,12 +6897,15 @@
    "lon": "2.0936",
    "name": "Saint-Germain-en-Laye",
    "note": "",
+   "scope": "",
    "sortName": "Saint-Germain-en-Laye",
-   "tgn": "7008038",
-   "total": 7
+   "tgn": "8723310",
+   "total": 7,
+   "wikidata": "Q60847808"
   },
   "place-saint-jean-dangely": {
    "country": "France",
+   "geonames": "6428080",
    "historical": [
     "S. Giovan d'Angeli"
    ],
@@ -6665,12 +6921,15 @@
    "lon": "-0.5197",
    "name": "Saint-Jean-d'Angély",
    "note": "",
+   "scope": "",
    "sortName": "Saint-Jean-d'Angély",
-   "tgn": "7007240",
-   "total": 1
+   "tgn": "7009634",
+   "total": 1,
+   "wikidata": "Q348807"
   },
   "place-saluzzo": {
    "country": "Italy",
+   "geonames": "6539909",
    "historical": [],
    "kind": "place",
    "lat": "44.6421",
@@ -6689,12 +6948,15 @@
    "lon": "7.4950",
    "name": "Saluzzo",
    "note": "",
+   "scope": "",
    "sortName": "Saluzzo",
-   "tgn": "7004675",
-   "total": 2
+   "tgn": "7005648",
+   "total": 2,
+   "wikidata": "Q20454"
   },
   "place-sancerre": {
    "country": "France",
+   "geonames": "2976251",
    "historical": [
     "Sanserra"
    ],
@@ -6740,12 +7002,15 @@
    "lon": "2.8404",
    "name": "Sancerre",
    "note": "",
+   "scope": "",
    "sortName": "Sancerre",
-   "tgn": "7007290",
-   "total": 8
+   "tgn": "1035612",
+   "total": 8,
+   "wikidata": "Q459683"
   },
   "place-saumur": {
    "country": "France",
+   "geonames": "2975758",
    "historical": [
     "Saumur"
    ],
@@ -6761,12 +7026,15 @@
    "lon": "-0.0763",
    "name": "Saumur",
    "note": "",
+   "scope": "",
    "sortName": "Saumur",
-   "tgn": "7007390",
-   "total": 1
+   "tgn": "7008492",
+   "total": 1,
+   "wikidata": "Q193821"
   },
   "place-savoia": {
    "country": "France",
+   "geonames": "",
    "historical": [
     "Savoia"
    ],
@@ -6802,12 +7070,15 @@
    "lon": "5.9333",
    "name": "Savoy",
    "note": "",
+   "scope": "",
    "sortName": "Savoy",
-   "tgn": "7007817",
-   "total": 6
+   "tgn": "7024413",
+   "total": 6,
+   "wikidata": "Q14118"
   },
   "place-saxony": {
    "country": "Germany",
+   "geonames": "",
    "historical": [
     "Sassonia"
    ],
@@ -6828,12 +7099,15 @@
    "lon": "13.7384",
    "name": "Saxony",
    "note": "",
+   "scope": "",
    "sortName": "Saxony",
-   "tgn": "7003777",
-   "total": 3
+   "tgn": "7003685",
+   "total": 3,
+   "wikidata": "Q156199"
   },
   "place-sedana": {
    "country": "France",
+   "geonames": "6426109",
    "historical": [
     "Sedana"
    ],
@@ -6849,12 +7123,15 @@
    "lon": "4.9400",
    "name": "Sedan",
    "note": "",
+   "scope": "",
    "sortName": "Sedan",
-   "tgn": "7007176",
-   "total": 1
+   "tgn": "7009674",
+   "total": 1,
+   "wikidata": "Q184371"
   },
   "place-soissons": {
    "country": "France",
+   "geonames": "2974389",
    "historical": [
     "Soissons",
     "soissone"
@@ -6881,18 +7158,21 @@
    "lon": "3.3272",
    "name": "Soissons",
    "note": "",
+   "scope": "",
    "sortName": "Soissons",
-   "tgn": "7007052",
-   "total": 3
+   "tgn": "7010563",
+   "total": 3,
+   "wikidata": "Q167152"
   },
   "place-toscana": {
    "country": "Italy",
+   "geonames": "3165361",
    "historical": [
     "Toscana",
     "Thoscana"
    ],
    "kind": "place",
-   "lat": "",
+   "lat": "43.4500",
    "letters": [
     {
      "date": "1570-09-11",
@@ -6925,15 +7205,18 @@
      "slug": "1572-11-21"
     }
    ],
-   "lon": "",
+   "lon": "11.2000",
    "name": "Tuscany",
    "note": "",
+   "scope": "",
    "sortName": "Tuscany",
-   "tgn": "7003003",
-   "total": 11
+   "tgn": "7009760",
+   "total": 11,
+   "wikidata": "Q1273"
   },
   "place-trento": {
    "country": "Italy",
+   "geonames": "6541469",
    "historical": [
     "Trento"
    ],
@@ -6949,12 +7232,15 @@
    "lon": "11.1217",
    "name": "Trent",
    "note": "",
+   "scope": "",
    "sortName": "Trent",
-   "tgn": "7003994",
-   "total": 1
+   "tgn": "7005128",
+   "total": 1,
+   "wikidata": "Q3376"
   },
   "place-urbino": {
    "country": "Italy",
+   "geonames": "6541472",
    "historical": [
     "Urbino"
    ],
@@ -6970,15 +7256,18 @@
    "lon": "12.637",
    "name": "Urbino",
    "note": "",
+   "scope": "",
    "sortName": "Urbino",
    "tgn": "7003994",
-   "total": 1
+   "total": 1,
+   "wikidata": "Q2759"
   },
   "place-venezia": {
    "country": "Italy",
+   "geonames": "6542284",
    "historical": [],
    "kind": "place",
-   "lat": "",
+   "lat": "45.4397",
    "letters": [
     {
      "date": "1570-09-01",
@@ -7001,15 +7290,18 @@
      "slug": "1572-08-04"
     }
    ],
-   "lon": "",
+   "lon": "12.3319",
    "name": "Venice",
-   "note": "Entity needs coordinates and authority references",
+   "note": "",
+   "scope": "",
    "sortName": "Venice",
-   "tgn": "",
-   "total": 4
+   "tgn": "7018159",
+   "total": 4,
+   "wikidata": "Q641"
   },
   "place-vienna": {
    "country": "Austria",
+   "geonames": "2761369",
    "historical": [],
    "kind": "place",
    "lat": "48.2082",
@@ -7023,12 +7315,15 @@
    "lon": "16.3738",
    "name": "Vienna",
    "note": "",
+   "scope": "",
    "sortName": "Vienna",
-   "tgn": "7008039",
-   "total": 2
+   "tgn": "7003321",
+   "total": 2,
+   "wikidata": "Q1741"
   },
   "place-vitry": {
    "country": "France",
+   "geonames": "2967856",
    "historical": [
     "Vitri Francese"
    ],
@@ -7044,9 +7339,11 @@
    "lon": "4.3939",
    "name": "Vitry-le-François",
    "note": "",
+   "scope": "",
    "sortName": "Vitry-le-François",
-   "tgn": "7007196",
-   "total": 1
+   "tgn": "7658604",
+   "total": 1,
+   "wikidata": "Q623374"
   }
  }
 }

@@ -80,14 +80,16 @@ def build_places() -> dict:
             parts = geo.replace(",", " ").split()
             if len(parts) >= 2:
                 lat, lon = parts[0], parts[1]
-        tgn = next((text(i) for i in pl.xpath("./tei:idno", namespaces=NS)
-                    if i.get("type") == "TGN"), "")
+        idnos = {i.get("type"): text(i) for i in pl.xpath("./tei:idno", namespaces=NS)}
+        tgn = idnos.get("TGN", "")
         modern = by_type.get("modern", [])
         historical = by_type.get("historical", [])
         # Some records carry a single untyped placeName, which is the name.
         untyped = by_type.get("other", [])
         out[pid] = {
             "kind": "place",
+            # country and continent records name a whole polity, not a point
+            "scope": pl.get("type", ""),
             "name": (modern or untyped or historical or [pid])[0],
             "sortName": (modern or untyped or historical or [pid])[0],
             "historical": historical,
@@ -95,6 +97,8 @@ def build_places() -> dict:
             "lat": lat,
             "lon": lon,
             "tgn": tgn.rsplit("/", 1)[-1] if tgn else "",
+            "wikidata": idnos.get("WIKIDATA", ""),
+            "geonames": idnos.get("GEONAMES", ""),
             "note": text(pl.find("tei:note", NS)),
         }
     return out
