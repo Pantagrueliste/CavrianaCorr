@@ -32,6 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2026-08-02" who="#CG">The earlier MAP reconciliation had searched only the Florentine and Mantuan functionaries, leaving the French principals unmatched — which made the archive look as though it did not hold Coligny, Guise or the Cardinal of Lorraine. It does. Every remaining person was searched, and 22 more matched where MAP's birth and death years corroborate our own.</change>
       <change when="2026-08-02" who="#CG">MAP's offices carry start and end years, so they are now recorded with @from and @to. A reader can be told what a man held at the moment a letter names him rather than what he became: Vincenzo Alamanni is inviato mediceo in Francia from 1568 and ambasciatore only from 1572.</change>
       <change when="2026-08-02" who="#CG">pers-sanseverino-g merged into pers-galeazzosanseverino-g. The letters call him "conte di Gaiazzo" and "Gaiazzo", and MAP 19477 gives Gian Galeazzo Sanseverino di Aragona the title Conte di Caiazzo, so the two records were one man. Offices, dates and index names for the 39 people carrying a MAP identifier were taken from MAP's biographical records, restricted to posts held between 1566 and 1574.</change>
       <change when="2026-08-02" who="#CG">pers-lorraine-h1 merged into pers-guise-h: both records described Henri I de Lorraine, duke of Guise, and both resolved to the same Wikidata item and the same portrait. The one reference the duplicate held, a bare "Loreno" in the letter of 14 January 1571, was repointed to the Cardinal of Lorraine, which is what bare "Loreno" denotes elsewhere in this corpus. The duplicate's VIAF id was kept, being the one Wikidata records for the duke.</change>
@@ -89,6 +90,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Pulzone, Scipione - Ferdinando I de' Medici, granduca di Toscana - 1590.jpg</idno>
           <birth when="1549-08-09" source="#wikidata">1549-08-09</birth>
           <death when="1609-02-17" source="#wikidata">1609-02-17</death>
+          <idno type="MAP">325</idno>
         </person>
         <!-- Italian Noble Houses – Este -->
         <person xml:id="pers-este-a">
@@ -115,6 +117,7 @@
           <idno type="VIAF">74104371</idno>
           <idno type="WIKIDATA" source="#wikidata">Q554296</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ippolito II d'Este.jpg</idno>
+          <idno type="MAP">429</idno>
         </person>
         <!-- Italian Noble Houses – Savoy -->
         <person xml:id="pers-savoy-em-fil">
@@ -176,6 +179,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Italian School, North Italian - Ludovico Gonzaga (1539-1595) with his Servant. - RCIN 406014 - Royal Collection.jpg</idno>
           <birth when="1539-09-28" source="#wikidata">1539-09-28</birth>
           <death when="1595-10-23" source="#wikidata">1595-10-23</death>
+          <idno type="MAP">3851</idno>
         </person>
         <!-- Other Italian Noble Houses -->
         <person xml:id="pers-galeazzosanseverino-g">
@@ -246,6 +250,7 @@
           <idno type="VIAF">78750412</idno>
           <idno type="WIKIDATA" source="#wikidata">Q220845</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Marguerite de Valois vers 1574.jpg</idno>
+          <idno type="MAP">9065</idno>
         </person>
         <person xml:id="pers-valois-f-alen">
           <persName>François de Valois</persName>
@@ -274,6 +279,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Henry IV of france by pourbous younger.jpg</idno>
           <birth when="1553-12-23" source="#wikidata">1553-12-23</birth>
           <death when="1610-05-14" source="#wikidata">1610-05-14</death>
+          <idno type="MAP">311</idno>
         </person>
         <person xml:id="pers-bourbonvendome-l3">
           <persName>Louis III de Bourbon-Vendôme</persName>
@@ -297,6 +303,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">CharlesdeGuise.jpg</idno>
           <birth when="1524-02-27" source="#wikidata">1524-02-27</birth>
           <death when="1575-01-05" source="#wikidata">1575-01-05</death>
+          <idno type="MAP">12450</idno>
         </person>
         <person xml:id="pers-lorraine-ch-aum">
           <persName>Charles de Lorraine</persName>
@@ -331,6 +338,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Guise.jpg</idno>
           <birth when="1551-01-10" source="#wikidata">1551-01-10</birth>
           <death when="1588-12-23" source="#wikidata">1588-12-23</death>
+          <idno type="MAP">10004</idno>
         </person>
         <!-- French Noble Houses – Montmorency -->
         <person xml:id="pers-montm-fr">
@@ -429,6 +437,7 @@
           <idno type="VIAF">305115069</idno>
           <idno type="WIKIDATA" source="#wikidata">Q242336</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">FRANCOIS-CLOUET HERZOGIN-CLAUDIA-TOCHTER-HEINRICHS-II-VON-FRANKREICH CC-BY-SA BSTGS 1489.jpg</idno>
+          <idno type="MAP">3108</idno>
         </person>
         <person xml:id="pers-cleves-h">
           <persName>Henriette de Clèves</persName>
@@ -440,6 +449,7 @@
           <idno type="VIAF">4552150203822803250006</idno>
           <idno type="WIKIDATA" source="#wikidata">Q289646</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Henriette de Nevers.jpg</idno>
+          <idno type="MAP">4802</idno>
         </person>
         <person xml:id="pers-delamarck-d">
           <persName>Diane de la Marck</persName>
@@ -498,6 +508,7 @@
           <death>1572</death>
           <note>French noble and military figure</note>
           <idno type="WIKIDATA" source="#wikidata">Q96244832</idno>
+          <idno type="MAP">32914</idno>
         </person>
         <person xml:id="pers-lhospital-m">
           <persName>Michel de L'Hospital</persName>
@@ -567,6 +578,7 @@
           <death>1574-04-30</death>
           <note>Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.</note>
           <idno type="WIKIDATA" source="#wikidata">Q1924885</idno>
+          <idno type="MAP">23870</idno>
         </person>
         <!-- Habsburg -->
         <person xml:id="pers-habsburg-e">
@@ -578,6 +590,7 @@
           <idno type="VIAF">97794481</idno>
           <idno type="WIKIDATA" source="#wikidata">Q164512</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">François Clouet - Elisabeth of Austria (ca. 1571) - Google Art Project.jpg</idno>
+          <idno type="MAP">3390</idno>
         </person>
         <person xml:id="pers-habsburg-f">
           <persName>Philippe</persName>
@@ -588,6 +601,7 @@
           <idno type="VIAF">88973996</idno>
           <idno type="WIKIDATA" source="#wikidata">Q34417</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg</idno>
+          <idno type="MAP">182</idno>
         </person>
         <person xml:id="pers-habsburg-m">
           <persName>Maxmilian II</persName>
@@ -639,6 +653,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">François Clouet - Admiral Gaspard II de Coligny - 168-1925 - Saint Louis Art Museum.jpg</idno>
           <birth when="1519-02-26" source="#wikidata">1519-02-26</birth>
           <death when="1572-09-03" source="#wikidata">1572-09-03</death>
+          <idno type="MAP">1461</idno>
         </person>
         <person xml:id="pers-corso-a">
           <persName>Alfonso Corso</persName>
@@ -767,6 +782,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait-Of-Cardinal-Anton-Maria-Salviati.jpg</idno>
           <birth when="1537-01-31" source="#wikidata">1537-01-31</birth>
           <death when="1602-04-26" source="#wikidata">1602-04-26</death>
+          <idno type="MAP">14437</idno>
         </person>
         <person xml:id="pers-gregorio-xiii">
           <persName>Gregory XIII</persName>
@@ -793,6 +809,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Bartolomeo Passarotti - Pius V.jpg</idno>
           <birth when="1504-01-27" source="#wikidata">1504-01-27</birth>
           <death when="1572-05-11" source="#wikidata">1572-05-11</death>
+          <idno type="MAP">359</idno>
         </person>
         <!-- Medicean Officials -->
         <person xml:id="pers-concini-b">
@@ -872,6 +889,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Friedrich der Fromme.jpg</idno>
           <birth when="1515-02-24" source="#wikidata">1515-02-24</birth>
           <death when="1576-11-05" source="#wikidata">1576-11-05</death>
+          <idno type="MAP">968</idno>
         </person>
         <person xml:id="pers-pfalz-jc">
           <persName>Johann Casimir von der Pfalz</persName>
@@ -927,6 +945,7 @@
           <idno type="VIAF">89633898</idno>
           <idno type="WIKIDATA" source="#wikidata">Q7996</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ivan grozny frame.jpg</idno>
+          <idno type="MAP">3118</idno>
         </person>
         <person xml:id="pers-zygmunt-z">
           <persName>Zygmunt II</persName>
@@ -938,6 +957,7 @@
           <idno type="VIAF">804948</idno>
           <idno type="WIKIDATA" source="#wikidata">Q54058</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Cranach the Younger Sigismund II Augustus.jpg</idno>
+          <idno type="MAP">1071</idno>
         </person>
         <!-- Courtiers and Minor Figures -->
         <person xml:id="pers-bobba-t">
@@ -1037,6 +1057,7 @@
           <idno type="VIAF">66475488</idno>
           <idno type="WIKIDATA" source="#wikidata">Q430973</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Conde-henri.jpg</idno>
+          <idno type="MAP">10611</idno>
         </person>
         <person xml:id="pers-albret-j">
           <persName>Jeanne d'Albret</persName>
@@ -1049,6 +1070,7 @@
           <idno type="VIAF">88872517</idno>
           <idno type="WIKIDATA" source="#wikidata">Q229286</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Jeanne-albret-navarre.jpg</idno>
+          <idno type="MAP">10207</idno>
         </person>
         <!-- Italian Noble Houses – Farnese -->
         <person xml:id="pers-farnese-a-card">
@@ -1061,6 +1083,7 @@
           <idno type="VIAF">23504937</idno>
           <idno type="WIKIDATA" source="#wikidata">Q248459</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait of Cardinal Alessandro Farnese (by Titian)FXD.jpg</idno>
+          <idno type="MAP">474</idno>
         </person>
         <!-- Italian Noble Houses – Strozzi -->
         <person xml:id="pers-strozzi-f">
@@ -1118,6 +1141,7 @@
           <idno type="VIAF">20476873</idno>
           <idno type="WIKIDATA" source="#wikidata">Q80847</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Fernando Álvarez de Toledo, III Duque de Alba, retratado por Antonio Moro.jpg</idno>
+          <idno type="MAP">390</idno>
         </person>
         <!-- English Diplomats -->
         <person xml:id="pers-walsingham-f">
@@ -1288,6 +1312,7 @@
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Pulzone, Scipione - Cristina di Lorena, granduchessa di Toscana - 1590.jpg</idno>
           <birth when="1565-08-26" source="#wikidata">1565-08-26</birth>
           <death when="1637-12-19" source="#wikidata">1637-12-19</death>
+          <idno type="MAP">324</idno>
         </person>
         <person xml:id="pers-lorraine-h2">
           <persName>Henri II de Lorraine</persName>
