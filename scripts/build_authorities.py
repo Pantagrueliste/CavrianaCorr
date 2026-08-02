@@ -30,6 +30,13 @@ def text(el) -> str:
     return re.sub(r"\s+", " ", "".join(el.itertext())).strip() if el is not None else ""
 
 
+def date_of(el) -> str:
+    """A date element may carry its value as text, as @when, or as a range."""
+    if el is None:
+        return ""
+    return text(el) or el.get("when") or el.get("from") or el.get("notBefore") or ""
+
+
 def build_persons() -> dict:
     doc = etree.parse(str(LETTERS / "persNames.xml"))
     out = {}
@@ -64,8 +71,8 @@ def build_persons() -> dict:
             ],
             "roleFrom": occ.get("from", "") if occ is not None else "",
             "roleTo": occ.get("to", "") if occ is not None else "",
-            "birth": text(p.find("tei:birth", NS)),
-            "death": text(p.find("tei:death", NS)),
+            "birth": date_of(p.find("tei:birth", NS)),
+            "death": date_of(p.find("tei:death", NS)),
             "note": text(p.find("tei:note", NS)),
             "viaf": viaf.strip(),
             "map": idnos.get("MAP", ""),

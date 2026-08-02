@@ -32,6 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2026-08-02" who="#CG">Alessandro Striggio matched to MAP 892 (1537-1592), the composer, not MAP 3228, which is his son Sandrino (1572-1630). He had been missed because his birth year was recorded only in @when with no text content, so the generated data showed him as undated and the date guard had nothing to separate father from son.</change>
       <change when="2026-08-02" who="#CG">The earlier MAP reconciliation had searched only the Florentine and Mantuan functionaries, leaving the French principals unmatched — which made the archive look as though it did not hold Coligny, Guise or the Cardinal of Lorraine. It does. Every remaining person was searched, and 22 more matched where MAP's birth and death years corroborate our own.</change>
       <change when="2026-08-02" who="#CG">MAP's offices carry start and end years, so they are now recorded with @from and @to. A reader can be told what a man held at the moment a letter names him rather than what he became: Vincenzo Alamanni is inviato mediceo in Francia from 1568 and ambasciatore only from 1572.</change>
       <change when="2026-08-02" who="#CG">pers-sanseverino-g merged into pers-galeazzosanseverino-g. The letters call him "conte di Gaiazzo" and "Gaiazzo", and MAP 19477 gives Gian Galeazzo Sanseverino di Aragona the title Conte di Caiazzo, so the two records were one man. Offices, dates and index names for the 39 people carrying a MAP identifier were taken from MAP's biographical records, restricted to posts held between 1566 and 1574.</change>
@@ -978,7 +979,7 @@
           <persName type="sort">Striggio, Alessandro</persName>
           <persName type="alias">Striggi</persName>
           <sex value="male"/>
-          <birth when="1537"/>
+          <birth when="1537">1537</birth>
           <death when="1592-02-29"/>
           <occupation type="stateCourtPersonnel" from="1559" to="1574">Salariato di Cosimo I de' Medici</occupation>
           <occupation type="stateCourtPersonnel" from="1574" to="1586">Salariato di Francesco I de' Medici</occupation>
@@ -986,6 +987,7 @@
           <occupation type="musician" from="1566">Musico / Musicista</occupation>
           <idno type="WIKIDATA" source="#wikidata">Q1377115</idno>
           <idno type="VIAF">100216614</idno>
+          <idno type="MAP">892</idno>
         </person>
         <!-- Other Officials -->
         <person xml:id="pers-petrucci">
