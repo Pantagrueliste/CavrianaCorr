@@ -45,7 +45,7 @@ def map_footprint() -> dict:
     Counts only: how many documents name them, and in what capacity. The
     documents themselves are MAP's, and stay in the local cache.
     """
-    path = ROOT / "data" / "map" / "footprint.tsv"
+    path = ROOT / "sources" / "map" / "footprint.tsv"
     if not path.exists():
         return {}
     out = {}
@@ -66,7 +66,7 @@ def map_categories() -> dict:
     Its value here is as a finding aid: it lets a reader ask the index for the
     churchmen, or the soldiers, across a hundred and ten people.
     """
-    path = ROOT / "data" / "map" / "categories.tsv"
+    path = ROOT / "sources" / "map" / "categories.tsv"
     if not path.exists():
         return {}
     out = {}
