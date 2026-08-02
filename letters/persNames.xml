@@ -32,6 +32,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2026-08-02" who="#CG">MAP's offices carry start and end years, so they are now recorded with @from and @to. A reader can be told what a man held at the moment a letter names him rather than what he became: Vincenzo Alamanni is inviato mediceo in Francia from 1568 and ambasciatore only from 1572.</change>
       <change when="2026-08-02" who="#CG">pers-sanseverino-g merged into pers-galeazzosanseverino-g. The letters call him "conte di Gaiazzo" and "Gaiazzo", and MAP 19477 gives Gian Galeazzo Sanseverino di Aragona the title Conte di Caiazzo, so the two records were one man. Offices, dates and index names for the 39 people carrying a MAP identifier were taken from MAP's biographical records, restricted to posts held between 1566 and 1574.</change>
       <change when="2026-08-02" who="#CG">pers-lorraine-h1 merged into pers-guise-h: both records described Henri I de Lorraine, duke of Guise, and both resolved to the same Wikidata item and the same portrait. The one reference the duplicate held, a bare "Loreno" in the letter of 14 January 1571, was repointed to the Cardinal of Lorraine, which is what bare "Loreno" denotes elsewhere in this corpus. The duplicate's VIAF id was kept, being the one Wikidata records for the duke.</change>
       <change when="2026-08-02" who="#CG">Twenty-eight people identified who had previously gone unmatched. The earlier pass required birth and death years to corroborate, which no record lacking dates could ever satisfy; these were matched instead on the name together with the title the file records, and each was required to have been alive while the letters were written.</change>
@@ -55,10 +56,13 @@
           <death when="1574" source="#map-mia">1574</death>
           <idno type="WIKIDATA" source="#wikidata">Q48547</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg</idno>
-          <occupation source="#map-mia">Granduca di Toscana</occupation>
-          <occupation source="#map-mia">Duca di Firenze</occupation>
-          <occupation source="#map-mia">Duca di Firenze e Siena</occupation>
-          <occupation source="#map-mia">Gran Maestro dell'Ordine di Santo Stefano</occupation>
+          <occupation source="#map-mia" from="1570" to="1574">Granduca di Toscana</occupation>
+          <occupation source="#map-mia" from="1537" to="1574">Duca di Firenze</occupation>
+          <occupation source="#map-mia" from="1557" to="1574">Duca di Firenze e Siena</occupation>
+          <occupation source="#map-mia" to="1574">Eques Auratus</occupation>
+          <occupation source="#map-mia" from="1561" to="1574">Gran Maestro dell'Ordine di Santo Stefano</occupation>
+          <occupation source="#map-mia" from="1537" to="1574">Signore della Repubblica di Firenze</occupation>
+          <occupation source="#map-mia" from="1546" to="1574">Chevalier de la Toison d'Or</occupation>
         </person>
         <person xml:id="pers-medici-cat">
           <persName>Caterina de' Medici</persName>
@@ -72,8 +76,8 @@
           <death when="1589" source="#map-mia">1589</death>
           <idno type="WIKIDATA" source="#wikidata">Q131552</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Catarina de' Medici Uffizi.jpg</idno>
-          <occupation source="#map-mia">Reine de France</occupation>
-          <occupation source="#map-mia">Régente pour Charles IX</occupation>
+          <occupation source="#map-mia" from="1547" to="1589">Reine de France</occupation>
+          <occupation source="#map-mia" from="1560">Régente pour Charles IX</occupation>
         </person>
         <person xml:id="pers-medici-fer">
           <persName>Ferdinando de' Medici</persName>
@@ -99,7 +103,7 @@
           <death when="1597-10-27" source="#wikidata">1597-10-27</death>
           <idno type="WIKIDATA" source="#wikidata">Q1856074</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Cesare Aretusi Retrato de Alfonso II de Este, duque de Ferrara.jpg</idno>
-          <occupation source="#map-mia">Duca di Ferrara</occupation>
+          <occupation source="#map-mia" from="1559" to="1597">Duca di Ferrara</occupation>
         </person>
         <person xml:id="pers-deste-i">
           <persName>Ippolito d'Este</persName>
@@ -123,9 +127,9 @@
           <death when="1580" source="#map-mia">1580</death>
           <idno type="WIKIDATA" source="#wikidata">Q76508</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Ritratto di Emanuele Filiberto di Savoia.jpg</idno>
-          <occupation source="#map-mia">Duca di Savoia</occupation>
+          <occupation source="#map-mia" from="1553" to="1580">Duca di Savoia</occupation>
           <occupation source="#map-mia">Principe del Piemonte</occupation>
-          <occupation source="#map-mia">Gran Maestro dell'Ordine dei Santi Maurizio e Lazzaro</occupation>
+          <occupation source="#map-mia" from="1573" to="1580">Gran Maestro dell'Ordine dei Santi Maurizio e Lazzaro</occupation>
         </person>
         <person xml:id="pers-savoie-h-susa">
           <persName>Honorat de Savoie</persName>
@@ -145,7 +149,9 @@
           <death when="1587" source="#map-mia">1587</death>
           <idno type="WIKIDATA" source="#wikidata">Q935424</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Guglielmo I Gonzaga.jpg</idno>
-          <occupation source="#map-mia">Duca di Mantova e Monferrato</occupation>
+          <occupation source="#map-mia" from="1574" to="1587">Duca di Mantova e Monferrato</occupation>
+          <occupation source="#map-mia">Chevalier de la Toison d'Or</occupation>
+          <occupation source="#map-mia" from="1550" to="1587">Duca di Mantova</occupation>
         </person>
         <person xml:id="pers-gonzaga-isa">
           <persName>Isabella Gonzaga</persName>
@@ -157,7 +163,7 @@
           <death when="1579" source="#map-mia">1579</death>
           <idno type="WIKIDATA" source="#wikidata">Q3802268</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Isabel Gonzaga by Carderera.jpg</idno>
-          <occupation source="#map-mia">Marchesa di Pescara</occupation>
+          <occupation source="#map-mia" from="1552" to="1579">Marchesa di Pescara</occupation>
         </person>
         <person xml:id="pers-gonzaga-l-nev">
           <persName>Luigi Gonzaga</persName>
@@ -180,8 +186,8 @@
           <birth>1527</birth>
           <death>1575</death>
           <idno type="MAP">19477</idno>
-          <occupation source="#map-mia">Conte di Caiazzo</occupation>
-          <occupation source="#map-mia">Conte di Colorno</occupation>
+          <occupation source="#map-mia" from="1539" to="1577">Conte di Caiazzo</occupation>
+          <occupation source="#map-mia" from="1570" to="1577">Conte di Colorno</occupation>
         </person>
         <person xml:id="pers-birague-c">
           <persName>Charles de Birague</persName>
@@ -213,7 +219,7 @@
           <death when="1574" source="#map-mia">1574</death>
           <idno type="WIKIDATA" source="#wikidata">Q134309</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg</idno>
-          <occupation source="#map-mia">Roi de France</occupation>
+          <occupation source="#map-mia" from="1560" to="1574">Roi de France</occupation>
         </person>
         <person xml:id="pers-valois-h-3">
           <persName>Henri III</persName>
@@ -226,10 +232,10 @@
           <death when="1589" source="#map-mia">1589</death>
           <idno type="WIKIDATA" source="#wikidata">Q53448</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Quesnel Henry III of France in Polish hat.jpg</idno>
-          <occupation source="#map-mia">Roi de France</occupation>
+          <occupation source="#map-mia" from="1574" to="1589">Roi de France</occupation>
           <occupation source="#map-mia">Duc d'Orleans</occupation>
-          <occupation source="#map-mia">Duc d'Anjou</occupation>
-          <occupation source="#map-mia">King of Poland</occupation>
+          <occupation source="#map-mia" from="1565">Duc d'Anjou</occupation>
+          <occupation source="#map-mia" from="1573" to="1575">Król Polski</occupation>
         </person>
         <person xml:id="pers-valois-m">
           <persName>Marguerite de Valois</persName>
@@ -310,7 +316,7 @@
           <idno type="MAP">608</idno>
           <idno type="WIKIDATA" source="#wikidata">Q505040</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Charles III, Duke of Lorraine, by studio of François Clouet.jpg</idno>
-          <occupation source="#map-mia">Duc de Lorraine</occupation>
+          <occupation source="#map-mia" from="1545" to="1608">Duc de Lorraine</occupation>
         </person>
         <!-- French Noble Houses – Guise -->
         <person xml:id="pers-guise-h">
@@ -340,11 +346,14 @@
           <death when="1579" source="#map-mia">1579</death>
           <idno type="WIKIDATA" source="#wikidata">Q580292</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Clouet-montmorencyfrançois.jpg</idno>
-          <occupation source="#map-mia">Maréchal de France</occupation>
-          <occupation source="#map-mia">Duc de Montmorency</occupation>
+          <occupation source="#map-mia" from="1559" to="1579">Maréchal de France</occupation>
+          <occupation source="#map-mia" from="1567" to="1579">Duc de Montmorency</occupation>
           <occupation source="#map-mia">Grand Maître de France</occupation>
+          <occupation source="#map-mia">Pair de France</occupation>
           <occupation source="#map-mia">Comte de Dammartin</occupation>
+          <occupation source="#map-mia">Baron de Châteaubriant</occupation>
           <occupation source="#map-mia">Seigneur de Chantilly</occupation>
+          <occupation source="#map-mia">Seigneur de L'Isle-Adam</occupation>
         </person>
         <person xml:id="pers-montmorency-charles">
           <persName>Charles de Montmorency</persName>
@@ -360,7 +369,7 @@
           <idno type="WIKIDATA" source="#wikidata">Q1066589</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Charles de Montmorency, duc de Damville by Massard.jpg</idno>
           <occupation source="#map-mia">Chevalier du Saint-Esprit</occupation>
-          <occupation source="#map-mia">Seigneur de Méru</occupation>
+          <occupation source="#map-mia" to="1592">Seigneur de Méru</occupation>
         </person>
         <person xml:id="pers-montmorency-g-thore">
           <persName>Guillaume de Montmorency-Thoré</persName>
@@ -407,8 +416,9 @@
           <idno type="MAP">17294</idno>
           <idno type="WIKIDATA" source="#wikidata">Q678012</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Armand de Gontaut, baron de Biron.jpg</idno>
-          <occupation source="#map-mia">Capitaine de cent gendarmes</occupation>
+          <occupation source="#map-mia" from="1564">Capitaine de cent gendarmes</occupation>
           <occupation source="#map-mia">Baron de Biron</occupation>
+          <occupation source="#map-mia">Guidon</occupation>
         </person>
         <person xml:id="pers-france-c">
           <persName>Claude de France</persName>
@@ -453,7 +463,7 @@
           <death when="1587" source="#map-mia">1587</death>
           <idno type="WIKIDATA" source="#wikidata">Q565927</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Annejoyeuse.jpg</idno>
-          <occupation source="#map-mia">Duc de Joyeuse</occupation>
+          <occupation source="#map-mia" to="1587">Duc de Joyeuse</occupation>
           <occupation source="#map-mia">Baron d'Arques</occupation>
         </person>
         <person xml:id="pers-savoie-j-nem">
@@ -467,9 +477,10 @@
           <death when="1585" source="#map-mia">1585</death>
           <idno type="WIKIDATA" source="#wikidata">Q2579854</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Jacques de Savoie duc de Nemours - François Clouet.jpg</idno>
-          <occupation source="#map-mia">Duc de Nemours</occupation>
+          <occupation source="#map-mia" from="1533" to="1585">Duc de Nemours</occupation>
           <occupation source="#map-mia">Gouverneur de Lyon, Forez et Beaujolais</occupation>
-          <occupation source="#map-mia">Colonel-général de la cavalerie légère</occupation>
+          <occupation source="#map-mia" from="1558">Colonel-général de la cavalerie légère</occupation>
+          <occupation source="#map-mia">Gouverneur de Lyon</occupation>
         </person>
         <person xml:id="pers-savoie-h-ten">
           <persName>Honorat de Savoie</persName>
@@ -542,9 +553,9 @@
           <idno type="MAP">10642</idno>
           <idno type="WIKIDATA" source="#wikidata">Q1968726</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Albert-de-Gondi.jpg</idno>
-          <occupation source="#map-mia">Maréchal de France</occupation>
-          <occupation source="#map-mia">Ambassadeur de France en Angleterre</occupation>
-          <occupation source="#map-mia">Duc de Retz</occupation>
+          <occupation source="#map-mia" from="1574">Maréchal de France</occupation>
+          <occupation source="#map-mia" from="1573">Ambassadeur de France en Angleterre</occupation>
+          <occupation source="#map-mia" to="1602">Duc de Retz</occupation>
         </person>
         <!-- French Nobles – La Môle -->
         <person xml:id="pers-lamole-j">
@@ -589,7 +600,7 @@
           <idno type="MAP">874</idno>
           <idno type="WIKIDATA" source="#wikidata">Q150862</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Nicolas Neufchâtel 002.jpg</idno>
-          <occupation source="#map-mia">Sacro Romano Imperatore</occupation>
+          <occupation source="#map-mia" from="1564" to="1576">Imperator Romanus Sacer</occupation>
         </person>
         <person xml:id="pers-habsburg-j">
           <persName>Juan de Austria</persName>
@@ -638,10 +649,10 @@
           <idno type="VIAF">8649946</idno>
           <idno type="WIKIDATA" source="#wikidata">Q2651115</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Alphonse Corse, dit d'Ornano (1548-1610).jpg</idno>
-          <occupation source="#map-mia">Maréchal de France</occupation>
-          <occupation source="#map-mia">Chevalier du Saint-Esprit</occupation>
           <birth when="1548" source="#map-mia">1548</birth>
           <death when="1610" source="#map-mia">1610</death>
+          <occupation source="#map-mia">Maréchal de France</occupation>
+          <occupation source="#map-mia" to="1610">Chevalier du Saint-Esprit</occupation>
         </person>
         <person xml:id="pers-tavannes-g">
           <persName>Gaspard de Saulx-Tavannes</persName>
@@ -665,9 +676,14 @@
           <occupation type="diplomat">ambassador</occupation>
           <idno type="MAP">1986</idno>
           <idno type="WIKIDATA" source="#wikidata">Q18421538</idno>
-          <occupation source="#map-mia">Inviato mediceo in Francia</occupation>
-          <occupation source="#map-mia">Inviato mediceo alla Corte imperiale</occupation>
-          <occupation source="#map-mia">Inviato mediceo in Polonia</occupation>
+          <occupation source="#map-mia" from="1569">Inviato mediceo in Francia</occupation>
+          <occupation source="#map-mia" from="1573">Inviato mediceo in Francia</occupation>
+          <occupation source="#map-mia" from="1570">Inviato mediceo in Francia</occupation>
+          <occupation source="#map-mia" from="1574">Inviato mediceo alla Corte imperiale</occupation>
+          <occupation source="#map-mia" from="1574">Inviato mediceo in Polonia</occupation>
+          <occupation source="#map-mia" from="1574">Inviato mediceo in Boemia</occupation>
+          <occupation source="#map-mia" from="1574">Inviato mediceo ad Innsbruck</occupation>
+          <occupation source="#map-mia" from="1574">Inviato mediceo a Venezia per complimentarsi con il Re di Polonia</occupation>
         </person>
         <person xml:id="pers-nassau-w">
           <persName>Willem van Oranje</persName>
@@ -728,7 +744,7 @@
           <idno type="WIKIDATA" source="#wikidata">Q3484471</idno>
           <occupation source="#map-mia">Predicatore</occupation>
           <occupation source="#map-mia">Teologo</occupation>
-          <occupation source="#map-mia">Episcopus Narbonenensis (Narbonne)</occupation>
+          <occupation source="#map-mia" from="1572" to="1575">Episcopus Narbonenensis (Narbonne)</occupation>
           <occupation source="#map-mia">Recteur Université de Paris</occupation>
         </person>
         <person xml:id="pers-sorbin-a">
@@ -797,10 +813,10 @@
           <sex value="male"/>
           <occupation>Medici Secretary</occupation>
           <idno type="MAP">655</idno>
-          <occupation source="#map-mia">Provvisionato di Cosimo I de' Medici</occupation>
-          <occupation source="#map-mia">Segretario della Pratica Segreta</occupation>
           <birth when="1530" source="#map-mia">1530</birth>
           <death when="1598" source="#map-mia">1598</death>
+          <occupation source="#map-mia">Provvisionato di Cosimo I de' Medici</occupation>
+          <occupation source="#map-mia">Segretario della Pratica Segreta</occupation>
         </person>
         <person xml:id="pers-alamanni-v">
           <persName>Vincenzo Alamanni</persName>
@@ -813,8 +829,8 @@
           <death when="1591" source="#map-mia">1591</death>
           <idno type="WIKIDATA" source="#wikidata">Q114909631</idno>
           <occupation source="#map-mia">Commissario di Pisa</occupation>
-          <occupation source="#map-mia">Inviato mediceo in Francia</occupation>
-          <occupation source="#map-mia">Ambasciatore mediceo in Francia</occupation>
+          <occupation source="#map-mia" from="1568">Inviato mediceo in Francia</occupation>
+          <occupation source="#map-mia" from="1572" to="1576">Ambasciatore mediceo in Francia</occupation>
           <occupation source="#map-mia">Chevalier de l'Ordre de Saint-Michel</occupation>
           <occupation source="#map-mia">Maître de l'hôtel du duc d'Anjou</occupation>
         </person>
@@ -831,7 +847,8 @@
           <death when="1603" source="#map-mia">1603</death>
           <idno type="WIKIDATA" source="#wikidata">Q7207</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Elizabeth1England.jpg</idno>
-          <occupation source="#map-mia">Queen of Ireland</occupation>
+          <occupation source="#map-mia" from="1558" to="1603">Queen of England</occupation>
+          <occupation source="#map-mia" from="1558" to="1603">Queen of Ireland</occupation>
         </person>
         <person xml:id="pers-este-r">
           <persName>Renée de France</persName>
@@ -933,6 +950,8 @@
           <occupation type="courtier" from="1574">Cameriere di Francesco I</occupation>
           <occupation type="stateCourtPersonnel">Coppiere di Cosimo I de' Medici</occupation>
           <idno type="MAP">2569</idno>
+          <occupation source="#map-mia" from="1562">Cavaliere dell'Ordine di Santo Stefano</occupation>
+          <occupation source="#map-mia" from="1574">Cameriere di Francesco I</occupation>
         </person>
         <person xml:id="pers-striggio-a">
           <persName>Alessandro Striggio</persName>
@@ -984,7 +1003,7 @@
           <idno type="MAP">772</idno>
           <birth when="1537" source="#map-mia">1537</birth>
           <death when="1612" source="#map-mia">1612</death>
-          <occupation source="#map-mia">Cavaliere dell'Ordine di Santo Stefano</occupation>
+          <occupation source="#map-mia" from="1562" to="1612">Cavaliere dell'Ordine di Santo Stefano</occupation>
           <occupation source="#map-mia">Signore della tavola di Francesco I de' Medici</occupation>
         </person>
         <person xml:id="pers-crotto">
@@ -1055,9 +1074,11 @@
           <idno type="MAP">19123</idno>
           <idno type="WIKIDATA" source="#wikidata">Q1414020</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Strozzi-philippe.jpg</idno>
-          <occupation source="#map-mia">Colonel des Gardes françaises</occupation>
+          <occupation source="#map-mia" from="1563">Colonel des Gardes françaises</occupation>
           <occupation source="#map-mia">Chevalier de l'Ordre de Saint-Michel</occupation>
-          <occupation source="#map-mia">Colonel Général de l'infanterie française</occupation>
+          <occupation source="#map-mia" to="1582">Amiral</occupation>
+          <occupation source="#map-mia" from="1560" to="1582">Seigneur d'Epernay</occupation>
+          <occupation source="#map-mia" from="1569">Colonel Général de l'infanterie française</occupation>
         </person>
         <!-- Spanish Diplomats -->
         <person xml:id="pers-dalava-f">
@@ -1111,9 +1132,10 @@
           <idno type="MAP">19164</idno>
           <idno type="WIKIDATA" source="#wikidata">Q138409</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Sir Francis Walsingham by John De Critz the Elder.jpg</idno>
-          <occupation source="#map-mia">Ambassador of England to France</occupation>
-          <occupation source="#map-mia">Privy councillor of England to Elizabeth I Tudor</occupation>
-          <occupation source="#map-mia">Secretary of State</occupation>
+          <occupation source="#map-mia" from="1570" to="1573">Ambassador of England to France</occupation>
+          <occupation source="#map-mia" from="1559">Member of Parliament</occupation>
+          <occupation source="#map-mia" from="1573">Privy councillor of England to Elizabeth I Tudor</occupation>
+          <occupation source="#map-mia" from="1573" to="1590">Secretary of State</occupation>
         </person>
         <!-- French Diplomats -->
         <person xml:id="pers-mauvissiere">
@@ -1158,8 +1180,9 @@
           <death>1581-05-16</death>
           <idno type="MAP">15452</idno>
           <idno type="WIKIDATA" source="#wikidata">Q1135565</idno>
-          <occupation source="#map-mia">Cardinalis</occupation>
-          <occupation source="#map-mia">Titulus S. Marcelli</occupation>
+          <occupation source="#map-mia" from="1560" to="1581">Cardinalis</occupation>
+          <occupation source="#map-mia" from="1565" to="1578">Titulus S. Marcelli</occupation>
+          <occupation source="#map-mia">Doctor in utroque</occupation>
           <occupation source="#map-mia">Nobile di Napoli</occupation>
         </person>
         <!-- Imperial Officials -->
@@ -1192,8 +1215,8 @@
           <birth when="1516" source="#map-mia">1516</birth>
           <death when="1596" source="#map-mia">1596</death>
           <idno type="WIKIDATA" source="#wikidata">Q110269977</idno>
-          <occupation source="#map-mia">Ambasciatore straordinario veneziano in Francia</occupation>
-          <occupation source="#map-mia">Ambasciatore di Venezia alla Corte imperiale</occupation>
+          <occupation source="#map-mia" from="1572" to="1572">Ambasciatore straordinario veneziano in Francia</occupation>
+          <occupation source="#map-mia" from="1566" to="1571">Ambasciatore di Venezia alla Corte imperiale</occupation>
         </person>
         <person xml:id="pers-bourbon-conde">
           <persName>Louis I de Bourbon, Prince of Condé</persName>
@@ -1206,7 +1229,7 @@
           <idno type="WIKIDATA" source="#wikidata">Q316913</idno>
           <idno type="VIAF">54264210</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Louis Ier de Bourbon, 1er prince de Condé (1530-1569).jpg</idno>
-          <occupation source="#map-mia">Prince de Condé</occupation>
+          <occupation source="#map-mia" from="1546" to="1569">Prince de Condé</occupation>
           <occupation source="#map-mia">Duc d'Enghien</occupation>
         </person>
         <person xml:id="pers-pontefice">
@@ -1229,10 +1252,10 @@
           <note>Brother of Alfonso II d'Este; the letter of 1 September 1570 identifies him as such, which distinguishes him from his uncle Ippolito II, the Cardinal of Ferrara recorded separately.</note>
           <idno type="WIKIDATA" source="#wikidata">Q2527555</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Cardinale Luigi d Este.jpg</idno>
-          <occupation source="#map-mia">Cardinalis diaconus</occupation>
-          <occupation source="#map-mia">Titulus SS. Nerei et Achillei</occupation>
-          <occupation source="#map-mia">Titulus S. Luciae in Silice</occupation>
-          <occupation source="#map-mia">Governatore di Tivoli</occupation>
+          <occupation source="#map-mia" from="1562">Titulus SS. Nerei et Achillei</occupation>
+          <occupation source="#map-mia" from="1561" to="1586">Cardinalis diaconus</occupation>
+          <occupation source="#map-mia" from="1563">Titulus S. Luciae in Silice</occupation>
+          <occupation source="#map-mia" from="1572" to="1573">Governatore di Tivoli</occupation>
         </person>
         <person xml:id="pers-guadagni">
           <persName>Guadagni family member</persName>
@@ -1276,7 +1299,7 @@
           <idno type="MAP">3234</idno>
           <idno type="WIKIDATA" source="#wikidata">Q704178</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Henri II Lorraine.jpg</idno>
-          <occupation source="#map-mia">Duc de Bar</occupation>
+          <occupation source="#map-mia" to="1624">Duc de Bar</occupation>
           <occupation source="#map-mia">Marquis de Pont à Mousson</occupation>
         </person>
         <person xml:id="pers-anjou-mezieres-r">

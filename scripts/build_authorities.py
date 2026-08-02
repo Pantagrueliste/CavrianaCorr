@@ -9,6 +9,7 @@ by the people/places index pages.
 from __future__ import annotations
 
 import json
+from datetime import date, timedelta
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -22,7 +23,7 @@ OUT = ROOT / "generated" / "authorities.json"
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 XML_LANG = "{http://www.w3.org/XML/1998/namespace}lang"
-EXCLUDE = {"persNames.xml", "placeNames.xml"}
+EXCLUDE = {"persNames.xml", "placeNames.xml", "eventNames.xml"}
 
 
 def text(el) -> str:
@@ -56,7 +57,13 @@ def build_persons() -> dict:
             "role": text(occ),
             "roleType": occ.get("type", "") if occ is not None else "",
             # Further offices, mostly from the Medici Archive's own records.
-            "offices": [text(o) for o in occs[1:]],
+            # Dated ones let the edition say what a man held when a letter names him.
+            "offices": [
+                {"label": text(o), "from": o.get("from", ""), "to": o.get("to", "")}
+                for o in occs[1:]
+            ],
+            "roleFrom": occ.get("from", "") if occ is not None else "",
+            "roleTo": occ.get("to", "") if occ is not None else "",
             "birth": text(p.find("tei:birth", NS)),
             "death": text(p.find("tei:death", NS)),
             "note": text(p.find("tei:note", NS)),
@@ -110,6 +117,58 @@ def build_places() -> dict:
     return out
 
 
+def build_events() -> list:
+    """Public events, with the letters written around them.
+
+    Letters are attached by date, which is a fact about when they were written,
+    not a claim that they discuss the event. Dates on both sides are Julian.
+    """
+    path = LETTERS / "eventNames.xml"
+    if not path.exists():
+        return []
+    doc = etree.parse(str(path))
+    out = []
+    for ev in doc.xpath(".//tei:event", namespaces=NS):
+        labels = [text(l) for l in ev.xpath("./tei:label", namespaces=NS)]
+        idnos = {i.get("type"): text(i) for i in ev.xpath("./tei:idno", namespaces=NS)}
+        out.append({
+            "id": ev.get(XML_ID),
+            "label": labels[0] if labels else ev.get(XML_ID),
+            "labels": labels,
+            "desc": text(ev.find("tei:desc", NS)),
+            "when": ev.get("when", ""),
+            "from": ev.get("from", ""),
+            "to": ev.get("to", ""),
+            "wikidata": idnos.get("WIKIDATA", ""),
+        })
+    return out
+
+
+def attach_letters(events: list, dates: dict) -> None:
+    """For each event, the letters written around it."""
+    def d(s):
+        try:
+            return date.fromisoformat(s)
+        except (ValueError, TypeError):
+            return None
+    known = sorted(((d(v), k) for k, v in dates.items() if d(v)))
+    for ev in events:
+        start = d(ev["from"] or ev["when"])
+        end = d(ev["to"] or ev["when"])
+        if not start:
+            ev["letters"] = []
+            continue
+        lo, hi = start - timedelta(days=21), end + timedelta(days=45)
+        near = [(dt, slug) for dt, slug in known if lo <= dt <= hi]
+        ev["letters"] = [{
+            "slug": slug,
+            "date": dt.isoformat(),
+            "days": (dt - start).days,
+        } for dt, slug in near]
+        after = [l for l in ev["letters"] if l["days"] >= 0]
+        ev["firstAfter"] = after[0]["slug"] if after else ""
+
+
 def collect_occurrences() -> tuple[dict, dict]:
     """Map authority id -> [{file, date, count}], counting body references only."""
     occ = defaultdict(lambda: defaultdict(int))
@@ -136,6 +195,8 @@ def collect_occurrences() -> tuple[dict, dict]:
 def main() -> None:
     persons, places = build_persons(), build_places()
     occ, dates = collect_occurrences()
+    events = build_events()
+    attach_letters(events, dates)
 
     entities = {**persons, **places}
     for eid, rec in entities.items():
@@ -147,12 +208,14 @@ def main() -> None:
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps({
         "entities": entities,
+        "events": events,
         "dates": dates,
     }, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
 
     cited = sum(1 for r in entities.values() if r["total"])
     print(f"✅  wrote {len(entities)} authority records "
-          f"({cited} cited, {len(entities) - cited} never cited) → {OUT}")
+          f"({cited} cited, {len(entities) - cited} never cited) "
+          f"and {len(events)} events → {OUT}")
 
 
 if __name__ == "__main__":

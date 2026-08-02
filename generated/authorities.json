@@ -84,12 +84,30 @@
    "name": "Vincenzo Alamanni",
    "note": "Diplomat and intermediary",
    "offices": [
-    "Inviato mediceo in Francia",
-    "Ambasciatore mediceo in Francia",
-    "Chevalier de l'Ordre de Saint-Michel",
-    "Maître de l'hôtel du duc d'Anjou"
+    {
+     "from": "1568",
+     "label": "Inviato mediceo in Francia",
+     "to": ""
+    },
+    {
+     "from": "1572",
+     "label": "Ambasciatore mediceo in Francia",
+     "to": "1576"
+    },
+    {
+     "from": "",
+     "label": "Chevalier de l'Ordre de Saint-Michel",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Maître de l'hôtel du duc d'Anjou",
+     "to": ""
+    }
    ],
    "role": "Commissario di Pisa",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Alamanni, Vincenzo",
    "total": 3,
@@ -115,6 +133,8 @@
    "note": "",
    "offices": [],
    "role": "Secretary",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Alberto (Secretary)",
    "total": 1,
@@ -142,6 +162,8 @@
    "note": "",
    "offices": [],
    "role": "Queen of Navarre",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Albret, Jeanne d'",
    "total": 1,
@@ -161,6 +183,8 @@
    "note": "",
    "offices": [],
    "role": "Duchess of Montpensier",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Anjou-Mézières, Renée d'",
    "total": 0,
@@ -191,6 +215,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Auger, Émond",
    "total": 2,
@@ -215,9 +241,15 @@
    "name": "Pomponne de Bellièvre",
    "note": "",
    "offices": [
-    "Surintendant des finances"
+    {
+     "from": "",
+     "label": "Surintendant des finances",
+     "to": ""
+    }
    ],
    "role": "Royal councillor and diplomat",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Bellièvre, Pomponne de",
    "total": 1,
@@ -257,9 +289,15 @@
    "name": "Charles de Birague",
    "note": "",
    "offices": [
-    "Chevalier du St Esprit"
+    {
+     "from": "",
+     "label": "Chevalier du St Esprit",
+     "to": ""
+    }
    ],
    "role": "Chevalier de St Michel",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Birague, Charles de",
    "total": 4,
@@ -289,11 +327,35 @@
    "name": "Traiano di Fabrizio Bobba",
    "note": "",
    "offices": [
-    "Cameriere di Cosimo I de' Medici",
-    "Cameriere di Francesco I",
-    "Coppiere di Cosimo I de' Medici"
+    {
+     "from": "",
+     "label": "Cameriere di Cosimo I de' Medici",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Cameriere di Francesco I",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Coppiere di Cosimo I de' Medici",
+     "to": ""
+    },
+    {
+     "from": "1562",
+     "label": "Cavaliere dell'Ordine di Santo Stefano",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Cameriere di Francesco I",
+     "to": ""
+    }
    ],
    "role": "Cavaliere dell'Ordine di Santo Stefano",
+   "roleFrom": "1562",
+   "roleTo": "",
    "roleType": "chivalricOrder",
    "sortName": "Bobba, Traiano di Fabrizio",
    "total": 2,
@@ -318,10 +380,20 @@
    "name": "Louis I de Bourbon, Prince of Condé",
    "note": "",
    "offices": [
-    "Prince de Condé",
-    "Duc d'Enghien"
+    {
+     "from": "1546",
+     "label": "Prince de Condé",
+     "to": "1569"
+    },
+    {
+     "from": "",
+     "label": "Duc d'Enghien",
+     "to": ""
+    }
    ],
    "role": "Prince of Condé",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Bourbon, Louis I de (Prince of Condé)",
    "total": 1,
@@ -355,6 +427,8 @@
    "note": "",
    "offices": [],
    "role": "Prince of Condé",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Bourbon, Henri I de (Prince of Condé)",
    "total": 3,
@@ -420,6 +494,8 @@
    "note": "Future Henri IV of France",
    "offices": [],
    "role": "King of Navarre",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Bourbon, Henri de (King of Navarre)",
    "total": 12,
@@ -450,6 +526,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Montpensier",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Bourbon-Vendôme, Louis III de",
    "total": 2,
@@ -477,6 +555,8 @@
    "note": "French noble and military figure",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Beauvais, François de (Seigneur de Briquemault)",
    "total": 1,
@@ -502,6 +582,8 @@
    "note": "Sent by Maximilian II to congratulate the Queen of France on her childbirth, December 1572",
    "offices": [],
    "role": "Imperial Grand Equerry (cavallerizo maggiore)",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "diplomat",
    "sortName": "Caan",
    "total": 1,
@@ -527,6 +609,8 @@
    "note": "",
    "offices": [],
    "role": "Premier médecin to Catherine de' Medici",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Castellan, Honoré",
    "total": 1,
@@ -820,6 +904,8 @@
    "note": "",
    "offices": [],
    "role": "Physician and diplomat",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Cavriana, Filippo",
    "total": 57,
@@ -839,6 +925,8 @@
    "note": "",
    "offices": [],
    "role": "Franciscan Friar",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "La Charité, Hugues de",
    "total": 0,
@@ -874,6 +962,8 @@
    "note": "",
    "offices": [],
    "role": "Duchess of Nevers",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Clèves, Henriette de",
    "total": 4,
@@ -954,6 +1044,8 @@
    "note": "",
    "offices": [],
    "role": "Admiral of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Coligny, Gaspard de",
    "total": 25,
@@ -1002,6 +1094,8 @@
    "note": "",
    "offices": [],
    "role": "First Secretary of Cosimo I de' Medici",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Concino di Conti della Penna, Bartolomeo",
    "total": 7,
@@ -1031,10 +1125,20 @@
    "name": "Alfonso Corso",
    "note": "",
    "offices": [
-    "Maréchal de France",
-    "Chevalier du Saint-Esprit"
+    {
+     "from": "",
+     "label": "Maréchal de France",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Chevalier du Saint-Esprit",
+     "to": "1610"
+    }
    ],
    "role": "Military commander",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Corso, Alfonso",
    "total": 2,
@@ -1060,6 +1164,8 @@
    "note": "",
    "offices": [],
    "role": "Marquise de Méru",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Cossé-Brissac, Renée de",
    "total": 1,
@@ -1085,6 +1191,8 @@
    "note": "Further identification needed",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Crotto",
    "total": 2,
@@ -1112,6 +1220,8 @@
    "note": "",
    "offices": [],
    "role": "Spanish ambassador to France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "diplomat",
    "sortName": "Álava, Francés de",
    "total": 2,
@@ -1136,10 +1246,20 @@
    "name": "Jacopo Dani",
    "note": "",
    "offices": [
-    "Provvisionato di Cosimo I de' Medici",
-    "Segretario della Pratica Segreta"
+    {
+     "from": "",
+     "label": "Provvisionato di Cosimo I de' Medici",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Segretario della Pratica Segreta",
+     "to": ""
+    }
    ],
    "role": "Medici Secretary",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Dani, Jacopo",
    "total": 1,
@@ -1165,6 +1285,8 @@
    "note": "",
    "offices": [],
    "role": "Duchess of Tonnerre",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "La Marck, Diane de",
    "total": 1,
@@ -1200,6 +1322,8 @@
    "note": "",
    "offices": [],
    "role": "Cardinal",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Este, Ippolito d'",
    "total": 3,
@@ -1240,6 +1364,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Téligny, Charles de",
    "total": 5,
@@ -1258,9 +1384,15 @@
    "name": "Jean-Louis de Nogaret de La Valette",
    "note": "",
    "offices": [
-    "Duc d'Épernon"
+    {
+     "from": "",
+     "label": "Duc d'Épernon",
+     "to": ""
+    }
    ],
    "role": "Duke of Épernon",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Nogaret de La Valette, Jean-Louis de",
    "total": 0,
@@ -1302,9 +1434,15 @@
    "name": "Alfonso II d'Este",
    "note": "",
    "offices": [
-    "Duca di Ferrara"
+    {
+     "from": "1559",
+     "label": "Duca di Ferrara",
+     "to": "1597"
+    }
    ],
    "role": "Duke of Ferrara",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Este, Alfonso II d'",
    "total": 4,
@@ -1331,12 +1469,30 @@
    "name": "Luigi d'Este",
    "note": "Brother of Alfonso II d'Este; the letter of 1 September 1570 identifies him as such, which distinguishes him from his uncle Ippolito II, the Cardinal of Ferrara recorded separately.",
    "offices": [
-    "Cardinalis diaconus",
-    "Titulus SS. Nerei et Achillei",
-    "Titulus S. Luciae in Silice",
-    "Governatore di Tivoli"
+    {
+     "from": "1562",
+     "label": "Titulus SS. Nerei et Achillei",
+     "to": ""
+    },
+    {
+     "from": "1561",
+     "label": "Cardinalis diaconus",
+     "to": "1586"
+    },
+    {
+     "from": "1563",
+     "label": "Titulus S. Luciae in Silice",
+     "to": ""
+    },
+    {
+     "from": "1572",
+     "label": "Governatore di Tivoli",
+     "to": "1573"
+    }
    ],
    "role": "Cardinal",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Este, Luigi d'",
    "total": 1,
@@ -1364,6 +1520,8 @@
    "note": "Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara",
    "offices": [],
    "role": "Duchess of Ferrara",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "France, Renée de",
    "total": 2,
@@ -1389,6 +1547,8 @@
    "note": "",
    "offices": [],
    "role": "Cardinal",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Farnese, Alessandro",
    "total": 1,
@@ -1419,6 +1579,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "France, Claude de",
    "total": 2,
@@ -1450,9 +1612,15 @@
    "name": "Gian Galeazzo Sanseverino",
    "note": "",
    "offices": [
-    "Conte di Colorno"
+    {
+     "from": "1570",
+     "label": "Conte di Colorno",
+     "to": "1577"
+    }
    ],
    "role": "Conte di Caiazzo",
+   "roleFrom": "1539",
+   "roleTo": "1577",
    "roleType": "",
    "sortName": "Sanseverino, Gian Galeazzo",
    "total": 2,
@@ -1494,11 +1662,25 @@
    "name": "Albert de Gondi",
    "note": "",
    "offices": [
-    "Maréchal de France",
-    "Ambassadeur de France en Angleterre",
-    "Duc de Retz"
+    {
+     "from": "1574",
+     "label": "Maréchal de France",
+     "to": ""
+    },
+    {
+     "from": "1573",
+     "label": "Ambassadeur de France en Angleterre",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Duc de Retz",
+     "to": "1602"
+    }
    ],
    "role": "Marshal of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Gondi, Albert de",
    "total": 4,
@@ -1528,9 +1710,20 @@
    "name": "Armand de Gontaut",
    "note": "",
    "offices": [
-    "Baron de Biron"
+    {
+     "from": "",
+     "label": "Baron de Biron",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Guidon",
+     "to": ""
+    }
    ],
    "role": "Capitaine de cent gendarmes",
+   "roleFrom": "1564",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Gontaut, Armand de",
    "total": 3,
@@ -1549,9 +1742,25 @@
    "name": "Guglielmo Gonzaga",
    "note": "",
    "offices": [
-    "Duca di Mantova e Monferrato"
+    {
+     "from": "1574",
+     "label": "Duca di Mantova e Monferrato",
+     "to": "1587"
+    },
+    {
+     "from": "",
+     "label": "Chevalier de la Toison d'Or",
+     "to": ""
+    },
+    {
+     "from": "1550",
+     "label": "Duca di Mantova",
+     "to": "1587"
+    }
    ],
    "role": "Duke of Mantua",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Gonzaga, Guglielmo",
    "total": 0,
@@ -1576,9 +1785,15 @@
    "name": "Isabella Gonzaga",
    "note": "",
    "offices": [
-    "Marchesa di Pescara"
+    {
+     "from": "1552",
+     "label": "Marchesa di Pescara",
+     "to": "1579"
+    }
    ],
    "role": "Marchioness of Pescara",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Gonzaga, Isabella",
    "total": 1,
@@ -1691,6 +1906,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Nevers",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Gonzaga, Luigi",
    "total": 28,
@@ -1738,6 +1955,8 @@
    "note": "",
    "offices": [],
    "role": "Pope",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Gregory XIII (Pope)",
    "total": 10,
@@ -1763,6 +1982,8 @@
    "note": "Entity needs research and completion",
    "offices": [],
    "role": "Noble",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Guadagni family member",
    "total": 1,
@@ -1846,6 +2067,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Guise",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Guise, Henri de",
    "total": 22,
@@ -1901,6 +2124,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Habsburg, Elisabeth (Queen of France)",
    "total": 14,
@@ -1956,6 +2181,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Habsburg, Philippe (King of Spain)",
    "total": 19,
@@ -1986,6 +2213,8 @@
    "note": "",
    "offices": [],
    "role": "Don Juan de Austria",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Habsburg, Juan de Austria",
    "total": 2,
@@ -2032,7 +2261,9 @@
    "name": "Maxmilian II",
    "note": "",
    "offices": [],
-   "role": "Sacro Romano Imperatore",
+   "role": "Imperator Romanus Sacer",
+   "roleFrom": "1564",
+   "roleTo": "1576",
    "roleType": "",
    "sortName": "Habsburg, Maximilian II",
    "total": 18,
@@ -2059,10 +2290,20 @@
    "name": "Anne de Joyeuse",
    "note": "",
    "offices": [
-    "Duc de Joyeuse",
-    "Baron d'Arques"
+    {
+     "from": "",
+     "label": "Duc de Joyeuse",
+     "to": "1587"
+    },
+    {
+     "from": "",
+     "label": "Baron d'Arques",
+     "to": ""
+    }
    ],
    "role": "Duke of Joyeuse",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Joyeuse, Anne de",
    "total": 1,
@@ -2082,6 +2323,8 @@
    "note": "",
    "offices": [],
    "role": "Queen of Poland",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Katarzyna (Queen of Poland)",
    "total": 0,
@@ -2110,6 +2353,8 @@
    "note": "",
    "offices": [],
    "role": "General of the French galleys",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Escalin des Aimars, Antoine",
    "total": 3,
@@ -2137,6 +2382,8 @@
    "note": "Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.",
    "offices": [],
    "role": "Provençal gentleman, favourite of the Duke of Alençon",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "La Môle, Joseph Boniface de",
    "total": 1,
@@ -2162,6 +2409,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "L'Hospital, Michel de",
    "total": 1,
@@ -2181,6 +2430,8 @@
    "note": "",
    "offices": [],
    "role": "Master of the King's Wardrobe",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Loignac, Jacques de",
    "total": 0,
@@ -2211,6 +2462,8 @@
    "note": "",
    "offices": [],
    "role": "Duc de Lorraine",
+   "roleFrom": "1545",
+   "roleTo": "1608",
    "roleType": "",
    "sortName": "Lorraine, Charles III de",
    "total": 2,
@@ -2243,6 +2496,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Aumale",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Lorraine, Charles de (Duke of Aumale)",
    "total": 2,
@@ -2316,6 +2571,8 @@
    "note": "",
    "offices": [],
    "role": "Cardinal of Lorraine",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Lorraine, Charles de (Cardinal of Lorraine)",
    "total": 23,
@@ -2335,6 +2592,8 @@
    "note": "",
    "offices": [],
    "role": "Princess of Lorraine",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Lorraine, Christine de",
    "total": 0,
@@ -2360,6 +2619,8 @@
    "note": "Entity needs research and completion",
    "offices": [],
    "role": "Noble",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Lorraine, Henry of",
    "total": 1,
@@ -2378,9 +2639,15 @@
    "name": "Henri II de Lorraine",
    "note": "",
    "offices": [
-    "Marquis de Pont à Mousson"
+    {
+     "from": "",
+     "label": "Marquis de Pont à Mousson",
+     "to": ""
+    }
    ],
    "role": "Duc de Bar",
+   "roleFrom": "",
+   "roleTo": "1624",
    "roleType": "",
    "sortName": "Lorraine, Henri II de",
    "total": 0,
@@ -2408,6 +2675,8 @@
    "note": "",
    "offices": [],
    "role": "Jesuit theologian",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Maldonado, Juan",
    "total": 3,
@@ -2435,6 +2704,8 @@
    "note": "",
    "offices": [],
    "role": "French envoy to England",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "diplomat",
    "sortName": "Castelnau, Michel de",
    "total": 2,
@@ -2546,10 +2817,20 @@
    "name": "Caterina de' Medici",
    "note": "",
    "offices": [
-    "Reine de France",
-    "Régente pour Charles IX"
+    {
+     "from": "1547",
+     "label": "Reine de France",
+     "to": "1589"
+    },
+    {
+     "from": "1560",
+     "label": "Régente pour Charles IX",
+     "to": ""
+    }
    ],
    "role": "Queen Mother of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Caterina de'",
    "total": 53,
@@ -2636,12 +2917,45 @@
    "name": "Cosimo I de' Medici",
    "note": "",
    "offices": [
-    "Granduca di Toscana",
-    "Duca di Firenze",
-    "Duca di Firenze e Siena",
-    "Gran Maestro dell'Ordine di Santo Stefano"
+    {
+     "from": "1570",
+     "label": "Granduca di Toscana",
+     "to": "1574"
+    },
+    {
+     "from": "1537",
+     "label": "Duca di Firenze",
+     "to": "1574"
+    },
+    {
+     "from": "1557",
+     "label": "Duca di Firenze e Siena",
+     "to": "1574"
+    },
+    {
+     "from": "",
+     "label": "Eques Auratus",
+     "to": "1574"
+    },
+    {
+     "from": "1561",
+     "label": "Gran Maestro dell'Ordine di Santo Stefano",
+     "to": "1574"
+    },
+    {
+     "from": "1537",
+     "label": "Signore della Repubblica di Firenze",
+     "to": "1574"
+    },
+    {
+     "from": "1546",
+     "label": "Chevalier de la Toison d'Or",
+     "to": "1574"
+    }
    ],
    "role": "Grand Duke of Tuscany",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Cosimo I de'",
    "total": 32,
@@ -2672,6 +2986,8 @@
    "note": "",
    "offices": [],
    "role": "Grand Duke of Tuscany",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Ferdinando de'",
    "total": 4,
@@ -2691,6 +3007,8 @@
    "note": "",
    "offices": [],
    "role": "Grand Duchess of Tuscany",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Habsburg, Giovanna d'Austria",
    "total": 0,
@@ -2715,10 +3033,20 @@
    "name": "Giovanni Michiel",
    "note": "Entity needs research and completion",
    "offices": [
-    "Ambasciatore straordinario veneziano in Francia",
-    "Ambasciatore di Venezia alla Corte imperiale"
+    {
+     "from": "1572",
+     "label": "Ambasciatore straordinario veneziano in Francia",
+     "to": "1572"
+    },
+    {
+     "from": "1566",
+     "label": "Ambasciatore di Venezia alla Corte imperiale",
+     "to": "1571"
+    }
    ],
    "role": "Venetian ambassador to France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "diplomat",
    "sortName": "Michiel, Giovanni",
    "total": 1,
@@ -2761,6 +3089,8 @@
    "note": "",
    "offices": [],
    "role": "Marshal of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Montluc, Blaise de",
    "total": 4,
@@ -2853,13 +3183,50 @@
    "name": "François de Montmorency",
    "note": "",
    "offices": [
-    "Maréchal de France",
-    "Duc de Montmorency",
-    "Grand Maître de France",
-    "Comte de Dammartin",
-    "Seigneur de Chantilly"
+    {
+     "from": "1559",
+     "label": "Maréchal de France",
+     "to": "1579"
+    },
+    {
+     "from": "1567",
+     "label": "Duc de Montmorency",
+     "to": "1579"
+    },
+    {
+     "from": "",
+     "label": "Grand Maître de France",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Pair de France",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Comte de Dammartin",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Baron de Châteaubriant",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Seigneur de Chantilly",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Seigneur de L'Isle-Adam",
+     "to": ""
+    }
    ],
    "role": "Marshal of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Montmorency, François de",
    "total": 22,
@@ -2892,11 +3259,25 @@
    "name": "Charles de Montmorency",
    "note": "",
    "offices": [
-    "Marshal of France",
-    "Chevalier du Saint-Esprit",
-    "Seigneur de Méru"
+    {
+     "from": "",
+     "label": "Marshal of France",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Chevalier du Saint-Esprit",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Seigneur de Méru",
+     "to": "1592"
+    }
    ],
    "role": "Duke of Damville",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Montmorency, Charles de",
    "total": 3,
@@ -2926,6 +3307,8 @@
    "note": "Brother of François de Montmorency and Charles de Montmorency (Méru). Implicated in the Malcontent conspiracy of 1574.",
    "offices": [],
    "role": "Military commander",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Montmorency-Thoré, Guillaume de",
    "total": 2,
@@ -2958,6 +3341,8 @@
    "note": "",
    "offices": [],
    "role": "Marshal of France, Governor of Languedoc",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Montmorency, Henri de",
    "total": 3,
@@ -2998,6 +3383,8 @@
    "note": "",
    "offices": [],
    "role": "Count of Nassau",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Nassau, Ludwig von",
    "total": 5,
@@ -3050,6 +3437,8 @@
    "note": "",
    "offices": [],
    "role": "Prince of Orange",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Nassau, Willem van",
    "total": 8,
@@ -3088,6 +3477,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Longueville",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Orléans, Léonor d'",
    "total": 5,
@@ -3114,11 +3505,30 @@
    "name": "Flavio Orsini",
    "note": "",
    "offices": [
-    "Cardinalis",
-    "Titulus S. Marcelli",
-    "Nobile di Napoli"
+    {
+     "from": "1560",
+     "label": "Cardinalis",
+     "to": "1581"
+    },
+    {
+     "from": "1565",
+     "label": "Titulus S. Marcelli",
+     "to": "1578"
+    },
+    {
+     "from": "",
+     "label": "Doctor in utroque",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Nobile di Napoli",
+     "to": ""
+    }
    ],
    "role": "Cardinal, papal legate",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Orsini, Flavio",
    "total": 1,
@@ -3163,12 +3573,55 @@
    "name": "Troilo Orsini",
    "note": "",
    "offices": [
-    "ambassador",
-    "Inviato mediceo in Francia",
-    "Inviato mediceo alla Corte imperiale",
-    "Inviato mediceo in Polonia"
+    {
+     "from": "",
+     "label": "ambassador",
+     "to": ""
+    },
+    {
+     "from": "1569",
+     "label": "Inviato mediceo in Francia",
+     "to": ""
+    },
+    {
+     "from": "1573",
+     "label": "Inviato mediceo in Francia",
+     "to": ""
+    },
+    {
+     "from": "1570",
+     "label": "Inviato mediceo in Francia",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Inviato mediceo alla Corte imperiale",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Inviato mediceo in Polonia",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Inviato mediceo in Boemia",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Inviato mediceo ad Innsbruck",
+     "to": ""
+    },
+    {
+     "from": "1574",
+     "label": "Inviato mediceo a Venezia per complimentarsi con il Re di Polonia",
+     "to": ""
+    }
    ],
    "role": "condottiere",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Orsini, Troilo",
    "total": 8,
@@ -3219,6 +3672,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Osmanlı, Selim II",
    "total": 11,
@@ -3244,6 +3699,8 @@
    "note": "",
    "offices": [],
    "role": "French noble",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Ossonville, Monsignore d'",
    "total": 3,
@@ -3269,6 +3726,8 @@
    "note": "Servidore della signora Marchesa di Pescara",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Papazzone, Giulio Cesare",
    "total": 1,
@@ -3294,6 +3753,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Pazzi, Filippino",
    "total": 1,
@@ -3364,6 +3825,8 @@
    "note": "Tuscan ambassador to France",
    "offices": [],
    "role": "Commendatore",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Petrucci, Alessandro",
    "total": 16,
@@ -3399,6 +3862,8 @@
    "note": "",
    "offices": [],
    "role": "Elector Palatine",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Pfalz, Friedrich III von der",
    "total": 5,
@@ -3431,6 +3896,8 @@
    "note": "",
    "offices": [],
    "role": "Count Palatine",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Pfalz, Johann Casimir von der",
    "total": 4,
@@ -3469,6 +3936,8 @@
    "note": "Pope from 1566 to 1572",
    "offices": [],
    "role": "Pope",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Pius V (Pope)",
    "total": 5,
@@ -3494,6 +3963,8 @@
    "note": "Entity needs research and completion",
    "offices": [],
    "role": "Pope",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Pope (unidentified)",
    "total": 1,
@@ -3526,6 +3997,8 @@
    "note": "",
    "offices": [],
    "role": "Czar of Russia",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Ivan IV (Czar of Russia)",
    "total": 3,
@@ -3551,6 +4024,8 @@
    "note": "",
    "offices": [],
    "role": "Former Huguenot minister, converted after St Bartholomew",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Rosières",
    "total": 3,
@@ -3578,6 +4053,8 @@
    "note": "",
    "offices": [],
    "role": "Elector of Saxony",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Sachsen, August von",
    "total": 2,
@@ -3605,6 +4082,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Saxony",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Sachsen, Wilhelm von",
    "total": 3,
@@ -3632,6 +4111,8 @@
    "note": "",
    "offices": [],
    "role": "Papal Nuncio",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Salviati, Antonio Maria",
    "total": 1,
@@ -3659,6 +4140,8 @@
    "note": "",
    "offices": [],
    "role": "Marquis of Susa",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Savoie, Honorat de (Marquis of Susa)",
    "total": 1,
@@ -3684,6 +4167,8 @@
    "note": "",
    "offices": [],
    "role": "Count of Tende",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Savoie, Honorat de (Count of Tende)",
    "total": 1,
@@ -3728,11 +4213,30 @@
    "name": "Jacques de Savoie",
    "note": "",
    "offices": [
-    "Duc de Nemours",
-    "Gouverneur de Lyon, Forez et Beaujolais",
-    "Colonel-général de la cavalerie légère"
+    {
+     "from": "1533",
+     "label": "Duc de Nemours",
+     "to": "1585"
+    },
+    {
+     "from": "",
+     "label": "Gouverneur de Lyon, Forez et Beaujolais",
+     "to": ""
+    },
+    {
+     "from": "1558",
+     "label": "Colonel-général de la cavalerie légère",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Gouverneur de Lyon",
+     "to": ""
+    }
    ],
    "role": "Duke of Nemours",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Savoie, Jacques de",
    "total": 12,
@@ -3782,11 +4286,25 @@
    "name": "Emanuele Filiberto di Savoia",
    "note": "",
    "offices": [
-    "Duca di Savoia",
-    "Principe del Piemonte",
-    "Gran Maestro dell'Ordine dei Santi Maurizio e Lazzaro"
+    {
+     "from": "1553",
+     "label": "Duca di Savoia",
+     "to": "1580"
+    },
+    {
+     "from": "",
+     "label": "Principe del Piemonte",
+     "to": ""
+    },
+    {
+     "from": "1573",
+     "label": "Gran Maestro dell'Ordine dei Santi Maurizio e Lazzaro",
+     "to": "1580"
+    }
    ],
    "role": "Duke of Savoy",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Savoia, Emanuele Filiberto di",
    "total": 8,
@@ -3812,6 +4330,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Sorbin, Arnauld",
    "total": 1,
@@ -3838,11 +4358,25 @@
    "name": "Alessandro Striggio",
    "note": "",
    "offices": [
-    "Salariato di Francesco I de' Medici",
-    "Provisionato di Cosimo I de' Medici",
-    "Musico / Musicista"
+    {
+     "from": "1574",
+     "label": "Salariato di Francesco I de' Medici",
+     "to": "1586"
+    },
+    {
+     "from": "",
+     "label": "Provisionato di Cosimo I de' Medici",
+     "to": ""
+    },
+    {
+     "from": "1566",
+     "label": "Musico / Musicista",
+     "to": ""
+    }
    ],
    "role": "Salariato di Cosimo I de' Medici",
+   "roleFrom": "1559",
+   "roleTo": "1574",
    "roleType": "stateCourtPersonnel",
    "sortName": "Striggio, Alessandro",
    "total": 1,
@@ -3869,11 +4403,35 @@
    "name": "Filippo Strozzi",
    "note": "",
    "offices": [
-    "Colonel des Gardes françaises",
-    "Chevalier de l'Ordre de Saint-Michel",
-    "Colonel Général de l'infanterie française"
+    {
+     "from": "1563",
+     "label": "Colonel des Gardes françaises",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Chevalier de l'Ordre de Saint-Michel",
+     "to": ""
+    },
+    {
+     "from": "",
+     "label": "Amiral",
+     "to": "1582"
+    },
+    {
+     "from": "1560",
+     "label": "Seigneur d'Epernay",
+     "to": "1582"
+    },
+    {
+     "from": "1569",
+     "label": "Colonel Général de l'infanterie française",
+     "to": ""
+    }
    ],
    "role": "Colonel-General of the Infantry, commander of the French naval expedition (1572)",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Strozzi, Filippo",
    "total": 1,
@@ -3899,6 +4457,8 @@
    "note": "",
    "offices": [],
    "role": "Marshal of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Saulx-Tavannes, Gaspard de",
    "total": 1,
@@ -3924,6 +4484,8 @@
    "note": "Entity needs research and completion",
    "offices": [],
    "role": "Noble",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Taxi family member",
    "total": 2,
@@ -3943,6 +4505,8 @@
    "note": "",
    "offices": [],
    "role": "Master of the King's Wardrobe",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Termes, Jean de",
    "total": 0,
@@ -3976,6 +4540,8 @@
    "note": "",
    "offices": [],
    "role": "Duke of Alba, Governor of the Spanish Netherlands",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "military",
    "sortName": "Álvarez de Toledo, Fernando",
    "total": 2,
@@ -4025,9 +4591,20 @@
    "name": "Elizabeth Tudor",
    "note": "",
    "offices": [
-    "Queen of Ireland"
+    {
+     "from": "1558",
+     "label": "Queen of England",
+     "to": "1603"
+    },
+    {
+     "from": "1558",
+     "label": "Queen of Ireland",
+     "to": "1603"
+    }
    ],
    "role": "Queen of England",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Tudor, Elizabeth",
    "total": 13,
@@ -4052,9 +4629,15 @@
    "name": "Enea Vaini",
    "note": "Order of Santo Stefano official",
    "offices": [
-    "Signore della tavola di Francesco I de' Medici"
+    {
+     "from": "",
+     "label": "Signore della tavola di Francesco I de' Medici",
+     "to": ""
+    }
    ],
    "role": "Cavaliere dell'Ordine di Santo Stefano",
+   "roleFrom": "1562",
+   "roleTo": "1612",
    "roleType": "",
    "sortName": "Vaini, Enea",
    "total": 1,
@@ -4166,9 +4749,15 @@
    "name": "Charles IX",
    "note": "",
    "offices": [
-    "Roi de France"
+    {
+     "from": "1560",
+     "label": "Roi de France",
+     "to": "1574"
+    }
    ],
    "role": "King of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Charles IX",
    "total": 107,
@@ -4211,9 +4800,15 @@
    "name": "François de Valois",
    "note": "",
    "offices": [
-    "Duc d'Alençon"
+    {
+     "from": "",
+     "label": "Duc d'Alençon",
+     "to": ""
+    }
    ],
    "role": "Duke of Alençon, later Duke of Anjou",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, François de",
    "total": 7,
@@ -4253,12 +4848,30 @@
    "name": "Henri III",
    "note": "",
    "offices": [
-    "Roi de France",
-    "Duc d'Orleans",
-    "Duc d'Anjou",
-    "King of Poland"
+    {
+     "from": "1574",
+     "label": "Roi de France",
+     "to": "1589"
+    },
+    {
+     "from": "",
+     "label": "Duc d'Orleans",
+     "to": ""
+    },
+    {
+     "from": "1565",
+     "label": "Duc d'Anjou",
+     "to": ""
+    },
+    {
+     "from": "1573",
+     "label": "Król Polski",
+     "to": "1575"
+    }
    ],
    "role": "King of France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Henri III",
    "total": 5,
@@ -4289,6 +4902,8 @@
    "note": "",
    "offices": [],
    "role": "",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Valois, Marguerite de",
    "total": 3,
@@ -4313,11 +4928,25 @@
    "name": "Simon Vigor",
    "note": "",
    "offices": [
-    "Teologo",
-    "Episcopus Narbonenensis (Narbonne)",
-    "Recteur Université de Paris"
+    {
+     "from": "",
+     "label": "Teologo",
+     "to": ""
+    },
+    {
+     "from": "1572",
+     "label": "Episcopus Narbonenensis (Narbonne)",
+     "to": "1575"
+    },
+    {
+     "from": "",
+     "label": "Recteur Université de Paris",
+     "to": ""
+    }
    ],
    "role": "Predicatore",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Vigor, Simon",
    "total": 1,
@@ -4344,11 +4973,30 @@
    "name": "Francis Walsingham",
    "note": "",
    "offices": [
-    "Ambassador of England to France",
-    "Privy councillor of England to Elizabeth I Tudor",
-    "Secretary of State"
+    {
+     "from": "1570",
+     "label": "Ambassador of England to France",
+     "to": "1573"
+    },
+    {
+     "from": "1559",
+     "label": "Member of Parliament",
+     "to": ""
+    },
+    {
+     "from": "1573",
+     "label": "Privy councillor of England to Elizabeth I Tudor",
+     "to": ""
+    },
+    {
+     "from": "1573",
+     "label": "Secretary of State",
+     "to": "1590"
+    }
    ],
    "role": "English ambassador to France",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "diplomat",
    "sortName": "Walsingham, Francis",
    "total": 2,
@@ -4367,9 +5015,15 @@
    "name": "Aurelio Zibramonti",
    "note": "",
    "offices": [
-    "Segretario"
+    {
+     "from": "",
+     "label": "Segretario",
+     "to": ""
+    }
    ],
    "role": "Ducal secretary in Mantua",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Zibramonti, Aurelio",
    "total": 0,
@@ -4400,6 +5054,8 @@
    "note": "",
    "offices": [],
    "role": "King of Poland",
+   "roleFrom": "",
+   "roleTo": "",
    "roleType": "",
    "sortName": "Zygmunt II (King of Poland)",
    "total": 2,
@@ -7677,5 +8333,303 @@
    "total": 1,
    "wikidata": "Q623374"
   }
- }
+ },
+ "events": [
+  {
+   "desc": "The edict ending the third war of religion, granting the Huguenots four places of safety. Gregorian 18 August 1570. Its slow and contested execution is the subject of most of Cavriana's reporting through the autumn of 1570.",
+   "firstAfter": "1570-08-17",
+   "from": "",
+   "id": "evt-paix-saint-germain",
+   "label": "Peace of Saint-Germain-en-Laye",
+   "labels": [
+    "Peace of Saint-Germain-en-Laye",
+    "Paix de Saint-Germain-en-Laye"
+   ],
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "days": -10,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-07-29",
+     "days": -10,
+     "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-17",
+     "days": 9,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "days": 24,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "days": 34,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1570-09-14",
+     "days": 37,
+     "slug": "1570-09-14"
+    }
+   ],
+   "to": "",
+   "when": "1570-08-08",
+   "wikidata": "Q1067191"
+  },
+  {
+   "desc": "Celebrated at Mézières. Gregorian 6 December 1570. Cavriana reports the wedding preparations through November and the new queen's reception at court in January.",
+   "firstAfter": "",
+   "from": "",
+   "id": "evt-mariage-charles-ix",
+   "label": "Marriage of Charles IX and Elisabeth of Austria",
+   "labels": [
+    "Marriage of Charles IX and Elisabeth of Austria"
+   ],
+   "letters": [
+    {
+     "date": "1570-11-09",
+     "days": -17,
+     "slug": "1570-11-09"
+    }
+   ],
+   "to": "",
+   "when": "1570-11-26",
+   "wikidata": ""
+  },
+  {
+   "desc": "The Holy League's naval victory over the Ottoman fleet. Gregorian 17 October 1571.",
+   "firstAfter": "",
+   "from": "",
+   "id": "evt-lepanto",
+   "label": "Battle of Lepanto",
+   "labels": [
+    "Battle of Lepanto",
+    "Battaglia di Lepanto"
+   ],
+   "letters": [],
+   "to": "",
+   "when": "1571-10-07",
+   "wikidata": "Q165425"
+  },
+  {
+   "desc": "The conclave following the death of Pius V, which elected Ugo Boncompagni. Gregorian 22–23 May 1572.",
+   "firstAfter": "1572-05-12",
+   "from": "1572-05-12",
+   "id": "evt-conclave-1572",
+   "label": "Election of Gregory XIII",
+   "labels": [
+    "Election of Gregory XIII"
+   ],
+   "letters": [
+    {
+     "date": "1572-04-22",
+     "days": -20,
+     "slug": "1572-04-22"
+    },
+    {
+     "date": "1572-05-12",
+     "days": 0,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-05-28",
+     "days": 16,
+     "slug": "1572-05-28"
+    }
+   ],
+   "to": "1572-05-13",
+   "when": "",
+   "wikidata": "Q4541853"
+  },
+  {
+   "desc": "The match Cavriana had been reporting since 1570, celebrated in Paris six days before the massacre. Gregorian 28 August 1572.",
+   "firstAfter": "1572-08-31",
+   "from": "",
+   "id": "evt-mariage-navarre",
+   "label": "Marriage of Henri de Navarre and Marguerite de Valois",
+   "labels": [
+    "Marriage of Henri de Navarre and Marguerite de Valois"
+   ],
+   "letters": [
+    {
+     "date": "1572-08-04",
+     "days": -14,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-08-31",
+     "days": 13,
+     "slug": "1572-08-31"
+    }
+   ],
+   "to": "",
+   "when": "1572-08-18",
+   "wikidata": ""
+  },
+  {
+   "desc": "The killing of Coligny and the Huguenot leadership in Paris, and afterwards in the provinces. Gregorian 3 September 1572.",
+   "firstAfter": "1572-08-31",
+   "from": "",
+   "id": "evt-saint-barthelemy",
+   "label": "Massacre of Saint Bartholomew's Day",
+   "labels": [
+    "Massacre of Saint Bartholomew's Day",
+    "Massacre de la Saint-Barthélemy"
+   ],
+   "letters": [
+    {
+     "date": "1572-08-04",
+     "days": -20,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-08-31",
+     "days": 7,
+     "slug": "1572-08-31"
+    }
+   ],
+   "to": "",
+   "when": "1572-08-24",
+   "wikidata": "Q163891"
+  },
+  {
+   "desc": "The royal army's assault on the Huguenot stronghold, lifted when Henri d'Anjou left to take the Polish crown. Gregorian 16 November 1572 to 16 July 1573.",
+   "firstAfter": "1572-11-20",
+   "from": "1572-11-06",
+   "id": "evt-siege-la-rochelle",
+   "label": "Siege of La Rochelle",
+   "labels": [
+    "Siege of La Rochelle"
+   ],
+   "letters": [
+    {
+     "date": "1572-10-23",
+     "days": -14,
+     "slug": "1572-10-23"
+    },
+    {
+     "date": "1572-11-04",
+     "days": -2,
+     "slug": "1572-11-04"
+    },
+    {
+     "date": "1572-11-20",
+     "days": 14,
+     "slug": "1572-11-20"
+    },
+    {
+     "date": "1572-11-21",
+     "days": 15,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-11-27",
+     "days": 21,
+     "slug": "1572-11-27"
+    },
+    {
+     "date": "1572-12-01",
+     "days": 25,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "days": 31,
+     "slug": "1572-12-07"
+    }
+   ],
+   "to": "1573-07-06",
+   "when": "",
+   "wikidata": "Q650082"
+  },
+  {
+   "desc": "The eight-month siege of the hilltop town, ended by famine. Gregorian 19 November 1572 to 29 August 1573.",
+   "firstAfter": "1572-11-20",
+   "from": "1572-11-09",
+   "id": "evt-siege-sancerre",
+   "label": "Siege of Sancerre",
+   "labels": [
+    "Siege of Sancerre"
+   ],
+   "letters": [
+    {
+     "date": "1572-10-23",
+     "days": -17,
+     "slug": "1572-10-23"
+    },
+    {
+     "date": "1572-11-04",
+     "days": -5,
+     "slug": "1572-11-04"
+    },
+    {
+     "date": "1572-11-20",
+     "days": 11,
+     "slug": "1572-11-20"
+    },
+    {
+     "date": "1572-11-21",
+     "days": 12,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-11-27",
+     "days": 18,
+     "slug": "1572-11-27"
+    },
+    {
+     "date": "1572-12-01",
+     "days": 22,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1572-12-07",
+     "days": 28,
+     "slug": "1572-12-07"
+    }
+   ],
+   "to": "1573-08-19",
+   "when": "",
+   "wikidata": "Q3486023"
+  },
+  {
+   "desc": "The first free royal election of the Polish–Lithuanian Commonwealth. Gregorian 21 May 1573.",
+   "firstAfter": "",
+   "from": "",
+   "id": "evt-election-pologne",
+   "label": "Election of Henri d'Anjou as King of Poland",
+   "labels": [
+    "Election of Henri d'Anjou as King of Poland"
+   ],
+   "letters": [],
+   "to": "",
+   "when": "1573-05-11",
+   "wikidata": "Q3586956"
+  },
+  {
+   "desc": "The plot of the Duke of Alençon and the King of Navarre against Charles IX, discovered at Saint-Germain-en-Laye and reported by Cavriana on 6 March 1574. The precise span is uncertain; the dates given bracket the discovery.",
+   "firstAfter": "1574-03-06",
+   "from": "1574-02-01",
+   "id": "evt-conjuration-saint-germain",
+   "label": "Conspiracy of Saint-Germain",
+   "labels": [
+    "Conspiracy of Saint-Germain"
+   ],
+   "letters": [
+    {
+     "date": "1574-03-06",
+     "days": 33,
+     "slug": "1574-03-06"
+    }
+   ],
+   "to": "1574-03-08",
+   "when": "",
+   "wikidata": ""
+  }
+ ]
 }
