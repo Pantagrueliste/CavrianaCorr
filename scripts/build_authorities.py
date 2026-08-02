@@ -40,7 +40,8 @@ def build_persons() -> dict:
         primary = next((n for n in names if n.get("type") not in ("alias", "sort")), None)
         aliases = [text(n) for n in names if n.get("type") == "alias"]
         sort_form = next((text(n) for n in names if n.get("type") == "sort"), "")
-        occ = p.find("tei:occupation", NS)
+        occs = p.xpath("./tei:occupation", namespaces=NS)
+        occ = occs[0] if occs else None
         idnos = {i.get("type"): text(i) for i in p.xpath("./tei:idno", namespaces=NS)}
         viaf = idnos.get("VIAF", "")
         out[pid] = {
@@ -54,6 +55,8 @@ def build_persons() -> dict:
             "aliases": [a for a in aliases if a],
             "role": text(occ),
             "roleType": occ.get("type", "") if occ is not None else "",
+            # Further offices, mostly from the Medici Archive's own records.
+            "offices": [text(o) for o in occs[1:]],
             "birth": text(p.find("tei:birth", NS)),
             "death": text(p.find("tei:death", NS)),
             "note": text(p.find("tei:note", NS)),

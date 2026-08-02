@@ -18,6 +18,10 @@ accidentally become anything more.
   - Identifies itself, with a contact address. If this traffic ever puzzles
     anyone at MAP, they should be able to see whose it is and write to us.
 
+Note: only the search endpoints answer without a session. The biographical
+detail routes require a logged-in browser, so those are fetched through the
+editor's own authenticated session rather than from here.
+
 The cache lives outside the published repository: it holds MAP's data, which
 is theirs, not ours. Only the identifiers we cite end up in the TEI.
 """
@@ -47,8 +51,10 @@ MAX_CALLS_PER_RUN = 400  # hard ceiling; the whole job needs fewer
 PERSON_SEARCH = "/Mia/json/document/findPeople/{q}"
 PERSON_DETAIL = "/Mia/json/biographical/findBiographicalPeople/{id}"
 PERSON_NAMES = "/Mia/json/biographical/findPersonNames/{id}"
-PERSON_TITLES = "/Mia/json/biographical/findPersonTitlesAndOccs/{id}"
+PERSON_TITLES = "/Mia/json/biographical/findPersonTitlesAndOccupations/{id}"
 PERSON_DOCS = "/Mia/json/biodoc/findDocumentsPeople/{id}"
+PERSON_SPOUSES = "/Mia/json/biographical/findPersonSpouses/{id}"
+PERSON_PORTRAIT = "/Mia/json/biographical/findPersonPotraitDetails/{id}"
 PLACE_SEARCH = "/Mia/json/document/findPlaces/{q}"
 PLACE_DETAIL = "/Mia/json/geographical/findGeographicalPlace/{id}"
 
