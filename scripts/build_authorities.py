@@ -8,6 +8,7 @@ by the people/places index pages.
 """
 from __future__ import annotations
 
+import csv
 import json
 from datetime import date, timedelta
 import re
@@ -19,6 +20,7 @@ from lxml import etree
 ROOT = Path(__file__).resolve().parent.parent
 LETTERS = ROOT / "letters"
 OUT = ROOT / "generated" / "authorities.json"
+CSV = ROOT / "generated" / "authorities.csv"
 
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
@@ -37,8 +39,49 @@ def date_of(el) -> str:
     return text(el) or el.get("when") or el.get("from") or el.get("notBefore") or ""
 
 
+def map_footprint() -> dict:
+    """How each person figures in the Medici Archive as a whole.
+
+    Counts only: how many documents name them, and in what capacity. The
+    documents themselves are MAP's, and stay in the local cache.
+    """
+    path = ROOT / ".cache" / "mia" / "map_footprint.tsv"
+    if not path.exists():
+        return {}
+    out = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        mid, total, sent, received, named = line.split("\t")
+        if int(total) == 0:
+            continue
+        out[mid] = {"documents": int(total), "sent": int(sent),
+                    "received": int(received), "named": int(named)}
+    return out
+
+
+def map_categories() -> dict:
+    """The Medici Archive's own classification of each person's offices.
+
+    Its value here is as a finding aid: it lets a reader ask the index for the
+    churchmen, or the soldiers, across a hundred and ten people.
+    """
+    path = ROOT / ".cache" / "mia" / "map_categories.tsv"
+    if not path.exists():
+        return {}
+    out = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        mid, cats = line.split("\t")
+        out[mid] = [c for c in cats.split("|") if c]
+    return out
+
+
 def build_persons() -> dict:
     doc = etree.parse(str(LETTERS / "persNames.xml"))
+    footprint = map_footprint()
+    categories = map_categories()
     out = {}
     for p in doc.xpath(".//tei:person", namespaces=NS):
         pid = p.get(XML_ID)
@@ -76,6 +119,9 @@ def build_persons() -> dict:
             "note": text(p.find("tei:note", NS)),
             "viaf": viaf.strip(),
             "map": idnos.get("MAP", ""),
+            # the person's presence in the Medici Archive at large
+            "archive": footprint.get(idnos.get("MAP", ""), None),
+            "categories": categories.get(idnos.get("MAP", ""), []),
             "wikidata": idnos.get("WIKIDATA", ""),
             # Commons file name; the image itself stays on Commons.
             "image": idnos.get("WIKIMEDIA_IMAGE", ""),
@@ -199,6 +245,43 @@ def collect_occurrences() -> tuple[dict, dict]:
     return occ, dates
 
 
+def write_csv(entities: dict) -> None:
+    """A flat table of the reconciliation, for anyone who wants the identifiers.
+
+    This edition checked every one of these against the authority itself, and
+    found the identifiers it inherited to be largely wrong. Publishing the
+    corrected set as a plain table costs nothing and saves the next person the
+    same work — including, where they are missing upstream, the Medici Archive
+    identifiers.
+    """
+    cols = ["id", "kind", "name", "sortName", "birth", "death",
+            "viaf", "wikidata", "map", "tgn", "geonames",
+            "lat", "lon", "mentions", "letters"]
+    rows = []
+    for eid, r in sorted(entities.items()):
+        rows.append({
+            "id": eid,
+            "kind": r["kind"],
+            "name": r.get("name", ""),
+            "sortName": r.get("sortName", ""),
+            "birth": r.get("birth", ""),
+            "death": r.get("death", ""),
+            "viaf": r.get("viaf", ""),
+            "wikidata": r.get("wikidata", ""),
+            "map": r.get("map", ""),
+            "tgn": r.get("tgn", ""),
+            "geonames": r.get("geonames", ""),
+            "lat": r.get("lat", ""),
+            "lon": r.get("lon", ""),
+            "mentions": r.get("total", 0),
+            "letters": len(r.get("letters", [])),
+        })
+    with CSV.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        w.writerows(rows)
+
+
 def main() -> None:
     persons, places = build_persons(), build_places()
     occ, dates = collect_occurrences()
@@ -219,10 +302,13 @@ def main() -> None:
         "dates": dates,
     }, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
 
+    write_csv(entities)
+
     cited = sum(1 for r in entities.values() if r["total"])
     print(f"✅  wrote {len(entities)} authority records "
           f"({cited} cited, {len(entities) - cited} never cited) "
           f"and {len(events)} events → {OUT}")
+    print(f"    flat table of identifiers → {CSV}")
 
 
 if __name__ == "__main__":
