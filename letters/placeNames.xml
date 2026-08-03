@@ -1106,6 +1106,29 @@
           <idno type="WIKIDATA" source="#wikidata">Q641</idno>
           <idno type="GEONAMES" source="#wikidata">6542284</idno>
         </place>
+        <place xml:id="place-svizzera" type="country">
+          <placeName type="historical" xml:lang="it">svizzeri</placeName>
+          <placeName type="modern" xml:lang="en">Switzerland</placeName>
+          <placeName type="country" xml:lang="en">Switzerland</placeName>
+          <location>
+            <geo source="#wikidata">46.7986 8.2320</geo>
+          </location>
+          <note>The Swiss Confederation. Cavriana names it through its soldiers, levied by the thousand from the cantons for French service.</note>
+          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7011731</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q39</idno>
+          <idno type="GEONAMES" source="#wikidata">2658434</idno>
+        </place>
+        <place xml:id="place-ottoman" type="country">
+          <placeName type="historical" xml:lang="it">Turchi</placeName>
+          <placeName type="modern" xml:lang="en">Ottoman Empire</placeName>
+          <placeName type="country" xml:lang="en">Ottoman Empire</placeName>
+          <location>
+            <geo source="#wikidata">41.0000 29.0000</geo>
+          </location>
+          <note>Named through its people. The Sultan himself Cavriana calls il Turco, and he is recorded separately as Selim II.</note>
+          <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7024412</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q12560</idno>
+        </place>
       </listPlace>
     </body>
   </text>

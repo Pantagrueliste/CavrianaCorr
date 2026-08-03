@@ -176,6 +176,7 @@ place-nivernais,place,Nivernais,Nivernais,,,,Q1468519,,7012206,,47.0000,3.1500,1
 place-normandie,place,Normandie,Normandie,,,,,,,,,,4,3
 place-orbetello,place,Orbetello,Orbetello,,,,Q214849,,7006176,6541107,42.4400,11.2133,1,1
 place-orleans,place,Orléans,Orléans,,,,Q6548,,7008337,2989317,47.9022,1.9042,2,2
+place-ottoman,place,Ottoman Empire,Ottoman Empire,,,,Q12560,,7024412,,41.0000,29.0000,0,0
 place-padova,place,Padua,Padua,,,,Q617,,7003085,6542281,45.4064,11.8768,1,1
 place-paris,place,Paris,Paris,,,,Q90,,7008038,2988507,48.8566,2.3522,57,32
 place-parma,place,Parma,Parma,,,,Q2683,,7004942,6540120,44.8015,10.3279,1,1
@@ -203,6 +204,7 @@ place-savoia,place,Savoy,Savoy,,,,Q14118,,7024413,,45.5667,5.9333,6,5
 place-saxony,place,Saxony,Saxony,,,,Q156199,,7003685,,51.0493,13.7384,3,2
 place-sedana,place,Sedan,Sedan,,,,Q184371,,7009674,6426109,49.7019,4.9400,1,1
 place-soissons,place,Soissons,Soissons,,,,Q167152,,7010563,2974389,49.3850,3.3272,3,3
+place-svizzera,place,Switzerland,Switzerland,,,,Q39,,7011731,2658434,46.7986,8.2320,0,0
 place-toscana,place,Tuscany,Tuscany,,,,Q1273,,7009760,3165361,43.4500,11.2000,12,7
 place-trento,place,Trent,Trent,,,,Q3376,,7005128,6541469,46.0748,11.1217,1,1
 place-urbino,place,Urbino,Urbino,,,,Q2759,,7003994,6541472,43.726,12.637,1,1

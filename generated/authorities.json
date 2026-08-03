@@ -7816,6 +7816,37 @@
    "total": 2,
    "wikidata": "Q6548"
   },
+  "place-ottoman": {
+   "asPeople": [
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "asPeopleTotal": 2,
+   "country": "Ottoman Empire",
+   "geonames": "",
+   "historical": [
+    "Turchi"
+   ],
+   "kind": "place",
+   "lat": "41.0000",
+   "letters": [],
+   "lon": "29.0000",
+   "name": "Ottoman Empire",
+   "note": "Named through its people. The Sultan himself Cavriana calls il Turco, and he is recorded separately as Selim II.",
+   "scope": "country",
+   "sortName": "Ottoman Empire",
+   "tgn": "7024412",
+   "total": 0,
+   "wikidata": "Q12560"
+  },
   "place-padova": {
    "country": "Italy",
    "geonames": "6542281",
@@ -8894,6 +8925,57 @@
    "tgn": "7010563",
    "total": 3,
    "wikidata": "Q167152"
+  },
+  "place-svizzera": {
+   "asPeople": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-11-27",
+     "n": 1,
+     "slug": "1572-11-27"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "asPeopleTotal": 6,
+   "country": "Switzerland",
+   "geonames": "2658434",
+   "historical": [
+    "svizzeri"
+   ],
+   "kind": "place",
+   "lat": "46.7986",
+   "letters": [],
+   "lon": "8.2320",
+   "name": "Switzerland",
+   "note": "The Swiss Confederation. Cavriana names it through its soldiers, levied by the thousand from the cantons for French service.",
+   "scope": "country",
+   "sortName": "Switzerland",
+   "tgn": "7011731",
+   "total": 0,
+   "wikidata": "Q39"
   },
   "place-toscana": {
    "country": "Italy",
