@@ -474,6 +474,9 @@ const YEAR_LETTERS = YEARS.map((y) =>
       .reduce((s, r) => s + ((r.slugs && r.slugs.length) || 0), 0),
 );
 const MAX_LETTERS = Math.max(...YEAR_LETTERS, 0);
+// Shaded by words rather than letters: a year of long despatches is more work
+// than a year of short notes, and the day cells are counted the same way.
+const MAX_WORDS = Math.max(...YEAR_TOTALS, 0);
 
 // The day cells step through five fixed shades, which is right for a single
 // day but too coarse for six years: it put 1 letter and 9 in the same bucket,
@@ -502,10 +505,18 @@ const readableOn = (rgb) => {
   return contrast([255, 255, 255]) > contrast([0, 0, 0]) ? '#ffffff' : '#000000';
 };
 
+// The day cells' palest green is already a solid colour, so on a year scale a
+// thin year could not look thin: 1569's 2,388 words came out nearly as strong
+// as years with ten times as many. Two paler stops are added beneath the five,
+// giving the range room to say "hardly anything" as well as "a great deal".
+const YEAR_RAMP = [
+  '#f1faf3', '#c9ecd3', '#9be9a8', '#40c463', '#30a14e', '#216e39', '#0a4620',
+];
+
 const yearRGB = (n) => {
   if (!n) return [235, 237, 240];
-  const ramp = ['#9be9a8', '#40c463', '#30a14e', '#216e39', '#0a4620'];
-  const p = (n / (MAX_LETTERS || 1)) * (ramp.length - 1);
+  const ramp = YEAR_RAMP;
+  const p = (n / (MAX_WORDS || 1)) * (ramp.length - 1);
   const i = Math.min(Math.floor(p), ramp.length - 2);
   const f = p - i;
   const hex = (c) => [1, 3, 5].map((k) => parseInt(c.slice(k, k + 2), 16));
@@ -753,8 +764,8 @@ const HeatmapDisplay = () => {
       {/* Year selection buttons */}
       <div className="year-selector">
         {YEARS.map((year, i) => {
-          const shade = yearShade(YEAR_LETTERS[i]);
-          const ink = readableOn(yearRGB(YEAR_LETTERS[i]));
+          const shade = yearShade(YEAR_TOTALS[i]);
+          const ink = readableOn(yearRGB(YEAR_TOTALS[i]));
           return (
             <button
               key={year}
