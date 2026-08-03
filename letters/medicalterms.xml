@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Centralized Medical Vocabulary Authority File</title>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of St. Andrews</publisher>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Authority file compiled from the correspondence of Filippo Cavriana.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Each entry carries the semantic classification on <gi>sense</gi>/@ana. Register is not recorded here: it is a property of the individual occurrence and is recorded on <gi>term</gi>/@ana in the letters.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-medical">
+          <category xml:id="med-disease">
+            <catDesc>Named diseases and fevers</catDesc>
+          </category>
+          <category xml:id="med-symptom">
+            <catDesc>Symptoms, signs and morbid events</catDesc>
+          </category>
+          <category xml:id="med-matter">
+            <catDesc>Humours and morbid matter</catDesc>
+          </category>
+          <category xml:id="med-physiology">
+            <catDesc>Faculties, qualities and states of health</catDesc>
+          </category>
+          <category xml:id="med-therapy">
+            <catDesc>Remedies, regimens and procedures</catDesc>
+          </category>
+          <category xml:id="med-practice">
+            <catDesc>Practitioners, offices and the art itself</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-register">
+          <category xml:id="reg-literal">
+            <catDesc>Used of a body, a patient or a place in the proper medical sense</catDesc>
+          </category>
+          <category xml:id="reg-figurative">
+            <catDesc>Transferred to political, military or moral matter</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="lexicon">
+
+        <!-- Diseases and fevers -->
+        <entry xml:id="med-febre">
+          <form type="lemma"><orth>febre</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-disease">
+            <def xml:lang="en">Fever, considered as a disease in its own right rather than as a symptom.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 286r, 288r, 288v</note>
+        </entry>
+
+        <entry xml:id="med-febre-continua">
+          <form type="lemma"><orth>febre continua</orth></form>
+          <gramGrp><pos>noun phrase</pos></gramGrp>
+          <sense n="1" ana="#med-disease">
+            <def xml:lang="en">Continued fever, without complete remission between paroxysms.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-terzana">
+          <form type="lemma"><orth>terzana</orth></form>
+          <form type="variant"><orth>doppia terzana</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-disease">
+            <def xml:lang="en">Tertian fever, with paroxysms recurring every third day. The double tertian produces paroxysms on consecutive days.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-ettica">
+          <form type="lemma"><orth>ettica</orth></form>
+          <form type="variant"><orth>Ettica</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-disease">
+            <def xml:lang="en">Hectic fever, a wasting fever held to consume the substance of the body and regarded as grave.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-male">
+          <form type="lemma"><orth>male</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-disease">
+            <def xml:lang="en">Illness, the morbid condition taken as a whole.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+        <!-- Symptoms and morbid events -->
+        <entry xml:id="med-accidente">
+          <form type="lemma"><orth>accidente</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">An adverse event or symptom supervening on the principal disease.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 286r, 288r, 288v</note>
+        </entry>
+
+        <entry xml:id="med-piaga">
+          <form type="lemma"><orth>piaga</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">Open wound or sore, here the surgical wound left by the Duke of Nevers's accident.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 286r, 288r</note>
+        </entry>
+
+        <entry xml:id="med-maligno">
+          <form type="lemma"><orth>maligno</orth></form>
+          <form type="variant"><orth>maligna</orth></form>
+          <gramGrp><pos>adjective</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">Malignant; of a wound or fever, taking a dangerous and resistant course.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-dolore">
+          <form type="lemma"><orth>dolore</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">Pain, localised to a part.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-infiammatione">
+          <form type="lemma"><orth>infiammatione</orth></form>
+          <form type="variant"><orth>infiammone</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">Inflammation.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-sudore">
+          <form type="lemma"><orth>sudore</orth></form>
+          <form type="variant"><orth>sudori</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">Sweats, here debilitating and prognostically unfavourable.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+        <entry xml:id="med-periodo">
+          <form type="lemma"><orth>periodo</orth></form>
+          <form type="variant"><orth>perio[di]</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-symptom">
+            <def xml:lang="en">The period of a fever, the interval between paroxysms governing the timing of intervention.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <!-- Humours and morbid matter -->
+        <entry xml:id="med-humore">
+          <form type="lemma"><orth>humore</orth></form>
+          <form type="variant"><orth>humori</orth></form>
+          <form type="variant"><orth>humoi</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-matter">
+            <def xml:lang="en">Humour; the fluid constituents of the body whose imbalance or corruption produces disease.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 288r, 288v</note>
+        </entry>
+
+        <entry xml:id="med-colerico">
+          <form type="lemma"><orth>colerico</orth></form>
+          <form type="variant"><orth>colerici</orth></form>
+          <gramGrp><pos>adjective</pos></gramGrp>
+          <sense n="1" ana="#med-matter">
+            <def xml:lang="en">Choleric; pertaining to yellow bile, the hot and dry humour.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 288r, 288v</note>
+        </entry>
+
+        <entry xml:id="med-acuto">
+          <form type="lemma"><orth>acuto</orth></form>
+          <form type="variant"><orth>acuti</orth></form>
+          <gramGrp><pos>adjective</pos></gramGrp>
+          <sense n="1" ana="#med-matter">
+            <def xml:lang="en">Acrid or sharp, of humours held to irritate the parts they reach.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+        <!-- Faculties, qualities, states -->
+        <entry xml:id="med-virtu">
+          <form type="lemma"><orth>virtù</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-physiology">
+            <def xml:lang="en">The vital faculty or strength of the patient, whose failure is the decisive prognostic sign.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 288r, 288v</note>
+        </entry>
+
+        <entry xml:id="med-calore">
+          <form type="lemma"><orth>calore</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-physiology">
+            <def xml:lang="en">Innate heat, the vital warmth of a part; its weakness impedes healing.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+                <entry xml:id="med-fervore">
+          <form type="lemma"><orth>fervore</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-physiology">
+            <def xml:lang="en">Boiling heat; an intensity of the hot quality exceeding the temperate state, and the condition on which alteration by cooling operates.</def>
+          </sense>
+          <xr type="cf"><ref target="#med-calore">calore</ref></xr>
+          <note type="attestation">ASF, MdP 551, fol. 221r</note>
+        </entry>
+
+        <entry xml:id="med-appetito">
+          <form type="lemma"><orth>appetito</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-physiology">
+            <def xml:lang="en">Appetite, taken as an index of the patient's strength.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+        <entry xml:id="med-sanita">
+          <form type="lemma"><orth>sanità</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-physiology">
+            <def xml:lang="en">Health, the restored condition of the body.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 286r, 286v</note>
+        </entry>
+
+        <!-- Remedies, regimens, procedures -->
+        <entry xml:id="med-purgare">
+          <form type="lemma"><orth>purgare</orth></form>
+          <gramGrp><pos>verb</pos></gramGrp>
+          <sense n="1" ana="#med-therapy">
+            <def xml:lang="en">To purge; to evacuate the offending humour by medicine.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+        <entry xml:id="med-rabarbaro">
+          <form type="lemma"><orth>rabarbaro</orth></form>
+          <form type="variant"><orth>rhabarbaro</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-therapy">
+            <def xml:lang="en">Rhubarb, a purgative held to act specifically on choleric humours.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+        <entry xml:id="med-latte-asino">
+          <form type="lemma"><orth>latte d'asino</orth></form>
+          <form type="variant"><orth>latte d'Asino</orth></form>
+          <gramGrp><pos>noun phrase</pos></gramGrp>
+          <sense n="1" ana="#med-therapy">
+            <def xml:lang="en">Asses' milk, a restorative regimen prescribed in wasting conditions and here proposed against the incipient hectic.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+                <entry xml:id="med-intiepidire">
+          <form type="lemma"><orth>intiepidire</orth></form>
+          <gramGrp><pos>verb</pos></gramGrp>
+          <sense n="1" ana="#med-therapy">
+            <def xml:lang="en">To reduce to tepidity; to temper an excess of the hot quality. Alteration by contraries, as distinct from evacuation of the offending matter.</def>
+          </sense>
+          <xr type="cf"><ref target="#med-fervore">fervore</ref></xr>
+          <note type="attestation">ASF, MdP 551, fol. 221r</note>
+        </entry>
+
+        <entry xml:id="med-smorbare">
+          <form type="lemma"><orth>smorbare</orth></form>
+          <form type="variant"><orth>smorbar</orth></form>
+          <gramGrp><pos>verb</pos></gramGrp>
+          <sense n="1" ana="#med-therapy">
+            <def xml:lang="en">To rid a place or the air of contagion; to disinfect. Formed from ammorbare with the privative prefix s-.</def>
+            <bibl>Vocabolario degli Accademici della Crusca, s.v. Smorbare</bibl>
+          </sense>
+          <note type="attestation">ASF, MdP 551, fol. 221r</note>
+        </entry>
+
+        <!-- Practitioners and the art -->
+        <entry xml:id="med-medico">
+          <form type="lemma"><orth>medico</orth></form>
+          <form type="variant"><orth>medici</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-practice">
+            <def xml:lang="en">Physician.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fols. 286r, 288r</note>
+        </entry>
+
+        <entry xml:id="med-protofisico">
+          <form type="lemma"><orth>protofisico</orth></form>
+          <form type="variant"><orth>Protofisico</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-practice">
+            <def xml:lang="en">Chief physician; the senior medical officer of a household or court. Used at fol. 288r of Honoré Castellan, premier médecin to Catherine de' Medici.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288r</note>
+        </entry>
+
+        <entry xml:id="med-arte">
+          <form type="lemma"><orth>arte</orth></form>
+          <gramGrp><pos>noun</pos></gramGrp>
+          <sense n="1" ana="#med-practice">
+            <def xml:lang="en">The art, that is medicine itself, considered as an agent set against the disease.</def>
+          </sense>
+          <note type="attestation">ASMn, AG b654, fol. 288v</note>
+        </entry>
+
+      </div>
+    </body>
+  </text>
+</TEI>

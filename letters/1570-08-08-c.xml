@@ -33,7 +33,7 @@
             <msItem>
               <locus from="221r" to="221r">fol. 221r</locus>
               <title>Letter from Vincenzo da Castello to Bartolomeo Concino</title>
-              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <author ref="#pers-cavriana-f">Vincenzo da Castello</author>
               <textLang mainLang="it">Italian</textLang>
             </msItem>
           </msContents>
@@ -67,15 +67,16 @@
         </correspAction>
       </correspDesc>
     </profileDesc>
-    <revisionDesc status="placeholder">
-      <change>Metadata only — transcription pending.</change>
+    <revisionDesc status="draft">
+      <change>Transcription of fol. 221r added; uncertain readings marked, unresolved authority references left as ref="#".</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
         <pb n="221r"/>
-        <p><gap reason="untranscribed"/></p>
+        <p>Non si intende altro rumore di <placeName ref="#place-toscana">Toscana</placeName>. quelli amici, de quali io<lb/> scrissi, <choice><abbr>nō</abbr><expan>non</expan></choice> si movono; Però questa pace farà vedere molte cose: et<lb/> scoprir molti dissegni, che a poco poco, si mettono in essere; gli<lb/> corsi sono sollecitati, dal nemico <choice><abbr>com̄une</abbr><expan>commune</expan></choice>, per introdur ministri la,<lb/> ma <choice><abbr>stan̍o</abbr><expan>stanno</expan></choice> saldi, sino addesso; però, <foreign xml:lang="la">omnes insulani mali</foreign><note type="editorial">Omnes insulani mali, Siculi autem pessimi: "All islanders are evil; Sicilians, however, are the worst", old proverb of uncertain origin. Cavriana alludes to St Paul, but no such maxim occurs in the Pauline epistles. The nearest text is Titus 1:12, where Paul cites a Cretan prophet, traditionally identified as Epimenides, to the effect that the Cretans are always liars, evil beasts and idle gluttons.</note>. per il tes<lb break="no"/>, per il tes<lb break="no"/>timonio di <persName ref="#">Paolo</persName>. In <placeName ref="#place-piemonte">Piemonte</placeName>, si mena il trattato di <placeName ref="#place-pinerolo">Pinerolo</placeName>,<lb/> et stando le cose, come sono de denari, vivere, et tradimento,<lb/> è da temere, che non facino la barba, a chi otioso si gode<lb/> della tranquillità, et si faccia un rumore grandissimo fuori<lb/> d'ogni bisogno di quel paese; Si maneggia la pace. la quale<lb/> si concluderà al fin fine, et forzar n'è. Gli deputati sono<lb/> gionti à <placeName ref="#place-saint-germain-en-laye">san germano</placeName>, mandati dal <persName ref="#pers-coligny-g">Armiraglio</persName>, ne puo andar<lb/> molto che la cosa non si concluda. Voglia Dio, che la<lb/> vada bene. Non si crede, che la Dieta si faccia in <placeName ref="#place-de">Ger<lb break="no"/>mania</placeName> piu. Percioche molti Prencipi chiamati, non hanno<lb/> voluto venire, anzi hanno fatto altra deliberatione tra<lb/> loro; stimasi che fatta la pace qui, l'armi si debbano<lb/> trasferire in altro Paese. Per <term ref="#med-smorbare" ana="#reg-figurative">smorbar</term> la <placeName ref="#place-fr">Franza</placeName> della<lb/> colluvione di molti bandollieri, et gente otiosa, et mante<lb break="no"/>nerla netta, dove, Dio la sa, sin addesso, ma però<lb/> tosto si saperà: l'otio, et gli amori, et l'età, con<lb/> il consiglio, potriano <term ref="#med-intiepidire" ana="#reg-figurative">intiepidire</term> ogni <term ref="#med-fervore" ana="#reg-figurative">fervore</term>.</p> 
+        <p>Delle nove, gia mandai, non ho inteso, se seranno pia<lb break="no"/>ciute al signore. Contentatevi <choice><abbr>sig.re</abbr><expan>signore</expan></choice> mio, starmene far avvisato,<lb/> et per ogni modo, arder le mie lettere, perche, non man<lb break="no"/>cano de tristi per il mondo, ne può l'huomo provedere ad ogni<lb/> caso, ne prevedere gli accidenti.</p>
       </div>
     </body>
   </text>
