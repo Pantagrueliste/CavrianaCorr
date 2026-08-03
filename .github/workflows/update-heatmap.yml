@@ -1,16 +1,25 @@
 name: Update Cavriana Heatmap
+# The authority data names every letter, so it must never reach the front end
+# before the letter's own page does. Both workflows used to fire on the same
+# push and merely took turns, so this one could push a reference to a page that
+# did not exist yet and fail its own smoke test. It now waits for the
+# conversion to finish instead.
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Convert XML to Markdown"]
+    types: [completed]
   push:
     branches: [ main ]
     paths:
-      - "letters/**/*.xml"
       - "scripts/**.py"
       - "templates/CustomHeatmap.template.jsx"
       - "assets/cavriana-heatmap-custom.css"
 jobs:
   update-heatmap:
     runs-on: ubuntu-latest
+    # Nothing to publish if the conversion itself failed.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     # Serialize pushes to the frontend repo with convert-xml-to-markdown.yml
     concurrency:
       group: frontend-push
