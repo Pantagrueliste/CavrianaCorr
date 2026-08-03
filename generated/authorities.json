@@ -17,6 +17,7 @@
   "1570-07-15": "1570-07-15",
   "1570-07-29": "1570-07-29",
   "1570-07-29-b": "1570-07-29",
+  "1570-08-08-c": "1570-08-08",
   "1570-08-17": "1570-08-17",
   "1570-09-01": "1570-09-01",
   "1570-09-11": "1570-09-11",
@@ -56,7 +57,8 @@
   "1572-11-27": "1572-11-27",
   "1572-12-01": "1572-12-01",
   "1572-12-07": "1572-12-07",
-  "1574-03-06": "1574-03-06"
+  "1574-03-06": "1574-03-06",
+  "medicalterms": ""
  },
  "entities": {
   "pers-alamanni-v": {
@@ -1093,6 +1095,11 @@
      "slug": "1570-05-20"
     },
     {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    },
+    {
      "date": "1570-08-17",
      "n": 3,
      "slug": "1570-08-17"
@@ -1157,7 +1164,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Coligny, Gaspard de",
-   "total": 25,
+   "total": 26,
    "viaf": "79105346",
    "wikidata": "Q204975"
   },
@@ -6296,6 +6303,11 @@
      "slug": "1570-07-15"
     },
     {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    },
+    {
      "date": "1570-08-17",
      "n": 1,
      "slug": "1570-08-17"
@@ -6342,7 +6354,7 @@
    "scope": "country",
    "sortName": "Germany",
    "tgn": "7000084",
-   "total": 14,
+   "total": 15,
    "wikidata": "Q183"
   },
   "place-ecouen": {
@@ -6692,6 +6704,11 @@
      "slug": "1570-07-29"
     },
     {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    },
+    {
      "date": "1570-08-17",
      "n": 2,
      "slug": "1570-08-17"
@@ -6778,7 +6795,7 @@
    "scope": "country",
    "sortName": "France",
    "tgn": "1000070",
-   "total": 49,
+   "total": 50,
    "wikidata": "Q142"
   },
   "place-gascogne": {
@@ -8067,6 +8084,11 @@
      "slug": "1570-07-29"
     },
     {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    },
+    {
      "date": "1570-09-01",
      "n": 1,
      "slug": "1570-09-01"
@@ -8108,7 +8130,7 @@
    "scope": "",
    "sortName": "Piedmont",
    "tgn": "7003120",
-   "total": 15,
+   "total": 16,
    "wikidata": "Q1216"
   },
   "place-pinerolo": {
@@ -8129,6 +8151,11 @@
      "date": "1570-07-29",
      "n": 1,
      "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
     }
    ],
    "lon": "7.3333",
@@ -8137,7 +8164,7 @@
    "scope": "",
    "sortName": "Pinerolo",
    "tgn": "7005728",
-   "total": 2,
+   "total": 3,
    "wikidata": "Q9573"
   },
   "place-pisa": {
@@ -8569,6 +8596,11 @@
      "slug": "1570-07-29-b"
     },
     {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    },
+    {
      "date": "1570-08-17",
      "n": 1,
      "slug": "1570-08-17"
@@ -8585,7 +8617,7 @@
    "scope": "",
    "sortName": "Saint-Germain-en-Laye",
    "tgn": "8723310",
-   "total": 7,
+   "total": 8,
    "wikidata": "Q60847808"
   },
   "place-saint-jean-dangely": {
@@ -8860,6 +8892,11 @@
    "lat": "43.4500",
    "letters": [
     {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    },
+    {
      "date": "1570-09-11",
      "n": 1,
      "slug": "1570-09-11"
@@ -8896,7 +8933,7 @@
    "scope": "",
    "sortName": "Tuscany",
    "tgn": "7009760",
-   "total": 11,
+   "total": 12,
    "wikidata": "Q1273"
   },
   "place-trento": {
@@ -9034,7 +9071,7 @@
  "events": [
   {
    "desc": "The edict ending the third war of religion, granting the Huguenots four places of safety. Gregorian 18 August 1570. Its slow and contested execution is the subject of most of Cavriana's reporting through the autumn of 1570.",
-   "firstAfter": "1570-08-17",
+   "firstAfter": "1570-08-08-c",
    "from": "",
    "id": "evt-paix-saint-germain",
    "label": "Peace of Saint-Germain-en-Laye",
@@ -9052,6 +9089,11 @@
      "date": "1570-07-29",
      "days": -10,
      "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-08",
+     "days": 0,
+     "slug": "1570-08-08-c"
     },
     {
      "date": "1570-08-17",

@@ -55,13 +55,17 @@ jobs:
         token: ${{ secrets.DOCUSAURUS_REPO_SECRET }}
     - name: Copy component and stylesheet into front-end repo
       run: |
-        mkdir -p CavrianaCorr_FrontEnd/src/components CavrianaCorr_FrontEnd/src/css CavrianaCorr_FrontEnd/src/data
+        mkdir -p CavrianaCorr_FrontEnd/src/components CavrianaCorr_FrontEnd/src/css \
+                 CavrianaCorr_FrontEnd/src/data CavrianaCorr_FrontEnd/static
         cp generated/CustomHeatmap.jsx \
            CavrianaCorr_FrontEnd/src/components/
         cp assets/cavriana-heatmap-custom.css \
            CavrianaCorr_FrontEnd/src/css/
         cp generated/authorities.json \
            CavrianaCorr_FrontEnd/src/data/
+        # the table of identifiers the indexes offer for download
+        cp generated/authorities.csv \
+           CavrianaCorr_FrontEnd/static/
     # ── 3  Smoke-build the Docusaurus site ───────────────────────
     - uses: actions/setup-node@v4
       with:
@@ -79,10 +83,29 @@ jobs:
       run: |
         git config user.name  "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add src/components/CustomHeatmap.jsx src/css/cavriana-heatmap-custom.css src/data/authorities.json
+        git add src/components/CustomHeatmap.jsx src/css/cavriana-heatmap-custom.css \
+                src/data/authorities.json static/authorities.csv
         if ! git diff --cached --quiet; then
           git commit -m "Auto-update heat-map and authority data"
           git stash --include-untracked
+          for i in 1 2 3; do
+            git pull --rebase origin main && \
+            git push origin main && break || sleep 5
+          done
+        fi
+
+    # The generated data is committed here too, so that the copy in this
+    # repository matches what the site is built from. It used to be produced
+    # only inside the runner, so generated/ drifted silently out of date and
+    # anyone reading it — including the editor — saw stale counts.
+    - name: Commit regenerated data back to this repository
+      if: ${{ success() }}
+      run: |
+        git config user.name  "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add generated/authorities.json generated/authorities.csv generated/CustomHeatmap.jsx
+        if ! git diff --cached --quiet; then
+          git commit -m "Regenerate authority data"
           for i in 1 2 3; do
             git pull --rebase origin main && \
             git push origin main && break || sleep 5
