@@ -76,7 +76,7 @@ const rows  = [
   },
   {
     "date": "1569-01-03",
-    "value": 1238,
+    "value": 1242,
     "slugs": [
       "1569-01-03"
     ]
@@ -90,7 +90,7 @@ const rows  = [
   },
   {
     "date": "1569-12-21",
-    "value": 648,
+    "value": 646,
     "slugs": [
       "1569-12-21"
     ]
@@ -104,7 +104,7 @@ const rows  = [
   },
   {
     "date": "1570-05-20",
-    "value": 1876,
+    "value": 1880,
     "slugs": [
       "1570-05-20"
     ]
@@ -118,22 +118,29 @@ const rows  = [
   },
   {
     "date": "1570-07-29",
-    "value": 2352,
+    "value": 2354,
     "slugs": [
       "1570-07-29",
       "1570-07-29-b"
     ]
   },
   {
+    "date": "1570-08-08",
+    "value": 704,
+    "slugs": [
+      "1570-08-08-c"
+    ]
+  },
+  {
     "date": "1570-08-17",
-    "value": 3316,
+    "value": 3324,
     "slugs": [
       "1570-08-17"
     ]
   },
   {
     "date": "1570-09-01",
-    "value": 5416,
+    "value": 5432,
     "slugs": [
       "1570-09-01"
     ]
@@ -161,7 +168,7 @@ const rows  = [
   },
   {
     "date": "1570-10-13",
-    "value": 4497,
+    "value": 4499,
     "slugs": [
       "1570-10-13"
     ]
@@ -176,7 +183,7 @@ const rows  = [
   },
   {
     "date": "1570-11-04",
-    "value": 1974,
+    "value": 1976,
     "slugs": [
       "1570-11-04"
     ]
@@ -190,7 +197,7 @@ const rows  = [
   },
   {
     "date": "1571-01-12",
-    "value": 4424,
+    "value": 4434,
     "slugs": [
       "1571-01-12"
     ]
@@ -204,7 +211,7 @@ const rows  = [
   },
   {
     "date": "1571-01-26",
-    "value": 2458,
+    "value": 2460,
     "slugs": [
       "1571-01-26"
     ]
@@ -232,14 +239,14 @@ const rows  = [
   },
   {
     "date": "1571-04-19",
-    "value": 1394,
+    "value": 1396,
     "slugs": [
       "1571-04-19"
     ]
   },
   {
     "date": "1571-06-27",
-    "value": 628,
+    "value": 630,
     "slugs": [
       "1571-06-27"
     ]
@@ -281,56 +288,56 @@ const rows  = [
   },
   {
     "date": "1572-03-08",
-    "value": 1870,
+    "value": 1880,
     "slugs": [
       "1572-03-08"
     ]
   },
   {
     "date": "1572-03-19",
-    "value": 1520,
+    "value": 1526,
     "slugs": [
       "1572-03-19"
     ]
   },
   {
     "date": "1572-04-22",
-    "value": 2538,
+    "value": 2540,
     "slugs": [
       "1572-04-22"
     ]
   },
   {
     "date": "1572-05-12",
-    "value": 4292,
+    "value": 4294,
     "slugs": [
       "1572-05-12"
     ]
   },
   {
     "date": "1572-05-28",
-    "value": 3076,
+    "value": 3088,
     "slugs": [
       "1572-05-28"
     ]
   },
   {
     "date": "1572-07-12",
-    "value": 1458,
+    "value": 1460,
     "slugs": [
       "1572-07-12"
     ]
   },
   {
     "date": "1572-07-19",
-    "value": 1402,
+    "value": 1406,
     "slugs": [
       "1572-07-19"
     ]
   },
   {
     "date": "1572-08-04",
-    "value": 4754,
+    "value": 4764,
     "slugs": [
       "1572-08-04"
     ]
@@ -365,35 +372,35 @@ const rows  = [
   },
   {
     "date": "1572-11-21",
-    "value": 4103,
+    "value": 4121,
     "slugs": [
       "1572-11-21"
     ]
   },
   {
     "date": "1572-11-27",
-    "value": 1320,
+    "value": 1322,
     "slugs": [
       "1572-11-27"
     ]
   },
   {
     "date": "1572-12-01",
-    "value": 2252,
+    "value": 2254,
     "slugs": [
       "1572-12-01"
     ]
   },
   {
     "date": "1572-12-07",
-    "value": 1828,
+    "value": 1832,
     "slugs": [
       "1572-12-07"
     ]
   },
   {
     "date": "1574-03-06",
-    "value": 1922,
+    "value": 1927,
     "slugs": [
       "1574-03-06"
     ]
@@ -455,6 +462,60 @@ const getColorForValue = (value, maxValue) => {
   const percentage = value / maxValue;
   const colorIndex = Math.min(Math.floor(percentage * colors.length), colors.length - 1);
   return colors[colorIndex];
+};
+
+// How much was written in each year, on the same measure the day cells use,
+// so a reader can see at a glance which years the correspondence is thickest in.
+const YEAR_TOTALS = YEARS.map((y) =>
+  rows.filter((r) => r.date.startsWith(String(y))).reduce((s, r) => s + r.value, 0),
+);
+const YEAR_LETTERS = YEARS.map((y) =>
+  rows.filter((r) => r.date.startsWith(String(y)))
+      .reduce((s, r) => s + ((r.slugs && r.slugs.length) || 0), 0),
+);
+const MAX_LETTERS = Math.max(...YEAR_LETTERS, 0);
+
+// The day cells step through five fixed shades, which is right for a single
+// day but too coarse for six years: it put 1 letter and 9 in the same bucket,
+// and 15 and 18 in another. The years therefore blend continuously through the
+// same five colours, so each reads as its own weight.
+// Pick whichever of ink or paper reads better on the shade, rather than
+// guessing a cut-off: at the middle of the ramp dark text wins, and a fixed
+// threshold put white on a green where it fell below legibility.
+const luminance = (rgb) => {
+  const lin = (v) => {
+    v /= 255;
+    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+  };
+  return 0.2126 * lin(rgb[0]) + 0.7152 * lin(rgb[1]) + 0.0722 * lin(rgb[2]);
+};
+
+// Compare the ink colours actually used, not idealised black and white: the
+// middle greens are dark enough to defeat white and light enough to defeat a
+// soft near-black, and only true black clears the threshold on them.
+const readableOn = (rgb) => {
+  const L = luminance(rgb);
+  const contrast = (other) => {
+    const M = luminance(other);
+    return (Math.max(L, M) + 0.05) / (Math.min(L, M) + 0.05);
+  };
+  return contrast([255, 255, 255]) > contrast([0, 0, 0]) ? '#ffffff' : '#000000';
+};
+
+const yearRGB = (n) => {
+  if (!n) return [235, 237, 240];
+  const ramp = ['#9be9a8', '#40c463', '#30a14e', '#216e39', '#0a4620'];
+  const p = (n / (MAX_LETTERS || 1)) * (ramp.length - 1);
+  const i = Math.min(Math.floor(p), ramp.length - 2);
+  const f = p - i;
+  const hex = (c) => [1, 3, 5].map((k) => parseInt(c.slice(k, k + 2), 16));
+  const a = hex(ramp[i]);
+  const b = hex(ramp[i + 1]);
+  return a.map((v, k) => Math.round(v + (b[k] - v) * f));
+};
+
+const yearShade = (n) => {
+  return `rgb(${yearRGB(n).join(',')})`;
 };
 
 const HeatmapDisplay = () => {
@@ -691,15 +752,23 @@ const HeatmapDisplay = () => {
       
       {/* Year selection buttons */}
       <div className="year-selector">
-        {YEARS.map((year, i) => (
-          <button 
-            key={year} 
-            onClick={() => jumpTo(i)}
-            className={yearIx === i ? 'active' : ''}
-          >
-            {year}
-          </button>
-        ))}
+        {YEARS.map((year, i) => {
+          const shade = yearShade(YEAR_LETTERS[i]);
+          const ink = readableOn(yearRGB(YEAR_LETTERS[i]));
+          return (
+            <button
+              key={year}
+              onClick={() => jumpTo(i)}
+              className={yearIx === i ? 'active' : ''}
+              style={{backgroundColor: shade, color: ink}}
+              title={`${year}: ${YEAR_LETTERS[i]} ${
+                YEAR_LETTERS[i] === 1 ? 'letter' : 'letters'
+              }, ${YEAR_TOTALS[i].toLocaleString()} words`}
+            >
+              {year}
+            </button>
+          );
+        })}
       </div>
       
       {/* Main heatmap grid */}

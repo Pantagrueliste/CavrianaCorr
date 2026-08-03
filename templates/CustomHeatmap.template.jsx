@@ -69,6 +69,60 @@ const getColorForValue = (value, maxValue) => {
   return colors[colorIndex];
 };
 
+// How much was written in each year, on the same measure the day cells use,
+// so a reader can see at a glance which years the correspondence is thickest in.
+const YEAR_TOTALS = YEARS.map((y) =>
+  rows.filter((r) => r.date.startsWith(String(y))).reduce((s, r) => s + r.value, 0),
+);
+const YEAR_LETTERS = YEARS.map((y) =>
+  rows.filter((r) => r.date.startsWith(String(y)))
+      .reduce((s, r) => s + ((r.slugs && r.slugs.length) || 0), 0),
+);
+const MAX_LETTERS = Math.max(...YEAR_LETTERS, 0);
+
+// The day cells step through five fixed shades, which is right for a single
+// day but too coarse for six years: it put 1 letter and 9 in the same bucket,
+// and 15 and 18 in another. The years therefore blend continuously through the
+// same five colours, so each reads as its own weight.
+// Pick whichever of ink or paper reads better on the shade, rather than
+// guessing a cut-off: at the middle of the ramp dark text wins, and a fixed
+// threshold put white on a green where it fell below legibility.
+const luminance = (rgb) => {
+  const lin = (v) => {
+    v /= 255;
+    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+  };
+  return 0.2126 * lin(rgb[0]) + 0.7152 * lin(rgb[1]) + 0.0722 * lin(rgb[2]);
+};
+
+// Compare the ink colours actually used, not idealised black and white: the
+// middle greens are dark enough to defeat white and light enough to defeat a
+// soft near-black, and only true black clears the threshold on them.
+const readableOn = (rgb) => {
+  const L = luminance(rgb);
+  const contrast = (other) => {
+    const M = luminance(other);
+    return (Math.max(L, M) + 0.05) / (Math.min(L, M) + 0.05);
+  };
+  return contrast([255, 255, 255]) > contrast([0, 0, 0]) ? '#ffffff' : '#000000';
+};
+
+const yearRGB = (n) => {
+  if (!n) return [235, 237, 240];
+  const ramp = ['#9be9a8', '#40c463', '#30a14e', '#216e39', '#0a4620'];
+  const p = (n / (MAX_LETTERS || 1)) * (ramp.length - 1);
+  const i = Math.min(Math.floor(p), ramp.length - 2);
+  const f = p - i;
+  const hex = (c) => [1, 3, 5].map((k) => parseInt(c.slice(k, k + 2), 16));
+  const a = hex(ramp[i]);
+  const b = hex(ramp[i + 1]);
+  return a.map((v, k) => Math.round(v + (b[k] - v) * f));
+};
+
+const yearShade = (n) => {
+  return `rgb(${yearRGB(n).join(',')})`;
+};
+
 const HeatmapDisplay = () => {
   const [yearIx, setYearIx] = useState(0);
   const [tooltipContent, setTooltipContent] = useState('');
@@ -303,15 +357,23 @@ const HeatmapDisplay = () => {
       
       {/* Year selection buttons */}
       <div className="year-selector">
-        {YEARS.map((year, i) => (
-          <button 
-            key={year} 
-            onClick={() => jumpTo(i)}
-            className={yearIx === i ? 'active' : ''}
-          >
-            {year}
-          </button>
-        ))}
+        {YEARS.map((year, i) => {
+          const shade = yearShade(YEAR_LETTERS[i]);
+          const ink = readableOn(yearRGB(YEAR_LETTERS[i]));
+          return (
+            <button
+              key={year}
+              onClick={() => jumpTo(i)}
+              className={yearIx === i ? 'active' : ''}
+              style={{backgroundColor: shade, color: ink}}
+              title={`${year}: ${YEAR_LETTERS[i]} ${
+                YEAR_LETTERS[i] === 1 ? 'letter' : 'letters'
+              }, ${YEAR_TOTALS[i].toLocaleString()} words`}
+            >
+              {year}
+            </button>
+          );
+        })}
       </div>
       
       {/* Main heatmap grid */}

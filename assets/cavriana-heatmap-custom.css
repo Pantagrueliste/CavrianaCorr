@@ -34,14 +34,18 @@
   font-size: 0.9rem;
 }
 
+/* Each year is filled by how much was written in it, on the same scale as the
+   day cells, so the thickest years read at a glance. The fill is set inline and
+   so wins over any background declared here: selection and hover are therefore
+   drawn as a ring, which leaves the reading of the colour undisturbed. */
 .cavriana-heatmap-custom .year-selector button:hover {
-  background-color: var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-700);
 }
 
 .cavriana-heatmap-custom .year-selector button.active {
-  background-color: var(--ifm-color-primary);
-  color: var(--ifm-color-white);
   border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px var(--ifm-color-primary);
+  font-weight: 600;
 }
 
 /* Heatmap grid container */
