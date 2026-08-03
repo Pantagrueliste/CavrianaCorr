@@ -89,7 +89,10 @@ jobs:
           set -e
           : > expected_pages.txt
           for file in letters/*.xml; do
-            if [[ "$file" != "letters/persNames.xml" && "$file" != "letters/placeNames.xml" ]]; then
+            # A letter is a document with a correspondence action. The authority
+            # files have none, so they exclude themselves; listing them by name
+            # meant every new one landed in docs/unknownYear until someone noticed.
+            if grep -q "<correspAction" "$file"; then
               if [ -f "$file" ]; then
                 # Skip placeholder files (metadata only, no transcription)
                 if grep -q 'revisionDesc.*status="placeholder"' "$file"; then

@@ -25,7 +25,10 @@ CSV = ROOT / "generated" / "authorities.csv"
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 XML_LANG = "{http://www.w3.org/XML/1998/namespace}lang"
-EXCLUDE = {"persNames.xml", "placeNames.xml", "eventNames.xml"}
+# A letter is a document with a correspondence action. Authority files have
+# none, so they exclude themselves and new ones need no maintenance here.
+def is_letter(root) -> bool:
+    return bool(root.xpath(".//tei:correspAction", namespaces=NS))
 
 
 def text(el) -> str:
@@ -228,9 +231,9 @@ def collect_occurrences() -> tuple[dict, dict]:
     dates = {}
     published = set()
     for f in sorted(LETTERS.glob("*.xml")):
-        if f.name in EXCLUDE:
-            continue
         root = etree.parse(str(f)).getroot()
+        if not is_letter(root):
+            continue
         if root.xpath(".//tei:revisionDesc[@status='placeholder']", namespaces=NS):
             continue
         slug = f.stem
