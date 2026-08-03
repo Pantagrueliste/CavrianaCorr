@@ -143,9 +143,13 @@ def build_persons() -> dict:
             "roleTo": occ.get("to", "") if occ is not None else "",
             "birth": date_of(p.find("tei:birth", NS)),
             "death": date_of(p.find("tei:death", NS)),
-            "note": text(p.find("tei:note", NS)),
+            # The plain note describes the person. Typed notes record editorial
+            # matter — a disputed date, a rejected identification — and belong
+            # in the file, not on a card beside a sentence.
+            "note": next((text(n) for n in p.xpath("./tei:note[not(@type)]", namespaces=NS)), ""),
             "viaf": viaf.strip(),
             "map": idnos.get("MAP", ""),
+            "dbi": idnos.get("DBI", ""),
             # the person's presence in the Medici Archive at large
             "archive": footprint.get(idnos.get("MAP", ""), None),
             "calling": calling(categories.get(idnos.get("MAP", ""), []), occs[1:]),
@@ -339,7 +343,7 @@ def write_csv(entities: dict) -> None:
     identifiers.
     """
     cols = ["id", "kind", "name", "sortName", "birth", "death",
-            "viaf", "wikidata", "map", "tgn", "geonames",
+            "viaf", "wikidata", "map", "dbi", "tgn", "geonames",
             "lat", "lon", "mentions", "letters"]
     rows = []
     for eid, r in sorted(entities.items()):
@@ -353,6 +357,7 @@ def write_csv(entities: dict) -> None:
             "viaf": r.get("viaf", ""),
             "wikidata": r.get("wikidata", ""),
             "map": r.get("map", ""),
+            "dbi": r.get("dbi", ""),
             "tgn": r.get("tgn", ""),
             "geonames": r.get("geonames", ""),
             "lat": r.get("lat", ""),

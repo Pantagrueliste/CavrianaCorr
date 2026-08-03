@@ -24,6 +24,13 @@
           <bibl xml:id="map-mia">Medici Archive Project, MIA (Medici Interactive Archive), https://mia.medici.org. Person identifiers and the dates marked @source="#map-mia" were verified against MAP's biographical records.</bibl>
         </p>
         <p>
+          <bibl xml:id="dbi">Dizionario Biografico degli Italiani, Rome: Istituto della Enciclopedia
+            Italiana, 1960–. Cited by the entry's own identifier, as at
+            https://www.treccani.it/enciclopedia/. Where the Dizionario and the Medici Archive
+            disagree, the Dizionario is followed, and the other reading recorded in a note on the
+            person.</bibl>
+        </p>
+        <p>
           <bibl xml:id="wikidata">Wikidata (https://www.wikidata.org) and Wikimedia Commons. Matches were anchored on VIAF where the file holds one, and otherwise accepted only where birth and death years corroborate. Portrait file names refer to Commons; the images are not copied here.</bibl>
         </p>
         <p>
@@ -32,6 +39,13 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2026-08-03" who="#CG">Vincenzo Alamanni's dates taken from the Dizionario
+        Biografico degli Italiani (Clementina Rotondi, vol. 1, 1960), which gives 13 March 1536 and
+        January 1590 against the Medici Archive's 1537 and 1591. The Dizionario is the fuller
+        witness — it names the place of birth and death and the cause — and is followed here. The
+        discrepancy is not random: both its dates fall in the span where the Florentine year runs
+        one behind ours, and MAP's are exactly their common-style equivalents. The point is recorded
+        on the person rather than settled silently.</change>
       <change when="2026-08-02" who="#CG">Alessandro Striggio matched to MAP 892 (1537-1592), the composer, not MAP 3228, which is his son Sandrino (1572-1630). He had been missed because his birth year was recorded only in @when with no text content, so the generated data showed him as undated and the date guard had nothing to separate father from son.</change>
       <change when="2026-08-02" who="#CG">The earlier MAP reconciliation had searched only the Florentine and Mantuan functionaries, leaving the French principals unmatched — which made the archive look as though it did not hold Coligny, Guise or the Cardinal of Lorraine. It does. Every remaining person was searched, and 22 more matched where MAP's birth and death years corroborate our own.</change>
       <change when="2026-08-02" who="#CG">MAP's offices carry start and end years, so they are now recorded with @from and @to. A reader can be told what a man held at the moment a letter names him rather than what he became: Vincenzo Alamanni is inviato mediceo in Francia from 1568 and ambasciatore only from 1572.</change>
@@ -843,8 +857,15 @@
           <sex value="male"/>
           <note>Diplomat and intermediary</note>
           <idno type="MAP">133</idno>
-          <birth when="1537" source="#map-mia">1537</birth>
-          <death when="1591" source="#map-mia">1591</death>
+          <idno type="DBI">vincenzo-alamanni</idno>
+          <birth when="1536-03-13" source="#dbi">1536-03-13</birth>
+          <death when="1590-01" source="#dbi">1590-01</death>
+          <note type="dates">The Medici Archive gives 1537 and 1591. Both of the Dizionario's dates
+            fall between 1 January and 24 March, the span in which the Florentine year, beginning
+            on 25 March, runs one behind ours, and MAP's years are exactly what those dates yield
+            when converted to common style. Whether Rotondi reports the Florentine reckoning of her
+            sources or had already converted it is not stated in the article; this edition follows
+            the Dizionario as printed.</note>
           <idno type="WIKIDATA" source="#wikidata">Q114909631</idno>
           <occupation source="#map-mia">Commissario di Pisa</occupation>
           <occupation source="#map-mia" from="1568">Inviato mediceo in Francia</occupation>
