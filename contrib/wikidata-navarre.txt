@@ -1,0 +1,21 @@
+# Proposed Wikidata edit, for review before submission.
+#
+# Q63021609 — Kingdom of Navarre beyond the Pyrenees (1512–1620)
+# It records its capital (Saint-Jean-Pied-de-Port, Q270294), its inception
+# (1512) and its dissolution (1620), but carries no coordinate. Its sibling
+# item Q200262, the medieval kingdom, models P625 as the coordinate of its
+# capital, Pamplona; this follows the same practice for the later kingdom.
+#
+# The value is Saint-Jean-Pied-de-Port's own coordinate, taken from Q270294.
+#
+# QuickStatements v1 syntax — paste at
+# https://quickstatements.toolforge.org/  (requires a Wikidata account)
+
+Q63021609	P625	@43.163222/-1.238111	S248	Q270294
+
+# S248 = "stated in", pointing at the capital item the coordinate comes from.
+#
+# NOT proposed, and worth stating plainly: no change to Q200262. That item is
+# the kingdom of 1162-1841 whose capital was Pamplona, and its Pamplona
+# coordinate is correct for it. The Cavriana edition's error was citing that
+# item for letters of 1570, not any fault in the item itself.
