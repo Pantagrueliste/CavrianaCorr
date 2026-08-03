@@ -8143,11 +8143,11 @@
    "wikidata": "Q2634"
   },
   "place-navarre": {
-   "country": "Spain/France",
+   "country": "France",
    "geonames": "",
    "historical": [],
    "kind": "place",
-   "lat": "42.8169",
+   "lat": "43.1632",
    "letters": [
     {
      "date": "1570-10-13",
@@ -8155,14 +8155,14 @@
      "slug": "1570-10-13"
     }
    ],
-   "lon": "-1.6428",
+   "lon": "-1.2381",
    "name": "Navarre",
-   "note": "",
+   "note": "The kingdom beyond the Pyrenees, all that remained to the house of Albret after Castile took Upper Navarre in 1512. Cavriana's Navarre is Jeanne d'Albret's and then her son Henri's; when he writes of \"la rovina della cosa di Navarra\" it is that loss he means. Marked at Saint-Jean-Pied-de-Port, its capital, rather than at Pamplona, which by 1570 was Spanish.",
    "scope": "",
    "sortName": "Navarre",
    "tgn": "",
    "total": 2,
-   "wikidata": "Q200262"
+   "wikidata": "Q63021609"
   },
   "place-netherlands": {
    "country": "Netherlands",

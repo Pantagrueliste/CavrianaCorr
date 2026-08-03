@@ -1080,11 +1080,12 @@
         </place>
         <place xml:id="place-navarre">
           <placeName type="modern">Navarre</placeName>
-          <placeName type="country">Spain/France</placeName>
+          <placeName type="country">France</placeName>
           <location>
-            <geo source="#wikidata">42.8169 -1.6428</geo>
+            <geo source="#wikidata">43.1632 -1.2381</geo>
           </location>
-          <idno type="WIKIDATA" source="#wikidata">Q200262</idno>
+          <note>The kingdom beyond the Pyrenees, all that remained to the house of Albret after Castile took Upper Navarre in 1512. Cavriana's Navarre is Jeanne d'Albret's and then her son Henri's; when he writes of "la rovina della cosa di Navarra" it is that loss he means. Marked at Saint-Jean-Pied-de-Port, its capital, rather than at Pamplona, which by 1570 was Spanish.</note>
+          <idno type="WIKIDATA" source="#wikidata">Q63021609</idno>
         </place>
         <place xml:id="place-orleans">
           <placeName type="modern">Orléans</placeName>
