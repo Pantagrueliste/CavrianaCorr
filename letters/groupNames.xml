@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Centralized Group Authority File</title>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of St Andrews</publisher>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>The collectives Cavriana writes about: peoples, confessions, and bodies of soldiers.
+          He very often reports on groups rather than on named men, and those passages were
+          invisible to an index built only of persons and places.</p>
+        <p>
+          <bibl xml:id="grp-note">A group that stands for a country carries a pointer to that
+            place, so "i Corsi" counts towards Corsica and appears on the map. A group defined by
+            belief or by trade — the Huguenots, the reiters — points nowhere on a map, and is
+            recorded here alone.</bibl>
+        </p>
+        <p>
+          <bibl xml:id="grp-desc">The characterisations are drafted from the letters themselves
+            and describe how Cavriana presents each group, not what the group was.</bibl>
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2026-08-03" who="#CG">Group authority file created.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPerson>
+
+        <personGrp xml:id="grp-hugonotti" role="confession">
+          <persName>Huguenots</persName>
+          <persName type="sort">Huguenots</persName>
+          <persName type="alias">ugonotti</persName>
+          <persName type="alias">hugonotti</persName>
+          <note type="characterisation">The most named group in the correspondence. Cavriana writes of them as a party
+            with a military and a political existence at once: they hold places of safety, they
+            levy reiters they cannot pay, they send deputies to negotiate, and they are watched
+            for what they will do when the peace is executed. He does not write of them as
+            heretics; the vocabulary is of strength, credit and intention.</note>
+          <idno type="WIKIDATA" source="#wikidata">Q101935</idno>
+        </personGrp>
+
+        <personGrp xml:id="grp-catholici" role="confession">
+          <persName>Catholics</persName>
+          <persName type="sort">Catholics</persName>
+          <persName type="alias">catholici</persName>
+          <persName type="alias">cattolici</persName>
+          <note type="characterisation">Named a third as often as the Huguenots, and almost always in the same breath as
+            them: what the Catholics will accept, where they will not have the edict executed,
+            which towns refuse to readmit the banished. Cavriana treats them as the other party
+            to a settlement rather than as the religion of the kingdom.</note>
+        </personGrp>
+
+        <personGrp xml:id="grp-raiteri" role="soldiery">
+          <persName>Reiters</persName>
+          <persName type="sort">Reiters</persName>
+          <persName type="alias">raiteri</persName>
+          <note type="characterisation">German horse in French service, and in these letters a question of money before
+            anything else. They march slowly towards the frontier because those who owe them are
+            slow to pay; four hundred thousand francs a year are promised for them. Cavriana
+            reports them as an instrument that both sides hire and neither can afford.</note>
+          <idno type="WIKIDATA" source="#wikidata">Q1151636</idno>
+        </personGrp>
+
+        <personGrp xml:id="grp-mori" role="people">
+          <persName>Moors</persName>
+          <persName type="sort">Moors</persName>
+          <persName type="alias">Mori</persName>
+          <note type="characterisation">Named with the Turks as what occupies Spain elsewhere, and so as a reason the
+            Spanish cannot pursue their designs in Europe undisturbed.</note>
+          <idno type="WIKIDATA" source="#wikidata">Q169260</idno>
+        </personGrp>
+
+        <personGrp xml:id="grp-banditi" role="condition">
+          <persName>Bandits</persName>
+          <persName type="sort">Bandits</persName>
+          <persName type="alias">bandollieri</persName>
+          <note type="characterisation">Named once, in August 1570, as what a foreign war would purge from France: the
+            kingdom is to be cleansed of its bandits and idle men by carrying the arms elsewhere.</note>
+        </personGrp>
+
+      </listPerson>
+    </body>
+  </text>
+</TEI>

@@ -1,4 +1,16 @@
 id,kind,name,sortName,birth,death,viaf,wikidata,map,tgn,geonames,lat,lon,mentions,letters
+grp-banditi,group,Bandits,Bandits,,,,,,,,,,1,1
+grp-catholici,group,Catholics,Catholics,,,,,,,,,,13,8
+grp-corsicans,group,Corsicans,Corsicans,,,,Q14112,,,,,,2,2
+grp-english,group,English,English,,,,Q21,,,,,,4,3
+grp-french,group,French,French,,,,Q142,,,,,,25,15
+grp-hugonotti,group,Huguenots,Huguenots,,,,Q101935,,,,,,28,15
+grp-italians,group,Italians,Italians,,,,Q38,,,,,,7,7
+grp-mori,group,Moors,Moors,,,,Q169260,,,,,,3,3
+grp-raiteri,group,Reiters,Reiters,,,,Q1151636,,,,,,5,4
+grp-spanish,group,Spanish,Spanish,,,,Q29,,,,,,5,5
+grp-swiss,group,Swiss,Swiss,,,,Q39,,,,,,6,6
+grp-turks,group,Turks,Turks,,,,Q12560,,,,,,2,2
 pers-alamanni-v,person,Vincenzo Alamanni,"Alamanni, Vincenzo",1537,1591,,Q114909631,133,,,,,3,2
 pers-alberto,person,Alberto,Alberto (Secretary),,,,,,,,,,1,1
 pers-albret-j,person,Jeanne d'Albret,"Albret, Jeanne d'",1528-11-16,1572-06-09,88872517,Q229286,10207,,,,,1,1

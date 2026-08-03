@@ -60,6 +60,529 @@
   "1574-03-06": "1574-03-06"
  },
  "entities": {
+  "grp-banditi": {
+   "aliases": [
+    "bandollieri"
+   ],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    }
+   ],
+   "name": "Bandits",
+   "note": "Named once, in August 1570, as what a foreign war would purge from France: the kingdom is to be cleansed of its bandits and idle men by carrying the arms elsewhere.",
+   "place": "",
+   "role": "condition",
+   "sortName": "Bandits",
+   "total": 1,
+   "wikidata": ""
+  },
+  "grp-catholici": {
+   "aliases": [
+    "catholici",
+    "cattolici"
+   ],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 2,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 4,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 2,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Catholics",
+   "note": "Named a third as often as the Huguenots, and almost always in the same breath as them: what the Catholics will accept, where they will not have the edict executed, which towns refuse to readmit the banished. Cavriana treats them as the other party to a settlement rather than as the religion of the kingdom.",
+   "place": "",
+   "role": "confession",
+   "sortName": "Catholics",
+   "total": 13,
+   "wikidata": ""
+  },
+  "grp-corsicans": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-08",
+     "n": 1,
+     "slug": "1570-08-08-c"
+    }
+   ],
+   "name": "Corsicans",
+   "note": "",
+   "place": "place-corsica",
+   "role": "people",
+   "sortName": "Corsicans",
+   "total": 2,
+   "wikidata": "Q14112"
+  },
+  "grp-english": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1572-03-19",
+     "n": 1,
+     "slug": "1572-03-19"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 1,
+     "slug": "1572-12-01"
+    }
+   ],
+   "name": "English",
+   "note": "",
+   "place": "place-england",
+   "role": "people",
+   "sortName": "English",
+   "total": 4,
+   "wikidata": "Q21"
+  },
+  "grp-french": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 2,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 3,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 2,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-01-26",
+     "n": 1,
+     "slug": "1571-01-26"
+    },
+    {
+     "date": "1571-06-27",
+     "n": 1,
+     "slug": "1571-06-27"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-04-22",
+     "n": 2,
+     "slug": "1572-04-22"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 2,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-07-12",
+     "n": 2,
+     "slug": "1572-07-12"
+    },
+    {
+     "date": "1572-07-19",
+     "n": 2,
+     "slug": "1572-07-19"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 2,
+     "slug": "1572-12-07"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 1,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "French",
+   "note": "",
+   "place": "place-fr",
+   "role": "people",
+   "sortName": "French",
+   "total": 25,
+   "wikidata": "Q142"
+  },
+  "grp-hugonotti": {
+   "aliases": [
+    "ugonotti",
+    "hugonotti"
+   ],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-29",
+     "n": 1,
+     "slug": "1570-07-29"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 2,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 3,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1571-04-19",
+     "n": 1,
+     "slug": "1571-04-19"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 2,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-03-19",
+     "n": 2,
+     "slug": "1572-03-19"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 2,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 2,
+     "slug": "1572-08-04"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 4,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-12-01",
+     "n": 2,
+     "slug": "1572-12-01"
+    },
+    {
+     "date": "1574-03-06",
+     "n": 3,
+     "slug": "1574-03-06"
+    }
+   ],
+   "name": "Huguenots",
+   "note": "The most named group in the correspondence. Cavriana writes of them as a party with a military and a political existence at once: they hold places of safety, they levy reiters they cannot pay, they send deputies to negotiate, and they are watched for what they will do when the peace is executed. He does not write of them as heretics; the vocabulary is of strength, credit and intention.",
+   "place": "",
+   "role": "confession",
+   "sortName": "Huguenots",
+   "total": 28,
+   "wikidata": "Q101935"
+  },
+  "grp-italians": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-09-01",
+     "n": 1,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1570-09-11",
+     "n": 1,
+     "slug": "1570-09-11"
+    },
+    {
+     "date": "1571-01-12",
+     "n": 1,
+     "slug": "1571-01-12"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-12",
+     "n": 1,
+     "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-07-19",
+     "n": 1,
+     "slug": "1572-07-19"
+    }
+   ],
+   "name": "Italians",
+   "note": "",
+   "place": "place-it",
+   "role": "people",
+   "sortName": "Italians",
+   "total": 7,
+   "wikidata": "Q38"
+  },
+  "grp-mori": {
+   "aliases": [
+    "Mori"
+   ],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-08-04",
+     "n": 1,
+     "slug": "1572-08-04"
+    }
+   ],
+   "name": "Moors",
+   "note": "Named with the Turks as what occupies Spain elsewhere, and so as a reason the Spanish cannot pursue their designs in Europe undisturbed.",
+   "place": "",
+   "role": "people",
+   "sortName": "Moors",
+   "total": 3,
+   "wikidata": "Q169260"
+  },
+  "grp-raiteri": {
+   "aliases": [
+    "raiteri"
+   ],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-05-20",
+     "n": 1,
+     "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-09-01",
+     "n": 2,
+     "slug": "1570-09-01"
+    },
+    {
+     "date": "1572-03-19",
+     "n": 1,
+     "slug": "1572-03-19"
+    }
+   ],
+   "name": "Reiters",
+   "note": "German horse in French service, and in these letters a question of money before anything else. They march slowly towards the frontier because those who owe them are slow to pay; four hundred thousand francs a year are promised for them. Cavriana reports them as an instrument that both sides hire and neither can afford.",
+   "place": "",
+   "role": "soldiery",
+   "sortName": "Reiters",
+   "total": 5,
+   "wikidata": "Q1151636"
+  },
+  "grp-spanish": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1570-11-04",
+     "n": 1,
+     "slug": "1570-11-04"
+    },
+    {
+     "date": "1572-02-06",
+     "n": 1,
+     "slug": "1572-02-06"
+    },
+    {
+     "date": "1572-03-08",
+     "n": 1,
+     "slug": "1572-03-08"
+    },
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    }
+   ],
+   "name": "Spanish",
+   "note": "",
+   "place": "place-es",
+   "role": "people",
+   "sortName": "Spanish",
+   "total": 5,
+   "wikidata": "Q29"
+  },
+  "grp-swiss": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1569-01-03",
+     "n": 1,
+     "slug": "1569-01-03"
+    },
+    {
+     "date": "1570-08-17",
+     "n": 1,
+     "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-10-13",
+     "n": 1,
+     "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 1,
+     "slug": "1572-11-21"
+    },
+    {
+     "date": "1572-11-27",
+     "n": 1,
+     "slug": "1572-11-27"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Swiss",
+   "note": "",
+   "place": "place-svizzera",
+   "role": "people",
+   "sortName": "Swiss",
+   "total": 6,
+   "wikidata": "Q39"
+  },
+  "grp-turks": {
+   "aliases": [],
+   "kind": "group",
+   "letters": [
+    {
+     "date": "1572-05-28",
+     "n": 1,
+     "slug": "1572-05-28"
+    },
+    {
+     "date": "1572-12-07",
+     "n": 1,
+     "slug": "1572-12-07"
+    }
+   ],
+   "name": "Turks",
+   "note": "",
+   "place": "place-ottoman",
+   "role": "people",
+   "sortName": "Turks",
+   "total": 2,
+   "wikidata": "Q12560"
+  },
   "pers-alamanni-v": {
    "aliases": [
     "Alamanni"

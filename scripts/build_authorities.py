@@ -156,6 +156,49 @@ def build_persons() -> dict:
     return out
 
 
+# A people standing for a country is also a group. These have no record of
+# their own: the place carries the count, and the group list borrows it, so
+# "i Corsi" is not counted twice.
+ETHNIC_GROUPS = {
+    "place-fr": ("grp-french", "French"),
+    "place-it": ("grp-italians", "Italians"),
+    "place-es": ("grp-spanish", "Spanish"),
+    "place-england": ("grp-english", "English"),
+    "place-svizzera": ("grp-swiss", "Swiss"),
+    "place-ottoman": ("grp-turks", "Turks"),
+    "place-corsica": ("grp-corsicans", "Corsicans"),
+    "place-de": ("grp-germans", "Germans"),
+}
+
+
+def build_groups() -> dict:
+    """The collectives Cavriana writes about, as against the individuals."""
+    path = LETTERS / "groupNames.xml"
+    if not path.exists():
+        return {}
+    doc = etree.parse(str(path))
+    out = {}
+    for g in doc.xpath(".//tei:personGrp", namespaces=NS):
+        gid = g.get(XML_ID)
+        if not gid:
+            continue
+        names = g.xpath("./tei:persName", namespaces=NS)
+        primary = next((n for n in names if n.get("type") not in ("alias", "sort")), None)
+        idnos = {i.get("type"): text(i) for i in g.xpath("./tei:idno", namespaces=NS)}
+        out[gid] = {
+            "kind": "group",
+            "name": text(primary) if primary is not None else gid,
+            "sortName": next((text(n) for n in names if n.get("type") == "sort"), "")
+                        or (text(primary) if primary is not None else gid),
+            "aliases": [text(n) for n in names if n.get("type") == "alias"],
+            "role": g.get("role", ""),
+            "note": text(g.find("tei:note", NS)),
+            "wikidata": idnos.get("WIKIDATA", ""),
+            "place": "",
+        }
+    return out
+
+
 def build_places() -> dict:
     doc = etree.parse(str(LETTERS / "placeNames.xml"))
     out = {}
@@ -279,6 +322,10 @@ def collect_occurrences() -> tuple[dict, dict]:
             ref = (el.get("ref") or "").lstrip("#")
             if ref:
                 eth[ref][slug] += 1
+        for el in root.xpath(".//tei:text//tei:rs[@type='group'][@ref]", namespaces=NS):
+            ref = (el.get("ref") or "").lstrip("#")
+            if ref:
+                occ[ref][slug] += 1
     return occ, eth, dates
 
 
@@ -320,12 +367,25 @@ def write_csv(entities: dict) -> None:
 
 
 def main() -> None:
-    persons, places = build_persons(), build_places()
+    persons, places, groups = build_persons(), build_places(), build_groups()
     occ, eth, dates = collect_occurrences()
     events = build_events()
     attach_letters(events, dates)
 
-    entities = {**persons, **places}
+    # Peoples that stand for a country become groups too, borrowing the place's
+    # own tally rather than being counted again.
+    for pid, (gid, label) in ETHNIC_GROUPS.items():
+        rec = places.get(pid)
+        if not rec or not eth.get(pid):
+            continue
+        groups[gid] = {
+            "kind": "group", "name": label, "sortName": label, "aliases": [],
+            "role": "people", "note": "", "wikidata": rec.get("wikidata", ""),
+            "place": pid,
+        }
+        occ[gid] = dict(eth[pid])
+
+    entities = {**persons, **places, **groups}
     for eid, rec in entities.items():
         letters = [{"slug": s, "date": dates.get(s, ""), "n": n}
                    for s, n in sorted(occ.get(eid, {}).items())]
