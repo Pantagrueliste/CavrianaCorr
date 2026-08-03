@@ -81,6 +81,30 @@ def map_categories() -> dict:
     return out
 
 
+def calling(cats: list, offices: list) -> str:
+    """One calling per person, for narrowing the index.
+
+    MAP assigns several overlapping categories to most people, and two of them
+    are no use here. "Nobility" covers more than half the list and so
+    distinguishes nobody. "Corporate bodies" classifies an office by the
+    institution it sits in, not the person holding it — it is why a Medici
+    secretary came out labelled a corporation.
+
+    A calling is claimed only where there is evidence for it: MAP tags the Duke
+    of Guise "state and court" from a title rather than a post, and he holds no
+    recorded office, so he is left uncalled rather than filed as an official.
+    """
+    if "Church" in cats:
+        return "Church"
+    if "Heads of state" in cats:
+        return "Rulers"
+    if "Military" in cats:
+        return "Military"
+    if "State and court" in cats and offices:
+        return "Officials and envoys"
+    return ""
+
+
 def build_persons() -> dict:
     doc = etree.parse(str(LETTERS / "persNames.xml"))
     footprint = map_footprint()
@@ -124,7 +148,7 @@ def build_persons() -> dict:
             "map": idnos.get("MAP", ""),
             # the person's presence in the Medici Archive at large
             "archive": footprint.get(idnos.get("MAP", ""), None),
-            "categories": categories.get(idnos.get("MAP", ""), []),
+            "calling": calling(categories.get(idnos.get("MAP", ""), []), occs[1:]),
             "wikidata": idnos.get("WIKIDATA", ""),
             # Commons file name; the image itself stays on Commons.
             "image": idnos.get("WIKIMEDIA_IMAGE", ""),
