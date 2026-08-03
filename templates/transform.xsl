@@ -389,7 +389,28 @@
     <xsl:text disable-output-escaping="yes">&lt;/em&gt;</xsl:text>
   </xsl:template>
 
-  <!-- 13) Notes carry their type, placement, and hand. -->
+  <!-- 13a) An editorial note attaches to what precedes it: the reader should
+       meet the passage, not an interruption. Emitted as a marker the front end
+       binds to the preceding element, so hovering the annotated words shows the
+       note. Where nothing precedes it inside a paragraph, it is a remark about
+       the letter and stands on its own. -->
+  <xsl:template match="tei:note[@type='editorial']">
+    <xsl:variable name="text" select="normalize-space(string-join(.//text(), ''))"/>
+    <xsl:choose>
+      <xsl:when test="parent::tei:p and preceding-sibling::*[1]">
+        <xsl:text disable-output-escaping="yes">&lt;EdNote note=&quot;</xsl:text>
+        <xsl:value-of select="cav:attr($text)"/>
+        <xsl:text disable-output-escaping="yes">&quot; /&gt;</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text disable-output-escaping="yes">&#10;&#10;&lt;EdNote standalone note=&quot;</xsl:text>
+        <xsl:value-of select="cav:attr($text)"/>
+        <xsl:text disable-output-escaping="yes">&quot; /&gt;&#10;&#10;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- 13) Other notes carry their type, placement, and hand. -->
   <xsl:template match="tei:note">
     <xsl:variable name="qualifiers" select="string-join((
         if (@type) then string(@type) else (),
