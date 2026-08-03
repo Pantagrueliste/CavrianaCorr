@@ -226,8 +226,12 @@ def attach_letters(events: list, dates: dict) -> None:
 
 
 def collect_occurrences() -> tuple[dict, dict]:
-    """Map authority id -> [{file, date, count}], counting body references only."""
+    """Map authority id -> [{file, date, count}], counting body references only.
+
+    Returns place/person references, references by people-name, and letter dates.
+    """
     occ = defaultdict(lambda: defaultdict(int))
+    eth = defaultdict(lambda: defaultdict(int))
     dates = {}
     published = set()
     for f in sorted(LETTERS.glob("*.xml")):
@@ -245,7 +249,13 @@ def collect_occurrences() -> tuple[dict, dict]:
             ref = (el.get("ref") or "").lstrip("#")
             if ref:
                 occ[ref][slug] += 1
-    return occ, dates
+        # A people named for their country counts towards the place, but is
+        # counted apart: naming Frenchmen is not naming France.
+        for el in root.xpath(".//tei:text//tei:rs[@type='ethnic'][@ref]", namespaces=NS):
+            ref = (el.get("ref") or "").lstrip("#")
+            if ref:
+                eth[ref][slug] += 1
+    return occ, eth, dates
 
 
 def write_csv(entities: dict) -> None:
@@ -287,7 +297,7 @@ def write_csv(entities: dict) -> None:
 
 def main() -> None:
     persons, places = build_persons(), build_places()
-    occ, dates = collect_occurrences()
+    occ, eth, dates = collect_occurrences()
     events = build_events()
     attach_letters(events, dates)
 
@@ -297,6 +307,11 @@ def main() -> None:
                    for s, n in sorted(occ.get(eid, {}).items())]
         rec["letters"] = letters
         rec["total"] = sum(l["n"] for l in letters)
+        peoples = [{"slug": s, "date": dates.get(s, ""), "n": n}
+                   for s, n in sorted(eth.get(eid, {}).items())]
+        if peoples:
+            rec["asPeople"] = peoples
+            rec["asPeopleTotal"] = sum(l["n"] for l in peoples)
 
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps({

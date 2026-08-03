@@ -275,6 +275,16 @@
        links to the index. Names without one are processed for their
        children, so that a nested <choice> still resolves to one reading
        rather than concatenating abbr and expan. -->
+  <!-- A people standing for their country: "i Corsi" is a reference to Corsica,
+       and is marked as one, but kept distinguishable from naming the island. -->
+  <xsl:template match="tei:rs[@type='ethnic'][@ref][@ref != '#']">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&lt;Ent k=&quot;e&quot; id=&quot;',
+                     cav:attr(substring-after(@ref, '#')), '&quot;&gt;')"/>
+    <xsl:apply-templates/>
+    <xsl:text disable-output-escaping="yes">&lt;/Ent&gt;</xsl:text>
+  </xsl:template>
+
   <xsl:template match="tei:persName[@ref][@ref != '#'] | tei:placeName[@ref][@ref != '#']">
     <xsl:value-of disable-output-escaping="yes"
       select="concat('&lt;Ent k=&quot;',
