@@ -38,7 +38,28 @@
         </p>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="florentine">
+          <p>The Florentine year, <foreign xml:lang="la">ab Incarnatione</foreign>, which began on
+            25 March. A day between 1 January and 24 March therefore carries a year one lower than
+            ours, and only those days differ: the rest of the year agrees. Dates marked with this
+            method are given as their source prints them, unconverted.</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
     <revisionDesc>
+      <change when="2026-08-04" who="#CG">"Messer Alberto segretario", who confirmed Concino's
+        goodwill to Cavriana by word of mouth in the letter of 15 July 1570, identified as probable
+        Alberto Luchi, MAP 18680. He is the only Alberto in the Medici Archive holding a
+        secretaryship, and the ducal payroll of 1 March 1567 puts him in Concino's own chancery,
+        six scudi, in the same run of secretaries as Iacopo Dani, whom the letter names. Recorded
+        with cert="medium": the letter offers a forename and an office and nothing more.</change>
+      <change when="2026-08-04" who="#CG">Alamanni's dates marked datingMethod="#florentine" and a
+        Florentine calendar declared. The Dizionario's 13 March 1536 and January 1590 both fall in
+        the span where the Florentine year runs behind ours, and the file had been asserting them
+        as though they were ours. They stand as the Dizionario prints them; in common style they
+        are 1537 and 1591.</change>
       <change when="2026-08-03" who="#CG">Vincenzo Alamanni's dates taken from the Dizionario
         Biografico degli Italiani (Clementina Rotondi, vol. 1, 1960), which gives 13 March 1536 and
         January 1590 against the Medici Archive's 1537 and 1591. The Dizionario is the fuller
@@ -858,14 +879,17 @@
           <note>Diplomat and intermediary</note>
           <idno type="MAP">133</idno>
           <idno type="DBI">vincenzo-alamanni</idno>
-          <birth when="1536-03-13" source="#dbi">1536-03-13</birth>
-          <death when="1590-01" source="#dbi">1590-01</death>
+          <birth when="1536-03-13" datingMethod="#florentine" source="#dbi">1536-03-13</birth>
+          <death when="1590-01" datingMethod="#florentine" source="#dbi">1590-01</death>
           <note type="dates">The Medici Archive gives 1537 and 1591. Both of the Dizionario's dates
             fall between 1 January and 24 March, the span in which the Florentine year, beginning
             on 25 March, runs one behind ours, and MAP's years are exactly what those dates yield
-            when converted to common style. Whether Rotondi reports the Florentine reckoning of her
-            sources or had already converted it is not stated in the article; this edition follows
-            the Dizionario as printed.</note>
+            when converted to common style. That MAP converts silently is demonstrable: its record
+            of the household payroll of Mediceo del Principato 616, f. 271r, a document of 1 March,
+            heads it 1567 while its own detail carries the archival 1566. Whether Rotondi reports
+            the Florentine reckoning of her sources or had already converted it the article does not
+            say; this edition follows the Dizionario as printed and marks the dates Florentine, so
+            that in common style they are to be read as 1537 and 1591.</note>
           <idno type="WIKIDATA" source="#wikidata">Q114909631</idno>
           <occupation source="#map-mia">Commissario di Pisa</occupation>
           <occupation source="#map-mia" from="1568">Inviato mediceo in Francia</occupation>
@@ -1023,8 +1047,21 @@
         <person xml:id="pers-alberto">
           <persName>Alberto</persName>
           <persName type="sort">Alberto (Secretary)</persName>
+          <persName type="alias" cert="medium">Alberto Luchi</persName>
           <sex value="male"/>
           <occupation>Secretary</occupation>
+          <idno type="MAP" cert="medium">18680</idno>
+          <note type="identification">Probably Alberto Luchi, whom the Medici Archive records as
+            Alberto Luci, a secretary in the Medici chancery. The payroll of the ducal household of
+            1 March 1567 — Mediceo del Principato 616, f. 271r — lists him at six scudi among the
+            secretaries of Cosimo I, after Belisario Vinta and before Bernardino Grazini, under
+            messer Bartolomeo Concini, who is the man this letter is written to, and in the same
+            run as messer Iacopo Dani, whom the same paragraph of the letter names as the writer's
+            friend. He was still in Medici service in 1572, when Orazio Urbani wrote to him from
+            Venice about silks ordered by the Grand Duchess. He is the only person in the archive
+            whose given name is Alberto and whose recorded office is a secretaryship. The
+            identification is offered as probable, not certain: the letter gives a forename and an
+            office and nothing else, so it rests on the milieu rather than on the name.</note>
         </person>
         <person xml:id="pers-ossonville">
           <persName>Monsignore d'Ossonville</persName>

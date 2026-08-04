@@ -116,7 +116,13 @@ def build_persons() -> dict:
             continue
         names = p.xpath("./tei:persName", namespaces=NS)
         primary = next((n for n in names if n.get("type") not in ("alias", "sort")), None)
-        aliases = [text(n) for n in names if n.get("type") == "alias"]
+        # An alias the edition vouches for, and one it only proposes, are not
+        # the same claim. "Messer Alberto segretario" is probably Alberto
+        # Luchi; the index must say probably, not "also called".
+        aliases = [text(n) for n in names
+                   if n.get("type") == "alias" and not n.get("cert")]
+        proposed = [text(n) for n in names
+                    if n.get("type") == "alias" and n.get("cert")]
         sort_form = next((text(n) for n in names if n.get("type") == "sort"), "")
         occs = p.xpath("./tei:occupation", namespaces=NS)
         occ = occs[0] if occs else None
@@ -131,6 +137,7 @@ def build_persons() -> dict:
             # Index form, family name first; falls back to natural order.
             "sortName": sort_form or (text(primary) if primary is not None else pid),
             "aliases": [a for a in aliases if a],
+            "probableName": next((p for p in proposed if p), ""),
             "role": text(occ),
             "roleType": occ.get("type", "") if occ is not None else "",
             # Further offices, mostly from the Medici Archive's own records.
