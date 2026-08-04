@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to unknown addressee, 31 August 1572</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 31 August 1572</title>
         <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="250r" to="250v">fols. 250r-250v</locus>
-              <title>Letter from Filippo Cavriana to unknown addressee, 31 August 1572</title>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino, 31 August 1572</title>
               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Urgent report after the St Bartholomew's Day massacre. Analyses implications for Florentine diplomacy, urges maintaining friendship with Catherine de' Medici. PS encloses a report on Coligny's death.</note>
@@ -50,7 +50,10 @@
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1572-08-31">31 August 1572</date>
         </correspAction>
-        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.re in closing) --></persName></correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
+        </correspAction>
       </correspDesc>
     </profileDesc>
     <encodingDesc>

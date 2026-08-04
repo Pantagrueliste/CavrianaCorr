@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to unknown addressee, 28 May 1572</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 28 May 1572</title>
         <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="142r" to="146r">fols. 142r-146r</locus>
-              <title>Letter from Filippo Cavriana to unknown addressee, 28 May 1572</title>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino, 28 May 1572</title>
               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Report on Spanish suspicion of the Grand Duke, allegations of secret Florentine-French alliance, Gregory XIII's election, and French court reactions.</note>
@@ -51,7 +51,10 @@
           <placeName ref="#place-blois">Bles</placeName>
           <date when="1572-05-28">28 May 1572</date>
         </correspAction>
-        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.re in closing) --></persName></correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
+        </correspAction>
       </correspDesc>
     </profileDesc>
     <encodingDesc>

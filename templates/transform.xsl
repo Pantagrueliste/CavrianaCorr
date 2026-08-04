@@ -302,6 +302,26 @@
        rather than concatenating abbr and expan. -->
   <!-- A people standing for their country: "i Corsi" is a reference to Corsica,
        and is marked as one, but kept distinguishable from naming the island. -->
+  <!-- An entity named inside another entity — "il duca di Ferrara", where the
+       place is tagged within the person — would put an <a> inside an <a>. No
+       browser will parse that: it closes the outer anchor early, so the served
+       HTML and the tree React builds disagree, hydration fails, and the whole
+       page is re-rendered on the client, which resets the colour mode. The
+       inner name already sits inside a link to the outer one, so it is
+       rendered as plain text and links only once. -->
+  <xsl:function name="cav:nested" as="xs:boolean">
+    <xsl:param name="e" as="element()"/>
+    <xsl:sequence select="exists($e/ancestor::*
+      [self::tei:persName or self::tei:placeName or self::tei:rs][@ref][@ref != '#'])"/>
+  </xsl:function>
+
+  <xsl:template priority="2"
+    match="tei:persName[@ref][@ref != '#'][cav:nested(.)]
+         | tei:placeName[@ref][@ref != '#'][cav:nested(.)]
+         | tei:rs[@ref][@ref != '#'][cav:nested(.)]">
+    <xsl:apply-templates/>
+  </xsl:template>
+
   <xsl:template match="tei:rs[@type='ethnic'][@ref][@ref != '#']">
     <xsl:value-of disable-output-escaping="yes"
       select="concat('&lt;Ent k=&quot;e&quot; id=&quot;',

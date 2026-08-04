@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to unknown addressee, 4 November 1572</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 4 November 1572</title>
         <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="314r" to="314v">fols. 314r-314v</locus>
-              <title>Letter from Filippo Cavriana to unknown addressee, 4 November 1572</title>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino, 4 November 1572</title>
               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Report on the collapse of Montmorency's faction, death of Damville, Ferrarese diplomacy, papal equilibrium, La Rochelle and Sancerre sieges, and Orange's winter quarters.</note>
@@ -50,7 +50,10 @@
           <placeName ref="#place-paris">Parigi</placeName>
           <date when="1572-11-04">4 November 1572</date>
         </correspAction>
-        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.re in closing) --></persName></correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
+        </correspAction>
       </correspDesc>
     </profileDesc>
     <encodingDesc>

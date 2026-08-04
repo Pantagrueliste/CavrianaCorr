@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to unknown addressee, 22 April 1572</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 22 April 1572</title>
         <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="102r" to="104r">fols. 102r-104r</locus>
-              <title>Letter from Filippo Cavriana to unknown addressee, 22 April 1572</title>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino, 22 April 1572</title>
               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
               <note type="summary">Intelligence on Franco-Spanish tensions, Flanders preparations, Nassau, Strozzi's armada, the Cardinal d'Este's influence, and cipher on the cavaliere da Este.</note>
@@ -50,7 +50,10 @@
           <placeName ref="#place-blois">Bles</placeName>
           <date when="1572-04-22">22 April 1572</date>
         </correspAction>
-        <correspAction type="received"><persName><!-- Recipient unknown (V.S. Ill.ma in closing) --></persName></correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
+        </correspAction>
       </correspDesc>
     </profileDesc>
     <encodingDesc>
