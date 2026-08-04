@@ -10,12 +10,16 @@ from __future__ import annotations
 
 import csv
 import json
+import sys
 from datetime import date, timedelta
 import re
 from collections import defaultdict
 from pathlib import Path
 
 from lxml import etree
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from wordcount import count_words
 
 ROOT = Path(__file__).resolve().parent.parent
 LETTERS = ROOT / "letters"
@@ -353,6 +357,42 @@ def collect_occurrences() -> tuple[dict, dict]:
     return occ, eth, dates
 
 
+def edition_stats() -> dict:
+    """What the edition amounts to, counted from the files rather than typed
+    into the introduction and left to go stale.
+
+    Catalogued counts every letter the edition knows of; transcribed counts
+    those with words in them, a placeholder having only its metadata. The word
+    count is the reading text alone — see scripts/wordcount.py — so it is the
+    length of Cavriana's prose and not of the markup around it.
+    """
+    catalogued = transcribed = words = ciphered = 0
+    years = set()
+    for path in sorted(LETTERS.glob("*.xml")):
+        root = etree.parse(str(path)).getroot()
+        if not is_letter(root):
+            continue
+        catalogued += 1
+        sent = root.find(".//tei:correspAction[@type='sent']/tei:date", NS)
+        if sent is not None:
+            when = sent.get("when") or sent.get("from") or sent.get("notBefore") or ""
+            if when[:4].isdigit():
+                years.add(int(when[:4]))
+        n = count_words(root.find(".//tei:body", NS))
+        if n:
+            transcribed += 1
+            words += n
+        ciphered += len(root.xpath(".//tei:seg[@type='cipher']", namespaces=NS))
+    return {
+        "catalogued": catalogued,
+        "transcribed": transcribed,
+        "words": words,
+        "cipherGroups": ciphered,
+        "firstYear": min(years) if years else None,
+        "lastYear": max(years) if years else None,
+    }
+
+
 def write_csv(entities: dict) -> None:
     """A flat table of the reconciliation, for anyone who wants the identifiers.
 
@@ -427,6 +467,7 @@ def main() -> None:
         "entities": entities,
         "events": events,
         "dates": dates,
+        "stats": edition_stats(),
     }, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
 
     write_csv(entities)

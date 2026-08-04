@@ -4,6 +4,10 @@ from pathlib import Path
 from datetime import datetime
 from lxml import etree
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from wordcount import count_words as words_in
+
 # ── locate repo root ────────────────────────────────────────────────────
 REPO_ROOT = Path(__file__).resolve().parent.parent   # …/CavrianaCorr
 OUT_CSV   = REPO_ROOT / "data"    / "letter_metadata.csv"
@@ -27,13 +31,11 @@ def get_text(elem):
     return txt.strip()
 
 def count_body_words(body_elem):
-    txt = " ".join(
-        get_text(e) for e in body_elem.xpath(
-            ".//tei:p | .//tei:div | .//tei:opener | .//tei:closer",
-            namespaces=NS,
-        )
-    )
-    return count_words(txt)
+    """See scripts/wordcount.py. This used to gather p, div, opener and closer
+    with one xpath, and since div contains the others it counted every word
+    twice — and counted an abbreviation and its expansion as two words, and a
+    run of ciphertext as words at all."""
+    return words_in(body_elem)
 
 def process_xml(path: Path):
     try:
