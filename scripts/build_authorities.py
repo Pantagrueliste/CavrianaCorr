@@ -35,11 +35,24 @@ def text(el) -> str:
     return re.sub(r"\s+", " ", "".join(el.itertext())).strip() if el is not None else ""
 
 
+def reckoned(el, attr: str) -> str:
+    """The value of a date attribute in the edition's own reckoning.
+
+    In TEI @when is Gregorian by definition, so a Julian date belongs in
+    @when-custom with @datingMethod naming the calendar. This edition works in
+    the Julian reckoning the letters themselves use — Coligny dies on Saint
+    Bartholomew's day, not ten days after it — so the custom value wins where
+    there is one.
+    """
+    return el.get(attr + "-custom") or el.get(attr) or ""
+
+
 def date_of(el) -> str:
     """A date element may carry its value as text, as @when, or as a range."""
     if el is None:
         return ""
-    return text(el) or el.get("when") or el.get("from") or el.get("notBefore") or ""
+    return (text(el) or reckoned(el, "when") or reckoned(el, "from")
+            or reckoned(el, "notBefore") or "")
 
 
 def map_footprint() -> dict:
@@ -270,9 +283,9 @@ def build_events() -> list:
             "label": labels[0] if labels else ev.get(XML_ID),
             "labels": labels,
             "desc": text(ev.find("tei:desc", NS)),
-            "when": ev.get("when", ""),
-            "from": ev.get("from", ""),
-            "to": ev.get("to", ""),
+            "when": reckoned(ev, "when"),
+            "from": reckoned(ev, "from"),
+            "to": reckoned(ev, "to"),
             "wikidata": idnos.get("WIKIDATA", ""),
         })
     return out

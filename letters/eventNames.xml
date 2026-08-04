@@ -54,7 +54,7 @@
     <body>
       <listEvent>
 
-        <event xml:id="evt-paix-saint-germain" when="1570-08-08" datingMethod="#julian">
+        <event xml:id="evt-paix-saint-germain" when="1570-08-18" datingMethod="#julian" when-custom="1570-08-08">
           <label xml:lang="en">Peace of Saint-Germain-en-Laye</label>
           <label xml:lang="fr">Paix de Saint-Germain-en-Laye</label>
           <desc>The edict ending the third war of religion, granting the Huguenots four places of
@@ -63,13 +63,13 @@
           <idno type="WIKIDATA" source="#wikidata-events">Q1067191</idno>
         </event>
 
-        <event xml:id="evt-mariage-charles-ix" when="1570-11-26" datingMethod="#julian">
+        <event xml:id="evt-mariage-charles-ix" when="1570-12-06" datingMethod="#julian" when-custom="1570-11-26">
           <label xml:lang="en">Marriage of Charles IX and Elisabeth of Austria</label>
           <desc>Celebrated at Mézières. Gregorian 6 December 1570. Cavriana reports the wedding
             preparations through November and the new queen's reception at court in January.</desc>
         </event>
 
-        <event xml:id="evt-lepanto" when="1571-10-07" datingMethod="#julian">
+        <event xml:id="evt-lepanto" when="1571-10-17" datingMethod="#julian" when-custom="1571-10-07">
           <label xml:lang="en">Battle of Lepanto</label>
           <label xml:lang="it">Battaglia di Lepanto</label>
           <desc>The Holy League's naval victory over the Ottoman fleet. Gregorian 17 October
@@ -77,20 +77,20 @@
           <idno type="WIKIDATA" source="#wikidata-events">Q165425</idno>
         </event>
 
-        <event xml:id="evt-conclave-1572" from="1572-05-12" to="1572-05-13" datingMethod="#julian">
+        <event xml:id="evt-conclave-1572" from="1572-05-22" to="1572-05-23" datingMethod="#julian" from-custom="1572-05-12" to-custom="1572-05-13">
           <label xml:lang="en">Election of Gregory XIII</label>
           <desc>The conclave following the death of Pius V, which elected Ugo Boncompagni.
             Gregorian 22–23 May 1572.</desc>
           <idno type="WIKIDATA" source="#wikidata-events">Q4541853</idno>
         </event>
 
-        <event xml:id="evt-mariage-navarre" when="1572-08-18" datingMethod="#julian">
+        <event xml:id="evt-mariage-navarre" when="1572-08-28" datingMethod="#julian" when-custom="1572-08-18">
           <label xml:lang="en">Marriage of Henri de Navarre and Marguerite de Valois</label>
           <desc>The match Cavriana had been reporting since 1570, celebrated in Paris six days
             before the massacre. Gregorian 28 August 1572.</desc>
         </event>
 
-        <event xml:id="evt-saint-barthelemy" when="1572-08-24" datingMethod="#julian">
+        <event xml:id="evt-saint-barthelemy" when="1572-09-03" datingMethod="#julian" when-custom="1572-08-24">
           <label xml:lang="en">Massacre of Saint Bartholomew's Day</label>
           <label xml:lang="fr">Massacre de la Saint-Barthélemy</label>
           <desc>The killing of Coligny and the Huguenot leadership in Paris, and afterwards in the
@@ -98,28 +98,28 @@
           <idno type="WIKIDATA" source="#wikidata-events">Q163891</idno>
         </event>
 
-        <event xml:id="evt-siege-la-rochelle" from="1572-11-06" to="1573-07-06" datingMethod="#julian">
+        <event xml:id="evt-siege-la-rochelle" from="1572-11-16" to="1573-07-16" datingMethod="#julian" from-custom="1572-11-06" to-custom="1573-07-06">
           <label xml:lang="en">Siege of La Rochelle</label>
           <desc>The royal army's assault on the Huguenot stronghold, lifted when Henri d'Anjou left
             to take the Polish crown. Gregorian 16 November 1572 to 16 July 1573.</desc>
           <idno type="WIKIDATA" source="#wikidata-events">Q650082</idno>
         </event>
 
-        <event xml:id="evt-siege-sancerre" from="1572-11-09" to="1573-08-19" datingMethod="#julian">
+        <event xml:id="evt-siege-sancerre" from="1572-11-19" to="1573-08-29" datingMethod="#julian" from-custom="1572-11-09" to-custom="1573-08-19">
           <label xml:lang="en">Siege of Sancerre</label>
           <desc>The eight-month siege of the hilltop town, ended by famine. Gregorian 19 November
             1572 to 29 August 1573.</desc>
           <idno type="WIKIDATA" source="#wikidata-events">Q3486023</idno>
         </event>
 
-        <event xml:id="evt-election-pologne" when="1573-05-11" datingMethod="#julian">
+        <event xml:id="evt-election-pologne" when="1573-05-21" datingMethod="#julian" when-custom="1573-05-11">
           <label xml:lang="en">Election of Henri d'Anjou as King of Poland</label>
           <desc>The first free royal election of the Polish–Lithuanian Commonwealth. Gregorian 21
             May 1573.</desc>
           <idno type="WIKIDATA" source="#wikidata-events">Q3586956</idno>
         </event>
 
-        <event xml:id="evt-conjuration-saint-germain" from="1574-02-01" to="1574-03-08" datingMethod="#julian">
+        <event xml:id="evt-conjuration-saint-germain" from="1574-02-11" to="1574-03-18" datingMethod="#julian" from-custom="1574-02-01" to-custom="1574-03-08">
           <label xml:lang="en">Conspiracy of Saint-Germain</label>
           <desc>The plot of the Duke of Alençon and the King of Navarre against Charles IX,
             discovered at Saint-Germain-en-Laye and reported by Cavriana on 6 March 1574. The

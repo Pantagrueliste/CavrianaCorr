@@ -40,6 +40,13 @@
     </fileDesc>
     <profileDesc>
       <calendarDesc>
+        <calendar xml:id="julian">
+          <p>The Julian calendar, the reckoning of this edition and of the letters themselves.
+            Dates before the Gregorian reform of October 1582 are given in it, and are marked
+            with @when-custom; the @when beside them holds the proleptic Gregorian equivalent,
+            ten days later, which is what that attribute means in TEI. Dates after the reform are
+            already Gregorian and carry @when alone.</p>
+        </calendar>
         <calendar xml:id="florentine">
           <p>The Florentine year, <foreign xml:lang="la">ab Incarnatione</foreign>, which began on
             25 March. A day between 1 January and 24 March therefore carries a year one lower than
@@ -124,7 +131,7 @@
           <idno type="VIAF">100212180</idno>
           <idno type="WIKIDATA" source="#wikidata">Q297483</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Pulzone, Scipione - Ferdinando I de' Medici, granduca di Toscana - 1590.jpg</idno>
-          <birth when="1549-08-09" source="#wikidata">1549-08-09</birth>
+          <birth when="1549-08-09" source="#wikidata" when-custom="1549-07-30" datingMethod="#julian">1549-07-30</birth>
           <death when="1609-02-17" source="#wikidata">1609-02-17</death>
           <idno type="MAP">325</idno>
         </person>
@@ -137,7 +144,7 @@
           <occupation type="nobility">Duke of Ferrara</occupation>
           <idno type="VIAF">27142287</idno>
           <idno type="MAP">427</idno>
-          <birth when="1533-12-02" source="#wikidata">1533-12-02</birth>
+          <birth when="1533-12-02" source="#wikidata" when-custom="1533-11-22" datingMethod="#julian">1533-11-22</birth>
           <death when="1597-10-27" source="#wikidata">1597-10-27</death>
           <idno type="WIKIDATA" source="#wikidata">Q1856074</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Cesare Aretusi Retrato de Alfonso II de Este, duque de Ferrara.jpg</idno>
@@ -213,7 +220,7 @@
           <idno type="VIAF">66529198</idno>
           <idno type="WIKIDATA" source="#wikidata">Q969113</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Italian School, North Italian - Ludovico Gonzaga (1539-1595) with his Servant. - RCIN 406014 - Royal Collection.jpg</idno>
-          <birth when="1539-09-28" source="#wikidata">1539-09-28</birth>
+          <birth when="1539-09-28" source="#wikidata" when-custom="1539-09-18" datingMethod="#julian">1539-09-18</birth>
           <death when="1595-10-23" source="#wikidata">1595-10-23</death>
           <idno type="MAP">3851</idno>
         </person>
@@ -313,7 +320,7 @@
           <idno type="VIAF">266965539</idno>
           <idno type="WIKIDATA" source="#wikidata">Q936976</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Henry IV of france by pourbous younger.jpg</idno>
-          <birth when="1553-12-23" source="#wikidata">1553-12-23</birth>
+          <birth when="1553-12-23" source="#wikidata" when-custom="1553-12-13" datingMethod="#julian">1553-12-13</birth>
           <death when="1610-05-14" source="#wikidata">1610-05-14</death>
           <idno type="MAP">311</idno>
         </person>
@@ -337,8 +344,8 @@
           <idno type="WIKIDATA" source="#wikidata">Q712264</idno>
           <idno type="VIAF">46904834</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">CharlesdeGuise.jpg</idno>
-          <birth when="1524-02-27" source="#wikidata">1524-02-27</birth>
-          <death when="1575-01-05" source="#wikidata">1575-01-05</death>
+          <birth when="1524-02-27" source="#wikidata" when-custom="1524-02-17" datingMethod="#julian">1524-02-17</birth>
+          <death when="1575-01-05" source="#wikidata" when-custom="1574-12-26" datingMethod="#julian">1574-12-26</death>
           <idno type="MAP">12450</idno>
         </person>
         <person xml:id="pers-lorraine-ch-aum">
@@ -372,7 +379,7 @@
           <idno type="VIAF">69048019</idno>
           <idno type="WIKIDATA" source="#wikidata">Q313700</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Guise.jpg</idno>
-          <birth when="1551-01-10" source="#wikidata">1551-01-10</birth>
+          <birth when="1551-01-10" source="#wikidata" when-custom="1550-12-31" datingMethod="#julian">1550-12-31</birth>
           <death when="1588-12-23" source="#wikidata">1588-12-23</death>
           <idno type="MAP">10004</idno>
         </person>
@@ -566,7 +573,7 @@
           <idno type="VIAF">55145003707261340813</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Léonor d'Orléans-Longueville.jpeg</idno>
           <birth when="1540-01-01" source="#wikidata">1540-01-01</birth>
-          <death when="1573-08-17" source="#wikidata">1573-08-17</death>
+          <death when="1573-08-17" source="#wikidata" when-custom="1573-08-07" datingMethod="#julian">1573-08-07</death>
         </person>
         <person xml:id="pers-montluc-b">
           <persName>Blaise de Montluc</persName>
@@ -660,8 +667,8 @@
           <idno type="VIAF">96139668</idno>
           <idno type="WIKIDATA" source="#wikidata">Q157107</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">John of Austria portrait.jpg</idno>
-          <birth when="1547-03-06" source="#wikidata">1547-03-06</birth>
-          <death when="1578-10-11" source="#wikidata">1578-10-11</death>
+          <birth when="1547-03-06" source="#wikidata" when-custom="1547-02-24" datingMethod="#julian">1547-02-24</birth>
+          <death when="1578-10-11" source="#wikidata" when-custom="1578-10-01" datingMethod="#julian">1578-10-01</death>
         </person>
         <!-- Physicians and Surgeons -->
         <person xml:id="pers-cavriana-f" role="author">
@@ -687,8 +694,8 @@
           <idno type="VIAF">79105346</idno>
           <idno type="WIKIDATA" source="#wikidata">Q204975</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">François Clouet - Admiral Gaspard II de Coligny - 168-1925 - Saint Louis Art Museum.jpg</idno>
-          <birth when="1519-02-26" source="#wikidata">1519-02-26</birth>
-          <death when="1572-09-03" source="#wikidata">1572-09-03</death>
+          <birth when="1519-02-26" source="#wikidata" when-custom="1519-02-16" datingMethod="#julian">1519-02-16</birth>
+          <death when="1572-09-03" source="#wikidata" when-custom="1572-08-24" datingMethod="#julian">1572-08-24</death>
           <idno type="MAP">1461</idno>
         </person>
         <person xml:id="pers-corso-a">
@@ -745,7 +752,7 @@
           <idno type="VIAF">49260512</idno>
           <idno type="WIKIDATA" source="#wikidata">Q78454</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">William I, Prince of Orange by Adriaen Thomasz. Key Rijksmuseum Amsterdam SK-A-3148.jpg</idno>
-          <birth when="1533-05-04" source="#wikidata">1533-05-04</birth>
+          <birth when="1533-05-04" source="#wikidata" when-custom="1533-04-24" datingMethod="#julian">1533-04-24</birth>
           <death when="1584-07-10" source="#wikidata">1584-07-10</death>
         </person>
         <person xml:id="pers-nassau-l">
@@ -756,8 +763,8 @@
           <idno type="WIKIDATA" source="#wikidata">Q700300</idno>
           <idno type="VIAF">37283577</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Lodewijk van Nassau.jpg</idno>
-          <birth when="1538-01-20" source="#wikidata">1538-01-20</birth>
-          <death when="1574-04-24" source="#wikidata">1574-04-24</death>
+          <birth when="1538-01-20" source="#wikidata" when-custom="1538-01-10" datingMethod="#julian">1538-01-10</birth>
+          <death when="1574-04-24" source="#wikidata" when-custom="1574-04-14" datingMethod="#julian">1574-04-14</death>
         </person>
         <person xml:id="pers-bellievre-p">
           <persName>Pomponne de Bellièvre</persName>
@@ -816,7 +823,7 @@
           <idno type="WIKIDATA" source="#wikidata">Q1079460</idno>
           <idno type="VIAF">60171422</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Portrait-Of-Cardinal-Anton-Maria-Salviati.jpg</idno>
-          <birth when="1537-01-31" source="#wikidata">1537-01-31</birth>
+          <birth when="1537-01-31" source="#wikidata" when-custom="1537-01-21" datingMethod="#julian">1537-01-21</birth>
           <death when="1602-04-26" source="#wikidata">1602-04-26</death>
           <idno type="MAP">14437</idno>
         </person>
@@ -830,7 +837,7 @@
           <idno type="VIAF">316407579</idno>
           <idno type="WIKIDATA" source="#wikidata">Q83029</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Lavinia Fontana - Portrait of Pope Gregory XIII.jpg</idno>
-          <birth when="1502-01-11" source="#wikidata">1502-01-11</birth>
+          <birth when="1502-01-11" source="#wikidata" when-custom="1502-01-01" datingMethod="#julian">1502-01-01</birth>
           <death when="1585-04-10" source="#wikidata">1585-04-10</death>
         </person>
         <person xml:id="pers-pius-v">
@@ -843,8 +850,8 @@
           <idno type="VIAF">262746497</idno>
           <idno type="WIKIDATA" source="#wikidata">Q131945</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Bartolomeo Passarotti - Pius V.jpg</idno>
-          <birth when="1504-01-27" source="#wikidata">1504-01-27</birth>
-          <death when="1572-05-11" source="#wikidata">1572-05-11</death>
+          <birth when="1504-01-27" source="#wikidata" when-custom="1504-01-17" datingMethod="#julian">1504-01-17</birth>
+          <death when="1572-05-11" source="#wikidata" when-custom="1572-05-01" datingMethod="#julian">1572-05-01</death>
           <idno type="MAP">359</idno>
         </person>
         <!-- Medicean Officials -->
@@ -933,8 +940,8 @@
           <idno type="VIAF">47559178</idno>
           <idno type="WIKIDATA" source="#wikidata">Q62171</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Friedrich der Fromme.jpg</idno>
-          <birth when="1515-02-24" source="#wikidata">1515-02-24</birth>
-          <death when="1576-11-05" source="#wikidata">1576-11-05</death>
+          <birth when="1515-02-24" source="#wikidata" when-custom="1515-02-14" datingMethod="#julian">1515-02-14</birth>
+          <death when="1576-11-05" source="#wikidata" when-custom="1576-10-26" datingMethod="#julian">1576-10-26</death>
           <idno type="MAP">968</idno>
         </person>
         <person xml:id="pers-pfalz-jc">
@@ -1331,7 +1338,7 @@
           <occupation type="ecclesiastic">Cardinal</occupation>
           <idno type="VIAF">61353628</idno>
           <idno type="MAP">1918</idno>
-          <birth when="1539-01-04" source="#wikidata">1539-01-04</birth>
+          <birth when="1539-01-04" source="#wikidata" when-custom="1538-12-25" datingMethod="#julian">1538-12-25</birth>
           <death when="1586-12-30" source="#wikidata">1586-12-30</death>
           <note>Brother of Alfonso II d'Este; the letter of 1 September 1570 identifies him as such, which distinguishes him from his uncle Ippolito II, the Cardinal of Ferrara recorded separately.</note>
           <idno type="WIKIDATA" source="#wikidata">Q2527555</idno>
@@ -1370,7 +1377,7 @@
           <idno type="VIAF">4230910</idno>
           <idno type="WIKIDATA" source="#wikidata">Q257579</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Pulzone, Scipione - Cristina di Lorena, granduchessa di Toscana - 1590.jpg</idno>
-          <birth when="1565-08-26" source="#wikidata">1565-08-26</birth>
+          <birth when="1565-08-26" source="#wikidata" when-custom="1565-08-16" datingMethod="#julian">1565-08-16</birth>
           <death when="1637-12-19" source="#wikidata">1637-12-19</death>
           <idno type="MAP">324</idno>
         </person>
