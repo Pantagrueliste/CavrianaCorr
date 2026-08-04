@@ -867,6 +867,58 @@
             </attList>
           </elementSpec>
 
+          <!-- ======= LINE BREAKS IN THE SOURCE ======= -->
+          <elementSpec ident="lb" mode="change" module="core">
+            <desc>Marks the end of a line in the manuscript. In this edition the
+              tagged line break is the only line break: the transcription runs on
+              in the source file, and the shape of the page is carried by
+              <gi>lb</gi> alone, never by the way the XML happens to be
+              wrapped.</desc>
+            <constraintSpec ident="lb-spacing" scheme="schematron">
+              <constraint>
+                <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                  context="tei:lb[not(@break='no')]">
+                  <sch:let name="before"
+                    value="if (preceding-sibling::node()[1]) then string(preceding-sibling::node()[1]) else string(../text()[1])"/>
+                  <sch:assert test="matches($before, ' $') and not(matches($before, '  $'))">
+                    A line break carries exactly one space before it.
+                  </sch:assert>
+                  <sch:assert test="not(matches(string(following-sibling::node()[1]), '^\s')) or following-sibling::node()[1][self::tei:lb]">
+                    A line break carries no space after it: the space belongs
+                    before the break, not after.
+                  </sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="lb-word-continues" scheme="schematron">
+              <constraint>
+                <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                  context="tei:lb[@break='no']">
+                  <sch:assert test="not(matches(string(preceding-sibling::node()[1]), '\s$'))">
+                    Where a word runs on across the break there is no space
+                    before it; the hyphen is supplied on rendering.
+                  </sch:assert>
+                  <sch:assert test="not(matches(string(following-sibling::node()[1]), '^\s'))">
+                    Where a word runs on across the break there is no space
+                    after it.
+                  </sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="no-untagged-line-break" scheme="schematron">
+              <constraint>
+                <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                  context="tei:text//text()[contains(., '&#10;')][ancestor::*[tei:lb]]">
+                  <sch:assert test="false()">
+                    The transcription stays on one line. A newline in the source
+                    is a second, untagged line break competing with
+                    <sch:name/>.
+                  </sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
         </schemaSpec>
       </div>
     </body>

@@ -72,9 +72,7 @@
                <pb n="296v"/>
                <p>i fangi, l'anno che viene, <choice><abbr>no̍</abbr><expan>non</expan></choice> si possendo <lb/>farne altra opera per <choice><abbr>q̍sto</abbr><expan>questo</expan></choice> <choice><abbr>pn̍te</abbr><expan>presente</expan></choice>, et qui fo <lb/>fine, doppo haver baciato le mani a <choice><abbr>V.E.za</abbr><expan>Vostra Eccellenza</expan></choice>, <lb/>et raccomandatomi alla buona sua <choice><abbr>grā</abbr><expan>gratia</expan></choice>.</p>
 
-               <closer>
-                   <dateline>Di <placeName ref="#place-nevers">Nevers</placeName> il di <date when="1568-06-09">viiij di giugno del 68</date></dateline> <lb/>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <lb/><choice><abbr>Fedeliss.o</abbr><expan>Fedelissimo</expan></choice> et <choice><abbr>humil.mo</abbr><expan>humilissimo</expan></choice> <choice><abbr>serv.re</abbr><expan>servitore</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
-               </closer>
+               <closer><dateline>Di <placeName ref="#place-nevers">Nevers</placeName> il di <date when="1568-06-09">viiij di giugno del 68</date></dateline> <lb/>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> <lb/><choice><abbr>Fedeliss.o</abbr><expan>Fedelissimo</expan></choice> et <choice><abbr>humil.mo</abbr><expan>humilissimo</expan></choice> <choice><abbr>serv.re</abbr><expan>servitore</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed></closer>
            </div>
        </body>
    </text>

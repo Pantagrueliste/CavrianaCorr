@@ -52,6 +52,20 @@ jobs:
             echo "No XML files found in the letters folder."
           fi
 
+      # The line-break convention cannot be expressed in RELAX NG, so jing
+      # cannot see it. The rule itself lives in ODD_CavrianaCorr.xml as a
+      # Schematron constraint on <lb>; this runs the same rule until the ODD
+      # is wired into the build.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check the line-break convention
+        run: |
+          python -m pip install --quiet lxml
+          python scripts/check_line_breaks.py
+
   convert:
     needs: validate
     runs-on: ubuntu-latest

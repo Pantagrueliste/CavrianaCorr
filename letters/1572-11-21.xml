@@ -122,11 +122,7 @@
 
         <!-- FOL. 107r — reading order position 9 -->
         <pb n="107r"/>
-        <closer>
-          mani di <choice><abbr>V.S.Ill.a</abbr><expan>Vostra Signoria Illustrissima</expan></choice> con tutto il cuore, di <placeName ref="#place-paris">Parigi</placeName> <lb/>alli <date when="1572-11-21">XXI. di Novembre dl Lxxii</date>
-          <lb/><choice><abbr>obligatiss.o</abbr><expan>obligatissimo</expan></choice> <choice><abbr>Serv.</abbr><expan>Servitore</expan></choice>
-          <lb/><signed><persName ref="#pers-cavriana-f" type="alias">Thomaso</persName></signed>
-        </closer>
+        <closer>mani di <choice><abbr>V.S.Ill.a</abbr><expan>Vostra Signoria Illustrissima</expan></choice> con tutto il cuore, di <placeName ref="#place-paris">Parigi</placeName> <lb/>alli <date when="1572-11-21">XXI. di Novembre dl Lxxii</date> <lb/><choice><abbr>obligatiss.o</abbr><expan>obligatissimo</expan></choice> <choice><abbr>Serv.</abbr><expan>Servitore</expan></choice> <lb/><signed><persName ref="#pers-cavriana-f" type="alias">Thomaso</persName></signed></closer>
 
         <postscript>
           <p>Ho scritto, del <choice><abbr>ambascia.re</abbr><expan>ambasciatore</expan></choice> <persName ref="#pers-walsingham-f">Inglese</persName>, assai; perchè à <choice><abbr>q̄lla</abbr><expan>quella</expan></choice> <lb/>natione, pesa più dell'altre, la morte delli Ugo<lb break="no"/>notti, da quali pende il disturbo di questo regno, <lb/>et perchè, sappia <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> in quanto credito, noi siamo <lb/><unclear>appo</unclear> <choice><abbr>q̄lla</abbr><expan>quella</expan></choice>; non pensando ad altro, che al servitio solo <lb/>di <choice><abbr>S. A.</abbr><expan>Sua Altezza</expan></choice>; et le altre nove <choice><abbr>fan̍o</abbr><expan>fanno</expan></choice> per empir il foglio <lb/>et darmi materia, di discorrere.</p>
