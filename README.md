@@ -69,6 +69,24 @@ The project includes several visualizations to help explore Cavriana's correspon
 
 To report issues or provide feedback, please submit an issue via GitHub or contact [Clément Godbarge](mailto:cag437@nyu.edu) directly.
 
+### Working copy setup
+
+Git hooks are not carried by a clone, so after cloning run once:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+This enables a pre-commit check on the authority files in `letters/`
+(`persNames.xml`, `placeNames.xml`, `eventNames.xml`, `groupNames.xml`). It
+refuses a commit that leaves one of them malformed, or that removes more than a
+few person, place, group or event records or more than ten identifiers — the
+signature of a stale copy being committed over a current one, which is easy to
+do by accident and expensive to undo, since those identifiers are reconciled by
+hand against the Medici Archive, Wikidata and the Getty. A deliberate deletion
+still goes through with `git commit --no-verify`; the thresholds are
+`cavriana.maxRecordLoss` and `cavriana.maxIdnoLoss` in `git config`.
+
 ## Acknowledgments
 
 This project has received support from the State Archives of Florence, the University of St Andrews, The Harvard University Center for Italian Renaissance Studies, and the Medici Archive Project.

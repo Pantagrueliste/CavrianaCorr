@@ -1,0 +1,80 @@
+#!/bin/sh
+#
+# Refuse a commit that guts an authority file.
+#
+# On 4 August 2026 a commit about new letters also replaced persNames.xml and
+# placeNames.xml with much older copies: 1732 lines gone, taking every Medici
+# Archive and Wikidata identifier, all 73 portraits, 21 people and a third of
+# the places. Nothing about the commit said so, and the site rebuilt from the
+# wreckage before anyone noticed.
+#
+# Line counts are the wrong alarm — reformatting moves thousands of them and
+# means nothing. What matters is whether records and identifiers have gone, so
+# that is what this counts, against the staged content rather than the working
+# tree.
+#
+# To commit anyway, when the loss is intended:
+#
+#     git commit --no-verify
+#
+# Thresholds, should they ever need moving:
+#
+#     git config cavriana.maxRecordLoss 3
+#     git config cavriana.maxIdnoLoss  10
+
+set -eu
+
+FILES="letters/persNames.xml letters/placeNames.xml letters/eventNames.xml letters/groupNames.xml"
+
+MAX_RECORDS=$(git config --int cavriana.maxRecordLoss 2>/dev/null || echo 3)
+MAX_IDNOS=$(git config --int cavriana.maxIdnoLoss 2>/dev/null || echo 10)
+
+# A record is a person, place, group or event; <person > keeps its space so it
+# does not also match <personGrp >.
+records() { grep -c -e '<person ' -e '<place ' -e '<personGrp ' -e '<event ' || true; }
+idnos()   { grep -c '<idno' || true; }
+
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+problem=0
+
+for f in $FILES; do
+    echo "$staged" | grep -qx "$f" || continue
+
+    # Malformed XML must never reach CI; the stdlib parser is enough to tell.
+    if command -v python3 >/dev/null 2>&1; then
+        if ! git show ":$f" | python3 -c \
+            'import sys,xml.etree.ElementTree as E; E.fromstring(sys.stdin.buffer.read())' \
+            2>/dev/null; then
+            echo "pre-commit: $f is not well-formed XML."
+            problem=1
+            continue
+        fi
+    fi
+
+    git cat-file -e "HEAD:$f" 2>/dev/null || continue   # newly added file
+
+    old_r=$(git show "HEAD:$f" | records); new_r=$(git show ":$f" | records)
+    old_i=$(git show "HEAD:$f" | idnos);   new_i=$(git show ":$f" | idnos)
+    lost_r=$((old_r - new_r))
+    lost_i=$((old_i - new_i))
+
+    if [ "$lost_r" -gt "$MAX_RECORDS" ] || [ "$lost_i" -gt "$MAX_IDNOS" ]; then
+        echo "pre-commit: $f loses more than this commit is likely to intend."
+        [ "$lost_r" -gt 0 ] && echo "    records     $old_r -> $new_r  ($lost_r fewer)"
+        [ "$lost_i" -gt 0 ] && echo "    identifiers $old_i -> $new_i  ($lost_i fewer)"
+        problem=1
+    fi
+done
+
+if [ "$problem" -ne 0 ]; then
+    cat <<'EOF'
+
+An authority file is the edition's memory: identifiers reconciled against the
+Medici Archive, Wikidata and the Getty, and they are not quickly rebuilt.
+
+If this is intended, commit again with --no-verify.
+EOF
+    exit 1
+fi
+
+exit 0
