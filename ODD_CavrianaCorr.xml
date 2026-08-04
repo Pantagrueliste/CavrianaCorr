@@ -553,6 +553,10 @@
             <attList>
               <attDef ident="type" mode="change" usage="req">
                 <valList type="closed" mode="replace">
+                  <valItem ident="lexicon">
+                    <desc>The glossary of medical terms, which is a list of
+                      entries rather than a letter.</desc>
+                  </valItem>
                   <valItem ident="letter">
                     <desc>A single letter.</desc>
                   </valItem>
@@ -568,6 +572,10 @@
                 <valList type="closed" mode="replace">
                   <valItem ident="cipher">
                     <desc>A passage written in cipher.</desc>
+                  </valItem>
+                  <valItem ident="proverb">
+                    <desc>A proverbial phrase, glossed by a note that points at
+                      it.</desc>
                   </valItem>
                   <valItem ident="split">
                     <desc>A fragment of a word split across a structural boundary.</desc>
