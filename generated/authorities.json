@@ -2418,6 +2418,37 @@
    "viaf": "",
    "wikidata": ""
   },
+  "pers-gianella": {
+   "aliases": [],
+   "archive": null,
+   "author": false,
+   "birth": "",
+   "calling": "",
+   "dbi": "",
+   "death": "",
+   "image": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    }
+   ],
+   "map": "",
+   "name": "Gianella",
+   "note": "",
+   "offices": [],
+   "probableName": "",
+   "role": "Servant of the Duke of Ferrara",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "",
+   "sortName": "Gianella",
+   "total": 1,
+   "viaf": "",
+   "wikidata": ""
+  },
   "pers-gondi-albert": {
    "aliases": [
     "Comte de Retz"

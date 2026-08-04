@@ -1051,6 +1051,20 @@
           <idno type="MAP">19579</idno>
           <death when="1628" source="#map-mia">1628</death>
         </person>
+        <person xml:id="pers-gianella">
+          <persName>Gianella</persName>
+          <persName type="sort">Gianella</persName>
+          <sex value="male"/>
+          <occupation>Servant of the Duke of Ferrara</occupation>
+          <note type="identification">Unidentified. Named once, in the letter of 4 July 1572, as
+            "il Gianella, servidor del duca di Ferrara", newly arrived at the French court six
+            weeks before the Navarre wedding; Cavriana takes him for trouble and sets his hounds
+            to watch what is negotiated. The definite article marks a surname or a by-name rather
+            than a forename, and a servant sent on an errand is the kind of man who leaves traces
+            in his own master's chancery alone: the Medici Archive holds no record of the name at
+            all, in any biographical record, transcription or synopsis. The Este correspondence
+            from France in 1572, in the Archivio di Stato di Modena, would be the place to look.</note>
+        </person>
         <person xml:id="pers-alberto">
           <persName>Alberto</persName>
           <persName type="sort">Alberto (Secretary)</persName>
