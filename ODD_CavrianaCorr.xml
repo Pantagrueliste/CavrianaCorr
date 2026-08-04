@@ -524,6 +524,11 @@
             include="persName placeName listPerson person listPlace place
                      sex birth death occupation geo location settlement event listEvent personGrp"/>
 
+          <!-- Analysis module, for @ana: the glossary classifies each sense
+               against a taxonomy of medical categories, and a letter points at
+               the same taxonomy. -->
+          <moduleRef key="analysis" include="interp interpGrp"/>
+
           <!-- Dictionaries module (the glossary of medical terms) -->
           <moduleRef key="dictionaries"
             include="entry form orth gramGrp pos sense def xr"/>
@@ -696,6 +701,34 @@
                   </valItem>
                   <valItem ident="marginal">
                     <desc>A marginal note in the manuscript.</desc>
+                  </valItem>
+                  <valItem ident="gloss">
+                    <desc>A gloss on a word or phrase in the text, pointed at what
+                      it explains by <att>target</att>.</desc>
+                  </valItem>
+                  <valItem ident="identification">
+                    <desc>The grounds on which a person or place has been
+                      identified, or the reasons it has not been.</desc>
+                  </valItem>
+                  <valItem ident="characterisation">
+                    <desc>How the correspondence presents a group of people, as
+                      against what the group was.</desc>
+                  </valItem>
+                  <valItem ident="dates">
+                    <desc>A disagreement between sources about a person's dates,
+                      and which reading this edition follows.</desc>
+                  </valItem>
+                  <valItem ident="attestation">
+                    <desc>Where a term is attested in the correspondence.</desc>
+                  </valItem>
+                  <valItem ident="pseudonym">
+                    <desc>A name the writer used to conceal his own.</desc>
+                  </valItem>
+                  <valItem ident="address">
+                    <desc>The address written on the outside of the letter.</desc>
+                  </valItem>
+                  <valItem ident="catalogue">
+                    <desc>A remark taken from the archive's own catalogue.</desc>
                   </valItem>
                 </valList>
               </attDef>
