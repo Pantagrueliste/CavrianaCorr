@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to an unidentified correspondent, 4 July 1572</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Florence</settlement>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>4601</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="180r" to="180v">fols. 180r-180v</locus>
+              <title>Letter on the rumour of Florentine loans to the Duke of Alba, the debate over intervention in Flanders, and the Navarre marriage</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">A rumour is circulating at the French court that the Florentines have lent the Duke of Alba three, or by other accounts eight, hundred thousand scudi, and that he has kept his footing against the exiles by this money. Cavriana warns that the accusation is being used by his correspondents' adversaries to discredit them with the French crown. He reports the debate over whether to take up arms in Flanders — pressed by the Huguenots alone, resisted by the king and the queen mother — and the imminent arrival of Navarre and Condé for a wedding that will be celebrated very plainly. The arrival of the Duke of Ferrara's agent, called Gianetta, can only cause trouble; Cavriana will set his hounds to watch what is negotiated.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column, written on both sides of one folio</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+            <additions>
+              <p>Docketed in the upper left margin of fol. 180r in a second hand:
+                 <q>4 di lug.o 72</q>.</p>
+            </additions>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Named entities are annotated according to the project authority files.</p>
+        <p>First-pass transcription made from the digital facsimiles
+           (MdP 4601 c.180r and c.180v in the TransferNow batch of 9 May 2026),
+           not yet checked against the manuscript. Doubtful readings are marked
+           <gi>unclear</gi>.</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1572-07-04">4 July 1572</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>unidentified</persName>
+          <placeName ref="#place-firenze">Firenze</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="180r"/>
+        <opener>
+          <salute><choice><abbr>Ill.<hi rend="sup">re</hi></abbr><expan>Illustre</expan></choice> <choice><abbr>s.<hi rend="sup">r</hi></abbr><expan>signore</expan></choice> mio <choice><abbr>oss.<hi rend="sup">mo</hi></abbr><expan>osservandissimo</expan></choice></salute>
+        </opener>
+        <p>Qui si è, sparsa voce, che voi altri <choice><abbr>sig.</abbr><expan>signori</expan></choice> havete servito de denari<lb/> il <persName ref="#pers-toledo-f">duca d'Alva</persName>, sino alla <choice><abbr>som̍a</abbr><expan>somma</expan></choice> di trecento, altri dicono otto<lb break="no"/>cento milla scudi, et che con questi egli si è mantenuto in<lb/> piedi, contro i disegni de ribelli fuorusciti; cosa che come, à,<lb/> molti spiace, a me <choice><abbr>som̍ame̍te</abbr><expan>sommamente</expan></choice> ha dato noia, veggendo che<lb/> i <choice><abbr>vs̍i</abbr><expan>vostri</expan></choice> avversarij cercano di porvi in diffidenza, con queste<lb/> Maestà, et farvi tenere per huomini, <choice><abbr>no̍</abbr><expan>non</expan></choice> prudenti, ma<lb/> vantaggiosi, et di doppio cuore; sicome con altre mie, mi<lb/> ricorda haverne scritto, et in questo punto, mi vien detto,<lb/> che la <persName ref="#pers-medici-cat">reina <choice><abbr>chrm̍a</abbr><expan>christianissima</expan></choice> madre</persName>, si prometteva per lo innāzi; da<lb/> voi aiuto, de denari, et di gente, in ogni impresa del <persName ref="#pers-valois-ch-9">re<lb/> <choice><abbr>chrm̍o</abbr><expan>christianissimo</expan></choice></persName>, et di <persName ref="#pers-valois-h-3" cert="medium"><choice><abbr>Monsig.<hi rend="sup">re</hi></abbr><expan>Monsignore</expan></choice></persName> suoi figliuoli; ma che hora puo essere<lb/> chiara, che havete trattato per voi, et come molto inte<lb break="no"/>ressati, negotiato seco, per farvi stimare dal <persName ref="#pers-habsburg-f">re Filippo</persName>,<lb/> non per servirla <choice><abbr>vivamēte</abbr><expan>vivamente</expan></choice>, come si mostrava. Ecco gran ma<lb break="no"/>litia delli huomini; Qui poi si disputa, se si ha da mover<lb/> l'armi in <placeName ref="#place-fiandra">Fiandra</placeName>, o no; molti lo gridano et lo vorrieno, ma<lb/> il <persName ref="#pers-valois-ch-9">re</persName>, et la <persName ref="#pers-medici-cat">reina</persName> non lo vogliono, perché gia sono stracchi<lb/> di tamborri, et trombe, et mal si puo menar coda sen<lb break="no"/>za panni, oltre che, non pare loro giusta; se bene gli Ugo<lb break="no"/>notti soli, sono quelli, che ciò consigliano. Aspettiamo di<lb/> di in di, <persName ref="#pers-bourbon-h-nav">Navarra</persName>, et <persName ref="#pers-bourbon-conde">Condè</persName>, per concludere le nozze<lb/> le quali si <choice><abbr>farāno</abbr><expan>faranno</expan></choice> assai <choice><abbr>humilmēte</abbr><expan>humilmente</expan></choice>, et in fatti serà</p>
+
+        <pb n="180v"/>
+        <p><seg type="proverb" xml:id="prov-marcone">una pace di Marcone</seg>. <note type="gloss" target="#prov-marcone">Proverbial: a hollow or merely apparent reconciliation, one resting on nothing firm. Cavriana reads the plainness of the Navarre wedding, celebrated on 18 August 1572, as a sign that the settlement between the crown and the Huguenots is a matter of form rather than substance. The expression was current enough to furnish the title of Cristoforo Sicinio’s comedy <title level="m">La pace di Marcone</title> (Venetia, 1618); the nineteenth-century Tuscan lexicographical tradition glosses it as a ridiculous peace without solid foundation. Its origin is disputed: see <bibl>Alfio Lanaia, <title level="a">«(Fare) la pace di Marcone» fra lessicografia e letteratura: significato e origine gergale di una polirematica</title>, <title level="j">Rivista italiana di linguistica e di dialettologia</title>, 23 (2021), pp. 157-168</bibl>, who argues for a derivation from cant.</note> È arrivato qui il Gianella, servidor<lb/> del <persName ref="#pers-este-a">duca di <placeName ref="#place-ferrara">Ferrara</placeName></persName>, non puo se non darci disturbo; metterò<lb/> in ordine i bracchi, per spiare <choice><abbr>q̄llo</abbr><expan>quello</expan></choice> che si tratterà, et a<lb/> <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ne donerò aviso, baciandole fra tanto le mani<lb/> col maggior affetto dell'animo mio.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il di<lb/> <date when="1572-07-04"><choice><abbr>4.<hi rend="sup">o</hi></abbr><expan>quarto</expan></choice> di Luglio del LXXij</date></dateline><lb/> Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.<hi rend="sup">re</hi></abbr><expan>Illustre</expan></choice><lb/> servidor <choice><abbr>obligatiss.<hi rend="sup">o</hi></abbr><expan>obligatissimo</expan></choice><lb/> <signed><persName ref="#pers-cavriana-f" type="alias">che ella sa</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
