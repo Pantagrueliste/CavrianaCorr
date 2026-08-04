@@ -241,7 +241,14 @@
   </xsl:template>
 
   <!-- 4) Page breaks. -->
+  <!-- A word may be broken across a page as well as across a line, and @break
+       says so on both. The line-break rule already prints the hyphen; without
+       the same here, a word split at the foot of a folio was silently rejoined
+       as two. -->
   <xsl:template match="tei:pb">
+    <xsl:if test="@break = 'no'">
+      <xsl:text>-</xsl:text>
+    </xsl:if>
     <xsl:text>&#10;**[fol. </xsl:text>
     <xsl:value-of select="@n"/>
     <xsl:text>]**&#10;&#10;</xsl:text>
