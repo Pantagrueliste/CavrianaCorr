@@ -219,10 +219,14 @@
     <xsl:if test="$ciphers">
       <xsl:variable name="solved"
         select="count($ciphers[@xml:id and //tei:add[@type='decipher'][substring-after(@corresp,'#') = current()//tei:seg/@xml:id]])"/>
+      <!-- Counted over the cipher groups themselves, so the two hands are
+           told apart and a group solved twice is still one group read. -->
       <xsl:value-of disable-output-escaping="yes"
         select="concat('&lt;CipherNote total=&quot;', count($ciphers),
-                       '&quot; solved=&quot;',
-                       count(tei:text//tei:add[@type='decipher']) + count(tei:text//tei:supplied[@reason='deciphered']),
+                       '&quot; chancery=&quot;',
+                       count($ciphers[cav:solution(.)/self::tei:add]),
+                       '&quot; editor=&quot;',
+                       count($ciphers[cav:solution(.)/self::tei:supplied]),
                        '&quot;/&gt;&#10;&#10;')"/>
     </xsl:if>
 
@@ -410,21 +414,71 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- 11b) Enciphered passages. Without a template these fell through to
-       the catch-all and dumped a bare digit run straight into the reading
-       text, with no space before the words that follow it. -->
+  <!-- 11b) Enciphered passages, set interlinearly with their decipherment.
+
+       The manuscript writes the solution above the digits, and the edition now
+       does the same: the cipher group keeps the line and its reading sits over
+       it, so a reader sees at once which words were hidden and how much of the
+       letter is still shut. A group nobody has read stands alone, and is
+       marked as unread rather than silently looking like any other.
+
+       Two hands solve these letters. A chancery clerk wrote between the lines
+       at the time, which the source records as <add type="decipher"> pointing
+       back with @corresp; where the editor has solved it instead the source
+       has <supplied reason="deciphered"> immediately after the group. Both are
+       decipherments and both are set above the line, but they are not the same
+       claim, so they are marked apart and the note at the head of the letter
+       counts them separately. -->
+
+  <xsl:function name="cav:solution" as="element()?">
+    <xsl:param name="seg" as="element()"/>
+    <xsl:sequence select="(
+      $seg/root()//tei:add[@type='decipher'][substring-after(@corresp,'#') = $seg/@xml:id],
+      $seg/following-sibling::*[1][self::tei:supplied][@reason='deciphered']
+    )[1]"/>
+  </xsl:function>
+
   <xsl:template match="tei:seg[@type='cipher']">
+    <xsl:variable name="solution" select="cav:solution(.)"/>
+    <xsl:variable name="by" select="if ($solution/self::tei:add) then 'chancery'
+                                    else if ($solution) then 'editor' else 'none'"/>
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&lt;span class=&quot;cipher-pair&quot; data-solved-by=&quot;', $by, '&quot;&gt;')"/>
+    <xsl:if test="$solution">
+      <xsl:value-of disable-output-escaping="yes"
+        select="concat('&lt;span class=&quot;decipher&quot; title=&quot;',
+                       cav:attr(if ($by = 'chancery')
+                                then concat('deciphered in the manuscript',
+                                            if ($solution/@hand) then concat(', hand ', substring-after($solution/@hand,'#')) else '')
+                                else concat('deciphered by the editor',
+                                            if ($solution/@cert) then concat(', ', $solution/@cert, ' confidence') else '')),
+                       '&quot;&gt;')"/>
+      <xsl:apply-templates select="$solution/node()"/>
+      <!-- A space between the reading and the digits. Flex layout ignores
+           whitespace between its items, so nothing moves on screen; without it
+           the two run together the moment the markup is stripped, which is
+           what copying the text does, and what counting its words does. -->
+      <xsl:text disable-output-escaping="yes">&lt;/span&gt; </xsl:text>
+    </xsl:if>
     <xsl:value-of disable-output-escaping="yes"
       select="concat('&lt;span class=&quot;cipher&quot; title=&quot;',
                      cav:attr(string-join((
                        'enciphered passage',
                        if (@subtype) then concat(@subtype, ' cipher') else (),
-                       if (@hand) then concat('hand ', substring-after(@hand, '#')) else ()
+                       if (@hand) then concat('hand ', substring-after(@hand, '#')) else (),
+                       if ($by = 'none') then 'not deciphered' else ()
                      ), ', ')),
                      '&quot;&gt;')"/>
     <xsl:apply-templates/>
-    <xsl:text disable-output-escaping="yes">&lt;/span&gt; </xsl:text>
+    <xsl:text disable-output-escaping="yes">&lt;/span&gt;&lt;/span&gt; </xsl:text>
   </xsl:template>
+
+  <!-- The decipherment has been set above its own cipher group, so it must not
+       also be printed where it stands in the source. Priority beats the
+       general rules for an addition and for supplied text. -->
+  <xsl:template priority="3" match="tei:add[@type='decipher'][@corresp]"/>
+  <xsl:template priority="3"
+    match="tei:supplied[@reason='deciphered'][preceding-sibling::*[1][self::tei:seg][@type='cipher']]"/>
 
   <!-- 11c) Text supplied by the editor — decipherments and restorations.
        These are the editor's reconstruction, not the manuscript's words, so
