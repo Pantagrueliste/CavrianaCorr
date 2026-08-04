@@ -480,19 +480,26 @@
 
           <!-- ======= MODULE DECLARATIONS ======= -->
 
+          <!-- The infrastructure module. It carries the macros every content
+               model is built from and the global attribute classes. Without
+               it a schema generated from this ODD compiles, but every content
+               model that uses a macro collapses to empty and nothing in the
+               edition validates. -->
+          <moduleRef key="tei"/>
+
           <!-- Core module -->
           <moduleRef key="core"
             include="p name date note choice abbr expan unclear gap add del
                      lb pb sic corr foreign desc hi list item ref head
                      respStmt resp author editor title publisher pubPlace
-                     textLang quote cit bibl label"/>
+                     textLang quote cit bibl label q rs term"/>
 
           <!-- Header module -->
           <moduleRef key="header"
             include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
                      encodingDesc editorialDecl projectDesc profileDesc
                      correspDesc correspAction revisionDesc change
-                     availability licence idno handNote"/>
+                     availability licence idno handNote calendar calendarDesc catDesc category classDecl taxonomy"/>
 
           <!-- Text structure module -->
           <moduleRef key="textstructure"
@@ -515,7 +522,11 @@
           <!-- Names and dates module -->
           <moduleRef key="namesdates"
             include="persName placeName listPerson person listPlace place
-                     sex birth death occupation geo location settlement"/>
+                     sex birth death occupation geo location settlement event listEvent personGrp"/>
+
+          <!-- Dictionaries module (the glossary of medical terms) -->
+          <moduleRef key="dictionaries"
+            include="entry form orth gramGrp pos sense def xr"/>
 
           <!-- Linking module (for seg) -->
           <moduleRef key="linking"

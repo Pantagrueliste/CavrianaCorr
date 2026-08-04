@@ -66,6 +66,16 @@ jobs:
           python -m pip install --quiet lxml
           python scripts/check_line_breaks.py
 
+      # tei_all.rng accepts anything TEI accepts. This compiles the project's
+      # own ODD and validates against that instead, so the rules written there
+      # — the closed value lists, the required attributes — actually bind.
+      # Thirteen files do not satisfy it yet; the ceiling stops that number
+      # growing while they are worked through, and should come down with it.
+      - name: Validate against the project's own schema
+        run: |
+          python -m pip install --quiet lxml saxonche
+          python scripts/build_schema.py --max-failures 13
+
   convert:
     needs: validate
     runs-on: ubuntu-latest
