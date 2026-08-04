@@ -399,16 +399,38 @@
     <xsl:text disable-output-escaping="yes">&lt;/em&gt;</xsl:text>
   </xsl:template>
 
-  <!-- 13a) An editorial note attaches to what precedes it: the reader should
-       meet the passage, not an interruption. Emitted as a marker the front end
-       binds to the preceding element, so hovering the annotated words shows the
-       note. Where nothing precedes it inside a paragraph, it is a remark about
-       the letter and stands on its own. -->
-  <xsl:template match="tei:note[@type='editorial']">
+  <!-- 13a) A note the editor writes attaches to what it annotates: the reader
+       should meet the passage, not an interruption. Emitted as a marker the
+       front end binds to the annotated words, so hovering them shows the note.
+       Where there is nothing to attach to, it is a remark about the letter and
+       stands on its own.
+
+       The test is who is speaking, not what @type happens to say. Anything the
+       editor writes behaves this way — editorial, gloss, and whatever type a
+       future note carries — so a new note needs no change here. A note that
+       records something written in the manuscript is the document's own
+       content and must stay visible: marginalia, and anything given a @place
+       or a @hand, are left to the general note template below.
+
+       @target names the annotated element outright and is the sound way to
+       bind one, since it does not depend on the note sitting next to it. -->
+  <xsl:function name="cav:editorial" as="xs:boolean">
+    <xsl:param name="n" as="element()"/>
+    <xsl:sequence select="not($n/@place or $n/@hand
+                              or $n/@type = ('marginal', 'summary'))"/>
+  </xsl:function>
+
+  <xsl:template match="tei:note[cav:editorial(.)]">
     <xsl:variable name="text" select="normalize-space(string-join(.//text(), ''))"/>
+    <xsl:variable name="for" select="substring-after(@target, '#')"/>
     <xsl:choose>
-      <xsl:when test="parent::tei:p and preceding-sibling::*[1]">
-        <xsl:text disable-output-escaping="yes">&lt;EdNote note=&quot;</xsl:text>
+      <xsl:when test="$for != '' or (parent::tei:p and preceding-sibling::node()[normalize-space()])">
+        <xsl:text disable-output-escaping="yes">&lt;EdNote </xsl:text>
+        <xsl:if test="$for != ''">
+          <xsl:value-of disable-output-escaping="yes"
+            select="concat('for=&quot;', cav:attr($for), '&quot; ')"/>
+        </xsl:if>
+        <xsl:text disable-output-escaping="yes">note=&quot;</xsl:text>
         <xsl:value-of select="cav:attr($text)"/>
         <xsl:text disable-output-escaping="yes">&quot; /&gt;</xsl:text>
       </xsl:when>
@@ -418,6 +440,17 @@
         <xsl:text disable-output-escaping="yes">&quot; /&gt;&#10;&#10;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <!-- 13b) An element a note points at needs an id in the output for the note
+       to find it. Cipher segments have their own template above. -->
+  <xsl:template match="tei:seg[@xml:id][not(@type = 'cipher')]">
+    <xsl:value-of disable-output-escaping="yes"
+      select="concat('&lt;span id=&quot;', cav:attr(@xml:id), '&quot;',
+                     if (@type) then concat(' class=&quot;seg-', cav:attr(@type), '&quot;') else '',
+                     '&gt;')"/>
+    <xsl:apply-templates/>
+    <xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
   </xsl:template>
 
   <!-- 13) Other notes carry their type, placement, and hand. -->

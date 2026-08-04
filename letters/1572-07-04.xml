@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from Filippo Cavriana to an unidentified correspondent, 4 July 1572</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 4 July 1572</title>
         <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -56,13 +56,6 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <editorialDecl>
-        <p>Named entities are annotated according to the project authority files.</p>
-        <p>First-pass transcription made from the digital facsimiles
-           (MdP 4601 c.180r and c.180v in the TransferNow batch of 9 May 2026),
-           not yet checked against the manuscript. Doubtful readings are marked
-           <gi>unclear</gi>.</p>
-      </editorialDecl>
       <projectDesc>
         <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
       </projectDesc>
@@ -75,7 +68,7 @@
           <date when="1572-07-04">4 July 1572</date>
         </correspAction>
         <correspAction type="received">
-          <persName>unidentified</persName>
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
           <placeName ref="#place-firenze">Firenze</placeName>
         </correspAction>
       </correspDesc>
