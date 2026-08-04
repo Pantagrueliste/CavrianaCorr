@@ -7,12 +7,22 @@ on:
     paths:
       - 'letters/**/*.xml'
       - 'templates/transform.xsl'
+      # the rules themselves, and the scripts that enforce them
+      - 'ODD_CavrianaCorr.xml'
+      - 'scripts/build_schema.py'
+      - 'scripts/check_line_breaks.py'
+      - '.github/workflows/convert-xml-to-markdown.yml'
   pull_request:
     branches:
       - main
     paths:
       - 'letters/**/*.xml'
       - 'templates/transform.xsl'
+      # the rules themselves, and the scripts that enforce them
+      - 'ODD_CavrianaCorr.xml'
+      - 'scripts/build_schema.py'
+      - 'scripts/check_line_breaks.py'
+      - '.github/workflows/convert-xml-to-markdown.yml'
 
 permissions:
   contents: write
