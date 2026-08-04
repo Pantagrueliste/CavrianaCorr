@@ -81,10 +81,17 @@ jobs:
       # — the closed value lists, the required attributes — actually bind.
       # Thirteen files do not satisfy it yet; the ceiling stops that number
       # growing while they are worked through, and should come down with it.
-      - name: Validate against the project's own schema
+      - name: Compile the ODD into a schema
         run: |
           python -m pip install --quiet lxml saxonche
-          python scripts/build_schema.py --max-failures 13
+          python scripts/build_schema.py --generate-only
+
+      # jing is the reference RELAX NG implementation. libxml2 mishandles
+      # <empty/> inside a repetition, which odd2relax emits wherever a class
+      # compiles empty, so it reports faults jing does not.
+      - name: Validate against the project's own schema
+        run: |
+          java -jar ./jing/bin/jing.jar .cache/odd/cavriana.rng letters/*.xml
 
   convert:
     needs: validate

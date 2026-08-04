@@ -73,6 +73,11 @@ def compile_odd(p5: str, sty: str) -> tuple[str, str]:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--generate-only", action="store_true",
+                    help="emit the schema and stop. Validate with jing instead: "
+                         "libxml2 mishandles <empty/> inside a repetition, which "
+                         "odd2relax emits wherever a class compiles empty, so it "
+                         "reports faults the reference implementation does not.")
     ap.add_argument("--max-failures", type=int, default=0,
                     help="tolerate this many files still failing, so that the "
                          "remaining ones can be worked through without the "
@@ -83,7 +88,10 @@ def main() -> int:
 
     p5, sty = fetch()
     rng_path, sch_path = compile_odd(p5, sty)
-    print(f"  schema generated: {os.path.getsize(rng_path):,} bytes")
+    print(f"  schema generated: {os.path.getsize(rng_path):,} bytes -> {rng_path}")
+    print(f"  schematron       : {os.path.getsize(sch_path):,} bytes -> {sch_path}")
+    if args.generate_only:
+        return 0
 
     relaxng = etree.RelaxNG(etree.parse(rng_path))
     failures: list[tuple[str, str]] = []
