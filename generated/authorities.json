@@ -19,6 +19,7 @@
   "1570-07-29-b": "1570-07-29",
   "1570-08-08-c": "1570-08-08",
   "1570-08-17": "1570-08-17",
+  "1570-08-30": "1570-08-30",
   "1570-09-01": "1570-09-01",
   "1570-09-11": "1570-09-11",
   "1570-09-14": "1570-09-14",
@@ -46,6 +47,7 @@
   "1572-04-22": "1572-04-22",
   "1572-05-12": "1572-05-12",
   "1572-05-28": "1572-05-28",
+  "1572-07-04": "1572-07-04",
   "1572-07-12": "1572-07-12",
   "1572-07-19": "1572-07-19",
   "1572-08-04": "1572-08-04",
@@ -637,6 +639,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Commissario di Pisa",
    "roleFrom": "",
    "roleTo": "",
@@ -663,10 +666,11 @@
      "slug": "1570-07-15"
     }
    ],
-   "map": "",
+   "map": "18680",
    "name": "Alberto",
    "note": "",
    "offices": [],
+   "probableName": "Alberto Luchi",
    "role": "Secretary",
    "roleFrom": "",
    "roleTo": "",
@@ -704,6 +708,7 @@
    "name": "Jeanne d'Albret",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Queen of Navarre",
    "roleFrom": "",
    "roleTo": "",
@@ -728,6 +733,7 @@
    "name": "Renée d'Anjou-Mézières",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duchess of Montpensier",
    "roleFrom": "",
    "roleTo": "",
@@ -763,6 +769,7 @@
    "name": "Émond Auger",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -804,6 +811,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Royal councillor and diplomat",
    "roleFrom": "",
    "roleTo": "",
@@ -855,6 +863,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Chevalier de St Michel",
    "roleFrom": "",
    "roleTo": "",
@@ -884,6 +893,11 @@
      "date": "1570-07-29",
      "n": 1,
      "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     },
     {
      "date": "1570-09-14",
@@ -921,12 +935,13 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Cavaliere dell'Ordine di Santo Stefano",
    "roleFrom": "1562",
    "roleTo": "",
    "roleType": "chivalricOrder",
    "sortName": "Bobba, Traiano di Fabrizio",
-   "total": 2,
+   "total": 3,
    "viaf": "",
    "wikidata": ""
   },
@@ -950,6 +965,11 @@
      "date": "1570-10-13",
      "n": 1,
      "slug": "1570-10-13"
+    },
+    {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
     }
    ],
    "map": "9791",
@@ -967,12 +987,13 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Prince of Condé",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
    "sortName": "Bourbon, Louis I de (Prince of Condé)",
-   "total": 1,
+   "total": 2,
    "viaf": "54264210",
    "wikidata": "Q316913"
   },
@@ -1010,6 +1031,7 @@
    "name": "Henri I de Bourbon",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Prince of Condé",
    "roleFrom": "",
    "roleTo": "",
@@ -1028,7 +1050,7 @@
     "sent": 3
    },
    "author": false,
-   "birth": "1553-12-23",
+   "birth": "1553-12-13",
    "calling": "Rulers",
    "dbi": "",
    "death": "1610-05-14",
@@ -1061,6 +1083,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-08-04",
      "n": 1,
      "slug": "1572-08-04"
@@ -1085,12 +1112,13 @@
    "name": "Henri de Bourbon",
    "note": "Future Henri IV of France",
    "offices": [],
+   "probableName": "",
    "role": "King of Navarre",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Bourbon, Henri de (King of Navarre)",
-   "total": 12,
+   "total": 13,
    "viaf": "266965539",
    "wikidata": "Q936976"
   },
@@ -1120,6 +1148,7 @@
    "name": "Louis III de Bourbon-Vendôme",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Montpensier",
    "roleFrom": "",
    "roleTo": "",
@@ -1157,6 +1186,7 @@
    "name": "François de Beauvais",
    "note": "French noble and military figure",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -1187,6 +1217,7 @@
    "name": "Caan",
    "note": "Sent by Maximilian II to congratulate the Queen of France on her childbirth, December 1572",
    "offices": [],
+   "probableName": "",
    "role": "Imperial Grand Equerry (cavallerizo maggiore)",
    "roleFrom": "",
    "roleTo": "",
@@ -1217,6 +1248,7 @@
    "name": "Honoré Castellan",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Premier médecin to Catherine de' Medici",
    "roleFrom": "",
    "roleTo": "",
@@ -1456,6 +1488,11 @@
      "slug": "1572-05-28"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-07-12",
      "n": 1,
      "slug": "1572-07-12"
@@ -1515,12 +1552,13 @@
    "name": "Filippo Cavriana",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Physician and diplomat",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
    "sortName": "Cavriana, Filippo",
-   "total": 57,
+   "total": 58,
    "viaf": "",
    "wikidata": ""
   },
@@ -1539,6 +1577,7 @@
    "name": "Hugues de La Charité",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Franciscan Friar",
    "roleFrom": "",
    "roleTo": "",
@@ -1584,6 +1623,7 @@
    "name": "Henriette de Clèves",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duchess of Nevers",
    "roleFrom": "",
    "roleTo": "",
@@ -1602,10 +1642,10 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1519-02-26",
+   "birth": "1519-02-16",
    "calling": "Military",
    "dbi": "",
-   "death": "1572-09-03",
+   "death": "1572-08-24",
    "image": "François Clouet - Admiral Gaspard II de Coligny - 168-1925 - Saint Louis Art Museum.jpg",
    "kind": "person",
    "letters": [
@@ -1679,6 +1719,7 @@
    "name": "Gaspard de Coligny",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Admiral of France",
    "roleFrom": "",
    "roleTo": "",
@@ -1732,6 +1773,7 @@
    "name": "Bartolomeo Concino di Conti della Penna",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "First Secretary of Cosimo I de' Medici",
    "roleFrom": "",
    "roleTo": "",
@@ -1783,6 +1825,7 @@
      "to": "1610"
     }
    ],
+   "probableName": "",
    "role": "Military commander",
    "roleFrom": "",
    "roleTo": "",
@@ -1813,6 +1856,7 @@
    "name": "Renée de Cossé-Brissac",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Marquise de Méru",
    "roleFrom": "",
    "roleTo": "",
@@ -1843,6 +1887,7 @@
    "name": "crotto",
    "note": "Further identification needed",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -1875,6 +1920,7 @@
    "name": "Francés de Álava",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Spanish ambassador to France",
    "roleFrom": "",
    "roleTo": "",
@@ -1921,6 +1967,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Medici Secretary",
    "roleFrom": "",
    "roleTo": "",
@@ -1951,6 +1998,7 @@
    "name": "Diane de la Marck",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duchess of Tonnerre",
    "roleFrom": "",
    "roleTo": "",
@@ -1996,6 +2044,7 @@
    "name": "Ippolito d'Este",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Cardinal",
    "roleFrom": "",
    "roleTo": "",
@@ -2041,6 +2090,7 @@
    "name": "Charles de Téligny",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -2076,6 +2126,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Duke of Épernon",
    "roleFrom": "",
    "roleTo": "",
@@ -2096,7 +2147,7 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1533-12-02",
+   "birth": "1533-11-22",
    "calling": "Rulers",
    "dbi": "",
    "death": "1597-10-27",
@@ -2122,6 +2173,11 @@
      "date": "1571-07-07",
      "n": 1,
      "slug": "1571-07-07"
+    },
+    {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
     }
    ],
    "map": "427",
@@ -2134,12 +2190,13 @@
      "to": "1597"
     }
    ],
+   "probableName": "",
    "role": "Duke of Ferrara",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Este, Alfonso II d'",
-   "total": 4,
+   "total": 5,
    "viaf": "27142287",
    "wikidata": "Q1856074"
   },
@@ -2154,7 +2211,7 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1539-01-04",
+   "birth": "1538-12-25",
    "calling": "Church",
    "dbi": "",
    "death": "1586-12-30",
@@ -2192,6 +2249,7 @@
      "to": "1573"
     }
    ],
+   "probableName": "",
    "role": "Cardinal",
    "roleFrom": "",
    "roleTo": "",
@@ -2224,6 +2282,7 @@
    "name": "Renée de France",
    "note": "Daughter of Louis XII of France and wife of Ercole II d'Este, Duke of Ferrara",
    "offices": [],
+   "probableName": "",
    "role": "Duchess of Ferrara",
    "roleFrom": "",
    "roleTo": "",
@@ -2259,6 +2318,7 @@
    "name": "Alessandro Farnese",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Cardinal",
    "roleFrom": "",
    "roleTo": "",
@@ -2299,6 +2359,7 @@
    "name": "Claude de France",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -2347,6 +2408,7 @@
      "to": "1577"
     }
    ],
+   "probableName": "",
    "role": "Conte di Caiazzo",
    "roleFrom": "1539",
    "roleTo": "1577",
@@ -2415,6 +2477,7 @@
      "to": "1602"
     }
    ],
+   "probableName": "",
    "role": "Marshal of France",
    "roleFrom": "",
    "roleTo": "",
@@ -2466,6 +2529,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Capitaine de cent gendarmes",
    "roleFrom": "1564",
    "roleTo": "",
@@ -2511,6 +2575,7 @@
      "to": "1587"
     }
    ],
+   "probableName": "",
    "role": "Duke of Mantua",
    "roleFrom": "",
    "roleTo": "",
@@ -2552,6 +2617,7 @@
      "to": "1579"
     }
    ],
+   "probableName": "",
    "role": "Marchioness of Pescara",
    "roleFrom": "",
    "roleTo": "",
@@ -2572,7 +2638,7 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1539-09-28",
+   "birth": "1539-09-18",
    "calling": "",
    "dbi": "",
    "death": "1595-10-23",
@@ -2674,6 +2740,7 @@
    "name": "Luigi Gonzaga",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Nevers",
    "roleFrom": "",
    "roleTo": "",
@@ -2689,7 +2756,7 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1502-01-11",
+   "birth": "1502-01-01",
    "calling": "",
    "dbi": "",
    "death": "1585-04-10",
@@ -2726,6 +2793,7 @@
    "name": "Gregory XIII",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Pope",
    "roleFrom": "",
    "roleTo": "",
@@ -2756,6 +2824,7 @@
    "name": "Guadagni family member",
    "note": "Entity needs research and completion",
    "offices": [],
+   "probableName": "",
    "role": "Noble",
    "roleFrom": "",
    "roleTo": "",
@@ -2777,7 +2846,7 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1551-01-10",
+   "birth": "1550-12-31",
    "calling": "",
    "dbi": "",
    "death": "1588-12-23",
@@ -2849,6 +2918,7 @@
    "name": "Henri de Guise",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Guise",
    "roleFrom": "",
    "roleTo": "",
@@ -2914,6 +2984,7 @@
    "name": "Elisabeth",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -2955,6 +3026,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-08-04",
      "n": 6,
      "slug": "1572-08-04"
@@ -2979,12 +3055,13 @@
    "name": "Philippe",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
    "sortName": "Habsburg, Philippe (King of Spain)",
-   "total": 19,
+   "total": 20,
    "viaf": "88973996",
    "wikidata": "Q34417"
   },
@@ -2992,10 +3069,10 @@
    "aliases": [],
    "archive": null,
    "author": false,
-   "birth": "1547-03-06",
+   "birth": "1547-02-24",
    "calling": "",
    "dbi": "",
-   "death": "1578-10-11",
+   "death": "1578-10-01",
    "image": "John of Austria portrait.jpg",
    "kind": "person",
    "letters": [
@@ -3014,6 +3091,7 @@
    "name": "Juan de Austria",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Don Juan de Austria",
    "roleFrom": "",
    "roleTo": "",
@@ -3071,6 +3149,7 @@
    "name": "Maxmilian II",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Imperator Romanus Sacer",
    "roleFrom": "1564",
    "roleTo": "1576",
@@ -3119,6 +3198,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Duke of Joyeuse",
    "roleFrom": "",
    "roleTo": "",
@@ -3143,6 +3223,7 @@
    "name": "Katarzyna",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Queen of Poland",
    "roleFrom": "",
    "roleTo": "",
@@ -3176,6 +3257,7 @@
    "name": "Antoine Escalin des Aimars",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "General of the French galleys",
    "roleFrom": "",
    "roleTo": "",
@@ -3213,6 +3295,7 @@
    "name": "Joseph Boniface de la Môle",
    "note": "Executed on the Place de Grève, Paris, for his role in the Alençon-Navarre conspiracy.",
    "offices": [],
+   "probableName": "",
    "role": "Provençal gentleman, favourite of the Duke of Alençon",
    "roleFrom": "",
    "roleTo": "",
@@ -3243,6 +3326,7 @@
    "name": "Michel de L'Hospital",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -3267,6 +3351,7 @@
    "name": "Jacques de Loignac",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Master of the King's Wardrobe",
    "roleFrom": "",
    "roleTo": "",
@@ -3307,6 +3392,7 @@
    "name": "Charles III de Lorraine",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duc de Lorraine",
    "roleFrom": "1545",
    "roleTo": "1608",
@@ -3344,6 +3430,7 @@
    "name": "Charles de Lorraine",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Aumale",
    "roleFrom": "",
    "roleTo": "",
@@ -3365,10 +3452,10 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1524-02-27",
+   "birth": "1524-02-17",
    "calling": "Church",
    "dbi": "",
-   "death": "1575-01-05",
+   "death": "1574-12-26",
    "image": "CharlesdeGuise.jpg",
    "kind": "person",
    "letters": [
@@ -3427,6 +3514,7 @@
    "name": "Charles de Lorraine",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Cardinal of Lorraine",
    "roleFrom": "",
    "roleTo": "",
@@ -3445,7 +3533,7 @@
     "sent": 85
    },
    "author": false,
-   "birth": "1565-08-26",
+   "birth": "1565-08-16",
    "calling": "Rulers",
    "dbi": "",
    "death": "1637-12-19",
@@ -3456,6 +3544,7 @@
    "name": "Christine de Lorraine",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Princess of Lorraine",
    "roleFrom": "",
    "roleTo": "",
@@ -3486,6 +3575,7 @@
    "name": "Henry of Lorraine",
    "note": "Entity needs research and completion",
    "offices": [],
+   "probableName": "",
    "role": "Noble",
    "roleFrom": "",
    "roleTo": "",
@@ -3521,6 +3611,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Duc de Bar",
    "roleFrom": "",
    "roleTo": "1624",
@@ -3553,6 +3644,7 @@
    "name": "Juan Maldonado",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Jesuit theologian",
    "roleFrom": "",
    "roleTo": "",
@@ -3585,6 +3677,7 @@
    "name": "Michel de Castelnau",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "French envoy to England",
    "roleFrom": "",
    "roleTo": "",
@@ -3688,6 +3781,11 @@
      "slug": "1572-03-08"
     },
     {
+     "date": "1572-07-04",
+     "n": 2,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-08-04",
      "n": 1,
      "slug": "1572-08-04"
@@ -3718,12 +3816,13 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Queen Mother of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Caterina de'",
-   "total": 53,
+   "total": 55,
    "viaf": "4936327",
    "wikidata": "Q131552"
   },
@@ -3851,6 +3950,7 @@
      "to": "1574"
     }
    ],
+   "probableName": "",
    "role": "Grand Duke of Tuscany",
    "roleFrom": "",
    "roleTo": "",
@@ -3869,7 +3969,7 @@
     "sent": 470
    },
    "author": false,
-   "birth": "1549-08-09",
+   "birth": "1549-07-30",
    "calling": "Church",
    "dbi": "",
    "death": "1609-02-17",
@@ -3891,6 +3991,7 @@
    "name": "Ferdinando de' Medici",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Grand Duke of Tuscany",
    "roleFrom": "",
    "roleTo": "",
@@ -3915,6 +4016,7 @@
    "name": "Giovanna d'Austria",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Grand Duchess of Tuscany",
    "roleFrom": "",
    "roleTo": "",
@@ -3961,6 +4063,7 @@
      "to": "1571"
     }
    ],
+   "probableName": "",
    "role": "Venetian ambassador to France",
    "roleFrom": "",
    "roleTo": "",
@@ -4008,6 +4111,7 @@
    "name": "Blaise de Montluc",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Marshal of France",
    "roleFrom": "",
    "roleTo": "",
@@ -4152,6 +4256,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Marshal of France",
    "roleFrom": "",
    "roleTo": "",
@@ -4211,6 +4316,7 @@
      "to": "1592"
     }
    ],
+   "probableName": "",
    "role": "Duke of Damville",
    "roleFrom": "",
    "roleTo": "",
@@ -4245,6 +4351,7 @@
    "name": "Guillaume de Montmorency-Thoré",
    "note": "Brother of François de Montmorency and Charles de Montmorency (Méru). Implicated in the Malcontent conspiracy of 1574.",
    "offices": [],
+   "probableName": "",
    "role": "Military commander",
    "roleFrom": "",
    "roleTo": "",
@@ -4282,6 +4389,7 @@
    "name": "Henri de Montmorency",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Marshal of France, Governor of Languedoc",
    "roleFrom": "",
    "roleTo": "",
@@ -4295,10 +4403,10 @@
    "aliases": [],
    "archive": null,
    "author": false,
-   "birth": "1538-01-20",
+   "birth": "1538-01-10",
    "calling": "",
    "dbi": "",
-   "death": "1574-04-24",
+   "death": "1574-04-14",
    "image": "Lodewijk van Nassau.jpg",
    "kind": "person",
    "letters": [
@@ -4327,6 +4435,7 @@
    "name": "Ludwig von Nassau",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Count of Nassau",
    "roleFrom": "",
    "roleTo": "",
@@ -4342,7 +4451,7 @@
    ],
    "archive": null,
    "author": false,
-   "birth": "1533-05-04",
+   "birth": "1533-04-24",
    "calling": "",
    "dbi": "",
    "death": "1584-07-10",
@@ -4384,6 +4493,7 @@
    "name": "Willem van Oranje",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Prince of Orange",
    "roleFrom": "",
    "roleTo": "",
@@ -4403,7 +4513,7 @@
    "birth": "1540-01-01",
    "calling": "",
    "dbi": "",
-   "death": "1573-08-17",
+   "death": "1573-08-07",
    "image": "Léonor d'Orléans-Longueville.jpeg",
    "kind": "person",
    "letters": [
@@ -4427,6 +4537,7 @@
    "name": "Léonor d'Orléans",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Longueville",
    "roleFrom": "",
    "roleTo": "",
@@ -4485,6 +4596,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Cardinal, papal legate",
    "roleFrom": "",
    "roleTo": "",
@@ -4586,6 +4698,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "condottiere",
    "roleFrom": "",
    "roleTo": "",
@@ -4641,6 +4754,7 @@
    "name": "Selim II",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -4671,6 +4785,7 @@
    "name": "Monsignore d'Ossonville",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "French noble",
    "roleFrom": "",
    "roleTo": "",
@@ -4701,6 +4816,7 @@
    "name": "Giulio Cesare Papazzone",
    "note": "Servidore della signora Marchesa di Pescara",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -4731,6 +4847,7 @@
    "name": "Filippino Pazzi",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -4782,6 +4899,11 @@
      "slug": "1570-08-17"
     },
     {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
+    },
+    {
      "date": "1570-10-03",
      "n": 2,
      "slug": "1570-10-03"
@@ -4811,12 +4933,13 @@
    "name": "Alessandro Petrucci",
    "note": "Tuscan ambassador to France",
    "offices": [],
+   "probableName": "",
    "role": "Commendatore",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "",
    "sortName": "Petrucci, Alessandro",
-   "total": 16,
+   "total": 17,
    "viaf": "",
    "wikidata": ""
   },
@@ -4829,10 +4952,10 @@
     "sent": 1
    },
    "author": false,
-   "birth": "1515-02-24",
+   "birth": "1515-02-14",
    "calling": "Rulers",
    "dbi": "",
-   "death": "1576-11-05",
+   "death": "1576-10-26",
    "image": "Friedrich der Fromme.jpg",
    "kind": "person",
    "letters": [
@@ -4856,6 +4979,7 @@
    "name": "Friedrich III von der Pfalz",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Elector Palatine",
    "roleFrom": "",
    "roleTo": "",
@@ -4893,6 +5017,7 @@
    "name": "Johann Casimir von der Pfalz",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Count Palatine",
    "roleFrom": "",
    "roleTo": "",
@@ -4914,10 +5039,10 @@
     "sent": 0
    },
    "author": false,
-   "birth": "1504-01-27",
+   "birth": "1504-01-17",
    "calling": "Church",
    "dbi": "",
-   "death": "1572-05-11",
+   "death": "1572-05-01",
    "image": "Bartolomeo Passarotti - Pius V.jpg",
    "kind": "person",
    "letters": [
@@ -4941,6 +5066,7 @@
    "name": "Pius V",
    "note": "Pope from 1566 to 1572",
    "offices": [],
+   "probableName": "",
    "role": "Pope",
    "roleFrom": "",
    "roleTo": "",
@@ -4971,6 +5097,7 @@
    "name": "The Pope",
    "note": "Entity needs research and completion",
    "offices": [],
+   "probableName": "",
    "role": "Pope",
    "roleFrom": "",
    "roleTo": "",
@@ -5013,6 +5140,7 @@
    "name": "Ivan IV",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Czar of Russia",
    "roleFrom": "",
    "roleTo": "",
@@ -5043,6 +5171,7 @@
    "name": "Rosières",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Former Huguenot minister, converted after St Bartholomew",
    "roleFrom": "",
    "roleTo": "",
@@ -5075,6 +5204,7 @@
    "name": "August von Sachsen",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Elector of Saxony",
    "roleFrom": "",
    "roleTo": "",
@@ -5107,6 +5237,7 @@
    "name": "Wilhelm von Sachsen",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Saxony",
    "roleFrom": "",
    "roleTo": "",
@@ -5127,7 +5258,7 @@
     "sent": 1
    },
    "author": false,
-   "birth": "1537-01-31",
+   "birth": "1537-01-21",
    "calling": "Church",
    "dbi": "",
    "death": "1602-04-26",
@@ -5144,6 +5275,7 @@
    "name": "Antonio Maria Salviati",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Papal Nuncio",
    "roleFrom": "",
    "roleTo": "",
@@ -5176,6 +5308,7 @@
    "name": "Honorat de Savoie",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Marquis of Susa",
    "roleFrom": "",
    "roleTo": "",
@@ -5206,6 +5339,7 @@
    "name": "Honorat de Savoie",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Count of Tende",
    "roleFrom": "",
    "roleTo": "",
@@ -5282,6 +5416,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Duke of Nemours",
    "roleFrom": "",
    "roleTo": "",
@@ -5358,6 +5493,7 @@
      "to": "1580"
     }
    ],
+   "probableName": "",
    "role": "Duke of Savoy",
    "roleFrom": "",
    "roleTo": "",
@@ -5388,6 +5524,7 @@
    "name": "Arnauld Sorbin",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -5419,6 +5556,11 @@
      "date": "1570-07-29",
      "n": 1,
      "slug": "1570-07-29-b"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     }
    ],
    "map": "892",
@@ -5441,12 +5583,13 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Salariato di Cosimo I de' Medici",
    "roleFrom": "1559",
    "roleTo": "1574",
    "roleType": "stateCourtPersonnel",
    "sortName": "Striggio, Alessandro",
-   "total": 1,
+   "total": 2,
    "viaf": "100216614",
    "wikidata": "Q1377115"
   },
@@ -5504,6 +5647,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Colonel-General of the Infantry, commander of the French naval expedition (1572)",
    "roleFrom": "",
    "roleTo": "",
@@ -5534,6 +5678,7 @@
    "name": "Gaspard de Saulx-Tavannes",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Marshal of France",
    "roleFrom": "",
    "roleTo": "",
@@ -5569,6 +5714,7 @@
    "name": "Taxi family member",
    "note": "Entity needs research and completion",
    "offices": [],
+   "probableName": "",
    "role": "Noble",
    "roleFrom": "",
    "roleTo": "",
@@ -5593,6 +5739,7 @@
    "name": "Jean de Termes",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Master of the King's Wardrobe",
    "roleFrom": "",
    "roleTo": "",
@@ -5627,6 +5774,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -5636,12 +5788,13 @@
    "name": "Fernando Álvarez de Toledo",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "Duke of Alba, Governor of the Spanish Netherlands",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "military",
    "sortName": "Álvarez de Toledo, Fernando",
-   "total": 2,
+   "total": 3,
    "viaf": "20476873",
    "wikidata": "Q80847"
   },
@@ -5707,6 +5860,7 @@
      "to": "1603"
     }
    ],
+   "probableName": "",
    "role": "Queen of England",
    "roleFrom": "",
    "roleTo": "",
@@ -5736,6 +5890,11 @@
      "date": "1570-07-15",
      "n": 1,
      "slug": "1570-07-15"
+    },
+    {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
     }
    ],
    "map": "772",
@@ -5748,12 +5907,13 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Cavaliere dell'Ordine di Santo Stefano",
    "roleFrom": "1562",
    "roleTo": "1612",
    "roleType": "",
    "sortName": "Vaini, Enea",
-   "total": 1,
+   "total": 2,
    "viaf": "",
    "wikidata": ""
   },
@@ -5841,6 +6001,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 2,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-08-04",
      "n": 2,
      "slug": "1572-08-04"
@@ -5876,12 +6041,13 @@
      "to": "1574"
     }
    ],
+   "probableName": "",
    "role": "King of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Charles IX",
-   "total": 107,
+   "total": 109,
    "viaf": "59215242",
    "wikidata": "Q134309"
   },
@@ -5935,6 +6101,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Duke of Alençon, later Duke of Anjou",
    "roleFrom": "",
    "roleTo": "",
@@ -5976,6 +6143,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1574-03-06",
      "n": 1,
      "slug": "1574-03-06"
@@ -6006,12 +6178,13 @@
      "to": "1575"
     }
    ],
+   "probableName": "",
    "role": "King of France",
    "roleFrom": "",
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Henri III",
-   "total": 5,
+   "total": 6,
    "viaf": "7398374",
    "wikidata": "Q53448"
   },
@@ -6046,6 +6219,7 @@
    "name": "Marguerite de Valois",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "",
    "roleFrom": "",
    "roleTo": "",
@@ -6097,6 +6271,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Predicatore",
    "roleFrom": "",
    "roleTo": "",
@@ -6155,6 +6330,7 @@
      "to": "1590"
     }
    ],
+   "probableName": "",
    "role": "English ambassador to France",
    "roleFrom": "",
    "roleTo": "",
@@ -6190,6 +6366,7 @@
      "to": ""
     }
    ],
+   "probableName": "",
    "role": "Ducal secretary in Mantua",
    "roleFrom": "",
    "roleTo": "",
@@ -6230,6 +6407,7 @@
    "name": "Zygmunt II",
    "note": "",
    "offices": [],
+   "probableName": "",
    "role": "King of Poland",
    "roleFrom": "",
    "roleTo": "",
@@ -7074,6 +7252,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -7095,7 +7278,7 @@
    "scope": "",
    "sortName": "Ferrara",
    "tgn": "7004264",
-   "total": 7,
+   "total": 8,
    "wikidata": "Q13362"
   },
   "place-fiandra": {
@@ -7118,6 +7301,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-08-04",
      "n": 3,
      "slug": "1572-08-04"
@@ -7134,7 +7322,7 @@
    "scope": "",
    "sortName": "Flanders",
    "tgn": "7024097",
-   "total": 9,
+   "total": 10,
    "wikidata": "Q234"
   },
   "place-firenze": {
@@ -8539,6 +8727,11 @@
      "slug": "1570-08-17"
     },
     {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
+    },
+    {
      "date": "1570-09-01",
      "n": 4,
      "slug": "1570-09-01"
@@ -8614,6 +8807,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-07-04",
+     "n": 1,
+     "slug": "1572-07-04"
+    },
+    {
      "date": "1572-07-12",
      "n": 1,
      "slug": "1572-07-12"
@@ -8680,7 +8878,7 @@
    "scope": "",
    "sortName": "Paris",
    "tgn": "7008038",
-   "total": 57,
+   "total": 59,
    "wikidata": "Q90"
   },
   "place-parma": {
@@ -8871,6 +9069,11 @@
      "slug": "1570-07-29-b"
     },
     {
+     "date": "1570-08-30",
+     "n": 1,
+     "slug": "1570-08-30"
+    },
+    {
      "date": "1570-11-02",
      "n": 1,
      "slug": "1570-11-02-b"
@@ -8897,7 +9100,7 @@
    "scope": "",
    "sortName": "Pisa",
    "tgn": "7006082",
-   "total": 9,
+   "total": 10,
    "wikidata": "Q13375"
   },
   "place-poitou": {
@@ -9829,6 +10032,11 @@
      "date": "1570-08-17",
      "days": 9,
      "slug": "1570-08-17"
+    },
+    {
+     "date": "1570-08-30",
+     "days": 22,
+     "slug": "1570-08-30"
     },
     {
      "date": "1570-09-01",
