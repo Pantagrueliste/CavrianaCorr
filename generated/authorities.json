@@ -3352,6 +3352,40 @@
    "viaf": "",
    "wikidata": "Q1924885"
   },
+  "pers-lanoue-f": {
+   "aliases": [
+    "La Nua",
+    "Bras de Fer"
+   ],
+   "archive": null,
+   "author": false,
+   "birth": "1531",
+   "calling": "",
+   "dbi": "",
+   "death": "1591-08-04",
+   "image": "La-Noue.jpg",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1572-12-18",
+     "n": 1,
+     "slug": "1572-12-18"
+    }
+   ],
+   "map": "",
+   "name": "François de la Noue",
+   "note": "Huguenot captain, called Bras de Fer",
+   "offices": [],
+   "probableName": "",
+   "role": "Huguenot captain",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "military",
+   "sortName": "La Noue, François de",
+   "total": 1,
+   "viaf": "89118991",
+   "wikidata": "Q1451253"
+  },
   "pers-lhospital-m": {
    "aliases": [],
    "archive": null,
@@ -10156,7 +10190,7 @@
  },
  "events": [
   {
-   "desc": "The edict ending the third war of religion, granting the Huguenots four places of safety. Gregorian 18 August 1570. Its slow and contested execution is the subject of most of Cavriana's reporting through the autumn of 1570.",
+   "desc": "The edict ending the third war of religion, granting the Huguenots four places of safety. Its slow and contested execution is the subject of most of Cavriana's reporting through the autumn of 1570.",
    "firstAfter": "1570-08-08-c",
    "from": "",
    "id": "evt-paix-saint-germain",
@@ -10212,7 +10246,7 @@
    "wikidata": "Q1067191"
   },
   {
-   "desc": "Celebrated at Mézières. Gregorian 6 December 1570. Cavriana reports the wedding preparations through November and the new queen's reception at court in January.",
+   "desc": "Celebrated at Mézières. Cavriana reports the wedding preparations through November and the new queen's reception at court in January.",
    "firstAfter": "",
    "from": "",
    "id": "evt-mariage-charles-ix",
@@ -10232,7 +10266,7 @@
    "wikidata": ""
   },
   {
-   "desc": "The Holy League's naval victory over the Ottoman fleet. Gregorian 17 October 1571.",
+   "desc": "The Holy League's naval victory over the Ottoman fleet.",
    "firstAfter": "",
    "from": "",
    "id": "evt-lepanto",
@@ -10247,7 +10281,7 @@
    "wikidata": "Q165425"
   },
   {
-   "desc": "The conclave following the death of Pius V, which elected Ugo Boncompagni. Gregorian 22–23 May 1572.",
+   "desc": "The conclave following the death of Pius V, which elected Ugo Boncompagni.",
    "firstAfter": "1572-05-12",
    "from": "1572-05-12",
    "id": "evt-conclave-1572",
@@ -10277,7 +10311,7 @@
    "wikidata": "Q4541853"
   },
   {
-   "desc": "The match Cavriana had been reporting since 1570, celebrated in Paris six days before the massacre. Gregorian 28 August 1572.",
+   "desc": "The match Cavriana had been reporting since 1570, celebrated in Paris six days before the massacre.",
    "firstAfter": "1572-08-31",
    "from": "",
    "id": "evt-mariage-navarre",
@@ -10302,7 +10336,7 @@
    "wikidata": ""
   },
   {
-   "desc": "The killing of Coligny and the Huguenot leadership in Paris, and afterwards in the provinces. Gregorian 3 September 1572.",
+   "desc": "The killing of Coligny and the Huguenot leadership in Paris, and afterwards in the provinces.",
    "firstAfter": "1572-08-31",
    "from": "",
    "id": "evt-saint-barthelemy",
@@ -10328,7 +10362,7 @@
    "wikidata": "Q163891"
   },
   {
-   "desc": "The royal army's assault on the Huguenot stronghold, lifted when Henri d'Anjou left to take the Polish crown. Gregorian 16 November 1572 to 16 July 1573.",
+   "desc": "The royal army's assault on the Huguenot stronghold, lifted when Henri d'Anjou left to take the Polish crown.",
    "firstAfter": "1572-11-20",
    "from": "1572-11-06",
    "id": "evt-siege-la-rochelle",
@@ -10383,7 +10417,7 @@
    "wikidata": "Q650082"
   },
   {
-   "desc": "The eight-month siege of the hilltop town, ended by famine. Gregorian 19 November 1572 to 29 August 1573.",
+   "desc": "The eight-month siege of the hilltop town, ended by famine.",
    "firstAfter": "1572-11-20",
    "from": "1572-11-09",
    "id": "evt-siege-sancerre",
@@ -10438,7 +10472,7 @@
    "wikidata": "Q3486023"
   },
   {
-   "desc": "The first free royal election of the Polish–Lithuanian Commonwealth. Gregorian 21 May 1573.",
+   "desc": "The first free royal election of the Polish–Lithuanian Commonwealth.",
    "firstAfter": "",
    "from": "",
    "id": "evt-election-pologne",

@@ -698,6 +698,26 @@
           <death when="1572-09-03" source="#wikidata" when-custom="1572-08-24" datingMethod="#julian">1572-08-24</death>
           <idno type="MAP">1461</idno>
         </person>
+        <person xml:id="pers-lanoue-f">
+          <persName>François de la Noue</persName>
+          <persName type="sort">La Noue, François de</persName>
+          <persName type="alias">La Nua</persName>
+          <persName type="alias">Bras de Fer</persName>
+          <sex value="male"/>
+          <occupation type="military">Huguenot captain</occupation>
+          <note>Huguenot captain, called Bras de Fer</note>
+          <note type="identification">"La Nua" in the decipherment of the letter of 18 December
+            1572, where he has gone to treat an accord with the Rochelois and been held prisoner
+            by them. Charles IX sent la Noue to negotiate with La Rochelle in the closing months
+            of 1572, and the city, distrusting a Huguenot who came on the king's business, would
+            not let him leave. The portrait on Commons carries the inscription "de la Nove dit
+            Bras de Fer", which is the by-name he was known by.</note>
+          <birth when="1531" source="#wikidata">1531</birth>
+          <death when="1591-08-04" source="#wikidata">1591-08-04</death>
+          <idno type="VIAF">89118991</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1451253</idno>
+          <idno type="WIKIMEDIA_IMAGE" source="#wikidata">La-Noue.jpg</idno>
+        </person>
         <person xml:id="pers-corso-a">
           <persName>Alfonso Corso</persName>
           <persName type="sort">Corso, Alfonso</persName>
