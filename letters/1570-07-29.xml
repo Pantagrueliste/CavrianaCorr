@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter discussing French political matters, 29 July 1570</title>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 29 July 1570</title>
         <author ref="#pers-cavriana-f">Filippo Cavriana</author>
         <editor>Clément Godbarge</editor>
         <respStmt>
@@ -30,7 +30,7 @@
           <msContents>
             <msItem>
               <locus from="217r" to="217v">217r-217v</locus>
-              <title>Letter discussing French political matters</title>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
               <author ref="#pers-cavriana-f">Chi ella sà</author>
               <textLang mainLang="it">Italian</textLang>
               <note type="summary">A report on French court politics discussing: peace negotiations with Catholic princes and the Admiral Coligny; Cardinal of Lorraine's opposition to peace and his illness in Paris; the upcoming marriage of the Duke of Guise to the Princess of Portiano; tensions between Montmorency and Nevers over the Piedmont situation; the sale of Saluzzo's domain for 30,000 gold ducats; Alfonso d'Este's diplomatic mission; and various court intrigues. The letter is likely to be written by Cavriana, who sometimes signs letters as "chi ella sà". It refers to its second false identity: Vincenzo da Castello.</note>
@@ -65,7 +65,8 @@
           <date when="1570-07-29">29 July 1570</date>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#">Unknown recipient</persName>
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <placeName ref="#place-firenze">Florence</placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

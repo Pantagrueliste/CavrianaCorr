@@ -12,6 +12,31 @@
        by escaping them and using disable-output-escaping. -->
   <xsl:output method="text" encoding="UTF-8"/>
   <xsl:strip-space elements="tei:*"/>
+  <!-- but not where the transcription lives. Stripping whitespace-only text
+       nodes throughout also swallowed the single space between two adjacent
+       inline elements, so "catholici Francesi" — two <rs> in a row — came out
+       welded together, in 51 of the 114 letters. The elements listed here hold
+       mixed content, where a space between children is the transcription's own
+       and must survive.
+
+       Only elements whose children run on in a line of prose are listed. A
+       container that holds its children on separate indented lines — opener,
+       closer, lg, the list and table elements — must keep being stripped, or
+       the source's own indentation is emitted as text. -->
+  <xsl:preserve-space elements="tei:p tei:ab tei:head tei:l tei:seg tei:hi
+      tei:foreign tei:quote tei:said tei:rs tei:persName tei:placeName tei:orgName
+      tei:name tei:title tei:num tei:date tei:add tei:del tei:supplied tei:unclear
+      tei:orig tei:reg tei:sic tei:corr tei:abbr tei:expan
+      tei:salute tei:signed tei:dateline"/>
+
+  <!-- Within those, a text node of nothing but whitespace stands for the one
+       space between two elements. Where the transcription is laid out over
+       several source lines it may be a newline and an indent, which is the
+       file's shape rather than the letter's, so it is emitted as a single
+       space and never as itself. -->
+  <xsl:template match="text()[normalize-space() = '']">
+    <xsl:text> </xsl:text>
+  </xsl:template>
 
   <!-- Escape a value destined for an HTML attribute. The output method is
        text, so nothing is escaped for us. -->
