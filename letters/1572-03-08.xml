@@ -53,8 +53,8 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Named entities are annotated according to the project authority files. This is a copy; the original hand is unknown. Cipher passages are transcribed as found, with editorial decipherments supplied.</p>
-      </editorialDecl>
+        <p>Named entities are annotated according to the project authority files. This is a copy; the original hand is unknown.</p>
+      <p>Passages in numeric cipher are encoded as <gi>seg</gi> with <att>type</att> "cipher" in the hand of the writer. The decipherment is the editor's, not the manuscript's, and is given as <gi>supplied</gi> with <att>reason</att> "deciphered".</p><p>Cipher groups that run over a line ending carry the <gi>lb</gi> inside the <gi>seg</gi>; the accompanying decipherment, likewise broken in the manuscript, is given whole in a single <gi>supplied</gi>.</p></editorialDecl>
       <projectDesc>
         <p>All places and persons are referenced from placeNames.xml and persNames.xml.</p>
       </projectDesc>

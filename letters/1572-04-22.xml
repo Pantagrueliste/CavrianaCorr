@@ -57,7 +57,7 @@
       </correspDesc>
     </profileDesc>
     <encodingDesc>
-      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded. Cipher passages tagged with editorial decipherments.</p></editorialDecl>
+      <editorialDecl><p>Transcribed without line breaks (no manuscript images available for this filza). Abbreviations silently expanded.</p><p>Passages in numeric cipher are encoded as <gi>seg</gi> with <att>type</att> "cipher" in the hand of the writer. The decipherment is the editor's, not the manuscript's, and is given as <gi>supplied</gi> with <att>reason</att> "deciphered".</p></editorialDecl>
       <projectDesc><p>All places and persons are referenced from placeNames.xml and persNames.xml</p></projectDesc>
     </encodingDesc>
   </teiHeader>

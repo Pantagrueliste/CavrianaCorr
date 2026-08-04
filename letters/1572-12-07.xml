@@ -64,7 +64,7 @@
       </correspDesc>
     </profileDesc>
     <encodingDesc>
-      <projectDesc>
+      <editorialDecl><p>Passages in numeric cipher are encoded as <gi>seg</gi> with <att>type</att> "cipher" in the hand of the writer; the interlinear decipherment written by the chancery hand follows each group as an <gi>add</gi> with <att>type</att> "decipher", pointed at its group by <att>corresp</att>.</p><p>6 of the 52 cipher groups here are left undeciphered.</p><p>Cipher groups that run over a line ending carry the <gi>lb</gi> inside the <gi>seg</gi>; the accompanying decipherment, likewise broken in the manuscript, is given whole in a single <gi>add</gi>.</p></editorialDecl><projectDesc>
         <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
       </projectDesc>
     </encodingDesc>
