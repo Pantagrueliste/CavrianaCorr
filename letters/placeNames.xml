@@ -986,6 +986,18 @@
           <idno type="GEONAMES" source="#wikidata">2750405</idno>
         </place>
         <!-- INCOMPLETE ENTITIES (needs research) -->
+        <place xml:id="place-vienne">
+          <placeName type="modern">Vienne</placeName>
+          <placeName type="country">France</placeName>
+          <location>
+            <geo source="#wikidata">45.5256 4.8747</geo>
+          </location>
+          <note>Vienne in Dauphiné, on the Rhône below Lyon. Cavriana writes from here at the
+            end of September 1571, between Florence in August and Paris in November, which is
+            the road home; not Vienna, which writing Italian he would have called Vienna.</note>
+          <idno type="WIKIDATA" source="#wikidata">Q26849</idno>
+          <idno type="GEONAMES" source="#wikidata">6454095</idno>
+        </place>
         <place xml:id="place-blois">
           <placeName type="modern">Blois</placeName>
           <placeName type="country">France</placeName>

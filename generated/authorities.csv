@@ -29,7 +29,7 @@ pers-castellan-h,person,Honoré Castellan,"Castellan, Honoré",,,,,,,,,,,1,1
 pers-cavriana-f,person,Filippo Cavriana,"Cavriana, Filippo",,,,,,,,,,,58,55
 pers-charite-h,person,Hugues de La Charité,"La Charité, Hugues de",,,,,,,,,,,0,0
 pers-cleves-h,person,Henriette de Clèves,"Clèves, Henriette de",1542-10-31,1601-06-24,4552150203822803250006,Q289646,4802,,,,,,4,3
-pers-coligny-g,person,Gaspard de Coligny,"Coligny, Gaspard de",1519-02-16,1572-08-24,79105346,Q204975,1461,,,,,,26,13
+pers-coligny-g,person,Gaspard de Coligny,"Coligny, Gaspard de",1519-02-16,1572-08-24,79105346,Q204975,1461,,,,,,27,14
 pers-concini-b,person,Bartolomeo Concino di Conti della Penna,"Concino di Conti della Penna, Bartolomeo",1507-01-01,1578-01-01,1975149844995502960005,Q3635357,,,,,,,7,5
 pers-corso-a,person,Alfonso Corso,"Corso, Alfonso",1548,1610,8649946,Q2651115,33276,,,,,,2,2
 pers-cosse-renee,person,Renée de Cossé-Brissac,"Cossé-Brissac, Renée de",c. 1550,1622,,,,,,,,,1,1
@@ -75,7 +75,7 @@ pers-lorraine-h2,person,Henri II de Lorraine,"Lorraine, Henri II de",1563-11-08,
 pers-maldonado-j,person,Juan Maldonado,"Maldonado, Juan",1533,1583-01-05,44310930,Q352804,20786,,,,,,3,1
 pers-mauvissiere,person,Michel de Castelnau,"Castelnau, Michel de",1520,1592,7396729,Q599082,,,,,,,2,1
 pers-medici-cat,person,Caterina de' Medici,"Medici, Caterina de'",1519,1589,4936327,Q131552,348,,,,,,58,20
-pers-medici-cos-1,person,Cosimo I de' Medici,"Medici, Cosimo I de'",1519,1574,59259382,Q48547,203,,,,,,32,13
+pers-medici-cos-1,person,Cosimo I de' Medici,"Medici, Cosimo I de'",1519,1574,59259382,Q48547,203,,,,,,36,14
 pers-medici-fer,person,Ferdinando de' Medici,"Medici, Ferdinando de'",1549-07-30,1609-02-17,100212180,Q297483,325,,,,,,4,2
 pers-medici-giovanna,person,Giovanna d'Austria,"Habsburg, Giovanna d'Austria",1547-01-24,1578-04-11,43563321,Q84459,,,,,,,0,0
 pers-michiel-g,person,Giovanni Michiel,"Michiel, Giovanni",1516,1596,,Q110269977,23349,,,,,,1,1
@@ -108,7 +108,7 @@ pers-savoie-h-ten,person,Honorat de Savoie,"Savoie, Honorat de (Count of Tende)"
 pers-savoie-j-nem,person,Jacques de Savoie,"Savoie, Jacques de",1531,1585,29843872,Q2579854,17254,,,,,,12,5
 pers-savoy-em-fil,person,Emanuele Filiberto di Savoia,"Savoia, Emanuele Filiberto di",1528,1580,,Q76508,1245,,,,,,8,6
 pers-sorbin-a,person,Arnauld Sorbin,"Sorbin, Arnauld",1532-07-14,1606-05-01,2526805,Q2863220,,,,,,,1,1
-pers-striggio-a,person,Alessandro Striggio,"Striggio, Alessandro",1537,1592-02-29,100216614,Q1377115,892,,,,,,2,2
+pers-striggio-a,person,Alessandro Striggio,"Striggio, Alessandro",1537,1592-02-29,100216614,Q1377115,892,,,,,,3,3
 pers-strozzi-f,person,Filippo Strozzi,"Strozzi, Filippo",1541,1582,,Q1414020,19123,,,,,,1,1
 pers-tavannes-g,person,Gaspard de Saulx-Tavannes,"Saulx-Tavannes, Gaspard de",1509,1573-06-19,2578946,Q563042,,,,,,,2,2
 pers-taxis-c,person,Taxi family member,Taxi family member,,,,,1794,,,,,,2,1
@@ -144,7 +144,7 @@ place-chatillon-sur-seine,place,Châtillon-sur-Seine,Châtillon-sur-Seine,,,,Q24
 place-cognac,place,Cognac,Cognac,,,,Q285,,,7008568,3024440,45.6950,-0.3272,1,1
 place-colonia,place,Köln,Köln,,,,Q365,,,7004446,3247451,50.9375,6.9603,1,1
 place-corsica,place,Corse,Corse,,,,Q14112,,,7651069,,42.0396,9.0129,1,1
-place-de,place,Germany,Germany,,,,Q183,,,7000084,2921044,51.0000,10.0000,15,11
+place-de,place,Germany,Germany,,,,Q183,,,7000084,2921044,51.0000,10.0000,16,11
 place-ecouen,place,Écouen,Écouen,,,,Q273695,,,7008036,3020440,49.0189,2.3778,2,2
 place-england,place,England,England,,,,Q21,,,7002445,2649994,53.0000,-1.0000,14,7
 place-es,place,Spain,Spain,,,,Q29,,,1000095,2510769,40.2000,-3.5000,37,11
@@ -153,7 +153,7 @@ place-ferrara,place,Ferrara,Ferrara,,,,Q13362,,,7004264,6542120,44.8392,11.6175,
 place-fiandra,place,Flanders,Flanders,,,,Q234,,,7024097,3337388,51.0000,4.5000,12,6
 place-firenze,place,Florence,Florence,,,,Q2044,,,7000457,6542285,43.7696,11.2558,10,7
 place-flesinga,place,Vlissingen,Vlissingen,,,,Q10084,,,7006750,2745391,51.4428,3.5731,1,1
-place-fr,place,France,France,,,,Q142,,,1000070,3017382,47.0000,2.0000,50,19
+place-fr,place,France,France,,,,Q142,,,1000070,3017382,47.0000,2.0000,51,20
 place-gascogne,place,Gascogne,Gascogne,,,,Q191085,,,,,44.0000,-0.5000,3,2
 place-gatinais,place,Gâtinais,Gâtinais,,,,Q1303414,,,7644947,,48.1269,2.7544,1,1
 place-genova,place,Genoa,Genoa,,,,Q1449,,,7008546,6542282,44.4072,8.9340,1,1
@@ -195,8 +195,8 @@ place-padova,place,Padua,Padua,,,,Q617,,,7003085,6542281,45.4064,11.8768,1,1
 place-paris,place,Paris,Paris,,,,Q90,,,7008038,2988507,48.8566,2.3522,60,35
 place-parma,place,Parma,Parma,,,,Q2683,,,7004942,6540120,44.8015,10.3279,1,1
 place-picardie,place,Picardy,Picardy,,,,Q13950,,,7024273,2987375,49.5000,2.8333,4,3
-place-piemonte,place,Piedmont,Piedmont,,,,Q1216,,,7003120,3170831,45.0522,7.5155,16,10
-place-pinerolo,place,Pinerolo,Pinerolo,,,,Q9573,,,7005728,6540662,44.8833,7.3333,3,3
+place-piemonte,place,Piedmont,Piedmont,,,,Q1216,,,7003120,3170831,45.0522,7.5155,17,11
+place-pinerolo,place,Pinerolo,Pinerolo,,,,Q9573,,,7005728,6540662,44.8833,7.3333,4,4
 place-pisa,place,Pisa,Pisa,,,,Q13375,,,7006082,6542122,43.7228,10.4017,10,8
 place-poitou,place,Poitou,Poitou,,,,Q954076,,,7002891,2986493,46.6486,-0.2478,1,1
 place-polonia,place,Poland,Poland,,,,Q36,,,7006366,798544,52.0000,19.0000,2,2
@@ -209,7 +209,7 @@ place-rochelle,place,La Rochelle,La Rochelle,,,,Q82185,,,7009264,3006787,46.1603
 place-roma,place,Rome,Rome,,,,Q220,,,7000874,3169070,41.9028,12.4964,9,6
 place-rouen,place,Rouen,Rouen,,,,Q30974,,,7008929,2982652,49.4432,1.0993,1,1
 place-saint-germain-des-pres,place,Saint-Germain-des-Prés,Saint-Germain-des-Prés,,,,Q604717,,,7607890,,48.8539,2.3345,2,2
-place-saint-germain-en-laye,place,Saint-Germain-en-Laye,Saint-Germain-en-Laye,,,,Q60847808,,,8723310,2979783,48.8986,2.0936,8,6
+place-saint-germain-en-laye,place,Saint-Germain-en-Laye,Saint-Germain-en-Laye,,,,Q60847808,,,8723310,2979783,48.8986,2.0936,9,6
 place-saint-jean-dangely,place,Saint-Jean-d'Angély,Saint-Jean-d'Angély,,,,Q348807,,,7009634,6428080,45.9438,-0.5197,1,1
 place-saluzzo,place,Saluzzo,Saluzzo,,,,Q20454,,,7005648,6539909,44.6421,7.4950,2,2
 place-sancerre,place,Sancerre,Sancerre,,,,Q459683,,,1035612,2976251,47.3289,2.8404,9,8
@@ -219,9 +219,10 @@ place-saxony,place,Saxony,Saxony,,,,Q156199,,,7003685,,51.0493,13.7384,3,2
 place-sedana,place,Sedan,Sedan,,,,Q184371,,,7009674,6426109,49.7019,4.9400,1,1
 place-soissons,place,Soissons,Soissons,,,,Q167152,,,7010563,2974389,49.3850,3.3272,3,3
 place-svizzera,place,Switzerland,Switzerland,,,,Q39,,,7011731,2658434,46.7986,8.2320,0,0
-place-toscana,place,Tuscany,Tuscany,,,,Q1273,,,7009760,3165361,43.4500,11.2000,13,8
+place-toscana,place,Tuscany,Tuscany,,,,Q1273,,,7009760,3165361,43.4500,11.2000,14,9
 place-trento,place,Trent,Trent,,,,Q3376,,,7005128,6541469,46.0748,11.1217,1,1
 place-urbino,place,Urbino,Urbino,,,,Q2759,,,7003994,6541472,43.726,12.637,1,1
 place-venezia,place,Venice,Venice,,,,Q641,,,7018159,6542284,45.4397,12.3319,4,4
 place-vienna,place,Vienna,Vienna,,,,Q1741,,,7003321,2761369,48.2082,16.3738,2,1
+place-vienne,place,Vienne,Vienne,,,,Q26849,,,,6454095,45.5256,4.8747,0,0
 place-vitry,place,Vitry-le-François,Vitry-le-François,,,,Q623374,,,7009747,2967856,48.9996,4.3939,1,1

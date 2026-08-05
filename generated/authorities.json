@@ -1656,6 +1656,11 @@
      "slug": "1570-05-20"
     },
     {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
      "date": "1570-08-08",
      "n": 1,
      "slug": "1570-08-08-c"
@@ -1726,7 +1731,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Coligny, Gaspard de",
-   "total": 26,
+   "total": 27,
    "viaf": "79105346",
    "wikidata": "Q204975"
   },
@@ -3941,6 +3946,11 @@
      "slug": "1570-05-20"
     },
     {
+     "date": "1570-07-15",
+     "n": 4,
+     "slug": "1570-07-15"
+    },
+    {
      "date": "1570-09-11",
      "n": 1,
      "slug": "1570-09-11"
@@ -4042,7 +4052,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Cosimo I de'",
-   "total": 32,
+   "total": 36,
    "viaf": "59259382",
    "wikidata": "Q48547"
   },
@@ -5654,6 +5664,11 @@
    "kind": "person",
    "letters": [
     {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
      "date": "1570-07-29",
      "n": 1,
      "slug": "1570-07-29-b"
@@ -5690,7 +5705,7 @@
    "roleTo": "1574",
    "roleType": "stateCourtPersonnel",
    "sortName": "Striggio, Alessandro",
-   "total": 2,
+   "total": 3,
    "viaf": "100216614",
    "wikidata": "Q1377115"
   },
@@ -7089,7 +7104,7 @@
     },
     {
      "date": "1570-07-15",
-     "n": 1,
+     "n": 2,
      "slug": "1570-07-15"
     },
     {
@@ -7144,7 +7159,7 @@
    "scope": "country",
    "sortName": "Germany",
    "tgn": "7000084",
-   "total": 15,
+   "total": 16,
    "wikidata": "Q183"
   },
   "place-ecouen": {
@@ -7643,6 +7658,11 @@
      "slug": "1569-12-21"
     },
     {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
      "date": "1570-07-29",
      "n": 3,
      "slug": "1570-07-29"
@@ -7739,7 +7759,7 @@
    "scope": "country",
    "sortName": "France",
    "tgn": "1000070",
-   "total": 50,
+   "total": 51,
    "wikidata": "Q142"
   },
   "place-gascogne": {
@@ -9123,6 +9143,11 @@
      "slug": "1570-05-20"
     },
     {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
      "date": "1570-07-29",
      "n": 3,
      "slug": "1570-07-29"
@@ -9174,7 +9199,7 @@
    "scope": "",
    "sortName": "Piedmont",
    "tgn": "7003120",
-   "total": 16,
+   "total": 17,
    "wikidata": "Q1216"
   },
   "place-pinerolo": {
@@ -9190,6 +9215,11 @@
      "date": "1570-05-20",
      "n": 1,
      "slug": "1570-05-20"
+    },
+    {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
     },
     {
      "date": "1570-07-29",
@@ -9208,7 +9238,7 @@
    "scope": "",
    "sortName": "Pinerolo",
    "tgn": "7005728",
-   "total": 3,
+   "total": 4,
    "wikidata": "Q9573"
   },
   "place-pisa": {
@@ -9641,7 +9671,7 @@
    "letters": [
     {
      "date": "1570-07-15",
-     "n": 1,
+     "n": 2,
      "slug": "1570-07-15"
     },
     {
@@ -9676,7 +9706,7 @@
    "scope": "",
    "sortName": "Saint-Germain-en-Laye",
    "tgn": "8723310",
-   "total": 8,
+   "total": 9,
    "wikidata": "Q60847808"
   },
   "place-saint-jean-dangely": {
@@ -10007,6 +10037,11 @@
    "lat": "43.4500",
    "letters": [
     {
+     "date": "1570-07-15",
+     "n": 1,
+     "slug": "1570-07-15"
+    },
+    {
      "date": "1570-08-08",
      "n": 1,
      "slug": "1570-08-08-c"
@@ -10053,7 +10088,7 @@
    "scope": "",
    "sortName": "Tuscany",
    "tgn": "7009760",
-   "total": 13,
+   "total": 14,
    "wikidata": "Q1273"
   },
   "place-trento": {
@@ -10162,6 +10197,22 @@
    "tgn": "7003321",
    "total": 2,
    "wikidata": "Q1741"
+  },
+  "place-vienne": {
+   "country": "France",
+   "geonames": "6454095",
+   "historical": [],
+   "kind": "place",
+   "lat": "45.5256",
+   "letters": [],
+   "lon": "4.8747",
+   "name": "Vienne",
+   "note": "Vienne in Dauphiné, on the Rhône below Lyon. Cavriana writes from here at the end of September 1571, between Florence in August and Paris in November, which is the road home; not Vienna, which writing Italian he would have called Vienna.",
+   "scope": "",
+   "sortName": "Vienne",
+   "tgn": "",
+   "total": 0,
+   "wikidata": "Q26849"
   },
   "place-vitry": {
    "country": "France",
@@ -10635,7 +10686,7 @@
   },
   {
    "date": "1570-07-15",
-   "label": "San Germano",
+   "label": "Saint-Germain-en-Laye",
    "place": "place-saint-germain-en-laye",
    "slug": "1570-07-15"
   },
@@ -10942,7 +10993,7 @@
   {
    "date": "1571-09-28",
    "label": "Vienne",
-   "place": "",
+   "place": "place-vienne",
    "slug": "1571-09-28"
   },
   {
@@ -11204,6 +11255,6 @@
   "firstYear": 1566,
   "lastYear": 1574,
   "transcribed": 62,
-  "words": 46095
+  "words": 46383
  }
 }
