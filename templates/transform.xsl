@@ -262,7 +262,7 @@
        break="no" means the word is split across lines, so add a hyphen. -->
   <!-- A line break inside an inline wrapper must not start a new output line:
        MDX would read the <br/> as an HTML block and leave the wrapper open. -->
-  <xsl:template match="tei:lb[ancestor::tei:persName | ancestor::tei:placeName]" priority="2">
+  <xsl:template match="tei:lb[ancestor::tei:persName | ancestor::tei:placeName | ancestor::tei:orgName]" priority="2">
     <xsl:if test="@break = 'no'">
       <xsl:text>-</xsl:text>
     </xsl:if>
