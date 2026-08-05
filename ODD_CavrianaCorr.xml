@@ -492,7 +492,7 @@
             include="p name date note choice abbr expan unclear gap add del
                      lb pb sic corr foreign desc hi list item ref head
                      respStmt resp author editor title publisher pubPlace
-                     textLang quote cit bibl label q rs term"/>
+                     textLang quote cit bibl label q rs term num"/>
 
           <!-- Header module -->
           <moduleRef key="header"
