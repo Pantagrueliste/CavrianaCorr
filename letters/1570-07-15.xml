@@ -1,96 +1,106 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-   <fileDesc>
-     <titleStmt>
-       <title>Letter from Filippo Cavriana to Bartolomeo Concino, 15 July 1570</title>
-       <author ref="#pers-cavriana-f">Filippo Cavriana</author>
-       <editor>Clément Godbarge</editor>
-       <respStmt>
-         <resp>Transcription and encoding</resp>
-         <name>Clément Godbarge</name>
-       </respStmt>
-     </titleStmt>
-     <publicationStmt>
-       <publisher>Clément Godbarge</publisher>
-       <pubPlace>St Andrews, Scotland, UK</pubPlace>
-       <date>2024</date>
-       <availability>
-         <licence target="http://creativecommons.org/licenses/by/4.0/">This work is licensed under a Creative Commons Attribution 4.0 International License.</licence>
-       </availability>
-     </publicationStmt>
-     <sourceDesc>
-       <msDesc>
-         <msIdentifier>
-           <placeName>Florence</placeName>
-           <repository>Archivio di Stato di Firenze</repository>
-           <collection>Mediceo del Principato</collection>
-           <idno>551</idno>
-         </msIdentifier>
-         <msContents>
-           <msItem>
-             <locus from="219r" to="220v">fols. 219r-220v</locus>
-             <title>Letter from Filippo Cavriana to Ambassador Petrucci</title>
-             <author ref="#pers-cavriana-f">Filippo Cavriana</author>
-             <textLang mainLang="it">Italian</textLang>
-             <note type="summary">Letter discussing Cavriana's application to the Order of Santo Stefano and offering his services to the Grand Duke</note>
-           </msItem>
-         </msContents>
-         <physDesc>
-           <objectDesc form="letter">
-             <layoutDesc>
-               <p>Single column, written on both sides of the folios</p>
-             </layoutDesc>
-           </objectDesc>
-           <handDesc hands="1">
-             <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
-           </handDesc>
-         </physDesc>
-       </msDesc>
-     </sourceDesc>
-   </fileDesc>
-   <encodingDesc>
-     <editorialDecl>
-       <p>Named entities are annotated only in the main hand. Marginalia and secondary hands are not annotated to preserve focus on primary content.</p>
-     </editorialDecl>
-     <projectDesc>
-       <p>All places and persons are now referenced from placeNames.xml and persNames.xml.</p>
-     </projectDesc>
-   </encodingDesc>
-   <profileDesc>
-     <correspDesc>
-       <correspAction type="sent">
-         <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-         <placeName ref="#place-saint-germain-en-laye">San Germano</placeName>
-         <date when="1570-07-15">15 July 1570</date>
-       </correspAction>
-       <correspAction type="received">
-         <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
-       </correspAction>
-     </correspDesc>
-   </profileDesc>
- </teiHeader>
- <text>
-   <body>
-     <div type="letter">
-       <pb n="219r"/>
-       <opener>
-         <salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> signore</salute>
-       </opener>
-       <p>scrissi gia molte settimane, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, due lettere mie, l'una, senza <lb/>nome, per la qualità del negotio, et di quel tempo, che quello <lb/>richie deva l'altra, col nome mio affine che ella conosessi <lb/>apieno che mi fusse, et qual causa mi persuadea, à quella <lb/>impresa, della quale il <choice><abbr>s.or</abbr><expan>signor</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName> era stato (si puo dire), <lb/>consultore. Hora trovandomi, con esso lui, et havendomi, mo<lb break="no"/>strato una <choice><abbr>lr̍a</abbr><expan>lettera</expan></choice> di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> per la quale mi saluta cerissimamente, do<lb break="no"/>pò l'havermi commendato, della mia affettuosa, et fedel dilige<lb break="no"/>za, desidera sapere, in che dissegnavo, il che ábocca mi è sta<lb break="no"/>to confermato altresì, da <persName ref="#pers-alberto"><choice><abbr>ꝳ</abbr><expan>messer</expan></choice> Alberto</persName> segretario, per potermi fa<lb break="no"/>vorire, dove bisognerà, <choice><abbr>no̍</abbr><expan>non</expan></choice> hò voluto sperare questa occasione, <lb/>ne questa amorevol volontà sua, assicurandomi, che ella sia per <lb/>operare con <choice><abbr>S. Al.</abbr><expan>Sua Altezza</expan></choice> che da quel <choice><abbr>sereniss.o</abbr><expan>serenissimo</expan></choice> signore, sia conosciuto <lb/>per divotissimo suo servidore, come sono: Deve saper per ta<lb break="no"/>to, <lb/><choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, che havendo io mandato mie prova<lb break="no"/>ze a <placeName ref="#place-pisa">Pisa</placeName>, per essere admesso <lb/>nell'ordine di cavaglieri di san stefano, fatte seco<lb break="no"/>do i capitoli, <lb/>che mi mandó <persName ref="#pers-dani-j"><choice><abbr>ꝳ</abbr><expan>messer</expan></choice> Jacopo Dani</persName>, mio amico, et cosi autentiche / <lb/>che di piu, io non saprei ; sin hora, <choice><abbr>no̍</abbr><expan>non</expan></choice> è mai stato posto fine, à <lb/>questo negotio, anchor che, à doi mie paesani, sia stato dato <lb/>l'ordine et l'habito, prima, che habbino fatte le provante loro; <lb/>ne posso imaginarmi, qual causa ritardi la mia speditione, have<lb break="no"/>domi scritto lo stuggio, che del <choice><abbr>S.or</abbr><expan>Signor</expan></choice> <persName ref="#pers-vaini-e">enea Vainj</persName> era avertito, che <lb/>le mie prove erano state viste, ma che bisognava aspettare <lb/>quello che, à <choice><abbr>S. Al.</abbr><expan>Sua Altezza</expan></choice> come a gran Maestro piaceva di <choice><abbr>com̍andare</abbr><expan>commandare</expan></choice> <lb/>in questo fatto, io <choice><abbr>no̍</abbr><expan>non</expan></choice> stimo, che le prove patischino oppositione</p>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 15 July 1570</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>551</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="219r" to="221r">fols. 219r–221r</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana writes to Bartolomeo Concino, first secretary of Cosimo I de' Medici, to unblock his admission to the Order of Santo Stefano and, in exchange, to offer himself formally as the Grand Duke's intelligence agent in France. He recalls two earlier letters, one unsigned because of the delicacy of the business and one signed, and explains that the ambassador Petrucci and the secretary Alberto have now asked him, on Concino's behalf, what exactly he wants. His proofs of nobility, sent to Pisa according to the rules supplied by Jacopo Dani, have been debated by the deputies for four months with no decision, while two of his countrymen have already received the habit without completing theirs; Alessandro Striggio reports that Enea Vaini found the proofs sound but that the Grand Master's own instructions are awaited. Cavriana insists that he wants to enter "by the door and not by the window": although he could produce letters from princes the Grand Duke would not wish to refuse, he asks the favour from Concino alone. He then states his real claim. He already serves without payment, keeping a paid servant in Germany and paid contacts among secretaries at the French court, at a cost that neither his salary nor his medical practice can meet, and he could go on serving without ever showing himself, to the benefit of newly arrived Tuscan ambassadors and secretaries. He is a physician "by force"; his true bent is for letters, affairs of state and religion. In two words: he wishes to live and die a servant of the Grand Duke, and asks the Grand Duke's favour as his recompense. If he is refused he will "set sail elsewhere", having already been pressed to serve others. He mentions the Latin history of the recent French war that he has written, with the designs of the princes and the manoeuvres of the captains, which Vincenzo Alamanni has partly seen but which he dares not circulate while those it describes are still alive. The letter is dated from Saint-Germain, 15 July 1570. The postscript on fol. 221r turns to news: nothing new from Tuscany, and the friends he wrote of are not stirring; the coming peace will expose designs that were quietly being put in place; the Corsicans are being solicited by "the common enemy" to let its agents in, but are holding firm — whence his joke, on Paul's authority, that all islanders are bad. In Piedmont the Pinerolo negotiation is under way, and given the state of pay, supplies and treachery there is reason to fear a surprise against those who idly enjoy the peace. The peace deputies sent by Admiral Coligny have reached Saint-Germain and a settlement cannot be long delayed. The German diet will probably not be held, since the princes summoned have refused to come and have settled matters among themselves. Once peace is made here, the troops are expected to be sent abroad, to purge France of its flood of brigands and idle men and keep it clean. He has had no word whether the earlier news pleased the Grand Duke, and asks Concino to tell him — and, above all, to burn his letters, since the world is full of malicious people and a man cannot guard against every accident.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Semi-diplomatic transcription. Abbreviations are given as abbr and expanded as expan within choice. Original line division is recorded with lb; lb with break="no" marks a word divided across two lines. Letters lost in the gutter of the binding are restored within supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-saint-germain-en-laye">Saint-Germain-en-Laye</placeName>
+          <date when="1570-07-15">15 July 1570</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-08-05">Text of fols. 219r–221r encoded; abbreviations expanded; persons and places linked to persNames.xml and placeNames.xml.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="219r"/>
+        <opener>
+          <salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> signore</salute>
+        </opener>
+        <p>scrissi già molte settimane, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, due lettere mie. L'una, senza<lb/> nome, per la qualità del negotio, et di quel tempo, che quello<lb/> richiedeva; l'altra, col nome mio. affine che ella conoscessi<lb/> a pieno chi mi fussi, et qual causa mi persuadea, à quella<lb/> impresa, della quale il <choice><abbr>S.or</abbr><expan>Signore</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName> era stato (si può dire)<lb/> consultore), Hora trovandomi, con esso lui, et havendomi mostra<lb break="no"/>to una <choice><abbr>l'ra</abbr><expan>lettera</expan></choice>, di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, per la quale mi saluta carissimamente), do<lb break="no"/>pò l'havermi commendato, della mia affettuosa, et fedel diligen<lb break="no"/>za, desidera sapere, in che disegnavo, il che à bocca mi è sta<lb break="no"/>to confermato altresì, da <choice><abbr>m.</abbr><expan>messer</expan></choice> <persName ref="#pers-alberto">Alberto</persName> segretario, per potermi fa<lb break="no"/>vorire, dove bisognerà; non ho voluto sprezzare questa occasione,<lb/> nè questa amorevol volontà sua: assicurandomi, che ella sia per<lb/> operare con <choice><abbr>S. Al.</abbr><expan>Sua Altezza</expan></choice> che da quel <choice><abbr>Serenis.o</abbr><expan>Serenissimo</expan></choice> <persName ref="#pers-medici-cos-1">Signore</persName>, sia conosciuto<lb/> per divotissimo suo servidore, come sono: Deve saper per tanto,<lb/> <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, che havendo io mandato, mie provanze a <placeName ref="#place-pisa">Pisa</placeName>, per essere admesso<lb/> nell'ordine di cavaglieri, di <orgName>san Stefano</orgName>, fatte secondo i capitoli,<lb/> che mi mandò <choice><abbr>m.</abbr><expan>messer</expan></choice> <persName ref="#pers-dani-j">Jacopo Dani</persName>, mio amico, et così autentiche,<lb/> che di più io non saprei; sin hora, <choice><abbr>nō</abbr><expan>non</expan></choice> è mai stato posto fine, à<lb/> questo negotio, anchor che, à doi miei paesani, sia stato dato<lb/> l'ordine, et l'habito, prima, che habbino fatte le provanze loro;<lb/> ne posso imaginarmi, qual causa ritardi la mia speditione, haven<lb break="no"/>domi scritto lo <persName ref="#pers-striggio-a">Striggio</persName>, che dal <choice><abbr>S.or</abbr><expan>Signore</expan></choice> <persName ref="#pers-vaini-e">Enea Vainj</persName>, era avertito, che<lb/> le mie prove erano state viste, ma che bisognava aspettar<lb/> quello che, à <choice><abbr>S.A.S.</abbr><expan>Sua Altezza Serenissima</expan></choice> come a gran Maestro, piacerà di comandar<lb/> in questo fatto. io <choice><abbr>nō</abbr><expan>non</expan></choice> stimo, che le prove patischino oppositione</p>
 
-       <pb n="219v"/>
-       <p>alcuna ragionevole ; et si pure alcuna, ve ne fusse, io <choice><abbr>no̍</abbr><expan>non</expan></choice> havrei <lb/>sollecitato tanto la speditione come ho fatto, senza il favore di <lb/>lettere di Prencipi, di gran portata, a quali il gran Duca <lb/>desidera di compiaciere, ma perche desidero, entrar per la porta <lb/>et <choice><abbr>no̍</abbr><expan>non</expan></choice> per la finestra, mi son contentato caminare, per la <unclear>stra</unclear> <lb/>da Regia, la quale da se, conduce gli huomini à cosi giusto, <lb/>et honesto fine, quali è questo, di rendersi in cosi santa et <lb/>virtuosa religione. Vero è, che io so, che in ogni cosa, ci biso<lb break="no"/>gna, una certa maniera di favore, La quale io <choice><abbr>no̍</abbr><expan>non</expan></choice> ho <unclear>pensato</unclear> <lb/>che d'altronde mi venga, che dalle bocca, et volontà di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <lb/>come persona virtuosissima, et giudiciosissima, et però quella <lb/>parte, che a lei piacerà di concedermi, supplico, che si <unclear>scel</unclear><lb break="no"/>to da quella pronta mia volonta, la quale causa, che nelli <unclear>di</unclear><lb break="no"/>vigi del suo, et mio <choice><abbr>S.re</abbr><expan>Signore</expan></choice> io se vigilantissimo, come potrà <lb/>sempre mai testimoniare il <choice><abbr>S.r</abbr><expan>Signor</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName>, che delli piu impor<lb break="no"/>tanti affari di questo signo, è, da me stato avvertito fedel<lb break="no"/>mente, senza sperare cosa alcuna, che la gratia del gran Duca, <lb/>se questo, et quello, che ho scritto, a <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> mi ha<lb break="no"/>no à servire in <lb/>sollecitar l'habito, et pregare sua <choice><abbr>Alt̍</abbr><expan>Altezza</expan></choice> che non me lo nieghi, <lb/>anzi ne dia carica al <choice><abbr>S.r</abbr><expan>Signor</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName>, che me ne honori, lo rimet<lb break="no"/>to a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>, stando massime, la conditione delle prove, ventilate <lb/>ben quattro mesi, delli deputati. spero, che il convento non <lb/>ricevera da me carica, ne vergogna alcuna, et se di quà <choice><abbr>S. Al</abbr><expan>Sua Altezza</expan></choice> <lb/>havesse bisogno dell'opera mia, havendo io molto piu commodità <lb/>che altri <choice><abbr>no̍</abbr><expan>non</expan></choice> pensa, se per la lingua, come per la cognosanza,</p>
+        <pb n="219v"/>
+        <p>alcuna ragionevole; et se pure alcuna ve ne fusse, io <choice><abbr>nō</abbr><expan>non</expan></choice> haurei<lb/> sollicitato tanto la speditione come ho fatto, senza il favor d<supplied reason="illegible">i</supplied><lb/> lettere di Prencipi, di gran portata, a quali il <persName ref="#pers-medici-cos-1">gran Duca</persName><lb/> desidera di compiacere; ma perchè desidero, entrar per la port<supplied reason="illegible">a</supplied><lb/> et <choice><abbr>nō</abbr><expan>non</expan></choice> per la finestra, mi son contentato caminare, per la stra<lb break="no"/>da Regia, la quale da sè, conduce gli huomini a così justo,<lb/> et honesto fine, quale è questo, di rendersi in così santa, e<supplied reason="illegible">t</supplied><lb/> virtuosa religione. Vero è, che io so, che in ogni cosa, ci bis<supplied reason="illegible">o</supplied><lb break="no"/>gna, una certa maniera di favore, la quale io <choice><abbr>nō</abbr><expan>non</expan></choice> ho preteso<lb/> che d'altrondi mi venga, che dalla bocca, et volontà di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice><lb/> come persona virtuosissima, et giudiciosissima, et però quella<lb/> parte, che a lei piacerà di concedermi, Supplico che sia <unclear>scel</unclear><lb break="no"/>to da quella pronta mia volontà, la quale causa, che nelli ser<lb break="no"/>vigi del suo et mio <choice><abbr>S.re</abbr><expan>Signore</expan></choice> io sia vigilantissimo, come potrà<lb/> sempre mai testimoniare il <choice><abbr>S.or</abbr><expan>Signore</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName>, che delli più impor<lb break="no"/>tanti affari di questo Regno, è, da me stato avertito fedel<lb break="no"/>mente, senza sperare cosa alcuna, che la gratia del <persName ref="#pers-medici-cos-1">gran Duca</persName><lb/> Se questo, et quello, che ho scritto, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> mi hanno à servire in<lb/> sollicitar l'habito, et pregare <choice><abbr>sua Alt.</abbr><expan>sua Altezza</expan></choice> che non me lo nieghi<lb/> anzi ne dia carica al <choice><abbr>S.or</abbr><expan>Signore</expan></choice> <persName ref="#pers-petrucci">Petruzzi</persName>, che me ne honori, lo rimet<lb break="no"/>to à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice>, stando massime, la conditione delli prove, ventilat<supplied reason="illegible">e</supplied><lb/> ben quattro mesi, dalli deputati. Spero, che il convento non<lb/> riceverà da me carica, nè vergogna alcuna, et se di quà <choice><abbr>S. A.</abbr><expan>Sua Altezza</expan></choice><lb/> sapesse bisogno dell'opera mia, havendo io molto più commodità<lb/> che altri <choice><abbr>nō</abbr><expan>non</expan></choice> pensa, sì per la lingua, come per la cognosanza,</p>
 
-       <pb n="220r"/>
-       <p>delle persone, et del paese, credere poterlo servire, se <choice><abbr>no̍</abbr><expan>non</expan></choice> bene <lb/>almeno fedelmente, stando massime in servitio del signore, a chi <lb/>sono; et potrei servirlo, senza per mostrarmi à persona, il che <lb/>gioveria molto, al suo <choice><abbr>Ambascia.re</abbr><expan>Ambasciatore</expan></choice>, et al suo segretario, i quali <lb/><choice><abbr>qn̍do</abbr><expan>quando</expan></choice> sieno mandati d'<placeName ref="#place-it">Italia</placeName> in qua, per essere novi nel paese, <lb/>hanno sempre mai bisogno d'aiuto, Ho le mani, in molti luo<lb break="no"/>ghi di questo regno, ma il trattenere in <placeName ref="#place-de">Germania</placeName>, un certo <lb/>mio creato, il qual m'avvisa spesso, et il trattenermi con alcu<lb break="no"/>ni segretarij qui, i quali possono avertirmi delle cose che <lb/>passano, mi consuma vivo, et convienmi spendere, et span<lb break="no"/>dere, quanto portano le forze mie; ne basta il salario del <lb/>mio signore, ne il guadagno che la mia professione mi porta, <lb/>chi sempre resto in debito, <choice><abbr>no̍</abbr><expan>non</expan></choice> havendo io certa rendita <lb/>di luogo alcuno, la quale io possi impiegare in cotesto ser<lb break="no"/>vitio, come vorrei; et se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> mi dirà, che la medicina, a <lb/>questo, sono cose differenti tra loro; le rispondo ch'egli <lb/>è il vero; ma chi io son medico per forza, et che il Genio <lb/>mio è volto, alli studij delle buone <choice><abbr>lr̍e</abbr><expan>lettere</expan></choice>, alli negotij del <lb/>mondo, et alli cose piu tosto della religione, che d'altro. <lb/>Però, <choice><abbr>qn̍do</abbr><expan>quando</expan></choice> sia admesso nella compagnia di Cavallieri, se io <lb/>per l'haver peregrinato molto, et visto molte cose, po<lb break="no"/>trò servire alla religione, io <choice><abbr>no̍</abbr><expan>non</expan></choice> fuggirò fatica, essendo <lb/>averto gia molti anni, alle pene di corte. Ma <choice><abbr>no̍</abbr><expan>non</expan></choice> vorrei <lb/>lasciar il certo et sicuro, per l'incerto, et apparente; <lb/>ne offender alcuna persona del mondo, col mostrare di <lb/>desiderare, quello, che à, molti può pertenere. Tutta volta</p>
+        <pb n="220r"/>
+        <p>delle persone, et del paese, crederei poterlo servire, se <choice><abbr>nō</abbr><expan>non</expan></choice> bene,<lb/> almeno fedelmente, stando massime in servitio del Signore, a chi<lb/> sono; et potrei servirlo, senza pur mostrarmi à persona, il che<lb/> gioverìa molto, al suo <choice><abbr>Ambasciat.re</abbr><expan>Ambasciatore</expan></choice>, et al suo segretario, i quali<lb/> quando sieno mandati d'<placeName ref="#place-it">Italia</placeName> in qua, per essere novi nel paese,<lb/> hanno sempre mai bisogno d'aiuto. Ho le mani, in molti luo<lb break="no"/>ghi di questo Regno, ma il trattenere in <placeName ref="#place-de">Germania</placeName>, un certo<lb/> mio creato, il qual m'avisa spesso, et il trattenermi con alcu<lb break="no"/>ni <choice><abbr>segretarij</abbr><expan>segretarii</expan></choice> qui, i quali possono avertirmi delle cose, che<lb/> passano, mi consuma vivo, et convienmi spendere, et span<lb break="no"/>dire, quanto portan le forze mie); ne basta il salario del<lb/> mio Signore, ne il guadagno che la mia professione mi porta,<lb/> che sempre resto in debito, <choice><abbr>nō</abbr><expan>non</expan></choice> havendo io certa rendita<lb/> di luogo alcuno, la quale io possi impiegare in cotesto ser<lb break="no"/>vitio, come vorrei; et se <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> mi dirà, che la medicina, et<lb/> questo, sono cose differenti tra loro; le rispondo che egli<lb/> è il vero; ma che io son medico per forza, et che il Genio<lb/> mio è volto, alli <choice><abbr>studij</abbr><expan>studii</expan></choice> delle buone <choice><abbr>l're</abbr><expan>lettere</expan></choice>, alli <choice><abbr>negotij</abbr><expan>negotii</expan></choice> del<lb/> mondo, et alle cose più tosto della religione, che d'altro.<lb/> Però, quando sia admesso nella compagnia di cavaglieri, se io<lb/> per l'haver peregrinato molto, et visto molte cose, po<lb break="no"/>trò servire alla religione, io non fuggirò fatica, essendo<lb/> avezzo già molti anni, alle pene di corte. Ma <choice><abbr>nō</abbr><expan>non</expan></choice> vorrei<lb/> lasciar il certo et sicuro, per l'incerto, et apparente);<lb/> nè offender alcuna persona del mondo, col mostrare di<lb/> desiderare, quello che à molti può pertenere. Tutta volta</p>
 
-       <pb n="220v"/>
-       <p><choice><abbr>no̍</abbr><expan>non</expan></choice> mea, sed Domini volontas fiat, la quale, come intenda che <lb/>sia aliena dal mio desiderio, (cercando io con ogni <del rend="strikethrough">di</del> honorevol <lb/>mezzo di avanzarmi), penserò di far vela altrove, come gia <lb/>son importunato. et instato molto; ò restando qui, servire <lb/>altri, in simil materia, co̍ util riputatione: <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> desiderava <lb/>sapere in che dissegnavo, eccolo in due parole. Vorrei vivere, <lb/>et morire servitore del gran Duca, et le chiedo, per ricompensa <lb/>la gratia sua. Facile serà à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ottenermi l'uno, poiche l' <lb/>altro gia possiedo, anchor che altri me lo negasse. Se io potrò, <lb/>mai mostrarmi grato, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> di tanto favore, quanto mi pro<lb break="no"/>metto gia di lei, le lascierò di me, tal testimonianza, che <lb/>dirà veramente, che non serà stato mal <unclear>lodato</unclear>, et vedrà <lb/>questa guerra passata da me fatta latina, con i dissegni <lb/>che i grandi, et maneggi di capitani del che, <choice><abbr>ꝳ</abbr><expan>messer</expan></choice> <persName ref="#pers-alamanni-v">Vincenzo <lb/>Allamanni</persName>, che ne ha visto parte, ne potrà dar aviso à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <lb/>ma <choice><abbr>no̍</abbr><expan>non</expan></choice> oso mandarla intorno, per <choice><abbr>no̍</abbr><expan>non</expan></choice> offendere alcuni, che <lb/>vivono et per dirle il vero <choice><abbr>no̍</abbr><expan>non</expan></choice> essendo io in riposo d̵ <lb/>lo spirito, ne agiato come vorrei, convenendomi servire, et <lb/>medicare, et peregrinare, <choice><abbr>no̍</abbr><expan>non</expan></choice> ho potuto rivedere, li fati <lb/>che, mie vecchie. Ma un qualche di il sole rasserenirà <lb/>le mie tenere. et qui li baccio le mani, di vivo cuore <lb/>pregandole il fine, d'ogni suo desiderio. Di <placeName ref="#place-saint-germain-en-laye">san Germa<lb break="no"/>no</placeName>, il di <date when="1570-07-15">15. di Luglio, del LXX</date> <lb/>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <lb/>certissimo, et assero servidore</p>
-       <closer>
-         <signed><persName ref="#pers-cavriana-f">filippo Cavriana</persName></signed>
-       </closer>
-     </div>
-   </body>
- </text>
+        <pb n="220v"/>
+        <p><cit><quote xml:lang="la"><choice><abbr>nō</abbr><expan>non</expan></choice> mea, sed Domini voluntas fiat</quote><bibl n="Vulg. Luc. 22.42">Vulgate, <title type="work">Luke</title> 22:42</bibl></cit>. La quale, come intenda ch<supplied reason="illegible">e</supplied><lb/> sia aliena dal mio desiderio, (cercando io con ogni <del rend="strikethrough"><unclear>dis</unclear></del> honorevol<lb/> mezzo di avanzarmi), penserò di far vela altrove, come già<lb/> son importunato, et instato molto; o restando qui, servire<lb/> altri, in simil materia, <choice><abbr>cō</abbr><expan>con</expan></choice> util riputatione: <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> desiderava<lb/> sapere in che disegnavo; eccolo in due parole. Vorrei vivere,<lb/> et morire servitore del <persName ref="#pers-medici-cos-1">gran Duca</persName>, et le chiedo, per ricompensa<lb/> la gratia sua. Facile sarà à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ottenermi l'uno, poichè l'<lb break="no"/>altro, già posseggo, anchor che altri me lo negasse. Se io potrò<lb/> mai mostrarmi grato, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> di tanto favore, quanto mi pro<lb break="no"/>metto già di lei, le lascierò di me, tal testimoniale, che<lb/> dirà veramente, che non sarà stato mal locato, et vedrà<lb/> quella guerra passata, da me fatta latina, con i disegni<lb/> di i Prencipi, et maneggi di capitani, del che, <choice><abbr>m.</abbr><expan>messer</expan></choice> <persName ref="#pers-alamanni-v">Vincenzo<lb/> Alamanni</persName>, che ne ha visto parte, ne potrà dar aviso, à <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice><lb/> ma <choice><abbr>nō</abbr><expan>non</expan></choice> oso, mandarla intorno, per <choice><abbr>nō</abbr><expan>non</expan></choice> offendere alcuni, che<lb/> vivono. et per dirle il vero, non essendo io in riposo d<supplied reason="illegible">e</supplied><lb break="no"/>lo spirito, nè agiato come vorrei, convenendomi servire, et<lb/> medicare, et peregrinare, <choice><abbr>nō</abbr><expan>non</expan></choice> ho potuto rivedere, le fati<lb break="no"/>che, mie vecchie. Ma un qualche dì, il sole rasserenerà<lb/> le mie tenebre. et qui le bacio le mani, di vivo cuo<supplied reason="illegible">re</supplied><lb/> pregandole il fine, d'ogni suo desiderio.</p>
+        <dateline>Di <placeName ref="#place-saint-germain-en-laye">san Germa<lb break="no"/>no</placeName>, <date when="1570-07-15">il dì 15. di Luglio, del <num value="70">LXX</num></date>.</dateline>
+        <closer>
+          Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice><lb/> certissimo et <choice><abbr>aff.mo</abbr><expan>affettionatissimo</expan></choice> servidore<lb/> <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+        </closer>
+        <postscript>
+          <pb n="221r"/>
+          <p>Non si intende altro rumore di <placeName ref="#place-toscana">Toscana</placeName>. quelli amici, de quali io<lb/> scrissi, <choice><abbr>nō</abbr><expan>non</expan></choice> si movono; Però questa pace farà vedere molte cose: et<lb/> scoprir molti disegni, che a poco poco, si mettevano in essere; gli<lb/> corsi sono sollecitati, dal nemico comune, per introdur ministri là,<lb/> ma stanno saldi, sino addesso; Però, <cit><quote xml:lang="la">omnes insulani mali</quote><bibl n="Vulg. Tit. 1.12">Vulgate, <title type="work">Titus</title> 1:12</bibl></cit>, per il te<lb break="no"/>stimonio di <persName ref="#pers-paulus">Paolo</persName>. In <placeName ref="#place-piemonte">Piemonte</placeName>, si mena il trattato di <placeName ref="#place-pinerolo">Pinerolo</placeName>,<lb/> et stando le cose, come sono, de denari, vivere, et tradimento,<lb/> è da temere, che non facino la barba, a chi otioso, si gode<lb/> della tranquillità, et si facia un romore grandissimo fuori<lb/> d'ogni bisogno di quel paese; Si maneggia la pace, la quale<lb/> si concluderà al fin fine, et forsa n'è. gli deputati sono<lb/> giunti à <placeName ref="#place-saint-germain-en-laye">san Germano</placeName>, mandati dal <persName ref="#pers-coligny-g">Armiraglio</persName>, ne può andar<lb/> molto, che la cosa non si concluda. Voglia Dio, che la<lb/> vada bene. Non si crede, che la dieta si faccia in <placeName ref="#place-de">Ger<lb break="no"/>mania</placeName> più, perciochè molti Prencipi chiamati, non hanno<lb/> voluto venire, anzi hanno fatto altra deliberatione tra<lb/> loro; stimasi che fatta la pace qui, l'armi si debbano<lb/> trasferire in altro paese, per smorbar la <placeName ref="#place-fr">Franza</placeName>, della<lb/> colluvione di molti bandolieri, et gente otiosa, et mante<lb break="no"/>nerla netta, dove, Dio la fa, sin addesso. ma, però<lb/> tosto si saperà: l'otio, et gli amori, et l'età, con<lb/> il consiglio, potriano intiepidire, ogni fervore. <unclear cert="low">Alcune</unclear><lb/> delle nove, già mandai, non ho inteso, se sienno piac<lb break="no"/>ciute al signore. Contentatevi <choice><abbr>sig.re</abbr><expan>signore</expan></choice> mio, farmene far avisato,<lb/> et per ogni modo, arder le mie lettere, perche, non man<lb break="no"/>cano de tristi per il mondo, ne può l'huomo provedere ad ogni<lb/> caso, ne provedere gli accidenti.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
 </TEI>
