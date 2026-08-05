@@ -54,6 +54,11 @@
     <encodingDesc>
       <editorialDecl>
         <p>Named entities are annotated only in the main hand. This is a copy; the original hand is unknown.</p>
+        <p>The letter is dated only "di Corte", from the court, without saying where the
+          court was keeping. It is read here as Blois, with @cert="high": Cavriana writes from
+          Paris on 22 January and from Blois on 12 February, and this letter, of 6 February,
+          says "noi non partiamo di qui" — we are not leaving here — of a court that is at
+          Blois six days later and stays there through the spring.</p>
       </editorialDecl>
       <projectDesc>
         <p>All places and persons are referenced from placeNames.xml and persNames.xml.</p>
@@ -63,7 +68,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName ref="#">Corte</placeName>
+          <placeName ref="#place-blois" cert="high">Corte</placeName>
           <date when="1572-02-06">6 February 1572</date>
         </correspAction>
         <correspAction type="received">
