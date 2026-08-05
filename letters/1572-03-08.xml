@@ -63,7 +63,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName ref="#">Blois</placeName>
+          <placeName ref="#place-blois">Blois</placeName>
           <date when="1572-03-08">8 March 1572</date>
         </correspAction>
         <correspAction type="received">

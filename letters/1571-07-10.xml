@@ -59,7 +59,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName>Bagni di Lucca</placeName>
+          <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
           <date when="1571-07-10">10 July 1571</date>
         </correspAction>
         <correspAction type="received">

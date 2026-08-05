@@ -10506,6 +10506,698 @@
    "wikidata": ""
   }
  ],
+ "itinerary": [
+  {
+   "date": "1566-12-31",
+   "label": "Mantua",
+   "place": "place-mantova",
+   "slug": "1566-12-31"
+  },
+  {
+   "date": "1568-04-06",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-04-06"
+  },
+  {
+   "date": "1568-04-28",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-04-28"
+  },
+  {
+   "date": "1568-05-04",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-05-04"
+  },
+  {
+   "date": "1568-05-05",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-05-05"
+  },
+  {
+   "date": "1568-05-28",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-05-28"
+  },
+  {
+   "date": "1568-06-09",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-06-09"
+  },
+  {
+   "date": "1568-07-03",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-07-03"
+  },
+  {
+   "date": "1568-07-24",
+   "label": "Nevers",
+   "place": "place-nevers",
+   "slug": "1568-07-24"
+  },
+  {
+   "date": "1568-09-07",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1568-09-07"
+  },
+  {
+   "date": "1569-01-03",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1569-01-03"
+  },
+  {
+   "date": "1569-03-11",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1569-03-11"
+  },
+  {
+   "date": "1569-11-29",
+   "label": "Ancona",
+   "place": "place-ancona",
+   "slug": "1569-11-29"
+  },
+  {
+   "date": "1569-12-09",
+   "label": "Ancona",
+   "place": "place-ancona",
+   "slug": "1569-12-09"
+  },
+  {
+   "date": "1569-12-21",
+   "label": "Mantova",
+   "place": "place-mantova",
+   "slug": "1569-12-21"
+  },
+  {
+   "date": "1569-12-31",
+   "label": "Mantova",
+   "place": "place-mantova",
+   "slug": "1569-12-31"
+  },
+  {
+   "date": "1570-01-01",
+   "label": "",
+   "place": "",
+   "slug": "1570-02-06"
+  },
+  {
+   "date": "1570-03-20",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-03-20"
+  },
+  {
+   "date": "1570-03-30",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-03-30"
+  },
+  {
+   "date": "1570-05-20",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-05-20"
+  },
+  {
+   "date": "1570-05-30",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-05-30"
+  },
+  {
+   "date": "1570-07-15",
+   "label": "San Germano",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-07-15"
+  },
+  {
+   "date": "1570-07-29",
+   "label": "San Germano",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-07-29"
+  },
+  {
+   "date": "1570-07-29",
+   "label": "San Germano",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-07-29-b"
+  },
+  {
+   "date": "1570-08-08",
+   "label": "Saint-Germain-en-Laye",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-08-08"
+  },
+  {
+   "date": "1570-08-08",
+   "label": "Saint-Germain-en-Laye",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-08-08-b"
+  },
+  {
+   "date": "1570-08-08",
+   "label": "Saint-Germain-en-Laye",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-08-08-c"
+  },
+  {
+   "date": "1570-08-17",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-08-17"
+  },
+  {
+   "date": "1570-08-27",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-08-27"
+  },
+  {
+   "date": "1570-08-30",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-08-30"
+  },
+  {
+   "date": "1570-09-01",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-09-01"
+  },
+  {
+   "date": "1570-09-11",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-09-11"
+  },
+  {
+   "date": "1570-09-14",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-09-14"
+  },
+  {
+   "date": "1570-09-24",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-09-24"
+  },
+  {
+   "date": "1570-10-03",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-10-03"
+  },
+  {
+   "date": "1570-10-09",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-10-09"
+  },
+  {
+   "date": "1570-10-13",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-10-13"
+  },
+  {
+   "date": "1570-10-23",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-10-23"
+  },
+  {
+   "date": "1570-10-23",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-10-23-b"
+  },
+  {
+   "date": "1570-10-23",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-10-23-c"
+  },
+  {
+   "date": "1570-11-02",
+   "label": "Saint-Germain-des-Prés",
+   "place": "place-saint-germain-des-pres",
+   "slug": "1570-11-02"
+  },
+  {
+   "date": "1570-11-02",
+   "label": "Saint-Germain-des-Prés",
+   "place": "place-saint-germain-des-pres",
+   "slug": "1570-11-02-b"
+  },
+  {
+   "date": "1570-11-04",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-11-04"
+  },
+  {
+   "date": "1570-11-04",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-11-04-b"
+  },
+  {
+   "date": "1570-11-04",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-11-04-c"
+  },
+  {
+   "date": "1570-11-07",
+   "label": "Saint-Germain-en-Laye",
+   "place": "place-saint-germain-en-laye",
+   "slug": "1570-11-07"
+  },
+  {
+   "date": "1570-11-09",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1570-11-09"
+  },
+  {
+   "date": "1570-11-09",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1570-11-09-b"
+  },
+  {
+   "date": "1570-11-12",
+   "label": "Saint-Germain-des-Prés",
+   "place": "place-saint-germain-des-pres",
+   "slug": "1570-11-12"
+  },
+  {
+   "date": "1570-11-12",
+   "label": "Saint-Germain-des-Prés",
+   "place": "place-saint-germain-des-pres",
+   "slug": "1570-11-12-b"
+  },
+  {
+   "date": "1570-11-12",
+   "label": "Saint-Germain-des-Prés",
+   "place": "place-saint-germain-des-pres",
+   "slug": "1570-11-12-c"
+  },
+  {
+   "date": "1571-01-12",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-01-12"
+  },
+  {
+   "date": "1571-01-14",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-01-14"
+  },
+  {
+   "date": "1571-01-26",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-01-26"
+  },
+  {
+   "date": "1571-02-05",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-02-05"
+  },
+  {
+   "date": "1571-02-06",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-02-06"
+  },
+  {
+   "date": "1571-03-31",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-03-31"
+  },
+  {
+   "date": "1571-04-10",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-04-10"
+  },
+  {
+   "date": "1571-04-11",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-04-11"
+  },
+  {
+   "date": "1571-04-18",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-04-18"
+  },
+  {
+   "date": "1571-04-19",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1571-04-19"
+  },
+  {
+   "date": "1571-04-28",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-04-28"
+  },
+  {
+   "date": "1571-06-02",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-06-02"
+  },
+  {
+   "date": "1571-06-02",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-06-02-b"
+  },
+  {
+   "date": "1571-06-27",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-06-27"
+  },
+  {
+   "date": "1571-07-07",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-07-07"
+  },
+  {
+   "date": "1571-07-10",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-07-10"
+  },
+  {
+   "date": "1571-07-15",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-07-15"
+  },
+  {
+   "date": "1571-07-17",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-07-17"
+  },
+  {
+   "date": "1571-08-08",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-08-08"
+  },
+  {
+   "date": "1571-08-14",
+   "label": "Firenze",
+   "place": "place-firenze",
+   "slug": "1571-08-14"
+  },
+  {
+   "date": "1571-08-24",
+   "label": "Florence",
+   "place": "place-firenze",
+   "slug": "1571-08-24"
+  },
+  {
+   "date": "1571-09-28",
+   "label": "Vienne",
+   "place": "",
+   "slug": "1571-09-28"
+  },
+  {
+   "date": "1571-11-04",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-11-04"
+  },
+  {
+   "date": "1571-12-08",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-12-08"
+  },
+  {
+   "date": "1571-12-11",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1571-12-11"
+  },
+  {
+   "date": "1572-01-22",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-01-22"
+  },
+  {
+   "date": "1572-02-06",
+   "label": "Corte",
+   "place": "",
+   "slug": "1572-02-06"
+  },
+  {
+   "date": "1572-02-12",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-02-12"
+  },
+  {
+   "date": "1572-03-08",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-03-08"
+  },
+  {
+   "date": "1572-03-19",
+   "label": "Bles",
+   "place": "place-blois",
+   "slug": "1572-03-19"
+  },
+  {
+   "date": "1572-03-29",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-03-29"
+  },
+  {
+   "date": "1572-04-17",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-04-17"
+  },
+  {
+   "date": "1572-04-22",
+   "label": "Bles",
+   "place": "place-blois",
+   "slug": "1572-04-22"
+  },
+  {
+   "date": "1572-05-02",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-05-02"
+  },
+  {
+   "date": "1572-05-12",
+   "label": "Francia",
+   "place": "place-fr",
+   "slug": "1572-05-12"
+  },
+  {
+   "date": "1572-05-28",
+   "label": "Bles",
+   "place": "place-blois",
+   "slug": "1572-05-28"
+  },
+  {
+   "date": "1572-06-07",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-06-07"
+  },
+  {
+   "date": "1572-06-12",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-06-12"
+  },
+  {
+   "date": "1572-06-13",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-06-13"
+  },
+  {
+   "date": "1572-07-04",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-07-04"
+  },
+  {
+   "date": "1572-07-12",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-07-12"
+  },
+  {
+   "date": "1572-07-19",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-07-19"
+  },
+  {
+   "date": "1572-07-22",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-07-22"
+  },
+  {
+   "date": "1572-07-29",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-07-29"
+  },
+  {
+   "date": "1572-08-04",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-08-04"
+  },
+  {
+   "date": "1572-08-13",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-08-13"
+  },
+  {
+   "date": "1572-08-27",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-08-27"
+  },
+  {
+   "date": "1572-08-31",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-08-31"
+  },
+  {
+   "date": "1572-09-10",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-09-10"
+  },
+  {
+   "date": "1572-10-23",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-10-23"
+  },
+  {
+   "date": "1572-10-29",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-10-29"
+  },
+  {
+   "date": "1572-11-02",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-11-02"
+  },
+  {
+   "date": "1572-11-04",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-11-04"
+  },
+  {
+   "date": "1572-11-20",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-11-20"
+  },
+  {
+   "date": "1572-11-21",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-11-21"
+  },
+  {
+   "date": "1572-11-27",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-11-27"
+  },
+  {
+   "date": "1572-11-30",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-11-30"
+  },
+  {
+   "date": "1572-12-01",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-12-01"
+  },
+  {
+   "date": "1572-12-07",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-12-07"
+  },
+  {
+   "date": "1572-12-15",
+   "label": "Blois",
+   "place": "place-blois",
+   "slug": "1572-12-15"
+  },
+  {
+   "date": "1572-12-17",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-12-17"
+  },
+  {
+   "date": "1572-12-18",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1572-12-18"
+  },
+  {
+   "date": "1572-12-28",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-12-28"
+  },
+  {
+   "date": "1574-03-06",
+   "label": "Parigi",
+   "place": "place-paris",
+   "slug": "1574-03-06"
+  }
+ ],
  "stats": {
   "catalogued": 115,
   "cipherGroups": 258,

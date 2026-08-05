@@ -59,7 +59,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName>Saint-Germain-des-Prés</placeName>
+          <placeName ref="#place-saint-germain-des-pres">Saint-Germain-des-Prés</placeName>
           <date when="1570-11-12">12 November 1570</date>
         </correspAction>
         <correspAction type="received">

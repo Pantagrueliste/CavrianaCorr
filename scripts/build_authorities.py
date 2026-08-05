@@ -357,6 +357,40 @@ def collect_occurrences() -> tuple[dict, dict]:
     return occ, eth, dates
 
 
+def itinerary() -> list:
+    """Where each letter was written, in order.
+
+    Cavriana is not touring: Paris is nearly three letters in five, and the
+    rest are a few long absences from it. What a reader wants is therefore not
+    a route but a record of where he was and when, which is what this is —
+    one entry per letter, with the place it was sent from.
+    """
+    out = []
+    for path in sorted(LETTERS.glob("*.xml")):
+        root = etree.parse(str(path)).getroot()
+        if not is_letter(root):
+            continue
+        sent = root.find(".//tei:correspAction[@type='sent']", NS)
+        if sent is None:
+            continue
+        d = sent.find("tei:date", NS)
+        p = sent.find("tei:placeName", NS)
+        when = (d.get("when") or d.get("from") or d.get("notBefore") or "") if d is not None else ""
+        ref = (p.get("ref") or "") if p is not None else ""
+        if not when[:4].isdigit():
+            continue
+        out.append({
+            "slug": path.stem,
+            "date": when,
+            # An untagged place still says where he was; it simply has no
+            # record yet, and dropping it would put a hole in the year.
+            "place": ref[1:] if ref.startswith("#") and len(ref) > 1 else "",
+            "label": text(p) if p is not None else "",
+        })
+    out.sort(key=lambda r: (r["date"], r["slug"]))
+    return out
+
+
 def edition_stats() -> dict:
     """What the edition amounts to, counted from the files rather than typed
     into the introduction and left to go stale.
@@ -468,6 +502,7 @@ def main() -> None:
         "events": events,
         "dates": dates,
         "stats": edition_stats(),
+        "itinerary": itinerary(),
     }, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
 
     write_csv(entities)

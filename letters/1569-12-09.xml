@@ -59,7 +59,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
-          <placeName>Ancona</placeName>
+          <placeName ref="#place-ancona">Ancona</placeName>
           <date when="1569-12-09">9 December 1569</date>
         </correspAction>
         <correspAction type="received">
