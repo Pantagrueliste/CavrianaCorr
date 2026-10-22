@@ -18,8 +18,10 @@ on:
 jobs:
   update-heatmap:
     runs-on: ubuntu-latest
-    # Nothing to publish if the conversion itself failed.
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    # Nothing to publish if the conversion itself failed, and nothing to publish
+    # after a pull-request run: conversion also runs on PRs (from forks too), and
+    # only what has landed on main should reach the site.
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push') }}
     # Serialize pushes to the frontend repo with convert-xml-to-markdown.yml
     concurrency:
       group: frontend-push
