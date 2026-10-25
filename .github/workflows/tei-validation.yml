@@ -32,17 +32,12 @@ jobs:
           mkdir -p jing/bin
           cp jing-20220510/bin/jing.jar jing/bin/
 
-      - name: Download TEI Schema (tei_all.rng)
-        run: |
-          mkdir -p schemas
-          wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
-
       - name: Validate TEI Files in letters/
         run: |
           XML_FILES=$(find ./letters -type f -name "*.xml")
           if [ -n "$XML_FILES" ]; then
             echo "Validating TEI files in the letters folder..."
-            find ./letters -type f -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+            find ./letters -type f -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei-4.12.0/tei_all.rng {} +
           else
             echo "No XML files found in the letters folder."
           fi

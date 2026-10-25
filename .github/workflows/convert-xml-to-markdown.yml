@@ -10,6 +10,7 @@ on:
       # the rules themselves, and the scripts that enforce them
       - 'ODD_CavrianaCorr.xml'
       - 'scripts/build_schema.py'
+      - 'schemas/**'
       - 'scripts/check_line_breaks.py'
       - '.github/workflows/convert-xml-to-markdown.yml'
   pull_request:
@@ -21,6 +22,7 @@ on:
       # the rules themselves, and the scripts that enforce them
       - 'ODD_CavrianaCorr.xml'
       - 'scripts/build_schema.py'
+      - 'schemas/**'
       - 'scripts/check_line_breaks.py'
       - '.github/workflows/convert-xml-to-markdown.yml'
 
@@ -47,25 +49,16 @@ jobs:
           mkdir -p jing/bin
           cp jing-20220510/bin/jing.jar jing/bin/
 
-      - name: Download TEI Schema (tei_all.rng)
-        run: |
-          mkdir -p schemas
-          wget -O schemas/tei_all.rng https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
-
       - name: Validate TEI Files in letters/
         run: |
           XML_FILES=$(find ./letters -type f -name "*.xml")
           if [ -n "$XML_FILES" ]; then
             echo "Validating TEI files in the letters folder..."
-            find ./letters -type f -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei_all.rng {} +
+            find ./letters -type f -name "*.xml" -exec java -jar ./jing/bin/jing.jar schemas/tei-4.12.0/tei_all.rng {} +
           else
             echo "No XML files found in the letters folder."
           fi
 
-      # The line-break convention cannot be expressed in RELAX NG, so jing
-      # cannot see it. The rule itself lives in ODD_CavrianaCorr.xml as a
-      # Schematron constraint on <lb>; this runs the same rule until the ODD
-      # is wired into the build.
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -76,37 +69,15 @@ jobs:
           python -m pip install --quiet lxml
           python scripts/check_line_breaks.py
 
-      # tei_all.rng accepts anything TEI accepts. This compiles the project's
-      # own ODD and validates against that instead, so the rules written there
-      # — the closed value lists, the required attributes — actually bind.
-      # Thirteen files do not satisfy it yet; the ceiling stops that number
-      # growing while they are worked through, and should come down with it.
       - name: Compile the ODD into a schema
         run: |
           python -m pip install --quiet lxml saxonche
           python scripts/build_schema.py --generate-only
 
-      # jing is the reference RELAX NG implementation. libxml2 mishandles
-      # <empty/> inside a repetition, which odd2relax emits wherever a class
-      # compiles empty, so it reports faults jing does not.
-      # Thirty-eight faults remain, all of them the edition's rather than the
-      # schema's: 37 <supplied> that record no @resp or @cert, and one
-      # <damage> with no @agent. It was thirty until the new transcription of
-      # 15 July 1570 brought eight more of the same. The ceiling holds the
-      # number down while they are dealt with, and should come down with them
-      # — it is a record of what is outstanding, not permission to add more.
+      # Every document must satisfy the edition's rules. Jing's exit status
+      # also catches schema/compiler failures, not just counted diagnostics.
       - name: Validate against the project's own schema
-        run: |
-          set +e
-          java -jar ./jing/bin/jing.jar .cache/odd/cavriana.rng letters/*.xml > jing.out 2>&1
-          set -e
-          n=$(grep -c "error:" jing.out || true)
-          cat jing.out
-          echo "— $n faults against the project schema (ceiling 38)"
-          if [ "$n" -gt 38 ]; then
-            echo "That is more than the agreed ceiling."
-            exit 1
-          fi
+        run: java -jar ./jing/bin/jing.jar .cache/odd/cavriana.rng letters/*.xml
 
   convert:
     needs: validate

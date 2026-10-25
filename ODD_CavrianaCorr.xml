@@ -121,7 +121,9 @@
           <att>type</att>=<val>decipher</val> and <att>place</att>=<val>above</val>.
           Where the editor supplies a decipherment, <gi>supplied</gi> is used with
           <att>reason</att>=<val>deciphered</val>, <att>resp</att>=<val>#editor</val>,
-          and a <att>cert</att> value indicating the level of confidence.</p>
+          and a <att>cert</att> value indicating the level of confidence.
+          Use <val>unknown</val> when the existing transcription records no
+          confidence assessment; this does not assert a new reading.</p>
         </div>
 
         <div xml:id="damage-policy">
@@ -359,7 +361,8 @@
             <item>Editorial decipherments are encoded with <gi>supplied</gi>
             carrying <att>reason</att>=<val>deciphered</val>,
             <att>resp</att>=<val>#editor</val>, and
-            <att>cert</att> (<val>high</val> or <val>medium</val>).</item>
+            <att>cert</att> (<val>high</val>, <val>medium</val>, <val>low</val>,
+            or <val>unknown</val> when no assessment is recorded).</item>
           </list>
         </div>
 
@@ -645,6 +648,9 @@
                   </valItem>
                   <valItem ident="low">
                     <desc>Low confidence in the supplied reading.</desc>
+                  </valItem>
+                  <valItem ident="unknown">
+                    <desc>No confidence assessment recorded in the existing transcription.</desc>
                   </valItem>
                 </valList>
               </attDef>

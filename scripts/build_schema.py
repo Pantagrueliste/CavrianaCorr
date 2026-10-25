@@ -29,25 +29,22 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".cache", "odd")
-P5 = "https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml"
-STYLESHEETS = "https://github.com/TEIC/Stylesheets/archive/refs/heads/dev.tar.gz"
+P5 = os.path.join(ROOT, "schemas", "tei-4.12.0", "p5subset.xml")
+STYLESHEETS_REV = "34da0f4c8f7d956fca3449dc7347181d034d0416"
+STYLESHEETS = f"https://github.com/TEIC/Stylesheets/archive/{STYLESHEETS_REV}.tar.gz"
 
 
 def fetch() -> tuple[str, str]:
-    """The TEI source and the ODD processor, downloaded once."""
+    """Use the vendored TEI source and a pinned, cached ODD processor."""
     os.makedirs(CACHE, exist_ok=True)
-    p5 = os.path.join(CACHE, "p5subset.xml")
-    if not os.path.exists(p5):
-        print("  fetching the TEI source …")
-        urllib.request.urlretrieve(P5, p5)
-    sty = os.path.join(CACHE, "Stylesheets")
+    p5 = P5
+    sty = os.path.join(CACHE, f"Stylesheets-{STYLESHEETS_REV}")
     if not os.path.isdir(sty):
         print("  fetching the TEI stylesheets …")
-        with urllib.request.urlopen(STYLESHEETS) as r:
+        with urllib.request.urlopen(STYLESHEETS, timeout=60) as r:
             data = r.read()
         with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as t:
-            t.extractall(CACHE)
-        os.rename(os.path.join(CACHE, "Stylesheets-dev"), sty)
+            t.extractall(CACHE, filter="data")
     return p5, sty
 
 
