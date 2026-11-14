@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 15 July 1571</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>563</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="172r">fol. 172r and following</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
+          <date when="1571-07-15">15 July 1571</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-14">Text imported from the editor's reading transcription of 2018 (MP 563, f. 172). Not collated with the manuscript: line breaks and abbreviations are not recorded, names are not yet tagged, and folio breaks after the first are inferred from the breaks of the 2018 transcription. Readings marked doubtful in 2018 are encoded as unclear or gap. The placeholder file 1571-08-08.xml formerly carried this shelfmark (563, fols. 172r-203r).</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="172r"/>
+        <p>Ho scritto a Vostra Signoria Illustrissima otto di sono, con la commodità del capitano Francesco <unclear>Fatis</unclear> <unclear>guidore</unclear> del Signor Duca mio, il quale andava in Sicilia, a visitare il Signore <unclear>Mantese</unclear> à nome di sua eccellenza et passò per la. Hora torno à rinfrescarle la memoria di me, non la presente, havendo hor hora ricevuto lettere dalli 30 di Giugno dalla corte, la quale era à Monceaux, vicino à Meaus, luogo sfortunatissimo à sua Maestà per essere stato in quel istesso, l'anno 61 in pericolo di perdere con la vita, il regno. Credo che la <unclear>reina</unclear>, chi sà, edifica una casa <unclear>murale</unclear>, per compiacere di quella bella vista. La reina mia signoram se ne sarà rittirata à diporto; oltre che le cacerie vi sono bellissime, Le quali maggiormente divertiranno il re dall'andata in Bretagna. <gap reason="illegible"/> non va più, rittirato dalle parole della madre, e della moglie, senza il caso suo, della contusione, che egli hebbe alla fronte, correndo il cervo nella foresta di Lione, verson Roano, nel qual tempo, promise inviolabilmente di non correre piu, per 40 giorni, ne cervo, ne daino. Di la, si dissegna andare à fontana belleù, Non potendo questa corte nostra, star molto lontana dal centro; che è Parigi, <unclear>Percioché</unclear> altrove non si batte moneta, et quel popolazzo si <unclear>ben</unclear> è sciocco, vuol tuttavolta</p>
+        <pb n="172v" cert="low"/>
+        <p>esser conosciuto per potente, et senza il quale il re non possa movere una pedina, e però vi si <unclear>ha</unclear> intorno, facendo l'amor alla <unclear>borsa</unclear> di quello. Questo è il pensiero di vecchi e di consiglieri, ma i gioveni attendono a cervi, cerve, dame et altri passatempi. Lasciando che la mre  <gap reason="illegible"/> loro procuri il modo di spendere. Monsignore, ha mandato l'Arciano  <gap reason="illegible"/> gentilhuomo di Normandia, et suo capitan di guardia; della sua persona in Inghilterra. Non si publicava anchora la ragione di questa sua legatione, Al ritorno suo vi va Mamoransi, al quale è stata deta promessa, dalli inistri della reina d'Inghilterra del matrimonio con monsignore. La va da francese a Inglese vedremo chi mentirà meglio; la Nova, primo capitano delli ugonotti (doppò l'Amiraglio) ingrato a tutta la corte, e venuto per concludere che la sorella del re, Margherita, si mariti con il Principe di Navarra, et perché sa fare et dir meglio, et c'è qualche inclinatione; da una delle parti, io stimo riuscito  <gap reason="illegible"/> questo partito il quale solo accomoderà le ruini di Francia, et mantenerà una perpetua pace tra gli suditi del re, sicome par che comunemente si tenga per fermo. Spiaceranno a Roma, et à spagna queste nove, et</p>
+        <pb n="173r" cert="low"/>
+        <p>vi si faranno varij commenti. Ma questo partito, renderà il nome del Ammiraglio vie piu grnade che mai. Et  <gap reason="illegible"/> non serà molto buono accordo à qualche persona. Non c'era altra nova in corte, degna da scriversi. À Lione poi, si dovea far giustitia, di alcuni, i quali havevano macchinato contro la persona del re, et gia il processo era ito à Parigi, ne in questa congiura, v'era intervenuto consiglio, o participatione del Ammiraglio. Siccome per loro medesimi, et per altri segni si vedeva manifestamente. Il caso era brutto, et già più di doi mesi erano priggioni. Supplico Vostra Signoria à farmi grazia di farmi scrivere due sole righe da alcun suo domestico, solamente per darmi nova della sua sanità, della quale io ne son tanto geloso, che non più della mia propria, et se vuol credere à chi l'ama, travaglierà meno, che <unclear>rota</unclear>, accioche il residuo della sua vita, sia con piu di quiete, et contento, che non è stata la prima, et la seconda parte. Di Grazia, che la attenda a vivere, et a me comandi, coem a quello che le è servidore, dipendente della sua buona gratia nella quale raccomandandomi, supplico la à baciar le mai a Sua Altezza a mio nome si però non l'è molesto.</p>
+        <closer>
+          <dateline>Dalli <placeName ref="#place-bagni-di-lucca">bagni di Corsina</placeName> il <date when="1571-07-15">15 diu luglio del LXXI</date>.</dateline>
+          <salute>Di Vostra Signoria Illustrissima.</salute>
+          <salute>Obligatissimo servidore.</salute>
+          <signed><persName ref="#pers-cavriana-f">Il Cavaglier Cavriana.</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -14,7 +14,7 @@
       <publicationStmt>
         <publisher>Clément Godbarge</publisher>
         <pubPlace>St Andrews, Scotland, UK</pubPlace>
-        <date>2025</date>
+        <date>2026</date>
         <availability>
           <licence target="http://creativecommons.org/licenses/by/4.0/">
             This work is licensed under a Creative Commons Attribution 4.0 International License.
@@ -27,11 +27,11 @@
             <placeName>Florence</placeName>
             <repository>Archivio di Stato di Firenze</repository>
             <collection>Mediceo del Principato</collection>
-            <idno>563</idno>
+            <idno>564</idno>
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus from="172r" to="203r">fols. 172r–203r</locus>
+              <locus from="3r">fol. 3r and following</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it">Italian</textLang>
@@ -63,19 +63,32 @@
           <date when="1571-08-08">8 August 1571</date>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#pers-concini-b">Bartolomeo Concino</persName>
+          <persName ref="#pers-concini-b" cert="low">Bartolomeo Concino</persName>
         </correspAction>
       </correspDesc>
     </profileDesc>
-    <revisionDesc status="placeholder">
-      <change>Metadata only — transcription pending.</change>
+    <revisionDesc status="draft">
+      <change when="2026-11-14">Text imported from the editor's reading transcription of 2018 (MP 564, f. 3). Not collated with the manuscript: line breaks and abbreviations are not recorded, names are not yet tagged, and folio breaks after the first are inferred from the breaks of the 2018 transcription. Readings marked doubtful in 2018 are encoded as unclear or gap. The shelfmark was corrected from 563, fols. 172r-203r, which belongs to the letter of 15 July 1571 (1571-07-15-b.xml), to 564, fol. 3, as given by the 2018 transcription; to be checked against the manuscript. The addressee is not named in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <div type="letter">
-        <pb n="172r"/>
-        <p><gap reason="untranscribed"/></p>
+        <pb n="3r"/>
+        <opener>
+          <salute>Illustre Signore</salute>
+        </opener>
+        <p>Se bene, io son sicuro che Vostra Signoria sarà avisata da quello che si tratta in corte del re mio, et habbia scritto di gia una mia la quale fu indirizzata al signor Polidoro Castelli che Vostra Signoria deve haver ricevuto. Nondimeno, perché si conosca la contionuatione della mia volontà, et servitù, verso di chi debbo, non ho voluto lasciare di farle sapere che di corte son avisato, Che Monsignore di Larciano gentilhuomo di Monsignore è ritornato di Inghilterra, il quale, per quanto si puo giudicare, porta che il matrimonio di quella reina, con sua Altezza andrà in nulla; cona che al re Spiace molto, et molto più alli ugonotti, i quali, con la speranza che havevano di questo maritaggio, erano venuti in grosso numero a Parigi, credendo di potere, nell'absenza di Monsignore, lor nimico capitale, governare il re, a lor modo et col ritorno di Larciano, se no sono iti alle case loro, visto che il dissegno, non succiede, il quale se luogo havesse havuto non è dubio, che infra pochissimi giorni, si seria mossa la guerra a Fiandra. La reina Madre, è, molto dolente, che questo negotio, non havendo havuto effetto, come si sperava, sia stato prima saputo da altri che da lei (si puo dir) fusse <unclear>pensato</unclear>. Per lo quale, nè con la spagna, ne con Roma resterà in buon</p>
+        <pb n="3v" cert="low"/>
+        <p>credito, anchorché io oda ogni di, di male voci, le quali non <unclear>sono</unclear> da gran persone, contro di lei, per essere male informati, delle cose di Francia, et del modo di governare quelle genti, per loro natura fiere, et nemichi di pace. La corte era divisa, etr sparsa; Monsignore ad un luogo, il re nell'altro, et la reina in un altro, tanto che non fu mai piu, cosi sviata. Il principe di Navarra, veniva verso Blès per ritrovar il re, col quale tratterà si sposare Madama Margherita et succederà più facilmente questo, che l'altro maritaggio di Inghilterra. A <unclear>Dantin</unclear>, terra del Duca di Nevers vicino alla Charitè, si metteva ordine per gastigar la insolenza di alcuni nobili Ugonotti i quali, con quelli della charitè, facevano un trattato non si sa, se sopra Nevers, o altro luogo vicino, con <unclear>coloo</unclear> di vindicare alcune particolari ingiurie loro. Spero di trovarmi in Fiorenza, martedi prossimo, se a Dio et ad mio signore piacerà, accioché doppo haver baciato le mani di Sua Altezza, al Signor Prencipe serenissimo et a Vostra Signoria, io possa <unclear>mercoledi</unclear> partirmene, et perché io vivo con quiesta speranza, mi rimetto à quel tempo di parlarle a bocca di un altro particolare che ha fretta dal <unclear>nesso</unclear>, non mi lascia esplicarle. Bastali per tanto sapere che quando bene</p>
+        <pb n="4r" cert="low"/>
+        <p>io spendessi, questa mia vita in servitio di Vostra Signoria (Non havendo altra cosa al mondo) non mi parerà d'haver fatto, quanto porta il desiderio che ho di servir à Vostra Signoria alla quale bacio le mani, con ogni <unclear>riverenza</unclear> affetto d'animo.</p>
+        <closer>
+          <dateline>Dalli <placeName ref="#place-bagni-di-lucca">bagni di Corsenna</placeName> d'<date when="1571-08-08">viii d'Agosato del LXXI</date>.</dateline>
+          <salute>Di Vostra Signoria Illustrissima.</salute>
+          <salute>certissimo et obligato signore,</salute>
+          <signed><persName ref="#pers-cavriana-f">Il Cavaglier Cavriana.</persName></signed>
+        </closer>
       </div>
     </body>
   </text>
