@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Troilo Orsini, 30 August 1571</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Miscellanea Medicea</collection>
+            <idno>505</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="43r" to="43v">43r-43v</locus>
+              <title>Letter from Filippo Cavriana to Troilo Orsini</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Cavriana thanks Orsini for the greetings brought to Lucca by his servant Gianetti, admits that he left Florence somewhat discontented with fortune, and announces his departure for Massa, where he will embark on Saturday. He asks Orsini to keep his devotion before the Medici princes and to help his friend Pagni with the Prince.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-lucca">Lucca</placeName>
+          <date when="1571-08-30">30 August 1571</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-orsini-t" cert="medium">Troilo Orsini</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-15"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener><salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice></salute></opener>
+        <pb n="43r"/>
+        <p><persName ref="#pers-gianetti-gm">Giovan Maria Gianetti</persName> servitore di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> che arrivò <lb/>hieri in <placeName ref="#place-lucca">Luca</placeName>, mi ha salutato a nome di lei, Ma se col <lb/>saluto vi fusse stata una riga di sua mano, haverei <lb/>trovato, il cielo con le piante, nonche con la testa <lb/>et havendomi egli detto che <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> ha havuto dispiacere, <lb/>della mia subita partenza di <placeName ref="#place-firenze">Firenze</placeName>, perche stima che <lb/>Io me ne sarei partito più contento m'ha assicurato che <lb/>ella m'ama di <gap reason="illegible" extent="1 word"/> sicome ho sempre mai creduto, <lb/>et tuttavia credo, et di vero, <choice><abbr>no̍</abbr><expan>non</expan></choice> so negare, che io <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>partissi un poco (non oso quasi dire); mal contento della <lb/>fortuna, parendomi che molte cose come <gap reason="illegible" extent="1 word"/> dall'hora, delle <lb/>quali il <persName ref="#pers-medici-cos-1">Gran Duca</persName> consapevole che io ne saro ben infor<lb break="no"/>mato, me ne doveva parlare. Tuttavolta à me piace <lb/>quello che, à sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> piace, alla quale havendo io fatto <lb/>riverenza personalmente, come desideravo, ho sodisfatto <lb/>ad una parte, ma non in tutto, al desiderio mio. <lb/>Sarà forse un'altra volta, et in questo mezzo seguendo <lb/>il mio antiquo costume di servirle, mi contentarò far <lb/>l'humil debito mio, lasciando che gli huomini, et la fortuna <lb/>facciano il loro. Partimo hoggi di qui, per andar à <placeName ref="#place-massa">Mas<lb break="no"/>sa</placeName>, d'indi alla riva del mare sabbato, per imbarcarsi. <lb/>mi <choice><abbr>racc.o</abbr><expan>raccomando</expan></choice> molto alla buona gratia, et memoria di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> <lb/>la quale può favorirmi molto, con que' serenissimi signori <pb n="43v"/> rinovandole spesso la memoria della divotione mia verso <lb/>loro, et se nascerà occasione di impiegarmi, per servirgli <lb/>in qual si voglia cosa, operare col suo favore, che io <lb/>non sia stimato in tutto membro morto, o di poco vi<lb break="no"/>gore percioche, <choice><abbr>co̍</abbr><expan>con</expan></choice> questo mezzo, potrei essere promesso <lb/>a quello che ho già un pezzo desiderato. Et perche, <choice><abbr>no̍</abbr><expan>non</expan></choice> <lb/>mi occorre piu altro, farò qui fine basciandole le <lb/>mani, di tutto cuore insieme al <unclear>Sig Mario sia fatto</unclear>, et <lb/>supplicandola <gap reason="illegible" extent="1 word"/> che ad un amico mio, il quale <lb/>verrà costì, per favore appresso il serenissimo <persName ref="#pers-medici-fra-1">Prencipe</persName> <lb/>di cosa giusta, et facilissima ad ottennere, contenti di <lb/>ornarlo, come desidera, et prego <choice><abbr>nr̍o</abbr><expan>Nostro</expan></choice> <choice><abbr>Sr</abbr><expan>Signor</expan></choice> Dio che longamē<lb break="no"/>te felice la mantenghi. Di <placeName ref="#place-lucca">Luca</placeName> il di 30 d'<lb/>agosto del LXXI.</p>
+        <closer>
+          <salute>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice></salute>
+          <signed><choice><abbr>affettionatiss.o</abbr><expan>affettionatissimo</expan></choice> servidore <persName ref="#pers-cavriana-f">Filippo Cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
