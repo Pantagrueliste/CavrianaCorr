@@ -4133,7 +4133,7 @@
     },
     {
      "date": "1572-11-21",
-     "n": 3,
+     "n": 1,
      "slug": "1572-11-21"
     }
    ],
@@ -4147,7 +4147,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Ferdinando de'",
-   "total": 4,
+   "total": 2,
    "viaf": "100212180",
    "wikidata": "Q297483"
   },
@@ -4166,6 +4166,11 @@
      "date": "1571-08-30",
      "n": 1,
      "slug": "1571-08-30"
+    },
+    {
+     "date": "1572-11-21",
+     "n": 2,
+     "slug": "1572-11-21"
     }
    ],
    "map": "",
@@ -4184,7 +4189,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Francesco I de'",
-   "total": 1,
+   "total": 3,
    "viaf": "",
    "wikidata": ""
   },
