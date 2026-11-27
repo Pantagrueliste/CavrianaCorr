@@ -29,7 +29,7 @@
           </msIdentifier>
           <msContents>
             <msItem>
-              <locus from="250r" to="250v">fols. 250r-250v</locus>
+              <locus from="250r" to="251r">fols. 250r-251r</locus>
               <title>Letter from Filippo Cavriana to Bartolomeo Concino, 31 August 1572</title>
               <author ref="#pers-cavriana-f">Filippo Cavriana</author>
               <textLang mainLang="it" otherLangs="la">Italian with Latin</textLang>
@@ -72,6 +72,7 @@
           <dateline>Di <placeName ref="#place-paris">Parigi</placeName> l'ultimo d'Agosto del 72</dateline>
           <signed><persName ref="#pers-cavriana-f" type="alias">Chi ella sa</persName></signed>
         </closer>
+        <pb n="251r"/>
             <postscript><p>Serà con questa la relatione della morte dell'Almirante fatta da me con mio grandissimo incommodo, et però così in fretta come è nata, vien a trovar V.S. iscusimi di gratia, et consideri piu la volontà di chi serve, che il modo di scrivere, perchè si potessi attendere intieramente al servitio di Sua Altezza io farli qualchecosa che la contentaria, ma conviemmi attendere à questa professione, che mal mio grado faccio, per poter vivere, della quale piaccia al Signore levarmene vadi et le bacio di nuovo le mani.</p></postscript>
       </div>
     </body>

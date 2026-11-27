@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 28 October 1570</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>554</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>one leaf, recto and verso; folio number not read</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Writing as Vincenzo da Castello, Cavriana reports that the royal wedding has been postponed and stripped of all pomp for want of money, and that the queen mother has been ill. He describes the Huguenots standing in arms and pressing for further articles, and the secret proceedings against Monluc.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName>San Germano di Pre</placeName>
+          <date when="1570-10-28">28 October 1570</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b" cert="low">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-15"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="recto"/>
+        <p>Illustre signore. Le nozze, che erano ordinate a <placeName ref="#place-compiegne">Compiegna</placeName>, con apparato <lb/>regio, si sono differite, la prorogatione è per sino la fine di Novembre, si è <lb/>risoluto di farsi, con poca anzi nissuna spesa, da <placeName ref="#place-sedana">Sedan</placeName> per la posta, por<lb break="no"/>tando così, la stremma inopia di tutta la corte et la povertà di tutto il <lb/>corpo del regno; et però <persName ref="#pers-valois-h-3">Monsignore fratello del re</persName>, partirà <lb/>alli sei del altro mese, in posta, et serà a <placeName ref="#place-mezieres">Mesieres</placeName>, per ricevere <lb/>la cognata, et poco doppoi, dicono, che il <persName ref="#pers-valois-ch-9">re</persName> vi irà per la posta <lb/>altresi, et non si farà ne tornei, ne giostre, ne livree, ma <lb/>senza sontuoso apparato, si menerà la sposa novella ne confini di <placeName ref="#place-fr">Francia</placeName>, <lb/>et si vedrà poca solennità. L'entrata di <placeName ref="#place-paris">Parigi</placeName>, che era ordinata <lb/>per gli tanti di gennaio, non si farà più, per tutto questo altro anno <lb/>a venire, non si potendo fare, senza spesa di un millione d'oro, dei <lb/>quali il <persName ref="#pers-valois-ch-9">re</persName> non ne ha, si che questo himeneo serà accompagnato <lb/>in ogni cosa da freddo. Voglia Dio che l'amore, et quella impresa <lb/>sia con caldezza. La <persName ref="#pers-medici-cat">reina</persName> è stata male, di vermi, et di <lb/>catarrho, et hieri notte, che fu un poco più del solito molestata, <lb/>corse una voce per il populo, che era in estremo, ma fu falsa, <lb/>percioche, doppo l'havere fatto per basso doi vermini, si trovò assai <lb/>leggierita. Questa subita mutatione, del non fare apparato, ne <lb/>spesa nelle nozze, fuori di quello che havevano deliberato, et co<lb break="no"/>mandato, dà che per questo, ognuno haveva fatto, quasi del resto de <lb/>raccolti di questo anno, et molti de tutta la loro sostanza, per compar<lb break="no"/>ire alla festa, è nata da thesaurieri, che non possendo riscuotere <lb/>et non possono pagare, ne il <persName ref="#pers-valois-ch-9">re</persName> può usare, alcuna maniera di libera<lb break="no"/>lità, per picciolissima che sia, onde i più savij del consiglio, hano <lb/>questo proposto al <persName ref="#pers-valois-ch-9">re</persName>, et la necessità che lo ha fatto poi confermare, <lb/>con promessa, di dovere poi, come le cose sieno assettate meglio, fare <lb/>il debito. Hor veda Vostra Signoria che perdita per i mercanti, che havevano <lb/>fatto venire tanti drappi d'ogni luogo, et che incostanza è questa <lb/>ciclo, che doppo haver spogliato il mondo di sete, lo vogliono subito <lb/>ripentiti del primo errore, rimetterlo. La malatia della <persName ref="#pers-medici-cat">reina</persName>, po<lb break="no"/>tria differire le nozze. <rs ref="#grp-hugonotti" type="group">Ugonotti</rs> stano in ordine, temendo che <lb/>non se gli faccia un assalto repentino; et io stimo, che questa ma<lb break="no"/>niera di stare sulla sua come fanno, habbia dato occasione alli <lb/>più savij del consiglio, di consigliare, che non si getti vanamente, <lb/>doi millioni d'oro, alla spesa delle nozze, potendo venire occasione <lb/>de impiegarli in <rs ref="#grp-raiteri" type="group">Raiteri</rs>; dicevasi che il <persName ref="#pers-nassau-l">conte Ludovico</persName>, fratello del <lb/><persName ref="#pers-nassau-w">prencipe d'Oranges</persName>, era ito alla <placeName ref="#place-rochelle">Roccella</placeName>, et io so, di buon <pb n="verso"/> luogo, che gli <rs ref="#grp-hugonotti" type="group">ugonotti</rs>, vogliono dimandare anchora, doi altri capitoli, <lb/>gli quali furono già tra loro per fare trattati, et publicati che seranno, <lb/>de nostri si che se il giuoco comincia, serà fare un disperato tutto il <lb/>mondo. <persName ref="#pers-cavaignes-a">Lavagnes</persName> huomo di ardente eloquenza, et di sagacissimo <lb/>ingegno consigliere in <placeName ref="#place-toulouse">Tholosa</placeName>, il quale è la pietra delli <rs ref="#grp-hugonotti" type="group">Ugonotti</rs> <lb/>et il loro appollo, et che ha limato gli capitoli della pace, parlò <lb/>hieri più di due hore, in publico consiglio, sopra delle cose delli <lb/><rs ref="#grp-hugonotti" type="group">Ugonotti</rs>, che non sono rimessi ne loro beni, et che nelli loro gradi, <lb/>non sono ascoltati, ne fin hoggi a questa hora, si è inteso poi altro, <lb/>ma costui poco a poco, parlando d'un fatto, entrerà a proporre gli <lb/>altri articoli, de quali ho già fatto mentione, et mostrerà con sofismi <lb/>et parole, piene di pietà, che il concedergli, è del tutto necessario, <lb/>al che certi di la dentro aiuterano molto; si che costoro dubitando <lb/>sempre di essere castigati, o in una maniera, o in una altra, non la<lb break="no"/>scierano di tentare ogni via, per levarsi ogni ostacolo dinanzi, per <lb/>essere in corte, i più forti et i più potenti, et governare il <persName ref="#pers-valois-ch-9">re</persName>, a loro <lb/>voglia, cacciando quanto c'è di buono in corte, che non serà però molto, <lb/>perche <persName ref="#pers-savoie-j-nem">Nemors</persName> et <persName ref="#pers-gonzaga-l-nev">Nevers</persName>, sono stroppiati, <persName ref="#pers-orleans-l">Longavilla</persName> è a loro per stretto <lb/>parentado, <persName ref="#pers-montm-fr">Memoransi</persName>, <persName ref="#pers-montmorency-h">Danvilla</persName>, <persName ref="#pers-savoie-h2-villars">Villars</persName>, <persName ref="#pers-savoie-h-ten">Tenda</persName>, <persName ref="#pers-bourbon-conde-h">Condé</persName> altresì, gli <lb/>altri che ci sono, sono giovani, et inesperti, et quelli della casa <lb/>di Ghisa, senza gli altri suoi adherenti disuniti, non potrano farle <lb/>gran resistenza, alla quale con la violenza, et con il ferro, si oppor<lb break="no"/>rano, si che Dio ci aiuti. Le genti d'arme, fanno un gran disordi<lb break="no"/>ne per il paese, nel rittirarsi, et questa rittirata per essere lenta <lb/>è da nimici stimata, piena di fraude, et di insidie, però egli<lb break="no"/>no stano avertiti, et nelle loro terre, concessele dal <persName ref="#pers-valois-ch-9">re</persName>, fanno una <lb/>guardia diligentissima. <persName ref="#pers-valois-h-3">Monsignore</persName> ha mandato, à reprimere l'in<lb break="no"/>solenza di quelle genti, che vanno per il paese vagabonde, in grosso <lb/>numero. <persName ref="#pers-montluc-b">Monluc</persName> è processato segretamente, et questa maniera di <lb/>fare, lo farà divenir <rs ref="#grp-hugonotti" type="group">ugonotto</rs>, cosa che seria gran danno al <persName ref="#pers-valois-ch-9">re</persName>, <lb/>per poter egli, et sapere molto, nella guerra, è molto sdegnato <lb/>et mal contento, et con l'essempio suo, molti grandi, che hanno gover<lb break="no"/>nato, temendo di esser inquisiti, fariano il medesimo. Si attende <lb/>all'amore, da chi deveria attendere, alle cose della Republi<lb break="no"/>ca, Ma gran contrasto in giovenil pensiero, desir di laude, et impe<lb break="no"/>to d'amore. Bacio le mani à Vostra Signoria la quale mi tenga in gratia sua <lb/>et della sua.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-saint-germain-des-pres">San Germano di Pre</placeName>. il di 28 ottobre</dateline>
+          <salute>Di Vostra Signoria Illustre</salute>
+          <signed>servitore <persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

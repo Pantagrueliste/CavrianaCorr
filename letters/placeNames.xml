@@ -1142,6 +1142,377 @@
           <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7024412</idno>
           <idno type="WIKIDATA" source="#wikidata">Q12560</idno>
         </place>
+        <place xml:id="place-angers">
+          <placeName type="historical" xml:lang="it">Angiers</placeName>
+          <placeName type="modern" xml:lang="fr">Angers</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Anjou</placeName>
+          <location>
+            <geo source="#wikidata">47.4711 -0.5519</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7008480</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q38380</idno>
+          <idno type="GEONAMES" source="#wikidata">3037656</idno>
+        </place>
+        <place xml:id="place-belle-ile">
+          <placeName type="historical" xml:lang="it">Bellile</placeName>
+          <placeName type="modern" xml:lang="fr">Belle-Île-en-Mer</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Brittany</placeName>
+          <location>
+            <geo source="#wikidata">47.3331 -3.1870</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q815838</idno>
+          <idno type="GEONAMES" source="#wikidata">3033682</idno>
+        </place>
+        <place xml:id="place-bologna">
+          <placeName type="modern" xml:lang="it">Bologna</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Emilia-Romagna</placeName>
+          <location>
+            <geo source="#wikidata">44.4939 11.3428</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7004847</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1891</idno>
+          <idno type="GEONAMES" source="#wikidata">6541998</idno>
+        </place>
+        <place xml:id="place-bourgogne">
+          <placeName type="historical" xml:lang="it">Borgogna</placeName>
+          <placeName type="modern" xml:lang="fr">Bourgogne</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Burgundy</placeName>
+          <location>
+            <geo source="#wikidata">47.0000 4.5000</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7029372</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1173</idno>
+          <idno type="GEONAMES" source="#wikidata">3030967</idno>
+        </place>
+        <place xml:id="place-calais">
+          <placeName type="historical" xml:lang="it">Cales</placeName>
+          <placeName type="modern" xml:lang="fr">Calais</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Picardy</placeName>
+          <location>
+            <geo source="#wikidata">50.9475 1.8556</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7009002</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q6454</idno>
+          <idno type="GEONAMES" source="#wikidata">3029162</idno>
+        </place>
+        <place xml:id="place-compiegne">
+          <placeName type="historical" xml:lang="it">Compiegna</placeName>
+          <placeName type="modern" xml:lang="fr">Compiègne</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Picardy</placeName>
+          <location>
+            <geo source="#wikidata">49.4142 2.8222</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7010575</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q180871</idno>
+          <idno type="GEONAMES" source="#wikidata">3024066</idno>
+        </place>
+        <place xml:id="place-dauphine">
+          <placeName type="historical" xml:lang="it">Delfinato</placeName>
+          <placeName type="historical" xml:lang="it">Dolfinato</placeName>
+          <placeName type="modern" xml:lang="fr">Dauphiné</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Dauphiné</placeName>
+          <location>
+            <geo source="#wikidata">45.3833 5.7333</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q151999</idno>
+        </place>
+        <place xml:id="place-la-ferte-bernard">
+          <placeName type="historical" xml:lang="it">Ferte Bernard</placeName>
+          <placeName type="modern" xml:lang="fr">La Ferté-Bernard</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Maine</placeName>
+          <location>
+            <geo source="#wikidata">48.1867 0.6544</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q749860</idno>
+          <idno type="GEONAMES" source="#wikidata">3009494</idno>
+        </place>
+        <place xml:id="place-foret-de-lyons">
+          <placeName type="historical" xml:lang="it">foresta di Lione</placeName>
+          <placeName type="modern" xml:lang="fr">Forêt de Lyons</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Normandy</placeName>
+          <location>
+            <geo source="#wikidata">49.4351 1.4203</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q3079040</idno>
+        </place>
+        <place xml:id="place-joinville">
+          <placeName type="historical" xml:lang="it">Gianvilla</placeName>
+          <placeName type="modern" xml:lang="fr">Joinville</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Champagne</placeName>
+          <location>
+            <geo source="#wikidata">48.4425 5.1381</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q817418</idno>
+          <idno type="GEONAMES" source="#wikidata">6454267</idno>
+        </place>
+        <place xml:id="place-gravelines">
+          <placeName type="historical" xml:lang="it">Gravelinga</placeName>
+          <placeName type="modern" xml:lang="fr">Gravelines</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Flanders</placeName>
+          <location>
+            <geo source="#wikidata">50.9864 2.1275</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q323399</idno>
+          <idno type="GEONAMES" source="#wikidata">3014816</idno>
+        </place>
+        <place xml:id="place-le-mans">
+          <placeName type="historical" xml:lang="it">Mans</placeName>
+          <placeName type="modern" xml:lang="fr">Le Mans</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Maine</placeName>
+          <location>
+            <geo source="#wikidata">48.0042 0.1969</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q1476</idno>
+          <idno type="GEONAMES" source="#wikidata">6456407</idno>
+        </place>
+        <place xml:id="place-massa">
+          <placeName type="modern" xml:lang="it">Massa</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Tuscany</placeName>
+          <location>
+            <geo source="#wikidata">44.0333 10.1333</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q13370</idno>
+          <idno type="GEONAMES" source="#wikidata">6542128</idno>
+        </place>
+        <place xml:id="place-mezieres">
+          <placeName type="historical" xml:lang="it">Mizieres</placeName>
+          <placeName type="historical" xml:lang="it">Mesieres</placeName>
+          <placeName type="modern" xml:lang="fr">Mézières</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Champagne</placeName>
+          <location>
+            <geo source="#wikidata">49.7609 4.7165</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q16011499</idno>
+        </place>
+        <place xml:id="place-mirandola">
+          <placeName type="modern" xml:lang="it">Mirandola</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Emilia-Romagna</placeName>
+          <location>
+            <geo source="#wikidata">44.8873 11.0660</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q100065</idno>
+          <idno type="GEONAMES" source="#wikidata">6538456</idno>
+        </place>
+        <place xml:id="place-montfaucon">
+          <placeName type="historical" xml:lang="it">Monfalcone</placeName>
+          <placeName type="modern" xml:lang="fr">Gibet de Montfaucon</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Paris</placeName>
+          <note>The gibbet of Montfaucon, north of sixteenth-century Paris. No identifier recorded: no matching authority item was confirmed.</note>
+        </place>
+        <place xml:id="place-montfort-lamaury">
+          <placeName type="historical" xml:lang="it">Monfort</placeName>
+          <placeName type="modern" xml:lang="fr">Montfort-l'Amaury</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Île-de-France</placeName>
+          <location>
+            <geo source="#wikidata">48.7772 1.8092</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q251655</idno>
+          <idno type="GEONAMES" source="#wikidata">6444033</idno>
+        </place>
+        <place xml:id="place-niort">
+          <placeName type="modern" xml:lang="fr">Niort</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Poitou</placeName>
+          <location>
+            <geo source="#wikidata">46.3250 -0.4622</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q184159</idno>
+          <idno type="GEONAMES" source="#wikidata">2990355</idno>
+        </place>
+        <place xml:id="place-orange">
+          <placeName type="historical" xml:lang="it">Oranges</placeName>
+          <placeName type="modern" xml:lang="fr">Orange</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Provence</placeName>
+          <location>
+            <geo source="#wikidata">44.1375 4.8089</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q187796</idno>
+          <idno type="GEONAMES" source="#wikidata">6451580</idno>
+        </place>
+        <place xml:id="place-pescia">
+          <placeName type="modern" xml:lang="it">Pescia</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Tuscany</placeName>
+          <location>
+            <geo source="#wikidata">43.9017 10.6898</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q102661</idno>
+          <idno type="GEONAMES" source="#wikidata">6539734</idno>
+        </place>
+        <place xml:id="place-reims">
+          <placeName type="historical" xml:lang="it">Rems</placeName>
+          <placeName type="modern" xml:lang="fr">Reims</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Champagne</placeName>
+          <location>
+            <geo source="#wikidata">49.2653 4.0286</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7011060</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q41876</idno>
+          <idno type="GEONAMES" source="#wikidata">2984114</idno>
+        </place>
+        <place xml:id="place-romagna">
+          <placeName type="modern" xml:lang="it">Romagna</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Romagna</placeName>
+          <location>
+            <geo source="#wikidata">44.1774 12.1248</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q244482</idno>
+        </place>
+        <place xml:id="place-savigliano">
+          <placeName type="modern" xml:lang="it">Savigliano</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Piedmont</placeName>
+          <location>
+            <geo source="#wikidata">44.6500 7.6333</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q20489</idno>
+          <idno type="GEONAMES" source="#wikidata">6540134</idno>
+        </place>
+        <place xml:id="place-solarolo">
+          <placeName type="historical" xml:lang="it">Solaroli</placeName>
+          <placeName type="modern" xml:lang="it">Solarolo</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Romagna</placeName>
+          <location>
+            <geo source="#wikidata">44.3667 11.8500</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q52991</idno>
+          <idno type="GEONAMES" source="#wikidata">6540437</idno>
+        </place>
+        <place xml:id="place-sommieres">
+          <placeName type="modern" xml:lang="fr">Sommières</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Languedoc</placeName>
+          <location>
+            <geo source="#wikidata">43.7844 4.0900</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q637676</idno>
+          <idno type="GEONAMES" source="#wikidata">2974273</idno>
+        </place>
+        <place xml:id="place-toulouse">
+          <placeName type="historical" xml:lang="it">Tholosa</placeName>
+          <placeName type="modern" xml:lang="fr">Toulouse</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Languedoc</placeName>
+          <location>
+            <geo source="#wikidata">43.6044 1.4433</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7008441</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q7880</idno>
+          <idno type="GEONAMES" source="#wikidata">2972315</idno>
+        </place>
+        <place xml:id="place-vincennes">
+          <placeName type="historical" xml:lang="it">Vicenne</placeName>
+          <placeName type="modern" xml:lang="fr">Vincennes</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Île-de-France</placeName>
+          <location>
+            <geo source="#wikidata">48.8478 2.4392</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q193819</idno>
+          <idno type="GEONAMES" source="#wikidata">2968054</idno>
+        </place>
+        <place xml:id="place-zeeland">
+          <placeName type="historical" xml:lang="it">Zelanda</placeName>
+          <placeName type="modern" xml:lang="nl">Zeeland</placeName>
+          <placeName type="country" xml:lang="en">Netherlands</placeName>
+          <placeName type="region" xml:lang="en">Zeeland</placeName>
+          <location>
+            <geo source="#wikidata">51.5667 3.7500</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7003635</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q705</idno>
+          <idno type="GEONAMES" source="#wikidata">2744011</idno>
+        </place>
+        <place xml:id="place-avignon">
+          <placeName type="historical" xml:lang="it">Avignone</placeName>
+          <placeName type="modern" xml:lang="fr">Avignon</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo source="#wikidata">43.9486 4.8083</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7008799</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q6397</idno>
+          <idno type="GEONAMES" source="#wikidata">3035681</idno>
+        </place>
+        <place xml:id="place-cafaggiolo">
+          <placeName type="historical" xml:lang="it">Cafagiuolo</placeName>
+          <placeName type="modern" xml:lang="it">Villa Medicea di Cafaggiolo</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Tuscany</placeName>
+          <location>
+            <geo source="#wikidata">43.9647 11.2952</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q1808591</idno>
+        </place>
+        <place xml:id="place-bearn">
+          <placeName type="historical" xml:lang="it">Biert</placeName>
+          <placeName type="modern" xml:lang="fr">Béarn</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo source="#wikidata">43.3 -0.3667</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q213763</idno>
+        </place>
+        <place xml:id="place-pyrenees">
+          <placeName type="historical" xml:lang="it">Pirenei</placeName>
+          <placeName type="modern" xml:lang="fr">Pyrénées</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo source="#wikidata">42.7 0.6</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7016876</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q12431</idno>
+          <idno type="GEONAMES" source="#wikidata">3112616</idno>
+        </place>
+        <place xml:id="place-eaux-chaudes">
+          <placeName type="historical" xml:lang="it">Aigues Caldes</placeName>
+          <placeName type="modern" xml:lang="fr">Eaux-Chaudes</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Béarn</placeName>
+          <location>
+            <geo source="#wikidata">42.9539 -0.4393</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q3046747</idno>
+        </place>
+        <place xml:id="place-alger">
+          <placeName type="historical" xml:lang="it">Algieri</placeName>
+          <placeName type="modern" xml:lang="en">Algiers</placeName>
+          <placeName type="country" xml:lang="en">Algeria</placeName>
+          <location>
+            <geo source="#wikidata">36.7764 3.0586</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7001314</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3561</idno>
+          <idno type="GEONAMES" source="#wikidata">2507480</idno>
+        </place>
+        <place xml:id="place-germania">
+          <placeName type="historical" xml:lang="it">Germania</placeName>
+          <placeName type="modern" xml:lang="en">Germany (the German lands of the Empire)</placeName>
+          <note type="identification">Named in the letter of 18 September 1571 in "l'Interim di Germania",
+            the Augsburg Interim of 1548. No identifier is given: the Wikidata item for Germany
+            (Q183) describes the modern state, not the German lands of the Holy Roman Empire.</note>
+        </place>
       </listPlace>
     </body>
   </text>

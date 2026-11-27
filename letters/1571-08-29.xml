@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Troilo Orsini, 29 August 1571</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Miscellanea Medicea</collection>
+            <idno>shelfmark to be confirmed</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus from="41r" to="41v">41r-41v</locus>
+              <title>Letter from Filippo Cavriana to Troilo Orsini</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">From the baths of Lucca, Cavriana recommends to Orsini his old friend the painter Benedetto Pagni of Pescia, who seeks a place at the Sapienza of Pisa for his son Nicolo, a poor student of law. He has already spoken of it to the knight Serguidi, who handles petitions.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-bagni-di-lucca">Bagni di Lucca</placeName>
+          <date when="1571-08-29">29 August 1571</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-orsini-t">Troilo Orsini</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-15"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener><salute><choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> signore</salute></opener>
+        <pb n="41r"/>
+        <p>Mi restano anchora gli ultimi accenti, delle dolcissime, et <lb/>amorevolissime parole di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice>, nelle orecchie. le quali <lb/>in me, hanno tanta forza. che ho preso ardire di suppli<lb break="no"/>carla. a favorire <choice><abbr>Ms</abbr><expan>Messer</expan></choice> <persName ref="#pers-pagni-b">Benedetto Pagni</persName> da <placeName ref="#place-pescia">Pescia</placeName>. mio <lb/>antiquo amico, appresso il serenissimo <persName ref="#pers-medici-fra-1">Prencipe</persName>. accio <lb/>che ottenga un luogo nella sapienza di <placeName ref="#place-pisa">Pisa</placeName>. per un <lb/>suo figliuolo. che con molta speranza. attende alli <lb/>studij di legge, ma per essere molto povero. conviemle <lb/>haver ricorso alla benignità di questo gran <persName ref="#pers-medici-fra-1">Prencipe</persName>. et <lb/>al favore di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice>, perche un suo cosi giusto, et ra<lb break="no"/>gionevole desiderio habbia luogo, del quale, havendone io <lb/>parlato al cavaglier <persName ref="#pers-serguidi-a">serguidi</persName>. a cui tocca la carica delle <lb/>suppliche. che per questo fatto. si porgono à sua <choice><abbr>Alt.</abbr><expan>Altezza</expan></choice> m' <lb/>ha promesso di tenerle la mano. perche il negotio. che, è, <lb/>assai facile. riesca come si desidera. Nondimeno temendo <lb/>io che la moltitudine delle cose, possa opprimere et estin<lb break="no"/>guere la memoria, di questo. ho voluto arditamente sup<lb break="no"/>plicare <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> che al <choice><abbr>pn̄te</abbr><expan>presente</expan></choice> latore. huomo da bene, et <pb n="41v"/> molto eccellente pittore, piaccia favorirlo si, che egli si senta <lb/>obligato, alla amorevolezza sua. et conosca insieme. che <lb/>egli, è, solamente Padre di natura a <persName ref="#pers-pagni-n">Nicolo</persName>. per cui <lb/>il luogo si ricerca, ma che <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> gli, è, padre <lb/>Padrone, et fautore, al ben essere, et al vivere nella <lb/>luce del mondo, nel quale potria un di questa tenera <lb/>pianta aiutata dalla mano di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Ill.ma</abbr><expan>Illustrissima</expan></choice> produr tali <lb/>frutti. che ella ne saria contentissima, d'haverla <lb/>posta al mondo. Io non sarò piu importuno, parendomi <lb/>che ella sappia. che nella bassa mia fortuna, <choice><abbr>nō</abbr><expan>non</expan></choice> ho altro <lb/>mezo costà, che lei, alla quale offero questo mio spirito, <lb/>poiche il corpo. et altri beni, <choice><abbr>nō</abbr><expan>non</expan></choice> sono atti a servirla, et <lb/>qui le bacio <choice><abbr>humilmēte</abbr><expan>humilmente</expan></choice> le mani, supplicandola à creder <lb/>che, non haverà mai servidore, piu divoto o affettionato <lb/>a lei di me. il <choice><abbr>S.</abbr><expan>Signor</expan></choice> Dio le doni l'integro de suoi <lb/>desiderij. Dalli <placeName ref="#place-bagni-di-lucca">bagni di Luca</placeName> il. 29. di Agosto <lb/>del LXXI</p>
+        <closer>
+          <salute>Di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> <choice><abbr>Illustriss.a</abbr><expan>Illustrissima</expan></choice></salute>
+          <signed><choice><abbr>affettion.mo</abbr><expan>affettionatissimo</expan></choice> servidore <persName ref="#pers-cavriana-f">Filippo cavriana</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Filippo Cavriana to Bartolomeo Concino, 25 October 1570</title>
+        <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+        <editor>Clément Godbarge</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <name>Clément Godbarge</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Clément Godbarge</publisher>
+        <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        <date>2026</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>Florence</placeName>
+            <repository>Archivio di Stato di Firenze</repository>
+            <collection>Mediceo del Principato</collection>
+            <idno>554</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <locus>final leaf of the letter, foliated 213 or 263 on the photograph</locus>
+              <title>Letter from Filippo Cavriana to Bartolomeo Concino</title>
+              <author ref="#pers-cavriana-f">Filippo Cavriana</author>
+              <textLang mainLang="it">Italian</textLang>
+              <note type="summary">Writing as Vincenzo da Castello, Cavriana reports the preparations for the royal wedding at Mézières, the rivalries of the great houses over the duchy of Brittany, and the ruinous cost of the festivities for a penniless court. He adds the proceedings against Monluc and asks Concino to press his admission to the Order of Santo Stefano.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="letter">
+              <layoutDesc>
+                <p>Single column</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>All places and persons are referenced from placeNames.xml and persNames.xml</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers-cavriana-f">Filippo Cavriana</persName>
+          <placeName ref="#place-paris">Parigi</placeName>
+          <date when="1570-10-25" cert="medium">25 October 1570</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers-concini-b" cert="low">Bartolomeo Concino</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-15"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="recto"/>
+        <p><gap reason="illegible"/> <lb/>subito non mi porsi in contrario, un fautore dell'<persName ref="#pers-coligny-g">ammiraglio</persName>, il quale fa star <lb/>lontani dalla corte tutti i miei, avanzando egli sempre i suoi, per vie <lb/>dirette et indirette; et perde non so che pensare, si come hanno <lb/>gli miei nipoti et parenti et fratelli, fa ogni di qualche atto disho<lb break="no"/>nesto et pregiudiciale alla corona. Ma se voi sapeste quello che si <lb/>contiene nelli articoli della pace, che non si sono però tutti publicati, <lb/>ben direste, dura sorte è quella di noi altri, con questi riguardi <lb/>et pensieri egli si vive, et serà anche più afflitto quando vedrà <lb/><persName ref="#">Mongiò</persName> domandi <persName ref="#pers-este-r">Madama di Ferrara</persName> <gap reason="illegible"/> sua figliuola <lb/><persName ref="#pers-este-anne">Madama di Nemours</persName> per troncare la lite che tra loro pende; et <lb/>il <persName ref="#pers-valois-ch-9">re</persName>, sopra il ducato di <placeName ref="#place-bretagne">Bertagna</placeName>; la quale credeva di <persName ref="#pers-lorraine-ch-card">Loreno</persName> <lb/>che dovesse venir al suo nipote Monsignor di <persName ref="#pers-guise-h">Ghisa</persName>; et però la sem<lb break="no"/>pre lusingando la madre. Ma il <persName ref="#pers-savoie-j-nem">duca di Nemours</persName> che ha cervello, <lb/>et è amato da tutti, si come è cavalliere <gap reason="illegible"/> et gentile <lb/>se li farà appropriare con bel modo, col mezzo della moglie sua, <lb/>che è l'idolo di <persName ref="#pers-este-r">Madama di Ferrara</persName> sua madre, et così quei <lb/>buon compagno serà escluso, il quale <gap reason="illegible"/> fino da suoi <lb/>fratelli et parenti <gap reason="illegible"/> che <gap reason="illegible"/> qua si è <lb/>detto, che il <persName ref="#pers-medici-cos-1">gran duca</persName> ha mandato in dono, alla <persName ref="#pers-habsburg-e">novella reina</persName> per 200 mila <lb/>scudi di broccato d'oro; cosa che ha messo, un desiderio grande a tutte le <lb/>gran dame di corte, et alle altre tutte, di haverne, che è stato, per <lb/>un pezzo, soggetto di ragionamento tra loro, il che mi è stato così caro di <lb/>haver udito, che non lo so scrivere. Lunedì partirà <persName ref="#pers-valois-h-3">Monsignore</persName> per le <lb/>poste, per andar a <placeName ref="#place-mezieres">Mizieres</placeName>, terra posta sulla Mosa, nella foresta di <lb/><placeName ref="#place-ardena">Ardenna</placeName>, dove arriverà la <persName ref="#pers-habsburg-e">futura reina</persName> mia, la quale da lui se<lb break="no"/>rà incontrata, et ricevuta, et il <persName ref="#pers-valois-ch-9">re</persName> la aspetterà a <placeName ref="#place-compiegne">Compiegna</placeName> in <lb/><placeName ref="#place-picardie">Piccardia</placeName>, dove si farà una rappresentatione di scaramuccia, da più <lb/>di 500 cavalli, molto pericolosa, se la si conduce, come si ha discorso, <lb/>dovendosi fare alla disperata, et venire al rincontro, nella maniera <lb/>accostumata de <rs ref="#place-fr" type="ethnic">francesi</rs>. <persName ref="#pers-gonzaga-l-nev">Nivers</persName>, <persName ref="#pers-savoie-j-nem">Nemors</persName>, <persName ref="#pers-guise-h">Ghisa</persName>, <persName ref="#pers-lorraine-ch-mayenne">Umena</persName>, <persName ref="#">Barbone</persName>, <persName ref="#pers-bourbon-fr-dauphin">pren<lb break="no"/>cipe Dolfino</persName>, <persName ref="#pers-orleans-l">Longavilla</persName>, tutti da una parte con 30 cavalli per cia<lb break="no"/>scuno, armati di pistolla, lancia, et stocco. Dalla altra serà il <persName ref="#pers-valois-ch-9">re</persName>, <lb/><persName ref="#pers-valois-h-3">Monsignore</persName>, <persName ref="#pers-valois-f-alen">Monsieur le Duc</persName>, il <persName ref="#pers-angouleme-h">gran bastardo</persName>, il <persName ref="#pers-lorraine-c">duca di Loreno</persName>, con <lb/>loro altri con pari numero; ma <persName ref="#pers-gonzaga-l-nev">Nevers</persName> et <persName ref="#pers-savoie-j-nem">Nemors</persName>, non combatterano, es<lb break="no"/>sendo indisposti di loro persone, si che, si spera, che si habbia à fare <lb/>qualche cosa inusitata, in queste nozze. Le quali sono la roina totale <lb/>di questi gentilhuomini, quanto alla spesa, percioche ne 'l <persName ref="#pers-valois-ch-9">re</persName> ha che po<lb break="no"/>ter dare, con tutti i modi trovati, di vendere uffitij, far monti, alienare <lb/>beni, et altre inventioni; ne la nobiltà ha più un soldo, con tutto que<pb n="verso" break="no"/>sto se la nova si publicasse, di andar, alla impresa di <placeName ref="#place-fiandra">Fiandra</placeName>, non dubito che <lb/>mancassero denari, per la guerra, cotanto è, ella desiderata da tutti; <lb/>et proposta, molte volte, al più grande, di questo regno, doppo la persona <lb/>del <persName ref="#pers-valois-ch-9">re</persName>. Le fanterie, che ritornavano di <placeName ref="#place-piemonte">Piemonte</placeName>, per non vi essere un <lb/>soldo da pagarle, si affermarono un pezzo in <placeName ref="#place-dauphine">Dolfinato</placeName>, a mangiare <lb/>il paese. Torno a replicare, che queste donne, ammirano la magnifi<lb break="no"/>cenza del <persName ref="#pers-medici-cos-1">gran duca</persName>, intorno al presente, mandato alla <persName ref="#pers-habsburg-e">futura mia reina</persName>, <lb/>et spesso dimandano chi sia questo <persName ref="#pers-medici-cos-1">gran duca</persName>; se gli è signore ordinario <lb/>o pure cosa nova; non si usando dalli altri prencipi, fare queste <lb/>si gran cose grandi di liberalità. <persName ref="#pers-montluc-b">Monluc</persName> bravo soldato, et nemico <lb/>delli <rs ref="#grp-hugonotti" type="group">ugonotti</rs>, et già governatore della <placeName ref="#place-guyenne">Ghienna</placeName>, paese verso <placeName ref="#place-gascogne">Guas<lb break="no"/>cogna</placeName>, è accusato de repetundis, con altri titoli, di cose infami, <lb/>il che lo farà divenire <rs ref="#grp-hugonotti" type="group">ugonotto</rs>, et col suo essempio, molti altri <lb/>ministri del <persName ref="#pers-valois-ch-9">re</persName>, <gap reason="illegible"/> quelli, si comincia a tenere <lb/>una secreta inquisitione del <gap reason="illegible"/> ogni cosa è qui carissima, ne <lb/>si può pigliare il vino, è ito a quaranta scudi il carro di <placeName ref="#place-lombardia">Lombar<lb break="no"/>dia</placeName>, cosa da non credere, che dispiacendo, può bevere modestamen<lb break="no"/>te un huomo al pasto; ne con tutto questo, si pon fine al spendere sregola<lb break="no"/>tamente. Io ho scritto molte volte à Vostra Signoria supplicandola, di <lb/>communicare le nove a sua altezza, così le prego che faccia, acciò io hab<lb break="no"/>bia un poco di adito, alla gratia di quel signore, dal quale aspetto <lb/>la gratia del habito, conforme alle mie provanze; et in ciò, supplico <lb/>Vostra Signoria a tenerle la mano, per la speditione, la quale, senza lei <lb/>Dio sà quando verrà mai; et si renda sicura, che non haverà mai <lb/>alcuna creatura sua, che più fedele le sia di me, ne che più si <lb/>goda de suoi favori <gap reason="illegible"/>, et qui le bacio le mani, desi<lb break="no"/>derando sapere se sua Altezza ha care, le nove che le scrivo, le <lb/>quali so che sono vere, essendo io nimico di bugie; et tiemmi <lb/>quel amico, che mi haveva promesso i capitoli della pace, dubitan<lb break="no"/>do, che non gli mandi fuori del regno, non me gli ha voluti da<lb break="no"/>re, pure, io ne cercherò una et più volte, per havergli; et gli manderò, <lb/>acciò si veggino i nostri guai, et roine vergognose; ribacio le <lb/>mani à Vostra Signoria col signor cavallier <persName ref="#pers-serguidi-a">Serguidi</persName>.</p>
+        <closer>
+          <dateline>Di <placeName ref="#place-paris">Parigi</placeName> il 25 di ottobre del 1570</dateline>
+          <salute>Di Vostra Signoria Illustre</salute>
+          <signed>Servitore perpetuamente obligato <lb/><persName ref="#pers-cavriana-f" type="alias">Vincenzo da Castello</persName></signed>
+        </closer>
+        <postscript>
+          <p>Il paese, è pure quieto, ne si dimanda <lb/>più cosa alcuna di religione; ma gli <lb/><rs ref="#grp-hugonotti" type="group">ugonotti</rs>, stanno <gap reason="illegible"/> armati; il <persName ref="#pers-lhospital-m">gran <lb/>cancelliere</persName>, non vuole ritornare in ufficio.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
