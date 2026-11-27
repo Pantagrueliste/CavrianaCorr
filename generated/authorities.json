@@ -62,6 +62,7 @@
   "1572-08-04": "1572-08-04",
   "1572-08-27": "1572-08-27",
   "1572-08-31": "1572-08-31",
+  "1572-10-19": "1572-10-19",
   "1572-10-23": "1572-10-23",
   "1572-11-04": "1572-11-04",
   "1572-11-20": "1572-11-20",
@@ -192,6 +193,11 @@
      "slug": "1572-03-19"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 2,
      "slug": "1572-11-21"
@@ -207,7 +213,7 @@
    "place": "place-england",
    "role": "people",
    "sortName": "English",
-   "total": 4,
+   "total": 5,
    "wikidata": "Q21"
   },
   "grp-french": {
@@ -434,6 +440,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 4,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 4,
      "slug": "1572-11-21"
@@ -454,7 +465,7 @@
    "place": "",
    "role": "confession",
    "sortName": "Huguenots",
-   "total": 55,
+   "total": 59,
    "wikidata": "Q101935"
   },
   "grp-italians": {
@@ -2046,6 +2057,11 @@
      "slug": "1572-08-31"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-10-23",
      "n": 1,
      "slug": "1572-10-23"
@@ -2096,7 +2112,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Cavriana, Filippo",
-   "total": 66,
+   "total": 67,
    "viaf": "",
    "wikidata": ""
   },
@@ -2431,6 +2447,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 5,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 3,
      "slug": "1572-11-21"
@@ -2451,7 +2472,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Coligny, Gaspard de",
-   "total": 55,
+   "total": 60,
    "viaf": "79105346",
    "wikidata": "Q204975"
   },
@@ -3516,6 +3537,11 @@
      "date": "1571-07-07",
      "n": 1,
      "slug": "1571-07-07"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "map": "10642",
@@ -3544,7 +3570,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Gondi, Albert de",
-   "total": 4,
+   "total": 5,
    "viaf": "89654338",
    "wikidata": "Q1968726"
   },
@@ -3573,6 +3599,11 @@
      "date": "1572-05-12",
      "n": 2,
      "slug": "1572-05-12"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "map": "17294",
@@ -3596,7 +3627,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Gontaut, Armand de",
-   "total": 3,
+   "total": 4,
    "viaf": "44293531",
    "wikidata": "Q678012"
   },
@@ -3817,6 +3848,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -3832,7 +3868,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Gonzaga, Luigi",
-   "total": 42,
+   "total": 43,
    "viaf": "66529198",
    "wikidata": "Q969113"
   },
@@ -4081,6 +4117,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1574-03-06",
      "n": 1,
      "slug": "1574-03-06"
@@ -4096,7 +4137,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Guise, Henri de",
-   "total": 36,
+   "total": 37,
    "viaf": "69048019",
    "wikidata": "Q313700"
   },
@@ -4266,6 +4307,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -4291,7 +4337,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Habsburg, Philippe (King of Spain)",
-   "total": 27,
+   "total": 28,
    "viaf": "88973996",
    "wikidata": "Q34417"
   },
@@ -4375,6 +4421,11 @@
      "slug": "1572-08-04"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-18",
      "n": 1,
      "slug": "1572-12-18"
@@ -4390,7 +4441,7 @@
    "roleTo": "1576",
    "roleType": "",
    "sortName": "Habsburg, Maximilian II",
-   "total": 19,
+   "total": 20,
    "viaf": "27863609",
    "wikidata": "Q150862"
   },
@@ -5347,6 +5398,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 6,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 4,
      "slug": "1572-11-21"
@@ -5383,7 +5439,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Caterina de'",
-   "total": 84,
+   "total": 90,
    "viaf": "4936327",
    "wikidata": "Q131552"
   },
@@ -5491,6 +5547,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 3,
      "slug": "1572-11-21"
@@ -5542,7 +5603,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Cosimo I de'",
-   "total": 45,
+   "total": 46,
    "viaf": "59259382",
    "wikidata": "Q48547"
   },
@@ -5927,6 +5988,11 @@
      "slug": "1572-03-08"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-01",
      "n": 1,
      "slug": "1572-12-01"
@@ -5998,7 +6064,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Montmorency, François de",
-   "total": 28,
+   "total": 30,
    "viaf": "67259075",
    "wikidata": "Q580292"
   },
@@ -6200,6 +6266,11 @@
      "date": "1572-08-27",
      "n": 2,
      "slug": "1572-08-27"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "map": "",
@@ -6212,7 +6283,7 @@
    "roleTo": "",
    "roleType": "stateCourtPersonnel",
    "sortName": "Morvillier, Jean de",
-   "total": 2,
+   "total": 3,
    "viaf": "89328652",
    "wikidata": "Q3175603"
   },
@@ -6316,6 +6387,11 @@
      "slug": "1572-02-06"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-01",
      "n": 1,
      "slug": "1572-12-01"
@@ -6341,7 +6417,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Nassau, Willem van",
-   "total": 11,
+   "total": 13,
    "viaf": "49260512",
    "wikidata": "Q78454"
   },
@@ -7039,6 +7115,11 @@
      "date": "1571-01-12",
      "n": 1,
      "slug": "1571-01-12"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
     }
    ],
    "map": "968",
@@ -7051,7 +7132,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Pfalz, Friedrich III von der",
-   "total": 6,
+   "total": 8,
    "viaf": "47559178",
    "wikidata": "Q62171"
   },
@@ -8021,6 +8102,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-18",
      "n": 1,
      "slug": "1572-12-18"
@@ -8036,7 +8122,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Saulx-Tavannes, Gaspard de",
-   "total": 4,
+   "total": 6,
    "viaf": "2578946",
    "wikidata": "Q563042"
   },
@@ -8146,6 +8232,11 @@
      "slug": "1572-08-04"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -8166,7 +8257,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Álvarez de Toledo, Fernando",
-   "total": 9,
+   "total": 11,
    "viaf": "20476873",
    "wikidata": "Q80847"
   },
@@ -8243,6 +8334,11 @@
      "slug": "1572-03-08"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 5,
      "slug": "1572-11-21"
@@ -8274,7 +8370,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Tudor, Elizabeth",
-   "total": 14,
+   "total": 16,
    "viaf": "73876780",
    "wikidata": "Q7207"
   },
@@ -8449,6 +8545,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 9,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 10,
      "slug": "1572-11-21"
@@ -8490,7 +8591,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Charles IX",
-   "total": 192,
+   "total": 201,
    "viaf": "59215242",
    "wikidata": "Q134309"
   },
@@ -8529,6 +8630,11 @@
      "slug": "1572-08-04"
     },
     {
+     "date": "1572-10-19",
+     "n": 3,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -8560,7 +8666,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, François de",
-   "total": 9,
+   "total": 12,
    "viaf": "88904698",
    "wikidata": "Q318380"
   },
@@ -8631,6 +8737,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-18",
      "n": 2,
      "slug": "1572-12-18"
@@ -8672,7 +8783,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Henri III",
-   "total": 29,
+   "total": 31,
    "viaf": "7398374",
    "wikidata": "Q53448"
   },
@@ -8831,6 +8942,11 @@
    "kind": "person",
    "letters": [
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-18",
      "n": 1,
      "slug": "1572-12-18"
@@ -8846,7 +8962,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Vitelli, Chiappino",
-   "total": 1,
+   "total": 2,
    "viaf": "80351947",
    "wikidata": "Q3667457"
   },
@@ -9984,6 +10100,11 @@
      "slug": "1572-03-19"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 2,
      "slug": "1572-11-21"
@@ -9994,7 +10115,7 @@
      "slug": "1572-12-01"
     }
    ],
-   "asPeopleTotal": 4,
+   "asPeopleTotal": 5,
    "country": "England",
    "geonames": "2649994",
    "historical": [
@@ -10034,6 +10155,11 @@
      "slug": "1572-05-12"
     },
     {
+     "date": "1572-10-19",
+     "n": 7,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 4,
      "slug": "1572-11-21"
@@ -10055,7 +10181,7 @@
    "scope": "country",
    "sortName": "England",
    "tgn": "7002445",
-   "total": 19,
+   "total": 26,
    "wikidata": "Q21"
   },
   "place-es": {
@@ -10146,6 +10272,11 @@
      "slug": "1572-08-04"
     },
     {
+     "date": "1572-10-19",
+     "n": 3,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 7,
      "slug": "1572-11-21"
@@ -10172,7 +10303,7 @@
    "scope": "country",
    "sortName": "Spain",
    "tgn": "1000095",
-   "total": 38,
+   "total": 41,
    "wikidata": "Q29"
   },
   "place-europe": {
@@ -10647,6 +10778,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 5,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 2,
      "slug": "1572-11-21"
@@ -10668,7 +10804,7 @@
    "scope": "country",
    "sortName": "France",
    "tgn": "1000070",
-   "total": 72,
+   "total": 77,
    "wikidata": "Q142"
   },
   "place-gascogne": {
@@ -10752,6 +10888,14 @@
    "wikidata": "Q1449"
   },
   "place-germania": {
+   "asPeople": [
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    }
+   ],
+   "asPeopleTotal": 1,
    "country": "",
    "geonames": "",
    "historical": [
@@ -10858,6 +11002,11 @@
    "lat": "52.2500",
    "letters": [
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-01",
      "n": 1,
      "slug": "1572-12-01"
@@ -10874,7 +11023,7 @@
    "scope": "",
    "sortName": "Holland",
    "tgn": "7263522",
-   "total": 2,
+   "total": 3,
    "wikidata": "Q102911"
   },
   "place-it": {
@@ -11010,6 +11159,11 @@
      "slug": "1572-08-04"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-07",
      "n": 1,
      "slug": "1572-12-07"
@@ -11021,7 +11175,7 @@
    "scope": "country",
    "sortName": "Italy",
    "tgn": "1000080",
-   "total": 26,
+   "total": 27,
    "wikidata": "Q38"
   },
   "place-joinville": {
@@ -11372,6 +11526,11 @@
      "date": "1571-09-18",
      "n": 1,
      "slug": "1571-09-18"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "lon": "4.8350",
@@ -11380,7 +11539,7 @@
    "scope": "",
    "sortName": "Lyon",
    "tgn": "8728756",
-   "total": 3,
+   "total": 4,
    "wikidata": "Q456"
   },
   "place-mantova": {
@@ -11694,6 +11853,11 @@
      "slug": "1570-08-17"
     },
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-18",
      "n": 1,
      "slug": "1572-12-18"
@@ -11705,7 +11869,7 @@
    "scope": "",
    "sortName": "Montauban",
    "tgn": "7008454",
-   "total": 2,
+   "total": 3,
    "wikidata": "Q172593"
   },
   "place-montereau": {
@@ -12046,6 +12210,11 @@
    "lat": "42.4400",
    "letters": [
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1574-03-06",
      "n": 1,
      "slug": "1574-03-06"
@@ -12057,7 +12226,7 @@
    "scope": "",
    "sortName": "Orbetello",
    "tgn": "7006176",
-   "total": 1,
+   "total": 2,
    "wikidata": "Q214849"
   },
   "place-orleans": {
@@ -12081,6 +12250,11 @@
      "date": "1572-08-27",
      "n": 1,
      "slug": "1572-08-27"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "lon": "1.9042",
@@ -12089,7 +12263,7 @@
    "scope": "",
    "sortName": "Orléans",
    "tgn": "7008337",
-   "total": 3,
+   "total": 4,
    "wikidata": "Q6548"
   },
   "place-ottoman": {
@@ -12317,6 +12491,11 @@
      "slug": "1572-08-31"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-10-23",
      "n": 1,
      "slug": "1572-10-23"
@@ -12368,7 +12547,7 @@
    "scope": "",
    "sortName": "Paris",
    "tgn": "7008038",
-   "total": 70,
+   "total": 72,
    "wikidata": "Q90"
   },
   "place-parma": {
@@ -12719,6 +12898,11 @@
    "lat": "42.3953",
    "letters": [
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1574-03-06",
      "n": 1,
      "slug": "1574-03-06"
@@ -12730,7 +12914,7 @@
    "scope": "",
    "sortName": "Porto Ercole",
    "tgn": "1046135",
-   "total": 1,
+   "total": 2,
    "wikidata": "Q1394400"
   },
   "place-portugal": {
@@ -12954,6 +13138,11 @@
      "slug": "1572-08-27"
     },
     {
+     "date": "1572-10-19",
+     "n": 2,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-11-21",
      "n": 2,
      "slug": "1572-11-21"
@@ -12980,7 +13169,7 @@
    "scope": "",
    "sortName": "La Rochelle",
    "tgn": "7009264",
-   "total": 26,
+   "total": 28,
    "wikidata": "Q82185"
   },
   "place-roma": {
@@ -13077,6 +13266,11 @@
      "date": "1571-07-10",
      "n": 1,
      "slug": "1571-07-10"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "lon": "1.0993",
@@ -13085,7 +13279,7 @@
    "scope": "",
    "sortName": "Rouen",
    "tgn": "7008929",
-   "total": 2,
+   "total": 3,
    "wikidata": "Q30974"
   },
   "place-saint-germain-des-pres": {
@@ -13639,6 +13833,11 @@
      "date": "1570-10-28",
      "n": 1,
      "slug": "1570-10-28"
+    },
+    {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
     }
    ],
    "lon": "1.4433",
@@ -13647,7 +13846,7 @@
    "scope": "",
    "sortName": "Toulouse",
    "tgn": "7008441",
-   "total": 1,
+   "total": 2,
    "wikidata": "Q7880"
   },
   "place-trento": {
@@ -13831,6 +14030,11 @@
    "lat": "51.5667",
    "letters": [
     {
+     "date": "1572-10-19",
+     "n": 1,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-12-18",
      "n": 1,
      "slug": "1572-12-18"
@@ -13842,7 +14046,7 @@
    "scope": "",
    "sortName": "Zeeland",
    "tgn": "7003635",
-   "total": 1,
+   "total": 2,
    "wikidata": "Q705"
   }
  },
@@ -14046,6 +14250,11 @@
    ],
    "letters": [
     {
+     "date": "1572-10-19",
+     "days": -18,
+     "slug": "1572-10-19"
+    },
+    {
      "date": "1572-10-23",
      "days": -14,
      "slug": "1572-10-23"
@@ -14100,6 +14309,11 @@
     "Siege of Sancerre"
    ],
    "letters": [
+    {
+     "date": "1572-10-19",
+     "days": -21,
+     "slug": "1572-10-19"
+    },
     {
      "date": "1572-10-23",
      "days": -17,
@@ -14578,16 +14792,16 @@
    "slug": "1572-08-31"
   },
   {
+   "date": "1572-10-19",
+   "label": "Paris",
+   "place": "place-paris",
+   "slug": "1572-10-19"
+  },
+  {
    "date": "1572-10-23",
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1572-10-23"
-  },
-  {
-   "date": "1572-10-29",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-10-29"
   },
   {
    "date": "1572-11-04",
@@ -14643,7 +14857,7 @@
   "cipherGroups": 311,
   "firstYear": 1568,
   "lastYear": 1574,
-  "transcribed": 72,
-  "words": 57791
+  "transcribed": 73,
+  "words": 59854
  }
 }
