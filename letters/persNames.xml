@@ -1481,6 +1481,24 @@
           <idno type="WIKIDATA" source="#wikidata">Q237737</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Tiziano Vecellio - Bildnis der Erzherzogin Katharina von Österreich.jpg</idno>
         </person>
+        <person xml:id="pers-medici-fra-1">
+          <persName>Francesco I de' Medici</persName>
+          <persName type="sort">Medici, Francesco I de'</persName>
+          <sex value="male"/>
+          <birth when="1541-03-25">1541-03-25</birth>
+          <death when="1587-10-19">1587-10-19</death>
+          <occupation type="nobility" from="1564">Prince Regent of Tuscany</occupation>
+          <occupation type="nobility" from="1574">Grand Duke of Tuscany</occupation>
+          <note>Son of Cosimo I. Called il Prencipe in the letters before his accession in April 1574.</note>
+        </person>
+        <person xml:id="pers-gianetti-gm">
+          <persName>Giovan Maria Gianetti</persName>
+          <persName type="sort">Gianetti, Giovan Maria</persName>
+          <sex value="male"/>
+          <occupation>Servant of Troilo Orsini</occupation>
+          <note type="identification">Unidentified. Named once, in the letter of 30 August 1571, as
+            the servant of Troilo Orsini who brought Orsini's greetings to Cavriana at Lucca.</note>
+        </person>
       </listPerson>
     </body>
   </text>

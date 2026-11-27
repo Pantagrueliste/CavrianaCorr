@@ -26,7 +26,7 @@ pers-bourbonvendome-l3,person,Louis III de Bourbon-Vendôme,"Bourbon-Vendôme, L
 pers-briquemault-f,person,François de Beauvais,"Beauvais, François de (Seigneur de Briquemault)",c. 1502,1572,,Q96244832,32914,,,,,,1,1
 pers-caan,person,Caan,Caan,,,,,,,,,,,1,1
 pers-castellan-h,person,Honoré Castellan,"Castellan, Honoré",,,,,,,,,,,1,1
-pers-cavriana-f,person,Filippo Cavriana,"Cavriana, Filippo",,,,,,,,,,,58,55
+pers-cavriana-f,person,Filippo Cavriana,"Cavriana, Filippo",,,,,,,,,,,61,58
 pers-charite-h,person,Hugues de La Charité,"La Charité, Hugues de",,,,,,,,,,,0,0
 pers-cleves-h,person,Henriette de Clèves,"Clèves, Henriette de",1542-10-31,1601-06-24,4552150203822803250006,Q289646,4802,,,,,,4,3
 pers-coligny-g,person,Gaspard de Coligny,"Coligny, Gaspard de",1519-02-16,1572-08-24,79105346,Q204975,1461,,,,,,27,14
@@ -47,6 +47,7 @@ pers-farnese-a-card,person,Alessandro Farnese,"Farnese, Alessandro",1520-10-07,1
 pers-france-c,person,Claude de France,"France, Claude de",1547-11-12,1575-02-21,305115069,Q242336,3108,,,,,,2,2
 pers-galeazzosanseverino-g,person,Gian Galeazzo Sanseverino,"Sanseverino, Gian Galeazzo",1527,1575,,,19477,,,,,,2,2
 pers-gianella,person,Gianella,Gianella,,,,,,,,,,,1,1
+pers-gianetti-gm,person,Giovan Maria Gianetti,"Gianetti, Giovan Maria",,,,,,,,,,,1,1
 pers-gondi-albert,person,Albert de Gondi,"Gondi, Albert de",1522-11-04,1602-04-12,89654338,Q1968726,10642,,,,,,4,4
 pers-gontaut-a,person,Armand de Gontaut,"Gontaut, Armand de",1524,1592,44293531,Q678012,17294,,,,,,3,2
 pers-gonzaga-gugl,person,Guglielmo Gonzaga,"Gonzaga, Guglielmo",1538,1587,,Q935424,826,,,,,,0,0
@@ -75,8 +76,9 @@ pers-lorraine-h2,person,Henri II de Lorraine,"Lorraine, Henri II de",1563-11-08,
 pers-maldonado-j,person,Juan Maldonado,"Maldonado, Juan",1533,1583-01-05,44310930,Q352804,20786,,,,,,3,1
 pers-mauvissiere,person,Michel de Castelnau,"Castelnau, Michel de",1520,1592,7396729,Q599082,,,,,,,2,1
 pers-medici-cat,person,Caterina de' Medici,"Medici, Caterina de'",1519,1589,4936327,Q131552,348,,,,,,58,20
-pers-medici-cos-1,person,Cosimo I de' Medici,"Medici, Cosimo I de'",1519,1574,59259382,Q48547,203,,,,,,36,14
+pers-medici-cos-1,person,Cosimo I de' Medici,"Medici, Cosimo I de'",1519,1574,59259382,Q48547,203,,,,,,37,15
 pers-medici-fer,person,Ferdinando de' Medici,"Medici, Ferdinando de'",1549-07-30,1609-02-17,100212180,Q297483,325,,,,,,4,2
+pers-medici-fra-1,person,Francesco I de' Medici,"Medici, Francesco I de'",1541-03-25,1587-10-19,,,,,,,,,1,1
 pers-medici-giovanna,person,Giovanna d'Austria,"Habsburg, Giovanna d'Austria",1547-01-24,1578-04-11,43563321,Q84459,,,,,,,0,0
 pers-michiel-g,person,Giovanni Michiel,"Michiel, Giovanni",1516,1596,,Q110269977,23349,,,,,,1,1
 pers-montluc-b,person,Blaise de Montluc,"Montluc, Blaise de",,,7394560,Q378025,,,,,,,4,4
@@ -129,7 +131,7 @@ place-angrogna,place,Angrogna,Angrogna,,,,Q9004,,,1043222,6543041,44.8167,7.1833
 place-anjou,place,Anjou,Anjou,,,,Q107426,,,,,47.4667,-0.5500,1,1
 place-ardena,place,Ardennes,Ardennes,,,,Q151985,,,,2803095,50.2500,5.6667,1,1
 place-auxerre,place,Auxerre,Auxerre,,,,Q167600,,,7013341,3035843,47.7982,3.5733,1,1
-place-bagni-di-lucca,place,Bagni di Lucca,Bagni di Lucca,,,,Q216399,,,7006075,6539959,44.0117,10.5829,4,3
+place-bagni-di-lucca,place,Bagni di Lucca,Bagni di Lucca,,,,Q216399,,,7006075,6539959,44.0117,10.5829,6,5
 place-bar-sur-aube,place,Bar-sur-Aube,Bar-sur-Aube,,,,Q209093,,,7008984,3034802,48.2373,4.1540,1,1
 place-baviera,place,Bavaria,Bavaria,,,,Q980,,,7003669,2951839,49.0786,11.3856,2,2
 place-blois,place,Blois,Blois,,,,Q160927,,,7008320,3032213,47.5931,1.3272,5,5
@@ -151,7 +153,7 @@ place-es,place,Spain,Spain,,,,Q29,,,1000095,2510769,40.2000,-3.5000,37,11
 place-europe,place,Europe,Europe,,,,Q46,,,1000003,6255148,53.5000,15.5000,1,1
 place-ferrara,place,Ferrara,Ferrara,,,,Q13362,,,7004264,6542120,44.8392,11.6175,9,7
 place-fiandra,place,Flanders,Flanders,,,,Q234,,,7024097,3337388,51.0000,4.5000,12,6
-place-firenze,place,Florence,Florence,,,,Q2044,,,7000457,6542285,43.7696,11.2558,10,7
+place-firenze,place,Florence,Florence,,,,Q2044,,,7000457,6542285,43.7696,11.2558,11,8
 place-flesinga,place,Vlissingen,Vlissingen,,,,Q10084,,,7006750,2745391,51.4428,3.5731,1,1
 place-fr,place,France,France,,,,Q142,,,1000070,3017382,47.0000,2.0000,51,20
 place-gascogne,place,Gascogne,Gascogne,,,,Q191085,,,,,44.0000,-0.5000,3,2
@@ -168,12 +170,13 @@ place-limousin,place,Limousin,Limousin,,,,Q1190,,,7001095,2998268,45.6880,1.6205
 place-livorno,place,Livorno,Livorno,,,,Q6761,,,7006074,6540122,43.5485,10.3106,1,1
 place-lombardia,place,Lombardia,Lombardia,,,,Q1210,,,7003237,3174618,45.4700,9.2050,2,1
 place-lorraine,place,Lorraine,Lorraine,,,,Q1137,,,7002888,2997551,48.6937,6.1834,5,3
-place-lucca,place,Lucca,Lucca,,,,Q13373,,,7003165,6542121,43.8430,10.5077,1,1
+place-lucca,place,Lucca,Lucca,,,,Q13373,,,7003165,6542121,43.8430,10.5077,3,2
 place-luxembourg,place,Luxembourg,Luxembourg,,,,Q1842,,,7006254,2960316,49.6117,6.1300,1,1
 place-lyon,place,Lyon,Lyon,,,,Q456,,,8728756,2996944,45.7675,4.8350,2,2
 place-mantova,place,Mantova,Mantova,,,,Q6247,,,7005879,6541855,45.1563,10.7914,3,3
 place-marne,place,Marna,Marna,,,,,,,,,49.0097,4.0367,1,1
 place-marseille,place,Marseille,Marseille,,,,Q23482,,,7008781,2995469,43.2965,5.3698,1,1
+place-massa,place,Massa,Massa,,,,,,,,,44.0354,10.1393,1,1
 place-metz,place,Metz,Metz,,,,Q22690,,,7008418,2994160,49.1193,6.1757,1,1
 place-milano,place,Milano,Milano,,,,Q490,,,7005903,3173435,45.4642,9.1900,2,2
 place-monceau,place,Monceau,Monceau,,,,,,,7249203,,48.8519,3.0036,1,1

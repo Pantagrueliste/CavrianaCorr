@@ -1142,6 +1142,15 @@
           <idno type="TGN" source="#getty">http://vocab.getty.edu/tgn/7024412</idno>
           <idno type="WIKIDATA" source="#wikidata">Q12560</idno>
         </place>
+        <place xml:id="place-massa">
+          <placeName xml:lang="it">Massa</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Tuscany</placeName>
+          <location>
+            <geo>44.0354 10.1393</geo>
+          </location>
+          <note>Seat of the Cybo-Malaspina marquisate in the sixteenth century, outside the Medici state. Cavriana passes through it in August 1571 on his way to embark for France.</note>
+        </place>
       </listPlace>
     </body>
   </text>
