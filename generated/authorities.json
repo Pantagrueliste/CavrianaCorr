@@ -39,7 +39,10 @@
   "1571-06-27": "1571-06-27",
   "1571-07-07": "1571-07-07",
   "1571-07-15": "1571-07-15",
+  "1571-07-15-b": "1571-07-15",
+  "1571-08-08": "1571-08-08",
   "1571-08-14": "1571-08-14",
+  "1571-08-30": "1571-08-30",
   "1572-02-06": "1572-02-06",
   "1572-02-12": "1572-02-12",
   "1572-03-08": "1572-03-08",
@@ -1454,6 +1457,21 @@
      "slug": "1571-07-15"
     },
     {
+     "date": "1571-07-15",
+     "n": 1,
+     "slug": "1571-07-15-b"
+    },
+    {
+     "date": "1571-08-08",
+     "n": 1,
+     "slug": "1571-08-08"
+    },
+    {
+     "date": "1571-08-30",
+     "n": 1,
+     "slug": "1571-08-30"
+    },
+    {
      "date": "1572-02-06",
      "n": 1,
      "slug": "1572-02-06"
@@ -1559,7 +1577,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Cavriana, Filippo",
-   "total": 58,
+   "total": 61,
    "viaf": "",
    "wikidata": ""
   },
@@ -3991,6 +4009,11 @@
      "slug": "1571-04-19"
     },
     {
+     "date": "1571-08-30",
+     "n": 1,
+     "slug": "1571-08-30"
+    },
+    {
      "date": "1572-03-08",
      "n": 4,
      "slug": "1572-03-08"
@@ -4052,7 +4075,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Cosimo I de'",
-   "total": 36,
+   "total": 37,
    "viaf": "59259382",
    "wikidata": "Q48547"
   },
@@ -6705,6 +6728,16 @@
      "date": "1571-07-15",
      "n": 1,
      "slug": "1571-07-15"
+    },
+    {
+     "date": "1571-07-15",
+     "n": 1,
+     "slug": "1571-07-15-b"
+    },
+    {
+     "date": "1571-08-08",
+     "n": 1,
+     "slug": "1571-08-08"
     }
    ],
    "lon": "10.5829",
@@ -6713,7 +6746,7 @@
    "scope": "",
    "sortName": "Bagni di Lucca",
    "tgn": "7006075",
-   "total": 4,
+   "total": 6,
    "wikidata": "Q216399"
   },
   "place-bar-sur-aube": {
@@ -7511,6 +7544,11 @@
      "slug": "1571-08-14"
     },
     {
+     "date": "1571-08-30",
+     "n": 1,
+     "slug": "1571-08-30"
+    },
+    {
      "date": "1572-03-08",
      "n": 1,
      "slug": "1572-03-08"
@@ -7537,7 +7575,7 @@
    "scope": "",
    "sortName": "Florence",
    "tgn": "7000457",
-   "total": 10,
+   "total": 11,
    "wikidata": "Q2044"
   },
   "place-flesinga": {
@@ -8247,6 +8285,11 @@
      "date": "1568-07-24",
      "n": 1,
      "slug": "1568-07-24"
+    },
+    {
+     "date": "1571-08-30",
+     "n": 2,
+     "slug": "1571-08-30"
     }
    ],
    "lon": "10.5077",
@@ -8255,7 +8298,7 @@
    "scope": "",
    "sortName": "Lucca",
    "tgn": "7003165",
-   "total": 1,
+   "total": 3,
    "wikidata": "Q13373"
   },
   "place-luxembourg": {
@@ -10559,12 +10602,6 @@
  ],
  "itinerary": [
   {
-   "date": "1566-12-31",
-   "label": "Mantua",
-   "place": "place-mantova",
-   "slug": "1566-12-31"
-  },
-  {
    "date": "1568-04-06",
    "label": "Nevers",
    "place": "place-nevers",
@@ -10625,34 +10662,16 @@
    "slug": "1569-01-03"
   },
   {
-   "date": "1569-03-11",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1569-03-11"
-  },
-  {
    "date": "1569-11-29",
    "label": "Ancona",
    "place": "place-ancona",
    "slug": "1569-11-29"
   },
   {
-   "date": "1569-12-09",
-   "label": "Ancona",
-   "place": "place-ancona",
-   "slug": "1569-12-09"
-  },
-  {
    "date": "1569-12-21",
    "label": "Mantova",
    "place": "place-mantova",
    "slug": "1569-12-21"
-  },
-  {
-   "date": "1569-12-31",
-   "label": "Mantova",
-   "place": "place-mantova",
-   "slug": "1569-12-31"
   },
   {
    "date": "1570-01-01",
@@ -10667,22 +10686,10 @@
    "slug": "1570-03-20"
   },
   {
-   "date": "1570-03-30",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-03-30"
-  },
-  {
    "date": "1570-05-20",
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1570-05-20"
-  },
-  {
-   "date": "1570-05-30",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-05-30"
   },
   {
    "date": "1570-07-15",
@@ -10706,18 +10713,6 @@
    "date": "1570-08-08",
    "label": "Saint-Germain-en-Laye",
    "place": "place-saint-germain-en-laye",
-   "slug": "1570-08-08"
-  },
-  {
-   "date": "1570-08-08",
-   "label": "Saint-Germain-en-Laye",
-   "place": "place-saint-germain-en-laye",
-   "slug": "1570-08-08-b"
-  },
-  {
-   "date": "1570-08-08",
-   "label": "Saint-Germain-en-Laye",
-   "place": "place-saint-germain-en-laye",
    "slug": "1570-08-08-c"
   },
   {
@@ -10725,12 +10720,6 @@
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1570-08-17"
-  },
-  {
-   "date": "1570-08-27",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-08-27"
   },
   {
    "date": "1570-08-30",
@@ -10757,46 +10746,16 @@
    "slug": "1570-09-14"
   },
   {
-   "date": "1570-09-24",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-09-24"
-  },
-  {
    "date": "1570-10-03",
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1570-10-03"
   },
   {
-   "date": "1570-10-09",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-10-09"
-  },
-  {
    "date": "1570-10-13",
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1570-10-13"
-  },
-  {
-   "date": "1570-10-23",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-10-23"
-  },
-  {
-   "date": "1570-10-23",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-10-23-b"
-  },
-  {
-   "date": "1570-10-23",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1570-10-23-c"
   },
   {
    "date": "1570-11-02",
@@ -10847,24 +10806,6 @@
    "slug": "1570-11-09-b"
   },
   {
-   "date": "1570-11-12",
-   "label": "Saint-Germain-des-Prés",
-   "place": "place-saint-germain-des-pres",
-   "slug": "1570-11-12"
-  },
-  {
-   "date": "1570-11-12",
-   "label": "Saint-Germain-des-Prés",
-   "place": "place-saint-germain-des-pres",
-   "slug": "1570-11-12-b"
-  },
-  {
-   "date": "1570-11-12",
-   "label": "Saint-Germain-des-Prés",
-   "place": "place-saint-germain-des-pres",
-   "slug": "1570-11-12-c"
-  },
-  {
    "date": "1571-01-12",
    "label": "Parigi",
    "place": "place-paris",
@@ -10883,12 +10824,6 @@
    "slug": "1571-01-26"
   },
   {
-   "date": "1571-02-05",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-02-05"
-  },
-  {
    "date": "1571-02-06",
    "label": "Parigi",
    "place": "place-paris",
@@ -10901,18 +10836,6 @@
    "slug": "1571-03-31"
   },
   {
-   "date": "1571-04-10",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-04-10"
-  },
-  {
-   "date": "1571-04-11",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-04-11"
-  },
-  {
    "date": "1571-04-18",
    "label": "Parigi",
    "place": "place-paris",
@@ -10923,18 +10846,6 @@
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1571-04-19"
-  },
-  {
-   "date": "1571-04-28",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-04-28"
-  },
-  {
-   "date": "1571-06-02",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-06-02"
   },
   {
    "date": "1571-06-02",
@@ -10967,6 +10878,12 @@
    "slug": "1571-07-15"
   },
   {
+   "date": "1571-07-15",
+   "label": "Bagni di Lucca",
+   "place": "place-bagni-di-lucca",
+   "slug": "1571-07-15-b"
+  },
+  {
    "date": "1571-07-17",
    "label": "Bagni di Lucca",
    "place": "place-bagni-di-lucca",
@@ -10985,40 +10902,16 @@
    "slug": "1571-08-14"
   },
   {
-   "date": "1571-08-24",
-   "label": "Florence",
-   "place": "place-firenze",
-   "slug": "1571-08-24"
+   "date": "1571-08-30",
+   "label": "Lucca",
+   "place": "place-lucca",
+   "slug": "1571-08-30"
   },
   {
    "date": "1571-09-28",
    "label": "Vienne",
    "place": "place-vienne",
    "slug": "1571-09-28"
-  },
-  {
-   "date": "1571-11-04",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-11-04"
-  },
-  {
-   "date": "1571-12-08",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-12-08"
-  },
-  {
-   "date": "1571-12-11",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-12-11"
-  },
-  {
-   "date": "1572-01-22",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-01-22"
   },
   {
    "date": "1572-02-06",
@@ -11045,28 +10938,10 @@
    "slug": "1572-03-19"
   },
   {
-   "date": "1572-03-29",
-   "label": "Blois",
-   "place": "place-blois",
-   "slug": "1572-03-29"
-  },
-  {
-   "date": "1572-04-17",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-04-17"
-  },
-  {
    "date": "1572-04-22",
    "label": "Bles",
    "place": "place-blois",
    "slug": "1572-04-22"
-  },
-  {
-   "date": "1572-05-02",
-   "label": "Blois",
-   "place": "place-blois",
-   "slug": "1572-05-02"
   },
   {
    "date": "1572-05-12",
@@ -11079,24 +10954,6 @@
    "label": "Bles",
    "place": "place-blois",
    "slug": "1572-05-28"
-  },
-  {
-   "date": "1572-06-07",
-   "label": "Blois",
-   "place": "place-blois",
-   "slug": "1572-06-07"
-  },
-  {
-   "date": "1572-06-12",
-   "label": "Blois",
-   "place": "place-blois",
-   "slug": "1572-06-12"
-  },
-  {
-   "date": "1572-06-13",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-06-13"
   },
   {
    "date": "1572-07-04",
@@ -11117,28 +10974,10 @@
    "slug": "1572-07-19"
   },
   {
-   "date": "1572-07-22",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-07-22"
-  },
-  {
-   "date": "1572-07-29",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-07-29"
-  },
-  {
    "date": "1572-08-04",
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1572-08-04"
-  },
-  {
-   "date": "1572-08-13",
-   "label": "Blois",
-   "place": "place-blois",
-   "slug": "1572-08-13"
   },
   {
    "date": "1572-08-27",
@@ -11153,12 +10992,6 @@
    "slug": "1572-08-31"
   },
   {
-   "date": "1572-09-10",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-09-10"
-  },
-  {
    "date": "1572-10-23",
    "label": "Parigi",
    "place": "place-paris",
@@ -11169,12 +11002,6 @@
    "label": "Paris",
    "place": "place-paris",
    "slug": "1572-10-29"
-  },
-  {
-   "date": "1572-11-02",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-11-02"
   },
   {
    "date": "1572-11-04",
@@ -11201,12 +11028,6 @@
    "slug": "1572-11-27"
   },
   {
-   "date": "1572-11-30",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-11-30"
-  },
-  {
    "date": "1572-12-01",
    "label": "Parigi",
    "place": "place-paris",
@@ -11219,28 +11040,10 @@
    "slug": "1572-12-07"
   },
   {
-   "date": "1572-12-15",
-   "label": "Blois",
-   "place": "place-blois",
-   "slug": "1572-12-15"
-  },
-  {
-   "date": "1572-12-17",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-12-17"
-  },
-  {
    "date": "1572-12-18",
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1572-12-18"
-  },
-  {
-   "date": "1572-12-28",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1572-12-28"
   },
   {
    "date": "1574-03-06",
@@ -11250,11 +11053,11 @@
   }
  ],
  "stats": {
-  "catalogued": 115,
+  "catalogued": 75,
   "cipherGroups": 258,
-  "firstYear": 1566,
+  "firstYear": 1568,
   "lastYear": 1574,
-  "transcribed": 62,
-  "words": 46383
+  "transcribed": 65,
+  "words": 47885
  }
 }
