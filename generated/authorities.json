@@ -14468,12 +14468,6 @@
    "slug": "1569-12-21"
   },
   {
-   "date": "1570-01-01",
-   "label": "",
-   "place": "",
-   "slug": "1570-02-06"
-  },
-  {
    "date": "1570-03-20",
    "label": "Parigi",
    "place": "place-paris",
@@ -14646,12 +14640,6 @@
    "label": "Parigi",
    "place": "place-paris",
    "slug": "1571-04-19"
-  },
-  {
-   "date": "1571-06-02",
-   "label": "Paris",
-   "place": "place-paris",
-   "slug": "1571-06-02-b"
   },
   {
    "date": "1571-06-27",
@@ -14853,11 +14841,11 @@
   }
  ],
  "stats": {
-  "catalogued": 76,
+  "catalogued": 74,
   "cipherGroups": 311,
   "firstYear": 1568,
   "lastYear": 1574,
-  "transcribed": 73,
-  "words": 59854
+  "transcribed": 72,
+  "words": 59494
  }
 }
