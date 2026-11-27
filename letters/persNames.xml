@@ -1481,6 +1481,502 @@
           <idno type="WIKIDATA" source="#wikidata">Q237737</idno>
           <idno type="WIKIMEDIA_IMAGE" source="#wikidata">Tiziano Vecellio - Bildnis der Erzherzogin Katharina von Österreich.jpg</idno>
         </person>
+        <person xml:id="pers-gianetti-gm">
+          <persName>Giovan Maria Gianetti</persName>
+          <persName type="sort">Gianetti, Giovan Maria</persName>
+          <sex value="male"/>
+          <occupation>Servant of Troilo Orsini</occupation>
+          <note type="identification">Unidentified. Named once, in the letter of 30 August 1571
+            to Troilo Orsini, as "Giovan Maria Gianetti servitore di V.S. Illustrissima": he
+            reached Lucca on 29 August, greeted Cavriana in Orsini's name and told him that
+            Orsini had been sorry to see him leave Florence so abruptly. Nothing else is known.
+            The surname is a doubtful reading: the top of fol. 43r is blurred on the only
+            photograph, and the forenames are clear where the surname is not (Gianetti,
+            Giannetti or Ginetti are all possible). Not found under any of these forms in the
+            sender indexes of the printed inventories of the Carteggio universale di Cosimo I,
+            vols. XIV to XVI (1567-1574). The Medici Archive (MIA, person search, 16 November
+            2026) has no Giovan Maria under Gianetti, Giannetti, Ginetti, Zanetti or Giannotti;
+            its only Gianetti of these years are Antonio Giannetti "del Mucione" (d. 1554) and
+            Filippo Gianetti del Muccione (active 1564-1588). The Orsini papers have not been
+            searched.</note>
+        </person>
+        <person xml:id="pers-medici-fra-1">
+          <persName>Francesco I de' Medici</persName>
+          <persName type="sort">Medici, Francesco I de'</persName>
+          <persName type="alias">Prencipe</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Prince Regent of Tuscany from 1564, Grand Duke from 1574</occupation>
+          <idno type="VIAF" source="#wikidata">44408372</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q299675</idno>
+          <birth when="1541" source="#wikidata">1541</birth>
+          <death when="1587" source="#wikidata">1587</death>
+        </person>
+        <person xml:id="pers-este-anne">
+          <persName>Anne d'Este</persName>
+          <persName type="sort">Este, Anne d'</persName>
+          <persName type="alias">Madama di Nemours</persName>
+          <persName type="alias">Madama di Nemors</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Duchess of Guise, then of Nemours</occupation>
+          <idno type="VIAF" source="#wikidata">14927192</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q563705</idno>
+          <birth when="1531" source="#wikidata">1531</birth>
+          <death when="1607" source="#wikidata">1607</death>
+        </person>
+        <person xml:id="pers-coligny-odet">
+          <persName>Odet de Coligny</persName>
+          <persName type="sort">Coligny, Odet de (Cardinal of Châtillon)</persName>
+          <persName type="alias">cardinale Ciastiglione</persName>
+          <persName type="alias">Cardinal Sciatiglione</persName>
+          <persName type="alias">Cardinale Sciattiglione</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Cardinal of Châtillon</occupation>
+          <idno type="VIAF" source="#wikidata">34448016</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q964196</idno>
+          <birth when="1517" source="#wikidata">1517</birth>
+          <death when="1571" source="#wikidata">1571</death>
+        </person>
+        <person xml:id="pers-montmorency-anne">
+          <persName>Anne de Montmorency</persName>
+          <persName type="sort">Montmorency, Anne de</persName>
+          <persName type="alias">Connestabile</persName>
+          <sex value="male"/>
+          <occupation type="military">Constable of France</occupation>
+          <idno type="VIAF" source="#wikidata">3271276</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q356952</idno>
+          <birth when="1493" source="#wikidata">1493</birth>
+          <death when="1567" source="#wikidata">1567</death>
+        </person>
+        <person xml:id="pers-lorraine-ch-mayenne">
+          <persName>Charles de Lorraine</persName>
+          <persName type="sort">Lorraine, Charles de (Duke of Mayenne)</persName>
+          <persName type="alias">Umena</persName>
+          <persName type="alias">marchese di Mene</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Marquis, then Duke of Mayenne</occupation>
+          <idno type="VIAF" source="#wikidata">73927584</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q524562</idno>
+          <birth when="1554" source="#wikidata">1554</birth>
+          <death when="1611" source="#wikidata">1611</death>
+        </person>
+        <person xml:id="pers-bourbon-fr-dauphin">
+          <persName>François de Bourbon</persName>
+          <persName type="sort">Bourbon, François de (Prince-Dauphin of Auvergne)</persName>
+          <persName type="alias">prencipe Dolfino</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Prince-Dauphin of Auvergne, later Duke of Montpensier</occupation>
+          <idno type="VIAF" source="#wikidata">233068468</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1451235</idno>
+          <birth when="1542" source="#wikidata">1542</birth>
+          <death when="1592" source="#wikidata">1592</death>
+        </person>
+        <person xml:id="pers-angouleme-h">
+          <persName>Henri d'Angoulême</persName>
+          <persName type="sort">Angoulême, Henri d'</persName>
+          <persName type="alias">gran bastardo</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Grand Prior of France, natural son of Henri II</occupation>
+          <idno type="VIAF" source="#wikidata">217473784</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q2322001</idno>
+          <birth when="1551" source="#wikidata">1551</birth>
+          <death when="1586" source="#wikidata">1586</death>
+        </person>
+        <person xml:id="pers-montgomery-g">
+          <persName>Gabriel de Lorges</persName>
+          <persName type="sort">Lorges, Gabriel de (Count of Montgomery)</persName>
+          <persName type="alias">Mongomeri</persName>
+          <sex value="male"/>
+          <occupation type="military">Count of Montgomery, Huguenot captain</occupation>
+          <idno type="VIAF" source="#wikidata">69728155</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q177046</idno>
+          <birth when="1530" source="#wikidata">1530</birth>
+          <death when="1574" source="#wikidata">1574</death>
+        </person>
+        <person xml:id="pers-clermont-piles">
+          <persName>Armand de Clermont</persName>
+          <persName type="sort">Clermont, Armand de (Baron de Piles)</persName>
+          <persName type="alias">Pilles</persName>
+          <sex value="male"/>
+          <occupation type="military">Baron de Piles, Huguenot captain, killed on 24 August 1572</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-larochefoucauld-f3">
+          <persName>François III de La Rochefoucauld</persName>
+          <persName type="sort">La Rochefoucauld, François III de</persName>
+          <persName type="alias">La Rochefocò</persName>
+          <persName type="alias">la Rochefocò</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of La Rochefoucauld, Huguenot leader</occupation>
+          <idno type="VIAF" source="#wikidata">57771494</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q4254636</idno>
+          <birth when="1521" source="#wikidata">1521</birth>
+          <death when="1572" source="#wikidata">1572</death>
+        </person>
+        <person xml:id="pers-besme">
+          <persName>Besme</persName>
+          <persName type="sort">Besme</persName>
+          <persName type="alias">Beme</persName>
+          <sex value="male"/>
+          <occupation type="military">Follower of the Duke of Guise, named as Coligny's killer</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-morvillier-j">
+          <persName>Jean de Morvillier</persName>
+          <persName type="sort">Morvillier, Jean de</persName>
+          <persName type="alias">Morvilliero</persName>
+          <sex value="male"/>
+          <occupation type="stateCourtPersonnel">Bishop of Orléans, royal councillor</occupation>
+          <idno type="VIAF" source="#wikidata">89328652</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3175603</idno>
+          <birth when="1506" source="#wikidata">1506</birth>
+          <death when="1577" source="#wikidata">1577</death>
+        </person>
+        <person xml:id="pers-pelleve-n">
+          <persName>Nicolas de Pellevé</persName>
+          <persName type="sort">Pellevé, Nicolas de</persName>
+          <persName type="alias">Pelevé</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Cardinal, Archbishop of Sens</occupation>
+          <idno type="VIAF" source="#wikidata">7543468</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q590316</idno>
+          <birth when="1518" source="#wikidata">1518</birth>
+          <death when="1594" source="#wikidata">1594</death>
+        </person>
+        <person xml:id="pers-birague-r">
+          <persName>René de Birague</persName>
+          <persName type="sort">Birague, René de</persName>
+          <persName type="alias">Birago presidente</persName>
+          <persName type="alias">Birago</persName>
+          <sex value="male"/>
+          <occupation type="stateCourtPersonnel">Keeper of the Seals, then Chancellor of France</occupation>
+          <idno type="VIAF" source="#wikidata">38099469</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q921075</idno>
+          <birth when="1506" source="#wikidata">1506</birth>
+          <death when="1583" source="#wikidata">1583</death>
+        </person>
+        <person xml:id="pers-lamarck-hr">
+          <persName>Henri-Robert de La Marck</persName>
+          <persName type="sort">La Marck, Henri-Robert de</persName>
+          <persName type="alias">duca di Bollione</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Bouillon, captain of the Swiss guard</occupation>
+          <idno type="VIAF" source="#wikidata">5111156497230417740002</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q285435</idno>
+          <birth when="1539" source="#wikidata">1539</birth>
+          <death when="1574" source="#wikidata">1574</death>
+        </person>
+        <person xml:id="pers-lorraine-cl-aum">
+          <persName>Claude de Lorraine</persName>
+          <persName type="sort">Lorraine, Claude de (Duke of Aumale)</persName>
+          <persName type="alias">Omala</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Aumale</occupation>
+          <idno type="VIAF" source="#wikidata">232956448</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q784784</idno>
+          <birth when="1526" source="#wikidata">1526</birth>
+          <death when="1573" source="#wikidata">1573</death>
+        </person>
+        <person xml:id="pers-ferrieres-j">
+          <persName>Jean de Ferrières</persName>
+          <persName type="sort">Ferrières, Jean de (Vidame of Chartres)</persName>
+          <persName type="alias">vidame di Chiartres</persName>
+          <persName type="alias">Vidame di Sciartres</persName>
+          <persName type="alias">Vidame</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Vidame of Chartres, Huguenot leader</occupation>
+          <idno type="VIAF" source="#wikidata">259004335</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3172642</idno>
+          <birth when="1520" source="#wikidata">1520</birth>
+          <death when="1586" source="#wikidata">1586</death>
+        </person>
+        <person xml:id="pers-cavaignes-a">
+          <persName>Arnaud de Cavaignes</persName>
+          <persName type="sort">Cavaignes, Arnaud de</persName>
+          <persName type="alias">Cavagno</persName>
+          <sex value="male"/>
+          <occupation type="stateCourtPersonnel">Huguenot jurist, councillor at Toulouse</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-gramont-a">
+          <persName>Antoine de Gramont</persName>
+          <persName type="sort">Gramont, Antoine de</persName>
+          <persName type="alias">Gramont</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of Gramont</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-savoie-h2-villars">
+          <persName>Honorat de Savoie</persName>
+          <persName type="sort">Savoie, Honorat de (Marquis of Villars)</persName>
+          <persName type="alias">Villars</persName>
+          <persName type="alias">Marchese di Villars</persName>
+          <sex value="male"/>
+          <occupation type="military">Marquis of Villars, Admiral of France from 1572</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-serguidi-a">
+          <persName>Antonio Serguidi</persName>
+          <persName type="sort">Serguidi, Antonio</persName>
+          <persName type="alias">Serguidi</persName>
+          <persName type="alias">serguidi</persName>
+          <sex value="male"/>
+          <occupation type="stateCourtPersonnel">Medici secretary, knight of Santo Stefano</occupation>
+          <idno type="WIKIDATA" source="#wikidata">Q130360027</idno>
+          <birth when="1532" source="#wikidata">1532</birth>
+          <death when="1602" source="#wikidata">1602</death>
+        </person>
+        <person xml:id="pers-pagni-b">
+          <persName>Benedetto Pagni</persName>
+          <persName type="sort">Pagni, Benedetto</persName>
+          <persName type="alias">Benedetto Pagni</persName>
+          <persName type="alias">Pagni</persName>
+          <sex value="male"/>
+          <occupation>Painter, of Pescia</occupation>
+          <idno type="VIAF" source="#wikidata">62468088</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q2895740</idno>
+          <birth when="1504" source="#wikidata">1504</birth>
+          <death when="1578" source="#wikidata">1578</death>
+        </person>
+        <person xml:id="pers-foix-p">
+          <persName>Paul de Foix</persName>
+          <persName type="sort">Foix, Paul de</persName>
+          <persName type="alias">Fois</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">Royal councillor and ambassador, later Archbishop of Toulouse</occupation>
+          <idno type="VIAF" source="#wikidata">74194278</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q2405987</idno>
+          <birth when="1528" source="#wikidata">1528</birth>
+          <death when="1584" source="#wikidata">1584</death>
+        </person>
+        <person xml:id="pers-bourbon-ant">
+          <persName>Antoine de Bourbon</persName>
+          <persName type="sort">Bourbon, Antoine de (King of Navarre)</persName>
+          <persName type="alias">re di Navarra</persName>
+          <sex value="male"/>
+          <occupation type="nobility">King of Navarre</occupation>
+          <idno type="VIAF" source="#wikidata">59307737</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q310334</idno>
+          <birth when="1518" source="#wikidata">1518</birth>
+          <death when="1562" source="#wikidata">1562</death>
+        </person>
+        <person xml:id="pers-cleves-cath">
+          <persName>Catherine de Clèves</persName>
+          <persName type="sort">Clèves, Catherine de</persName>
+          <persName type="alias">Madama di Ghisa</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Duchess of Guise</occupation>
+          <idno type="VIAF" source="#wikidata">27808588</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q129174</idno>
+          <birth when="1548" source="#wikidata">1548</birth>
+          <death when="1633" source="#wikidata">1633</death>
+        </person>
+        <person xml:id="pers-cleves-marie">
+          <persName>Marie de Clèves</persName>
+          <persName type="sort">Clèves, Marie de</persName>
+          <persName type="alias">marchesa d'Ile</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Marquise d'Isle, later Princess of Condé</occupation>
+          <idno type="VIAF" source="#wikidata">49214945</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q426172</idno>
+          <birth when="1553" source="#wikidata">1553</birth>
+          <death when="1574" source="#wikidata">1574</death>
+        </person>
+        <person xml:id="pers-vitelli-ch">
+          <persName>Chiappino Vitelli</persName>
+          <persName type="sort">Vitelli, Chiappino</persName>
+          <persName type="alias">Chiappin Vitelli</persName>
+          <sex value="male"/>
+          <occupation type="military">Condottiere in Spanish service in the Netherlands</occupation>
+          <idno type="VIAF" source="#wikidata">80351947</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3667457</idno>
+          <birth when="1519" source="#wikidata">1519</birth>
+          <death when="1575" source="#wikidata">1575</death>
+        </person>
+        <person xml:id="pers-vins-h">
+          <persName>Hubert de Vins</persName>
+          <persName type="sort">Vins, Hubert de</persName>
+          <persName type="alias">Vins</persName>
+          <sex value="male"/>
+          <occupation type="military">Provençal captain, equerry to the Duke of Anjou</occupation>
+          <idno type="WIKIDATA" source="#wikidata">Q3142125</idno>
+          <birth when="1544" source="#wikidata">1544</birth>
+          <death when="1589" source="#wikidata">1589</death>
+        </person>
+        <person xml:id="pers-laberaudiere-l">
+          <persName>Louise de La Béraudière</persName>
+          <persName type="sort">La Béraudière, Louise de (Mademoiselle de Rouet)</persName>
+          <persName type="alias">Roetto</persName>
+          <sex value="female"/>
+          <occupation type="courtier">Lady-in-waiting to Catherine de' Medici</occupation>
+          <idno type="WIKIDATA" source="#wikidata">Q1872206</idno>
+          <birth when="1530" source="#wikidata">1530</birth>
+          <death when="1586" source="#wikidata">1586</death>
+        </person>
+        <person xml:id="pers-cosseins">
+          <persName>Cosseins</persName>
+          <persName type="sort">Cosseins</persName>
+          <persName type="alias">Cossino</persName>
+          <sex value="male"/>
+          <occupation type="military">Maître de camp, captain of the royal guard</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-egmont-l">
+          <persName>Lamoral d'Egmont</persName>
+          <persName type="sort">Egmont, Lamoral d'</persName>
+          <persName type="alias">Agmonte</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of Egmont, executed at Brussels in 1568</occupation>
+          <idno type="VIAF" source="#wikidata">18013518</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q435844</idno>
+          <birth when="1522" source="#wikidata">1522</birth>
+          <death when="1568" source="#wikidata">1568</death>
+        </person>
+        <person xml:id="pers-clermont-tallard-h">
+          <persName>Henri de Clermont</persName>
+          <persName type="sort">Clermont, Henri de (Viscount of Tallard)</persName>
+          <persName type="alias">Clemmont tallado</persName>
+          <sex value="male"/>
+          <occupation type="military">Viscount of Tallard, favourite of the Duke of Anjou</occupation>
+          <idno type="WIKIDATA" source="#wikidata">Q3130564</idno>
+          <birth when="1540" source="#wikidata">1540</birth>
+          <death when="1573" source="#wikidata">1573</death>
+        </person>
+        <person xml:id="pers-saint-gelais-g">
+          <persName>Guy de Saint-Gelais</persName>
+          <persName type="sort">Saint-Gelais, Guy de (Lansac the younger)</persName>
+          <persName type="alias">Lansacco</persName>
+          <sex value="male"/>
+          <occupation type="military">Seigneur de Lansac, favourite of the Duke of Anjou</occupation>
+          <idno type="VIAF" source="#wikidata">1982159035191601380009</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q25390815</idno>
+          <birth when="1544" source="#wikidata">1544</birth>
+          <death when="1622" source="#wikidata">1622</death>
+        </person>
+        <person xml:id="pers-habsburg-ernst">
+          <persName>Ernst von Habsburg</persName>
+          <persName type="sort">Habsburg, Ernst (Archduke of Austria)</persName>
+          <persName type="alias">Hernesto</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Archduke of Austria, second son of Maximilian II, candidate for the Polish crown</occupation>
+          <idno type="VIAF" source="#wikidata">45135798</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q327156</idno>
+          <birth when="1553" source="#wikidata">1553</birth>
+          <death when="1595" source="#wikidata">1595</death>
+        </person>
+        <person xml:id="pers-hangest-genlis">
+          <persName>Jean de Hangest</persName>
+          <persName type="sort">Hangest, Jean de (Seigneur de Genlis)</persName>
+          <persName type="alias">Gianlis</persName>
+          <sex value="male"/>
+          <occupation type="military">Seigneur de Genlis, Huguenot captain defeated near Mons in July 1572</occupation>
+          <idno type="WIKIDATA" source="#wikidata">Q55614982</idno>
+          <death when="1572" source="#wikidata">1572</death>
+        </person>
+        <person xml:id="pers-pico-lud-2">
+          <persName>Ludovico II Pico</persName>
+          <persName type="sort">Pico, Ludovico II (Count of Mirandola)</persName>
+          <persName type="alias">conte della Mirandola</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Count of Mirandola</occupation>
+          <idno type="VIAF" source="#wikidata">72458651</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q28374022</idno>
+          <birth when="1527" source="#wikidata">1527</birth>
+          <death when="1568" source="#wikidata">1568</death>
+        </person>
+        <person xml:id="pers-medinaceli">
+          <persName>Juan de la Cerda</persName>
+          <persName type="sort">Cerda, Juan de la (Duke of Medinaceli)</persName>
+          <persName type="alias">Medinaceli</persName>
+          <persName type="alias">Medina</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Duke of Medinaceli, sent to the Netherlands in 1572</occupation>
+          <idno type="VIAF" source="#wikidata">314846789</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q378933</idno>
+          <birth when="1514" source="#wikidata">1514</birth>
+          <death when="1575" source="#wikidata">1575</death>
+        </person>
+        <person xml:id="pers-paulus">
+          <persName>Paul the Apostle</persName>
+          <persName type="sort">Paul (Apostle)</persName>
+          <persName type="alias">Paolo</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Apostle</occupation>
+          <idno type="VIAF" source="#wikidata">100178828</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q9200</idno>
+        </person>
+        <person xml:id="pers-savoie-madeleine">
+          <persName>Madeleine de Savoie</persName>
+          <persName type="sort">Savoie, Madeleine de</persName>
+          <persName type="alias">Connestabile</persName>
+          <persName type="alias">Conestabile</persName>
+          <persName type="alias">connestabile</persName>
+          <sex value="female"/>
+          <occupation type="nobility">Duchess of Montmorency, widow of the Constable, sister of the Marquis of Villars</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-bouchavannes">
+          <persName>Bouchavannes</persName>
+          <persName type="sort">Bouchavannes</persName>
+          <persName type="alias">Boccavanes</persName>
+          <persName type="alias">Bochavanes</persName>
+          <sex value="male"/>
+          <occupation type="nobility">Governor of the Prince of Condé, spared in August 1572</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-guerchy">
+          <persName>Guerchy</persName>
+          <persName type="sort">Guerchy</persName>
+          <persName type="alias">Ghersi</persName>
+          <sex value="male"/>
+          <occupation type="military">Coligny's standard-bearer, killed on 24 August 1572</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-francourt">
+          <persName>Francourt</persName>
+          <persName type="sort">Francourt</persName>
+          <sex value="male"/>
+          <occupation type="stateCourtPersonnel">Chancellor of the Queen of Navarre, killed in August 1572</occupation>
+          <note type="identification">Identified from the context of the letters. No authority identifier recorded: no Wikidata item was confirmed by its dates.</note>
+        </person>
+        <person xml:id="pers-tosinghi-pp">
+          <persName>Pietro Paolo Tosinghi</persName>
+          <persName type="sort">Tosinghi, Pietro Paolo</persName>
+          <sex value="male"/>
+          <occupation type="military">Captain in French service</occupation>
+          <note type="identification">Named in the account of 27 August 1572 among those sent to kill Coligny. No authority identifier recorded.</note>
+        </person>
+        <person xml:id="pers-petrucci-ach">
+          <persName>Achille Petrucci</persName>
+          <persName type="sort">Petrucci, Achille</persName>
+          <persName type="alias">Achille Petruzzi da Siena</persName>
+          <sex value="male"/>
+          <occupation type="military">Sienese captain in French service</occupation>
+          <note type="identification">Named in the account of 27 August 1572 among those sent to kill Coligny. Not to be confused with Alessandro Petrucci, the Tuscan ambassador. No authority identifier recorded.</note>
+        </person>
+        <person xml:id="pers-pagni-n">
+          <persName>Nicolo Pagni</persName>
+          <persName type="sort">Pagni, Nicolo</persName>
+          <persName type="alias">Nicolo</persName>
+          <sex value="male"/>
+          <occupation>Student of law, son of the painter Benedetto Pagni</occupation>
+          <note type="identification">Known only from the letter of 29 August 1571, in which Cavriana asks for a place for him at the Sapienza of Pisa.</note>
+        </person>
+        <person xml:id="pers-stafford-e">
+          <persName>Edward Stafford</persName>
+          <persName type="sort">Stafford, Edward</persName>
+          <persName type="alias">Staffort</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">English ambassador in France, 1583-1590</occupation>
+          <note type="identification">Identified from the letter of 12 December 1583 and from Stafford's own despatches about Cavriana. No authority identifier recorded yet.</note>
+        </person>
+        <person xml:id="pers-laubespine-chateauneuf">
+          <persName>Guillaume de L'Aubespine</persName>
+          <persName type="sort">L'Aubespine, Guillaume de (Baron de Châteauneuf)</persName>
+          <persName type="alias">chesteauneuf</persName>
+          <sex value="male"/>
+          <occupation type="diplomat">French ambassador in England from 1585</occupation>
+          <note type="identification">Identified from the letter of 5 May 1585, which names him as appointed ambassador to the Queen of England. No authority identifier recorded yet.</note>
+        </person>
       </listPerson>
     </body>
   </text>
