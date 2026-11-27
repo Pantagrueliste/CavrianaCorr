@@ -1977,6 +1977,39 @@
           <occupation type="diplomat">French ambassador in England from 1585</occupation>
           <note type="identification">Identified from the letter of 5 May 1585, which names him as appointed ambassador to the Queen of England. No authority identifier recorded yet.</note>
         </person>
+        <person xml:id="pers-bonelli-m">
+          <persName>Michele Bonelli</persName>
+          <persName type="sort">Bonelli, Michele (Cardinal Alessandrino)</persName>
+          <persName type="alias">Cardinale alessandrino</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Cardinal, nephew of Pius V, legate to Spain, Portugal and France in 1571-1572</occupation>
+          <idno type="VIAF" source="#wikidata">62720300</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q541109</idno>
+          <birth when="1541" source="#wikidata">1541</birth>
+          <death when="1598" source="#wikidata">1598</death>
+        </person>
+        <person xml:id="pers-armagnac-g">
+          <persName>Georges d'Armagnac</persName>
+          <persName type="sort">Armagnac, Georges d'</persName>
+          <persName type="alias">cardinale Armagnac</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Cardinal, papal co-legate at Avignon</occupation>
+          <idno type="VIAF" source="#wikidata">59219003</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q1772423</idno>
+          <birth when="1501" source="#wikidata">1501</birth>
+          <death when="1585" source="#wikidata">1585</death>
+        </person>
+        <person xml:id="pers-noailles-f">
+          <persName>François de Noailles</persName>
+          <persName type="sort">Noailles, François de (Bishop of Dax)</persName>
+          <persName type="alias">Vescovo di Axe</persName>
+          <sex value="male"/>
+          <occupation type="ecclesiastic">Bishop of Dax, French ambassador at Constantinople from 1571</occupation>
+          <idno type="VIAF" source="#wikidata">9678614</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3086282</idno>
+          <birth when="1519" source="#wikidata">1519</birth>
+          <death when="1585" source="#wikidata">1585</death>
+        </person>
       </listPerson>
     </body>
   </text>

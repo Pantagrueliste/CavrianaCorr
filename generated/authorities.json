@@ -48,6 +48,7 @@
   "1571-08-14": "1571-08-14",
   "1571-08-29": "1571-08-29",
   "1571-08-30": "1571-08-30",
+  "1571-09-18": "1571-09-18",
   "1572-02-06": "1572-02-06",
   "1572-02-12": "1572-02-12",
   "1572-03-08": "1572-03-08",
@@ -393,6 +394,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 3,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-02-06",
      "n": 1,
      "slug": "1572-02-06"
@@ -448,7 +454,7 @@
    "place": "",
    "role": "confession",
    "sortName": "Huguenots",
-   "total": 52,
+   "total": 55,
    "wikidata": "Q101935"
   },
   "grp-italians": {
@@ -822,6 +828,11 @@
      "slug": "1570-11-04-b"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-05-12",
      "n": 1,
      "slug": "1572-05-12"
@@ -842,7 +853,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Albret, Jeanne d'",
-   "total": 3,
+   "total": 4,
    "viaf": "88872517",
    "wikidata": "Q229286"
   },
@@ -903,6 +914,39 @@
    "total": 0,
    "viaf": "",
    "wikidata": "Q15967086"
+  },
+  "pers-armagnac-g": {
+   "aliases": [
+    "cardinale Armagnac"
+   ],
+   "archive": null,
+   "author": false,
+   "birth": "1501",
+   "calling": "",
+   "dbi": "",
+   "death": "1585",
+   "image": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "map": "",
+   "name": "Georges d'Armagnac",
+   "note": "",
+   "offices": [],
+   "probableName": "",
+   "role": "Cardinal, papal co-legate at Avignon",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "ecclesiastic",
+   "sortName": "Armagnac, Georges d'",
+   "total": 1,
+   "viaf": "59219003",
+   "wikidata": "Q1772423"
   },
   "pers-auger-ed": {
    "aliases": [],
@@ -1173,6 +1217,39 @@
    "viaf": "",
    "wikidata": ""
   },
+  "pers-bonelli-m": {
+   "aliases": [
+    "Cardinale alessandrino"
+   ],
+   "archive": null,
+   "author": false,
+   "birth": "1541",
+   "calling": "",
+   "dbi": "",
+   "death": "1598",
+   "image": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "map": "",
+   "name": "Michele Bonelli",
+   "note": "",
+   "offices": [],
+   "probableName": "",
+   "role": "Cardinal, nephew of Pius V, legate to Spain, Portugal and France in 1571-1572",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "ecclesiastic",
+   "sortName": "Bonelli, Michele (Cardinal Alessandrino)",
+   "total": 1,
+   "viaf": "62720300",
+   "wikidata": "Q541109"
+  },
   "pers-bouchavannes": {
    "aliases": [
     "Boccavanes",
@@ -1436,6 +1513,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 3,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-02-06",
      "n": 1,
      "slug": "1572-02-06"
@@ -1486,7 +1568,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Bourbon, Henri de (King of Navarre)",
-   "total": 25,
+   "total": 28,
    "viaf": "266965539",
    "wikidata": "Q936976"
   },
@@ -1904,6 +1986,11 @@
      "slug": "1571-08-30"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-02-06",
      "n": 1,
      "slug": "1572-02-06"
@@ -2009,7 +2096,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Cavriana, Filippo",
-   "total": 65,
+   "total": 66,
    "viaf": "",
    "wikidata": ""
   },
@@ -2132,6 +2219,11 @@
      "date": "1571-07-10",
      "n": 1,
      "slug": "1571-07-10"
+    },
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
     }
    ],
    "map": "",
@@ -2144,7 +2236,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Clèves, Catherine de",
-   "total": 1,
+   "total": 2,
    "viaf": "27808588",
    "wikidata": "Q129174"
   },
@@ -2319,6 +2411,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 5,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-05-12",
      "n": 2,
      "slug": "1572-05-12"
@@ -2354,7 +2451,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Coligny, Gaspard de",
-   "total": 50,
+   "total": 55,
    "viaf": "79105346",
    "wikidata": "Q204975"
   },
@@ -4857,6 +4954,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-05-12",
      "n": 1,
      "slug": "1572-05-12"
@@ -4882,7 +4984,7 @@
    "roleTo": "",
    "roleType": "ecclesiastic",
    "sortName": "Lorraine, Charles de (Cardinal of Lorraine)",
-   "total": 30,
+   "total": 31,
    "viaf": "46904834",
    "wikidata": "Q712264"
   },
@@ -5374,6 +5476,11 @@
      "slug": "1571-08-30"
     },
     {
+     "date": "1571-09-18",
+     "n": 3,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-03-08",
      "n": 4,
      "slug": "1572-03-08"
@@ -5435,7 +5542,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Cosimo I de'",
-   "total": 42,
+   "total": 45,
    "viaf": "59259382",
    "wikidata": "Q48547"
   },
@@ -5507,6 +5614,11 @@
      "date": "1571-08-30",
      "n": 1,
      "slug": "1571-08-30"
+    },
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
     }
    ],
    "map": "",
@@ -5519,7 +5631,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Medici, Francesco I de'",
-   "total": 3,
+   "total": 4,
    "viaf": "44408372",
    "wikidata": "Q299675"
   },
@@ -5800,6 +5912,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-02-06",
      "n": 1,
      "slug": "1572-02-06"
@@ -5881,7 +5998,7 @@
    "roleTo": "",
    "roleType": "military",
    "sortName": "Montmorency, François de",
-   "total": 27,
+   "total": 28,
    "viaf": "67259075",
    "wikidata": "Q580292"
   },
@@ -6228,6 +6345,39 @@
    "viaf": "49260512",
    "wikidata": "Q78454"
   },
+  "pers-noailles-f": {
+   "aliases": [
+    "Vescovo di Axe"
+   ],
+   "archive": null,
+   "author": false,
+   "birth": "1519",
+   "calling": "",
+   "dbi": "",
+   "death": "1585",
+   "image": "",
+   "kind": "person",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "map": "",
+   "name": "François de Noailles",
+   "note": "",
+   "offices": [],
+   "probableName": "",
+   "role": "Bishop of Dax, French ambassador at Constantinople from 1571",
+   "roleFrom": "",
+   "roleTo": "",
+   "roleType": "ecclesiastic",
+   "sortName": "Noailles, François de (Bishop of Dax)",
+   "total": 1,
+   "viaf": "9678614",
+   "wikidata": "Q3086282"
+  },
   "pers-orleans-l": {
    "aliases": [
     "Longueville",
@@ -6470,6 +6620,11 @@
      "slug": "1571-04-19"
     },
     {
+     "date": "1571-09-18",
+     "n": 2,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-08-04",
      "n": 4,
      "slug": "1572-08-04"
@@ -6495,7 +6650,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Osmanlı, Selim II",
-   "total": 11,
+   "total": 13,
    "viaf": "44058182",
    "wikidata": "Q161872"
   },
@@ -7325,6 +7480,11 @@
      "date": "1570-10-28",
      "n": 1,
      "slug": "1570-10-28"
+    },
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
     }
    ],
    "map": "",
@@ -7337,7 +7497,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Savoie, Honorat de (Count of Tende)",
-   "total": 2,
+   "total": 3,
    "viaf": "",
    "wikidata": ""
   },
@@ -7622,6 +7782,11 @@
      "date": "1571-08-29",
      "n": 1,
      "slug": "1571-08-29"
+    },
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
     }
    ],
    "map": "",
@@ -7634,7 +7799,7 @@
    "roleTo": "",
    "roleType": "stateCourtPersonnel",
    "sortName": "Serguidi, Antonio",
-   "total": 2,
+   "total": 3,
    "viaf": "",
    "wikidata": "Q130360027"
   },
@@ -8249,6 +8414,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 7,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-02-06",
      "n": 6,
      "slug": "1572-02-06"
@@ -8320,7 +8490,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Charles IX",
-   "total": 185,
+   "total": 192,
    "viaf": "59215242",
    "wikidata": "Q134309"
   },
@@ -8441,6 +8611,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-05-12",
      "n": 1,
      "slug": "1572-05-12"
@@ -8497,7 +8672,7 @@
    "roleTo": "",
    "roleType": "nobility",
    "sortName": "Valois, Henri III",
-   "total": 28,
+   "total": 29,
    "viaf": "7398374",
    "wikidata": "Q53448"
   },
@@ -8533,6 +8708,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 2,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-05-12",
      "n": 2,
      "slug": "1572-05-12"
@@ -8548,7 +8728,7 @@
    "roleTo": "",
    "roleType": "",
    "sortName": "Valois, Marguerite de",
-   "total": 5,
+   "total": 7,
    "viaf": "78750412",
    "wikidata": "Q220845"
   },
@@ -8806,6 +8986,30 @@
    "viaf": "804948",
    "wikidata": "Q54058"
   },
+  "place-alger": {
+   "country": "Algeria",
+   "geonames": "2507480",
+   "historical": [
+    "Algieri"
+   ],
+   "kind": "place",
+   "lat": "36.7764",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "3.0586",
+   "name": "Algiers",
+   "note": "",
+   "scope": "",
+   "sortName": "Algiers",
+   "tgn": "7001314",
+   "total": 1,
+   "wikidata": "Q3561"
+  },
   "place-ancona": {
    "country": "Italy",
    "geonames": "6542126",
@@ -8966,6 +9170,30 @@
    "total": 1,
    "wikidata": "Q167600"
   },
+  "place-avignon": {
+   "country": "France",
+   "geonames": "3035681",
+   "historical": [
+    "Avignone"
+   ],
+   "kind": "place",
+   "lat": "43.9486",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 2,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "4.8083",
+   "name": "Avignon",
+   "note": "",
+   "scope": "",
+   "sortName": "Avignon",
+   "tgn": "7008799",
+   "total": 2,
+   "wikidata": "Q6397"
+  },
   "place-bagni-di-lucca": {
    "country": "Italy",
    "geonames": "6539959",
@@ -9070,6 +9298,30 @@
    "tgn": "7003669",
    "total": 2,
    "wikidata": "Q980"
+  },
+  "place-bearn": {
+   "country": "France",
+   "geonames": "",
+   "historical": [
+    "Biert"
+   ],
+   "kind": "place",
+   "lat": "43.3",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "-0.3667",
+   "name": "Béarn",
+   "note": "",
+   "scope": "",
+   "sortName": "Béarn",
+   "tgn": "",
+   "total": 1,
+   "wikidata": "Q213763"
   },
   "place-belle-ile": {
    "country": "France",
@@ -9295,6 +9547,30 @@
    "tgn": "7012216",
    "total": 5,
    "wikidata": ""
+  },
+  "place-cafaggiolo": {
+   "country": "Italy",
+   "geonames": "",
+   "historical": [
+    "Cafagiuolo"
+   ],
+   "kind": "place",
+   "lat": "43.9647",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "11.2952",
+   "name": "Villa Medicea di Cafaggiolo",
+   "note": "",
+   "scope": "",
+   "sortName": "Villa Medicea di Cafaggiolo",
+   "tgn": "",
+   "total": 1,
+   "wikidata": "Q1808591"
   },
   "place-calais": {
    "country": "France",
@@ -9648,6 +9924,30 @@
    "tgn": "7000084",
    "total": 17,
    "wikidata": "Q183"
+  },
+  "place-eaux-chaudes": {
+   "country": "France",
+   "geonames": "",
+   "historical": [
+    "Aigues Caldes"
+   ],
+   "kind": "place",
+   "lat": "42.9539",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "-0.4393",
+   "name": "Eaux-Chaudes",
+   "note": "",
+   "scope": "",
+   "sortName": "Eaux-Chaudes",
+   "tgn": "",
+   "total": 1,
+   "wikidata": "Q3046747"
   },
   "place-ecouen": {
    "country": "France",
@@ -10056,6 +10356,11 @@
      "slug": "1571-08-30"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-03-08",
      "n": 1,
      "slug": "1572-03-08"
@@ -10082,7 +10387,7 @@
    "scope": "",
    "sortName": "Florence",
    "tgn": "7000457",
-   "total": 11,
+   "total": 12,
    "wikidata": "Q2044"
   },
   "place-flesinga": {
@@ -10312,6 +10617,11 @@
      "slug": "1571-07-10"
     },
     {
+     "date": "1571-09-18",
+     "n": 2,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-02-06",
      "n": 3,
      "slug": "1572-02-06"
@@ -10358,7 +10668,7 @@
    "scope": "country",
    "sortName": "France",
    "tgn": "1000070",
-   "total": 70,
+   "total": 72,
    "wikidata": "Q142"
   },
   "place-gascogne": {
@@ -10440,6 +10750,30 @@
    "tgn": "7008546",
    "total": 1,
    "wikidata": "Q1449"
+  },
+  "place-germania": {
+   "country": "",
+   "geonames": "",
+   "historical": [
+    "Germania"
+   ],
+   "kind": "place",
+   "lat": "",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "",
+   "name": "Germany (the German lands of the Empire)",
+   "note": "Named in the letter of 18 September 1571 in \"l'Interim di Germania\", the Augsburg Interim of 1548. No identifier is given: the Wikidata item for Germany (Q183) describes the modern state, not the German lands of the Holy Roman Empire.",
+   "scope": "",
+   "sortName": "Germany (the German lands of the Empire)",
+   "tgn": "",
+   "total": 1,
+   "wikidata": ""
   },
   "place-gravelines": {
    "country": "France",
@@ -10947,6 +11281,11 @@
      "slug": "1570-09-01"
     },
     {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1572-11-21",
      "n": 1,
      "slug": "1572-11-21"
@@ -10958,7 +11297,7 @@
    "scope": "",
    "sortName": "Lorraine",
    "tgn": "7002888",
-   "total": 5,
+   "total": 6,
    "wikidata": "Q1137"
   },
   "place-lucca": {
@@ -11028,6 +11367,11 @@
      "date": "1570-10-13",
      "n": 1,
      "slug": "1570-10-13"
+    },
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
     }
    ],
    "lon": "4.8350",
@@ -11036,7 +11380,7 @@
    "scope": "",
    "sortName": "Lyon",
    "tgn": "8728756",
-   "total": 2,
+   "total": 3,
    "wikidata": "Q456"
   },
   "place-mantova": {
@@ -11110,6 +11454,11 @@
      "date": "1571-04-19",
      "n": 1,
      "slug": "1571-04-19"
+    },
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
     }
    ],
    "lon": "5.3698",
@@ -11118,7 +11467,7 @@
    "scope": "",
    "sortName": "Marseille",
    "tgn": "7008781",
-   "total": 1,
+   "total": 2,
    "wikidata": "Q23482"
   },
   "place-massa": {
@@ -11764,14 +12113,20 @@
    ],
    "kind": "place",
    "lat": "41.0000",
-   "letters": [],
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
    "lon": "29.0000",
    "name": "Ottoman Empire",
    "note": "Named through its people. The Sultan himself Cavriana calls il Turco, and he is recorded separately as Selim II.",
    "scope": "country",
    "sortName": "Ottoman Empire",
    "tgn": "7024412",
-   "total": 0,
+   "total": 1,
    "wikidata": "Q12560"
   },
   "place-padova": {
@@ -12441,6 +12796,11 @@
    "lat": "43.7500",
    "letters": [
     {
+     "date": "1571-09-18",
+     "n": 2,
+     "slug": "1571-09-18"
+    },
+    {
      "date": "1574-03-06",
      "n": 1,
      "slug": "1574-03-06"
@@ -12452,8 +12812,32 @@
    "scope": "",
    "sortName": "Provence",
    "tgn": "7012209",
-   "total": 1,
+   "total": 3,
    "wikidata": "Q101081"
+  },
+  "place-pyrenees": {
+   "country": "France",
+   "geonames": "3112616",
+   "historical": [
+    "Pirenei"
+   ],
+   "kind": "place",
+   "lat": "42.7",
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
+   "lon": "0.6",
+   "name": "Pyrénées",
+   "note": "",
+   "scope": "",
+   "sortName": "Pyrénées",
+   "tgn": "7016876",
+   "total": 1,
+   "wikidata": "Q12431"
   },
   "place-reims": {
    "country": "France",
@@ -13379,14 +13763,20 @@
    "historical": [],
    "kind": "place",
    "lat": "45.5256",
-   "letters": [],
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "n": 1,
+     "slug": "1571-09-18"
+    }
+   ],
    "lon": "4.8747",
    "name": "Vienne",
    "note": "Vienne in Dauphiné, on the Rhône below Lyon. Cavriana writes from here at the end of September 1571, between Florence in August and Paris in November, which is the road home; not Vienna, which writing Italian he would have called Vienna.",
    "scope": "",
    "sortName": "Vienne",
    "tgn": "",
-   "total": 0,
+   "total": 1,
    "wikidata": "Q26849"
   },
   "place-vincennes": {
@@ -13543,7 +13933,13 @@
     "Battle of Lepanto",
     "Battaglia di Lepanto"
    ],
-   "letters": [],
+   "letters": [
+    {
+     "date": "1571-09-18",
+     "days": -19,
+     "slug": "1571-09-18"
+    }
+   ],
    "to": "",
    "when": "1571-10-07",
    "wikidata": "Q165425"
@@ -14098,10 +14494,10 @@
    "slug": "1571-08-30"
   },
   {
-   "date": "1571-09-28",
+   "date": "1571-09-18",
    "label": "Vienne",
    "place": "place-vienne",
-   "slug": "1571-09-28"
+   "slug": "1571-09-18"
   },
   {
    "date": "1572-02-06",
@@ -14244,10 +14640,10 @@
  ],
  "stats": {
   "catalogued": 76,
-  "cipherGroups": 271,
+  "cipherGroups": 311,
   "firstYear": 1568,
   "lastYear": 1574,
-  "transcribed": 71,
-  "words": 56808
+  "transcribed": 72,
+  "words": 57791
  }
 }

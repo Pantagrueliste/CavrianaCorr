@@ -1444,6 +1444,75 @@
           <idno type="WIKIDATA" source="#wikidata">Q705</idno>
           <idno type="GEONAMES" source="#wikidata">2744011</idno>
         </place>
+        <place xml:id="place-avignon">
+          <placeName type="historical" xml:lang="it">Avignone</placeName>
+          <placeName type="modern" xml:lang="fr">Avignon</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo source="#wikidata">43.9486 4.8083</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7008799</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q6397</idno>
+          <idno type="GEONAMES" source="#wikidata">3035681</idno>
+        </place>
+        <place xml:id="place-cafaggiolo">
+          <placeName type="historical" xml:lang="it">Cafagiuolo</placeName>
+          <placeName type="modern" xml:lang="it">Villa Medicea di Cafaggiolo</placeName>
+          <placeName type="country" xml:lang="en">Italy</placeName>
+          <placeName type="region" xml:lang="en">Tuscany</placeName>
+          <location>
+            <geo source="#wikidata">43.9647 11.2952</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q1808591</idno>
+        </place>
+        <place xml:id="place-bearn">
+          <placeName type="historical" xml:lang="it">Biert</placeName>
+          <placeName type="modern" xml:lang="fr">Béarn</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo source="#wikidata">43.3 -0.3667</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q213763</idno>
+        </place>
+        <place xml:id="place-pyrenees">
+          <placeName type="historical" xml:lang="it">Pirenei</placeName>
+          <placeName type="modern" xml:lang="fr">Pyrénées</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <location>
+            <geo source="#wikidata">42.7 0.6</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7016876</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q12431</idno>
+          <idno type="GEONAMES" source="#wikidata">3112616</idno>
+        </place>
+        <place xml:id="place-eaux-chaudes">
+          <placeName type="historical" xml:lang="it">Aigues Caldes</placeName>
+          <placeName type="modern" xml:lang="fr">Eaux-Chaudes</placeName>
+          <placeName type="country" xml:lang="en">France</placeName>
+          <placeName type="region" xml:lang="en">Béarn</placeName>
+          <location>
+            <geo source="#wikidata">42.9539 -0.4393</geo>
+          </location>
+          <idno type="WIKIDATA" source="#wikidata">Q3046747</idno>
+        </place>
+        <place xml:id="place-alger">
+          <placeName type="historical" xml:lang="it">Algieri</placeName>
+          <placeName type="modern" xml:lang="en">Algiers</placeName>
+          <placeName type="country" xml:lang="en">Algeria</placeName>
+          <location>
+            <geo source="#wikidata">36.7764 3.0586</geo>
+          </location>
+          <idno type="TGN" source="#wikidata">http://vocab.getty.edu/tgn/7001314</idno>
+          <idno type="WIKIDATA" source="#wikidata">Q3561</idno>
+          <idno type="GEONAMES" source="#wikidata">2507480</idno>
+        </place>
+        <place xml:id="place-germania">
+          <placeName type="historical" xml:lang="it">Germania</placeName>
+          <placeName type="modern" xml:lang="en">Germany (the German lands of the Empire)</placeName>
+          <note type="identification">Named in the letter of 18 September 1571 in "l'Interim di Germania",
+            the Augsburg Interim of 1548. No identifier is given: the Wikidata item for Germany
+            (Q183) describes the modern state, not the German lands of the Holy Roman Empire.</note>
+        </place>
       </listPlace>
     </body>
   </text>
